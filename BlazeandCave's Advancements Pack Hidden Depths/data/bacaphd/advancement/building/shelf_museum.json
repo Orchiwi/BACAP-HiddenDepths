@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_shelf"
+    },
+    "title": {
+      "translate": "Shelf Museum"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a Shelf made from every type of wood"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shelfception",
+  "criteria": {
+    "oak_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:birch_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jungle_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mangrove_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/shelf_museum"
+  }
+}

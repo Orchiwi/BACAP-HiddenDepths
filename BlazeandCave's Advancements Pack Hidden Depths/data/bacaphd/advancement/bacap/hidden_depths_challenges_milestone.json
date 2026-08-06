@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Hidden Depths Super Challenges Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Super Challenges tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_end_milestone",
+  "criteria": {
+    "naked_and_afraid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/naked_and_afraid": true
+            }
+          }
+        }
+      }
+    },
+    "untouchable": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/untouchable": true
+            }
+          }
+        }
+      }
+    },
+    "hanging_by_a_thread": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/hanging_by_a_thread": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_challenges_milestone"
+  }
+}

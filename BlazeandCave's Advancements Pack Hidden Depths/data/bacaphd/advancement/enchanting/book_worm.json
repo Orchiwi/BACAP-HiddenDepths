@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Book Worm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fill every single slot of your inventory with Enchanted Books"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/book_worm"
+  }
+}

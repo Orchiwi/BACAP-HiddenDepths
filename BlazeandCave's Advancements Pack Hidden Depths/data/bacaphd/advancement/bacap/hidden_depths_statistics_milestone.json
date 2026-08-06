@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "Hidden Depths Statistics Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Statistics tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_enchanting_milestone",
+  "criteria": {
+    "copper_baron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/copper_baron": true
+            }
+          }
+        }
+      }
+    },
+    "spear_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/spear_master": true
+            }
+          }
+        }
+      }
+    },
+    "golem_foreman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/golem_foreman": true
+            }
+          }
+        }
+      }
+    },
+    "harness_hours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/harness_hours": true
+            }
+          }
+        }
+      }
+    },
+    "wind_walker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/wind_walker": true
+            }
+          }
+        }
+      }
+    },
+    "shelf_stocker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/shelf_stocker": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_statistics_milestone"
+  }
+}

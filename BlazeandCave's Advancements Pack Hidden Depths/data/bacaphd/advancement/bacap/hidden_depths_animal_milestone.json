@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Hidden Depths Animals Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Animals tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_farming_milestone",
+  "criteria": {
+    "copper_stable": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/copper_stable": true
+            }
+          }
+        }
+      }
+    },
+    "bee_movie": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bee_movie": true
+            }
+          }
+        }
+      }
+    },
+    "full_kennel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/full_kennel": true
+            }
+          }
+        }
+      }
+    },
+    "herding_cats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/herding_cats": true
+            }
+          }
+        }
+      }
+    },
+    "parrot_choir": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/parrot_choir": true
+            }
+          }
+        }
+      }
+    },
+    "climate_croakers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/climate_croakers": true
+            }
+          }
+        }
+      }
+    },
+    "armadillo_roller": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/armadillo_roller": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_animal_milestone"
+  }
+}

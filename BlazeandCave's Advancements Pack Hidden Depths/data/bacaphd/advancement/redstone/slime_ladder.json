@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Slime Ladder"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bounce five times in a row on Slime Blocks, each at least three blocks high"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/slime_ladder"
+  }
+}

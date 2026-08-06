@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot"
+    },
+    "title": {
+      "translate": "Herbivore"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Survive ten in-game days eating only plant-based food"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/vegetarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/herbivore"
+  }
+}

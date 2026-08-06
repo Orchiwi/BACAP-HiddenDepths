@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "Golem Foreman"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build Copper Golems, and place a hundred Carved Pumpkins doing it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/overpopulation",
+  "criteria": {
+    "first_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:copper_golem"
+        }
+      }
+    },
+    "hundred": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/golem_foreman"
+  }
+}

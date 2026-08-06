@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Cold Blooded"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Survive a full night in a Frozen Peaks biome wearing no armor at all"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/captain_america",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/cold_blooded"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Bad Trip"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Suffer Nausea, Blindness and Darkness all at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/nocturnal",
+  "criteria": {
+    "bad_trip": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:nausea": {},
+          "minecraft:blindness": {},
+          "minecraft:darkness": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bad_trip"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Pyrrhic Victory"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill the Wither and be killed by the very same blast"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/bone_to_party",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/pyrrhic_victory"
+  }
+}

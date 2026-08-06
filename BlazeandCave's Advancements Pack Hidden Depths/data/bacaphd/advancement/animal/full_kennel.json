@@ -1,0 +1,228 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor",
+      "components": {
+        "minecraft:dyed_color": 8991416
+      }
+    },
+    "title": {
+      "translate": "Full Kennel"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Equip Wolves with Wolf Armor in the ten remaining dyes, then gather ten armored Wolves around you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/armadoggo",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 16383998
+          }
+        }
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 13061821
+          }
+        }
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 3847130
+          }
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 4673362
+          }
+        }
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 10329495
+          }
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 1481884
+          }
+        }
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 8991416
+          }
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 8606770
+          }
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 6192150
+          }
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:wolf_armor",
+          "components": {
+            "minecraft:dyed_color": 1908001
+          }
+        }
+      }
+    },
+    "kennel": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/full_kennel"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": {
+      "translate": "Sniffer Sommelier"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Sniffer turn up both ancient seeds on the same day"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/sniffer_sommelier"
+  }
+}

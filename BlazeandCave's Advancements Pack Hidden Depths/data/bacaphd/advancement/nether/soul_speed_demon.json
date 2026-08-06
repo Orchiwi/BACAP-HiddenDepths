@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Soul Speed Demon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cover five thousand blocks of Soul Sand and Soul Soil wearing Soul Speed III"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/soul_runnings",
+  "criteria": {
+    "soul_speed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                  ]
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:soul_speed",
+                        "levels": {
+                          "min": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "distance": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/soul_speed_demon"
+  }
+}

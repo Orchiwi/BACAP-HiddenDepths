@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bulb"
+    },
+    "title": {
+      "translate": "Copper Counter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/engineer",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/copper_counter"
+  }
+}

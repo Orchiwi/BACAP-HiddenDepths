@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Hidden Depths Weaponry Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Weaponry tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_monsters_milestone",
+  "criteria": {
+    "boomerang_bones": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/boomerang_bones": true
+            }
+          }
+        }
+      }
+    },
+    "own_goal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/own_goal": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_weaponry_milestone"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "Hidden Depths Adventure Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Adventure tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_biomes_milestone",
+  "criteria": {
+    "bundle_of_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/bundle_of_everything": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_marathon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/ominous_marathon": true
+            }
+          }
+        }
+      }
+    },
+    "key_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/key_master": true
+            }
+          }
+        }
+      }
+    },
+    "wind_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/wind_rider": true
+            }
+          }
+        }
+      }
+    },
+    "boat_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/boat_drop": true
+            }
+          }
+        }
+      }
+    },
+    "free_solo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/free_solo": true
+            }
+          }
+        }
+      }
+    },
+    "featherweight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/featherweight": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_adventure_milestone"
+  }
+}

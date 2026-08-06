@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_spear"
+    },
+    "title": {
+      "translate": "Spear Master"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear out twenty-five Spears in battle"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/bloodthirsty",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/spear_master"
+  }
+}

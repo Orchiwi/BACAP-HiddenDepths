@@ -1,0 +1,118 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "Hidden Depths Mining Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Mining tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:bacap/time_to_farm",
+  "criteria": {
+    "copper_loadout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/copper_loadout": true
+            }
+          }
+        }
+      }
+    },
+    "torchbearer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/torchbearer": true
+            }
+          }
+        }
+      }
+    },
+    "golem_courier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/golem_courier": true
+            }
+          }
+        }
+      }
+    },
+    "patina_parade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/patina_parade": true
+            }
+          }
+        }
+      }
+    },
+    "chunk_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/chunk_miner": true
+            }
+          }
+        }
+      }
+    },
+    "deep_pockets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/deep_pockets": true
+            }
+          }
+        }
+      }
+    },
+    "vein_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/vein_miner": true
+            }
+          }
+        }
+      }
+    },
+    "vertical_limit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/vertical_limit": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_mining_milestone"
+  }
+}

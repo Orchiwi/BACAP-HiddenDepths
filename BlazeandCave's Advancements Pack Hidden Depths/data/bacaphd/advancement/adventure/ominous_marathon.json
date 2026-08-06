@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "Ominous Marathon"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Open an Ominous Vault in five separate Trial Chambers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/vault_hunter",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/ominous_marathon"
+  }
+}

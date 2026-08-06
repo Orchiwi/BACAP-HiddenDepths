@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:exposed_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:weathered_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:oxidized_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:waxed_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:waxed_exposed_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:waxed_weathered_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=true] run scoreboard players add @s bacaphd_bulbs_on 1
+execute if block ~ ~ ~ minecraft:copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:exposed_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:weathered_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:oxidized_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:waxed_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:waxed_exposed_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:waxed_weathered_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1
+execute if block ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=false] run scoreboard players add @s bacaphd_bulbs_off 1

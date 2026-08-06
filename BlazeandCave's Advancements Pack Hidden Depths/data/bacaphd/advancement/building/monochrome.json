@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_concrete"
+    },
+    "title": {
+      "translate": "Monochrome"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pack five hundred blocks of a single dyed colour into one nine-block cube"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_rainbow_you_always_wanted",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/monochrome"
+  }
+}

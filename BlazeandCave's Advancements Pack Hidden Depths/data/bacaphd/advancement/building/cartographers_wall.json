@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Cartographer's Wall"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hang nine filled Maps in item frames on a single wall"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/help_ive_been_framed",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/cartographers_wall"
+  }
+}

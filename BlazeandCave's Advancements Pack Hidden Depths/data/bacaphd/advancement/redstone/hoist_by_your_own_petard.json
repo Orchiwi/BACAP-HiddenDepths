@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Hoist by Your Own Petard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Blow yourself up with TNT that you lit yourself"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/mobile_explosion",
+  "criteria": {
+    "tnt_blast": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "max": 0.5
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_explosion",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": "minecraft:tnt"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hoist_by_your_own_petard"
+  }
+}

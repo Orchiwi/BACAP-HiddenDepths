@@ -1,0 +1,924 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      }
+    },
+    "title": {
+      "translate": "Alchemist's Shelf"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place every type of Potion onto Shelves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/furious_ammunition",
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:water"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mundane": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:mundane"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "thick": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:thick"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "awkward": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:awkward"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "night_vision": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:night_vision"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "invisibility": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:invisibility"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leaping": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:leaping"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fire_resistance": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:fire_resistance"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "swiftness": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:swiftness"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:slowness"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turtle_master": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:turtle_master"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "water_breathing": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:water_breathing"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "healing": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:healing"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "harming": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:harming"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "poison": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:poison"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "regeneration": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:regeneration"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "strength": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:strength"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:weakness"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slow_falling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:slow_falling"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wind_charged": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:wind_charged"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weaving": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:weaving"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oozing": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:oozing"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "infested": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_shelf",
+                  "minecraft:bamboo_shelf",
+                  "minecraft:birch_shelf",
+                  "minecraft:cherry_shelf",
+                  "minecraft:crimson_shelf",
+                  "minecraft:dark_oak_shelf",
+                  "minecraft:jungle_shelf",
+                  "minecraft:mangrove_shelf",
+                  "minecraft:oak_shelf",
+                  "minecraft:pale_oak_shelf",
+                  "minecraft:spruce_shelf",
+                  "minecraft:warped_shelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ],
+              "predicates": {
+                "potion_contents": "minecraft:infested"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/alchemists_shelf"
+  }
+}

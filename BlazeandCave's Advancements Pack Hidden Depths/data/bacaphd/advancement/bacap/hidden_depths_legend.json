@@ -1,0 +1,922 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Hidden Depths Legend"
+    },
+    "description": {
+      "color": "gold",
+      "translate": "Complete every single advancement in Hidden Depths"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_challenges_milestone",
+  "criteria": {
+    "nether_rainbow_rigging": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/rainbow_rigging": true
+            }
+          }
+        }
+      }
+    },
+    "nether_ghast_couture": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/ghast_couture": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_bundle_of_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/bundle_of_everything": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_loadout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/copper_loadout": true
+            }
+          }
+        }
+      }
+    },
+    "mining_torchbearer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/torchbearer": true
+            }
+          }
+        }
+      }
+    },
+    "mining_golem_courier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/golem_courier": true
+            }
+          }
+        }
+      }
+    },
+    "mining_patina_parade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/patina_parade": true
+            }
+          }
+        }
+      }
+    },
+    "building_shelf_museum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/shelf_museum": true
+            }
+          }
+        }
+      }
+    },
+    "animal_copper_stable": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/copper_stable": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_harpooner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/harpooner": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_armada": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/armada": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_abyssal_jouster": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/abyssal_jouster": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_ominous_marathon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/ominous_marathon": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_key_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/key_master": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_hoist_by_your_own_petard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/hoist_by_your_own_petard": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pyrrhic_victory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/pyrrhic_victory": true
+            }
+          }
+        }
+      }
+    },
+    "weaponry_boomerang_bones": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/boomerang_bones": true
+            }
+          }
+        }
+      }
+    },
+    "weaponry_own_goal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/own_goal": true
+            }
+          }
+        }
+      }
+    },
+    "animal_bee_movie": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bee_movie": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_death_by_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/death_by_committee": true
+            }
+          }
+        }
+      }
+    },
+    "farming_sourdough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sourdough": true
+            }
+          }
+        }
+      }
+    },
+    "farming_nether_orchard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nether_orchard": true
+            }
+          }
+        }
+      }
+    },
+    "farming_sniffer_sommelier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sniffer_sommelier": true
+            }
+          }
+        }
+      }
+    },
+    "farming_cake_hoarder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/cake_hoarder": true
+            }
+          }
+        }
+      }
+    },
+    "farming_farm_to_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/farm_to_table": true
+            }
+          }
+        }
+      }
+    },
+    "mining_chunk_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/chunk_miner": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deep_pockets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/deep_pockets": true
+            }
+          }
+        }
+      }
+    },
+    "mining_vein_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/vein_miner": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_wind_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/wind_rider": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_cannonball": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/cannonball": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_boat_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/boat_drop": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ice_road_trucker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/ice_road_trucker": true
+            }
+          }
+        }
+      }
+    },
+    "mining_vertical_limit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/vertical_limit": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_free_solo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/free_solo": true
+            }
+          }
+        }
+      }
+    },
+    "end_pearl_chain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/pearl_chain": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_slime_ladder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/slime_ladder": true
+            }
+          }
+        }
+      }
+    },
+    "challenges_naked_and_afraid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/naked_and_afraid": true
+            }
+          }
+        }
+      }
+    },
+    "challenges_untouchable": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/untouchable": true
+            }
+          }
+        }
+      }
+    },
+    "challenges_hanging_by_a_thread": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/hanging_by_a_thread": true
+            }
+          }
+        }
+      }
+    },
+    "farming_herbivore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/herbivore": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pacifist_streak": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/pacifist_streak": true
+            }
+          }
+        }
+      }
+    },
+    "adventure_featherweight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/featherweight": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_cursed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cursed": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_book_worm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/book_worm": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_disenchanted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/disenchanted": true
+            }
+          }
+        }
+      }
+    },
+    "nether_magma_marathon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/magma_marathon": true
+            }
+          }
+        }
+      }
+    },
+    "nether_soul_speed_demon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/soul_speed_demon": true
+            }
+          }
+        }
+      }
+    },
+    "nether_portal_sniper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/portal_sniper": true
+            }
+          }
+        }
+      }
+    },
+    "nether_roof_runner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/roof_runner": true
+            }
+          }
+        }
+      }
+    },
+    "end_gateway_tourist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/gateway_tourist": true
+            }
+          }
+        }
+      }
+    },
+    "end_city_planner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/city_planner": true
+            }
+          }
+        }
+      }
+    },
+    "end_dragon_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/dragon_rider": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_sorting_facility": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/sorting_facility": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_clock_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/clock_tower": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_piston_elevator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/piston_elevator": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_copper_counter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/copper_counter": true
+            }
+          }
+        }
+      }
+    },
+    "building_cartographers_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/cartographers_wall": true
+            }
+          }
+        }
+      }
+    },
+    "building_skyscraper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/skyscraper": true
+            }
+          }
+        }
+      }
+    },
+    "building_monochrome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/monochrome": true
+            }
+          }
+        }
+      }
+    },
+    "animal_full_kennel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/full_kennel": true
+            }
+          }
+        }
+      }
+    },
+    "animal_herding_cats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/herding_cats": true
+            }
+          }
+        }
+      }
+    },
+    "animal_parrot_choir": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/parrot_choir": true
+            }
+          }
+        }
+      }
+    },
+    "animal_climate_croakers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/climate_croakers": true
+            }
+          }
+        }
+      }
+    },
+    "animal_armadillo_roller": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/armadillo_roller": true
+            }
+          }
+        }
+      }
+    },
+    "potion_alchemists_shelf": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/alchemists_shelf": true
+            }
+          }
+        }
+      }
+    },
+    "potion_overdose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/overdose": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bad_trip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bad_trip": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_anglers_atlas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/anglers_atlas": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cold_blooded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cold_blooded": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_copper_baron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/copper_baron": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_spear_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/spear_master": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_golem_foreman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/golem_foreman": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_harness_hours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/harness_hours": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_wind_walker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/wind_walker": true
+            }
+          }
+        }
+      }
+    },
+    "statistics_shelf_stocker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/shelf_stocker": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_legend"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_harness"
+    },
+    "title": {
+      "translate": "Harness Hours"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spend ten in-game days actually flying a Happy Ghast"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_blimp_enthusiast",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/harness_hours"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strength"
+        }
+      }
+    },
+    "title": {
+      "translate": "Overdose"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold twelve potion effects at once, each with thirty seconds still to run"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "overdose": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:strength": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:jump_boost": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:regeneration": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:fire_resistance": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:water_breathing": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:invisibility": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:night_vision": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:slow_falling": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:weakness": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:slowness": {
+            "duration": {
+              "min": 600
+            }
+          },
+          "minecraft:absorption": {
+            "duration": {
+              "min": 600
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/overdose"
+  }
+}

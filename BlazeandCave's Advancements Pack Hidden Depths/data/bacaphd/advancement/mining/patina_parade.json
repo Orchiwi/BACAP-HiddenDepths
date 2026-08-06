@@ -1,0 +1,358 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weathered_copper_golem_statue"
+    },
+    "title": {
+      "translate": "Patina Parade"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pose a Copper Golem Statue at every stage of oxidation, in every pose"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/such_a_poser",
+  "criteria": {
+    "unoxidized_standing": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:waxed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "standing"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "unoxidized_sitting": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:waxed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "sitting"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "unoxidized_running": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:waxed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "running"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "unoxidized_star": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:waxed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "star"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_standing": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "standing"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_sitting": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "sitting"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_running": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "running"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_star": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "star"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weathered_standing": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "standing"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weathered_sitting": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "sitting"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weathered_running": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "running"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weathered_star": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "star"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidized_standing": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "standing"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidized_sitting": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "sitting"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidized_running": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "running"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidized_star": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ],
+                "state": {
+                  "copper_golem_pose": "star"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/patina_parade"
+  }
+}

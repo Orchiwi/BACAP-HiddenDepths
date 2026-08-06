@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Dragon Rider"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/dragon_shield",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/dragon_rider"
+  }
+}

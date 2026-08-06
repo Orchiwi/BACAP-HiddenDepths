@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hopper"
+    },
+    "title": {
+      "translate": "Sorting Facility"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cram twenty-seven Hoppers and twenty-seven Chests into one storage room"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_hopper",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sorting_facility"
+  }
+}

@@ -1,0 +1,5 @@
+# B58 Skyscraper. Four cheap probes up the player's own column; the exclusion
+# list here is identical to skyscraper_y's, so a lava column or a void_air
+# column is rejected by the gate instead of paying for the 384-block walk every
+# five seconds forever. The y values are absolute, so they do not compound.
+execute positioned ~ 0 ~ unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:cave_air unless block ~ ~ ~ minecraft:void_air unless block ~ ~ ~ minecraft:water unless block ~ ~ ~ minecraft:lava positioned ~ 100 ~ unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:cave_air unless block ~ ~ ~ minecraft:void_air unless block ~ ~ ~ minecraft:water unless block ~ ~ ~ minecraft:lava positioned ~ 200 ~ unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:cave_air unless block ~ ~ ~ minecraft:void_air unless block ~ ~ ~ minecraft:water unless block ~ ~ ~ minecraft:lava positioned ~ 300 ~ unless block ~ ~ ~ minecraft:air unless block ~ ~ ~ minecraft:cave_air unless block ~ ~ ~ minecraft:void_air unless block ~ ~ ~ minecraft:water unless block ~ ~ ~ minecraft:lava run function bacaphd:detect/skyscraper_scan

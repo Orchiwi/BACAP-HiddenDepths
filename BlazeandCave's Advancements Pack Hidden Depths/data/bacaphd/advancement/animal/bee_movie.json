@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Bee Movie"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have twenty Bees leave their stingers in you and live to tell it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/not_the_bees",
+  "criteria": {
+    "stung": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:bee"
+          }
+        }
+      }
+    },
+    "counted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/bee_movie"
+  }
+}

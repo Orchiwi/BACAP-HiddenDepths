@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_harness"
+    },
+    "title": {
+      "translate": "Ghast Couture"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride the same Happy Ghast in all sixteen colours of Harness"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/pillow_fight",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/ghast_couture"
+  }
+}

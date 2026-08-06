@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_spear"
+    },
+    "title": {
+      "translate": "Abyssal Jouster"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Drowned with a Spear charge while riding a Nautilus"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "abyssal_jouster": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:drowned"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "blazeandcave:spear",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#blazeandcave:nautiluses"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/abyssal_jouster"
+  }
+}

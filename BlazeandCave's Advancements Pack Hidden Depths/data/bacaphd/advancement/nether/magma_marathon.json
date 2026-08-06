@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Magma Marathon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stepping_on_legos",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/magma_marathon"
+  }
+}

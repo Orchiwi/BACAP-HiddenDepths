@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Boomerang Bones"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Skeleton's arrow, then put one straight back inside ten seconds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/bow_spammer",
+  "criteria": {
+    "shot_by_skeleton": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:arrow"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:skeleton"
+            }
+          }
+        }
+      }
+    },
+    "arrow_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": [
+              "minecraft:arrow",
+              "minecraft:spectral_arrow"
+            ]
+          }
+        }
+      }
+    },
+    "counted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/boomerang_bones"
+  }
+}

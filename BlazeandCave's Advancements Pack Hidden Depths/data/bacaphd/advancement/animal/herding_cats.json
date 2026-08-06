@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg"
+    },
+    "title": {
+      "translate": "Herding Cats"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Gather all eleven variants of Cat within eight blocks of you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/herding_cats"
+  }
+}

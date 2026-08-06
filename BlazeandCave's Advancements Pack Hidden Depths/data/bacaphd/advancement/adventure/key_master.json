@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "Key Master"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/hard_mode_activated",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/key_master"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Portal Sniper"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/from_whence_it_came",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/portal_sniper"
+  }
+}

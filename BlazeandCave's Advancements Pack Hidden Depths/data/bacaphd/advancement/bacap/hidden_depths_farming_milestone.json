@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
+    },
+    "title": {
+      "translate": "Hidden Depths Farming Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Hidden Depths advancement in the Farming tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:bacap/hidden_depths_building_milestone",
+  "criteria": {
+    "sourdough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sourdough": true
+            }
+          }
+        }
+      }
+    },
+    "nether_orchard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nether_orchard": true
+            }
+          }
+        }
+      }
+    },
+    "sniffer_sommelier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sniffer_sommelier": true
+            }
+          }
+        }
+      }
+    },
+    "cake_hoarder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/cake_hoarder": true
+            }
+          }
+        }
+      }
+    },
+    "farm_to_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/farm_to_table": true
+            }
+          }
+        }
+      }
+    },
+    "herbivore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/herbivore": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:bacap/hidden_depths_farming_milestone"
+  }
+}

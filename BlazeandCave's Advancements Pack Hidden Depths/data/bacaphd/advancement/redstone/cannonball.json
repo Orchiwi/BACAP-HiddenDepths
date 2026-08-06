@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Cannonball"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get thrown a hundred blocks sideways by TNT and survive the landing"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "cannonball": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:tnt"
+            }
+          }
+        ],
+        "distance": {
+          "horizontal": {
+            "min": 100.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_flying": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/cannonball"
+  },
+  "requirements": [
+    [
+      "cannonball"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

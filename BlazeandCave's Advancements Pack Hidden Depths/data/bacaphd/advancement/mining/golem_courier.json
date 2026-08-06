@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chest"
+    },
+    "title": {
+      "translate": "Golem Courier"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch five Copper Golems carrying items at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/beep_bop",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/golem_courier"
+  }
+}

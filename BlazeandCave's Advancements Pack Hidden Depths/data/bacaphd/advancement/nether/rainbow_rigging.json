@@ -1,0 +1,214 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_harness"
+    },
+    "title": {
+      "translate": "Rainbow Rigging"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect all sixteen colours of Happy Ghast Harness"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "white_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "orange_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "magenta_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "light_blue_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "yellow_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "lime_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "pink_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "gray_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "light_gray_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "cyan_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "purple_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "blue_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "brown_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "green_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "red_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_harness"
+            ]
+          }
+        ]
+      }
+    },
+    "black_harness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_harness"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/rainbow_rigging"
+  }
+}

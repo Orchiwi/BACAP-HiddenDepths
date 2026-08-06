@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_diamond_ore"
+    },
+    "title": {
+      "translate": "Vein Miner"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break nine Diamond Ore in a single minute"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/diamond_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/vein_miner"
+  }
+}

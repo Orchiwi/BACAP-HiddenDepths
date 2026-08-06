@@ -1,0 +1,214 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_bundle"
+    },
+    "title": {
+      "translate": "Bundle of Everything"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect all sixteen colours of Bundle"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/travelling_merchant",
+  "criteria": {
+    "white_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "orange_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "magenta_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "light_blue_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "yellow_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "lime_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "pink_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "gray_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "light_gray_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "cyan_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "purple_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "blue_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "brown_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "green_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "red_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_bundle"
+            ]
+          }
+        ]
+      }
+    },
+    "black_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_bundle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/bundle_of_everything"
+  }
+}
