@@ -1,6 +1,6 @@
-# Every advancement these two add-ons add
+# Every advancement in Hidden Depths
 
-Generated from the built packs with `python3 generator/list_advancements.py`.
+Generated from the built pack with `python3 generator/list_advancements.py`.
 
 Legend: `·` task · `◆` goal · `★` challenge · `★★` super challenge
 
@@ -359,84 +359,84 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 
 # Alphabetical index
 
-All 75 new advancements, A to Z, with the tab each one appears in.
+All 75 advancements, A to Z, with the tab each one appears in.
 
-| Advancement | Tab | Pack | | What you do |
-|---|---|---|---|---|
-| **Abyssal Jouster** | Biomes | Hidden Depths | ★ | Kill a Drowned with a Spear charge while riding a Nautilus |
-| **Alchemist's Shelf** | Potions | Hidden Depths | ◆ | Place every type of Potion onto Shelves |
-| **Angler's Atlas** | Biomes | Hidden Depths | ★★ | Catch a fish in every Overworld biome |
-| **Armada** | Biomes | Hidden Depths | ★ | Gather twenty Nautiluses in Nautilus Armor around you |
-| **Armadillo Roller** | Animals | Hidden Depths | · | Startle an Armadillo into rolling up five separate times |
-| **Bad Trip** | Potions | Hidden Depths | ◆ | Suffer Nausea, Blindness and Darkness all at the same time |
-| **Bee Movie** | Animals | Hidden Depths | ★ | Have twenty Bees leave their stingers in you and live to tell it |
-| **Boat Drop** | Adventure | Hidden Depths | ◆ | Survive a sixty-block fall while sitting in a boat |
-| **Book Worm** | Enchanting | Hidden Depths | ◆ | Fill every single slot of your inventory with Enchanted Books |
-| **Boomerang Bones** | Weaponry | Hidden Depths | ◆ | Take a Skeleton's arrow, then put one straight back inside ten seconds |
-| **Bundle of Everything** | Adventure | Hidden Depths | ◆ | Collect all sixteen colours of Bundle |
-| **Cake Hoarder** | Farming | Hidden Depths | ◆ | Place sixty-four Cakes without ever leaving the chunk |
-| **Cannonball** | Redstone | Hidden Depths | ★ | Get thrown a hundred blocks sideways by TNT and survive the landing |
-| **Cartographer's Wall** | Building | Hidden Depths | ◆ | Hang nine filled Maps in item frames on a single wall |
-| **Chunk Miner** | Mining | Hidden Depths | ★★ | Strip an entire Overworld chunk down to bedrock, leaving nothing but air |
-| **City Planner** | The End | Hidden Depths | ★ | Visit twenty End Cities, each one further out than the last |
-| **Climate Croakers** | Animals | Hidden Depths | ◆ | Breed a pair of Temperate Frogs, a pair of Warm Frogs and a pair of Cold Frogs |
-| **Clock Tower** | Redstone | Hidden Depths | ◆ | Wire a Daylight Detector to a Bell at least five blocks below it, using eight pieces of redstone |
-| **Cold Blooded** | Biomes | Hidden Depths | ◆ | Survive a full night in a Frozen Peaks biome wearing no armor at all |
-| **Copper Baron** | Statistics | Hidden Depths | ◆ | Mine ten thousand Copper Ore |
-| **Copper Counter** | Redstone | Hidden Depths | ◆ | Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern |
-| **Copper Loadout** | Mining | Hidden Depths | ◆ | Hold a full set of Copper tools and Copper armour at once |
-| **Copper Stable** | Animals | Hidden Depths | ◆ | Ride a kilometre without dismounting on a horse in Copper Horse Armor |
-| **Cursed** | Enchanting | Hidden Depths | ★ | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece |
-| **Death by Committee** | Monsters | Hidden Depths | ★ | Be wounded by ten different kinds of monster inside thirty seconds and survive |
-| **Deep Pockets** | Mining | Hidden Depths | ★ | Fill a Shulker Box to the brim with Diamonds |
-| **Disenchanted** | Enchanting | Hidden Depths | · | Strip an Enchanted Book back down to a plain Book on a Grindstone |
-| **Dragon Rider** | The End | Hidden Depths | ★★ | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch |
-| **Farm to Table** | Farming | Hidden Depths | ★ | Grow wheat, potatoes and beetroot in the End, then eat the whole harvest there |
-| **Featherweight** | Adventure | Hidden Depths | ★ | Kill the Wither with no armour and nothing but a sword, a bow and a stack of arrows |
-| **Free Solo** | Adventure | Hidden Depths | ★ | Climb two hundred blocks of ladders or vines without touching the ground |
-| **Full Kennel** | Animals | Hidden Depths | ◆ | Equip Wolves with Wolf Armor in the ten remaining dyes, then gather ten armored Wolves around you |
-| **Gateway Tourist** | The End | Hidden Depths | ◆ | Teleport through End Gateways ten times |
-| **Ghast Couture** | Nether | Hidden Depths | ★ | Ride the same Happy Ghast in all sixteen colours of Harness |
-| **Golem Courier** | Mining | Hidden Depths | ◆ | Catch five Copper Golems carrying items at once |
-| **Golem Foreman** | Statistics | Hidden Depths | ◆ | Build Copper Golems, and place a hundred Carved Pumpkins doing it |
-| **Hanging by a Thread** | Super Challenges | Hidden Depths | ★★ | Kill a Warden while on half a heart |
-| **Harness Hours** | Statistics | Hidden Depths | ◆ | Spend ten in-game days actually flying a Happy Ghast |
-| **Harpooner** | Biomes | Hidden Depths | ◆ | Kill a Guardian with a Spear while underwater |
-| **Herbivore** | Farming | Hidden Depths | ★ | Survive ten in-game days eating only plant-based food |
-| **Herding Cats** | Animals | Hidden Depths | ◆ | Gather all eleven variants of Cat within eight blocks of you |
-| **Hoist by Your Own Petard** | Redstone | Hidden Depths | ◆ | Blow yourself up with TNT that you lit yourself |
-| **Ice Road Trucker** | Biomes | Hidden Depths | ◆ | Travel five hundred blocks by boat over Blue Ice without stopping |
-| **Key Master** | Adventure | Hidden Depths | ◆ | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once |
-| **Magma Marathon** | Nether | Hidden Depths | ◆ | Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage |
-| **Monochrome** | Building | Hidden Depths | ★ | Pack five hundred blocks of a single dyed colour into one nine-block cube |
-| **Naked and Afraid** | Super Challenges | Hidden Depths | ★★ | Kill an Elder Guardian with no armour and no potion effects |
-| **Nether Orchard** | Farming | Hidden Depths | ◆ | Bone meal a sapling into a full tree in the Nether |
-| **Ominous Marathon** | Adventure | Hidden Depths | ★ | Open an Ominous Vault in five separate Trial Chambers |
-| **Overdose** | Potions | Hidden Depths | ★ | Hold twelve potion effects at once, each with thirty seconds still to run |
-| **Own Goal** | Weaponry | Hidden Depths | · | Throw an Ender Pearl and die at the other end of it |
-| **Pacifist Streak** | Monsters | Hidden Depths | ★ | Go five in-game days without killing a single mob |
-| **Parrot Choir** | Animals | Hidden Depths | ◆ | Tame a Parrot of every color, then get five of them dancing at one Jukebox |
-| **Patina Parade** | Mining | Hidden Depths | ★ | Pose a Copper Golem Statue at every stage of oxidation, in every pose |
-| **Pearl Chain** | The End | Hidden Depths | ★ | Throw five Ender Pearls without touching the ground between teleports |
-| **Piston Elevator** | Redstone | Hidden Depths | ★ | Ride a piston-powered elevator a hundred blocks upward |
-| **Portal Sniper** | Nether | Hidden Depths | ★ | Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in |
-| **Pyrrhic Victory** | Monsters | Hidden Depths | ★ | Kill the Wither and be killed by the very same blast |
-| **Rainbow Rigging** | Nether | Hidden Depths | ◆ | Collect all sixteen colours of Happy Ghast Harness |
-| **Roof Runner** | Nether | Hidden Depths | ★ | Travel two thousand blocks on top of the Nether roof |
-| **Shelf Museum** | Building | Hidden Depths | ◆ | Place a Shelf made from every type of wood |
-| **Shelf Stocker** | Statistics | Hidden Depths | ◆ | Place a thousand Shelves |
-| **Skyscraper** | Building | Hidden Depths | ★ | Build a solid column from bedrock all the way to the build limit |
-| **Slime Ladder** | Redstone | Hidden Depths | ◆ | Bounce five times in a row on Slime Blocks, each at least three blocks high |
-| **Sniffer Sommelier** | Farming | Hidden Depths | ◆ | Have a Sniffer turn up both ancient seeds on the same day |
-| **Sorting Facility** | Redstone | Hidden Depths | ◆ | Cram twenty-seven Hoppers and twenty-seven Chests into one storage room |
-| **Soul Speed Demon** | Nether | Hidden Depths | ◆ | Cover five thousand blocks of Soul Sand and Soul Soil wearing Soul Speed III |
-| **Sourdough** | Farming | Hidden Depths | · | Bake bread in the Nether from wheat you planted there |
-| **Spear Master** | Statistics | Hidden Depths | ◆ | Wear out twenty-five Spears in battle |
-| **Torchbearer** | Mining | Hidden Depths | · | Place sixty-four Copper Torches |
-| **Untouchable** | Super Challenges | Hidden Depths | ★★ | Kill the Ender Dragon without ever dropping below half health |
-| **Vein Miner** | Mining | Hidden Depths | ◆ | Break nine Diamond Ore in a single minute |
-| **Vertical Limit** | Mining | Hidden Depths | ★ | Go from bedrock to the build limit in under sixty seconds |
-| **Wind Rider** | Adventure | Hidden Depths | ◆ | Get thrown eighty blocks sideways by a Wind Charge |
-| **Wind Walker** | Statistics | Hidden Depths | ◆ | Use a thousand Wind Charges |
+| Advancement | Tab | | What you do |
+|---|---|---|---|
+| **Abyssal Jouster** | Biomes | ★ | Kill a Drowned with a Spear charge while riding a Nautilus |
+| **Alchemist's Shelf** | Potions | ◆ | Place every type of Potion onto Shelves |
+| **Angler's Atlas** | Biomes | ★★ | Catch a fish in every Overworld biome |
+| **Armada** | Biomes | ★ | Gather twenty Nautiluses in Nautilus Armor around you |
+| **Armadillo Roller** | Animals | · | Startle an Armadillo into rolling up five separate times |
+| **Bad Trip** | Potions | ◆ | Suffer Nausea, Blindness and Darkness all at the same time |
+| **Bee Movie** | Animals | ★ | Have twenty Bees leave their stingers in you and live to tell it |
+| **Boat Drop** | Adventure | ◆ | Survive a sixty-block fall while sitting in a boat |
+| **Book Worm** | Enchanting | ◆ | Fill every single slot of your inventory with Enchanted Books |
+| **Boomerang Bones** | Weaponry | ◆ | Take a Skeleton's arrow, then put one straight back inside ten seconds |
+| **Bundle of Everything** | Adventure | ◆ | Collect all sixteen colours of Bundle |
+| **Cake Hoarder** | Farming | ◆ | Place sixty-four Cakes without ever leaving the chunk |
+| **Cannonball** | Redstone | ★ | Get thrown a hundred blocks sideways by TNT and survive the landing |
+| **Cartographer's Wall** | Building | ◆ | Hang nine filled Maps in item frames on a single wall |
+| **Chunk Miner** | Mining | ★★ | Strip an entire Overworld chunk down to bedrock, leaving nothing but air |
+| **City Planner** | The End | ★ | Visit twenty End Cities, each one further out than the last |
+| **Climate Croakers** | Animals | ◆ | Breed a pair of Temperate Frogs, a pair of Warm Frogs and a pair of Cold Frogs |
+| **Clock Tower** | Redstone | ◆ | Wire a Daylight Detector to a Bell at least five blocks below it, using eight pieces of redstone |
+| **Cold Blooded** | Biomes | ◆ | Survive a full night in a Frozen Peaks biome wearing no armor at all |
+| **Copper Baron** | Statistics | ◆ | Mine ten thousand Copper Ore |
+| **Copper Counter** | Redstone | ◆ | Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern |
+| **Copper Loadout** | Mining | ◆ | Hold a full set of Copper tools and Copper armour at once |
+| **Copper Stable** | Animals | ◆ | Ride a kilometre without dismounting on a horse in Copper Horse Armor |
+| **Cursed** | Enchanting | ★ | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece |
+| **Death by Committee** | Monsters | ★ | Be wounded by ten different kinds of monster inside thirty seconds and survive |
+| **Deep Pockets** | Mining | ★ | Fill a Shulker Box to the brim with Diamonds |
+| **Disenchanted** | Enchanting | · | Strip an Enchanted Book back down to a plain Book on a Grindstone |
+| **Dragon Rider** | The End | ★★ | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch |
+| **Farm to Table** | Farming | ★ | Grow wheat, potatoes and beetroot in the End, then eat the whole harvest there |
+| **Featherweight** | Adventure | ★ | Kill the Wither with no armour and nothing but a sword, a bow and a stack of arrows |
+| **Free Solo** | Adventure | ★ | Climb two hundred blocks of ladders or vines without touching the ground |
+| **Full Kennel** | Animals | ◆ | Equip Wolves with Wolf Armor in the ten remaining dyes, then gather ten armored Wolves around you |
+| **Gateway Tourist** | The End | ◆ | Teleport through End Gateways ten times |
+| **Ghast Couture** | Nether | ★ | Ride the same Happy Ghast in all sixteen colours of Harness |
+| **Golem Courier** | Mining | ◆ | Catch five Copper Golems carrying items at once |
+| **Golem Foreman** | Statistics | ◆ | Build Copper Golems, and place a hundred Carved Pumpkins doing it |
+| **Hanging by a Thread** | Super Challenges | ★★ | Kill a Warden while on half a heart |
+| **Harness Hours** | Statistics | ◆ | Spend ten in-game days actually flying a Happy Ghast |
+| **Harpooner** | Biomes | ◆ | Kill a Guardian with a Spear while underwater |
+| **Herbivore** | Farming | ★ | Survive ten in-game days eating only plant-based food |
+| **Herding Cats** | Animals | ◆ | Gather all eleven variants of Cat within eight blocks of you |
+| **Hoist by Your Own Petard** | Redstone | ◆ | Blow yourself up with TNT that you lit yourself |
+| **Ice Road Trucker** | Biomes | ◆ | Travel five hundred blocks by boat over Blue Ice without stopping |
+| **Key Master** | Adventure | ◆ | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once |
+| **Magma Marathon** | Nether | ◆ | Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage |
+| **Monochrome** | Building | ★ | Pack five hundred blocks of a single dyed colour into one nine-block cube |
+| **Naked and Afraid** | Super Challenges | ★★ | Kill an Elder Guardian with no armour and no potion effects |
+| **Nether Orchard** | Farming | ◆ | Bone meal a sapling into a full tree in the Nether |
+| **Ominous Marathon** | Adventure | ★ | Open an Ominous Vault in five separate Trial Chambers |
+| **Overdose** | Potions | ★ | Hold twelve potion effects at once, each with thirty seconds still to run |
+| **Own Goal** | Weaponry | · | Throw an Ender Pearl and die at the other end of it |
+| **Pacifist Streak** | Monsters | ★ | Go five in-game days without killing a single mob |
+| **Parrot Choir** | Animals | ◆ | Tame a Parrot of every color, then get five of them dancing at one Jukebox |
+| **Patina Parade** | Mining | ★ | Pose a Copper Golem Statue at every stage of oxidation, in every pose |
+| **Pearl Chain** | The End | ★ | Throw five Ender Pearls without touching the ground between teleports |
+| **Piston Elevator** | Redstone | ★ | Ride a piston-powered elevator a hundred blocks upward |
+| **Portal Sniper** | Nether | ★ | Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in |
+| **Pyrrhic Victory** | Monsters | ★ | Kill the Wither and be killed by the very same blast |
+| **Rainbow Rigging** | Nether | ◆ | Collect all sixteen colours of Happy Ghast Harness |
+| **Roof Runner** | Nether | ★ | Travel two thousand blocks on top of the Nether roof |
+| **Shelf Museum** | Building | ◆ | Place a Shelf made from every type of wood |
+| **Shelf Stocker** | Statistics | ◆ | Place a thousand Shelves |
+| **Skyscraper** | Building | ★ | Build a solid column from bedrock all the way to the build limit |
+| **Slime Ladder** | Redstone | ◆ | Bounce five times in a row on Slime Blocks, each at least three blocks high |
+| **Sniffer Sommelier** | Farming | ◆ | Have a Sniffer turn up both ancient seeds on the same day |
+| **Sorting Facility** | Redstone | ◆ | Cram twenty-seven Hoppers and twenty-seven Chests into one storage room |
+| **Soul Speed Demon** | Nether | ◆ | Cover five thousand blocks of Soul Sand and Soul Soil wearing Soul Speed III |
+| **Sourdough** | Farming | · | Bake bread in the Nether from wheat you planted there |
+| **Spear Master** | Statistics | ◆ | Wear out twenty-five Spears in battle |
+| **Torchbearer** | Mining | · | Place sixty-four Copper Torches |
+| **Untouchable** | Super Challenges | ★★ | Kill the Ender Dragon without ever dropping below half health |
+| **Vein Miner** | Mining | ◆ | Break nine Diamond Ore in a single minute |
+| **Vertical Limit** | Mining | ★ | Go from bedrock to the build limit in under sixty seconds |
+| **Wind Rider** | Adventure | ◆ | Get thrown eighty blocks sideways by a Wind Charge |
+| **Wind Walker** | Statistics | ◆ | Use a thousand Wind Charges |
 
-**75 new advancements in total.**
+**75 advancements in total.**
