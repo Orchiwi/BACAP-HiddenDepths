@@ -1,4 +1,5 @@
 scoreboard players add #hb_tick bacaphd_sys 1
+function bacaphd:seed
 # Dispatch buckets. Every check inside them is gated on players who do not yet
 # hold the advancement, and multiplayer checks exit early when too few are online.
 scoreboard players add $t10 bacaphd_sys 1
