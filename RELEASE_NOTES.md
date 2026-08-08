@@ -1,5 +1,3 @@
-<!-- Template for release.py. 0.1.0-alpha.1 is the version, BACAP-HiddenDepths-v0.1.0-alpha.1.zip the zip filename.
-     Edit freely; it is used verbatim for every release. -->
 > **This is an alpha.** The pack builds clean and passes every automated check, but the
 > advancements have not been played through on a live server. Expect some not to fire, and
 > please open an issue when one doesn't — that feedback is the point of the alpha.
@@ -11,13 +9,13 @@ already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-HiddenDepths-v0.1.0-alpha.1.zip`** below and drop it into
+Download **`BACAP-HiddenDepths-v0.1.0-alpha.2.zip`** below and drop it into
 your world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip            <- required, install first
-  BACAP-HiddenDepths-v0.1.0-alpha.1.zip                        <- this pack (rename freely)
+  BACAP-HiddenDepths-v0.1.0-alpha.2.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard

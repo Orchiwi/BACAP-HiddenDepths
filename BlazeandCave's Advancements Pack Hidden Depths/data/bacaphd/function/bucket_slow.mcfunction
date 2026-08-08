@@ -192,7 +192,7 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:animal/parrot_phrase=fal
 # --- Tickling the Ivories (B12): twenty-five tuned Note Blocks in a line ---
 # @r picks at most ONE candidate player per cycle, the same cost cap the other region
 # scans in this bucket already use.
-execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/tickling_the_ivories=false}] at @s run function bacaphd:detect/tickling_the_ivories
+execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/tickling_the_ivories=false}] if data entity @s {DeathTime:0s} at @s run function bacaphd:detect/tickling_the_ivories
 # --- Circular Reasoning (B13): a closed four-Observer ring.
 # @r picks at most ONE candidate player per 5 s cycle, so the 36-chain block scan is
 # capped no matter how many players still lack it - same discipline as Sorting
