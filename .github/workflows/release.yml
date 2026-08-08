@@ -1,0 +1,146 @@
+name: Publish release
+
+# Canonical copy lives in the private BACAP-Build archive at ci/pack_release.yml and is
+# synced into both pack repositories by generator/sync_ci.py. Edit it there, not here.
+#
+# BACAP-Build builds the pack, pushes the content, then pushes the tag with a deploy key.
+# That tag triggers this workflow, which packages what was pushed and publishes it.
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish, e.g. 0.1.0-alpha.1'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve version
+        id: v
+        run: |
+          if [ -n "${{ inputs.version }}" ]; then V="${{ inputs.version }}"; else V="${GITHUB_REF_NAME#v}"; fi
+          echo "value=${V}" >> "$GITHUB_OUTPUT"
+          # Anything with a suffix is a prerelease, so GitHub keeps "Latest" on the
+          # newest stable build rather than on an alpha.
+          case "$V" in
+            *-alpha.*) echo "channel=alpha"   >> "$GITHUB_OUTPUT"; echo "pre=true"  >> "$GITHUB_OUTPUT" ;;
+            *-beta.*)  echo "channel=beta"    >> "$GITHUB_OUTPUT"; echo "pre=true"  >> "$GITHUB_OUTPUT" ;;
+            *-rc.*)    echo "channel=beta"    >> "$GITHUB_OUTPUT"; echo "pre=true"  >> "$GITHUB_OUTPUT" ;;
+            *)         echo "channel=release" >> "$GITHUB_OUTPUT"; echo "pre=false" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Package the datapack
+        id: pack
+        env:
+          VERSION: ${{ steps.v.outputs.value }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import os, sys, zipfile
+
+          # The pack folder is whichever directory holds pack.mcmeta, so this workflow is
+          # byte-identical in both repositories.
+          roots = [d for d in os.listdir(".")
+                   if os.path.isdir(d) and os.path.exists(os.path.join(d, "pack.mcmeta"))]
+          if len(roots) != 1:
+              sys.exit(f"expected exactly one pack folder, found {roots}")
+          src = roots[0]
+
+          version = os.environ["VERSION"]
+          short = src.split("Advancements Pack ")[-1]          # "Too Many Hands"
+          asset = f"BACAP-{short.replace(' ', '')}-v{version}.zip"
+
+          # Match the archive's packaging byte for byte: sorted entries, fixed timestamp.
+          paths = []
+          for base, _, files in os.walk(src):
+              paths += [os.path.join(base, f) for f in files]
+          paths.sort(key=lambda p: os.path.relpath(p, src))
+          with zipfile.ZipFile(asset, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+              for p in paths:
+                  i = zipfile.ZipInfo(os.path.relpath(p, src).replace(os.sep, "/"),
+                                      date_time=(2026, 1, 1, 0, 0, 0))
+                  i.compress_type = zipfile.ZIP_DEFLATED
+                  i.external_attr = 0o644 << 16
+                  z.writestr(i, open(p, "rb").read())
+
+          with zipfile.ZipFile(asset) as z:
+              names = z.namelist()
+          # Minecraft refuses a datapack whose pack.mcmeta sits inside a wrapping folder.
+          if "pack.mcmeta" not in names:
+              sys.exit(f"{asset}: pack.mcmeta is not at the archive root")
+
+          print(f"asset={asset}")
+          print(f"short={short}")
+          print(f"{asset}: {len(names)} entries, {os.path.getsize(asset)//1024} KiB",
+                file=sys.stderr)
+          PY
+
+      - name: Publish the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NOTES=RELEASE_NOTES.md
+          if [ ! -f "$NOTES" ]; then
+            echo "::warning::no RELEASE_NOTES.md in the tree; releasing without notes"
+            NOTES=/dev/null
+          fi
+          gh release create "v${{ steps.v.outputs.value }}" "${{ steps.pack.outputs.asset }}" \
+            --title "${{ steps.pack.outputs.short }} v${{ steps.v.outputs.value }}" \
+            --notes-file "$NOTES" \
+            ${{ steps.v.outputs.pre == 'true' && '--prerelease' || '' }}
+
+      - name: Publish to Modrinth
+        # Skipped until a Modrinth project exists and its id, token and game versions are
+        # configured. Absence is not a failure: GitHub remains the primary channel.
+        if: vars.MODRINTH_PROJECT_ID != '' && vars.MODRINTH_GAME_VERSIONS != ''
+        env:
+          TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          PID: ${{ vars.MODRINTH_PROJECT_ID }}
+          GAME_VERSIONS: ${{ vars.MODRINTH_GAME_VERSIONS }}
+          VERSION: ${{ steps.v.outputs.value }}
+          SHORT: ${{ steps.pack.outputs.short }}
+          CHANNEL: ${{ steps.v.outputs.channel }}
+          ASSET: ${{ steps.pack.outputs.asset }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::MODRINTH_PROJECT_ID is set but MODRINTH_TOKEN is not — skipping"
+            exit 0
+          fi
+          DATA=$(python3 - <<'PY'
+          import json, os
+          notes = ""
+          if os.path.exists("RELEASE_NOTES.md"):
+              notes = open("RELEASE_NOTES.md", encoding="utf-8").read()
+          print(json.dumps({
+              "project_id": os.environ["PID"],
+              "version_number": os.environ["VERSION"],
+              "name": f"{os.environ['SHORT']} v{os.environ['VERSION']}",
+              "changelog": notes,
+              "version_type": os.environ["CHANNEL"],
+              "game_versions": [s.strip() for s in os.environ["GAME_VERSIONS"].split(",") if s.strip()],
+              "loaders": ["datapack"],
+              "dependencies": [],
+              "featured": False,
+              "file_parts": ["file"],
+          }))
+          PY
+          )
+          code=$(curl -sS -o /tmp/mr.json -w '%{http_code}' -X POST \
+            https://api.modrinth.com/v2/version \
+            -H "Authorization: $TOKEN" \
+            -F "data=$DATA;type=application/json" \
+            -F "file=@${ASSET};type=application/zip")
+          if [ "$code" -ge 300 ]; then
+            echo "::error::Modrinth rejected the upload (HTTP $code)"
+            cat /tmp/mr.json
+            exit 1
+          fi
+          echo "uploaded to Modrinth as version $(python3 -c "import json;print(json.load(open('/tmp/mr.json'))['id'])")"
