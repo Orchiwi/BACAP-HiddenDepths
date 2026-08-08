@@ -23,8 +23,8 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:biome
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/vertical_limit=false}] at @s if dimension minecraft:overworld positioned ~ -64 ~ if entity @s[dx=0,dy=6,dz=0] run scoreboard players set @s bacaphd_vl_t 120
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/vertical_limit=false},scores={bacaphd_vl_t=1..}] run function bacaphd:detect/vl_top
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/free_solo=false}] at @s run function bacaphd:detect/free_solo
-execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_init_b2=1}] unless score @s bacaphd_dragon_kills = @s bacaphd_dragon_seen run function bacaphd:detect/untouchable
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=10..}] at @s unless dimension minecraft:the_end run scoreboard players set @s bacaphd_untouched 1
+execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_init_b2=1}] if score @s bacaphd_dragon_kills matches 0.. if score @s bacaphd_dragon_seen matches 0.. unless score @s bacaphd_dragon_kills = @s bacaphd_dragon_seen run function bacaphd:detect/untouchable
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=10..,bacaphd_untouched=0..1}] at @s unless dimension minecraft:the_end run scoreboard players set @s bacaphd_untouched 1
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/featherweight=false}] at @s if entity @e[type=minecraft:wither,distance=..128,limit=1] run function bacaphd:detect/featherweight
 execute as @a[advancements={bacaphd:adventure/featherweight=false},scores={bacaphd_fw_kit=1}] at @s unless entity @e[type=minecraft:wither,distance=..128,limit=1] run scoreboard players set @s bacaphd_fw_kit 0
 # B45 Disenchanted - a Grindstone strip, anchored to the interact_with_grindstone statistic
@@ -65,7 +65,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_init_s3=1},
 execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_init_s3=1},advancements={bacaphd:animal/bucket_brigade=false}] unless items entity @s weapon.mainhand minecraft:tropical_fish_bucket run scoreboard players set @s bacaphd_bb_seed 1
 # --- Breakfast in Bed (solo4) - the sleep mirror is resynced for EVERY player, gated
 # --- only on the seed having run, so no advancement state can desynchronise it.
-execute as @a[scores={bacaphd_init_b5=1}] unless score @s bacaphd_sleeps = @s bacaphd_sleeps_seen run function bacaphd:detect/bib_wake
+execute as @a[scores={bacaphd_init_b5=1}] if score @s bacaphd_sleeps matches 0.. if score @s bacaphd_sleeps_seen matches 0.. unless score @s bacaphd_sleeps = @s bacaphd_sleeps_seen run function bacaphd:detect/bib_wake
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:animal/breakfast_in_bed=false},scores={bacaphd_bib=1..}] at @s run function bacaphd:detect/breakfast_in_bed
 execute as @a[scores={bacaphd_bib=1..}] run scoreboard players remove @s bacaphd_bib 1
 # --- Chemical Dependency (solo4) - eight effects held unbroken for a full in-game day.
@@ -97,12 +97,18 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:building/layer_cake=fals
 # --- Landscape Gardener + Reverse Logistics (solo1): mobs changing what they carry ---
 # Two calls, not one, and the second excludes anyone the first already covered, so a
 # player missing both is swept exactly once.
+# Rotate the Enderman arming tag: what was armed last sweep becomes lg_prev, and this
+# sweep re-arms lg_carry from scratch. Anything that wandered off keeps neither.
+tag @e[type=minecraft:enderman,tag=bacaphd.lg_carry] add bacaphd.lg_prev
+tag @e[type=minecraft:enderman,tag=bacaphd.lg_carry] remove bacaphd.lg_carry
 execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/landscape_gardener=false}] at @s run function bacaphd:detect/mob_carry_watch
 execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/landscape_gardener=true,bacaphd:mining/reverse_logistics=false}] at @s run function bacaphd:detect/mob_carry_watch
 # Tags are cleared only AFTER every player's sweep, so one player's pass can never
 # wipe the flip before another player's pass has read it. tag= bounds both selectors.
 tag @e[type=minecraft:enderman,tag=bacaphd.lg_placed] remove bacaphd.lg_carry
 tag @e[type=minecraft:enderman,tag=bacaphd.lg_placed] remove bacaphd.lg_placed
+# lg_prev is scoped to this sweep and must not survive into the next one.
+tag @e[type=minecraft:enderman,tag=bacaphd.lg_prev] remove bacaphd.lg_prev
 tag @e[type=minecraft:copper_golem,tag=bacaphd.rl_took] remove bacaphd.rl_empty
 tag @e[type=minecraft:copper_golem,tag=bacaphd.rl_took] remove bacaphd.rl_took
 # --- Sea to Shining Sea (S8): 5000 blocks under sail with the hull never over land ---
@@ -193,7 +199,7 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:animal/bless_you={slime=
 # cadence, so any damage at all in the last ten samples (five seconds) blocks the grant.
 # The resync is deliberately ungated so no advancement state can desynchronise it, and
 # it runs AFTER the delta test so exactly one cooldown is taken per burst of damage.
-execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/not_my_problem=false}] unless score @s bacaphd_dmgd = @s bacaphd_nmp_dmgb run scoreboard players set @s bacaphd_nmp_cd 10
+execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/not_my_problem=false}] if score @s bacaphd_dmgd matches 0.. if score @s bacaphd_nmp_dmgb matches 0.. unless score @s bacaphd_dmgd = @s bacaphd_nmp_dmgb run scoreboard players set @s bacaphd_nmp_cd 10
 execute as @a run scoreboard players operation @s bacaphd_nmp_dmgb = @s bacaphd_dmgd
 execute as @a[gamemode=!spectator,scores={bacaphd_nmp_cd=1..}] run scoreboard players remove @s bacaphd_nmp_cd 1
 # `on target` hops from each nearby golem to whatever it is currently fighting. The

@@ -118,8 +118,15 @@ execute as @a[tag=!bacaphd.nmp_seed] run tag @s add bacaphd.nmp_seed
 # because the mirror was still unset - that is what would read a whole save's
 # wheat harvest as one fresh break. Self-gating on the tag, so it costs one failed
 # tag test per player per tick once seeded.
-execute as @a[tag=!bacaphd.gg_init] run scoreboard players operation @s bacaphd_gg_seen = @s bacaphd_gg_mined
-execute as @a[tag=!bacaphd.gg_init] run tag @s add bacaphd.gg_init
+# Seeding RETRIES until the statistic exists. minecraft.mined:minecraft.wheat has no
+# entry until the player first breaks a crop, so the copy silently did not run while
+# the tag was added anyway - leaving both scores unset forever. bucket_fast then read
+# `unless score A = B` on two unset scores, which is TRUE every tick, so the harvest
+# gate was removed and the scan granted on the glass count alone. Seeding at the
+# moment the statistic first appears also keeps the delta at 0 on an established
+# world, instead of reading a lifetime total as one harvest.
+execute as @a[tag=!bacaphd.gg_init] if score @s bacaphd_gg_mined matches 0.. run scoreboard players operation @s bacaphd_gg_seen = @s bacaphd_gg_mined
+execute as @a[tag=!bacaphd.gg_init] if score @s bacaphd_gg_mined matches 0.. run tag @s add bacaphd.gg_init
 # Torchbearer: mirror the copper-torch statistic from each player's CURRENT lifetime total
 # before the slow bucket can compare against it. Without this the bucket read the raw
 # minecraft.used:minecraft.copper_torch score, so any save that had already placed 64
@@ -133,3 +140,7 @@ execute as @a[tag=!bacaphd.ctorch_seed] run scoreboard players add @s bacaphd_ct
 execute as @a[tag=!bacaphd.ctorch_seed] run scoreboard players operation @s bacaphd_ctorchb = @s bacaphd_ctorch
 execute as @a[tag=!bacaphd.ctorch_seed] run scoreboard players set @s bacaphd_ctorchd 0
 execute as @a[tag=!bacaphd.ctorch_seed] run tag @s add bacaphd.ctorch_seed
+# --- Patient Investor: a stable id per player, stamped onto the marker they pin ---
+execute as @a[tag=!bacaphd.pi_id] run scoreboard players add #pi_next bacaphd_pi_own 1
+execute as @a[tag=!bacaphd.pi_id] run scoreboard players operation @s bacaphd_pi_own = #pi_next bacaphd_pi_own
+execute as @a[tag=!bacaphd.pi_id] run tag @s add bacaphd.pi_id

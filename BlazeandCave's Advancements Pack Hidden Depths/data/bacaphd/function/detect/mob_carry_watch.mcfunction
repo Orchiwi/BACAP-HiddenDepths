@@ -11,7 +11,13 @@
 # something - the same field BACAP's monsters/basketblock_championship keys off - so
 # `unless data` is the empty-handed test. The tag is only ever applied inside the
 # player's 24-block radius, so the player was there for the carrying half too.
-execute if entity @s[advancements={bacaphd:monsters/landscape_gardener=false}] as @e[type=minecraft:enderman,distance=..24,tag=bacaphd.lg_carry] unless data entity @s carriedBlockState run tag @s add bacaphd.lg_placed
+# Reads bacaphd.lg_prev - what was armed on the PREVIOUS sweep and has survived the
+# rotation in bucket_medium - so 'was carrying, now is not' spans exactly one sample
+# with the player present for both. bacaphd.lg_carry used to be durable and world
+# global: an Enderman that teleported away still holding its block kept the tag for
+# ever, and any later player who found it empty-handed was paid for a placement
+# nobody watched.
+execute if entity @s[advancements={bacaphd:monsters/landscape_gardener=false}] as @e[type=minecraft:enderman,distance=..24,tag=bacaphd.lg_prev] unless data entity @s carriedBlockState run tag @s add bacaphd.lg_placed
 execute if entity @s[advancements={bacaphd:monsters/landscape_gardener=false}] if entity @e[type=minecraft:enderman,distance=..24,tag=bacaphd.lg_placed] run advancement grant @s only bacaphd:monsters/landscape_gardener
 execute if entity @s[advancements={bacaphd:monsters/landscape_gardener=false}] as @e[type=minecraft:enderman,distance=..24] if data entity @s carriedBlockState run tag @s add bacaphd.lg_carry
 

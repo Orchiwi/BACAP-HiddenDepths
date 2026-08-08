@@ -29,7 +29,7 @@ scoreboard players operation @s bacaphd_gl_lo < @s bacaphd_gl_dz
 scoreboard players operation @s bacaphd_gl_lo *= $b5three bacaphd_const
 scoreboard players operation @s bacaphd_gl_lo /= $b5eight bacaphd_const
 scoreboard players operation @s bacaphd_gl_hi += @s bacaphd_gl_lo
-execute unless score @s bacaphd_rock = @s bacaphd_rockb run scoreboard players set @s bacaphd_glide 0
+execute if score @s bacaphd_rock matches 0.. if score @s bacaphd_rockb matches 0.. unless score @s bacaphd_rock = @s bacaphd_rockb run scoreboard players set @s bacaphd_glide 0
 scoreboard players operation @s bacaphd_rockb = @s bacaphd_rock
 # 2000 decimetres in five seconds is 40 blocks a second - faster than any glide.
 # Anything above that is a teleport or a dimension change and banks nothing.

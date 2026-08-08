@@ -408,6 +408,7 @@ scoreboard objectives add bacaphd_hatch dummy
 scoreboard objectives add bacaphd_ctorchb dummy
 scoreboard objectives add bacaphd_ctorchd dummy
 scoreboard objectives add bacaphd_yeet_m dummy
+scoreboard objectives add bacaphd_pi_own dummy
 
 function bacaphd:setup_stats
 

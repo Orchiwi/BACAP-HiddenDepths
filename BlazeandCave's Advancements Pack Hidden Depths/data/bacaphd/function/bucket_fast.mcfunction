@@ -10,17 +10,23 @@ scoreboard players add #hb_fast bacaphd_sys 1
 # --- one credit is taken per key spent.
 execute as @a[gamemode=!spectator,tag=bacaphd.om_init,advancements={bacaphd:adventure/ominous_marathon=false}] at @s if score @s bacaphd_okey > @s bacaphd_okeyb run function bacaphd:detect/ominous_marathon
 execute as @a run scoreboard players operation @s bacaphd_okeyb = @s bacaphd_okey
-execute as @a[gamemode=!spectator] unless score @s bacaphd_wither_kills = @s bacaphd_wither_seen_pv run function bacaphd:detect/pyrrhic_victory
-execute as @a[gamemode=!spectator] unless score @s bacaphd_pearls_used = @s bacaphd_pearls_seen run function bacaphd:detect/own_goal_arm
+execute as @a[gamemode=!spectator] if score @s bacaphd_wither_kills matches 0.. if score @s bacaphd_wither_seen_pv matches 0.. unless score @s bacaphd_wither_kills = @s bacaphd_wither_seen_pv run function bacaphd:detect/pyrrhic_victory
+execute as @a[gamemode=!spectator] if score @s bacaphd_pearls_used matches 0.. if score @s bacaphd_pearls_seen matches 0.. unless score @s bacaphd_pearls_used = @s bacaphd_pearls_seen run function bacaphd:detect/own_goal_arm
 execute as @a[gamemode=!spectator,advancements={bacaphd:weaponry/own_goal={pearl_fall=true}}] unless entity @s[advancements={bacaphd:weaponry/own_goal=true}] run function bacaphd:detect/own_goal
 execute as @a[gamemode=!spectator,scores={bacaphd_pearl_window=1..}] run scoreboard players remove @s bacaphd_pearl_window 1
-execute as @a[advancements={bacaphd:end/pearl_chain=false},scores={bacaphd_init_b2=1}] unless score @s bacaphd_pearls = @s bacaphd_pearl_seen run function bacaphd:detect/pearl_throw
+execute as @a[advancements={bacaphd:end/pearl_chain=false},scores={bacaphd_init_b2=1}] if score @s bacaphd_pearls matches 0.. if score @s bacaphd_pearl_seen matches 0.. unless score @s bacaphd_pearls = @s bacaphd_pearl_seen run function bacaphd:detect/pearl_throw
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:end/pearl_chain=false},scores={bacaphd_pearl_chain=1..}] run function bacaphd:detect/pearl_ground
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/slime_ladder=false},tag=!bacaphd.on_slime] at @s if block ~ ~-1 ~ minecraft:slime_block run function bacaphd:detect/slime_bounce
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/slime_ladder=false},tag=bacaphd.on_slime] at @s unless block ~ ~-1 ~ minecraft:slime_block run function bacaphd:detect/slime_leave
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/slime_ladder=false},tag=!bacaphd.on_slime,scores={bacaphd_slime_chain=1..}] run function bacaphd:detect/slime_air
 execute as @a[advancements={bacaphd:redstone/cannonball={cannonball=true,impossible=false}}] run function bacaphd:detect/cannonball
-execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=..9}] run scoreboard players set @s bacaphd_untouched 0
+# Dropping below half IN THE END latches -1, which the re-arm below refuses to lift.
+# Clearing to 0 was forgotten the moment the player stepped out of the dimension, so
+# dying to the dragon, respawning and walking back through the portal presented the
+# same wounded dragon as a fresh clean run. The dragon keeps its health across a
+# player's death, so that is one fight, not two.
+execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=..9}] at @s if dimension minecraft:the_end run scoreboard players set @s bacaphd_untouched -1
+execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=..9,bacaphd_untouched=0..}] at @s unless dimension minecraft:the_end run scoreboard players set @s bacaphd_untouched 0
 # Statistic mirrors for this batch must start from each player's CURRENT lifetime
 # totals, or the first sample reads a whole save's damage - or a whole save's
 # Grindstone use - as a fresh event.
@@ -47,7 +53,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redst
 # when the probe below reads it on the same tick. bacaphd_sc_dmg is only ever
 # compared while bacaphd_sc_ok is 1, and both are written together in detect/sc_arm
 # and seeded in bacaphd:seed, so no lifetime damage total can be read as one hit.
-execute as @a[gamemode=!spectator,scores={bacaphd_sc_ok=1}] unless score @s bacaphd_dmg = @s bacaphd_sc_dmg run scoreboard players set @s bacaphd_sc_ok -1
+execute as @a[gamemode=!spectator,scores={bacaphd_sc_ok=1}] if score @s bacaphd_dmg matches 0.. if score @s bacaphd_sc_dmg matches 0.. unless score @s bacaphd_dmg = @s bacaphd_sc_dmg run scoreboard players set @s bacaphd_sc_ok -1
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/spawner_camper={in_chamber=true,impossible=false}}] at @s run function bacaphd:detect/spawner_camper
 # Revoking in_chamber every pass is what makes it a LIVE gate instead of a sticky
 # one: minecraft:location re-grants it within 20 ticks only while the player is
@@ -87,7 +93,7 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:nether/hunting_party=fal
 # --- Pearl Portal: a pearl spent in the End opens a three second window. Order is
 # --- load-bearing: arm on the increase FIRST, then resync the mirror for every
 # --- player on a deliberately ungated line, so exactly one arming is taken per pearl.
-execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_init_b5=1},advancements={bacaphd:end/pearl_portal=false}] at @s if dimension minecraft:the_end unless score @s bacaphd_pearls = @s bacaphd_pp_seen run function bacaphd:detect/pearl_portal_arm
+execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_init_b5=1},advancements={bacaphd:end/pearl_portal=false}] at @s if dimension minecraft:the_end if score @s bacaphd_pearls matches 0.. if score @s bacaphd_pp_seen matches 0.. unless score @s bacaphd_pearls = @s bacaphd_pp_seen run function bacaphd:detect/pearl_portal_arm
 execute as @a run scoreboard players operation @s bacaphd_pp_seen = @s bacaphd_pearls
 execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_pp_win=1..},advancements={bacaphd:end/pearl_portal=false}] at @s run function bacaphd:detect/pearl_portal
 # --- Chain Reaction: the player's own opening shot on a Target opens the window.
@@ -130,7 +136,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:build
 # Greenhouse Gases - fires on the tick the wheat-mined mirror moves. Order matters:
 # credit first, then resync for EVERY player, ungated, so no advancement state can
 # desynchronise the mirror and exactly one break is taken per increment.
-execute as @a[gamemode=!spectator,gamemode=!creative,tag=bacaphd.gg_init,advancements={bacaphd:farming/greenhouse_gases=false}] at @s unless score @s bacaphd_gg_mined = @s bacaphd_gg_seen run function bacaphd:detect/greenhouse_gases
+execute as @a[gamemode=!spectator,gamemode=!creative,tag=bacaphd.gg_init,advancements={bacaphd:farming/greenhouse_gases=false}] at @s if score @s bacaphd_gg_mined matches 0.. if score @s bacaphd_gg_seen matches 0.. unless score @s bacaphd_gg_mined = @s bacaphd_gg_seen run function bacaphd:detect/greenhouse_gases
 execute as @a run scoreboard players operation @s bacaphd_gg_seen = @s bacaphd_gg_mined
 # --- expansion ---
 # --- Bombproof (solofill4): a creeper blast survived beside a rolled-up Armadillo ---

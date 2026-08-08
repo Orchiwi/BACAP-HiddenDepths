@@ -24,9 +24,9 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:biomes/armada=false},sco
 # --- Key Master (B14): count keys across the whole inventory, not one stack ---
 execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/key_master=false}] run function bacaphd:detect/key_master
 execute store result score #now bacaphd_gametime run time query gametime
-execute as @a[gamemode=!spectator] unless score @s bacaphd_cakes_used = @s bacaphd_cakes_seen run function bacaphd:detect/cake_hoarder
-execute as @a[gamemode=!spectator] unless score @s bacaphd_ore_diamond = @s bacaphd_ore_diamond_seen run function bacaphd:detect/vein_miner
-execute as @a[gamemode=!spectator] unless score @s bacaphd_ore_deepslate = @s bacaphd_ore_deepslate_seen run function bacaphd:detect/vein_miner
+execute as @a[gamemode=!spectator] if score @s bacaphd_cakes_used matches 0.. if score @s bacaphd_cakes_seen matches 0.. unless score @s bacaphd_cakes_used = @s bacaphd_cakes_seen run function bacaphd:detect/cake_hoarder
+execute as @a[gamemode=!spectator] if score @s bacaphd_ore_diamond matches 0.. if score @s bacaphd_ore_diamond_seen matches 0.. unless score @s bacaphd_ore_diamond = @s bacaphd_ore_diamond_seen run function bacaphd:detect/vein_miner
+execute as @a[gamemode=!spectator] if score @s bacaphd_ore_deepslate matches 0.. if score @s bacaphd_ore_deepslate_seen matches 0.. unless score @s bacaphd_ore_deepslate = @s bacaphd_ore_deepslate_seen run function bacaphd:detect/vein_miner
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/chunk_miner=false}] at @s run function bacaphd:detect/chunk_gate
 execute as @a[gamemode=!spectator,advancements={bacaphd:farming/herbivore=false},scores={bacaphd_init_b2=1}] run function bacaphd:detect/herbivore
 execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/pacifist_streak=false},scores={bacaphd_init_b2=1}] run function bacaphd:detect/pacifist
