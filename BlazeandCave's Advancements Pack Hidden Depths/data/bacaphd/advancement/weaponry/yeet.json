@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Yeet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Knock a mob a hundred blocks through the air with a single hit"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "smack": {
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/yeet"
+  },
+  "requirements": [
+    [
+      "smack"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

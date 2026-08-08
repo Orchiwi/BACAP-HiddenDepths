@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "Junk Drawer"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get sixty-four different items into a single Bundle"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/tricky_treasures",
+  "criteria": {
+    "junk_drawer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:bundles",
+            "predicates": {
+              "minecraft:bundle_contents": {
+                "items": {
+                  "size": {
+                    "min": 64
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/junk_drawer"
+  }
+}

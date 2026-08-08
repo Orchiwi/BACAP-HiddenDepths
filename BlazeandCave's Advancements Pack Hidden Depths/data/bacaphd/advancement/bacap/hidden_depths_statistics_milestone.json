@@ -86,6 +86,138 @@
           }
         }
       }
+    },
+    "alt_f4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/alt_f4": true
+            }
+          }
+        }
+      }
+    },
+    "butterfingers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/butterfingers": true
+            }
+          }
+        }
+      }
+    },
+    "green_fingers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/green_fingers": true
+            }
+          }
+        }
+      }
+    },
+    "bull_in_a_china_shop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/bull_in_a_china_shop": true
+            }
+          }
+        }
+      }
+    },
+    "laundry_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/laundry_day": true
+            }
+          }
+        }
+      }
+    },
+    "assistant_of_the_year": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/assistant_of_the_year": true
+            }
+          }
+        }
+      }
+    },
+    "crowd_scene": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/crowd_scene": true
+            }
+          }
+        }
+      }
+    },
+    "gravity_always_wins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/gravity_always_wins": true
+            }
+          }
+        }
+      }
+    },
+    "barrel_of_laughs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/barrel_of_laughs": true
+            }
+          }
+        }
+      }
+    },
+    "bottom_feeder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/bottom_feeder": true
+            }
+          }
+        }
+      }
+    },
+    "bruise_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/bruise_collection": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

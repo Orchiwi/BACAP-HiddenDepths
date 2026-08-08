@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_nautilus_armor"
+    },
+    "title": {
+      "translate": "The Full Copper"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Nautilus wearing Copper Nautilus Armor while wearing a full set of Copper Armour yourself"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/submarine_fleet",
+  "criteria": {
+    "matching_set": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:copper_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:copper_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:copper_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:copper_boots"
+                  ]
+                }
+              },
+              "vehicle": {
+                "entity_type": "#blazeandcave:nautiluses",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:copper_nautilus_armor"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/the_full_copper"
+  }
+}

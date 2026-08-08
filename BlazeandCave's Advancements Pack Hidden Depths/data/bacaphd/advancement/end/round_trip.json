@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Round Trip"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Leave the central island through one End Gateway, come home, and leave again through a different one"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/round_trip"
+  }
+}

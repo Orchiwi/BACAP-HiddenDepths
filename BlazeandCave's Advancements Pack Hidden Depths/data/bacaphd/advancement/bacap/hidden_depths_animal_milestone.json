@@ -98,6 +98,186 @@
           }
         }
       }
+    },
+    "colour_theory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/colour_theory": true
+            }
+          }
+        }
+      }
+    },
+    "bucket_brigade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bucket_brigade": true
+            }
+          }
+        }
+      }
+    },
+    "breakfast_in_bed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/breakfast_in_bed": true
+            }
+          }
+        }
+      }
+    },
+    "storm_warning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/storm_warning": true
+            }
+          }
+        }
+      }
+    },
+    "amphibian_assassin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/amphibian_assassin": true
+            }
+          }
+        }
+      }
+    },
+    "duvet_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/duvet_day": true
+            }
+          }
+        }
+      }
+    },
+    "bless_you": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bless_you": true
+            }
+          }
+        }
+      }
+    },
+    "parrot_phrase": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/parrot_phrase": true
+            }
+          }
+        }
+      }
+    },
+    "evel_knievel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/evel_knievel": true
+            }
+          }
+        }
+      }
+    },
+    "shake_it_off": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/shake_it_off": true
+            }
+          }
+        }
+      }
+    },
+    "sticky_fingers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/sticky_fingers": true
+            }
+          }
+        }
+      }
+    },
+    "family_planning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/family_planning": true
+            }
+          }
+        }
+      }
+    },
+    "bombproof": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bombproof": true
+            }
+          }
+        }
+      }
+    },
+    "hatchling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/hatchling": true
+            }
+          }
+        }
+      }
+    },
+    "selective_breeding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/selective_breeding": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

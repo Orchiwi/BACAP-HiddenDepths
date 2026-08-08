@@ -98,6 +98,126 @@
           }
         }
       }
+    },
+    "around_the_clock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/around_the_clock": true
+            }
+          }
+        }
+      }
+    },
+    "mind_the_gap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/mind_the_gap": true
+            }
+          }
+        }
+      }
+    },
+    "grand_central": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/grand_central": true
+            }
+          }
+        }
+      }
+    },
+    "slow_burn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/slow_burn": true
+            }
+          }
+        }
+      }
+    },
+    "assembly_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/assembly_line": true
+            }
+          }
+        }
+      }
+    },
+    "chain_reaction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/chain_reaction": true
+            }
+          }
+        }
+      }
+    },
+    "tickling_the_ivories": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/tickling_the_ivories": true
+            }
+          }
+        }
+      }
+    },
+    "circular_reasoning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/circular_reasoning": true
+            }
+          }
+        }
+      }
+    },
+    "entrapment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/entrapment": true
+            }
+          }
+        }
+      }
+    },
+    "golem_on_rails": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/golem_on_rails": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

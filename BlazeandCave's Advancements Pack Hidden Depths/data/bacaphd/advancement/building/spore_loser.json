@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Spore Loser"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang five Spore Blossoms above one small room"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/harry_potter",
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spore_blossom"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/spore_loser"
+  },
+  "requirements": [
+    [
+      "placed"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hoglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Stable Genius"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Walk a Hoglin all the way up onto the Nether roof"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/limbo_walker",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/stable_genius"
+  }
+}

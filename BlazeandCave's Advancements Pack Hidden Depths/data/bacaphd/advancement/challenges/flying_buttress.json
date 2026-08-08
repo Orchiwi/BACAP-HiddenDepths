@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass"
+    },
+    "title": {
+      "translate": "Flying Buttress"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Raise a hall twenty blocks tall walled in Stained Glass and lit by a hundred Candles"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/flying_buttress"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "Seed Bank"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Carry one of every seed, sapling, propagule and fungus in a single Bundle"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "one_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:bundles",
+            "predicates": {
+              "minecraft:bundle_contents": {
+                "items": {
+                  "contains": [
+                    {
+                      "items": "minecraft:wheat_seeds"
+                    },
+                    {
+                      "items": "minecraft:beetroot_seeds"
+                    },
+                    {
+                      "items": "minecraft:melon_seeds"
+                    },
+                    {
+                      "items": "minecraft:pumpkin_seeds"
+                    },
+                    {
+                      "items": "minecraft:torchflower_seeds"
+                    },
+                    {
+                      "items": "minecraft:pitcher_pod"
+                    },
+                    {
+                      "items": "minecraft:oak_sapling"
+                    },
+                    {
+                      "items": "minecraft:spruce_sapling"
+                    },
+                    {
+                      "items": "minecraft:birch_sapling"
+                    },
+                    {
+                      "items": "minecraft:jungle_sapling"
+                    },
+                    {
+                      "items": "minecraft:acacia_sapling"
+                    },
+                    {
+                      "items": "minecraft:dark_oak_sapling"
+                    },
+                    {
+                      "items": "minecraft:cherry_sapling"
+                    },
+                    {
+                      "items": "minecraft:pale_oak_sapling"
+                    },
+                    {
+                      "items": "minecraft:azalea"
+                    },
+                    {
+                      "items": "minecraft:flowering_azalea"
+                    },
+                    {
+                      "items": "minecraft:mangrove_propagule"
+                    },
+                    {
+                      "items": "minecraft:crimson_fungus"
+                    },
+                    {
+                      "items": "minecraft:warped_fungus"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/seed_bank"
+  }
+}

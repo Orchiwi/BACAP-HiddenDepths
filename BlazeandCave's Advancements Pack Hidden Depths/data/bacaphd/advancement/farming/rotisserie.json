@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_chicken"
+    },
+    "title": {
+      "translate": "Rotisserie"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Collect sixty-four Cooked Chicken without ever cooking one yourself"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "stack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_chicken"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/rotisserie"
+  },
+  "requirements": [
+    [
+      "stack"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_carpet"
+    },
+    "title": {
+      "translate": "Ground Cover"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay down Leaf Litter, Wildflowers, Pink Petals, Moss Carpet and Pale Moss Carpet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/harry_potter",
+  "criteria": {
+    "leaf_litter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:leaf_litter"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wildflowers": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wildflowers"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pink_petals": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pink_petals"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_carpet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:moss_carpet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_moss_carpet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_moss_carpet"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/ground_cover"
+  }
+}

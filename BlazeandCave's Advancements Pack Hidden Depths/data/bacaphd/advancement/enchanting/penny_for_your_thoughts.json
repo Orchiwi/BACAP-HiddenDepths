@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword"
+    },
+    "title": {
+      "translate": "Penny for Your Thoughts"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put your first enchantment on a Copper tool"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/root",
+  "criteria": {
+    "enchant_copper_tool": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_sword",
+            "minecraft:copper_pickaxe",
+            "minecraft:copper_axe",
+            "minecraft:copper_shovel",
+            "minecraft:copper_hoe"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/penny_for_your_thoughts"
+  }
+}

@@ -1,0 +1,957 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:dyed_color": 3949738
+      }
+    },
+    "title": {
+      "translate": "Colour Coordinated"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Happy Ghast in leather armour dyed to match its Harness"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/midport_village",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16383998
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16383998
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16383998
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16383998
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:white_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16351261
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:orange_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 13061821
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 13061821
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 13061821
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 13061821
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:magenta_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3847130
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3847130
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3847130
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3847130
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:light_blue_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16701501
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16701501
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16701501
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 16701501
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:yellow_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8439583
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8439583
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8439583
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8439583
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:lime_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 15961002
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 15961002
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 15961002
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 15961002
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:pink_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 4673362
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 4673362
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 4673362
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 4673362
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:gray_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 10329495
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 10329495
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 10329495
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 10329495
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:light_gray_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1481884
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1481884
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1481884
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1481884
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:cyan_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8991416
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8991416
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8991416
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8991416
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:purple_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3949738
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3949738
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3949738
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 3949738
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:blue_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8606770
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8606770
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8606770
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 8606770
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:brown_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 6192150
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 6192150
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 6192150
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 6192150
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:green_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "red": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 11546150
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 11546150
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 11546150
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 11546150
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:red_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1908001
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1908001
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1908001
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "components": {
+                    "minecraft:dyed_color": 1908001
+                  }
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "equipment": {
+                  "body": {
+                    "items": [
+                      "minecraft:black_harness"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/colour_coordinated"
+  },
+  "requirements": [
+    [
+      "white",
+      "orange",
+      "magenta",
+      "light_blue",
+      "yellow",
+      "lime",
+      "pink",
+      "gray",
+      "light_gray",
+      "cyan",
+      "purple",
+      "blue",
+      "brown",
+      "green",
+      "red",
+      "black"
+    ]
+  ]
+}

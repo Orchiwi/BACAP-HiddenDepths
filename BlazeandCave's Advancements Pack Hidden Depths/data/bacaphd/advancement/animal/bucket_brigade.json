@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish_bucket"
+    },
+    "title": {
+      "translate": "Bucket Brigade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lead an Axolotl two hundred blocks by holding a Bucket of Tropical Fish"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/axolittle",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/bucket_brigade"
+  }
+}

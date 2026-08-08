@@ -1,0 +1,192 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "Trophy Case"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Copper Golem Statue on a Shelf"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shelfception",
+  "criteria": {
+    "statue_on_shelf": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:exposed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:weathered_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:oxidized_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:waxed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:waxed_exposed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:waxed_weathered_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{Items:[{id:\"minecraft:waxed_oxidized_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:exposed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:weathered_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:oxidized_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:waxed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:waxed_exposed_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:waxed_weathered_copper_golem_statue\"}]}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:wooden_shelves",
+                    "nbt": "{items:[{id:\"minecraft:waxed_oxidized_copper_golem_statue\"}]}"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/trophy_case"
+  }
+}

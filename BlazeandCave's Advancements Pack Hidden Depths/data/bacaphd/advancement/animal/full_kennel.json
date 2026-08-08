@@ -11,12 +11,12 @@
     },
     "description": {
       "color": "#75E1FF",
-      "translate": "Equip Wolves with Wolf Armor in the ten remaining dyes, then gather ten armored Wolves around you"
+      "translate": "Equip Wolves with Wolf Armor in the ten dyes Paw Patrol left out, then gather ten armored Wolves around you"
     },
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/armadoggo",
+  "parent": "blazeandcave:animal/paw_patrol",
   "criteria": {
     "white": {
       "trigger": "minecraft:player_interacted_with_entity",

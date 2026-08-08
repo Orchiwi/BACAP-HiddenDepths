@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Dragon's Perch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand an End Ship's Dragon Head on the central island's exit portal"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/off_with_his_head",
+  "criteria": {
+    "dragon_head": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dragon_head"
+                ]
+              },
+              "dimension": "minecraft:the_end",
+              "position": {
+                "x": {
+                  "min": -5.0,
+                  "max": 5.0
+                },
+                "z": {
+                  "min": -5.0,
+                  "max": 5.0
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bedrock"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/dragons_perch"
+  }
+}

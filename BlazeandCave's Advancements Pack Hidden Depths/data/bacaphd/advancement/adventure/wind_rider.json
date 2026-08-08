@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#75E1FF",
-      "translate": "Get thrown eighty blocks sideways by a Wind Charge"
+      "translate": "Get thrown twenty blocks sideways by a Wind Charge"
     },
     "frame": "goal",
     "announce_to_chat": true
@@ -29,7 +29,7 @@
         ],
         "distance": {
           "horizontal": {
-            "min": 80.0
+            "min": 20.0
           }
         },
         "player": [

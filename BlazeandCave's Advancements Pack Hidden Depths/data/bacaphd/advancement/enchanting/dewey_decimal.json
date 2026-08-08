@@ -1,0 +1,221 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Dewey Decimal"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry sixteen Enchanted Books at once, one for each of sixteen set enchantments"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "sixteen_books": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:protection"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:fire_protection"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:feather_falling"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:blast_protection"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:projectile_protection"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:respiration"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:aqua_affinity"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:thorns"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:depth_strider"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:sharpness"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:smite"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:bane_of_arthropods"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:knockback"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:fire_aspect"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:looting"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/dewey_decimal"
+  }
+}

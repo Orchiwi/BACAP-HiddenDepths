@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "Hunger Games"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a starvation hit with a Cake in each hand"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/must_be_your_birthday",
+  "criteria": {
+    "starving": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": true
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": true
+              },
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{foodLevel:0}",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:cake"
+                  ]
+                },
+                "offhand": {
+                  "items": [
+                    "minecraft:cake"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/hunger_games"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:parrot_spawn_egg"
+    },
+    "title": {
+      "translate": "Shoulder to Cry On"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Parrot on your shoulder through both a Nether portal and an End portal"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/birdkeeper",
+  "criteria": {
+    "nether_left": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "overworld",
+        "to": "the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "nether_right": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "overworld",
+        "to": "the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "end_left": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "overworld",
+        "to": "the_end",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "end_right": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "overworld",
+        "to": "the_end",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/shoulder_to_cry_on"
+  },
+  "requirements": [
+    [
+      "nether_left",
+      "nether_right"
+    ],
+    [
+      "end_left",
+      "end_right"
+    ]
+  ]
+}

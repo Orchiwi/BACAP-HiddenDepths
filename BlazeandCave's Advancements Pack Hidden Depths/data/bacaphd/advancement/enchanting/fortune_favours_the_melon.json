@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_slice"
+    },
+    "title": {
+      "translate": "Fortune Favours the Melon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break Melons with a Fortune III Axe until you are holding more than nine slices"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "melon_haul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon_slice"
+            ],
+            "count": {
+              "min": 10
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:copper_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:diamond_axe",
+                    "minecraft:netherite_axe"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:fortune",
+                        "levels": {
+                          "min": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/fortune_favours_the_melon"
+  }
+}

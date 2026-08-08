@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Barrel of Laughs"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Open a thousand Barrels"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_heart_chests",
+  "criteria": {
+    "opened": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "thousand": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/barrel_of_laughs"
+  },
+  "requirements": [
+    [
+      "opened"
+    ],
+    [
+      "thousand"
+    ]
+  ]
+}

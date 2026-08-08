@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Lighthouse Keeper"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Top a thirty-block tower with Sea Lanterns on an ocean shore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/expensive",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/lighthouse_keeper"
+  }
+}

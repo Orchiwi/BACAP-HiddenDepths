@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Chain Reaction"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Set off three Dispensers in sequence, each one's projectile hitting the next Target Block"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "first_shot": {
+      "trigger": "minecraft:target_hit"
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/chain_reaction"
+  },
+  "requirements": [
+    [
+      "first_shot"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

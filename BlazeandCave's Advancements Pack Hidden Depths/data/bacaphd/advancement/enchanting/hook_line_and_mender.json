@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Hook, Line and Mender"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fish an Enchanted Book with Mending out of the water"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "mending_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/hook_line_and_mender"
+  }
+}

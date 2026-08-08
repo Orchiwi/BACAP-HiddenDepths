@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "Now You See Me"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Creaking"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/heart_breaker",
+  "criteria": {
+    "creaking": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creaking"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/now_you_see_me"
+  }
+}

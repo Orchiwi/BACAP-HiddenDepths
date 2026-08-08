@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_spawner"
+    },
+    "title": {
+      "translate": "Spawner Camper"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drain a Trial Spawner of its entire wave without taking a single point of damage"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/hard_mode_activated",
+  "criteria": {
+    "in_chamber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trial_chambers"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/spawner_camper"
+  },
+  "requirements": [
+    [
+      "in_chamber"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

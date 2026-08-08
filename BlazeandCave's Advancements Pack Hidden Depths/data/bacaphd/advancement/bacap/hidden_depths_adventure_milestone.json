@@ -98,6 +98,186 @@
           }
         }
       }
+    },
+    "five_stages_of_grief": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/five_stages_of_grief": true
+            }
+          }
+        }
+      }
+    },
+    "legend_has_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/legend_has_it": true
+            }
+          }
+        }
+      }
+    },
+    "zoom_and_enhance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/zoom_and_enhance": true
+            }
+          }
+        }
+      }
+    },
+    "spawner_camper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/spawner_camper": true
+            }
+          }
+        }
+      }
+    },
+    "junk_drawer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/junk_drawer": true
+            }
+          }
+        }
+      }
+    },
+    "chamber_of_secrets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/chamber_of_secrets": true
+            }
+          }
+        }
+      }
+    },
+    "say_it_with_flowers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/say_it_with_flowers": true
+            }
+          }
+        }
+      }
+    },
+    "golem_foundry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/golem_foundry": true
+            }
+          }
+        }
+      }
+    },
+    "meals_on_wheels": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/meals_on_wheels": true
+            }
+          }
+        }
+      }
+    },
+    "not_my_problem": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/not_my_problem": true
+            }
+          }
+        }
+      }
+    },
+    "not_insured": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/not_insured": true
+            }
+          }
+        }
+      }
+    },
+    "blast_off_bop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/blast_off_bop": true
+            }
+          }
+        }
+      }
+    },
+    "estate_sale": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/estate_sale": true
+            }
+          }
+        }
+      }
+    },
+    "fetch_quest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/fetch_quest": true
+            }
+          }
+        }
+      }
+    },
+    "breeze_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/breeze_block": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

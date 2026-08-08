@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:repeater"
+    },
+    "title": {
+      "translate": "Slow Burn"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Line up sixteen Repeaters at full four-tick delay and push a signal down the whole run"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/repeating_repeater",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/slow_burn"
+  }
+}

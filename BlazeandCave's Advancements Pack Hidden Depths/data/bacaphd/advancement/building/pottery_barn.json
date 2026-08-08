@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Pottery Barn"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place twenty-five Decorated Pots without moving more than sixteen blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pot_planter",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/pottery_barn"
+  }
+}

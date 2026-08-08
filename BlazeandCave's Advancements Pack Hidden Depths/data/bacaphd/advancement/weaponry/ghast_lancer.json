@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "translate": "Ghast Lancer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a Spear charge attack on a mob while riding a Happy Ghast high above the clouds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/hit_and_run",
+  "criteria": {
+    "spear_charge_from_a_ghast": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "location": {
+            "position": {
+              "y": {
+                "min": 192
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/ghast_lancer"
+  }
+}

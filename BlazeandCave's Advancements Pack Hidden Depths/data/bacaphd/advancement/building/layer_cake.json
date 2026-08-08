@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_banner"
+    },
+    "title": {
+      "translate": "Layer Cake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Banner that carries six pattern layers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fruit_of_the_looms",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/layer_cake"
+  }
+}

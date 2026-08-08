@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "The Scenic Route"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Walk ten thousand blocks from the world centre with no vehicle, no portal and no Elytra"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/ten_thousand_blocks",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/the_scenic_route"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_wool"
+    },
+    "title": {
+      "translate": "Colour Theory"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed a Blue Sheep with a Yellow Sheep and get a Green lamb out of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/mary_had_a_little_lamb",
+  "criteria": {
+    "blue_then_yellow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:11b}"
+        },
+        "partner": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:4b}"
+        },
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:13b}"
+        }
+      }
+    },
+    "yellow_then_blue": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:4b}"
+        },
+        "partner": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:11b}"
+        },
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:13b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/colour_theory"
+  },
+  "requirements": [
+    [
+      "blue_then_yellow",
+      "yellow_then_blue"
+    ]
+  ]
+}

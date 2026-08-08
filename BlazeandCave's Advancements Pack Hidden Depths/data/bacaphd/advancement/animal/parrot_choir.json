@@ -8,93 +8,13 @@
     },
     "description": {
       "color": "#75E1FF",
-      "translate": "Tame a Parrot of every color, then get five of them dancing at one Jukebox"
+      "translate": "Get five Parrots dancing at one Jukebox at the same time"
     },
     "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/caprymphony",
   "criteria": {
-    "red_blue": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "components": {
-                "minecraft:parrot/variant": "red_blue"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "blue": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "components": {
-                "minecraft:parrot/variant": "blue"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "green": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "components": {
-                "minecraft:parrot/variant": "green"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "yellow_blue": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "components": {
-                "minecraft:parrot/variant": "yellow_blue"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "gray": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "components": {
-                "minecraft:parrot/variant": "gray"
-              }
-            }
-          }
-        ]
-      }
-    },
     "choir": {
       "trigger": "minecraft:impossible"
     }

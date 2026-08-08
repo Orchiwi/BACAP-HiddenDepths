@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_wool"
+    },
+    "title": {
+      "translate": "Full Spectrum Flock"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Breed a lamb of every one of the sixteen Sheep colours"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/global_vaccination",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:0b}"
+        }
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:1b}"
+        }
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:2b}"
+        }
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:3b}"
+        }
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:4b}"
+        }
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:5b}"
+        }
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:6b}"
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:7b}"
+        }
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:8b}"
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:9b}"
+        }
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:10b}"
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:11b}"
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:12b}"
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:13b}"
+        }
+      }
+    },
+    "red": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:14b}"
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Color:15b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/full_spectrum_flock"
+  }
+}

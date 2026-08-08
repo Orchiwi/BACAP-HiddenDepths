@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "Tickling the Ivories"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Build a keyboard: twenty-five Note Blocks in a row tuned in ascending order, then stand on the lowest one"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/take_notes",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/tickling_the_ivories"
+  }
+}

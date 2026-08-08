@@ -7,13 +7,10 @@ execute in minecraft:the_nether run gamerule max_command_sequence_length 9999999
 execute in minecraft:the_end run gamerule max_command_sequence_length 999999999
 
 scoreboard objectives add bacaphd_sys dummy
-scoreboard objectives add bacaphd_ctorch minecraft.used:minecraft.copper_torch
 scoreboard objectives add bacaphd_gol dummy
-scoreboard objectives add bacaphd_hcm minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add bacaphd_hbase dummy
 scoreboard objectives add bacaphd_hdiff dummy
 scoreboard objectives add bacaphd_naut dummy
-scoreboard objectives add bacaphd_okey minecraft.used:minecraft.ominous_trial_key
 scoreboard objectives add bacaphd_okeyb dummy
 scoreboard objectives add bacaphd_px dummy
 scoreboard objectives add bacaphd_pz dummy
@@ -35,10 +32,7 @@ scoreboard objectives add bacaphd_tkeys dummy
 scoreboard objectives add bacaphd_okeys dummy
 scoreboard objectives add bacaphd_const dummy
 scoreboard objectives add bacaphd_init dummy
-scoreboard objectives add bacaphd_health health
-scoreboard objectives add bacaphd_wither_kills minecraft.killed:minecraft.wither
 scoreboard objectives add bacaphd_wither_seen_pv dummy
-scoreboard objectives add bacaphd_pearls_used minecraft.used:minecraft.ender_pearl
 scoreboard objectives add bacaphd_pearls_seen dummy
 scoreboard objectives add bacaphd_pearl_window dummy
 scoreboard objectives add bacaphd_pearl_x dummy
@@ -46,7 +40,6 @@ scoreboard objectives add bacaphd_pearl_z dummy
 scoreboard objectives add bacaphd_boomerang dummy
 scoreboard objectives add bacaphd_bee_count dummy
 scoreboard objectives add bacaphd_committee dummy
-scoreboard objectives add bacaphd_cakes_used minecraft.used:minecraft.cake
 scoreboard objectives add bacaphd_cakes_seen dummy
 scoreboard objectives add bacaphd_cakes_chunk dummy
 scoreboard objectives add bacaphd_chunk_x dummy
@@ -59,8 +52,6 @@ scoreboard objectives add bacaphd_torch_day dummy
 scoreboard objectives add bacaphd_pitcher_day dummy
 scoreboard objectives add bacaphd_day dummy
 scoreboard objectives add bacaphd_gametime dummy
-scoreboard objectives add bacaphd_ore_diamond minecraft.mined:minecraft.diamond_ore
-scoreboard objectives add bacaphd_ore_deepslate minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add bacaphd_ore_diamond_seen dummy
 scoreboard objectives add bacaphd_ore_deepslate_seen dummy
 scoreboard objectives add bacaphd_vein dummy
@@ -91,7 +82,6 @@ scoreboard objectives add bacaphd_fs_on dummy
 scoreboard objectives add bacaphd_fs_y dummy
 scoreboard objectives add bacaphd_fs_start dummy
 scoreboard objectives add bacaphd_fs_climb dummy
-scoreboard objectives add bacaphd_pearls minecraft.used:minecraft.ender_pearl
 scoreboard objectives add bacaphd_pearl_seen dummy
 scoreboard objectives add bacaphd_pearl_chain dummy
 scoreboard objectives add bacaphd_pearl_grd dummy
@@ -100,7 +90,6 @@ scoreboard objectives add bacaphd_slime_grd dummy
 scoreboard objectives add bacaphd_slime_y dummy
 scoreboard objectives add bacaphd_slime_peak dummy
 scoreboard objectives add bacaphd_untouched dummy
-scoreboard objectives add bacaphd_dragon_kills minecraft.killed:minecraft.ender_dragon
 scoreboard objectives add bacaphd_dragon_seen dummy
 scoreboard objectives add bacaphd_fw_kit dummy
 scoreboard objectives add bacaphd_fw_inv dummy
@@ -111,36 +100,13 @@ scoreboard objectives add bacaphd_fw_want dummy
 scoreboard objectives add bacaphd_meat dummy
 scoreboard objectives add bacaphd_meat_seen dummy
 scoreboard objectives add bacaphd_herb_ticks dummy
-scoreboard objectives add bacaphd_kills totalKillCount
 scoreboard objectives add bacaphd_kills_seen dummy
 scoreboard objectives add bacaphd_pac_ticks dummy
-scoreboard objectives add bacaphd_eat_beef minecraft.used:minecraft.beef
-scoreboard objectives add bacaphd_eat_cooked_beef minecraft.used:minecraft.cooked_beef
-scoreboard objectives add bacaphd_eat_porkchop minecraft.used:minecraft.porkchop
-scoreboard objectives add bacaphd_eat_cooked_porkchop minecraft.used:minecraft.cooked_porkchop
-scoreboard objectives add bacaphd_eat_chicken minecraft.used:minecraft.chicken
-scoreboard objectives add bacaphd_eat_cooked_chicken minecraft.used:minecraft.cooked_chicken
-scoreboard objectives add bacaphd_eat_mutton minecraft.used:minecraft.mutton
-scoreboard objectives add bacaphd_eat_cooked_mutton minecraft.used:minecraft.cooked_mutton
-scoreboard objectives add bacaphd_eat_rabbit minecraft.used:minecraft.rabbit
-scoreboard objectives add bacaphd_eat_cooked_rabbit minecraft.used:minecraft.cooked_rabbit
-scoreboard objectives add bacaphd_eat_rabbit_stew minecraft.used:minecraft.rabbit_stew
-scoreboard objectives add bacaphd_eat_cod minecraft.used:minecraft.cod
-scoreboard objectives add bacaphd_eat_cooked_cod minecraft.used:minecraft.cooked_cod
-scoreboard objectives add bacaphd_eat_salmon minecraft.used:minecraft.salmon
-scoreboard objectives add bacaphd_eat_cooked_salmon minecraft.used:minecraft.cooked_salmon
-scoreboard objectives add bacaphd_eat_tropical_fish minecraft.used:minecraft.tropical_fish
-scoreboard objectives add bacaphd_eat_pufferfish minecraft.used:minecraft.pufferfish
-scoreboard objectives add bacaphd_eat_rotten_flesh minecraft.used:minecraft.rotten_flesh
-scoreboard objectives add bacaphd_eat_spider_eye minecraft.used:minecraft.spider_eye
-scoreboard objectives add bacaphd_eat_milk_bucket minecraft.used:minecraft.milk_bucket
 scoreboard objectives add bacaphd_hi dummy
 scoreboard objectives add bacaphd_lo dummy
 scoreboard objectives add bacaphd_sx dummy
 scoreboard objectives add bacaphd_sy dummy
 scoreboard objectives add bacaphd_sz dummy
-scoreboard objectives add bacaphd_dmg minecraft.custom:minecraft.damage_taken
-scoreboard objectives add bacaphd_grind minecraft.custom:minecraft.interact_with_grindstone
 scoreboard objectives add bacaphd_init_b4 dummy
 scoreboard objectives add bacaphd_books dummy
 scoreboard objectives add bacaphd_bktmp dummy
@@ -224,37 +190,225 @@ scoreboard objectives add bacaphd_roll dummy
 scoreboard objectives add bacaphd_roll_lock dummy
 scoreboard objectives add bacaphd_cold dummy
 scoreboard objectives add bacaphd_ghast dummy
-scoreboard objectives add bacaphd_cu_ore minecraft.mined:minecraft.copper_ore
-scoreboard objectives add bacaphd_cu_deep minecraft.mined:minecraft.deepslate_copper_ore
 scoreboard objectives add bacaphd_cu_sum dummy
-scoreboard objectives add bacaphd_pumpkin minecraft.used:minecraft.carved_pumpkin
-scoreboard objectives add bacaphd_wind minecraft.used:minecraft.wind_charge
-scoreboard objectives add bacaphd_sh_acacia minecraft.used:minecraft.acacia_shelf
-scoreboard objectives add bacaphd_sh_bamboo minecraft.used:minecraft.bamboo_shelf
-scoreboard objectives add bacaphd_sh_birch minecraft.used:minecraft.birch_shelf
-scoreboard objectives add bacaphd_sh_cherry minecraft.used:minecraft.cherry_shelf
-scoreboard objectives add bacaphd_sh_crimson minecraft.used:minecraft.crimson_shelf
-scoreboard objectives add bacaphd_sh_darkoak minecraft.used:minecraft.dark_oak_shelf
-scoreboard objectives add bacaphd_sh_jungle minecraft.used:minecraft.jungle_shelf
-scoreboard objectives add bacaphd_sh_mangrove minecraft.used:minecraft.mangrove_shelf
-scoreboard objectives add bacaphd_sh_oak minecraft.used:minecraft.oak_shelf
-scoreboard objectives add bacaphd_sh_paleoak minecraft.used:minecraft.pale_oak_shelf
-scoreboard objectives add bacaphd_sh_spruce minecraft.used:minecraft.spruce_shelf
-scoreboard objectives add bacaphd_sh_warped minecraft.used:minecraft.warped_shelf
 scoreboard objectives add bacaphd_sh_sum dummy
-scoreboard objectives add bacaphd_spb_wood minecraft.broken:minecraft.wooden_spear
-scoreboard objectives add bacaphd_spb_stone minecraft.broken:minecraft.stone_spear
-scoreboard objectives add bacaphd_spb_copper minecraft.broken:minecraft.copper_spear
-scoreboard objectives add bacaphd_spb_iron minecraft.broken:minecraft.iron_spear
-scoreboard objectives add bacaphd_spb_gold minecraft.broken:minecraft.golden_spear
-scoreboard objectives add bacaphd_spb_dia minecraft.broken:minecraft.diamond_spear
-scoreboard objectives add bacaphd_spb_neth minecraft.broken:minecraft.netherite_spear
 scoreboard objectives add bacaphd_spb_sum dummy
 scoreboard objectives add bacaphd_gx dummy
 scoreboard objectives add bacaphd_gz dummy
 scoreboard objectives add bacaphd_gpx dummy
 scoreboard objectives add bacaphd_gpz dummy
 scoreboard objectives add bacaphd_gseen dummy
+scoreboard objectives add bacaphd_init_s3 dummy
+scoreboard objectives add bacaphd_brews dummy
+scoreboard objectives add bacaphd_fl_x dummy
+scoreboard objectives add bacaphd_fl_z dummy
+scoreboard objectives add bacaphd_fl_dx dummy
+scoreboard objectives add bacaphd_fl_dz dummy
+scoreboard objectives add bacaphd_fl_dist dummy
+scoreboard objectives add bacaphd_fl_seed dummy
+scoreboard objectives add bacaphd_bb_x dummy
+scoreboard objectives add bacaphd_bb_z dummy
+scoreboard objectives add bacaphd_bb_dx dummy
+scoreboard objectives add bacaphd_bb_dz dummy
+scoreboard objectives add bacaphd_bb_dist dummy
+scoreboard objectives add bacaphd_bb_seed dummy
+scoreboard objectives add bacaphd_sleeps_seen dummy
+scoreboard objectives add bacaphd_bib dummy
+scoreboard objectives add bacaphd_init_b5 dummy
+scoreboard objectives add bacaphd_w2c dummy
+scoreboard objectives add bacaphd_w2x dummy
+scoreboard objectives add bacaphd_w2z dummy
+scoreboard objectives add bacaphd_fbk dummy
+scoreboard objectives add bacaphd_fby dummy
+scoreboard objectives add bacaphd_fbg dummy
+scoreboard objectives add bacaphd_fbr dummy
+scoreboard objectives add bacaphd_fbc dummy
+scoreboard objectives add bacaphd_fbx dummy
+scoreboard objectives add bacaphd_fbv dummy
+scoreboard objectives add bacaphd_fbz dummy
+scoreboard objectives add bacaphd_whh dummy
+scoreboard objectives add bacaphd_whx dummy
+scoreboard objectives add bacaphd_why dummy
+scoreboard objectives add bacaphd_whz dummy
+scoreboard objectives add bacaphd_eff dummy
+scoreboard objectives add bacaphd_chem dummy
+scoreboard objectives add bacaphd_s6potm dummy
+scoreboard objectives add bacaphd_s6potn dummy
+scoreboard objectives add bacaphd_s6ini dummy
+scoreboard objectives add bacaphd_s6pax dummy
+scoreboard objectives add bacaphd_s6pay dummy
+scoreboard objectives add bacaphd_s6paz dummy
+scoreboard objectives add bacaphd_s6px dummy
+scoreboard objectives add bacaphd_s6py dummy
+scoreboard objectives add bacaphd_s6pz dummy
+scoreboard objectives add bacaphd_s6t dummy
+scoreboard objectives add bacaphd_s6pm dummy
+scoreboard objectives add bacaphd_s6pml dummy
+scoreboard objectives add bacaphd_s6pmg dummy
+scoreboard objectives add bacaphd_s6mx dummy
+scoreboard objectives add bacaphd_s6mz dummy
+scoreboard objectives add bacaphd_s6mf dummy
+scoreboard objectives add bacaphd_s6cx dummy
+scoreboard objectives add bacaphd_s6cz dummy
+scoreboard objectives add bacaphd_ze dummy
+scoreboard objectives add bacaphd_wa dummy
+scoreboard objectives add bacaphd_wa_hb dummy
+scoreboard objectives add bacaphd_rockb dummy
+scoreboard objectives add bacaphd_glide dummy
+scoreboard objectives add bacaphd_gl_x dummy
+scoreboard objectives add bacaphd_gl_z dummy
+scoreboard objectives add bacaphd_gl_px dummy
+scoreboard objectives add bacaphd_gl_pz dummy
+scoreboard objectives add bacaphd_gl_dx dummy
+scoreboard objectives add bacaphd_gl_dz dummy
+scoreboard objectives add bacaphd_gl_hi dummy
+scoreboard objectives add bacaphd_gl_lo dummy
+scoreboard objectives add bacaphd_gl_prev dummy
+scoreboard objectives add bacaphd_ds_moss dummy
+scoreboard objectives add bacaphd_ds_mud dummy
+scoreboard objectives add bacaphd_ds_root dummy
+scoreboard objectives add bacaphd_s2x dummy
+scoreboard objectives add bacaphd_s2z dummy
+scoreboard objectives add bacaphd_sc_ok dummy
+scoreboard objectives add bacaphd_sc_dmg dummy
+scoreboard objectives add bacaphd_eye dummy
+scoreboard objectives add bacaphd_lc dummy
+scoreboard objectives add bacaphd_fk dummy
+scoreboard objectives add bacaphd_fk_i dummy
+scoreboard objectives add bacaphd_fk_k dummy
+scoreboard objectives add bacaphd_fk_done dummy
+scoreboard objectives add bacaphd_gc_r dummy
+scoreboard objectives add bacaphd_gc_p dummy
+scoreboard objectives add bacaphd_gc_d dummy
+scoreboard objectives add bacaphd_gc_a dummy
+scoreboard objectives add bacaphd_solo1_init dummy
+scoreboard objectives add bacaphd_light dummy
+scoreboard objectives add bacaphd_shulk_n dummy
+scoreboard objectives add bacaphd_shulk_base dummy
+scoreboard objectives add bacaphd_shulk_arm dummy
+scoreboard objectives add bacaphd_shulk_prog dummy
+scoreboard objectives add bacaphd_shulk_last dummy
+scoreboard objectives add bacaphd_fortress dummy
+scoreboard objectives add bacaphd_slowburn dummy
+scoreboard objectives add bacaphd_slowburn_p dummy
+scoreboard objectives add bacaphd_laundry dummy
+scoreboard objectives add bacaphd_boatb dummy
+scoreboard objectives add bacaphd_boatd dummy
+scoreboard objectives add bacaphd_wfungb dummy
+scoreboard objectives add bacaphd_sfish dummy
+scoreboard objectives add bacaphd_allay dummy
+scoreboard objectives add bacaphd_bw dummy
+scoreboard objectives add bacaphd_ship dummy
+scoreboard objectives add bacaphd_gfv dummy
+scoreboard objectives add bacaphd_ek dummy
+scoreboard objectives add bacaphd_ek_x dummy
+scoreboard objectives add bacaphd_ek_y dummy
+scoreboard objectives add bacaphd_ek_z dummy
+scoreboard objectives add bacaphd_ek_dx dummy
+scoreboard objectives add bacaphd_ek_dy dummy
+scoreboard objectives add bacaphd_ek_dz dummy
+scoreboard objectives add bacaphd_ek_tmp dummy
+scoreboard objectives add bacaphd_ek_best dummy
+scoreboard objectives add bacaphd_pcn dummy
+scoreboard objectives add bacaphd_pct dummy
+scoreboard objectives add bacaphd_hp dummy
+scoreboard objectives add bacaphd_pp_seen dummy
+scoreboard objectives add bacaphd_pp_win dummy
+scoreboard objectives add bacaphd_pp_x dummy
+scoreboard objectives add bacaphd_pp_z dummy
+scoreboard objectives add bacaphd_pp_dx dummy
+scoreboard objectives add bacaphd_pp_dz dummy
+scoreboard objectives add bacaphd_pp_far dummy
+scoreboard objectives add bacaphd_cr_win dummy
+scoreboard objectives add bacaphd_ctgt dummy
+scoreboard objectives add bacaphd_disp dummy
+scoreboard objectives add bacaphd_ffb dummy
+scoreboard objectives add bacaphd_fpath dummy
+scoreboard objectives add bacaphd_sneeze dummy
+scoreboard objectives add bacaphd_s7_init dummy
+scoreboard objectives add bacaphd_srx dummy
+scoreboard objectives add bacaphd_srz dummy
+scoreboard objectives add bacaphd_srhi dummy
+scoreboard objectives add bacaphd_srlo dummy
+scoreboard objectives add bacaphd_srdq dummy
+scoreboard objectives add bacaphd_rt_x dummy
+scoreboard objectives add bacaphd_rt_z dummy
+scoreboard objectives add bacaphd_rt_px dummy
+scoreboard objectives add bacaphd_rt_pz dummy
+scoreboard objectives add bacaphd_rt_gx dummy
+scoreboard objectives add bacaphd_rt_gz dummy
+scoreboard objectives add bacaphd_rt_j dummy
+scoreboard objectives add bacaphd_rt_k dummy
+scoreboard objectives add bacaphd_rt_r dummy
+scoreboard objectives add bacaphd_rt_s dummy
+scoreboard objectives add bacaphd_rt_d dummy
+scoreboard objectives add bacaphd_rt_e dummy
+scoreboard objectives add bacaphd_rt_st dummy
+scoreboard objectives add bacaphd_rt_in dummy
+scoreboard objectives add bacaphd_rt_now dummy
+scoreboard objectives add bacaphd_ud_n dummy
+scoreboard objectives add bacaphd_ud_p dummy
+scoreboard objectives add bacaphd_ud_x dummy
+scoreboard objectives add bacaphd_ud_z dummy
+scoreboard objectives add bacaphd_ud_1x dummy
+scoreboard objectives add bacaphd_ud_1z dummy
+scoreboard objectives add bacaphd_ud_2x dummy
+scoreboard objectives add bacaphd_ud_2z dummy
+scoreboard objectives add bacaphd_ud_a dummy
+scoreboard objectives add bacaphd_ud_b dummy
+scoreboard objectives add bacaphd_ud_c dummy
+scoreboard objectives add bacaphd_ud_d dummy
+scoreboard objectives add bacaphd_fall_tot dummy
+scoreboard objectives add bacaphd_fall_prev dummy
+scoreboard objectives add bacaphd_fall_now dummy
+scoreboard objectives add bacaphd_barrels dummy
+scoreboard objectives add bacaphd_ender dummy
+scoreboard objectives add bacaphd_ender2 dummy
+scoreboard objectives add bacaphd_ferry dummy
+scoreboard objectives add bacaphd_ferry2 dummy
+scoreboard objectives add bacaphd_pi_day dummy
+scoreboard objectives add bacaphd_pi_age dummy
+scoreboard objectives add bacaphd_cub dummy
+scoreboard objectives add bacaphd_key_e dummy
+scoreboard objectives add bacaphd_key_w dummy
+scoreboard objectives add bacaphd_key_s dummy
+scoreboard objectives add bacaphd_key_n dummy
+scoreboard objectives add bacaphd_nmp_dmgb dummy
+scoreboard objectives add bacaphd_nmp_cd dummy
+scoreboard objectives add bacaphd_ts_h dummy
+scoreboard objectives add bacaphd_ts_c dummy
+scoreboard objectives add bacaphd_sg_y dummy
+scoreboard objectives add bacaphd_yeet_x dummy
+scoreboard objectives add bacaphd_yeet_z dummy
+scoreboard objectives add bacaphd_yeet_t dummy
+scoreboard objectives add bacaphd_bf dummy
+scoreboard objectives add bacaphd_bf_ok dummy
+scoreboard objectives add bacaphd_bf_prev dummy
+scoreboard objectives add bacaphd_bf_x dummy
+scoreboard objectives add bacaphd_bf_z dummy
+scoreboard objectives add bacaphd_bf_px dummy
+scoreboard objectives add bacaphd_bf_pz dummy
+scoreboard objectives add bacaphd_bi dummy
+scoreboard objectives add bacaphd_bs1 dummy
+scoreboard objectives add bacaphd_bs2 dummy
+scoreboard objectives add bacaphd_bs3 dummy
+scoreboard objectives add bacaphd_bs4 dummy
+scoreboard objectives add bacaphd_bs5 dummy
+scoreboard objectives add bacaphd_bsn dummy
+scoreboard objectives add bacaphd_spore dummy
+scoreboard objectives add bacaphd_gg_ok dummy
+scoreboard objectives add bacaphd_gg_glass dummy
+scoreboard objectives add bacaphd_gg_seen dummy
+scoreboard objectives add bacaphd_gn dummy
+scoreboard objectives add bacaphd_gn_age dummy
+scoreboard objectives add bacaphd_tw_wire dummy
+scoreboard objectives add bacaphd_tw_hook dummy
+scoreboard objectives add bacaphd_gor dummy
+scoreboard objectives add bacaphd_hatch dummy
+scoreboard objectives add bacaphd_ctorchb dummy
+scoreboard objectives add bacaphd_ctorchd dummy
+
+function bacaphd:setup_stats
 
 # Constant used to take absolute values in the Ominous Marathon distance checks
 scoreboard players set #neg1 bacaphd_const -1
@@ -270,3 +424,20 @@ scoreboard players set $eight bacaphd_const 8
 scoreboard players set $neg1 bacaphd_const -1
 scoreboard players set $three bacaphd_const 3
 scoreboard players set $eight bacaphd_const 8
+# Constants for the octagonal distance approximation. Re-stating them is idempotent and
+# keeps this batch's detectors from depending on another batch's load order.
+scoreboard players set $neg bacaphd_const -1
+scoreboard players set $three bacaphd_const 3
+scoreboard players set $eight bacaphd_const 8
+# solo6: constant used to take absolute values by negate-and-max in detect/pottery_barn
+scoreboard players set #neg1 bacaphd_s6t -1
+scoreboard players set #b5_daylen bacaphd_const 24000
+scoreboard players set $b5neg bacaphd_const -1
+scoreboard players set $b5three bacaphd_const 3
+scoreboard players set $b5eight bacaphd_const 8
+# Constant used by detect/camel_dash to take absolute values by negate-and-max.
+scoreboard players set $neg1 bacaphd_ek -1
+# Constants for the batch solo7 absolute-value and octagonal-distance maths
+scoreboard players set $s7neg bacaphd_const -1
+scoreboard players set $s7three bacaphd_const 3
+scoreboard players set $s7eight bacaphd_const 8

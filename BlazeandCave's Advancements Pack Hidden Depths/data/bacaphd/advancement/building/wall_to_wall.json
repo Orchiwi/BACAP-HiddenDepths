@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_carpet"
+    },
+    "title": {
+      "translate": "Wall to Wall"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carpet a whole sixteen-by-sixteen floor"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/change_of_sheets",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/wall_to_wall"
+  }
+}

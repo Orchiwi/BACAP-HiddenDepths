@@ -62,6 +62,186 @@
           }
         }
       }
+    },
+    "wall_to_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/wall_to_wall": true
+            }
+          }
+        }
+      }
+    },
+    "pottery_barn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/pottery_barn": true
+            }
+          }
+        }
+      }
+    },
+    "the_big_picture": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/the_big_picture": true
+            }
+          }
+        }
+      }
+    },
+    "layer_cake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/layer_cake": true
+            }
+          }
+        }
+      }
+    },
+    "lighthouse_keeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/lighthouse_keeper": true
+            }
+          }
+        }
+      }
+    },
+    "palace_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/palace_guard": true
+            }
+          }
+        }
+      }
+    },
+    "ground_cover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/ground_cover": true
+            }
+          }
+        }
+      }
+    },
+    "firefly_lane": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/firefly_lane": true
+            }
+          }
+        }
+      }
+    },
+    "xerox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/xerox": true
+            }
+          }
+        }
+      }
+    },
+    "boxed_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/boxed_in": true
+            }
+          }
+        }
+      }
+    },
+    "spore_loser": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/spore_loser": true
+            }
+          }
+        }
+      }
+    },
+    "trophy_case": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/trophy_case": true
+            }
+          }
+        }
+      }
+    },
+    "spot_the_difference": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/spot_the_difference": true
+            }
+          }
+        }
+      }
+    },
+    "chain_of_command": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/chain_of_command": true
+            }
+          }
+        }
+      }
+    },
+    "off_the_shelf": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/off_the_shelf": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

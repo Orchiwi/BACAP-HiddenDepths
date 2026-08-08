@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Pearl Portal"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Send an Ender Pearl through an End Gateway and ride it to the other side"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/pearl_portal"
+  }
+}

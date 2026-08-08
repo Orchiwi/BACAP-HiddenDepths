@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Groundskeeper Willie"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Work Coarse Dirt or Rooted Dirt back into plain Dirt with a Hoe"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "back_to_dirt": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dirt"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_hoe",
+                "minecraft:stone_hoe",
+                "minecraft:copper_hoe",
+                "minecraft:iron_hoe",
+                "minecraft:golden_hoe",
+                "minecraft:diamond_hoe",
+                "minecraft:netherite_hoe"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/groundskeeper_willie"
+  }
+}

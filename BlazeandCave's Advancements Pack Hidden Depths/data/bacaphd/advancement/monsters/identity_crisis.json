@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Identity Crisis"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get killed by the very monster whose head you are wearing"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/camouflage",
+  "criteria": {
+    "creeper": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:creeper_head"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombie"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:zombie_head"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:skeleton_skull"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither_skeleton"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:wither_skeleton_skull"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:piglin_head"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/identity_crisis"
+  },
+  "requirements": [
+    [
+      "creeper",
+      "zombie",
+      "skeleton",
+      "wither_skeleton",
+      "piglin"
+    ]
+  ]
+}

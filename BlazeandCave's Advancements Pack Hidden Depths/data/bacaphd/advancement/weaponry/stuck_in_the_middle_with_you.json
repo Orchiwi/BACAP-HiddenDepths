@@ -1,0 +1,93 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Stuck in the Middle With You"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a monster with a Spear while it is tangled in a Cobweb"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/britney_spears",
+  "criteria": {
+    "melee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "#blazeandcave:hostile_monsters",
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:cobweb"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ],
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": "#blazeandcave:spears"
+              }
+            }
+          }
+        }
+      }
+    },
+    "charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "#blazeandcave:hostile_monsters",
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:cobweb"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "blazeandcave:spear",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/stuck_in_the_middle_with_you"
+  },
+  "requirements": [
+    [
+      "melee",
+      "charge"
+    ]
+  ]
+}

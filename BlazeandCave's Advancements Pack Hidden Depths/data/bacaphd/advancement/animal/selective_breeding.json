@@ -1,0 +1,121 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": {
+      "translate": "Selective Breeding"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed every variant of Cow, Pig and Chicken yourself"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/beef_moover",
+  "criteria": {
+    "cow_temperate": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "minecraft:temperate"
+          }
+        }
+      }
+    },
+    "cow_warm": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "minecraft:warm"
+          }
+        }
+      }
+    },
+    "cow_cold": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:cow",
+          "components": {
+            "minecraft:cow/variant": "minecraft:cold"
+          }
+        }
+      }
+    },
+    "pig_temperate": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:pig",
+          "components": {
+            "minecraft:pig/variant": "minecraft:temperate"
+          }
+        }
+      }
+    },
+    "pig_warm": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:pig",
+          "components": {
+            "minecraft:pig/variant": "minecraft:warm"
+          }
+        }
+      }
+    },
+    "pig_cold": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:pig",
+          "components": {
+            "minecraft:pig/variant": "minecraft:cold"
+          }
+        }
+      }
+    },
+    "chicken_temperate": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:chicken",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:temperate"
+          }
+        }
+      }
+    },
+    "chicken_warm": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:chicken",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:warm"
+          }
+        }
+      }
+    },
+    "chicken_cold": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:chicken",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:cold"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/selective_breeding"
+  }
+}

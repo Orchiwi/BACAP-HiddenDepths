@@ -86,6 +86,150 @@
           }
         }
       }
+    },
+    "nest_egg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nest_egg": true
+            }
+          }
+        }
+      }
+    },
+    "groundskeeper_willie": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/groundskeeper_willie": true
+            }
+          }
+        }
+      }
+    },
+    "seed_bank": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/seed_bank": true
+            }
+          }
+        }
+      }
+    },
+    "dig_site": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/dig_site": true
+            }
+          }
+        }
+      }
+    },
+    "scarecrow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/scarecrow": true
+            }
+          }
+        }
+      }
+    },
+    "hunger_games": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hunger_games": true
+            }
+          }
+        }
+      }
+    },
+    "rotisserie": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/rotisserie": true
+            }
+          }
+        }
+      }
+    },
+    "stable_diet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/stable_diet": true
+            }
+          }
+        }
+      }
+    },
+    "old_growth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/old_growth": true
+            }
+          }
+        }
+      }
+    },
+    "underground_allotment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/underground_allotment": true
+            }
+          }
+        }
+      }
+    },
+    "greenhouse_gases": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/greenhouse_gases": true
+            }
+          }
+        }
+      }
+    },
+    "meltdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/meltdown": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

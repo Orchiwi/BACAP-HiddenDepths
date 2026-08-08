@@ -50,6 +50,162 @@
           }
         }
       }
+    },
+    "breaking_bad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/breaking_bad": true
+            }
+          }
+        }
+      }
+    },
+    "chemical_dependency": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/chemical_dependency": true
+            }
+          }
+        }
+      }
+    },
+    "bottle_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bottle_service": true
+            }
+          }
+        }
+      }
+    },
+    "drinking_problem": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/drinking_problem": true
+            }
+          }
+        }
+      }
+    },
+    "net_zero": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/net_zero": true
+            }
+          }
+        }
+      }
+    },
+    "have_stand_will_travel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/have_stand_will_travel": true
+            }
+          }
+        }
+      }
+    },
+    "brewing_under_pressure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/brewing_under_pressure": true
+            }
+          }
+        }
+      }
+    },
+    "off_the_wagon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/off_the_wagon": true
+            }
+          }
+        }
+      }
+    },
+    "mise_en_place": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/mise_en_place": true
+            }
+          }
+        }
+      }
+    },
+    "hexed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/hexed": true
+            }
+          }
+        }
+      }
+    },
+    "call_it_off": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/call_it_off": true
+            }
+          }
+        }
+      }
+    },
+    "fork_in_the_road": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/fork_in_the_road": true
+            }
+          }
+        }
+      }
+    },
+    "hard_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/hard_water": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

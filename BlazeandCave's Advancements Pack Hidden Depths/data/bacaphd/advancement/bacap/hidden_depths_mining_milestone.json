@@ -110,6 +110,150 @@
           }
         }
       }
+    },
+    "shock_treatment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/shock_treatment": true
+            }
+          }
+        }
+      }
+    },
+    "weathering_heights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/weathering_heights": true
+            }
+          }
+        }
+      }
+    },
+    "reverse_logistics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/reverse_logistics": true
+            }
+          }
+        }
+      }
+    },
+    "infestation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/infestation": true
+            }
+          }
+        }
+      }
+    },
+    "company_car": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/company_car": true
+            }
+          }
+        }
+      }
+    },
+    "worked_to_the_bone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/worked_to_the_bone": true
+            }
+          }
+        }
+      }
+    },
+    "urban_decay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/urban_decay": true
+            }
+          }
+        }
+      }
+    },
+    "patient_investor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/patient_investor": true
+            }
+          }
+        }
+      }
+    },
+    "freeze_frame": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/freeze_frame": true
+            }
+          }
+        }
+      }
+    },
+    "employee_badge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/employee_badge": true
+            }
+          }
+        }
+      }
+    },
+    "time_machine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/time_machine": true
+            }
+          }
+        }
+      }
+    },
+    "interdimensional_sculptor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/interdimensional_sculptor": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -50,6 +50,162 @@
           }
         }
       }
+    },
+    "cell_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/cell_block": true
+            }
+          }
+        }
+      }
+    },
+    "rain_check": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/rain_check": true
+            }
+          }
+        }
+      }
+    },
+    "staring_contest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/staring_contest": true
+            }
+          }
+        }
+      }
+    },
+    "bad_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/bad_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "overtime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/overtime": true
+            }
+          }
+        }
+      }
+    },
+    "leaving_a_mess": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/leaving_a_mess": true
+            }
+          }
+        }
+      }
+    },
+    "landscape_gardener": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/landscape_gardener": true
+            }
+          }
+        }
+      }
+    },
+    "door_to_door": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/door_to_door": true
+            }
+          }
+        }
+      }
+    },
+    "sniffed_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/sniffed_out": true
+            }
+          }
+        }
+      }
+    },
+    "skin_crawler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/skin_crawler": true
+            }
+          }
+        }
+      }
+    },
+    "terraforming_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/terraforming_service": true
+            }
+          }
+        }
+      }
+    },
+    "identity_crisis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/identity_crisis": true
+            }
+          }
+        }
+      }
+    },
+    "caught_in_my_own_web": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/caught_in_my_own_web": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

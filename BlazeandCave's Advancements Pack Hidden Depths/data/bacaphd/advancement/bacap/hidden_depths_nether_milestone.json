@@ -86,6 +86,186 @@
           }
         }
       }
+    },
+    "the_floor_is_lava": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_floor_is_lava": true
+            }
+          }
+        }
+      }
+    },
+    "under_the_bridge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/under_the_bridge": true
+            }
+          }
+        }
+      }
+    },
+    "backdraft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/backdraft": true
+            }
+          }
+        }
+      }
+    },
+    "bed_bath_and_beyond": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/bed_bath_and_beyond": true
+            }
+          }
+        }
+      }
+    },
+    "fortress_of_solitude": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/fortress_of_solitude": true
+            }
+          }
+        }
+      }
+    },
+    "fungus_among_us": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/fungus_among_us": true
+            }
+          }
+        }
+      }
+    },
+    "hunting_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hunting_party": true
+            }
+          }
+        }
+      }
+    },
+    "growing_pains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/growing_pains": true
+            }
+          }
+        }
+      }
+    },
+    "soul_survivor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/soul_survivor": true
+            }
+          }
+        }
+      }
+    },
+    "sky_ferry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/sky_ferry": true
+            }
+          }
+        }
+      }
+    },
+    "stable_genius": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/stable_genius": true
+            }
+          }
+        }
+      }
+    },
+    "ghast_nursery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/ghast_nursery": true
+            }
+          }
+        }
+      }
+    },
+    "static_discharge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/static_discharge": true
+            }
+          }
+        }
+      }
+    },
+    "undressed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/undressed": true
+            }
+          }
+        }
+      }
+    },
+    "colour_coordinated": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/colour_coordinated": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

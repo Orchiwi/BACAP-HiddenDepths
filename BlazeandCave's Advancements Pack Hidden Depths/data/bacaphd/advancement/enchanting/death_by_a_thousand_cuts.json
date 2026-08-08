@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Death by a Thousand Cuts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Finish off a Ravager with Thorns"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/echidna",
+  "criteria": {
+    "thorns_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:player"
+          },
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_projectile",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_explosion",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_fire",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_fall",
+              "expected": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/death_by_a_thousand_cuts"
+  }
+}

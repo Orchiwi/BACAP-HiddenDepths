@@ -50,6 +50,186 @@
           }
         }
       }
+    },
+    "desert_diver": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/desert_diver": true
+            }
+          }
+        }
+      }
+    },
+    "fortune_favours_the_melon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/fortune_favours_the_melon": true
+            }
+          }
+        }
+      }
+    },
+    "hook_line_and_mender": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/hook_line_and_mender": true
+            }
+          }
+        }
+      }
+    },
+    "beyond_repair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/beyond_repair": true
+            }
+          }
+        }
+      }
+    },
+    "covering_all_bases": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/covering_all_bases": true
+            }
+          }
+        }
+      }
+    },
+    "librarians_pet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/librarians_pet": true
+            }
+          }
+        }
+      }
+    },
+    "wet_work": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wet_work": true
+            }
+          }
+        }
+      }
+    },
+    "cutting_edge_agriculture": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cutting_edge_agriculture": true
+            }
+          }
+        }
+      }
+    },
+    "penny_for_your_thoughts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/penny_for_your_thoughts": true
+            }
+          }
+        }
+      }
+    },
+    "bargain_bin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/bargain_bin": true
+            }
+          }
+        }
+      }
+    },
+    "walking_library": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/walking_library": true
+            }
+          }
+        }
+      }
+    },
+    "death_by_a_thousand_cuts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/death_by_a_thousand_cuts": true
+            }
+          }
+        }
+      }
+    },
+    "dewey_decimal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/dewey_decimal": true
+            }
+          }
+        }
+      }
+    },
+    "irreconcilable_differences": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/irreconcilable_differences": true
+            }
+          }
+        }
+      }
+    },
+    "deep_impact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/deep_impact": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

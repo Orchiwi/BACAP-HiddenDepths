@@ -50,6 +50,90 @@
           }
         }
       }
+    },
+    "flying_buttress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/flying_buttress": true
+            }
+          }
+        }
+      }
+    },
+    "perpetual_motion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/perpetual_motion": true
+            }
+          }
+        }
+      }
+    },
+    "fort_knox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/fort_knox": true
+            }
+          }
+        }
+      }
+    },
+    "bread_winner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/bread_winner": true
+            }
+          }
+        }
+      }
+    },
+    "the_long_haul": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_long_haul": true
+            }
+          }
+        }
+      }
+    },
+    "ground_zero": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/ground_zero": true
+            }
+          }
+        }
+      }
+    },
+    "full_spectrum_flock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/full_spectrum_flock": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

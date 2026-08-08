@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Rain Check"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Make an Enderman teleport away by hitting it with a Splash Water Bottle"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_ender_of_ender",
+  "criteria": {
+    "rain_check": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:enderman"
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion",
+              "nbt": "{Item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:water\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/rain_check"
+  }
+}

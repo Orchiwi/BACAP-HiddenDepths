@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": {
+      "translate": "Patient Investor"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place a Copper Block, stand on it, and let it oxidize all the way to green without ever waxing or scraping it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/the_statue_of_liberty",
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidised": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/patient_investor"
+  },
+  "requirements": [
+    [
+      "placed"
+    ],
+    [
+      "oxidised"
+    ]
+  ]
+}

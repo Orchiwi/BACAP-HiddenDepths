@@ -38,6 +38,198 @@
           }
         }
       }
+    },
+    "bring_a_spear_to_a_gunfight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bring_a_spear_to_a_gunfight": true
+            }
+          }
+        }
+      }
+    },
+    "talk_to_the_hand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/talk_to_the_hand": true
+            }
+          }
+        }
+      }
+    },
+    "weapon_rack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/weapon_rack": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_story": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ghost_story": true
+            }
+          }
+        }
+      }
+    },
+    "ground_floor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ground_floor": true
+            }
+          }
+        }
+      }
+    },
+    "stuck_in_the_middle_with_you": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/stuck_in_the_middle_with_you": true
+            }
+          }
+        }
+      }
+    },
+    "handicap_match": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/handicap_match": true
+            }
+          }
+        }
+      }
+    },
+    "splinter_cell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/splinter_cell": true
+            }
+          }
+        }
+      }
+    },
+    "bare_knuckle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bare_knuckle": true
+            }
+          }
+        }
+      }
+    },
+    "deep_freeze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/deep_freeze": true
+            }
+          }
+        }
+      }
+    },
+    "yeet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/yeet": true
+            }
+          }
+        }
+      }
+    },
+    "can_you_hear_me_now": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/can_you_hear_me_now": true
+            }
+          }
+        }
+      }
+    },
+    "long_reach_of_the_law": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/long_reach_of_the_law": true
+            }
+          }
+        }
+      }
+    },
+    "bronze_age": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bronze_age": true
+            }
+          }
+        }
+      }
+    },
+    "ghast_lancer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ghast_lancer": true
+            }
+          }
+        }
+      }
+    },
+    "air_superiority": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/air_superiority": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

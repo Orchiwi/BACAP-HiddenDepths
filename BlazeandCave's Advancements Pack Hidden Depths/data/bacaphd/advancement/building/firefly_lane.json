@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firefly_bush"
+    },
+    "title": {
+      "translate": "Firefly Lane"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Line a path with twenty Firefly Bushes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/firefly_lane"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Staring Contest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stare down an Enderman while wearing a Carved Pumpkin"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_ender_of_ender",
+  "criteria": {
+    "staredown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:carved_pumpkin"
+                  ]
+                }
+              },
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:enderman",
+                  "distance": {
+                    "absolute": {
+                      "max": 16
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/staring_contest"
+  }
+}

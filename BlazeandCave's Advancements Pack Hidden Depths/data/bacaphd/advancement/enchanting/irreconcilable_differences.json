@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Irreconcilable Differences"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Density V Mace and a Breach IV Mace at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/mace_windu",
+  "criteria": {
+    "two_maces": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mace"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:density",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:mace"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:breach",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/irreconcilable_differences"
+  }
+}

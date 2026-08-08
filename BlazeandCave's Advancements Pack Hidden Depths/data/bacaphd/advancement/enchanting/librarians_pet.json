@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Librarian's Pet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy a Mending book off a Librarian"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "mending_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/librarians_pet"
+  }
+}

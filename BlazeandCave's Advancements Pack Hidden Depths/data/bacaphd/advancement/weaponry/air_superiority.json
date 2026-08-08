@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Air Superiority"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Charge a mob with a Spear from the back of a Happy Ghast"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/hit_and_run",
+  "criteria": {
+    "charge_mainhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:spears"
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    },
+    "charge_offhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "#blazeandcave:spears"
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/air_superiority"
+  },
+  "requirements": [
+    [
+      "charge_mainhand",
+      "charge_offhand"
+    ]
+  ]
+}

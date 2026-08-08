@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Laundry Day"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wash a hundred items clean in cauldrons"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/root",
+  "criteria": {
+    "wash": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:water_cauldron"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:leather_helmet",
+                "minecraft:leather_chestplate",
+                "minecraft:leather_leggings",
+                "minecraft:leather_boots",
+                "minecraft:leather_horse_armor",
+                "minecraft:white_banner",
+                "minecraft:orange_banner",
+                "minecraft:magenta_banner",
+                "minecraft:light_blue_banner",
+                "minecraft:yellow_banner",
+                "minecraft:lime_banner",
+                "minecraft:pink_banner",
+                "minecraft:gray_banner",
+                "minecraft:light_gray_banner",
+                "minecraft:cyan_banner",
+                "minecraft:purple_banner",
+                "minecraft:blue_banner",
+                "minecraft:brown_banner",
+                "minecraft:green_banner",
+                "minecraft:red_banner",
+                "minecraft:black_banner",
+                "minecraft:white_shulker_box",
+                "minecraft:orange_shulker_box",
+                "minecraft:magenta_shulker_box",
+                "minecraft:light_blue_shulker_box",
+                "minecraft:yellow_shulker_box",
+                "minecraft:lime_shulker_box",
+                "minecraft:pink_shulker_box",
+                "minecraft:gray_shulker_box",
+                "minecraft:light_gray_shulker_box",
+                "minecraft:cyan_shulker_box",
+                "minecraft:purple_shulker_box",
+                "minecraft:blue_shulker_box",
+                "minecraft:brown_shulker_box",
+                "minecraft:green_shulker_box",
+                "minecraft:red_shulker_box",
+                "minecraft:black_shulker_box"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/laundry_day"
+  },
+  "requirements": [
+    [
+      "wash"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

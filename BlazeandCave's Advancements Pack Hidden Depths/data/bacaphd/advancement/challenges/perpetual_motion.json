@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_lamp"
+    },
+    "title": {
+      "translate": "Perpetual Motion"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Stand on a Redstone Lamp and keep a clock flashing it for a full in-game day"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/perpetual_motion"
+  }
+}

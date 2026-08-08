@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_shelf"
+    },
+    "title": {
+      "translate": "Pale Imitation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Pale Oak Shelf inside a Pale Garden"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/eyeball_forest",
+  "criteria": {
+    "pale_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_shelf"
+                ]
+              },
+              "biomes": "minecraft:pale_garden"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/pale_imitation"
+  }
+}

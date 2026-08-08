@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:swiftness"
+        }
+      }
+    },
+    "title": {
+      "translate": "Fork in the Road"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold the long and the strong version of the same potion side by side"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "long_and_strong": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_swiftness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_swiftness"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/fork_in_the_road"
+  }
+}

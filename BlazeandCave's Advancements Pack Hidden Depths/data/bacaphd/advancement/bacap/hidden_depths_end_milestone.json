@@ -62,6 +62,150 @@
           }
         }
       }
+    },
+    "crown_jewel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/crown_jewel": true
+            }
+          }
+        }
+      }
+    },
+    "around_the_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/around_the_worlds": true
+            }
+          }
+        }
+      }
+    },
+    "needle_threader": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/needle_threader": true
+            }
+          }
+        }
+      }
+    },
+    "dead_reckoning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/dead_reckoning": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_removal_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/shulker_removal_service": true
+            }
+          }
+        }
+      }
+    },
+    "dragons_perch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/dragons_perch": true
+            }
+          }
+        }
+      }
+    },
+    "ship_of_theseus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/ship_of_theseus": true
+            }
+          }
+        }
+      }
+    },
+    "endless_summer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/endless_summer": true
+            }
+          }
+        }
+      }
+    },
+    "pearl_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/pearl_portal": true
+            }
+          }
+        }
+      }
+    },
+    "round_trip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/round_trip": true
+            }
+          }
+        }
+      }
+    },
+    "golem_grand_tour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/golem_grand_tour": true
+            }
+          }
+        }
+      }
+    },
+    "snails_pace_in_space": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/snails_pace_in_space": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

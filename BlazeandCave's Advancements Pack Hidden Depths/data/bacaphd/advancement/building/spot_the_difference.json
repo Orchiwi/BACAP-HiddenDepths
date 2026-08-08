@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_block"
+    },
+    "title": {
+      "translate": "Spot the Difference"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fit a Resin Block into a wall of Exposed Copper so it is surrounded on all four sides"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_walls",
+  "criteria": {
+    "framed_in_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:resin_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper",
+                  "minecraft:waxed_exposed_copper"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_copper",
+                  "minecraft:waxed_exposed_copper"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:exposed_copper",
+                          "minecraft:waxed_exposed_copper"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:exposed_copper",
+                          "minecraft:waxed_exposed_copper"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:exposed_copper",
+                          "minecraft:waxed_exposed_copper"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:exposed_copper",
+                          "minecraft:waxed_exposed_copper"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/spot_the_difference"
+  }
+}

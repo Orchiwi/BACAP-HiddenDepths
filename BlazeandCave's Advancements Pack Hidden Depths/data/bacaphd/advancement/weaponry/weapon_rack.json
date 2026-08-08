@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Weapon Rack"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mount a Sword, an Axe, a Bow, a Crossbow, a Trident, a Mace and a Spear in seven Item Frames"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weapon_rack"
+  }
+}

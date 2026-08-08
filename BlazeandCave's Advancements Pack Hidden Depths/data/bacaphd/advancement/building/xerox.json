@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_banner"
+    },
+    "title": {
+      "translate": "Xerox"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Copy a finished banner by crafting it beside a blank banner of the same colour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/raise_the_flag",
+  "criteria": {
+    "duplicate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:banner_duplicate"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/xerox"
+  }
+}

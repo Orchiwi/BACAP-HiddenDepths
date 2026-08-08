@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ minecraft:white_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:orange_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:magenta_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:light_blue_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:yellow_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:lime_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:pink_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:gray_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:light_gray_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:cyan_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:purple_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:blue_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:brown_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:green_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:red_carpet run scoreboard players add @s bacaphd_w2c 1
+execute if block ~ ~ ~ minecraft:black_carpet run scoreboard players add @s bacaphd_w2c 1

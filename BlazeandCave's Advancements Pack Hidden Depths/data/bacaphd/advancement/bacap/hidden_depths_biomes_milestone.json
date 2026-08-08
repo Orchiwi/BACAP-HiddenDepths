@@ -86,6 +86,234 @@
           }
         }
       }
+    },
+    "smokescreen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/smokescreen": true
+            }
+          }
+        }
+      }
+    },
+    "power_shower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/power_shower": true
+            }
+          }
+        }
+      }
+    },
+    "wide_awake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/wide_awake": true
+            }
+          }
+        }
+      }
+    },
+    "all_eyes_on_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/all_eyes_on_me": true
+            }
+          }
+        }
+      }
+    },
+    "sea_to_shining_sea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/sea_to_shining_sea": true
+            }
+          }
+        }
+      }
+    },
+    "both_sides_now": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/both_sides_now": true
+            }
+          }
+        }
+      }
+    },
+    "pod_cast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/pod_cast": true
+            }
+          }
+        }
+      }
+    },
+    "now_you_see_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/now_you_see_me": true
+            }
+          }
+        }
+      }
+    },
+    "the_scenic_route": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/the_scenic_route": true
+            }
+          }
+        }
+      }
+    },
+    "thermal_shock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/thermal_shock": true
+            }
+          }
+        }
+      }
+    },
+    "biome_sandwich": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/biome_sandwich": true
+            }
+          }
+        }
+      }
+    },
+    "wreck_diver": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/wreck_diver": true
+            }
+          }
+        }
+      }
+    },
+    "sushi_chef": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/sushi_chef": true
+            }
+          }
+        }
+      }
+    },
+    "pale_imitation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/pale_imitation": true
+            }
+          }
+        }
+      }
+    },
+    "ark_encounter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/ark_encounter": true
+            }
+          }
+        }
+      }
+    },
+    "shoulder_to_cry_on": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/shoulder_to_cry_on": true
+            }
+          }
+        }
+      }
+    },
+    "down_periscope": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/down_periscope": true
+            }
+          }
+        }
+      }
+    },
+    "power_snorkel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/power_snorkel": true
+            }
+          }
+        }
+      }
+    },
+    "the_full_copper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/the_full_copper": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

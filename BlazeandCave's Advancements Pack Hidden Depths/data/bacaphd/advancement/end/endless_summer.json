@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Endless Summer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Chorus Flower inside an End City and eat a Chorus Fruit there"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/getting_chorus",
+  "criteria": {
+    "planted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_end",
+              "structures": "minecraft:end_city",
+              "block": {
+                "blocks": [
+                  "minecraft:chorus_flower"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "harvested": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/endless_summer"
+  }
+}
