@@ -768,4 +768,5 @@ scoreboard players reset @s bacaphd_ctorchb
 scoreboard players reset @s bacaphd_ctorchd
 scoreboard players reset @s bacaphd_eat_pumpkin_pie
 scoreboard players reset @s bacaphd_eat_honey_bottle
+scoreboard players reset @s bacaphd_yeet_m
 tellraw @s [{"text":"Cleared every Hidden Depths advancement and score for you.","color":"yellow"}]

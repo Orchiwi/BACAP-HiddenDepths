@@ -47,7 +47,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redst
 # when the probe below reads it on the same tick. bacaphd_sc_dmg is only ever
 # compared while bacaphd_sc_ok is 1, and both are written together in detect/sc_arm
 # and seeded in bacaphd:seed, so no lifetime damage total can be read as one hit.
-execute as @a[gamemode=!spectator,scores={bacaphd_sc_ok=1}] unless score @s bacaphd_dmg = @s bacaphd_sc_dmg run scoreboard players set @s bacaphd_sc_ok 0
+execute as @a[gamemode=!spectator,scores={bacaphd_sc_ok=1}] unless score @s bacaphd_dmg = @s bacaphd_sc_dmg run scoreboard players set @s bacaphd_sc_ok -1
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/spawner_camper={in_chamber=true,impossible=false}}] at @s run function bacaphd:detect/spawner_camper
 # Revoking in_chamber every pass is what makes it a LIVE gate instead of a sticky
 # one: minecraft:location re-grants it within 20 ticks only while the player is

@@ -204,3 +204,7 @@ execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redst
 execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:biomes/biome_sandwich=false}] at @s if dimension minecraft:overworld run function bacaphd:detect/biome_sandwich
 # Entrapment - 16x4x16, the same shape as Sorting Facility.
 execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/entrapment=false}] at @s run function bacaphd:detect/entrapment
+# Spawner Camper: lift the damaged lock once the run is over, so the next chamber
+# starts clean. Five seconds is longer than the gap between probe passes, so it
+# cannot lift mid-wave and re-forgive damage.
+execute as @a[scores={bacaphd_sc_ok=..-1}] run scoreboard players set @s bacaphd_sc_ok 0

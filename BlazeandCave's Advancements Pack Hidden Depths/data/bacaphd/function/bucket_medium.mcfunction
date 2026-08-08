@@ -138,7 +138,10 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/say_it_with_fl
 # --- Sitting is deliberately NOT tested: lying-on-a-bed is the unsaved DATA_IS_LYING flag, not Sitting NBT. ---
 execute as @a[gamemode=!spectator,advancements={bacaphd:animal/duvet_day=false}] at @s as @e[type=minecraft:cat,distance=..12] at @s if data entity @s Owner if block ~ ~ ~ #minecraft:beds run advancement grant @a[gamemode=!spectator,distance=..12,advancements={bacaphd:animal/duvet_day=false}] only bacaphd:animal/duvet_day
 # --- Bless You (solo9): the sneeze drop landing beside the cub ---
-execute as @a[gamemode=!spectator,advancements={bacaphd:animal/bless_you=false}] at @s as @e[type=minecraft:panda,distance=..12,predicate=blazeandcave:is_baby] at @s if entity @e[type=minecraft:item,distance=..4,nbt={Item:{id:"minecraft:slime_ball"}}] run advancement grant @a[gamemode=!spectator,distance=..12,advancements={bacaphd:animal/bless_you=false}] only bacaphd:animal/bless_you
+# Bless You is detected further down this bucket, on the PICKUP, via bacaphd_sneeze.
+# The line that stood here granted to every player within 12 blocks the moment a
+# slime ball existed near a baby panda, so bystanders were paid and nobody had to
+# pick anything up. Superseded, not merely disabled.
 # --- Parrot-phrase (solo9): 20 blocks is vanilla's own imitation radius ---
 execute as @a[gamemode=!spectator,advancements={bacaphd:animal/parrot_phrase=false}] at @s as @e[type=minecraft:parrot,distance=..8] at @s if data entity @s Owner if entity @e[type=#blazeandcave:hostile_monsters,distance=..20,limit=1] run advancement grant @a[gamemode=!spectator,distance=..8,advancements={bacaphd:animal/parrot_phrase=false}] only bacaphd:animal/parrot_phrase
 # --- Door to Door (solo9): CanBreakDoors is the Hard-difficulty gate; there is no `execute if difficulty` ---
