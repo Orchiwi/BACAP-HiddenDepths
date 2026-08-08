@@ -4,13 +4,13 @@ Generated from the built pack with `python3 generator/list_advancements.py`.
 
 Legend: `·` task · `◆` goal · `★` challenge · `★★` super challenge
 
-None of these duplicates any of the 1,776 advancements already in BlazeandCave's Advancements Pack or Enhanced Discoveries.
+None of these duplicates any of the 1,776 advancements in BlazeandCave's Advancements Pack or Enhanced Discoveries, nor any of the others listed here.
 
 ---
 
 # Hidden Depths
 
-75 advancements, all completable solo. Weighted towards the Copper Age content neither installed pack touches.
+All completable solo. Weighted towards the Copper Age content neither installed pack touches.
 
 **275 advancements** across 15 tabs, plus 16 progression entries.
 
