@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log"
+    },
+    "title": {
+      "translate": "Log Cabin"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Frame a wooden Door with a Log on either side of it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "logs_east_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_door",
+                  "minecraft:spruce_door",
+                  "minecraft:birch_door",
+                  "minecraft:jungle_door",
+                  "minecraft:acacia_door",
+                  "minecraft:dark_oak_door",
+                  "minecraft:mangrove_door",
+                  "minecraft:cherry_door",
+                  "minecraft:pale_oak_door",
+                  "minecraft:bamboo_door",
+                  "minecraft:crimson_door",
+                  "minecraft:warped_door"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "logs_north_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_door",
+                  "minecraft:spruce_door",
+                  "minecraft:birch_door",
+                  "minecraft:jungle_door",
+                  "minecraft:acacia_door",
+                  "minecraft:dark_oak_door",
+                  "minecraft:mangrove_door",
+                  "minecraft:cherry_door",
+                  "minecraft:pale_oak_door",
+                  "minecraft:bamboo_door",
+                  "minecraft:crimson_door",
+                  "minecraft:warped_door"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/log_cabin"
+  },
+  "requirements": [
+    [
+      "logs_east_west",
+      "logs_north_south"
+    ]
+  ]
+}

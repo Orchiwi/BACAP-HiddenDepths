@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_candle"
+    },
+    "title": {
+      "translate": "Candlemaker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect all sixteen dyed Candles"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_ritual_begins",
+  "criteria": {
+    "candles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:orange_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:magenta_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:light_blue_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:yellow_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:lime_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pink_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:gray_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:light_gray_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cyan_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:purple_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blue_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:brown_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:green_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:red_candle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:black_candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/candlemaker"
+  }
+}

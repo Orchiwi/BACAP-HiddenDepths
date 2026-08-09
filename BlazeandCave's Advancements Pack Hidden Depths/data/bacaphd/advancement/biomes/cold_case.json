@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Cold Case"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Find an Ocean Ruin sealed under a Frozen Ocean"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/atlantis",
+  "criteria": {
+    "ruin_under_ice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ocean_ruin_cold",
+                "biomes": [
+                  "minecraft:frozen_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/cold_case"
+  }
+}

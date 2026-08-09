@@ -1,0 +1,186 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Distillery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Hopper so it feeds a Brewing Stand for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_hopper",
+  "criteria": {
+    "hopper_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hopper_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hopper_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hopper_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hopper_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brewing_stand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/distillery"
+  },
+  "requirements": [
+    [
+      "hopper_north",
+      "hopper_south",
+      "hopper_east",
+      "hopper_west",
+      "hopper_down"
+    ]
+  ]
+}

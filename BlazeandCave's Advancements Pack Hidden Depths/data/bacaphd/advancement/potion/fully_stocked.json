@@ -1,0 +1,139 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Fully Stocked"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold every brewing ingredient in the game at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/mise_en_place",
+  "criteria": {
+    "larder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_wart"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glowstone_dust"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:fermented_spider_eye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glistering_melon_slice"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:magma_cream"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:phantom_membrane"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pufferfish"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:turtle_scute"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:breeze_rod"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cobweb"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:slime_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/fully_stocked"
+  }
+}

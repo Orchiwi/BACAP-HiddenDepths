@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": {
+      "translate": "Chainsaw"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold a Wooden Axe carrying both Efficiency V and Unbreaking III"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/a_rather_pointy_fence_post",
+  "criteria": {
+    "efficient_wooden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/chainsaw"
+  }
+}

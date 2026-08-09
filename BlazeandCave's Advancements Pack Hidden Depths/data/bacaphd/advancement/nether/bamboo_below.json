@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "Bamboo Below"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Bamboo in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hell_botanist",
+  "criteria": {
+    "bamboo_in_nether": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo",
+                  "minecraft:bamboo_sapling"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/bamboo_below"
+  }
+}

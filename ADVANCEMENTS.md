@@ -12,50 +12,106 @@ None of these duplicates any of the 1,776 advancements in BlazeandCave's Advance
 
 All completable solo. Weighted towards the Copper Age content neither installed pack touches.
 
-**275 advancements** across 15 tabs, plus 16 progression entries.
+**875 advancements** across 15 tabs, plus 16 progression entries.
 
 | Tab | Count |
 |---|---|
-| Adventure | 22 |
-| Animals | 22 |
-| Biomes | 25 |
-| Building | 19 |
-| Enchanting | 18 |
-| Farming | 18 |
-| Mining | 20 |
-| Monsters | 16 |
-| Nether | 21 |
-| Potions | 16 |
-| Redstone | 17 |
-| Statistics | 17 |
-| Super Challenges | 10 |
-| The End | 16 |
-| Weaponry | 18 |
+| Adventure | 78 |
+| Animals | 77 |
+| Biomes | 80 |
+| Building | 72 |
+| Enchanting | 67 |
+| Farming | 48 |
+| Mining | 73 |
+| Monsters | 40 |
+| Nether | 75 |
+| Potions | 68 |
+| Redstone | 71 |
+| Statistics | 19 |
+| Super Challenges | 23 |
+| The End | 23 |
+| Weaponry | 61 |
 
 ## Adventure — Hidden Depths
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| · | **Aquarium Stock** | Adventure | Buy a Bucket of Pufferfish and a Bucket of Tropical Fish from Wandering Traders | 15 |
+| ◆ | **Backseat Driver** | Adventure | Kill a Pillager while it is riding a Ravager | 40 |
+| ◆ | **Bell, Book and Candle** | Adventure | Carry a Bell, a Book and a Candle at the same time | 40 |
 | · | **Blast Off, Bop** | Adventure | Send a Copper Golem flying with a thrown Wind Charge | 15 |
+| · | **Blind Faith** | Adventure | Trade with a Villager while Blindness is on you | 15 |
 | ◆ | **Boat Drop** | Adventure | Survive a sixty-block fall while sitting in a boat | 45 |
 | ◆ | **Breeze Block** | Adventure | Kill a Breeze with the charge attack of a Spear | 50 |
 | ◆ | **Bundle of Everything** | Adventure | Collect all sixteen colours of Bundle | 55 |
+| · | **Chamber Music** | Adventure | Play a music disc on a Jukebox inside a Trial Chamber | 15 |
+| · | **Chamber Pot** | Adventure | Place a Decorated Pot inside a Trial Chamber | 15 |
+| · | **Chamber Salvage** | Adventure | Prise a Copper Bulb out of a Trial Chamber and carry it off | 20 |
+| ◆ | **Chamber of Commerce** | Adventure | Trade with a Villager inside the Trial Chambers | 40 |
 | ◆ | **Chamber of Secrets** | Adventure | Loot all six kinds of Trial Chamber chest: entrance, corridor, intersection, barrel, supply and reward | 70 |
+| · | **Cold Storage** | Adventure | Buy Blue Ice and Packed Ice from Wandering Traders | 15 |
+| · | **Community Service** | Adventure | Take a swing from an Iron Golem and survive it | 15 |
+| ◆ | **Corporate Ladder** | Adventure | Trade with Villagers at all five career levels, from Novice to Master | 40 |
+| ★ | **Curator's Cut** | Adventure | Wear four armour pieces all trimmed with the Silence pattern at once | 120 |
+| ★ | **Decked Out** | Adventure | Stand in the Trial Chambers wearing four armour pieces all trimmed with the Flow pattern | 120 |
+| ◆ | **Deep Discount** | Adventure | Trade with a Villager below Y=-50 | 40 |
+| ◆ | **Divine Retribution** | Adventure | Call down a channelled lightning bolt onto a Ravager | 40 |
+| ★ | **Dye Another Day** | Adventure | Buy all sixteen colours of dye from Wandering Traders | 120 |
 | ◆ | **Estate Sale** | Adventure | Put down a Wandering Trader and lead one of the Trader Llamas it leaves behind away with you | 50 |
+| · | **Eviction Notice** | Adventure | Kill an Evoker inside a Woodland Mansion | 15 |
+| · | **Fanged** | Adventure | Take a bite from an Evoker's Fangs and live | 15 |
 | ★ | **Featherweight** | Adventure | Kill the Wither with no armour and nothing but a sword, a bow and a stack of arrows | 250 |
 | ★ | **Fetch Quest** | Adventure | Have an Allay bring a full stack of sixty-four items to a Note Block in one delivery | 110 |
 | ★ | **Free Solo** | Adventure | Climb two hundred blocks of ladders or vines without touching the ground | 150 |
+| ★ | **Ghost Town** | Adventure | Trade with a Villager inside an Ancient City | 120 |
 | ◆ | **Golem Foundry** | Adventure | Let a village grow big enough to spawn its own Iron Golem | 45 |
+| · | **Guardian's Gift** | Adventure | Take the Tide Smithing Template from an Elder Guardian | 15 |
+| · | **Hero Abroad** | Adventure | Carry the Hero of the Village effect into the Nether | 15 |
+| · | **Hostile Takeover** | Adventure | Kill a Pillager inside its own Pillager Outpost | 15 |
+| · | **Insider Trading** | Adventure | Trade with a Villager while you are carrying Bad Omen | 15 |
 | ★ | **Junk Drawer** | Adventure | Get sixty-four different items into a single Bundle | 200 |
 | ◆ | **Key Master** | Adventure | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once | 65 |
+| · | **Landlocked Treasure** | Adventure | Buy a Nautilus Shell from a Wandering Trader | 15 |
 | ◆ | **Legend Has It** | Adventure | Mark White, Orange, Yellow, Green, Blue, Purple, Red and Black Banners onto your Maps | 55 |
+| · | **Meadow in a Box** | Adventure | Buy a Firefly Bush, Tall Dry Grass and a Small Dripleaf from Wandering Traders | 15 |
 | · | **Meals on Wheels** | Adventure | Watch one Villager throw food to another Villager | 25 |
+| ◆ | **Mixed Signals** | Adventure | Hold Hero of the Village and Bad Omen at the same time | 40 |
+| · | **Mossy Bargain** | Adventure | Buy a Moss Block, a Pale Moss Block and Pale Hanging Moss from Wandering Traders | 15 |
 | · | **Not Insured** | Adventure | Get killed by a mob with a Totem of Undying stashed in your bag or Ender Chest instead of your hand | 20 |
 | · | **Not My Problem** | Adventure | Let an Iron Golem finish off a monster that was chasing you, without landing a hit yourself | 25 |
+| · | **Off the Deep End** | Adventure | Bring the Spire Smithing Template home from an End City | 15 |
+| ◆ | **Off the Rack** | Adventure | Buy a Diamond Pickaxe, a Diamond Axe and a Diamond Shovel from villagers | 40 |
+| ◆ | **Old Roads** | Adventure | Stand in Trail Ruins buried under a jungle, under a taiga and under a birch forest | 40 |
+| · | **Ominous Housekeeping** | Adventure | Loot a Trial Chamber supply barrel while Trial Omen is on you | 15 |
 | ★ | **Ominous Marathon** | Adventure | Open an Ominous Vault in five separate Trial Chambers | 260 |
+| · | **Overgrown Pattern** | Adventure | Find the Wild Smithing Template in a Jungle Temple | 15 |
+| ★ | **Pattern Book** | Adventure | Get all nineteen Smithing Templates into a single Bundle | 120 |
+| · | **Payday** | Adventure | Hand a Copper Ingot to an Allay | 20 |
+| ◆ | **Petty Cash** | Adventure | Have an Allay drop a Copper Ingot onto a Copper Block | 50 |
+| · | **Reeled In** | Adventure | Hook a Villager with a Fishing Rod | 15 |
+| · | **Roadkill** | Adventure | Get run down by a Ravager with a Pillager on its back | 15 |
+| · | **Rotten Deal** | Adventure | Buy a Sulfur Spike from a Wandering Trader | 15 |
+| · | **Ruins Rave** | Adventure | Play the Relic music disc on a Jukebox standing in the Trail Ruins | 15 |
+| · | **Sapling Salesman** | Adventure | Trade for a Sapling from the Wandering Trader | 20 |
 | ◆ | **Say It With Flowers** | Adventure | Watch an Iron Golem hand a poppy to a baby Villager | 50 |
+| ◆ | **Scrap Metal** | Adventure | Destroy an Iron Golem that a village built for itself | 40 |
+| ◆ | **Second-Hand Pickaxe** | Adventure | Buy the enchanted Iron Pickaxe a Wandering Trader carries | 40 |
+| · | **Silent Alarm** | Adventure | Ring a Bell in the Deep Dark | 15 |
+| ◆ | **Sky Mall** | Adventure | Trade with a Villager without getting off your Happy Ghast | 40 |
+| · | **Smith's Apprentice** | Adventure | Open up a Smithing Table | 15 |
 | ★ | **Spawner Camper** | Adventure | Drain a Trial Spawner of its entire wave without taking a single point of damage | 150 |
+| · | **Squatter's Rights** | Adventure | Sleep in a bed inside a Pillager Outpost | 15 |
+| · | **Storm Sale** | Adventure | Trade with a Villager in the middle of a thunderstorm | 15 |
+| · | **Sunken Market** | Adventure | Trade with a Villager while you are both standing in water | 15 |
+| · | **Taunting the Guard** | Adventure | Ring a Bell inside a Pillager Outpost | 15 |
 | ★ | **The Five Stages of Grief** | Adventure | Take Trial Omen at all five levels inside the Trial Chambers | 150 |
+| · | **Trolley Service** | Adventure | Trade with a Villager that is sitting in a Minecart | 15 |
+| · | **Under the Counter** | Adventure | Buy Gunpowder and a Slimeball from Wandering Traders | 15 |
+| ★ | **Uninvited Guest** | Adventure | Sleep in a bed inside a Woodland Mansion | 120 |
+| · | **Vanishing Act** | Adventure | Buy a Potion of Invisibility from a Wandering Trader | 15 |
+| · | **Wake-Up Call** | Adventure | Ring a Bell inside a Woodland Mansion | 15 |
+| · | **Washed Ashore** | Adventure | Salvage the Coast Smithing Template from a Shipwreck | 15 |
+| · | **Watchtower Loot** | Adventure | Loot the Sentry Smithing Template from a Pillager Outpost | 15 |
 | ◆ | **Wind Rider** | Adventure | Get thrown twenty blocks sideways by a Wind Charge | 60 |
 | ◆ | **Zoom and Enhance** | Adventure | Extend Maps four times over using Paper in a Crafting Table | 45 |
 
@@ -92,26 +148,81 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 |---|---|---|---|---|
 | · | **Amphibian Assassin** | Animals | Watch a Frog swallow a small Slime and cough up the slimeball | 25 |
 | · | **Armadillo Roller** | Animals | Startle an Armadillo into rolling up five separate times | 25 |
+| · | **Baa Baa Rainbow Sheep** | Animals | Name a Sheep 'jeb_' and watch its wool cycle through every colour | 20 |
+| · | **Backseat Breeder** | Animals | Feed a Cactus to a Camel while sitting on another Camel | 25 |
+| · | **Bad Dog** | Animals | Get killed by a Wolf | 20 |
+| · | **Beast of Burden** | Animals | Strap a Chest onto a Donkey, a Mule and a Llama | 20 |
 | ★ | **Bee Movie** | Animals | Have twenty Bees leave their stingers in you and live to tell it | 150 |
+| ◆ | **Birdseed Buffet** | Animals | Offer a Parrot every one of the six seeds | 50 |
 | · | **Bless You** | Animals | Collect the slimeball a baby Panda drops when it sneezes | 20 |
+| · | **Blossom Buddies** | Animals | Breed two Bees under the petals of a Cherry Grove | 20 |
+| · | **Blowfish Roulette** | Animals | Eat a Pufferfish and come away carrying Poison, Hunger and Nausea all at once | 20 |
+| · | **Blowing the Whistle** | Animals | Blow a Goat Horn inside a Pillager Outpost | 15 |
+| ◆ | **Blue Blood** | Animals | Breed two Horses that are both wearing Diamond Horse Armor | 60 |
 | ★ | **Bombproof** | Animals | Survive a Creeper blast standing right beside a rolled-up Armadillo | 90 |
 | ◆ | **Breakfast in Bed** | Animals | Sleep through the night with a tamed Cat beside you and wake to its gift | 50 |
+| ★ | **Breeder's Pantry** | Animals | Carry the breeding food of sixteen different species at the same time | 140 |
 | ◆ | **Bucket Brigade** | Animals | Lead an Axolotl two hundred blocks by holding a Bucket of Tropical Fish | 55 |
+| · | **Bucket List** | Animals | Hold a Bucket of Cod, Salmon, Tropical Fish, Pufferfish, Axolotl and Tadpole all at once | 25 |
+| · | **Bunny Buffet** | Animals | Offer a Rabbit a Carrot, a Golden Carrot and a Dandelion | 15 |
+| ◆ | **Byproducts** | Animals | Hold one of every ordinary animal byproduct at the same time | 60 |
+| · | **Catch of the Deep** | Animals | Hook a Guardian with a Fishing Rod | 15 |
+| · | **Cave Dwellers** | Animals | Breed a pair of animals more than fifty blocks below sea level | 20 |
+| · | **Charged Pork** | Animals | Channel lightning into a Pig and see what walks away | 25 |
 | ◆ | **Climate Croakers** | Animals | Breed a pair of Temperate Frogs, a pair of Warm Frogs and a pair of Cold Frogs | 40 |
+| ★ | **Collar Coded** | Animals | Dye a Wolf's collar in all sixteen colours | 150 |
 | ◆ | **Colour Theory** | Animals | Breed a Blue Sheep with a Yellow Sheep and get a Green lamb out of it | 45 |
+| ◆ | **Comb and Get It** | Animals | Shear a Beehive and a Bee Nest for their Honeycomb until you are holding six combs | 40 |
 | ◆ | **Copper Stable** | Animals | Ride a kilometre without dismounting on a horse in Copper Horse Armor | 60 |
+| · | **Do Not Feed the Birds** | Animals | Offer a Cookie to a Parrot and live with what you have done | 15 |
+| · | **Donkey Work** | Animals | Breed two Donkeys into a foal of their own | 15 |
 | · | **Duvet Day** | Animals | Find one of your tamed Cats asleep on your own bed | 20 |
 | · | **Evel Knievel** | Animals | Clear seven blocks in a single Camel dash | 25 |
+| · | **Familiar Territory** | Animals | Tame the all black Cat that skulks around a Swamp Hut | 25 |
 | ◆ | **Family Planning** | Animals | Breed Chickens in the Overworld, in the Nether and in the End | 70 |
+| ◆ | **Ferry Tales** | Animals | Ride a Boat with a Panda aboard, then with a Fox, then with a Cat | 55 |
+| · | **Fishmonger** | Animals | Buy Cooked Cod and Cooked Salmon from a Fisherman | 15 |
+| · | **Fleeced** | Animals | Breed two Sheep that you have already sheared bare | 20 |
+| ★ | **Full Brass** | Animals | Hold all eight Goat Horns at once | 120 |
 | ◆ | **Full Kennel** | Animals | Equip Wolves with Wolf Armor in the ten dyes Paw Patrol left out, then gather ten armored Wolves around you | 55 |
 | ◆ | **Hatchling** | Animals | Throw a single Chicken Egg that hatches four chicks at once | 70 |
+| · | **Hell for Leather** | Animals | Ride a Horse through the Nether | 25 |
+| ★ | **Hellhound** | Animals | Tame a Wolf in the Nether | 200 |
 | ◆ | **Herding Cats** | Animals | Gather all eleven variants of Cat within eight blocks of you | 50 |
+| ◆ | **High and Low** | Animals | Ride a Horse two hundred blocks above sea level, and again fifty blocks below it | 45 |
+| · | **Hollow Tree** | Animals | Set a Beehive into a wall of Logs with one on either side | 20 |
+| ◆ | **Honeymoon** | Animals | Drink a Honey Bottle in the Overworld, the Nether and the End | 40 |
+| · | **Honeymoon Suite** | Animals | Breed a pair of animals inside an Igloo | 25 |
+| · | **Love and Thunder** | Animals | Breed a pair of animals while a thunderstorm rolls overhead | 20 |
+| ★ | **Mansion Menagerie** | Animals | Breed a pair of animals inside a Woodland Mansion | 160 |
+| ★ | **Mare of the Void** | Animals | Ride a Horse in the End | 180 |
+| ◆ | **Maternity Ward** | Animals | Lay down a Bee Nest, a Turtle Egg and a Sniffer Egg | 45 |
+| · | **Nectar Nuptials** | Animals | Breed two Bees that are both loaded with nectar | 25 |
+| · | **Nether Dairy** | Animals | Milk a Cow in the Nether | 15 |
 | ◆ | **Parrot Choir** | Animals | Get five Parrots dancing at one Jukebox at the same time | 55 |
 | · | **Parrot-phrase** | Animals | Stand by a tamed Parrot while it imitates the sound of a hostile mob | 20 |
+| ◆ | **Pedigree** | Animals | Breed two Wolves that are both wearing Wolf Armor | 55 |
+| ◆ | **Pescatarian** | Animals | Eat Cod, Salmon, Tropical Fish, Pufferfish, Cooked Cod and Cooked Salmon | 40 |
+| · | **Ranch Hand** | Animals | Carry the whole animal handler's kit at once: Shears, a Lead, a Name Tag, a Saddle and a Bundle | 20 |
+| · | **Ride Along** | Animals | Ride a Horse with a tamed Parrot perched on your shoulder | 20 |
+| ◆ | **Rod and Ranch** | Animals | Reel in a Cow, a Pig, a Sheep and a Chicken with a Fishing Rod | 45 |
+| ◆ | **Roll Call** | Animals | Hang a Name Tag on a Wolf, a Horse, a Llama, a Panda and a Sniffer | 45 |
+| · | **Salt Water Cure** | Animals | Drink Milk inside an Ocean Monument to wash off the Elder Guardian's curse | 15 |
+| · | **Scream Team** | Animals | Breed a Goat kid that turns out to be a screamer | 25 |
 | ◆ | **Selective Breeding** | Animals | Breed every variant of Cow, Pig and Chicken yourself | 70 |
 | · | **Shake It Off** | Animals | Soak a tamed Wolf in water, then get it onto land and watch it shake dry | 20 |
+| · | **Skeleton Crew** | Animals | Saddle a Skeleton Horse and ride it | 25 |
 | · | **Sticky Fingers** | Animals | Drop a Diamond on the ground and watch a Fox run off with it | 20 |
 | · | **Storm Warning** | Animals | Toss Bamboo to a worried Panda that is hiding its face from a thunderstorm | 25 |
+| ◆ | **Strong Genes** | Animals | Breed a Llama that inherits the maximum strength of five | 50 |
+| · | **Stubborn as a Mule** | Animals | Tame a Mule of your own | 15 |
+| · | **Summit Kid** | Animals | Breed a pair of Goats more than two hundred blocks up | 25 |
+| · | **Sweet Descent** | Animals | Slide down a Honey Block with a Honey Bottle in each hand | 15 |
+| ◆ | **The Whole Clutch** | Animals | Gather a Chicken Egg, a Blue Egg, a Brown Egg, a Turtle Egg, a Sniffer Egg and the Dragon Egg | 60 |
+| · | **Topsy Turvy** | Animals | Name a Pig 'Dinnerbone' to turn it upside down | 15 |
+| ◆ | **Vertical Integration** | Animals | Breed a pair of Bees, then wax a Copper Block with the Honeycomb they leave you | 50 |
+| · | **Well Done** | Animals | Kill a Cow with a Fire Aspect weapon and walk away with Cooked Beef | 20 |
+| ◆ | **Wheat Whisperer** | Animals | Feed Wheat to a Cow, a Sheep, a Goat, a Mooshroom, a Horse, a Donkey, a Mule and a Llama | 55 |
 
 <details><summary>How these are detected</summary>
 
@@ -149,25 +260,80 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★★ | **Angler's Atlas** | Biomes | Catch a fish in every Overworld biome | 600 |
 | ◆ | **Ark Encounter** | Biomes | Breed a pair of animals while sitting in a Boat out over a deep ocean | 70 |
 | ★ | **Armada** | Biomes | Gather twenty Nautiluses in Nautilus Armor around you | 200 |
+| · | **Bad Neighbourhood** | Biomes | Loot a chest in both a Pillager Outpost and a Woodland Mansion | 15 |
 | · | **Biome Sandwich** | Biomes | Find a spot where three different biomes all sit within eight blocks of you | 30 |
+| · | **Booby Prize** | Biomes | Loot a chest in both a Desert Pyramid and a Jungle Temple | 15 |
 | · | **Both Sides Now** | Biomes | Hold an Open Eyeblossom and a Closed Eyeblossom at the same time | 25 |
+| · | **Brimstone Builder** | Biomes | Place Sulfur Bricks inside the Sulfur Caves | 15 |
+| · | **Bucket of Stink** | Biomes | Scoop a Sulfur Cube up into a Bucket | 15 |
+| · | **Cave Bloom** | Biomes | Plant an Eyeblossom in the Deep Dark, where the day never comes | 15 |
+| · | **Cave Cruise** | Biomes | Board a Boat inside the Lush Caves | 15 |
+| · | **Cellar Door** | Biomes | Loot the hidden chest in the cellar beneath an Igloo | 15 |
+| · | **Chandelier** | Biomes | Hang a Copper Lantern inside the Dripstone Caves | 15 |
+| · | **Chart House** | Biomes | Loot the chest in a village Cartographer's house | 15 |
 | ◆ | **Cold Blooded** | Biomes | Survive a full night in a Frozen Peaks biome wearing no armor at all | 55 |
+| · | **Cold Case** | Biomes | Find an Ocean Ruin sealed under a Frozen Ocean | 15 |
+| ◆ | **Deep Sleeper** | Biomes | Sleep in the Deep Dark, the Dripstone Caves, the Lush Caves and the Sulfur Caves | 40 |
+| · | **Deep Trench** | Biomes | Stand underwater at y 40 or lower on the floor of a deep ocean | 15 |
 | ◆ | **Down Periscope** | Biomes | Ride a Nautilus inside an Ocean Monument | 50 |
+| · | **Dry Season** | Biomes | Collect both Short Dry Grass and Tall Dry Grass | 15 |
+| ◆ | **Eat Local** | Biomes | Eat Sweet Berries in a Taiga, Glow Berries in the Lush Caves, a Melon Slice in a Jungle and Dried Kelp in a Warm Ocean | 40 |
+| ◆ | **Extreme Angling** | Biomes | Catch a fish above y 200 and again below y 0 | 40 |
+| ◆ | **Extreme Camping** | Biomes | Sleep in a bed above y 200 and again below y 0 | 40 |
+| · | **Eye in the Sky** | Biomes | Throw an Eye of Ender while standing at y 200 or higher | 15 |
+| · | **Firefly Nights** | Biomes | Plant a Firefly Bush in a Mangrove Swamp | 15 |
+| ★ | **Fleet Admiral** | Biomes | Board every kind of Boat, and the Bamboo Raft besides | 120 |
+| · | **Frozen Fortress** | Biomes | Find an Ocean Monument under a Deep Frozen Ocean | 15 |
+| · | **Goat Rodeo** | Biomes | Hook a Goat with a Fishing Rod | 15 |
+| ◆ | **Grafted** | Biomes | Plant a Cherry Sapling in the Pale Garden and a Pale Oak Sapling in a Cherry Grove | 50 |
+| · | **Gray Area** | Biomes | Craft Gray Dye from a Closed Eyeblossom and Orange Dye from an Open Eyeblossom | 15 |
+| · | **Hanami** | Biomes | Sleep in a bed beneath the blossoms of a Cherry Grove | 20 |
 | ◆ | **Harpooner** | Biomes | Kill a Guardian with a Spear while underwater | 50 |
+| ◆ | **House Hunting** | Biomes | Loot a house chest in a plains, desert, savanna, snowy and taiga village | 40 |
+| · | **Ice Age** | Biomes | Place Ice, Packed Ice and Blue Ice in a Desert | 15 |
 | ◆ | **Ice Road Trucker** | Biomes | Travel five hundred blocks by boat over Blue Ice without stopping | 55 |
+| · | **Light Reading** | Biomes | Plant Glow Berries on a ceiling inside the Deep Dark | 15 |
+| · | **Miner's Rest** | Biomes | Sleep in a bed inside an Abandoned Mineshaft | 15 |
+| ◆ | **Mountaineer** | Biomes | Stand at y 200 or higher in the Jagged Peaks, the Frozen Peaks and the Stony Peaks | 40 |
 | · | **Now You See Me** | Biomes | Get killed by a Creaking | 15 |
+| ◆ | **Out of Place** | Biomes | Plant Bamboo in a Desert, a Cactus in a Jungle, a Cherry Sapling in a Pale Garden and a Pale Oak Sapling in a Cherry Grove | 40 |
+| · | **Overdue Books** | Biomes | Loot a chest in a Stronghold library | 15 |
 | · | **Pale Imitation** | Biomes | Place a Pale Oak Shelf inside a Pale Garden | 15 |
+| ◆ | **Peak Voltage** | Biomes | Call lightning down onto a Skeleton with a Channeling Trident at y 200 or higher | 40 |
+| ◆ | **Personality Test** | Biomes | Breed Panda cubs that grow up lazy, worried and playful | 50 |
+| · | **Petal Storm** | Biomes | Stand in a Cherry Grove while it is raining | 15 |
 | · | **Pod Cast** | Biomes | Swim alongside a pod of five Dolphins for a full minute | 30 |
 | ◆ | **Power Shower** | Biomes | Build a working Conduit inside an Ocean Monument | 60 |
 | ◆ | **Power Snorkel** | Biomes | Ride a Nautilus while inside a Conduit's power field | 45 |
+| · | **Quiet Table** | Biomes | Enchant an item while standing in the Deep Dark | 15 |
+| · | **Raft Punk** | Biomes | Ride a Bamboo Raft inside a Bamboo Jungle | 15 |
+| · | **Raft Rider** | Biomes | Board a Bamboo Raft in a Bamboo Jungle | 20 |
+| · | **Rain Shadow** | Biomes | Stand in a Badlands while a thunderstorm rages everywhere else | 15 |
+| · | **Ruin Raider** | Biomes | Loot a chest in both a large and a small Underwater Ruin | 15 |
+| · | **Run Aground** | Biomes | Find a Shipwreck that ended up beached on dry land | 15 |
+| ◆ | **Sap Tapper** | Biomes | Collect a full stack of Resin Clumps off the Pale Oaks | 50 |
 | ★★ | **Sea to Shining Sea** | Biomes | Sail five thousand blocks in a boat without ever touching land | 500 |
+| · | **Shipwright** | Biomes | Fit a Chest into a Boat by crafting a Chest Boat | 15 |
 | ★ | **Shoulder to Cry On** | Biomes | Ride a Parrot on your shoulder through both a Nether portal and an End portal | 150 |
+| · | **Skylight** | Biomes | Fall forty blocks down a cave mouth and land in the Lush Caves | 15 |
+| · | **Small Mercies** | Biomes | Loot the chest of one of the little Ocean Ruins, not the big one | 15 |
 | · | **Smokescreen** | Biomes | Punch a Squid underwater and get engulfed in the ink cloud it releases | 15 |
+| · | **Snow Day** | Biomes | Stand in a Grove biome while snow is falling on you | 15 |
+| ◆ | **Storm Rider** | Biomes | Ride a Nautilus across a deep ocean during a thunderstorm | 40 |
+| · | **Summit Marker** | Biomes | Place a Copper Golem Statue at y 250 or higher | 15 |
+| ◆ | **Sunken Payload** | Biomes | Open a Buried Treasure chest while Conduit Power is running on you | 40 |
+| · | **Sunken Statue** | Biomes | Leave a Copper Golem Statue standing inside an Ocean Monument | 15 |
 | · | **Sushi Chef** | Biomes | Skewer both a Squid and a Glow Squid with a Spear | 25 |
 | ◆ | **The Full Copper** | Biomes | Ride a Nautilus wearing Copper Nautilus Armor while wearing a full set of Copper Armour yourself | 60 |
 | ★★ | **The Scenic Route** | Biomes | Walk ten thousand blocks from the world centre with no vehicle, no portal and no Elytra | 400 |
 | · | **Thermal Shock** | Biomes | Stand in a desert and in a frozen biome within ten seconds of each other | 25 |
+| ◆ | **Trespassers** | Biomes | Kill a Zombie in the Mushroom Fields, where none of them can spawn | 40 |
+| ◆ | **Underground Economy** | Biomes | Trade with a Wandering Trader while you are both standing in the Deep Dark | 40 |
+| · | **Ursa Major** | Biomes | Get mauled to death by a Polar Bear | 25 |
+| ◆ | **Wake the Neighbours** | Biomes | Play a music disc in a Jukebox inside an Ancient City | 40 |
+| ◆ | **Whale Song** | Biomes | Blow a Goat Horn while underwater in a deep ocean | 40 |
 | ◆ | **Wide Awake** | Biomes | Survive a full night in the Pale Garden without breaking a single Creaking Heart | 55 |
+| ◆ | **Wooded Waterways** | Biomes | Board a Boat in a Jungle, a Cherry Grove, a Mangrove Swamp, a Dark Forest and a Pale Garden | 55 |
 | ◆ | **Wreck Diver** | Biomes | Ride a Nautilus inside a Shipwreck | 40 |
 
 <details><summary>How these are detected</summary>
@@ -204,24 +370,77 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **All Bark** | Building | Place a fully bark-covered Wood, Hyphae or Bamboo Block of every type | 45 |
+| · | **Bellwether** | Building | Hang a Bell from a ceiling | 15 |
 | · | **Boxed In** | Building | Seal a single block inside Trapdoors on all six faces, then stand on top of the box | 20 |
+| · | **Camping Supplies** | Building | Buy a Campfire from a Fisherman instead of making one yourself | 15 |
+| ◆ | **Candlemaker** | Building | Collect all sixteen dyed Candles | 40 |
+| · | **Cane Cutter** | Building | Craft Sticks out of Bamboo instead of Planks | 15 |
+| · | **Canopy Camp** | Building | Set a Campfire down on top of a block of Leaves | 20 |
 | ◆ | **Cartographer's Wall** | Building | Stand within six blocks of nine filled Maps hung in Item Frames | 65 |
 | · | **Chain of Command** | Building | Hang a Copper Lantern from an unbroken eight-block run of Copper Chain | 30 |
+| ◆ | **Chisel Set** | Building | Craft or collect every kind of Chiseled block | 40 |
+| ◆ | **Cracking Up** | Building | Collect every kind of Cracked block | 40 |
+| · | **Cutting Corners** | Building | Fit a Stair block into an inside corner | 15 |
+| · | **Double Up** | Building | Merge two Slabs into one full double Slab | 15 |
+| · | **Drip Feed** | Building | Set a Cauldron directly beneath a Pointed Dripstone | 15 |
+| · | **Employee of the Month** | Building | Mount a Copper Golem Statue inside an Item Frame | 20 |
+| ◆ | **Field Kitchen** | Building | Fit out a whole kitchen: place a Furnace, a Smoker, a Campfire, a Soul Campfire, a Cauldron and a Composter | 40 |
 | · | **Firefly Lane** | Building | Line a path with twenty Firefly Bushes | 35 |
+| · | **Four of a Kind** | Building | Set a fourth Candle into a single block | 15 |
+| ◆ | **Gathering Moss** | Building | Collect every mossy block there is | 40 |
 | · | **Ground Cover** | Building | Lay down Leaf Litter, Wildflowers, Pink Petals, Moss Carpet and Pale Moss Carpet | 20 |
+| ★ | **Growth Rings** | Building | Stack Cut Copper Stairs four high, each step one stage fresher than the one below it | 110 |
+| · | **Hidden Hatch** | Building | Place a Trapdoor directly above a Ladder to hide the way down | 15 |
+| · | **Kaleidoscope** | Building | Lay four Glazed Terracotta into a two-by-two square | 15 |
+| · | **Lamp Post** | Building | Stand a Torch on top of a Fence post | 15 |
 | ◆ | **Layer Cake** | Building | Hold a Banner that carries six pattern layers | 50 |
 | ★ | **Lighthouse Keeper** | Building | Top a thirty-block tower with Sea Lanterns on an ocean shore | 150 |
+| · | **Log Cabin** | Building | Frame a wooden Door with a Log on either side of it | 15 |
+| · | **Mason's Best** | Building | Buy a Glazed Terracotta from a Mason villager | 15 |
+| · | **Mind the Gate** | Building | Slot a Fence Gate into the middle of a fence line | 15 |
 | ★ | **Monochrome** | Building | Pack five hundred of a single dyed block into one nine-block cube | 180 |
+| ★ | **Neon District** | Building | Hold a full stack of all three Froglights at once | 120 |
+| ◆ | **Nether Nightlight** | Building | Place an Ochre, a Verdant and a Pearlescent Froglight in the Nether | 40 |
 | · | **Off the Shelf** | Building | Take an item back off a Shelf | 15 |
+| ◆ | **On a Pedestal** | Building | Stand a Copper Golem Statue on a plinth of Chiseled Copper above a Cut Copper block | 45 |
+| · | **Overdue Book** | Building | Pull a Book back out of a Chiseled Bookshelf | 15 |
 | · | **Palace Guard** | Building | Arm an Armour Stand with a Spear in one hand and a Shield in the other | 20 |
+| · | **Pattern Maker** | Building | Copy a Smithing Template using diamonds | 15 |
+| · | **Pendant Light** | Building | Hang a Copper Bulb from the bottom of a Copper Chain | 20 |
+| ★ | **Plank Owner** | Building | Carry a full stack of Planks of all twelve wood types at once | 140 |
+| · | **Pot Stack** | Building | Place a Decorated Pot directly on top of another Decorated Pot | 15 |
 | ◆ | **Pottery Barn** | Building | Place twenty-five Decorated Pots without moving more than sixteen blocks | 65 |
+| ◆ | **Powder Keg** | Building | Collect all sixteen colours of Concrete Powder | 40 |
+| · | **Public Reading** | Building | Put a book down on a Lectern | 15 |
+| ◆ | **Quartz Quota** | Building | Buy a Quartz Block and a Quartz Pillar from a Master Mason | 40 |
+| · | **Reading Room** | Building | Set a Lectern between two Bookshelves | 15 |
+| ◆ | **Revolving Doors** | Building | Open a Door made from every type of wood | 45 |
 | ◆ | **Shelf Museum** | Building | Place a Shelf made from every type of wood | 60 |
+| ◆ | **Signpost Forest** | Building | Hang a Hanging Sign made from every type of wood | 45 |
+| ◆ | **Silky Smooth** | Building | Craft or collect every kind of Smooth block | 40 |
+| · | **Site Foreman** | Building | Run Scaffolding out to the very end of its reach | 15 |
 | ★ | **Skyscraper** | Building | Build a solid column from bedrock all the way to the build limit | 220 |
+| · | **Snow Job** | Building | Stack Snow eight layers deep into one block | 15 |
+| · | **Sound Proofing** | Building | Lay a Wool block directly on top of a Sculk Sensor | 15 |
 | · | **Spore Loser** | Building | Hang five Spore Blossoms above one small room | 20 |
 | · | **Spot the Difference** | Building | Fit a Resin Block into a wall of Exposed Copper so it is surrounded on all four sides | 30 |
+| · | **Stalactite** | Building | Hang a Pointed Dripstone from a Dripstone Block | 15 |
+| · | **Storm Magnet** | Building | Plant a Lightning Rod higher than Y=250, up where the storms live | 25 |
+| · | **Story Time** | Building | Set a Book down on a Lectern for everyone to read | 15 |
+| · | **Streetlight** | Building | Stand a Lantern on top of a Fence post | 15 |
+| · | **Sun Trap** | Building | Set a Copper Grate into a roof with nothing but open sky above it | 20 |
 | ◆ | **The Big Picture** | Building | Hang a painting that fills a whole four-by-four wall | 50 |
+| · | **Three Hearths** | Building | Place a Campfire in the Overworld, the Nether and the End | 20 |
+| · | **Tradesman's Entrance** | Building | Hang a Copper Door in a wall with Copper Blocks pressed against both sides of it | 20 |
+| ★ | **Trail of Embers** | Building | Place a Campfire in twelve different biomes, from the Mushroom Fields to the Deep Dark | 120 |
+| ◆ | **Transplant** | Building | Place a Sculk Catalyst in the Nether | 40 |
+| · | **Tree Climber** | Building | Fix a Ladder to the side of a standing Log | 15 |
+| ◆ | **Triple Hung** | Building | Hang a Hanging Sign from a Hanging Sign that hangs from a Hanging Sign | 40 |
 | · | **Trophy Case** | Building | Put a Copper Golem Statue on a Shelf | 15 |
 | ◆ | **Wall to Wall** | Building | Carpet a whole sixteen-by-sixteen floor | 50 |
+| · | **Waterlogged** | Building | Place a Slab underwater so it fills with water | 15 |
+| ◆ | **Waterworks** | Building | Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out | 45 |
 | · | **Xerox** | Building | Copy a finished banner by crafting it beside a blank banner of the same colour | 15 |
 
 <details><summary>How these are detected</summary>
@@ -252,24 +471,73 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| · | **Aegis** | Enchanting | Name a Shield 'Aegis' on an anvil | 10 |
+| ◆ | **Angler's Arsenal** | Enchanting | Fish an Enchanted Book, a Bow and a Fishing Rod out of the water | 55 |
+| · | **Anvil Chorus** | Enchanting | Place an Anvil, a Chipped Anvil and a Damaged Anvil | 15 |
 | · | **Bargain Bin** | Enchanting | Enchant an item using the table's cheapest slot, for one level and one lapis | 20 |
 | ◆ | **Beyond Repair** | Enchanting | Break a tool that was carrying both Mending and Unbreaking III | 60 |
 | ◆ | **Book Worm** | Enchanting | Fill every single slot of your inventory with Enchanted Books | 80 |
+| ◆ | **Bramble Patch** | Enchanting | Let a Zombie hit you while every piece of your armour carries Thorns III | 50 |
+| · | **Can Opener** | Enchanting | Smash a Piglin Brute with a Mace enchanted with Breach IV | 20 |
+| ★ | **Chainsaw** | Enchanting | Hold a Wooden Axe carrying both Efficiency V and Unbreaking III | 120 |
+| · | **Coals to Newcastle** | Enchanting | Kill a Blaze with a Flame Bow, for all the good the fire does | 15 |
+| ★ | **Consecrated Ground** | Enchanting | Put down all eight kinds of common undead with a Smite V weapon | 130 |
+| ◆ | **Controlled Demolition** | Enchanting | Take a Creeper's blast head-on in four pieces of Blast Protection IV armour | 50 |
 | ◆ | **Covering All Bases** | Enchanting | Wear four armour pieces, each with a different kind of Protection. | 60 |
 | ★ | **Cursed** | Enchanting | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece | 150 |
+| · | **Cursed Merchandise** | Enchanting | Buy an Enchanted Book carrying a curse from a Villager | 15 |
 | · | **Cutting Edge Agriculture** | Enchanting | Spend real levels enchanting a Wooden Hoe | 20 |
 | ★ | **Death by a Thousand Cuts** | Enchanting | Finish off a Ravager with Thorns | 150 |
+| ◆ | **Deep Cuts** | Enchanting | Skewer a Guardian, an Elder Guardian, a Drowned and a Squid with an Impaling V Trident | 55 |
 | ◆ | **Deep Impact** | Enchanting | Take ten hearts of fall damage in a single landing while wearing Feather Falling IV boots | 50 |
 | ◆ | **Desert Diver** | Enchanting | Stand in a Desert wearing Aqua Affinity, Respiration III and Depth Strider III | 50 |
 | ★ | **Dewey Decimal** | Enchanting | Carry sixteen Enchanted Books at once, one for each of sixteen set enchantments | 160 |
 | · | **Disenchanted** | Enchanting | Strip an Enchanted Book back down to a plain Book on a Grindstone | 20 |
+| · | **Forbidden Knowledge** | Enchanting | Enchant an item at a table you have set up inside the Deep Dark | 20 |
 | ◆ | **Fortune Favours the Melon** | Enchanting | Break Melons with a Fortune III Axe until you are holding more than nine slices | 40 |
+| ◆ | **Frugal Enchanter** | Enchanting | Spend real levels enchanting all five Copper tools at an Enchanting Table | 50 |
+| ★ | **Full Curriculum** | Enchanting | Buy Protection IV, Sharpness V, Efficiency V, Power V and Unbreaking III books from Villagers | 140 |
+| ◆ | **Ground and Pound** | Enchanting | Flatten a Ravager with a Mace enchanted with Density V | 50 |
+| ◆ | **Hammer Time** | Enchanting | Deal twenty hearts of damage in a single Mace smash | 60 |
+| · | **Home Run** | Enchanting | Kill a Ghast with a bow enchanted with Punch II | 20 |
 | ◆ | **Hook, Line and Mender** | Enchanting | Fish an Enchanted Book with Mending out of the water | 60 |
+| ◆ | **Hot Commute** | Enchanting | Ride a Strider across a lava sea in four pieces of Fire Protection IV armour | 45 |
+| · | **Icarus** | Enchanting | Wear an Elytra you have named 'Icarus' | 15 |
 | ◆ | **Irreconcilable Differences** | Enchanting | Hold a Density V Mace and a Breach IV Mace at the same time | 70 |
+| · | **Leather Bound** | Enchanting | Own a full set of Leather armour with Protection IV on every single piece | 20 |
 | ◆ | **Librarian's Pet** | Enchanting | Buy a Mending book off a Librarian | 50 |
+| · | **Loaded for Bear** | Enchanting | Fire a Crossbow enchanted with Piercing IV | 15 |
+| ◆ | **Long Shot** | Enchanting | Drop a mob from at least sixty blocks away with a Power V Bow | 55 |
+| ◆ | **Loyal to the End** | Enchanting | Wear a Loyalty III Trident right down to nothing | 50 |
+| · | **Melting Point** | Enchanting | Stand on a Magma Block wearing Frost Walker boots and watch them fail you | 15 |
+| ◆ | **Mending Circle** | Enchanting | Wear four armour pieces that all repair themselves with Mending | 45 |
+| · | **Necronomicon** | Enchanting | Name an Enchanted Book 'Necronomicon' on an anvil | 10 |
+| · | **Old Library Card** | Enchanting | Spend levels on an Enchanting Table you set up inside a Stronghold | 15 |
+| ★ | **Omnibus** | Enchanting | Combine six different enchantments onto a single Enchanted Book | 120 |
+| · | **Overqualified** | Enchanting | Put Efficiency V and Unbreaking III on a Wooden Pickaxe | 15 |
 | · | **Penny for Your Thoughts** | Enchanting | Put your first enchantment on a Copper tool | 10 |
+| · | **Personal Space** | Enchanting | Kill a Creeper with a sword enchanted with Knockback II | 15 |
+| ★ | **Planar Scholar** | Enchanting | Enchant something at a table in the Overworld, the Nether and the End | 120 |
+| · | **Pre-Cooked** | Enchanting | Kill a Cow, a Pig, a Sheep, a Chicken and a Rabbit with a Fire Aspect sword | 20 |
+| · | **Restricted Section** | Enchanting | Crack open the loot of a Stronghold Library chest | 20 |
+| · | **Sanctum** | Enchanting | Set up a workshop: place an Enchanting Table, a Grindstone, a Smithing Table and a Lectern | 15 |
+| ◆ | **Sharp Practice** | Enchanting | Kill a mob with a Copper Sword carrying Sharpness V | 50 |
+| ◆ | **Silk Purse** | Enchanting | Carry a Silk Touch pickaxe and a Fortune III pickaxe at the same time | 40 |
+| · | **Skull Bounty** | Enchanting | Kill a Wither Skeleton while swinging a sword enchanted with Looting III | 15 |
+| · | **Sky Hook** | Enchanting | Fire a Riptide Trident while wearing an Elytra on your back | 20 |
+| · | **Steering Committee** | Enchanting | Get a Carrot on a Stick carrying Unbreaking III, Mending and Curse of Vanishing | 20 |
+| · | **Storm Surge** | Enchanting | Launch yourself with a Riptide III Trident during a thunderstorm | 20 |
+| · | **Strip Search** | Enchanting | Strip the bark off a log with an axe enchanted with Efficiency V | 15 |
+| · | **Stuck With You** | Enchanting | Strap on an Elytra enchanted with Curse of Binding | 15 |
+| ★ | **Three of a Kind** | Enchanting | Hold a Loyalty III, a Riptide III and a Channeling Trident at the same time | 140 |
+| ◆ | **Thunderstruck** | Enchanting | Call down lightning on a Ravager with a Channeling Trident | 55 |
+| · | **Toothpick** | Enchanting | Kill an Evoker with a Wooden Sword enchanted with Sharpness V | 20 |
+| · | **Top Shelf** | Enchanting | Enchant a Book using the enchanting table's most expensive slot | 15 |
+| · | **Torpedo** | Enchanting | Swim in Depth Strider III boots while Dolphin's Grace is pushing you along | 20 |
+| ◆ | **Triple Threat** | Enchanting | Carry a Sharpness V sword, a Power V bow and an Impaling V Trident all at once | 50 |
 | ★★ | **Walking Library** | Enchanting | Carry twenty different enchantments at once across your armour and both hands | 250 |
 | · | **Wet Work** | Enchanting | Sit fully submerged in an Aqua Affinity helmet with Respiration III | 25 |
+| ★ | **Wings of Legend** | Enchanting | Finish an Elytra with Unbreaking III, Mending and both curses | 130 |
 
 <details><summary>How these are detected</summary>
 
@@ -308,24 +576,54 @@ WHAT I COULD NOT CONFIRM. That minecraft:entity_hurt_player fires on the LETHAL 
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **Always Room for Dessert** | Farming | Eat a Golden Apple, an Enchanted Golden Apple, a Chorus Fruit, a Honey Bottle and Milk, each one on a completely full hunger bar | 120 |
+| ★ | **Ancient History** | Farming | Breed two Sniffers in the End | 200 |
+| · | **Apple Bobbing** | Farming | Eat an Apple with your head completely underwater | 15 |
+| · | **Apple of My Eye** | Farming | Eat an Apple in a Dark Forest, where the oaks grow thickest | 15 |
+| · | **Arboriculture** | Farming | Place a Log with Leaves on all four of its sides | 20 |
+| · | **Battle Rations** | Farming | Eat a meal while Bad Omen still hangs over you | 20 |
+| · | **Breadwinner** | Farming | Drop Bread in front of a Villager and watch them snatch it up | 15 |
+| ◆ | **Butcher's Block** | Farming | Buy Rabbit Stew, Cooked Porkchop and Cooked Chicken from a Butcher | 40 |
 | ◆ | **Cake Hoarder** | Farming | Place sixty-four Cakes in a single chunk | 60 |
+| ◆ | **Carnivore** | Farming | Eat Cooked Beef, Porkchop, Chicken, Mutton, Rabbit, Cod and Salmon | 55 |
+| ◆ | **Complete Works** | Farming | Carry sixteen signed Written Books at once | 40 |
+| · | **Couch Potato** | Farming | Eat a Baked Potato while sitting in a Boat | 15 |
+| ◆ | **Deep Roots** | Farming | Plant a Sapling below Y=0 and bone meal it into a tree down there | 45 |
 | ◆ | **Dig Site** | Farming | Get a Sniffer to dig on Moss, Mud and Rooted Dirt | 55 |
+| ★ | **Dining Out** | Farming | Eat a meal inside a Village, a Woodland Mansion, an Ocean Monument, a Trial Chamber, a Bastion Remnant, an End City, an Ancient City and a Pillager Outpost | 120 |
+| · | **Dry Rations** | Farming | Eat Dried Kelp in the middle of a Desert, as far from the sea as you can get | 15 |
 | ★ | **Farm to Table** | Farming | Plant wheat, potatoes and beetroot in the End and eat a meal of each there | 200 |
+| ◆ | **Farmer's Market** | Farming | Buy Bread, a Cookie, a Pumpkin Pie, a Cake, an Apple, a Golden Carrot and a Glistering Melon Slice from Villagers | 50 |
+| · | **Fungal Feast** | Farming | Slurp Mushroom Stew in a Mushroom Fields biome | 15 |
+| ◆ | **Gold Standard** | Farming | Hold a Golden Apple, a Golden Carrot and a Glistering Melon Slice at the same time | 40 |
 | ◆ | **Greenhouse Gases** | Farming | Roof a farm with a hundred Glass blocks and harvest Wheat underneath it | 70 |
 | ◆ | **Groundskeeper Willie** | Farming | Work Coarse Dirt or Rooted Dirt back into plain Dirt with a Hoe | 40 |
+| ◆ | **Harvest Moon** | Farming | Eat Bread on the night of a full moon | 40 |
 | ★ | **Herbivore** | Farming | Survive ten in-game days eating only plant-based food | 200 |
+| · | **High Tea** | Farming | Eat a Cookie more than three hundred blocks up in the air | 20 |
+| ◆ | **Hot Pot** | Farming | Eat a Cooked Porkchop while standing in Lava with Fire Resistance | 50 |
 | ◆ | **Hunger Games** | Farming | Take a starvation hit with a Cake in each hand | 30 |
+| ◆ | **Iron Stomach** | Farming | Eat all five foods that can poison you: Rotten Flesh, a Spider Eye, a Poisonous Potato, a Pufferfish and Raw Chicken | 40 |
 | ◆ | **Meltdown** | Farming | Get a Snow Golem into a desert and watch it melt away | 50 |
 | ◆ | **Nest Egg** | Farming | Plant a Sniffer Egg on a Moss Block, the fast way to hatch it | 40 |
 | ◆ | **Nether Orchard** | Farming | Bone meal a sapling into a full tree in the Nether | 40 |
 | ★ | **Old Growth** | Farming | Grow a two-by-two giant tree of every type that has one | 110 |
+| · | **Picnic Ruined** | Farming | Eat a Cooked Beef in the middle of a thunderstorm | 15 |
+| · | **Root and Branch** | Farming | Plant an Azalea on top of Rooted Dirt so it can grow into a tree | 20 |
 | ★★ | **Rotisserie** | Farming | Collect sixty-four Cooked Chicken without ever cooking one yourself | 300 |
 | ◆ | **Scarecrow** | Farming | Stand an Armour Stand wearing a Carved Pumpkin in the middle of a wheat field | 45 |
+| · | **Sea Snack** | Farming | Eat Dried Kelp inside an Ocean Monument | 20 |
+| · | **Second Edition** | Farming | Copy a signed Written Book by crafting it with a Book and Quill | 15 |
 | ★★ | **Seed Bank** | Farming | Carry one of every seed, sapling, propagule and fungus in a single Bundle | 300 |
+| · | **Slash and Burn** | Farming | Set a standing Log alight with Flint and Steel | 15 |
 | ◆ | **Sniffer Sommelier** | Farming | Have a Sniffer turn up both ancient seeds on the same day | 50 |
 | · | **Sourdough** | Farming | Bake bread in the Nether from wheat you planted there | 20 |
 | · | **Stable Diet** | Farming | Feed a whole Hay Bale to a hurt or young Horse | 15 |
+| ◆ | **Strange Soil** | Farming | Plant a Sapling on Podzol, on Mycelium, on a Moss Block, on Mud and on Rooted Dirt | 45 |
+| · | **Thorny Feast** | Farming | Eat Sweet Berries while standing inside a Sweet Berry Bush | 15 |
+| · | **Tidal Nursery** | Farming | Plant a Mangrove Propagule underwater so it stands waterlogged | 20 |
 | ★ | **Underground Allotment** | Farming | Plant every farmland crop below Y=-50 | 140 |
+| · | **Understory** | Farming | Plant a Sapling directly underneath a block of Leaves | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -354,25 +652,78 @@ WHAT I COULD NOT CONFIRM. That minecraft:entity_hurt_player fires on the LETHAL 
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **Ages of Stone** | Mining | Carry a Pickaxe of all seven materials at the same time | 40 |
+| · | **All That Glitters** | Mining | Carry a full set of Golden tools and a Golden Sword at once | 15 |
+| · | **Assay Kit** | Mining | Fill a single Bundle with one of every raw mining drop | 15 |
+| ◆ | **Bark Beetle** | Mining | Strip the bark off a Log with every kind of Axe | 55 |
+| · | **Blind Grab** | Mining | Loot an Ancient City chest while the Darkness effect is on you | 15 |
+| · | **Bone Appétit** | Mining | Force food out of the ground with Bone Meal, on Cave Vines and on a Sweet Berry Bush | 15 |
+| ◆ | **Bottom of the Charts** | Mining | Play a Music Disc in a Jukebox below Y=-55 | 40 |
+| · | **Buff and Polish** | Mining | Scrape the wax straight back off a Copper Golem with an Axe | 20 |
+| · | **Cave Cuisine** | Mining | Plant Glow Berries on a cave ceiling below Y=0 and eat some down there | 20 |
+| · | **Cave Rave** | Mining | Play a Music Disc in a Jukebox in a Lush Caves biome | 15 |
+| ◆ | **Charcoal Burner** | Mining | Smelt five hundred Charcoal | 40 |
 | ★★ | **Chunk Miner** | Mining | Strip an entire Overworld chunk down to bedrock, leaving nothing but air | 800 |
 | · | **Company Car** | Mining | Ride a Boat with a Copper Golem sitting in it beside you | 25 |
+| ◆ | **Conducting Business** | Mining | Channel lightning straight into a Copper Golem with a Channeling Trident | 50 |
+| · | **Control Group** | Mining | Set a plain Copper Block down right beside a Waxed Copper Block and let time tell them apart | 20 |
+| · | **Copper Handyman** | Mining | Strip a log with a Copper Axe and stamp out a dirt path with a Copper Shovel | 20 |
 | ◆ | **Copper Loadout** | Mining | Carry a full set of Copper tools and Copper armour at once | 45 |
+| · | **Cracked Under Heat** | Mining | Smelt both Cracked Deepslate Bricks and Cracked Deepslate Tiles | 15 |
+| · | **Dead Man's Compass** | Mining | Die in an Ancient City with a Recovery Compass in your hand | 15 |
+| · | **Deep Dish** | Mining | Eat a Pumpkin Pie below Y=-50 | 20 |
+| · | **Deep Foundations** | Mining | Place a Blast Furnace below y = -50 | 15 |
+| · | **Deep Fried** | Mining | Cook raw food on a Campfire below Y=-50 | 20 |
 | ★ | **Deep Pockets** | Mining | Fill a Shulker Box to the brim with Diamonds | 150 |
+| · | **Down the Shaft** | Mining | Put a Ladder on a block of Deepslate | 15 |
+| · | **Down to the Handle** | Mining | Bring a Netherite Pickaxe down to its last ten points of durability | 15 |
+| · | **Dripstone Dividend** | Mining | Come away with Raw Copper mined inside a Dripstone Caves biome | 15 |
+| · | **Echo Chamber** | Mining | Blow a Goat Horn in a Dripstone Caves biome | 15 |
+| · | **Emergency Rations** | Mining | Eat an Enchanted Golden Apple inside an Ancient City | 15 |
 | · | **Employee Badge** | Mining | Give a living Copper Golem a name with a Name Tag | 20 |
+| · | **Foundation Stone** | Mining | Lay a Copper Block down on the bedrock at the very bottom of the world | 15 |
+| ★ | **Foundry Quota** | Mining | Craft or smelt a thousand Iron Ingots | 120 |
 | ★ | **Freeze Frame** | Mining | Catch a Copper Block at each of its four oxidation stages and wax it in place | 110 |
 | ◆ | **Golem Courier** | Mining | Catch five Copper Golems carrying items at once | 50 |
+| · | **Grounded** | Mining | Be standing close by when lightning slams into a Lightning Rod | 25 |
+| · | **Hasty Copper** | Mining | Hold a Copper Pickaxe while the Haste effect is running | 15 |
 | · | **Infestation** | Mining | Have six Silverfish swarm you at once | 25 |
+| · | **Ingot Standard** | Mining | Hold a full stack of Copper, Iron and Gold Ingots at the same time | 15 |
 | ◆ | **Interdimensional Sculptor** | Mining | Place a Copper Golem Statue in the Overworld, the Nether and the End | 65 |
+| ★ | **Iron Works** | Mining | Carry every tool and fitting made from Iron Ingots at the same time | 120 |
+| ★ | **Lightning Never Strikes Twice** | Mining | Take a lightning bolt yourself while holding a Lightning Rod in your hand | 120 |
+| ◆ | **Lightning Polish** | Mining | Let lightning hit an Oxidized Copper Golem Statue and blast every trace of patina off it | 50 |
+| · | **Marking the Spot** | Mining | Put a Torch on a Deepslate Diamond Ore before you break it | 15 |
+| · | **Mesa Motherlode** | Mining | Stand in a Badlands biome holding a full stack of Gold Ore | 15 |
+| · | **Miner's Grip** | Mining | Hold a Pickaxe in your main hand and a Torch in your off hand | 15 |
+| · | **Miner's Mess** | Mining | Set a Campfire down inside an Abandoned Mineshaft and eat a Baked Potato beside it | 15 |
+| ◆ | **Mint Condition** | Mining | Carry Copper Nuggets, a Copper Ingot, Raw Copper, a Raw Copper Block and a Copper Block all at once | 40 |
+| · | **Occupational Hazard** | Mining | Get killed by a Cave Spider inside an Abandoned Mineshaft | 15 |
 | ★ | **Patient Investor** | Mining | Place a Copper Block, stand on it, and let it oxidize all the way to green without ever waxing or scraping it | 120 |
 | ★ | **Patina Parade** | Mining | Pose a Copper Golem Statue at every stage of oxidation, in every pose | 110 |
+| ◆ | **Pocket Foundry** | Mining | Carry a Furnace, Blast Furnace, Smoker, Anvil, Smithing Table, Grindstone and Stonecutter at once | 40 |
+| · | **Prospector's Luck** | Mining | Hold a Fortune III pickaxe while standing below y = -50 | 15 |
 | ◆ | **Reverse Logistics** | Mining | Watch a Copper Golem pull an item back out of a Copper Chest and carry it away | 40 |
+| ◆ | **Rustproofing** | Mining | Seal a placed Copper Bulb, Grate, Door, Trapdoor, Chest and Golem Statue with Honeycomb | 60 |
+| · | **Safe Deposit** | Mining | Place a Copper Chest inside an abandoned Mineshaft | 15 |
+| ★ | **Scrap Heap** | Mining | Wear out every Copper tool and every piece of Copper armour until all nine of them break | 120 |
+| ★ | **Sculk Couture** | Mining | Apply both the Ward and the Silence armour trims inside an Ancient City | 120 |
 | ◆ | **Shock Treatment** | Mining | Let lightning strike an Oxidized Copper Block and strip its patina | 45 |
+| ★ | **Silent Supper** | Mining | Set a Cake, a Campfire and a Smoker down inside an Ancient City, then eat a meal there | 120 |
+| · | **Small Change** | Mining | Hold sixty-four Copper, Iron and Gold Nuggets at the same time | 15 |
+| ◆ | **Smelter Array** | Mining | Place sixteen Blast Furnaces | 40 |
+| ★ | **The Pickaxe Graveyard** | Mining | Wear out a Pickaxe of every material until it snaps | 120 |
+| · | **The Smelting Line** | Mining | Place a Furnace, a Blast Furnace and a Smoker | 15 |
 | · | **Time Machine** | Mining | Scrape Copper with an Axe down to Weathered, Exposed and plain Copper | 30 |
+| ◆ | **Torch Factory** | Mining | Craft two thousand Torches | 40 |
 | · | **Torchbearer** | Mining | Place sixty-four Copper Torches | 20 |
+| · | **Untouched Vein** | Mining | Carry an intact Copper Ore block and a Deepslate Copper Ore block at the same time | 20 |
 | ◆ | **Urban Decay** | Mining | Find three separate Ancient Cities | 70 |
 | ◆ | **Vein Miner** | Mining | Break nine Diamond Ore in a single minute | 45 |
 | ★ | **Vertical Limit** | Mining | Go from bedrock to the build limit in under sixty seconds | 170 |
 | ◆ | **Weathering Heights** | Mining | Build a wall showing all four oxidation stages of Copper Block side by side | 40 |
+| ◆ | **Weathervane** | Mining | Raise a spire of Copper Block, Chiseled Copper and a Lightning Rod on top | 40 |
+| ★ | **Wood Fired** | Mining | Craft a Smoker out of every kind of log and stem there is | 120 |
 | · | **Worked to the Bone** | Mining | Use a Copper Pickaxe until it snaps in your hands | 15 |
 
 <details><summary>How these are detected</summary>
@@ -405,21 +756,45 @@ WHAT I COULD NOT CONFIRM. That minecraft:entity_hurt_player fires on the LETHAL 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
 | ◆ | **Bad Medicine** | Monsters | Take Poison, Slowness and Weakness from Witches at the same time | 55 |
+| · | **Bronze Shield** | Monsters | Take a Creeper blast at point-blank range in a full set of Copper armour | 25 |
+| ◆ | **Bug Spray** | Monsters | Kill a Spider, a Cave Spider, a Silverfish and an Endermite with a sword enchanted with Bane of Arthropods | 45 |
 | ◆ | **Caught in My Own Web** | Monsters | Walk into a Cobweb while the Weaving effect carries you straight through it | 50 |
 | ◆ | **Cell Block** | Monsters | Seal a living hostile mob inside a solid six-sided cube of Copper Bars | 50 |
+| · | **Close Shave** | Monsters | Shear a Bogged for its mushrooms, then finish the poor thing off | 20 |
 | ★ | **Death by Committee** | Monsters | Be wounded by ten different kinds of monster inside thirty seconds and survive | 220 |
 | · | **Door to Door** | Monsters | Let a Zombie break down a wooden door on Hard difficulty | 25 |
+| · | **Drowned Civilisation** | Monsters | Kill a Drowned inside an Ocean Ruin | 15 |
+| · | **Eight-Legged Freaks** | Monsters | Kill a Cave Spider inside an abandoned Mineshaft | 20 |
+| ◆ | **Floating Point** | Monsters | Kill a Shulker while its own bullet still has you levitating | 50 |
+| · | **Home Invasion** | Monsters | Kill a Zombified Piglin that has wandered through a portal into the Overworld | 25 |
+| · | **Home Turf** | Monsters | Kill a Witch inside the Swamp Hut she lives in | 15 |
 | ★ | **Identity Crisis** | Monsters | Get killed by the very monster whose head you are wearing | 110 |
+| · | **Junior Varsity** | Monsters | Kill a baby Piglin and a baby Hoglin | 20 |
+| · | **King Size** | Monsters | Kill a Slime of the very largest size | 20 |
 | ◆ | **Landscape Gardener** | Monsters | Watch an Enderman pick up a block and set it down somewhere else | 40 |
 | ◆ | **Leaving a Mess** | Monsters | Be killed by a mob while the Oozing effect is on you | 40 |
+| · | **Magma Chamber** | Monsters | Kill a Magma Cube while standing on a Magma Block | 20 |
+| ★ | **Occupational Hazards** | Monsters | Take Hunger from a Husk, Poison from a Bogged, Slowness from a Stray, Weakness from a Parched, Wither from a Wither Skeleton, Levitation from a Shulker and Darkness from a Warden | 150 |
+| · | **Overcharged** | Monsters | Kill a Charged Creeper before it gets the chance to detonate | 20 |
 | ◆ | **Overtime** | Monsters | Wear a Pickaxe down while an Elder Guardian has you on Mining Fatigue III | 50 |
 | ★ | **Pacifist Streak** | Monsters | Go five in-game days without killing a single mob | 180 |
+| ◆ | **Pale Hunt** | Monsters | Kill a Zombie, a Skeleton, a Creeper and a Spider among the pale oaks | 50 |
 | ★ | **Pyrrhic Victory** | Monsters | Kill the Wither and be killed by the very same blast | 180 |
 | · | **Rain Check** | Monsters | Make an Enderman teleport away by hitting it with a Splash Water Bottle | 15 |
 | · | **Skin Crawler** | Monsters | Be bitten by a Silverfish that burst out of your own Infested effect | 20 |
+| · | **Sleep Tight** | Monsters | Kill a Phantom while standing on a Bed | 25 |
 | ★ | **Sniffed Out** | Monsters | Bait a Warden into picking a different mob as its target instead of you | 140 |
+| · | **Splinters in the Dark** | Monsters | Take a hit from a Creaking | 20 |
+| · | **Standard Issue** | Monsters | Kill a Skeleton that spawned wearing an Iron Helmet | 25 |
 | ◆ | **Staring Contest** | Monsters | Stare down an Enderman while wearing a Carved Pumpkin | 30 |
+| · | **Stone Cold** | Monsters | Kill a Silverfish inside a Stronghold | 20 |
+| · | **Sunrise Service** | Monsters | Kill a Phantom that has caught fire in the morning sun | 20 |
 | ★ | **Terraforming Service** | Monsters | Have three block-carrying Endermen within eight blocks of you at once | 130 |
+| · | **Trap Sprung** | Monsters | Kill a Skeleton that is riding a Skeleton Horse | 25 |
+| ◆ | **Trophy Cabinet** | Monsters | Hold a Creeper Head, a Zombie Head, a Skeleton Skull, a Wither Skeleton Skull and a Piglin Head all at the same time | 65 |
+| ★ | **Under Fire** | Monsters | Take an unblocked hit from a Ghast's fireball, a Blaze's fireball, a Wither's skull, a Shulker's bullet, a Breeze's wind charge and an Evoker's fangs | 140 |
+| ◆ | **Wave Clear** | Monsters | Kill a Breeze, a Bogged, a Slime, a Cave Spider and a Silverfish inside the Trial Chambers | 60 |
+| · | **Zombie Diet** | Monsters | Eat Rotten Flesh, catch the Hunger off it, then wash it away with Milk | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -446,27 +821,81 @@ WHAT I COULD NOT CONFIRM. That minecraft:entity_hurt_player fires on the LETHAL 
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| · | **Airline Food** | Nether | Eat a meal while riding a Happy Ghast | 20 |
+| ★ | **Ancient Arsenal** | Nether | Carry every Netherite tool, weapon and piece of armour at the same time | 120 |
+| ◆ | **Ancient Retirement** | Nether | Wear out a Netherite Pickaxe completely | 40 |
+| ◆ | **Ashen Sniper** | Nether | Shoot a Ghast dead with an Arrow from at least sixty-four blocks away | 40 |
+| · | **Back Door** | Nether | Light a Nether Portal with Flint and Steel from the Nether side | 15 |
 | · | **Backdraft** | Nether | Blow yourself up trying to sleep in a Bed in the Nether | 30 |
+| · | **Bamboo Below** | Nether | Plant Bamboo in the Nether | 25 |
 | · | **Bed Bath and Beyond** | Nether | Set off a bed inside a Bastion Remnant and live through the blast | 25 |
+| ◆ | **Bone Voyage** | Nether | Kill a Wither Skeleton in the Overworld | 40 |
+| · | **Boneyard** | Nether | Stand on top of the Bone Blocks of a Nether Fossil | 15 |
+| · | **Bridge Toll** | Nether | Loot a chest inside a Nether Fortress | 15 |
+| ◆ | **Canopy Crop** | Nether | Collect a stack each of Shroomlight, Nether Wart Block and Warped Wart Block | 40 |
 | · | **Colour Coordinated** | Nether | Ride a Happy Ghast in leather armour dyed to match its Harness | 40 |
+| ◆ | **Crimson Tide** | Nether | Silk Touch a stack of Crimson Nylium and a stack of Warped Nylium | 40 |
+| · | **Cube Root** | Nether | Get squashed to death by a Magma Cube | 15 |
+| ◆ | **Deep Sea Plating** | Nether | Upgrade a set of Nautilus Armor to Netherite | 40 |
+| · | **Delta Diver** | Nether | Submerge yourself in lava in a Basalt Deltas biome | 15 |
+| · | **Devil's Distillery** | Nether | Brew a potion without ever leaving the Nether | 15 |
+| ◆ | **Doused** | Nether | Kill a Blaze while it is standing in water | 40 |
+| · | **Field Workshop** | Nether | Place a Smithing Table and an Anvil in the Nether | 15 |
+| · | **Fortress Lighting** | Nether | Hang a Copper Lantern inside a Nether Fortress | 20 |
 | ◆ | **Fortress of Solitude** | Nether | Spend a full Minecraft day inside a Nether Fortress without once leaving it | 60 |
+| ◆ | **Frozen Over** | Nether | Place Ice, Packed Ice and Blue Ice down in the Nether | 40 |
+| · | **Fungal Forestry** | Nether | Collect a stack of Crimson Stems and a stack of Warped Stems | 15 |
 | · | **Fungus Among Us** | Nether | Drive a Hoglin away by placing Warped Fungus around it | 25 |
 | ★ | **Ghast Couture** | Nether | Ride the same Happy Ghast in all sixteen colours of Harness | 220 |
 | ◆ | **Ghast Nursery** | Nether | Have three Ghastlings trailing your Snowball at once | 60 |
+| · | **Gilded Judgement** | Nether | Kill a Piglin Brute with a Golden Axe | 15 |
+| · | **Golden Rations** | Nether | Eat a Golden Apple inside a Bastion Remnant | 15 |
+| ◆ | **Green Hell** | Nether | Plant an Oak Sapling in the Nether and Bone Meal it into a tree | 40 |
 | ★ | **Growing Pains** | Nether | Rehydrate a Dried Ghast, then raise the Ghastling all the way into a full Happy Ghast | 160 |
+| · | **Hell's Bouquet** | Nether | Plant a Wither Rose down in the Nether | 15 |
+| ◆ | **Hell's Kitchen** | Nether | Place a Furnace, a Smoker and a Campfire inside a Bastion Remnant | 50 |
 | ◆ | **Hunting Party** | Nether | Watch a pack of Piglins bring down a Hoglin | 40 |
+| · | **Incoming!** | Nether | Get killed by a Ghast's fireball | 15 |
+| · | **Just Add Gold** | Nether | Hold four Netherite Scrap and four Gold Ingots at once | 15 |
+| ◆ | **Lava Limo** | Nether | Ride a Strider a thousand blocks across the Nether's lava seas | 40 |
+| · | **Lava Lunch** | Nether | Eat a Cooked Porkchop while riding a Strider out across a lava lake | 20 |
 | ◆ | **Magma Marathon** | Nether | Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage | 75 |
+| · | **Not Gold Enough** | Nether | Learn the hard way that Piglins have no respect for Copper armour | 20 |
+| · | **Nylium Gardener** | Nether | Use Bone Meal on Crimson Nylium and on Warped Nylium | 15 |
+| · | **Pointless Precaution** | Nether | Plant a Lightning Rod in the Nether, where lightning has never once fallen | 20 |
+| · | **Portal Pass** | Nether | Ride a Strider into a Nether Portal | 15 |
+| · | **Portal Pilfering** | Nether | Loot the chest left beside a Ruined Portal | 15 |
+| · | **Portal Salvage** | Nether | Loot the chest of a Ruined Portal on the Nether side | 15 |
 | ★ | **Portal Sniper** | Nether | Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in | 150 |
 | ◆ | **Rainbow Rigging** | Nether | Collect all sixteen colours of Happy Ghast Harness | 60 |
 | ★ | **Roof Runner** | Nether | Travel two thousand blocks on top of the Nether roof | 140 |
+| ◆ | **Scrapyard** | Nether | Collect a full stack of Netherite Scrap | 40 |
+| ◆ | **Second Growth** | Nether | Plant a Crimson Fungus in a Warped Forest and a Warped Fungus in a Crimson Forest | 45 |
+| · | **Singed** | Nether | Take an unblocked Blaze fireball straight to the face | 15 |
 | ★ | **Sky Ferry** | Nether | Fly a Happy Ghast with four leashed mobs dangling beneath it | 160 |
+| · | **Soul Food** | Nether | Cook raw food on a Soul Campfire in the Nether | 15 |
+| · | **Soul Harvest** | Nether | Collect a stack of Soul Sand and a stack of Soul Soil | 15 |
 | ◆ | **Soul Speed Demon** | Nether | Cover five thousand blocks of Soul Sand and Soul Soil wearing Soul Speed III | 85 |
 | · | **Soul Survivor** | Nether | Find a Nether Fortress that generated inside a Soul Sand Valley | 25 |
 | ★ | **Stable Genius** | Nether | Walk a Hoglin all the way up onto the Nether roof | 140 |
 | ◆ | **Static Discharge** | Nether | Get struck by lightning while riding a Happy Ghast | 60 |
+| · | **The Debris Layer** | Nether | Stand below y = 15 in the Nether holding a Diamond or Netherite Pickaxe | 15 |
+| · | **The Final Blade** | Nether | Upgrade a Diamond Sword into a Netherite Sword | 15 |
 | ◆ | **The Floor Is Lava** | Nether | Cross two hundred blocks of Nether lava on foot without ever touching it | 70 |
+| ◆ | **The Long Way Down** | Nether | Fall eighty blocks in a single drop inside the Nether | 40 |
+| ◆ | **Tip of the Spear** | Nether | Upgrade a Diamond Spear into a Netherite Spear | 40 |
+| · | **Trespasser** | Nether | Get killed by an ordinary Piglin | 15 |
+| · | **Tusk Guard** | Nether | Block a charging Hoglin with a Shield | 15 |
 | ◆ | **Under the Bridge** | Nether | Ride a Strider through a Bastion Remnant | 50 |
+| · | **Undercover Bones** | Nether | Wear a Wither Skeleton Skull as a helmet inside a Nether Fortress | 15 |
 | · | **Undressed** | Nether | Take a Harness off a Happy Ghast with Shears | 15 |
+| ◆ | **Untouched Riches** | Nether | Silk Touch a stack of Nether Gold Ore and a stack of Nether Quartz Ore | 40 |
+| · | **Vigil** | Nether | Place a Soul Torch in a Soul Sand Valley | 15 |
+| ◆ | **Warhorse** | Nether | Upgrade a set of Horse Armor to Netherite | 40 |
+| · | **Wart Abroad** | Nether | Plant Nether Wart in the Overworld | 15 |
+| · | **Withering Away** | Nether | Take the Wither effect while you are in the Nether | 15 |
+| · | **Wrong Neighbourhood** | Nether | Kill a Skeleton in a Soul Sand Valley | 15 |
+| · | **You Started It** | Nether | Get killed by a Zombified Piglin after picking the wrong fight | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -499,21 +928,73 @@ WHAT I COULD NOT CONFIRM. That minecraft:entity_hurt_player fires on the LETHAL 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
 | ◆ | **Alchemist's Shelf** | Potions | Place every type of Potion onto Shelves | 70 |
+| ★ | **Alchemist's Tour** | Potions | Pull a potion out of a Brewing Stand in a Witch Hut, an Igloo, a Nether Fortress, an Ancient City and an End City | 120 |
+| · | **All Show, No Heat** | Potions | Catch fire while Fire Resistance keeps you from feeling a thing | 15 |
+| · | **Awkward Silence** | Potions | Drink an Awkward Potion | 15 |
 | ◆ | **Bad Trip** | Potions | Suffer Nausea, Blindness and Darkness all at the same time | 45 |
+| · | **Bitter Pill** | Potions | Drink a Potion of Harming on purpose | 15 |
+| ◆ | **Blast Shielding** | Potions | Take a Creeper blast head on with Resistance and Absorption both running | 40 |
+| ◆ | **Blind Fury** | Potions | Kill an Enderman while both Blindness and Nausea are on you | 40 |
+| ◆ | **Bottle Collection** | Potions | Hold a Glass Bottle, a Water Bottle, a Honey Bottle, a Bottle o' Enchanting, a Dragon's Breath and an Ominous Bottle at once | 40 |
 | · | **Bottle Service** | Potions | Fill a Cauldron to the brim using nothing but Water Bottles | 25 |
+| ◆ | **Bottled Fury** | Potions | Collect a full stack of Dragon's Breath | 40 |
+| · | **Bottoms Up** | Potions | Drink a plain Water Bottle and savour the complete absence of effect | 15 |
 | ★★ | **Breaking Bad** | Potions | Brew a thousand potions | 400 |
 | ★ | **Brewing Under Pressure** | Potions | Pull a potion out of a Brewing Stand inside an Ocean Monument with Mining Fatigue on you | 150 |
+| · | **Bubble Bath** | Potions | Sit in a Water Cauldron while the Water Breathing effect is running | 15 |
 | ◆ | **Call It Off** | Potions | Drink Milk under Raid Omen and cancel the raid before the horn sounds | 55 |
+| ◆ | **Chamber Chemistry** | Potions | Brew a Potion of Wind Charging, a Potion of Weaving and a Potion of Infestation | 40 |
 | ★★ | **Chemical Dependency** | Potions | Never drop below eight simultaneous potion effects for a full in-game day | 500 |
+| ◆ | **Clerical Work** | Potions | Buy both potion modifiers, Redstone Dust and Glowstone, from a Cleric | 40 |
+| ★ | **Combat Cocktail** | Potions | Kill the Ender Dragon with Strength II, Speed II, Fire Resistance, Regeneration and Slow Falling all running | 120 |
+| · | **Cross-Contamination** | Potions | Hold a Potion of Healing in one hand and a Potion of Harming in the other | 15 |
+| · | **Dive Bar** | Potions | Drink a Potion of Water Breathing while inside a Shipwreck | 15 |
+| · | **Doctor's Bag** | Potions | Carry a Splash Potion of Weakness and a Golden Apple at once | 15 |
+| · | **Dragging Your Feet** | Potions | Brew a Potion of Slowness | 15 |
 | · | **Drinking Problem** | Potions | Drain a potion with your head completely underwater | 15 |
+| ★ | **Extra Strength** | Potions | Hold the strong version of every potion that has one, all at the same time | 120 |
+| · | **Fermenter** | Potions | Craft a Fermented Spider Eye | 15 |
+| · | **Field Kit** | Potions | Hold a Splash Potion of Weakness and a Golden Apple at the same time | 15 |
+| ★ | **Field Medicine** | Potions | Cure a Zombie Villager in the Nether | 120 |
+| · | **Flameproof** | Potions | Brew a Potion of Fire Resistance | 15 |
 | ◆ | **Fork in the Road** | Potions | Hold the long and the strong version of the same potion side by side | 50 |
+| ★ | **Fully Stocked** | Potions | Hold every brewing ingredient in the game at the same time | 120 |
+| ◆ | **Ghost in the Machine** | Potions | Walk through an Ancient City under the Invisibility effect | 40 |
+| · | **Hair of the Dog** | Potions | Drink a Potion of Regeneration while the Wither effect is eating away at you | 15 |
 | · | **Hard Water** | Potions | Catch a face full of your own Splash Potion of Harming | 20 |
 | ◆ | **Have Stand, Will Travel** | Potions | Pull a finished potion out of a Brewing Stand in all three dimensions | 50 |
 | ◆ | **Hexed** | Potions | Let a Witch land Poison, Slowness and Weakness on you | 50 |
+| · | **Highlighter** | Potions | Put the Glowing effect onto yourself with a Spectral Arrow | 15 |
+| ◆ | **House Call** | Potions | Cure a Zombie Villager inside the Igloo basement built for exactly that | 40 |
+| · | **Left Behind** | Potions | Get killed by the cloud of your own Lingering Potion | 15 |
+| ◆ | **Light on Your Feet** | Potions | Hold Speed II, Jump Boost II and Slow Falling all at once | 40 |
+| · | **Lights Out** | Potions | Let a Warden put the Darkness effect on you | 15 |
+| · | **Marsh Fever** | Potions | Take the Poison effect off the tip of a Bogged's arrow | 15 |
 | · | **Mise en Place** | Potions | Hold a stack each of Glass Bottles, Nether Wart and Blaze Powder at the same time | 25 |
+| · | **Mixed Messages** | Potions | Hold Levitation and Slow Falling at the same time | 15 |
 | ◆ | **Net Zero** | Potions | Punch a mob to death barehanded with Strength II and Weakness both running. | 60 |
+| ◆ | **Not So Invisible** | Potions | Be invisible while wearing all four pieces of armour, which rather gives you away | 40 |
 | ★ | **Off the Wagon** | Potions | Drink five hundred potions | 250 |
+| ◆ | **Ominous Nightcap** | Potions | Drink an Ominous Bottle inside a Woodland Mansion | 40 |
+| ◆ | **Outrun the Witch** | Potions | Kill a Witch while it is speeding along on its own Swiftness potion | 40 |
 | ★ | **Overdose** | Potions | Hold twelve potion effects at once, each with thirty seconds still to run | 160 |
+| · | **Peak Condition** | Potions | Bite an Enchanted Golden Apple and carry Absorption, Regeneration, Fire Resistance and Resistance all at once | 20 |
+| ◆ | **Push and Pull** | Potions | Hold Haste and Mining Fatigue at the same time | 40 |
+| · | **Rot and Repair** | Potions | Hold the Wither and Regeneration effects at the same time | 15 |
+| · | **Second Set of Lungs** | Potions | Brew a Potion of Water Breathing | 15 |
+| ◆ | **Shared Dose** | Potions | Finish curing a Zombie Villager while Weakness is still running on you too | 40 |
+| ★ | **Six Pack** | Potions | Hold Speed, Haste, Resistance, Jump Boost, Strength and Regeneration all at the same time | 120 |
+| ◆ | **Sober Up** | Potions | Wipe six potion effects off yourself in a single gulp of Milk | 40 |
+| · | **Splash Zone** | Potions | Give yourself the Speed effect without drinking anything, by splashing a potion at your own feet | 15 |
+| · | **Spring Loaded** | Potions | Brew a Potion of Leaping | 15 |
+| · | **Tap Water** | Potions | Fill a Glass Bottle straight out of a filled Cauldron | 15 |
+| ★ | **Terminal Ward** | Potions | Cure a Zombie Villager in the End | 120 |
+| ★ | **The Long Game** | Potions | Hold the extended version of every potion that has one, all at the same time | 120 |
+| · | **Three Ways to Serve** | Potions | Hold the drinkable, splash and lingering versions of the same potion at once | 15 |
+| · | **Toxicology** | Potions | Brew a Potion of Poison and a Potion of Harming | 15 |
+| ★ | **Unseen and Unheard** | Potions | Kill a Warden while the Invisibility effect is running | 120 |
+| · | **Witch's Brew** | Potions | Take a Splash Potion to the face from a Witch | 15 |
+| ◆ | **Worst Case Scenario** | Potions | Bring a level five Raid down on a village with an Ominous Bottle | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -550,23 +1031,77 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| · | **Always On** | Redstone | Place a Copper Bulb directly on top of a Block of Redstone | 15 |
 | · | **Around the Clock** | Redstone | Build a hopper clock: two Hoppers feeding into each other with a Comparator reading one | 25 |
+| · | **Automatic Gate** | Redstone | Place a Fence Gate into a powered spot so it springs open as you set it down | 20 |
+| · | **Bedrock Line** | Redstone | Ride a Minecart at Y=-55 or lower | 20 |
+| · | **Blind Corner** | Redstone | Ride a Minecart wearing a Carved Pumpkin on your head | 15 |
+| · | **Booster Shot** | Redstone | Put a Redstone Torch directly underneath a Powered Rail | 15 |
+| · | **Bulb Ladder** | Redstone | Stack four Copper Bulbs one directly on top of another | 20 |
+| · | **Bulk Order** | Redstone | Buy Redstone Dust from a Villager | 15 |
+| ★ | **Bullseye Express** | Redstone | Hit the bullseye of a Target Block from thirty blocks away, from the seat of a Minecart | 130 |
 | ★ | **Cannonball** | Redstone | Get thrown a hundred blocks sideways by TNT and survive the landing | 150 |
+| ◆ | **Cart Dispenser** | Redstone | Aim a Dispenser straight down at a Rail so it can drop Minecarts onto the track | 40 |
 | ★ | **Chain Reaction** | Redstone | Set off three Dispensers in sequence, each one's projectile hitting the next Target Block | 180 |
+| ◆ | **Chunnel** | Redstone | Ride a Minecart along a track that runs underwater | 40 |
 | ◆ | **Circular Reasoning** | Redstone | Wire four Observers into a loop so they keep pulsing each other forever | 70 |
 | ◆ | **Clock Tower** | Redstone | Wire a Daylight Detector to a Bell at least five blocks below it, using eight pieces of redstone | 45 |
 | ◆ | **Copper Counter** | Redstone | Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern | 80 |
+| · | **Delay Tactics** | Redstone | Click a Repeater through all four of its delay settings | 20 |
+| · | **Distillery** | Redstone | Place a Hopper so it feeds a Brewing Stand for you | 20 |
+| ◆ | **Dropper Chain** | Redstone | Line up three Droppers so each one fires into the next | 45 |
 | ◆ | **Entrapment** | Redstone | Arm eight Tripwire lines inside a single room | 70 |
+| ◆ | **Foundry Line** | Redstone | Automate a Furnace: one Hopper feeding it, another draining it from below | 45 |
+| · | **Friendly Fire** | Redstone | Get shot by an Arrow that no living thing fired, straight out of a Dispenser | 20 |
 | · | **Full Interchange** | Redstone | Build a rail junction where all four types of Rail meet in one nine-by-nine square | 25 |
+| ◆ | **Golem Conveyor** | Redstone | Set a Copper Chest directly under a Hopper so the Copper Golems never have to queue | 40 |
 | · | **Golem on Rails** | Redstone | Get a Copper Golem riding a Minecart on your railway | 30 |
+| ◆ | **Grazing Shot** | Redstone | Clip the very outside edge of a Target Block, for a signal strength of one | 45 |
+| ◆ | **Green Light** | Redstone | Ride a Minecart that is sitting on a live Powered Rail | 40 |
+| · | **Hair Trigger** | Redstone | Hang a Tripwire Hook straight off a Dispenser | 20 |
 | ◆ | **Hoist by Your Own Petard** | Redstone | Blow yourself up with TNT that you lit yourself | 40 |
+| ◆ | **Hopper Highway** | Redstone | Run a line of five Hoppers, every one feeding the next | 50 |
+| · | **Hot Rails** | Redstone | Ride a Minecart while you are on fire | 20 |
+| ◆ | **Interdimensional Commute** | Redstone | Ride a Minecart in the Overworld, the Nether and the End | 60 |
 | · | **Jump the Tracks** | Redstone | Jump a Minecart across a ten-block gap in the track and land back on rails | 40 |
+| ◆ | **Knock on Wood** | Redstone | Push a Wooden Button of every wood type | 45 |
+| · | **Laying Track** | Redstone | Place a Rail without ever getting out of your Minecart | 20 |
+| · | **Light Switch** | Redstone | Stick a Stone Button straight onto a Copper Bulb | 15 |
+| · | **Lit Cargo** | Redstone | Light a Minecart with TNT using Flint and Steel | 20 |
+| · | **Live Wire** | Redstone | Stand in Redstone Dust that is carrying a full strength signal | 20 |
 | ★ | **Mass Production** | Redstone | Chain five Crafters so each one's output feeds the next through a Hopper | 150 |
+| ◆ | **Memory Cell** | Redstone | Set a Comparator against a lit Copper Bulb so it can read what the bulb remembers | 45 |
+| ◆ | **Munitions Plant** | Redstone | Have a Crafter turn out Arrows for you | 45 |
+| · | **Night Train** | Redstone | Ride a Minecart through pitch darkness | 20 |
+| · | **Open Sesame** | Redstone | Lay a Stone Pressure Plate down right in front of an Iron Door | 15 |
 | ★ | **Piston Elevator** | Redstone | Ride a piston-powered elevator a hundred blocks upward | 150 |
+| ◆ | **Portal Express** | Redstone | Ride a Minecart right into a Nether Portal | 40 |
+| ◆ | **Pressure Test** | Redstone | Stand on a powered Wooden Pressure Plate of every wood type | 45 |
+| · | **Pulse Generator** | Redstone | Set an Observer down flush against a Sticky Piston | 15 |
+| ★ | **Rails to Ruins** | Redstone | Ride a Minecart inside an Abandoned Mineshaft, a Stronghold, an Ancient City, a Woodland Mansion and a Nether Fortress | 150 |
+| · | **Reel Estate** | Redstone | Hook a Minecart with a Fishing Rod and reel it in | 20 |
+| · | **Roof Line** | Redstone | Ride a Minecart on top of the Nether, above Y=128 | 20 |
+| ◆ | **Runaway Mine Train** | Redstone | Take a blast from a Minecart with TNT while riding a Minecart of your own | 50 |
+| · | **Sawmill** | Redstone | Watch a Crafter turn Logs into Planks all on its own | 25 |
+| ★ | **Scenic Route** | Redstone | Ride a Minecart in eight different biomes, from Mushroom Fields to Ice Spikes | 130 |
+| ◆ | **Six Ways to Sunday** | Redstone | Place Pistons pointing in all six directions | 40 |
+| ◆ | **Skyline Service** | Redstone | Ride a Minecart at an altitude of Y=300 or higher | 45 |
 | ◆ | **Slime Ladder** | Redstone | Bounce five times in a row on Slime Blocks, each at least three blocks high | 35 |
 | ◆ | **Slow Burn** | Redstone | Line up sixteen Repeaters at full four-tick delay and push a signal down the whole run | 45 |
 | ◆ | **Sorting Facility** | Redstone | Cram twenty-seven Hoppers and twenty-seven Chests into one storage room | 70 |
+| · | **Stalemate** | Redstone | Set two Pistons a block apart, pointing straight at each other | 20 |
+| · | **Sticky Business** | Redstone | Put a Slime Block right on the face of a Sticky Piston | 15 |
+| · | **Storm Alarm** | Redstone | Run Redstone Dust right up against a Lightning Rod so the next storm sets it off | 20 |
+| · | **Storm Chaser** | Redstone | Ride a Minecart under open sky in the middle of a thunderstorm | 20 |
+| · | **Storm Switch** | Redstone | Plant a Lightning Rod directly on top of a Copper Bulb | 15 |
+| · | **Sun Lamp** | Redstone | Sit a Daylight Detector directly on top of a Copper Bulb | 15 |
+| · | **Switchback** | Redstone | Lay Rails into all four corner turns | 20 |
+| · | **Third Rail** | Redstone | Stand inside a Powered Rail while it is switched on | 20 |
 | ★ | **Tickling the Ivories** | Redstone | Build a keyboard: twenty-five Note Blocks in a row tuned in ascending order, then stand on the lowest one | 180 |
+| ◆ | **Tuned In** | Redstone | Set a Comparator so it feeds into a Calibrated Sculk Sensor | 40 |
+| ◆ | **Under Observation** | Redstone | Set an Observer down beside a Shelf, a Copper Chest and a Copper Bulb | 45 |
+| · | **Weigh Station** | Redstone | Set a Comparator to read what is rolling over a Detector Rail | 20 |
+| · | **Wireless** | Redstone | Set a Sculk Sensor flush against a Copper Bulb | 20 |
 
 <details><summary>How these are detected</summary>
 
@@ -601,6 +1136,7 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 | ◆ | **Bruise Collection** | Statistics | Take five thousand hearts of damage across your world | 80 |
 | · | **Bull in a China Shop** | Statistics | Smash twenty Decorated Pots | 20 |
 | · | **Butterfingers** | Statistics | Throw ten thousand items onto the ground | 40 |
+| ◆ | **Cheap and Cheerful** | Statistics | Break a thousand blocks with Copper Pickaxes | 40 |
 | ◆ | **Copper Baron** | Statistics | Mine ten thousand Copper Ore | 65 |
 | ◆ | **Crowd Scene** | Statistics | Place fifty Armour Stands | 60 |
 | ◆ | **Golem Foreman** | Statistics | Build Copper Golems, and place a hundred Carved Pumpkins doing it | 65 |
@@ -608,6 +1144,7 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 | · | **Green Fingers** | Statistics | Place two hundred and fifty Flower Pots | 40 |
 | ◆ | **Harness Hours** | Statistics | Spend ten in-game days actually flying a Happy Ghast | 75 |
 | · | **Laundry Day** | Statistics | Wash a hundred items clean in cauldrons | 30 |
+| ★ | **Overburden** | Statistics | Mine ten thousand blocks of Deepslate | 120 |
 | ◆ | **Shelf Stocker** | Statistics | Place a thousand Shelves | 60 |
 | ◆ | **Spear Master** | Statistics | Wear out twenty-five Spears in battle | 65 |
 | ◆ | **Wind Walker** | Statistics | Use a thousand Wind Charges | 60 |
@@ -638,16 +1175,29 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★★ | **Automated Empire** | Super Challenges | Have Crafters build all twelve of these for you: Bread, Cookies, Cake, Paper, Books, Ladders, Torches, Buckets, Glass Bottles, Sticks, Chests and a Block of Iron | 300 |
+| ★★ | **Bloodlines** | Super Challenges | Breed a pup of every one of the nine Wolf variants | 300 |
+| ★★ | **Copper Standard** | Super Challenges | Kill the Ender Dragon with a Copper Sword while wearing a full set of Copper armour | 300 |
 | ★★ | **Flying Buttress** | Super Challenges | Raise a hall twenty blocks tall walled in Stained Glass and lit by a hundred Candles | 400 |
 | ★★ | **Fort Knox** | Super Challenges | Encase a Chest in a solid five-by-five-by-five cube of Obsidian | 400 |
+| ★★ | **Fragmentary Evidence** | Super Challenges | Hold a full stack of every one of the twenty-three Pottery Sherds at once | 300 |
 | ★★ | **Full Spectrum Flock** | Super Challenges | Breed a lamb of every one of the sixteen Sheep colours | 300 |
 | · | **Ground Zero** | Super Challenges | Stand in the y=0 layer of all three dimensions | 45 |
 | ★★ | **Hanging by a Thread** | Super Challenges | Kill a Warden while on half a heart | 550 |
+| ★★ | **Master Carpenter** | Super Challenges | Place a Door, a Trapdoor and a Fence Gate of every single wood type | 300 |
 | ★★ | **Naked and Afraid** | Super Challenges | Kill an Elder Guardian with no armour and no potion effects | 400 |
+| ★★ | **Ore to Order** | Super Challenges | Hold a full stack of all sixteen ores, ingots and gems at the same time | 300 |
 | ★★ | **Perpetual Motion** | Super Challenges | Stand on a Redstone Lamp and keep a clock flashing it for a full in-game day | 550 |
+| ★★ | **Pharmacopoeia** | Super Challenges | Brew every single potion in the game, every extended and strong variant included | 300 |
 | ★★ | **Population Boom** | Super Challenges | Grow a village of your own from two Villagers to a population of twenty by breeding alone | 400 |
+| ★★ | **Potted History** | Super Challenges | Leave a Decorated Pot behind in all twelve of the Overworld's ruins: Trial Chambers, Ancient City, Trail Ruins, Ocean Monument, Woodland Mansion, Shipwreck, Pillager Outpost, Stronghold, Desert Pyramid, Jungle Temple, Igloo and Swamp Hut | 300 |
+| ★★ | **Scrap Emperor** | Super Challenges | Carry every Netherite tool, weapon and armour piece in your inventory at the same time | 300 |
+| ★★ | **Smitten** | Super Challenges | Beat the Wither to death in melee with a Smite V weapon | 300 |
+| ★★ | **The Larder** | Super Challenges | Pack a single Bundle with one of every food in the game that will stack | 300 |
 | ★★ | **The Long Haul** | Super Challenges | Transport a breeding pair of ten different Overworld species into the Nether and breed all ten there | 400 |
 | ★★ | **Untouchable** | Super Challenges | Kill the Ender Dragon without ever dropping below half health | 600 |
+| ★★ | **Verdigris Champion** | Super Challenges | Kill the Ender Dragon, the Wither, a Warden and an Elder Guardian while wearing a full set of Copper Armour | 350 |
+| ★★ | **Wandering Wholesaler** | Super Challenges | Buy every log, sapling and propagule the Wandering Trader stocks | 300 |
 
 <details><summary>How these are detected</summary>
 
@@ -674,16 +1224,23 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 | ◆ | **Dead Reckoning** | The End | Glide a full kilometre on an Elytra without firing a single rocket | 70 |
 | ★★ | **Dragon Rider** | The End | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch | 400 |
 | ◆ | **Dragon's Perch** | The End | Stand an End Ship's Dragon Head on the central island's exit portal | 60 |
+| · | **Endgame Grill** | The End | Cook raw food on a Campfire inside an End City | 20 |
 | · | **Endless Summer** | The End | Plant a Chorus Flower inside an End City and eat a Chorus Fruit there | 25 |
 | ◆ | **Gateway Tourist** | The End | Teleport through End Gateways ten times | 60 |
 | ★ | **Golem Grand Tour** | The End | Have a living Copper Golem standing beside you in the Overworld, the Nether and the End | 160 |
+| · | **Interdimensional Snack** | The End | Eat a Chorus Fruit in the Nether and let it throw you somewhere you did not choose | 20 |
+| · | **Last Post** | The End | Ring a Bell in the End | 15 |
 | ◆ | **Needle Threader** | The End | Glide through a Nether portal on an Elytra without stopping | 70 |
 | ★ | **Pearl Chain** | The End | Throw five Ender Pearls without touching the ground between teleports | 160 |
 | · | **Pearl Portal** | The End | Send an Ender Pearl through an End Gateway and ride it to the other side | 45 |
 | ◆ | **Round Trip** | The End | Leave the central island through one End Gateway, come home, and leave again through a different one | 60 |
 | ★★ | **Ship of Theseus** | The End | Strip the Elytra out of five different End Ships | 350 |
 | ★ | **Shulker Removal Service** | The End | Kill every Shulker in one End City | 180 |
+| ◆ | **Shulker Shakedown** | The End | Skewer a Shulker with a Copper Spear inside an End City | 55 |
+| ◆ | **Sky Tailor** | The End | Apply the Spire armour trim to a piece of armour inside an End City | 40 |
 | ★ | **Snail's Pace in Space** | The End | Ride a Nautilus in the End | 150 |
+| · | **Space Jam** | The End | Play a Music Disc in a Jukebox inside an End City | 15 |
+| · | **Void Fanfare** | The End | Blow a Goat Horn in the End | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -711,22 +1268,65 @@ Second, an advancement cannot compare the thrower's identity to the triggering p
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
 | ◆ | **Air Superiority** | Weaponry | Charge a mob with a Spear from the back of a Happy Ghast | 60 |
+| · | **Angling for a Promotion** | Weaponry | Hook a Copper Golem with a Fishing Rod and reel it in | 20 |
+| · | **Axe to Grind** | Weaponry | Kill a Vindicator with an axe of your own | 15 |
 | ★ | **Bare Knuckle** | Weaponry | Kill ten kinds of hostile mob with your bare fists | 140 |
 | ◆ | **Boomerang Bones** | Weaponry | Take a Skeleton's arrow, then put one straight back inside ten seconds | 45 |
 | · | **Bring a Spear to a Gunfight** | Weaponry | Kill a Pillager that is holding a loaded Crossbow using a Spear | 20 |
 | ◆ | **Bronze Age** | Weaponry | Kill a mob with each of the Copper sword, axe, pickaxe, shovel and hoe | 55 |
+| · | **Bronze Lance** | Weaponry | Kill a mob with a Copper Spear while dressed head to toe in Copper armour | 25 |
+| · | **Bronze Point** | Weaponry | Kill a mob with a Copper Spear | 15 |
+| ◆ | **Bullfighter** | Weaponry | Kill a Ravager with the charge attack of a Spear | 60 |
+| ◆ | **Business End** | Weaponry | Stab a Guardian to death with a Trident enchanted with Impaling | 50 |
 | ◆ | **Can You Hear Me Now?** | Weaponry | Take a Warden's sonic boom from more than twelve blocks away | 70 |
+| ◆ | **Celebration Volley** | Weaponry | Kill a Vindicator with a Firework Rocket fired from a Crossbow | 40 |
+| ★ | **Copper Constabulary** | Weaponry | Book a Pillager, a Vindicator, an Evoker and a Witch, each with a Copper Sword | 120 |
+| ◆ | **Counter-Sniper** | Weaponry | Shoot a Pillager dead from at least forty blocks away | 40 |
+| ★ | **Cut-Price Champion** | Weaponry | Cut down an Elder Guardian with nothing better than a Copper Sword | 130 |
 | ◆ | **Deep Freeze** | Weaponry | Kill a monster that has frozen solid in Powder Snow | 45 |
+| ◆ | **Deep Sea Javelin** | Weaponry | Kill a Guardian with a thrown Trident | 40 |
+| ◆ | **Distant Wailing** | Weaponry | Kill a Ghast with an arrow from at least sixty blocks away | 60 |
+| ◆ | **Double Tap** | Weaponry | Kill a Skeleton and the Spider it is riding with a single piercing arrow | 70 |
+| ★ | **Dragonlance** | Weaponry | Kill the Ender Dragon with a Spear | 180 |
+| · | **Firewood** | Weaponry | Wear a Wooden Axe all the way down until it snaps in your hand | 15 |
+| · | **Fool's Gold** | Weaponry | Kill a Piglin Brute with a Golden Sword | 25 |
 | ◆ | **Ghast Lancer** | Weaponry | Land a Spear charge attack on a mob while riding a Happy Ghast high above the clouds | 75 |
 | ◆ | **Ghost Story** | Weaponry | Kill a Phantom with a Spear charge attack as it dives at you | 50 |
+| · | **Gilded Treachery** | Weaponry | Kill a Piglin while wearing a full set of Golden Armour | 25 |
 | ★ | **Ground Floor** | Weaponry | Kill a monster with a Mace smash at the very bottom of the world | 120 |
 | ★ | **Handicap Match** | Weaponry | Kill a hostile monster while suffering Weakness, Slowness, Poison and Nausea all at once | 120 |
+| · | **Hard-Headed** | Weaponry | Kill a Wither Skeleton while holding one of their own skulls | 20 |
+| ◆ | **Home Advantage** | Weaponry | Kill a Guardian while Conduit Power is running on you | 50 |
+| · | **Immortal Combat** | Weaponry | Kill an Evoker while already holding a Totem of Undying | 25 |
+| ★ | **Iron Fist** | Weaponry | Kill a Ravager with nothing in either hand | 150 |
+| · | **Lava Patrol** | Weaponry | Kill a Magma Cube while riding a Strider | 25 |
 | · | **Long Reach of the Law** | Weaponry | Kill a mob with a Spear from at least four blocks away | 20 |
+| · | **Marked for Death** | Weaponry | Kill a hostile monster that is glowing from your Spectral Arrow | 25 |
+| ◆ | **Out-Archered** | Weaponry | Kill a Skeleton, a Stray, a Bogged and a Parched with arrows of your own | 55 |
 | · | **Own Goal** | Weaponry | Throw an Ender Pearl and die at the other end of it | 20 |
+| ◆ | **Pick Your Battles** | Weaponry | Attack a mob with every kind of Pickaxe | 40 |
+| ★ | **Pointed Progression** | Weaponry | Attack a mob with every kind of Spear | 120 |
+| · | **Poke the Bear** | Weaponry | Hit a Warden with a Snowball and live to regret it | 20 |
+| ◆ | **Riot Squad** | Weaponry | Bring down a Ravager with a Copper Axe | 55 |
+| · | **Rock and a Hard Place** | Weaponry | Kill a Silverfish with a Stone Pickaxe | 15 |
+| · | **Rust Bucket** | Weaponry | Get yourself killed by a mob while wearing a full set of Copper armour | 20 |
+| ★ | **Rust Never Sleeps** | Weaponry | Kill a Warden with a Copper Sword | 170 |
+| · | **Rusty Nail** | Weaponry | Kill a hostile monster with a Copper Spear | 20 |
+| · | **Sitting Duck** | Weaponry | Kill a hostile monster that you have trapped inside a Boat | 20 |
+| · | **Sky Harpoon** | Weaponry | Kill a Phantom with a thrown Trident | 25 |
+| ★ | **Smite Club** | Weaponry | Kill a Zombie, a Husk, a Drowned, a Zombie Villager, a Zombified Piglin and a Wither Skeleton with a sword enchanted with Smite | 130 |
 | ◆ | **Splinter Cell** | Weaponry | Block hits until your Shield falls apart in your hand | 50 |
+| ◆ | **Storm Caller** | Weaponry | Bring down a Phantom with lightning called by a Channeling Trident | 60 |
+| ◆ | **Storm the Castle** | Weaponry | Channel a bolt of lightning into a mob while you are inside a Pillager Outpost | 40 |
 | ★ | **Stuck in the Middle With You** | Weaponry | Kill a monster with a Spear while it is tangled in a Cobweb | 120 |
+| ◆ | **Swat Team** | Weaponry | Kill a Phantom with a Mace smash attack | 65 |
 | · | **Talk to the Hand** | Weaponry | Have a Breeze swat your own arrow straight back into you | 25 |
+| · | **Tugboat** | Weaponry | Reel in a Boat with a Fishing Rod | 20 |
+| · | **Turnabout** | Weaponry | Kill a Vindicator with an Iron Axe of your own | 20 |
 | ★ | **Weapon Rack** | Weaponry | Mount a Sword, an Axe, a Bow, a Crossbow, a Trident, a Mace and a Spear in seven Item Frames | 180 |
+| · | **Whittled Arsenal** | Weaponry | Carry a Wooden Sword, Axe, Pickaxe, Shovel, Hoe and Spear all at once | 20 |
+| ★ | **Wither on a Budget** | Weaponry | Kill the Wither with a Copper Sword while wearing a full set of Copper armour | 180 |
+| ★ | **Woodsman's Justice** | Weaponry | Kill an Evoker, a Vindicator, a Pillager and a Ravager, each one with an Axe | 130 |
 | ◆ | **Yeet** | Weaponry | Knock a mob a hundred blocks through the air with a single hit | 70 |
 
 <details><summary>How these are detected</summary>
@@ -787,284 +1387,884 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 
 # Alphabetical index
 
-All 275 advancements, A to Z, with the tab each one appears in.
+All 875 advancements, A to Z, with the tab each one appears in.
 
 | Advancement | Tab | | What you do |
 |---|---|---|---|
 | **Abyssal Jouster** | Biomes | ★ | Kill a Drowned with a Spear charge while riding a Nautilus |
+| **Aegis** | Enchanting | · | Name a Shield 'Aegis' on an anvil |
+| **Ages of Stone** | Mining | ◆ | Carry a Pickaxe of all seven materials at the same time |
 | **Air Superiority** | Weaponry | ◆ | Charge a mob with a Spear from the back of a Happy Ghast |
+| **Airline Food** | Nether | · | Eat a meal while riding a Happy Ghast |
 | **Alchemist's Shelf** | Potions | ◆ | Place every type of Potion onto Shelves |
+| **Alchemist's Tour** | Potions | ★ | Pull a potion out of a Brewing Stand in a Witch Hut, an Igloo, a Nether Fortress, an Ancient City and an End City |
+| **All Bark** | Building | ◆ | Place a fully bark-covered Wood, Hyphae or Bamboo Block of every type |
 | **All Eyes on Me** | Biomes | ◆ | Plant ten Eyeblossoms and be standing among them when they all open at dusk |
+| **All Show, No Heat** | Potions | · | Catch fire while Fire Resistance keeps you from feeling a thing |
+| **All That Glitters** | Mining | · | Carry a full set of Golden tools and a Golden Sword at once |
 | **Alt+F4** | Statistics | · | Leave the game a thousand times |
+| **Always On** | Redstone | · | Place a Copper Bulb directly on top of a Block of Redstone |
+| **Always Room for Dessert** | Farming | ★ | Eat a Golden Apple, an Enchanted Golden Apple, a Chorus Fruit, a Honey Bottle and Milk, each one on a completely full hunger bar |
 | **Amphibian Assassin** | Animals | · | Watch a Frog swallow a small Slime and cough up the slimeball |
+| **Ancient Arsenal** | Nether | ★ | Carry every Netherite tool, weapon and piece of armour at the same time |
+| **Ancient History** | Farming | ★ | Breed two Sniffers in the End |
+| **Ancient Retirement** | Nether | ◆ | Wear out a Netherite Pickaxe completely |
+| **Angler's Arsenal** | Enchanting | ◆ | Fish an Enchanted Book, a Bow and a Fishing Rod out of the water |
 | **Angler's Atlas** | Biomes | ★★ | Catch a fish in every Overworld biome |
+| **Angling for a Promotion** | Weaponry | · | Hook a Copper Golem with a Fishing Rod and reel it in |
+| **Anvil Chorus** | Enchanting | · | Place an Anvil, a Chipped Anvil and a Damaged Anvil |
+| **Apple Bobbing** | Farming | · | Eat an Apple with your head completely underwater |
+| **Apple of My Eye** | Farming | · | Eat an Apple in a Dark Forest, where the oaks grow thickest |
+| **Aquarium Stock** | Adventure | · | Buy a Bucket of Pufferfish and a Bucket of Tropical Fish from Wandering Traders |
+| **Arboriculture** | Farming | · | Place a Log with Leaves on all four of its sides |
 | **Ark Encounter** | Biomes | ◆ | Breed a pair of animals while sitting in a Boat out over a deep ocean |
 | **Armada** | Biomes | ★ | Gather twenty Nautiluses in Nautilus Armor around you |
 | **Armadillo Roller** | Animals | · | Startle an Armadillo into rolling up five separate times |
 | **Around the Clock** | Redstone | · | Build a hopper clock: two Hoppers feeding into each other with a Comparator reading one |
 | **Around the Worlds** | The End | ★ | Ride a Happy Ghast in the Overworld, the Nether and the End |
+| **Ashen Sniper** | Nether | ◆ | Shoot a Ghast dead with an Arrow from at least sixty-four blocks away |
+| **Assay Kit** | Mining | · | Fill a single Bundle with one of every raw mining drop |
 | **Assistant of the Year** | Statistics | ★ | Have Allays hand you a thousand items |
+| **Automated Empire** | Super Challenges | ★★ | Have Crafters build all twelve of these for you: Bread, Cookies, Cake, Paper, Books, Ladders, Torches, Buckets, Glass Bottles, Sticks, Chests and a Block of Iron |
+| **Automatic Gate** | Redstone | · | Place a Fence Gate into a powered spot so it springs open as you set it down |
+| **Awkward Silence** | Potions | · | Drink an Awkward Potion |
+| **Axe to Grind** | Weaponry | · | Kill a Vindicator with an axe of your own |
+| **Baa Baa Rainbow Sheep** | Animals | · | Name a Sheep 'jeb_' and watch its wool cycle through every colour |
+| **Back Door** | Nether | · | Light a Nether Portal with Flint and Steel from the Nether side |
 | **Backdraft** | Nether | · | Blow yourself up trying to sleep in a Bed in the Nether |
+| **Backseat Breeder** | Animals | · | Feed a Cactus to a Camel while sitting on another Camel |
+| **Backseat Driver** | Adventure | ◆ | Kill a Pillager while it is riding a Ravager |
+| **Bad Dog** | Animals | · | Get killed by a Wolf |
 | **Bad Medicine** | Monsters | ◆ | Take Poison, Slowness and Weakness from Witches at the same time |
+| **Bad Neighbourhood** | Biomes | · | Loot a chest in both a Pillager Outpost and a Woodland Mansion |
 | **Bad Trip** | Potions | ◆ | Suffer Nausea, Blindness and Darkness all at the same time |
+| **Bamboo Below** | Nether | · | Plant Bamboo in the Nether |
 | **Bare Knuckle** | Weaponry | ★ | Kill ten kinds of hostile mob with your bare fists |
 | **Bargain Bin** | Enchanting | · | Enchant an item using the table's cheapest slot, for one level and one lapis |
+| **Bark Beetle** | Mining | ◆ | Strip the bark off a Log with every kind of Axe |
 | **Barrel of Laughs** | Statistics | ◆ | Open a thousand Barrels |
+| **Battle Rations** | Farming | · | Eat a meal while Bad Omen still hangs over you |
+| **Beast of Burden** | Animals | · | Strap a Chest onto a Donkey, a Mule and a Llama |
 | **Bed Bath and Beyond** | Nether | · | Set off a bed inside a Bastion Remnant and live through the blast |
+| **Bedrock Line** | Redstone | · | Ride a Minecart at Y=-55 or lower |
 | **Bee Movie** | Animals | ★ | Have twenty Bees leave their stingers in you and live to tell it |
+| **Bell, Book and Candle** | Adventure | ◆ | Carry a Bell, a Book and a Candle at the same time |
+| **Bellwether** | Building | · | Hang a Bell from a ceiling |
 | **Beyond Repair** | Enchanting | ◆ | Break a tool that was carrying both Mending and Unbreaking III |
 | **Biome Sandwich** | Biomes | · | Find a spot where three different biomes all sit within eight blocks of you |
+| **Birdseed Buffet** | Animals | ◆ | Offer a Parrot every one of the six seeds |
+| **Bitter Pill** | Potions | · | Drink a Potion of Harming on purpose |
 | **Blast Off, Bop** | Adventure | · | Send a Copper Golem flying with a thrown Wind Charge |
+| **Blast Shielding** | Potions | ◆ | Take a Creeper blast head on with Resistance and Absorption both running |
 | **Bless You** | Animals | · | Collect the slimeball a baby Panda drops when it sneezes |
+| **Blind Corner** | Redstone | · | Ride a Minecart wearing a Carved Pumpkin on your head |
+| **Blind Faith** | Adventure | · | Trade with a Villager while Blindness is on you |
+| **Blind Fury** | Potions | ◆ | Kill an Enderman while both Blindness and Nausea are on you |
+| **Blind Grab** | Mining | · | Loot an Ancient City chest while the Darkness effect is on you |
+| **Bloodlines** | Super Challenges | ★★ | Breed a pup of every one of the nine Wolf variants |
+| **Blossom Buddies** | Animals | · | Breed two Bees under the petals of a Cherry Grove |
+| **Blowfish Roulette** | Animals | · | Eat a Pufferfish and come away carrying Poison, Hunger and Nausea all at once |
+| **Blowing the Whistle** | Animals | · | Blow a Goat Horn inside a Pillager Outpost |
+| **Blue Blood** | Animals | ◆ | Breed two Horses that are both wearing Diamond Horse Armor |
 | **Boat Drop** | Adventure | ◆ | Survive a sixty-block fall while sitting in a boat |
 | **Bombproof** | Animals | ★ | Survive a Creeper blast standing right beside a rolled-up Armadillo |
+| **Bone Appétit** | Mining | · | Force food out of the ground with Bone Meal, on Cave Vines and on a Sweet Berry Bush |
+| **Bone Voyage** | Nether | ◆ | Kill a Wither Skeleton in the Overworld |
+| **Boneyard** | Nether | · | Stand on top of the Bone Blocks of a Nether Fossil |
+| **Booby Prize** | Biomes | · | Loot a chest in both a Desert Pyramid and a Jungle Temple |
 | **Book Worm** | Enchanting | ◆ | Fill every single slot of your inventory with Enchanted Books |
 | **Boomerang Bones** | Weaponry | ◆ | Take a Skeleton's arrow, then put one straight back inside ten seconds |
+| **Booster Shot** | Redstone | · | Put a Redstone Torch directly underneath a Powered Rail |
 | **Both Sides Now** | Biomes | · | Hold an Open Eyeblossom and a Closed Eyeblossom at the same time |
+| **Bottle Collection** | Potions | ◆ | Hold a Glass Bottle, a Water Bottle, a Honey Bottle, a Bottle o' Enchanting, a Dragon's Breath and an Ominous Bottle at once |
 | **Bottle Service** | Potions | · | Fill a Cauldron to the brim using nothing but Water Bottles |
+| **Bottled Fury** | Potions | ◆ | Collect a full stack of Dragon's Breath |
 | **Bottom Feeder** | Statistics | ◆ | Cover five kilometres walking along the sea floor underwater |
+| **Bottom of the Charts** | Mining | ◆ | Play a Music Disc in a Jukebox below Y=-55 |
+| **Bottoms Up** | Potions | · | Drink a plain Water Bottle and savour the complete absence of effect |
 | **Boxed In** | Building | · | Seal a single block inside Trapdoors on all six faces, then stand on top of the box |
+| **Bramble Patch** | Enchanting | ◆ | Let a Zombie hit you while every piece of your armour carries Thorns III |
+| **Breadwinner** | Farming | · | Drop Bread in front of a Villager and watch them snatch it up |
 | **Breakfast in Bed** | Animals | ◆ | Sleep through the night with a tamed Cat beside you and wake to its gift |
 | **Breaking Bad** | Potions | ★★ | Brew a thousand potions |
+| **Breeder's Pantry** | Animals | ★ | Carry the breeding food of sixteen different species at the same time |
 | **Breeze Block** | Adventure | ◆ | Kill a Breeze with the charge attack of a Spear |
 | **Brewing Under Pressure** | Potions | ★ | Pull a potion out of a Brewing Stand inside an Ocean Monument with Mining Fatigue on you |
+| **Bridge Toll** | Nether | · | Loot a chest inside a Nether Fortress |
+| **Brimstone Builder** | Biomes | · | Place Sulfur Bricks inside the Sulfur Caves |
 | **Bring a Spear to a Gunfight** | Weaponry | · | Kill a Pillager that is holding a loaded Crossbow using a Spear |
 | **Bronze Age** | Weaponry | ◆ | Kill a mob with each of the Copper sword, axe, pickaxe, shovel and hoe |
+| **Bronze Lance** | Weaponry | · | Kill a mob with a Copper Spear while dressed head to toe in Copper armour |
+| **Bronze Point** | Weaponry | · | Kill a mob with a Copper Spear |
+| **Bronze Shield** | Monsters | · | Take a Creeper blast at point-blank range in a full set of Copper armour |
 | **Bruise Collection** | Statistics | ◆ | Take five thousand hearts of damage across your world |
+| **Bubble Bath** | Potions | · | Sit in a Water Cauldron while the Water Breathing effect is running |
 | **Bucket Brigade** | Animals | ◆ | Lead an Axolotl two hundred blocks by holding a Bucket of Tropical Fish |
+| **Bucket List** | Animals | · | Hold a Bucket of Cod, Salmon, Tropical Fish, Pufferfish, Axolotl and Tadpole all at once |
+| **Bucket of Stink** | Biomes | · | Scoop a Sulfur Cube up into a Bucket |
+| **Buff and Polish** | Mining | · | Scrape the wax straight back off a Copper Golem with an Axe |
+| **Bug Spray** | Monsters | ◆ | Kill a Spider, a Cave Spider, a Silverfish and an Endermite with a sword enchanted with Bane of Arthropods |
+| **Bulb Ladder** | Redstone | · | Stack four Copper Bulbs one directly on top of another |
+| **Bulk Order** | Redstone | · | Buy Redstone Dust from a Villager |
 | **Bull in a China Shop** | Statistics | · | Smash twenty Decorated Pots |
+| **Bullfighter** | Weaponry | ◆ | Kill a Ravager with the charge attack of a Spear |
+| **Bullseye Express** | Redstone | ★ | Hit the bullseye of a Target Block from thirty blocks away, from the seat of a Minecart |
 | **Bundle of Everything** | Adventure | ◆ | Collect all sixteen colours of Bundle |
+| **Bunny Buffet** | Animals | · | Offer a Rabbit a Carrot, a Golden Carrot and a Dandelion |
+| **Business End** | Weaponry | ◆ | Stab a Guardian to death with a Trident enchanted with Impaling |
+| **Butcher's Block** | Farming | ◆ | Buy Rabbit Stew, Cooked Porkchop and Cooked Chicken from a Butcher |
 | **Butterfingers** | Statistics | · | Throw ten thousand items onto the ground |
+| **Byproducts** | Animals | ◆ | Hold one of every ordinary animal byproduct at the same time |
 | **Cake Hoarder** | Farming | ◆ | Place sixty-four Cakes in a single chunk |
 | **Call It Off** | Potions | ◆ | Drink Milk under Raid Omen and cancel the raid before the horn sounds |
+| **Camping Supplies** | Building | · | Buy a Campfire from a Fisherman instead of making one yourself |
+| **Can Opener** | Enchanting | · | Smash a Piglin Brute with a Mace enchanted with Breach IV |
 | **Can You Hear Me Now?** | Weaponry | ◆ | Take a Warden's sonic boom from more than twelve blocks away |
+| **Candlemaker** | Building | ◆ | Collect all sixteen dyed Candles |
+| **Cane Cutter** | Building | · | Craft Sticks out of Bamboo instead of Planks |
 | **Cannonball** | Redstone | ★ | Get thrown a hundred blocks sideways by TNT and survive the landing |
+| **Canopy Camp** | Building | · | Set a Campfire down on top of a block of Leaves |
+| **Canopy Crop** | Nether | ◆ | Collect a stack each of Shroomlight, Nether Wart Block and Warped Wart Block |
+| **Carnivore** | Farming | ◆ | Eat Cooked Beef, Porkchop, Chicken, Mutton, Rabbit, Cod and Salmon |
+| **Cart Dispenser** | Redstone | ◆ | Aim a Dispenser straight down at a Rail so it can drop Minecarts onto the track |
 | **Cartographer's Wall** | Building | ◆ | Stand within six blocks of nine filled Maps hung in Item Frames |
+| **Catch of the Deep** | Animals | · | Hook a Guardian with a Fishing Rod |
 | **Caught in My Own Web** | Monsters | ◆ | Walk into a Cobweb while the Weaving effect carries you straight through it |
+| **Cave Bloom** | Biomes | · | Plant an Eyeblossom in the Deep Dark, where the day never comes |
+| **Cave Cruise** | Biomes | · | Board a Boat inside the Lush Caves |
+| **Cave Cuisine** | Mining | · | Plant Glow Berries on a cave ceiling below Y=0 and eat some down there |
+| **Cave Dwellers** | Animals | · | Breed a pair of animals more than fifty blocks below sea level |
+| **Cave Rave** | Mining | · | Play a Music Disc in a Jukebox in a Lush Caves biome |
+| **Celebration Volley** | Weaponry | ◆ | Kill a Vindicator with a Firework Rocket fired from a Crossbow |
 | **Cell Block** | Monsters | ◆ | Seal a living hostile mob inside a solid six-sided cube of Copper Bars |
+| **Cellar Door** | Biomes | · | Loot the hidden chest in the cellar beneath an Igloo |
 | **Chain of Command** | Building | · | Hang a Copper Lantern from an unbroken eight-block run of Copper Chain |
 | **Chain Reaction** | Redstone | ★ | Set off three Dispensers in sequence, each one's projectile hitting the next Target Block |
+| **Chainsaw** | Enchanting | ★ | Hold a Wooden Axe carrying both Efficiency V and Unbreaking III |
+| **Chamber Chemistry** | Potions | ◆ | Brew a Potion of Wind Charging, a Potion of Weaving and a Potion of Infestation |
+| **Chamber Music** | Adventure | · | Play a music disc on a Jukebox inside a Trial Chamber |
+| **Chamber of Commerce** | Adventure | ◆ | Trade with a Villager inside the Trial Chambers |
 | **Chamber of Secrets** | Adventure | ◆ | Loot all six kinds of Trial Chamber chest: entrance, corridor, intersection, barrel, supply and reward |
+| **Chamber Pot** | Adventure | · | Place a Decorated Pot inside a Trial Chamber |
+| **Chamber Salvage** | Adventure | · | Prise a Copper Bulb out of a Trial Chamber and carry it off |
+| **Chandelier** | Biomes | · | Hang a Copper Lantern inside the Dripstone Caves |
+| **Charcoal Burner** | Mining | ◆ | Smelt five hundred Charcoal |
+| **Charged Pork** | Animals | · | Channel lightning into a Pig and see what walks away |
+| **Chart House** | Biomes | · | Loot the chest in a village Cartographer's house |
+| **Cheap and Cheerful** | Statistics | ◆ | Break a thousand blocks with Copper Pickaxes |
 | **Chemical Dependency** | Potions | ★★ | Never drop below eight simultaneous potion effects for a full in-game day |
+| **Chisel Set** | Building | ◆ | Craft or collect every kind of Chiseled block |
 | **Chunk Miner** | Mining | ★★ | Strip an entire Overworld chunk down to bedrock, leaving nothing but air |
+| **Chunnel** | Redstone | ◆ | Ride a Minecart along a track that runs underwater |
 | **Circular Reasoning** | Redstone | ◆ | Wire four Observers into a loop so they keep pulsing each other forever |
 | **City Planner** | The End | ★ | Visit twenty End Cities, each one further out than the last |
+| **Clerical Work** | Potions | ◆ | Buy both potion modifiers, Redstone Dust and Glowstone, from a Cleric |
 | **Climate Croakers** | Animals | ◆ | Breed a pair of Temperate Frogs, a pair of Warm Frogs and a pair of Cold Frogs |
 | **Clock Tower** | Redstone | ◆ | Wire a Daylight Detector to a Bell at least five blocks below it, using eight pieces of redstone |
+| **Close Shave** | Monsters | · | Shear a Bogged for its mushrooms, then finish the poor thing off |
+| **Coals to Newcastle** | Enchanting | · | Kill a Blaze with a Flame Bow, for all the good the fire does |
 | **Cold Blooded** | Biomes | ◆ | Survive a full night in a Frozen Peaks biome wearing no armor at all |
+| **Cold Case** | Biomes | · | Find an Ocean Ruin sealed under a Frozen Ocean |
+| **Cold Storage** | Adventure | · | Buy Blue Ice and Packed Ice from Wandering Traders |
+| **Collar Coded** | Animals | ★ | Dye a Wolf's collar in all sixteen colours |
 | **Colour Coordinated** | Nether | · | Ride a Happy Ghast in leather armour dyed to match its Harness |
 | **Colour Theory** | Animals | ◆ | Breed a Blue Sheep with a Yellow Sheep and get a Green lamb out of it |
+| **Comb and Get It** | Animals | ◆ | Shear a Beehive and a Bee Nest for their Honeycomb until you are holding six combs |
+| **Combat Cocktail** | Potions | ★ | Kill the Ender Dragon with Strength II, Speed II, Fire Resistance, Regeneration and Slow Falling all running |
+| **Community Service** | Adventure | · | Take a swing from an Iron Golem and survive it |
 | **Company Car** | Mining | · | Ride a Boat with a Copper Golem sitting in it beside you |
+| **Complete Works** | Farming | ◆ | Carry sixteen signed Written Books at once |
+| **Conducting Business** | Mining | ◆ | Channel lightning straight into a Copper Golem with a Channeling Trident |
+| **Consecrated Ground** | Enchanting | ★ | Put down all eight kinds of common undead with a Smite V weapon |
+| **Control Group** | Mining | · | Set a plain Copper Block down right beside a Waxed Copper Block and let time tell them apart |
+| **Controlled Demolition** | Enchanting | ◆ | Take a Creeper's blast head-on in four pieces of Blast Protection IV armour |
 | **Copper Baron** | Statistics | ◆ | Mine ten thousand Copper Ore |
+| **Copper Constabulary** | Weaponry | ★ | Book a Pillager, a Vindicator, an Evoker and a Witch, each with a Copper Sword |
 | **Copper Counter** | Redstone | ◆ | Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern |
+| **Copper Handyman** | Mining | · | Strip a log with a Copper Axe and stamp out a dirt path with a Copper Shovel |
 | **Copper Loadout** | Mining | ◆ | Carry a full set of Copper tools and Copper armour at once |
 | **Copper Stable** | Animals | ◆ | Ride a kilometre without dismounting on a horse in Copper Horse Armor |
+| **Copper Standard** | Super Challenges | ★★ | Kill the Ender Dragon with a Copper Sword while wearing a full set of Copper armour |
+| **Corporate Ladder** | Adventure | ◆ | Trade with Villagers at all five career levels, from Novice to Master |
+| **Couch Potato** | Farming | · | Eat a Baked Potato while sitting in a Boat |
+| **Counter-Sniper** | Weaponry | ◆ | Shoot a Pillager dead from at least forty blocks away |
 | **Covering All Bases** | Enchanting | ◆ | Wear four armour pieces, each with a different kind of Protection. |
+| **Cracked Under Heat** | Mining | · | Smelt both Cracked Deepslate Bricks and Cracked Deepslate Tiles |
+| **Cracking Up** | Building | ◆ | Collect every kind of Cracked block |
+| **Crimson Tide** | Nether | ◆ | Silk Touch a stack of Crimson Nylium and a stack of Warped Nylium |
+| **Cross-Contamination** | Potions | · | Hold a Potion of Healing in one hand and a Potion of Harming in the other |
 | **Crowd Scene** | Statistics | ◆ | Place fifty Armour Stands |
 | **Crown Jewel** | The End | ★ | Put the Dragon Egg on display in the Overworld |
+| **Cube Root** | Nether | · | Get squashed to death by a Magma Cube |
+| **Curator's Cut** | Adventure | ★ | Wear four armour pieces all trimmed with the Silence pattern at once |
 | **Cursed** | Enchanting | ★ | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece |
+| **Cursed Merchandise** | Enchanting | · | Buy an Enchanted Book carrying a curse from a Villager |
+| **Cut-Price Champion** | Weaponry | ★ | Cut down an Elder Guardian with nothing better than a Copper Sword |
+| **Cutting Corners** | Building | · | Fit a Stair block into an inside corner |
 | **Cutting Edge Agriculture** | Enchanting | · | Spend real levels enchanting a Wooden Hoe |
+| **Dead Man's Compass** | Mining | · | Die in an Ancient City with a Recovery Compass in your hand |
 | **Dead Reckoning** | The End | ◆ | Glide a full kilometre on an Elytra without firing a single rocket |
 | **Death by a Thousand Cuts** | Enchanting | ★ | Finish off a Ravager with Thorns |
 | **Death by Committee** | Monsters | ★ | Be wounded by ten different kinds of monster inside thirty seconds and survive |
+| **Decked Out** | Adventure | ★ | Stand in the Trial Chambers wearing four armour pieces all trimmed with the Flow pattern |
+| **Deep Cuts** | Enchanting | ◆ | Skewer a Guardian, an Elder Guardian, a Drowned and a Squid with an Impaling V Trident |
+| **Deep Discount** | Adventure | ◆ | Trade with a Villager below Y=-50 |
+| **Deep Dish** | Mining | · | Eat a Pumpkin Pie below Y=-50 |
+| **Deep Foundations** | Mining | · | Place a Blast Furnace below y = -50 |
 | **Deep Freeze** | Weaponry | ◆ | Kill a monster that has frozen solid in Powder Snow |
+| **Deep Fried** | Mining | · | Cook raw food on a Campfire below Y=-50 |
 | **Deep Impact** | Enchanting | ◆ | Take ten hearts of fall damage in a single landing while wearing Feather Falling IV boots |
 | **Deep Pockets** | Mining | ★ | Fill a Shulker Box to the brim with Diamonds |
+| **Deep Roots** | Farming | ◆ | Plant a Sapling below Y=0 and bone meal it into a tree down there |
+| **Deep Sea Javelin** | Weaponry | ◆ | Kill a Guardian with a thrown Trident |
+| **Deep Sea Plating** | Nether | ◆ | Upgrade a set of Nautilus Armor to Netherite |
+| **Deep Sleeper** | Biomes | ◆ | Sleep in the Deep Dark, the Dripstone Caves, the Lush Caves and the Sulfur Caves |
+| **Deep Trench** | Biomes | · | Stand underwater at y 40 or lower on the floor of a deep ocean |
+| **Delay Tactics** | Redstone | · | Click a Repeater through all four of its delay settings |
+| **Delta Diver** | Nether | · | Submerge yourself in lava in a Basalt Deltas biome |
 | **Desert Diver** | Enchanting | ◆ | Stand in a Desert wearing Aqua Affinity, Respiration III and Depth Strider III |
+| **Devil's Distillery** | Nether | · | Brew a potion without ever leaving the Nether |
 | **Dewey Decimal** | Enchanting | ★ | Carry sixteen Enchanted Books at once, one for each of sixteen set enchantments |
 | **Dig Site** | Farming | ◆ | Get a Sniffer to dig on Moss, Mud and Rooted Dirt |
+| **Dining Out** | Farming | ★ | Eat a meal inside a Village, a Woodland Mansion, an Ocean Monument, a Trial Chamber, a Bastion Remnant, an End City, an Ancient City and a Pillager Outpost |
 | **Disenchanted** | Enchanting | · | Strip an Enchanted Book back down to a plain Book on a Grindstone |
+| **Distant Wailing** | Weaponry | ◆ | Kill a Ghast with an arrow from at least sixty blocks away |
+| **Distillery** | Redstone | · | Place a Hopper so it feeds a Brewing Stand for you |
+| **Dive Bar** | Potions | · | Drink a Potion of Water Breathing while inside a Shipwreck |
+| **Divine Retribution** | Adventure | ◆ | Call down a channelled lightning bolt onto a Ravager |
+| **Do Not Feed the Birds** | Animals | · | Offer a Cookie to a Parrot and live with what you have done |
+| **Doctor's Bag** | Potions | · | Carry a Splash Potion of Weakness and a Golden Apple at once |
+| **Donkey Work** | Animals | · | Breed two Donkeys into a foal of their own |
 | **Door to Door** | Monsters | · | Let a Zombie break down a wooden door on Hard difficulty |
+| **Double Tap** | Weaponry | ◆ | Kill a Skeleton and the Spider it is riding with a single piercing arrow |
+| **Double Up** | Building | · | Merge two Slabs into one full double Slab |
+| **Doused** | Nether | ◆ | Kill a Blaze while it is standing in water |
 | **Down Periscope** | Biomes | ◆ | Ride a Nautilus inside an Ocean Monument |
+| **Down the Shaft** | Mining | · | Put a Ladder on a block of Deepslate |
+| **Down to the Handle** | Mining | · | Bring a Netherite Pickaxe down to its last ten points of durability |
+| **Dragging Your Feet** | Potions | · | Brew a Potion of Slowness |
 | **Dragon Rider** | The End | ★★ | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch |
 | **Dragon's Perch** | The End | ◆ | Stand an End Ship's Dragon Head on the central island's exit portal |
+| **Dragonlance** | Weaponry | ★ | Kill the Ender Dragon with a Spear |
 | **Drinking Problem** | Potions | · | Drain a potion with your head completely underwater |
+| **Drip Feed** | Building | · | Set a Cauldron directly beneath a Pointed Dripstone |
+| **Dripstone Dividend** | Mining | · | Come away with Raw Copper mined inside a Dripstone Caves biome |
+| **Dropper Chain** | Redstone | ◆ | Line up three Droppers so each one fires into the next |
+| **Drowned Civilisation** | Monsters | · | Kill a Drowned inside an Ocean Ruin |
+| **Dry Rations** | Farming | · | Eat Dried Kelp in the middle of a Desert, as far from the sea as you can get |
+| **Dry Season** | Biomes | · | Collect both Short Dry Grass and Tall Dry Grass |
 | **Duvet Day** | Animals | · | Find one of your tamed Cats asleep on your own bed |
+| **Dye Another Day** | Adventure | ★ | Buy all sixteen colours of dye from Wandering Traders |
+| **Eat Local** | Biomes | ◆ | Eat Sweet Berries in a Taiga, Glow Berries in the Lush Caves, a Melon Slice in a Jungle and Dried Kelp in a Warm Ocean |
+| **Echo Chamber** | Mining | · | Blow a Goat Horn in a Dripstone Caves biome |
+| **Eight-Legged Freaks** | Monsters | · | Kill a Cave Spider inside an abandoned Mineshaft |
+| **Emergency Rations** | Mining | · | Eat an Enchanted Golden Apple inside an Ancient City |
 | **Employee Badge** | Mining | · | Give a living Copper Golem a name with a Name Tag |
+| **Employee of the Month** | Building | · | Mount a Copper Golem Statue inside an Item Frame |
+| **Endgame Grill** | The End | · | Cook raw food on a Campfire inside an End City |
 | **Endless Summer** | The End | · | Plant a Chorus Flower inside an End City and eat a Chorus Fruit there |
 | **Entrapment** | Redstone | ◆ | Arm eight Tripwire lines inside a single room |
 | **Estate Sale** | Adventure | ◆ | Put down a Wandering Trader and lead one of the Trader Llamas it leaves behind away with you |
 | **Evel Knievel** | Animals | · | Clear seven blocks in a single Camel dash |
+| **Eviction Notice** | Adventure | · | Kill an Evoker inside a Woodland Mansion |
+| **Extra Strength** | Potions | ★ | Hold the strong version of every potion that has one, all at the same time |
+| **Extreme Angling** | Biomes | ◆ | Catch a fish above y 200 and again below y 0 |
+| **Extreme Camping** | Biomes | ◆ | Sleep in a bed above y 200 and again below y 0 |
+| **Eye in the Sky** | Biomes | · | Throw an Eye of Ender while standing at y 200 or higher |
+| **Familiar Territory** | Animals | · | Tame the all black Cat that skulks around a Swamp Hut |
 | **Family Planning** | Animals | ◆ | Breed Chickens in the Overworld, in the Nether and in the End |
+| **Fanged** | Adventure | · | Take a bite from an Evoker's Fangs and live |
 | **Farm to Table** | Farming | ★ | Plant wheat, potatoes and beetroot in the End and eat a meal of each there |
+| **Farmer's Market** | Farming | ◆ | Buy Bread, a Cookie, a Pumpkin Pie, a Cake, an Apple, a Golden Carrot and a Glistering Melon Slice from Villagers |
 | **Featherweight** | Adventure | ★ | Kill the Wither with no armour and nothing but a sword, a bow and a stack of arrows |
+| **Fermenter** | Potions | · | Craft a Fermented Spider Eye |
+| **Ferry Tales** | Animals | ◆ | Ride a Boat with a Panda aboard, then with a Fox, then with a Cat |
 | **Fetch Quest** | Adventure | ★ | Have an Allay bring a full stack of sixty-four items to a Note Block in one delivery |
+| **Field Kit** | Potions | · | Hold a Splash Potion of Weakness and a Golden Apple at the same time |
+| **Field Kitchen** | Building | ◆ | Fit out a whole kitchen: place a Furnace, a Smoker, a Campfire, a Soul Campfire, a Cauldron and a Composter |
+| **Field Medicine** | Potions | ★ | Cure a Zombie Villager in the Nether |
+| **Field Workshop** | Nether | · | Place a Smithing Table and an Anvil in the Nether |
 | **Firefly Lane** | Building | · | Line a path with twenty Firefly Bushes |
+| **Firefly Nights** | Biomes | · | Plant a Firefly Bush in a Mangrove Swamp |
+| **Firewood** | Weaponry | · | Wear a Wooden Axe all the way down until it snaps in your hand |
+| **Fishmonger** | Animals | · | Buy Cooked Cod and Cooked Salmon from a Fisherman |
+| **Flameproof** | Potions | · | Brew a Potion of Fire Resistance |
+| **Fleeced** | Animals | · | Breed two Sheep that you have already sheared bare |
+| **Fleet Admiral** | Biomes | ★ | Board every kind of Boat, and the Bamboo Raft besides |
+| **Floating Point** | Monsters | ◆ | Kill a Shulker while its own bullet still has you levitating |
 | **Flying Buttress** | Super Challenges | ★★ | Raise a hall twenty blocks tall walled in Stained Glass and lit by a hundred Candles |
+| **Fool's Gold** | Weaponry | · | Kill a Piglin Brute with a Golden Sword |
+| **Forbidden Knowledge** | Enchanting | · | Enchant an item at a table you have set up inside the Deep Dark |
 | **Fork in the Road** | Potions | ◆ | Hold the long and the strong version of the same potion side by side |
 | **Fort Knox** | Super Challenges | ★★ | Encase a Chest in a solid five-by-five-by-five cube of Obsidian |
+| **Fortress Lighting** | Nether | · | Hang a Copper Lantern inside a Nether Fortress |
 | **Fortress of Solitude** | Nether | ◆ | Spend a full Minecraft day inside a Nether Fortress without once leaving it |
 | **Fortune Favours the Melon** | Enchanting | ◆ | Break Melons with a Fortune III Axe until you are holding more than nine slices |
+| **Foundation Stone** | Mining | · | Lay a Copper Block down on the bedrock at the very bottom of the world |
+| **Foundry Line** | Redstone | ◆ | Automate a Furnace: one Hopper feeding it, another draining it from below |
+| **Foundry Quota** | Mining | ★ | Craft or smelt a thousand Iron Ingots |
+| **Four of a Kind** | Building | · | Set a fourth Candle into a single block |
+| **Fragmentary Evidence** | Super Challenges | ★★ | Hold a full stack of every one of the twenty-three Pottery Sherds at once |
 | **Free Solo** | Adventure | ★ | Climb two hundred blocks of ladders or vines without touching the ground |
 | **Freeze Frame** | Mining | ★ | Catch a Copper Block at each of its four oxidation stages and wax it in place |
+| **Friendly Fire** | Redstone | · | Get shot by an Arrow that no living thing fired, straight out of a Dispenser |
+| **Frozen Fortress** | Biomes | · | Find an Ocean Monument under a Deep Frozen Ocean |
+| **Frozen Over** | Nether | ◆ | Place Ice, Packed Ice and Blue Ice down in the Nether |
+| **Frugal Enchanter** | Enchanting | ◆ | Spend real levels enchanting all five Copper tools at an Enchanting Table |
+| **Full Brass** | Animals | ★ | Hold all eight Goat Horns at once |
+| **Full Curriculum** | Enchanting | ★ | Buy Protection IV, Sharpness V, Efficiency V, Power V and Unbreaking III books from Villagers |
 | **Full Interchange** | Redstone | · | Build a rail junction where all four types of Rail meet in one nine-by-nine square |
 | **Full Kennel** | Animals | ◆ | Equip Wolves with Wolf Armor in the ten dyes Paw Patrol left out, then gather ten armored Wolves around you |
 | **Full Spectrum Flock** | Super Challenges | ★★ | Breed a lamb of every one of the sixteen Sheep colours |
+| **Fully Stocked** | Potions | ★ | Hold every brewing ingredient in the game at the same time |
+| **Fungal Feast** | Farming | · | Slurp Mushroom Stew in a Mushroom Fields biome |
+| **Fungal Forestry** | Nether | · | Collect a stack of Crimson Stems and a stack of Warped Stems |
 | **Fungus Among Us** | Nether | · | Drive a Hoglin away by placing Warped Fungus around it |
 | **Gateway Tourist** | The End | ◆ | Teleport through End Gateways ten times |
+| **Gathering Moss** | Building | ◆ | Collect every mossy block there is |
 | **Ghast Couture** | Nether | ★ | Ride the same Happy Ghast in all sixteen colours of Harness |
 | **Ghast Lancer** | Weaponry | ◆ | Land a Spear charge attack on a mob while riding a Happy Ghast high above the clouds |
 | **Ghast Nursery** | Nether | ◆ | Have three Ghastlings trailing your Snowball at once |
+| **Ghost in the Machine** | Potions | ◆ | Walk through an Ancient City under the Invisibility effect |
 | **Ghost Story** | Weaponry | ◆ | Kill a Phantom with a Spear charge attack as it dives at you |
+| **Ghost Town** | Adventure | ★ | Trade with a Villager inside an Ancient City |
+| **Gilded Judgement** | Nether | · | Kill a Piglin Brute with a Golden Axe |
+| **Gilded Treachery** | Weaponry | · | Kill a Piglin while wearing a full set of Golden Armour |
+| **Goat Rodeo** | Biomes | · | Hook a Goat with a Fishing Rod |
+| **Gold Standard** | Farming | ◆ | Hold a Golden Apple, a Golden Carrot and a Glistering Melon Slice at the same time |
+| **Golden Rations** | Nether | · | Eat a Golden Apple inside a Bastion Remnant |
+| **Golem Conveyor** | Redstone | ◆ | Set a Copper Chest directly under a Hopper so the Copper Golems never have to queue |
 | **Golem Courier** | Mining | ◆ | Catch five Copper Golems carrying items at once |
 | **Golem Foreman** | Statistics | ◆ | Build Copper Golems, and place a hundred Carved Pumpkins doing it |
 | **Golem Foundry** | Adventure | ◆ | Let a village grow big enough to spawn its own Iron Golem |
 | **Golem Grand Tour** | The End | ★ | Have a living Copper Golem standing beside you in the Overworld, the Nether and the End |
 | **Golem on Rails** | Redstone | · | Get a Copper Golem riding a Minecart on your railway |
+| **Grafted** | Biomes | ◆ | Plant a Cherry Sapling in the Pale Garden and a Pale Oak Sapling in a Cherry Grove |
 | **Gravity Always Wins** | Statistics | ★ | Fall a cumulative ten kilometres |
+| **Gray Area** | Biomes | · | Craft Gray Dye from a Closed Eyeblossom and Orange Dye from an Open Eyeblossom |
+| **Grazing Shot** | Redstone | ◆ | Clip the very outside edge of a Target Block, for a signal strength of one |
 | **Green Fingers** | Statistics | · | Place two hundred and fifty Flower Pots |
+| **Green Hell** | Nether | ◆ | Plant an Oak Sapling in the Nether and Bone Meal it into a tree |
+| **Green Light** | Redstone | ◆ | Ride a Minecart that is sitting on a live Powered Rail |
 | **Greenhouse Gases** | Farming | ◆ | Roof a farm with a hundred Glass blocks and harvest Wheat underneath it |
+| **Ground and Pound** | Enchanting | ◆ | Flatten a Ravager with a Mace enchanted with Density V |
 | **Ground Cover** | Building | · | Lay down Leaf Litter, Wildflowers, Pink Petals, Moss Carpet and Pale Moss Carpet |
 | **Ground Floor** | Weaponry | ★ | Kill a monster with a Mace smash at the very bottom of the world |
 | **Ground Zero** | Super Challenges | · | Stand in the y=0 layer of all three dimensions |
+| **Grounded** | Mining | · | Be standing close by when lightning slams into a Lightning Rod |
 | **Groundskeeper Willie** | Farming | ◆ | Work Coarse Dirt or Rooted Dirt back into plain Dirt with a Hoe |
 | **Growing Pains** | Nether | ★ | Rehydrate a Dried Ghast, then raise the Ghastling all the way into a full Happy Ghast |
+| **Growth Rings** | Building | ★ | Stack Cut Copper Stairs four high, each step one stage fresher than the one below it |
+| **Guardian's Gift** | Adventure | · | Take the Tide Smithing Template from an Elder Guardian |
+| **Hair of the Dog** | Potions | · | Drink a Potion of Regeneration while the Wither effect is eating away at you |
+| **Hair Trigger** | Redstone | · | Hang a Tripwire Hook straight off a Dispenser |
+| **Hammer Time** | Enchanting | ◆ | Deal twenty hearts of damage in a single Mace smash |
+| **Hanami** | Biomes | · | Sleep in a bed beneath the blossoms of a Cherry Grove |
 | **Handicap Match** | Weaponry | ★ | Kill a hostile monster while suffering Weakness, Slowness, Poison and Nausea all at once |
 | **Hanging by a Thread** | Super Challenges | ★★ | Kill a Warden while on half a heart |
 | **Hard Water** | Potions | · | Catch a face full of your own Splash Potion of Harming |
+| **Hard-Headed** | Weaponry | · | Kill a Wither Skeleton while holding one of their own skulls |
 | **Harness Hours** | Statistics | ◆ | Spend ten in-game days actually flying a Happy Ghast |
 | **Harpooner** | Biomes | ◆ | Kill a Guardian with a Spear while underwater |
+| **Harvest Moon** | Farming | ◆ | Eat Bread on the night of a full moon |
+| **Hasty Copper** | Mining | · | Hold a Copper Pickaxe while the Haste effect is running |
 | **Hatchling** | Animals | ◆ | Throw a single Chicken Egg that hatches four chicks at once |
 | **Have Stand, Will Travel** | Potions | ◆ | Pull a finished potion out of a Brewing Stand in all three dimensions |
+| **Hell for Leather** | Animals | · | Ride a Horse through the Nether |
+| **Hell's Bouquet** | Nether | · | Plant a Wither Rose down in the Nether |
+| **Hell's Kitchen** | Nether | ◆ | Place a Furnace, a Smoker and a Campfire inside a Bastion Remnant |
+| **Hellhound** | Animals | ★ | Tame a Wolf in the Nether |
 | **Herbivore** | Farming | ★ | Survive ten in-game days eating only plant-based food |
 | **Herding Cats** | Animals | ◆ | Gather all eleven variants of Cat within eight blocks of you |
+| **Hero Abroad** | Adventure | · | Carry the Hero of the Village effect into the Nether |
 | **Hexed** | Potions | ◆ | Let a Witch land Poison, Slowness and Weakness on you |
+| **Hidden Hatch** | Building | · | Place a Trapdoor directly above a Ladder to hide the way down |
+| **High and Low** | Animals | ◆ | Ride a Horse two hundred blocks above sea level, and again fifty blocks below it |
+| **High Tea** | Farming | · | Eat a Cookie more than three hundred blocks up in the air |
+| **Highlighter** | Potions | · | Put the Glowing effect onto yourself with a Spectral Arrow |
 | **Hoist by Your Own Petard** | Redstone | ◆ | Blow yourself up with TNT that you lit yourself |
+| **Hollow Tree** | Animals | · | Set a Beehive into a wall of Logs with one on either side |
+| **Home Advantage** | Weaponry | ◆ | Kill a Guardian while Conduit Power is running on you |
+| **Home Invasion** | Monsters | · | Kill a Zombified Piglin that has wandered through a portal into the Overworld |
+| **Home Run** | Enchanting | · | Kill a Ghast with a bow enchanted with Punch II |
+| **Home Turf** | Monsters | · | Kill a Witch inside the Swamp Hut she lives in |
+| **Honeymoon** | Animals | ◆ | Drink a Honey Bottle in the Overworld, the Nether and the End |
+| **Honeymoon Suite** | Animals | · | Breed a pair of animals inside an Igloo |
 | **Hook, Line and Mender** | Enchanting | ◆ | Fish an Enchanted Book with Mending out of the water |
+| **Hopper Highway** | Redstone | ◆ | Run a line of five Hoppers, every one feeding the next |
+| **Hostile Takeover** | Adventure | · | Kill a Pillager inside its own Pillager Outpost |
+| **Hot Commute** | Enchanting | ◆ | Ride a Strider across a lava sea in four pieces of Fire Protection IV armour |
+| **Hot Pot** | Farming | ◆ | Eat a Cooked Porkchop while standing in Lava with Fire Resistance |
+| **Hot Rails** | Redstone | · | Ride a Minecart while you are on fire |
+| **House Call** | Potions | ◆ | Cure a Zombie Villager inside the Igloo basement built for exactly that |
+| **House Hunting** | Biomes | ◆ | Loot a house chest in a plains, desert, savanna, snowy and taiga village |
 | **Hunger Games** | Farming | ◆ | Take a starvation hit with a Cake in each hand |
 | **Hunting Party** | Nether | ◆ | Watch a pack of Piglins bring down a Hoglin |
+| **Icarus** | Enchanting | · | Wear an Elytra you have named 'Icarus' |
+| **Ice Age** | Biomes | · | Place Ice, Packed Ice and Blue Ice in a Desert |
 | **Ice Road Trucker** | Biomes | ◆ | Travel five hundred blocks by boat over Blue Ice without stopping |
 | **Identity Crisis** | Monsters | ★ | Get killed by the very monster whose head you are wearing |
+| **Immortal Combat** | Weaponry | · | Kill an Evoker while already holding a Totem of Undying |
+| **Incoming!** | Nether | · | Get killed by a Ghast's fireball |
 | **Infestation** | Mining | · | Have six Silverfish swarm you at once |
+| **Ingot Standard** | Mining | · | Hold a full stack of Copper, Iron and Gold Ingots at the same time |
+| **Insider Trading** | Adventure | · | Trade with a Villager while you are carrying Bad Omen |
+| **Interdimensional Commute** | Redstone | ◆ | Ride a Minecart in the Overworld, the Nether and the End |
 | **Interdimensional Sculptor** | Mining | ◆ | Place a Copper Golem Statue in the Overworld, the Nether and the End |
+| **Interdimensional Snack** | The End | · | Eat a Chorus Fruit in the Nether and let it throw you somewhere you did not choose |
+| **Iron Fist** | Weaponry | ★ | Kill a Ravager with nothing in either hand |
+| **Iron Stomach** | Farming | ◆ | Eat all five foods that can poison you: Rotten Flesh, a Spider Eye, a Poisonous Potato, a Pufferfish and Raw Chicken |
+| **Iron Works** | Mining | ★ | Carry every tool and fitting made from Iron Ingots at the same time |
 | **Irreconcilable Differences** | Enchanting | ◆ | Hold a Density V Mace and a Breach IV Mace at the same time |
 | **Jump the Tracks** | Redstone | · | Jump a Minecart across a ten-block gap in the track and land back on rails |
+| **Junior Varsity** | Monsters | · | Kill a baby Piglin and a baby Hoglin |
 | **Junk Drawer** | Adventure | ★ | Get sixty-four different items into a single Bundle |
+| **Just Add Gold** | Nether | · | Hold four Netherite Scrap and four Gold Ingots at once |
+| **Kaleidoscope** | Building | · | Lay four Glazed Terracotta into a two-by-two square |
 | **Key Master** | Adventure | ◆ | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once |
+| **King Size** | Monsters | · | Kill a Slime of the very largest size |
+| **Knock on Wood** | Redstone | ◆ | Push a Wooden Button of every wood type |
+| **Lamp Post** | Building | · | Stand a Torch on top of a Fence post |
+| **Landlocked Treasure** | Adventure | · | Buy a Nautilus Shell from a Wandering Trader |
 | **Landscape Gardener** | Monsters | ◆ | Watch an Enderman pick up a block and set it down somewhere else |
+| **Last Post** | The End | · | Ring a Bell in the End |
 | **Laundry Day** | Statistics | · | Wash a hundred items clean in cauldrons |
+| **Lava Limo** | Nether | ◆ | Ride a Strider a thousand blocks across the Nether's lava seas |
+| **Lava Lunch** | Nether | · | Eat a Cooked Porkchop while riding a Strider out across a lava lake |
+| **Lava Patrol** | Weaponry | · | Kill a Magma Cube while riding a Strider |
 | **Layer Cake** | Building | ◆ | Hold a Banner that carries six pattern layers |
+| **Laying Track** | Redstone | · | Place a Rail without ever getting out of your Minecart |
+| **Leather Bound** | Enchanting | · | Own a full set of Leather armour with Protection IV on every single piece |
 | **Leaving a Mess** | Monsters | ◆ | Be killed by a mob while the Oozing effect is on you |
+| **Left Behind** | Potions | · | Get killed by the cloud of your own Lingering Potion |
 | **Legend Has It** | Adventure | ◆ | Mark White, Orange, Yellow, Green, Blue, Purple, Red and Black Banners onto your Maps |
 | **Librarian's Pet** | Enchanting | ◆ | Buy a Mending book off a Librarian |
+| **Light on Your Feet** | Potions | ◆ | Hold Speed II, Jump Boost II and Slow Falling all at once |
+| **Light Reading** | Biomes | · | Plant Glow Berries on a ceiling inside the Deep Dark |
+| **Light Switch** | Redstone | · | Stick a Stone Button straight onto a Copper Bulb |
 | **Lighthouse Keeper** | Building | ★ | Top a thirty-block tower with Sea Lanterns on an ocean shore |
+| **Lightning Never Strikes Twice** | Mining | ★ | Take a lightning bolt yourself while holding a Lightning Rod in your hand |
+| **Lightning Polish** | Mining | ◆ | Let lightning hit an Oxidized Copper Golem Statue and blast every trace of patina off it |
+| **Lights Out** | Potions | · | Let a Warden put the Darkness effect on you |
+| **Lit Cargo** | Redstone | · | Light a Minecart with TNT using Flint and Steel |
+| **Live Wire** | Redstone | · | Stand in Redstone Dust that is carrying a full strength signal |
+| **Loaded for Bear** | Enchanting | · | Fire a Crossbow enchanted with Piercing IV |
+| **Log Cabin** | Building | · | Frame a wooden Door with a Log on either side of it |
 | **Long Reach of the Law** | Weaponry | · | Kill a mob with a Spear from at least four blocks away |
+| **Long Shot** | Enchanting | ◆ | Drop a mob from at least sixty blocks away with a Power V Bow |
+| **Love and Thunder** | Animals | · | Breed a pair of animals while a thunderstorm rolls overhead |
+| **Loyal to the End** | Enchanting | ◆ | Wear a Loyalty III Trident right down to nothing |
+| **Magma Chamber** | Monsters | · | Kill a Magma Cube while standing on a Magma Block |
 | **Magma Marathon** | Nether | ◆ | Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage |
+| **Mansion Menagerie** | Animals | ★ | Breed a pair of animals inside a Woodland Mansion |
+| **Mare of the Void** | Animals | ★ | Ride a Horse in the End |
+| **Marked for Death** | Weaponry | · | Kill a hostile monster that is glowing from your Spectral Arrow |
+| **Marking the Spot** | Mining | · | Put a Torch on a Deepslate Diamond Ore before you break it |
+| **Marsh Fever** | Potions | · | Take the Poison effect off the tip of a Bogged's arrow |
+| **Mason's Best** | Building | · | Buy a Glazed Terracotta from a Mason villager |
 | **Mass Production** | Redstone | ★ | Chain five Crafters so each one's output feeds the next through a Hopper |
+| **Master Carpenter** | Super Challenges | ★★ | Place a Door, a Trapdoor and a Fence Gate of every single wood type |
+| **Maternity Ward** | Animals | ◆ | Lay down a Bee Nest, a Turtle Egg and a Sniffer Egg |
+| **Meadow in a Box** | Adventure | · | Buy a Firefly Bush, Tall Dry Grass and a Small Dripleaf from Wandering Traders |
 | **Meals on Wheels** | Adventure | · | Watch one Villager throw food to another Villager |
 | **Meltdown** | Farming | ◆ | Get a Snow Golem into a desert and watch it melt away |
+| **Melting Point** | Enchanting | · | Stand on a Magma Block wearing Frost Walker boots and watch them fail you |
+| **Memory Cell** | Redstone | ◆ | Set a Comparator against a lit Copper Bulb so it can read what the bulb remembers |
+| **Mending Circle** | Enchanting | ◆ | Wear four armour pieces that all repair themselves with Mending |
+| **Mesa Motherlode** | Mining | · | Stand in a Badlands biome holding a full stack of Gold Ore |
+| **Mind the Gate** | Building | · | Slot a Fence Gate into the middle of a fence line |
+| **Miner's Grip** | Mining | · | Hold a Pickaxe in your main hand and a Torch in your off hand |
+| **Miner's Mess** | Mining | · | Set a Campfire down inside an Abandoned Mineshaft and eat a Baked Potato beside it |
+| **Miner's Rest** | Biomes | · | Sleep in a bed inside an Abandoned Mineshaft |
+| **Mint Condition** | Mining | ◆ | Carry Copper Nuggets, a Copper Ingot, Raw Copper, a Raw Copper Block and a Copper Block all at once |
 | **Mise en Place** | Potions | · | Hold a stack each of Glass Bottles, Nether Wart and Blaze Powder at the same time |
+| **Mixed Messages** | Potions | · | Hold Levitation and Slow Falling at the same time |
+| **Mixed Signals** | Adventure | ◆ | Hold Hero of the Village and Bad Omen at the same time |
 | **Monochrome** | Building | ★ | Pack five hundred of a single dyed block into one nine-block cube |
+| **Mossy Bargain** | Adventure | · | Buy a Moss Block, a Pale Moss Block and Pale Hanging Moss from Wandering Traders |
+| **Mountaineer** | Biomes | ◆ | Stand at y 200 or higher in the Jagged Peaks, the Frozen Peaks and the Stony Peaks |
+| **Munitions Plant** | Redstone | ◆ | Have a Crafter turn out Arrows for you |
 | **Naked and Afraid** | Super Challenges | ★★ | Kill an Elder Guardian with no armour and no potion effects |
+| **Necronomicon** | Enchanting | · | Name an Enchanted Book 'Necronomicon' on an anvil |
+| **Nectar Nuptials** | Animals | · | Breed two Bees that are both loaded with nectar |
 | **Needle Threader** | The End | ◆ | Glide through a Nether portal on an Elytra without stopping |
+| **Neon District** | Building | ★ | Hold a full stack of all three Froglights at once |
 | **Nest Egg** | Farming | ◆ | Plant a Sniffer Egg on a Moss Block, the fast way to hatch it |
 | **Net Zero** | Potions | ◆ | Punch a mob to death barehanded with Strength II and Weakness both running. |
+| **Nether Dairy** | Animals | · | Milk a Cow in the Nether |
+| **Nether Nightlight** | Building | ◆ | Place an Ochre, a Verdant and a Pearlescent Froglight in the Nether |
 | **Nether Orchard** | Farming | ◆ | Bone meal a sapling into a full tree in the Nether |
+| **Night Train** | Redstone | · | Ride a Minecart through pitch darkness |
+| **Not Gold Enough** | Nether | · | Learn the hard way that Piglins have no respect for Copper armour |
 | **Not Insured** | Adventure | · | Get killed by a mob with a Totem of Undying stashed in your bag or Ender Chest instead of your hand |
 | **Not My Problem** | Adventure | · | Let an Iron Golem finish off a monster that was chasing you, without landing a hit yourself |
+| **Not So Invisible** | Potions | ◆ | Be invisible while wearing all four pieces of armour, which rather gives you away |
 | **Now You See Me** | Biomes | · | Get killed by a Creaking |
+| **Nylium Gardener** | Nether | · | Use Bone Meal on Crimson Nylium and on Warped Nylium |
+| **Occupational Hazard** | Mining | · | Get killed by a Cave Spider inside an Abandoned Mineshaft |
+| **Occupational Hazards** | Monsters | ★ | Take Hunger from a Husk, Poison from a Bogged, Slowness from a Stray, Weakness from a Parched, Wither from a Wither Skeleton, Levitation from a Shulker and Darkness from a Warden |
+| **Off the Deep End** | Adventure | · | Bring the Spire Smithing Template home from an End City |
+| **Off the Rack** | Adventure | ◆ | Buy a Diamond Pickaxe, a Diamond Axe and a Diamond Shovel from villagers |
 | **Off the Shelf** | Building | · | Take an item back off a Shelf |
 | **Off the Wagon** | Potions | ★ | Drink five hundred potions |
 | **Old Growth** | Farming | ★ | Grow a two-by-two giant tree of every type that has one |
+| **Old Library Card** | Enchanting | · | Spend levels on an Enchanting Table you set up inside a Stronghold |
+| **Old Roads** | Adventure | ◆ | Stand in Trail Ruins buried under a jungle, under a taiga and under a birch forest |
+| **Ominous Housekeeping** | Adventure | · | Loot a Trial Chamber supply barrel while Trial Omen is on you |
 | **Ominous Marathon** | Adventure | ★ | Open an Ominous Vault in five separate Trial Chambers |
+| **Ominous Nightcap** | Potions | ◆ | Drink an Ominous Bottle inside a Woodland Mansion |
+| **Omnibus** | Enchanting | ★ | Combine six different enchantments onto a single Enchanted Book |
+| **On a Pedestal** | Building | ◆ | Stand a Copper Golem Statue on a plinth of Chiseled Copper above a Cut Copper block |
+| **Open Sesame** | Redstone | · | Lay a Stone Pressure Plate down right in front of an Iron Door |
+| **Ore to Order** | Super Challenges | ★★ | Hold a full stack of all sixteen ores, ingots and gems at the same time |
+| **Out of Place** | Biomes | ◆ | Plant Bamboo in a Desert, a Cactus in a Jungle, a Cherry Sapling in a Pale Garden and a Pale Oak Sapling in a Cherry Grove |
+| **Out-Archered** | Weaponry | ◆ | Kill a Skeleton, a Stray, a Bogged and a Parched with arrows of your own |
+| **Outrun the Witch** | Potions | ◆ | Kill a Witch while it is speeding along on its own Swiftness potion |
+| **Overburden** | Statistics | ★ | Mine ten thousand blocks of Deepslate |
+| **Overcharged** | Monsters | · | Kill a Charged Creeper before it gets the chance to detonate |
 | **Overdose** | Potions | ★ | Hold twelve potion effects at once, each with thirty seconds still to run |
+| **Overdue Book** | Building | · | Pull a Book back out of a Chiseled Bookshelf |
+| **Overdue Books** | Biomes | · | Loot a chest in a Stronghold library |
+| **Overgrown Pattern** | Adventure | · | Find the Wild Smithing Template in a Jungle Temple |
+| **Overqualified** | Enchanting | · | Put Efficiency V and Unbreaking III on a Wooden Pickaxe |
 | **Overtime** | Monsters | ◆ | Wear a Pickaxe down while an Elder Guardian has you on Mining Fatigue III |
 | **Own Goal** | Weaponry | · | Throw an Ender Pearl and die at the other end of it |
 | **Pacifist Streak** | Monsters | ★ | Go five in-game days without killing a single mob |
 | **Palace Guard** | Building | · | Arm an Armour Stand with a Spear in one hand and a Shield in the other |
+| **Pale Hunt** | Monsters | ◆ | Kill a Zombie, a Skeleton, a Creeper and a Spider among the pale oaks |
 | **Pale Imitation** | Biomes | · | Place a Pale Oak Shelf inside a Pale Garden |
 | **Parrot Choir** | Animals | ◆ | Get five Parrots dancing at one Jukebox at the same time |
 | **Parrot-phrase** | Animals | · | Stand by a tamed Parrot while it imitates the sound of a hostile mob |
 | **Patient Investor** | Mining | ★ | Place a Copper Block, stand on it, and let it oxidize all the way to green without ever waxing or scraping it |
 | **Patina Parade** | Mining | ★ | Pose a Copper Golem Statue at every stage of oxidation, in every pose |
+| **Pattern Book** | Adventure | ★ | Get all nineteen Smithing Templates into a single Bundle |
+| **Pattern Maker** | Building | · | Copy a Smithing Template using diamonds |
+| **Payday** | Adventure | · | Hand a Copper Ingot to an Allay |
+| **Peak Condition** | Potions | · | Bite an Enchanted Golden Apple and carry Absorption, Regeneration, Fire Resistance and Resistance all at once |
+| **Peak Voltage** | Biomes | ◆ | Call lightning down onto a Skeleton with a Channeling Trident at y 200 or higher |
 | **Pearl Chain** | The End | ★ | Throw five Ender Pearls without touching the ground between teleports |
 | **Pearl Portal** | The End | · | Send an Ender Pearl through an End Gateway and ride it to the other side |
+| **Pedigree** | Animals | ◆ | Breed two Wolves that are both wearing Wolf Armor |
+| **Pendant Light** | Building | · | Hang a Copper Bulb from the bottom of a Copper Chain |
 | **Penny for Your Thoughts** | Enchanting | · | Put your first enchantment on a Copper tool |
 | **Perpetual Motion** | Super Challenges | ★★ | Stand on a Redstone Lamp and keep a clock flashing it for a full in-game day |
+| **Personal Space** | Enchanting | · | Kill a Creeper with a sword enchanted with Knockback II |
+| **Personality Test** | Biomes | ◆ | Breed Panda cubs that grow up lazy, worried and playful |
+| **Pescatarian** | Animals | ◆ | Eat Cod, Salmon, Tropical Fish, Pufferfish, Cooked Cod and Cooked Salmon |
+| **Petal Storm** | Biomes | · | Stand in a Cherry Grove while it is raining |
+| **Petty Cash** | Adventure | ◆ | Have an Allay drop a Copper Ingot onto a Copper Block |
+| **Pharmacopoeia** | Super Challenges | ★★ | Brew every single potion in the game, every extended and strong variant included |
+| **Pick Your Battles** | Weaponry | ◆ | Attack a mob with every kind of Pickaxe |
+| **Picnic Ruined** | Farming | · | Eat a Cooked Beef in the middle of a thunderstorm |
 | **Piston Elevator** | Redstone | ★ | Ride a piston-powered elevator a hundred blocks upward |
+| **Planar Scholar** | Enchanting | ★ | Enchant something at a table in the Overworld, the Nether and the End |
+| **Plank Owner** | Building | ★ | Carry a full stack of Planks of all twelve wood types at once |
+| **Pocket Foundry** | Mining | ◆ | Carry a Furnace, Blast Furnace, Smoker, Anvil, Smithing Table, Grindstone and Stonecutter at once |
 | **Pod Cast** | Biomes | · | Swim alongside a pod of five Dolphins for a full minute |
+| **Pointed Progression** | Weaponry | ★ | Attack a mob with every kind of Spear |
+| **Pointless Precaution** | Nether | · | Plant a Lightning Rod in the Nether, where lightning has never once fallen |
+| **Poke the Bear** | Weaponry | · | Hit a Warden with a Snowball and live to regret it |
 | **Population Boom** | Super Challenges | ★★ | Grow a village of your own from two Villagers to a population of twenty by breeding alone |
+| **Portal Express** | Redstone | ◆ | Ride a Minecart right into a Nether Portal |
+| **Portal Pass** | Nether | · | Ride a Strider into a Nether Portal |
+| **Portal Pilfering** | Nether | · | Loot the chest left beside a Ruined Portal |
+| **Portal Salvage** | Nether | · | Loot the chest of a Ruined Portal on the Nether side |
 | **Portal Sniper** | Nether | ★ | Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in |
+| **Pot Stack** | Building | · | Place a Decorated Pot directly on top of another Decorated Pot |
+| **Potted History** | Super Challenges | ★★ | Leave a Decorated Pot behind in all twelve of the Overworld's ruins: Trial Chambers, Ancient City, Trail Ruins, Ocean Monument, Woodland Mansion, Shipwreck, Pillager Outpost, Stronghold, Desert Pyramid, Jungle Temple, Igloo and Swamp Hut |
 | **Pottery Barn** | Building | ◆ | Place twenty-five Decorated Pots without moving more than sixteen blocks |
+| **Powder Keg** | Building | ◆ | Collect all sixteen colours of Concrete Powder |
 | **Power Shower** | Biomes | ◆ | Build a working Conduit inside an Ocean Monument |
 | **Power Snorkel** | Biomes | ◆ | Ride a Nautilus while inside a Conduit's power field |
+| **Pre-Cooked** | Enchanting | · | Kill a Cow, a Pig, a Sheep, a Chicken and a Rabbit with a Fire Aspect sword |
+| **Pressure Test** | Redstone | ◆ | Stand on a powered Wooden Pressure Plate of every wood type |
+| **Prospector's Luck** | Mining | · | Hold a Fortune III pickaxe while standing below y = -50 |
+| **Public Reading** | Building | · | Put a book down on a Lectern |
+| **Pulse Generator** | Redstone | · | Set an Observer down flush against a Sticky Piston |
+| **Push and Pull** | Potions | ◆ | Hold Haste and Mining Fatigue at the same time |
 | **Pyrrhic Victory** | Monsters | ★ | Kill the Wither and be killed by the very same blast |
+| **Quartz Quota** | Building | ◆ | Buy a Quartz Block and a Quartz Pillar from a Master Mason |
+| **Quiet Table** | Biomes | · | Enchant an item while standing in the Deep Dark |
+| **Raft Punk** | Biomes | · | Ride a Bamboo Raft inside a Bamboo Jungle |
+| **Raft Rider** | Biomes | · | Board a Bamboo Raft in a Bamboo Jungle |
+| **Rails to Ruins** | Redstone | ★ | Ride a Minecart inside an Abandoned Mineshaft, a Stronghold, an Ancient City, a Woodland Mansion and a Nether Fortress |
 | **Rain Check** | Monsters | · | Make an Enderman teleport away by hitting it with a Splash Water Bottle |
+| **Rain Shadow** | Biomes | · | Stand in a Badlands while a thunderstorm rages everywhere else |
 | **Rainbow Rigging** | Nether | ◆ | Collect all sixteen colours of Happy Ghast Harness |
+| **Ranch Hand** | Animals | · | Carry the whole animal handler's kit at once: Shears, a Lead, a Name Tag, a Saddle and a Bundle |
+| **Reading Room** | Building | · | Set a Lectern between two Bookshelves |
+| **Reel Estate** | Redstone | · | Hook a Minecart with a Fishing Rod and reel it in |
+| **Reeled In** | Adventure | · | Hook a Villager with a Fishing Rod |
+| **Restricted Section** | Enchanting | · | Crack open the loot of a Stronghold Library chest |
 | **Reverse Logistics** | Mining | ◆ | Watch a Copper Golem pull an item back out of a Copper Chest and carry it away |
+| **Revolving Doors** | Building | ◆ | Open a Door made from every type of wood |
+| **Ride Along** | Animals | · | Ride a Horse with a tamed Parrot perched on your shoulder |
+| **Riot Squad** | Weaponry | ◆ | Bring down a Ravager with a Copper Axe |
+| **Roadkill** | Adventure | · | Get run down by a Ravager with a Pillager on its back |
+| **Rock and a Hard Place** | Weaponry | · | Kill a Silverfish with a Stone Pickaxe |
+| **Rod and Ranch** | Animals | ◆ | Reel in a Cow, a Pig, a Sheep and a Chicken with a Fishing Rod |
+| **Roll Call** | Animals | ◆ | Hang a Name Tag on a Wolf, a Horse, a Llama, a Panda and a Sniffer |
+| **Roof Line** | Redstone | · | Ride a Minecart on top of the Nether, above Y=128 |
 | **Roof Runner** | Nether | ★ | Travel two thousand blocks on top of the Nether roof |
+| **Root and Branch** | Farming | · | Plant an Azalea on top of Rooted Dirt so it can grow into a tree |
+| **Rot and Repair** | Potions | · | Hold the Wither and Regeneration effects at the same time |
 | **Rotisserie** | Farming | ★★ | Collect sixty-four Cooked Chicken without ever cooking one yourself |
+| **Rotten Deal** | Adventure | · | Buy a Sulfur Spike from a Wandering Trader |
 | **Round Trip** | The End | ◆ | Leave the central island through one End Gateway, come home, and leave again through a different one |
+| **Ruin Raider** | Biomes | · | Loot a chest in both a large and a small Underwater Ruin |
+| **Ruins Rave** | Adventure | · | Play the Relic music disc on a Jukebox standing in the Trail Ruins |
+| **Run Aground** | Biomes | · | Find a Shipwreck that ended up beached on dry land |
+| **Runaway Mine Train** | Redstone | ◆ | Take a blast from a Minecart with TNT while riding a Minecart of your own |
+| **Rust Bucket** | Weaponry | · | Get yourself killed by a mob while wearing a full set of Copper armour |
+| **Rust Never Sleeps** | Weaponry | ★ | Kill a Warden with a Copper Sword |
+| **Rustproofing** | Mining | ◆ | Seal a placed Copper Bulb, Grate, Door, Trapdoor, Chest and Golem Statue with Honeycomb |
+| **Rusty Nail** | Weaponry | · | Kill a hostile monster with a Copper Spear |
+| **Safe Deposit** | Mining | · | Place a Copper Chest inside an abandoned Mineshaft |
+| **Salt Water Cure** | Animals | · | Drink Milk inside an Ocean Monument to wash off the Elder Guardian's curse |
+| **Sanctum** | Enchanting | · | Set up a workshop: place an Enchanting Table, a Grindstone, a Smithing Table and a Lectern |
+| **Sap Tapper** | Biomes | ◆ | Collect a full stack of Resin Clumps off the Pale Oaks |
+| **Sapling Salesman** | Adventure | · | Trade for a Sapling from the Wandering Trader |
+| **Sawmill** | Redstone | · | Watch a Crafter turn Logs into Planks all on its own |
 | **Say It With Flowers** | Adventure | ◆ | Watch an Iron Golem hand a poppy to a baby Villager |
 | **Scarecrow** | Farming | ◆ | Stand an Armour Stand wearing a Carved Pumpkin in the middle of a wheat field |
+| **Scenic Route** | Redstone | ★ | Ride a Minecart in eight different biomes, from Mushroom Fields to Ice Spikes |
+| **Scrap Emperor** | Super Challenges | ★★ | Carry every Netherite tool, weapon and armour piece in your inventory at the same time |
+| **Scrap Heap** | Mining | ★ | Wear out every Copper tool and every piece of Copper armour until all nine of them break |
+| **Scrap Metal** | Adventure | ◆ | Destroy an Iron Golem that a village built for itself |
+| **Scrapyard** | Nether | ◆ | Collect a full stack of Netherite Scrap |
+| **Scream Team** | Animals | · | Breed a Goat kid that turns out to be a screamer |
+| **Sculk Couture** | Mining | ★ | Apply both the Ward and the Silence armour trims inside an Ancient City |
+| **Sea Snack** | Farming | · | Eat Dried Kelp inside an Ocean Monument |
 | **Sea to Shining Sea** | Biomes | ★★ | Sail five thousand blocks in a boat without ever touching land |
+| **Second Edition** | Farming | · | Copy a signed Written Book by crafting it with a Book and Quill |
+| **Second Growth** | Nether | ◆ | Plant a Crimson Fungus in a Warped Forest and a Warped Fungus in a Crimson Forest |
+| **Second Set of Lungs** | Potions | · | Brew a Potion of Water Breathing |
+| **Second-Hand Pickaxe** | Adventure | ◆ | Buy the enchanted Iron Pickaxe a Wandering Trader carries |
 | **Seed Bank** | Farming | ★★ | Carry one of every seed, sapling, propagule and fungus in a single Bundle |
 | **Selective Breeding** | Animals | ◆ | Breed every variant of Cow, Pig and Chicken yourself |
 | **Shake It Off** | Animals | · | Soak a tamed Wolf in water, then get it onto land and watch it shake dry |
+| **Shared Dose** | Potions | ◆ | Finish curing a Zombie Villager while Weakness is still running on you too |
+| **Sharp Practice** | Enchanting | ◆ | Kill a mob with a Copper Sword carrying Sharpness V |
 | **Shelf Museum** | Building | ◆ | Place a Shelf made from every type of wood |
 | **Shelf Stocker** | Statistics | ◆ | Place a thousand Shelves |
 | **Ship of Theseus** | The End | ★★ | Strip the Elytra out of five different End Ships |
+| **Shipwright** | Biomes | · | Fit a Chest into a Boat by crafting a Chest Boat |
 | **Shock Treatment** | Mining | ◆ | Let lightning strike an Oxidized Copper Block and strip its patina |
 | **Shoulder to Cry On** | Biomes | ★ | Ride a Parrot on your shoulder through both a Nether portal and an End portal |
 | **Shulker Removal Service** | The End | ★ | Kill every Shulker in one End City |
+| **Shulker Shakedown** | The End | ◆ | Skewer a Shulker with a Copper Spear inside an End City |
+| **Signpost Forest** | Building | ◆ | Hang a Hanging Sign made from every type of wood |
+| **Silent Alarm** | Adventure | · | Ring a Bell in the Deep Dark |
+| **Silent Supper** | Mining | ★ | Set a Cake, a Campfire and a Smoker down inside an Ancient City, then eat a meal there |
+| **Silk Purse** | Enchanting | ◆ | Carry a Silk Touch pickaxe and a Fortune III pickaxe at the same time |
+| **Silky Smooth** | Building | ◆ | Craft or collect every kind of Smooth block |
+| **Singed** | Nether | · | Take an unblocked Blaze fireball straight to the face |
+| **Site Foreman** | Building | · | Run Scaffolding out to the very end of its reach |
+| **Sitting Duck** | Weaponry | · | Kill a hostile monster that you have trapped inside a Boat |
+| **Six Pack** | Potions | ★ | Hold Speed, Haste, Resistance, Jump Boost, Strength and Regeneration all at the same time |
+| **Six Ways to Sunday** | Redstone | ◆ | Place Pistons pointing in all six directions |
+| **Skeleton Crew** | Animals | · | Saddle a Skeleton Horse and ride it |
 | **Skin Crawler** | Monsters | · | Be bitten by a Silverfish that burst out of your own Infested effect |
+| **Skull Bounty** | Enchanting | · | Kill a Wither Skeleton while swinging a sword enchanted with Looting III |
 | **Sky Ferry** | Nether | ★ | Fly a Happy Ghast with four leashed mobs dangling beneath it |
+| **Sky Harpoon** | Weaponry | · | Kill a Phantom with a thrown Trident |
+| **Sky Hook** | Enchanting | · | Fire a Riptide Trident while wearing an Elytra on your back |
+| **Sky Mall** | Adventure | ◆ | Trade with a Villager without getting off your Happy Ghast |
+| **Sky Tailor** | The End | ◆ | Apply the Spire armour trim to a piece of armour inside an End City |
+| **Skylight** | Biomes | · | Fall forty blocks down a cave mouth and land in the Lush Caves |
+| **Skyline Service** | Redstone | ◆ | Ride a Minecart at an altitude of Y=300 or higher |
 | **Skyscraper** | Building | ★ | Build a solid column from bedrock all the way to the build limit |
+| **Slash and Burn** | Farming | · | Set a standing Log alight with Flint and Steel |
+| **Sleep Tight** | Monsters | · | Kill a Phantom while standing on a Bed |
 | **Slime Ladder** | Redstone | ◆ | Bounce five times in a row on Slime Blocks, each at least three blocks high |
 | **Slow Burn** | Redstone | ◆ | Line up sixteen Repeaters at full four-tick delay and push a signal down the whole run |
+| **Small Change** | Mining | · | Hold sixty-four Copper, Iron and Gold Nuggets at the same time |
+| **Small Mercies** | Biomes | · | Loot the chest of one of the little Ocean Ruins, not the big one |
+| **Smelter Array** | Mining | ◆ | Place sixteen Blast Furnaces |
+| **Smite Club** | Weaponry | ★ | Kill a Zombie, a Husk, a Drowned, a Zombie Villager, a Zombified Piglin and a Wither Skeleton with a sword enchanted with Smite |
+| **Smith's Apprentice** | Adventure | · | Open up a Smithing Table |
+| **Smitten** | Super Challenges | ★★ | Beat the Wither to death in melee with a Smite V weapon |
 | **Smokescreen** | Biomes | · | Punch a Squid underwater and get engulfed in the ink cloud it releases |
 | **Snail's Pace in Space** | The End | ★ | Ride a Nautilus in the End |
 | **Sniffed Out** | Monsters | ★ | Bait a Warden into picking a different mob as its target instead of you |
 | **Sniffer Sommelier** | Farming | ◆ | Have a Sniffer turn up both ancient seeds on the same day |
+| **Snow Day** | Biomes | · | Stand in a Grove biome while snow is falling on you |
+| **Snow Job** | Building | · | Stack Snow eight layers deep into one block |
+| **Sober Up** | Potions | ◆ | Wipe six potion effects off yourself in a single gulp of Milk |
 | **Sorting Facility** | Redstone | ◆ | Cram twenty-seven Hoppers and twenty-seven Chests into one storage room |
+| **Soul Food** | Nether | · | Cook raw food on a Soul Campfire in the Nether |
+| **Soul Harvest** | Nether | · | Collect a stack of Soul Sand and a stack of Soul Soil |
 | **Soul Speed Demon** | Nether | ◆ | Cover five thousand blocks of Soul Sand and Soul Soil wearing Soul Speed III |
 | **Soul Survivor** | Nether | · | Find a Nether Fortress that generated inside a Soul Sand Valley |
+| **Sound Proofing** | Building | · | Lay a Wool block directly on top of a Sculk Sensor |
 | **Sourdough** | Farming | · | Bake bread in the Nether from wheat you planted there |
+| **Space Jam** | The End | · | Play a Music Disc in a Jukebox inside an End City |
 | **Spawner Camper** | Adventure | ★ | Drain a Trial Spawner of its entire wave without taking a single point of damage |
 | **Spear Master** | Statistics | ◆ | Wear out twenty-five Spears in battle |
+| **Splash Zone** | Potions | · | Give yourself the Speed effect without drinking anything, by splashing a potion at your own feet |
 | **Splinter Cell** | Weaponry | ◆ | Block hits until your Shield falls apart in your hand |
+| **Splinters in the Dark** | Monsters | · | Take a hit from a Creaking |
 | **Spore Loser** | Building | · | Hang five Spore Blossoms above one small room |
 | **Spot the Difference** | Building | · | Fit a Resin Block into a wall of Exposed Copper so it is surrounded on all four sides |
+| **Spring Loaded** | Potions | · | Brew a Potion of Leaping |
+| **Squatter's Rights** | Adventure | · | Sleep in a bed inside a Pillager Outpost |
 | **Stable Diet** | Farming | · | Feed a whole Hay Bale to a hurt or young Horse |
 | **Stable Genius** | Nether | ★ | Walk a Hoglin all the way up onto the Nether roof |
+| **Stalactite** | Building | · | Hang a Pointed Dripstone from a Dripstone Block |
+| **Stalemate** | Redstone | · | Set two Pistons a block apart, pointing straight at each other |
+| **Standard Issue** | Monsters | · | Kill a Skeleton that spawned wearing an Iron Helmet |
 | **Staring Contest** | Monsters | ◆ | Stare down an Enderman while wearing a Carved Pumpkin |
 | **Static Discharge** | Nether | ◆ | Get struck by lightning while riding a Happy Ghast |
+| **Steering Committee** | Enchanting | · | Get a Carrot on a Stick carrying Unbreaking III, Mending and Curse of Vanishing |
+| **Sticky Business** | Redstone | · | Put a Slime Block right on the face of a Sticky Piston |
 | **Sticky Fingers** | Animals | · | Drop a Diamond on the ground and watch a Fox run off with it |
+| **Stone Cold** | Monsters | · | Kill a Silverfish inside a Stronghold |
+| **Storm Alarm** | Redstone | · | Run Redstone Dust right up against a Lightning Rod so the next storm sets it off |
+| **Storm Caller** | Weaponry | ◆ | Bring down a Phantom with lightning called by a Channeling Trident |
+| **Storm Chaser** | Redstone | · | Ride a Minecart under open sky in the middle of a thunderstorm |
+| **Storm Magnet** | Building | · | Plant a Lightning Rod higher than Y=250, up where the storms live |
+| **Storm Rider** | Biomes | ◆ | Ride a Nautilus across a deep ocean during a thunderstorm |
+| **Storm Sale** | Adventure | · | Trade with a Villager in the middle of a thunderstorm |
+| **Storm Surge** | Enchanting | · | Launch yourself with a Riptide III Trident during a thunderstorm |
+| **Storm Switch** | Redstone | · | Plant a Lightning Rod directly on top of a Copper Bulb |
+| **Storm the Castle** | Weaponry | ◆ | Channel a bolt of lightning into a mob while you are inside a Pillager Outpost |
 | **Storm Warning** | Animals | · | Toss Bamboo to a worried Panda that is hiding its face from a thunderstorm |
+| **Story Time** | Building | · | Set a Book down on a Lectern for everyone to read |
+| **Strange Soil** | Farming | ◆ | Plant a Sapling on Podzol, on Mycelium, on a Moss Block, on Mud and on Rooted Dirt |
+| **Streetlight** | Building | · | Stand a Lantern on top of a Fence post |
+| **Strip Search** | Enchanting | · | Strip the bark off a log with an axe enchanted with Efficiency V |
+| **Strong Genes** | Animals | ◆ | Breed a Llama that inherits the maximum strength of five |
+| **Stubborn as a Mule** | Animals | · | Tame a Mule of your own |
 | **Stuck in the Middle With You** | Weaponry | ★ | Kill a monster with a Spear while it is tangled in a Cobweb |
+| **Stuck With You** | Enchanting | · | Strap on an Elytra enchanted with Curse of Binding |
+| **Summit Kid** | Animals | · | Breed a pair of Goats more than two hundred blocks up |
+| **Summit Marker** | Biomes | · | Place a Copper Golem Statue at y 250 or higher |
+| **Sun Lamp** | Redstone | · | Sit a Daylight Detector directly on top of a Copper Bulb |
+| **Sun Trap** | Building | · | Set a Copper Grate into a roof with nothing but open sky above it |
+| **Sunken Market** | Adventure | · | Trade with a Villager while you are both standing in water |
+| **Sunken Payload** | Biomes | ◆ | Open a Buried Treasure chest while Conduit Power is running on you |
+| **Sunken Statue** | Biomes | · | Leave a Copper Golem Statue standing inside an Ocean Monument |
+| **Sunrise Service** | Monsters | · | Kill a Phantom that has caught fire in the morning sun |
 | **Sushi Chef** | Biomes | · | Skewer both a Squid and a Glow Squid with a Spear |
+| **Swat Team** | Weaponry | ◆ | Kill a Phantom with a Mace smash attack |
+| **Sweet Descent** | Animals | · | Slide down a Honey Block with a Honey Bottle in each hand |
+| **Switchback** | Redstone | · | Lay Rails into all four corner turns |
 | **Talk to the Hand** | Weaponry | · | Have a Breeze swat your own arrow straight back into you |
+| **Tap Water** | Potions | · | Fill a Glass Bottle straight out of a filled Cauldron |
+| **Taunting the Guard** | Adventure | · | Ring a Bell inside a Pillager Outpost |
+| **Terminal Ward** | Potions | ★ | Cure a Zombie Villager in the End |
 | **Terraforming Service** | Monsters | ★ | Have three block-carrying Endermen within eight blocks of you at once |
 | **The Big Picture** | Building | ◆ | Hang a painting that fills a whole four-by-four wall |
+| **The Debris Layer** | Nether | · | Stand below y = 15 in the Nether holding a Diamond or Netherite Pickaxe |
+| **The Final Blade** | Nether | · | Upgrade a Diamond Sword into a Netherite Sword |
 | **The Five Stages of Grief** | Adventure | ★ | Take Trial Omen at all five levels inside the Trial Chambers |
 | **The Floor Is Lava** | Nether | ◆ | Cross two hundred blocks of Nether lava on foot without ever touching it |
 | **The Full Copper** | Biomes | ◆ | Ride a Nautilus wearing Copper Nautilus Armor while wearing a full set of Copper Armour yourself |
+| **The Larder** | Super Challenges | ★★ | Pack a single Bundle with one of every food in the game that will stack |
+| **The Long Game** | Potions | ★ | Hold the extended version of every potion that has one, all at the same time |
 | **The Long Haul** | Super Challenges | ★★ | Transport a breeding pair of ten different Overworld species into the Nether and breed all ten there |
+| **The Long Way Down** | Nether | ◆ | Fall eighty blocks in a single drop inside the Nether |
+| **The Pickaxe Graveyard** | Mining | ★ | Wear out a Pickaxe of every material until it snaps |
 | **The Scenic Route** | Biomes | ★★ | Walk ten thousand blocks from the world centre with no vehicle, no portal and no Elytra |
+| **The Smelting Line** | Mining | · | Place a Furnace, a Blast Furnace and a Smoker |
+| **The Whole Clutch** | Animals | ◆ | Gather a Chicken Egg, a Blue Egg, a Brown Egg, a Turtle Egg, a Sniffer Egg and the Dragon Egg |
 | **Thermal Shock** | Biomes | · | Stand in a desert and in a frozen biome within ten seconds of each other |
+| **Third Rail** | Redstone | · | Stand inside a Powered Rail while it is switched on |
+| **Thorny Feast** | Farming | · | Eat Sweet Berries while standing inside a Sweet Berry Bush |
+| **Three Hearths** | Building | · | Place a Campfire in the Overworld, the Nether and the End |
+| **Three of a Kind** | Enchanting | ★ | Hold a Loyalty III, a Riptide III and a Channeling Trident at the same time |
+| **Three Ways to Serve** | Potions | · | Hold the drinkable, splash and lingering versions of the same potion at once |
+| **Thunderstruck** | Enchanting | ◆ | Call down lightning on a Ravager with a Channeling Trident |
 | **Tickling the Ivories** | Redstone | ★ | Build a keyboard: twenty-five Note Blocks in a row tuned in ascending order, then stand on the lowest one |
+| **Tidal Nursery** | Farming | · | Plant a Mangrove Propagule underwater so it stands waterlogged |
 | **Time Machine** | Mining | · | Scrape Copper with an Axe down to Weathered, Exposed and plain Copper |
+| **Tip of the Spear** | Nether | ◆ | Upgrade a Diamond Spear into a Netherite Spear |
+| **Toothpick** | Enchanting | · | Kill an Evoker with a Wooden Sword enchanted with Sharpness V |
+| **Top Shelf** | Enchanting | · | Enchant a Book using the enchanting table's most expensive slot |
+| **Topsy Turvy** | Animals | · | Name a Pig 'Dinnerbone' to turn it upside down |
+| **Torch Factory** | Mining | ◆ | Craft two thousand Torches |
 | **Torchbearer** | Mining | · | Place sixty-four Copper Torches |
+| **Torpedo** | Enchanting | · | Swim in Depth Strider III boots while Dolphin's Grace is pushing you along |
+| **Toxicology** | Potions | · | Brew a Potion of Poison and a Potion of Harming |
+| **Tradesman's Entrance** | Building | · | Hang a Copper Door in a wall with Copper Blocks pressed against both sides of it |
+| **Trail of Embers** | Building | ★ | Place a Campfire in twelve different biomes, from the Mushroom Fields to the Deep Dark |
+| **Transplant** | Building | ◆ | Place a Sculk Catalyst in the Nether |
+| **Trap Sprung** | Monsters | · | Kill a Skeleton that is riding a Skeleton Horse |
+| **Tree Climber** | Building | · | Fix a Ladder to the side of a standing Log |
+| **Trespasser** | Nether | · | Get killed by an ordinary Piglin |
+| **Trespassers** | Biomes | ◆ | Kill a Zombie in the Mushroom Fields, where none of them can spawn |
+| **Triple Hung** | Building | ◆ | Hang a Hanging Sign from a Hanging Sign that hangs from a Hanging Sign |
+| **Triple Threat** | Enchanting | ◆ | Carry a Sharpness V sword, a Power V bow and an Impaling V Trident all at once |
+| **Trolley Service** | Adventure | · | Trade with a Villager that is sitting in a Minecart |
+| **Trophy Cabinet** | Monsters | ◆ | Hold a Creeper Head, a Zombie Head, a Skeleton Skull, a Wither Skeleton Skull and a Piglin Head all at the same time |
 | **Trophy Case** | Building | · | Put a Copper Golem Statue on a Shelf |
+| **Tugboat** | Weaponry | · | Reel in a Boat with a Fishing Rod |
+| **Tuned In** | Redstone | ◆ | Set a Comparator so it feeds into a Calibrated Sculk Sensor |
+| **Turnabout** | Weaponry | · | Kill a Vindicator with an Iron Axe of your own |
+| **Tusk Guard** | Nether | · | Block a charging Hoglin with a Shield |
+| **Under Fire** | Monsters | ★ | Take an unblocked hit from a Ghast's fireball, a Blaze's fireball, a Wither's skull, a Shulker's bullet, a Breeze's wind charge and an Evoker's fangs |
+| **Under Observation** | Redstone | ◆ | Set an Observer down beside a Shelf, a Copper Chest and a Copper Bulb |
 | **Under the Bridge** | Nether | ◆ | Ride a Strider through a Bastion Remnant |
+| **Under the Counter** | Adventure | · | Buy Gunpowder and a Slimeball from Wandering Traders |
+| **Undercover Bones** | Nether | · | Wear a Wither Skeleton Skull as a helmet inside a Nether Fortress |
 | **Underground Allotment** | Farming | ★ | Plant every farmland crop below Y=-50 |
+| **Underground Economy** | Biomes | ◆ | Trade with a Wandering Trader while you are both standing in the Deep Dark |
+| **Understory** | Farming | · | Plant a Sapling directly underneath a block of Leaves |
 | **Undressed** | Nether | · | Take a Harness off a Happy Ghast with Shears |
+| **Uninvited Guest** | Adventure | ★ | Sleep in a bed inside a Woodland Mansion |
+| **Unseen and Unheard** | Potions | ★ | Kill a Warden while the Invisibility effect is running |
 | **Untouchable** | Super Challenges | ★★ | Kill the Ender Dragon without ever dropping below half health |
+| **Untouched Riches** | Nether | ◆ | Silk Touch a stack of Nether Gold Ore and a stack of Nether Quartz Ore |
+| **Untouched Vein** | Mining | · | Carry an intact Copper Ore block and a Deepslate Copper Ore block at the same time |
 | **Urban Decay** | Mining | ◆ | Find three separate Ancient Cities |
+| **Ursa Major** | Biomes | · | Get mauled to death by a Polar Bear |
+| **Vanishing Act** | Adventure | · | Buy a Potion of Invisibility from a Wandering Trader |
 | **Vein Miner** | Mining | ◆ | Break nine Diamond Ore in a single minute |
+| **Verdigris Champion** | Super Challenges | ★★ | Kill the Ender Dragon, the Wither, a Warden and an Elder Guardian while wearing a full set of Copper Armour |
+| **Vertical Integration** | Animals | ◆ | Breed a pair of Bees, then wax a Copper Block with the Honeycomb they leave you |
 | **Vertical Limit** | Mining | ★ | Go from bedrock to the build limit in under sixty seconds |
+| **Vigil** | Nether | · | Place a Soul Torch in a Soul Sand Valley |
+| **Void Fanfare** | The End | · | Blow a Goat Horn in the End |
+| **Wake the Neighbours** | Biomes | ◆ | Play a music disc in a Jukebox inside an Ancient City |
+| **Wake-Up Call** | Adventure | · | Ring a Bell inside a Woodland Mansion |
 | **Walking Library** | Enchanting | ★★ | Carry twenty different enchantments at once across your armour and both hands |
 | **Wall to Wall** | Building | ◆ | Carpet a whole sixteen-by-sixteen floor |
+| **Wandering Wholesaler** | Super Challenges | ★★ | Buy every log, sapling and propagule the Wandering Trader stocks |
+| **Warhorse** | Nether | ◆ | Upgrade a set of Horse Armor to Netherite |
+| **Wart Abroad** | Nether | · | Plant Nether Wart in the Overworld |
+| **Washed Ashore** | Adventure | · | Salvage the Coast Smithing Template from a Shipwreck |
+| **Watchtower Loot** | Adventure | · | Loot the Sentry Smithing Template from a Pillager Outpost |
+| **Waterlogged** | Building | · | Place a Slab underwater so it fills with water |
+| **Waterworks** | Building | ◆ | Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out |
+| **Wave Clear** | Monsters | ◆ | Kill a Breeze, a Bogged, a Slime, a Cave Spider and a Silverfish inside the Trial Chambers |
 | **Weapon Rack** | Weaponry | ★ | Mount a Sword, an Axe, a Bow, a Crossbow, a Trident, a Mace and a Spear in seven Item Frames |
 | **Weathering Heights** | Mining | ◆ | Build a wall showing all four oxidation stages of Copper Block side by side |
+| **Weathervane** | Mining | ◆ | Raise a spire of Copper Block, Chiseled Copper and a Lightning Rod on top |
+| **Weigh Station** | Redstone | · | Set a Comparator to read what is rolling over a Detector Rail |
+| **Well Done** | Animals | · | Kill a Cow with a Fire Aspect weapon and walk away with Cooked Beef |
 | **Wet Work** | Enchanting | · | Sit fully submerged in an Aqua Affinity helmet with Respiration III |
+| **Whale Song** | Biomes | ◆ | Blow a Goat Horn while underwater in a deep ocean |
+| **Wheat Whisperer** | Animals | ◆ | Feed Wheat to a Cow, a Sheep, a Goat, a Mooshroom, a Horse, a Donkey, a Mule and a Llama |
+| **Whittled Arsenal** | Weaponry | · | Carry a Wooden Sword, Axe, Pickaxe, Shovel, Hoe and Spear all at once |
 | **Wide Awake** | Biomes | ◆ | Survive a full night in the Pale Garden without breaking a single Creaking Heart |
 | **Wind Rider** | Adventure | ◆ | Get thrown twenty blocks sideways by a Wind Charge |
 | **Wind Walker** | Statistics | ◆ | Use a thousand Wind Charges |
+| **Wings of Legend** | Enchanting | ★ | Finish an Elytra with Unbreaking III, Mending and both curses |
+| **Wireless** | Redstone | · | Set a Sculk Sensor flush against a Copper Bulb |
+| **Witch's Brew** | Potions | · | Take a Splash Potion to the face from a Witch |
+| **Wither on a Budget** | Weaponry | ★ | Kill the Wither with a Copper Sword while wearing a full set of Copper armour |
+| **Withering Away** | Nether | · | Take the Wither effect while you are in the Nether |
+| **Wood Fired** | Mining | ★ | Craft a Smoker out of every kind of log and stem there is |
+| **Wooded Waterways** | Biomes | ◆ | Board a Boat in a Jungle, a Cherry Grove, a Mangrove Swamp, a Dark Forest and a Pale Garden |
+| **Woodsman's Justice** | Weaponry | ★ | Kill an Evoker, a Vindicator, a Pillager and a Ravager, each one with an Axe |
 | **Worked to the Bone** | Mining | · | Use a Copper Pickaxe until it snaps in your hands |
+| **Worst Case Scenario** | Potions | ◆ | Bring a level five Raid down on a village with an Ominous Bottle |
 | **Wreck Diver** | Biomes | ◆ | Ride a Nautilus inside a Shipwreck |
+| **Wrong Neighbourhood** | Nether | · | Kill a Skeleton in a Soul Sand Valley |
 | **Xerox** | Building | · | Copy a finished banner by crafting it beside a blank banner of the same colour |
 | **Yeet** | Weaponry | ◆ | Knock a mob a hundred blocks through the air with a single hit |
+| **You Started It** | Nether | · | Get killed by a Zombified Piglin after picking the wrong fight |
+| **Zombie Diet** | Monsters | · | Eat Rotten Flesh, catch the Hunger off it, then wash it away with Milk |
 | **Zoom and Enhance** | Adventure | ◆ | Extend Maps four times over using Paper in a Crafting Table |
 
-**275 advancements in total.**
+**875 advancements in total.**

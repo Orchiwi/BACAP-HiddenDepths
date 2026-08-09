@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Divine Retribution"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Call down a channelled lightning bolt onto a Ravager"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/its_so_beast_like",
+  "criteria": {
+    "struck_ravager": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:ravager"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/divine_retribution"
+  }
+}

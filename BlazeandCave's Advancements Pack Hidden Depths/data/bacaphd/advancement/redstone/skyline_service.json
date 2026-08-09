@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Skyline Service"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Minecart at an altitude of Y=300 or higher"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "high_cart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "position": {
+              "y": {
+                "min": 300
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/skyline_service"
+  }
+}

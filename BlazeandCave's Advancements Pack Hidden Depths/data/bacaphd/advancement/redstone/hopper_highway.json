@@ -1,0 +1,411 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hopper"
+    },
+    "title": {
+      "translate": "Hopper Highway"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Run a line of five Hoppers, every one feeding the next"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/sorting_facility",
+  "criteria": {
+    "line_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -3,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -4,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "line_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 3,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 4,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "line_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 4,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "line_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -3,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -4,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "line_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -3,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -4,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hopper_highway"
+  },
+  "requirements": [
+    [
+      "line_north",
+      "line_south",
+      "line_east",
+      "line_west",
+      "line_down"
+    ]
+  ]
+}

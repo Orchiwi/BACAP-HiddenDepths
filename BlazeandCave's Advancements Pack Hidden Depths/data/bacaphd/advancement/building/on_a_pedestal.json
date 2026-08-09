@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "On a Pedestal"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand a Copper Golem Statue on a plinth of Chiseled Copper above a Cut Copper block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/mannequin",
+  "criteria": {
+    "statue_on_plinth": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:oxidized_copper_golem_statue",
+                  "minecraft:waxed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chiseled_copper",
+                  "minecraft:exposed_chiseled_copper",
+                  "minecraft:weathered_chiseled_copper",
+                  "minecraft:oxidized_chiseled_copper",
+                  "minecraft:waxed_chiseled_copper",
+                  "minecraft:waxed_exposed_chiseled_copper",
+                  "minecraft:waxed_weathered_chiseled_copper",
+                  "minecraft:waxed_oxidized_chiseled_copper"
+                ]
+              }
+            },
+            "offsetY": -1
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cut_copper",
+                  "minecraft:exposed_cut_copper",
+                  "minecraft:weathered_cut_copper",
+                  "minecraft:oxidized_cut_copper",
+                  "minecraft:waxed_cut_copper",
+                  "minecraft:waxed_exposed_cut_copper",
+                  "minecraft:waxed_weathered_cut_copper",
+                  "minecraft:waxed_oxidized_cut_copper"
+                ]
+              }
+            },
+            "offsetY": -2
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/on_a_pedestal"
+  }
+}

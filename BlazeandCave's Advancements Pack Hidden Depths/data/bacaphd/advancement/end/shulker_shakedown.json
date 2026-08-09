@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_spear"
+    },
+    "title": {
+      "translate": "Shulker Shakedown"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Skewer a Shulker with a Copper Spear inside an End City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/for_mother_clarence",
+  "criteria": {
+    "shulker_on_a_copper_spear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:shulker"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:copper_spear"
+              ]
+            }
+          },
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/shulker_shakedown"
+  }
+}

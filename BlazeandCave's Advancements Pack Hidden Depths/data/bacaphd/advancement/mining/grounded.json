@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Grounded"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be standing close by when lightning slams into a Lightning Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/budget_channeling",
+  "criteria": {
+    "rod_took_the_hit": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "absolute": {
+                  "max": 12.0
+                }
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:lightning_rod"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/grounded"
+  }
+}

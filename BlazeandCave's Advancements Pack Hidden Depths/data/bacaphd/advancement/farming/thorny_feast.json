@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "Thorny Feast"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat Sweet Berries while standing inside a Sweet Berry Bush"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/berry_nice",
+  "criteria": {
+    "bramble_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ]
+        },
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:sweet_berry_bush"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/thorny_feast"
+  }
+}

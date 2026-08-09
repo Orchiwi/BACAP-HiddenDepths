@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Planar Scholar"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Enchant something at a table in the Overworld, the Nether and the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/bargain_bin",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "the_nether": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/planar_scholar"
+  }
+}

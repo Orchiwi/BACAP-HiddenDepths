@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Zombie Diet"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat Rotten Flesh, catch the Hunger off it, then wash it away with Milk"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/miracle_drink",
+  "criteria": {
+    "flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    },
+    "hungry": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hunger": {}
+        }
+      }
+    },
+    "milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/zombie_diet"
+  }
+}

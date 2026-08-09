@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_trapdoor"
+    },
+    "title": {
+      "translate": "Hidden Hatch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Trapdoor directly above a Ladder to hide the way down"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/its_a_trap",
+  "criteria": {
+    "trapdoor_over_ladder": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_trapdoor",
+                  "minecraft:spruce_trapdoor",
+                  "minecraft:birch_trapdoor",
+                  "minecraft:jungle_trapdoor",
+                  "minecraft:acacia_trapdoor",
+                  "minecraft:dark_oak_trapdoor",
+                  "minecraft:mangrove_trapdoor",
+                  "minecraft:cherry_trapdoor",
+                  "minecraft:pale_oak_trapdoor",
+                  "minecraft:bamboo_trapdoor",
+                  "minecraft:crimson_trapdoor",
+                  "minecraft:warped_trapdoor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ladder_under_trapdoor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_trapdoor",
+                  "minecraft:spruce_trapdoor",
+                  "minecraft:birch_trapdoor",
+                  "minecraft:jungle_trapdoor",
+                  "minecraft:acacia_trapdoor",
+                  "minecraft:dark_oak_trapdoor",
+                  "minecraft:mangrove_trapdoor",
+                  "minecraft:cherry_trapdoor",
+                  "minecraft:pale_oak_trapdoor",
+                  "minecraft:bamboo_trapdoor",
+                  "minecraft:crimson_trapdoor",
+                  "minecraft:warped_trapdoor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/hidden_hatch"
+  },
+  "requirements": [
+    [
+      "trapdoor_over_ladder",
+      "ladder_under_trapdoor"
+    ]
+  ]
+}

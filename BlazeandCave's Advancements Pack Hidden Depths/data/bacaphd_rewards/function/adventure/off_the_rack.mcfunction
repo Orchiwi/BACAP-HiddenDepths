@@ -1,0 +1,1 @@
+function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:adventure/off_the_rack",reward_id:"adventure/off_the_rack",tier:"goal"}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Bitter Pill"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Harming on purpose"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "harming": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": "minecraft:harming"
+          }
+        }
+      }
+    },
+    "strong_harming": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": "minecraft:strong_harming"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bitter_pill"
+  },
+  "requirements": [
+    [
+      "harming",
+      "strong_harming"
+    ]
+  ]
+}

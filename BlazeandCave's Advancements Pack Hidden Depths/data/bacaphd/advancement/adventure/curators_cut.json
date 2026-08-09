@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Curator's Cut"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear four armour pieces all trimmed with the Silence pattern at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/the_sound_of_silence",
+  "criteria": {
+    "silence_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:silence"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:silence"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:silence"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:silence"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/curators_cut"
+  }
+}

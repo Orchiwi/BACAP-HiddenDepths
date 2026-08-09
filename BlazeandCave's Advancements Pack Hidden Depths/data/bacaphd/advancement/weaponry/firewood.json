@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": {
+      "translate": "Firewood"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wear a Wooden Axe all the way down until it snaps in your hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/viking",
+  "criteria": {
+    "snap_wooden_axe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/firewood"
+  }
+}

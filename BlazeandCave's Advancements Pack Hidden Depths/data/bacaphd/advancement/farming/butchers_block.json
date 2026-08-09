@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Butcher's Block"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy Rabbit Stew, Cooked Porkchop and Cooked Chicken from a Butcher"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/meat_lovers",
+  "criteria": {
+    "rabbit_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/butchers_block"
+  }
+}

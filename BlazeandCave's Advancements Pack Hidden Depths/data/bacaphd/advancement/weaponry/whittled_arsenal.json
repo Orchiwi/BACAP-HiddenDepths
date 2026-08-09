@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Whittled Arsenal"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a Wooden Sword, Axe, Pickaxe, Shovel, Hoe and Spear all at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/time_to_hunt",
+  "criteria": {
+    "full_wooden_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_spear"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/whittled_arsenal"
+  }
+}

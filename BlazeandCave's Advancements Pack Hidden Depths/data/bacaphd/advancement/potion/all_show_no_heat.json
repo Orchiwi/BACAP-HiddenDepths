@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "All Show, No Heat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch fire while Fire Resistance keeps you from feeling a thing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stayin_frosty",
+  "criteria": {
+    "burning_safely": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_fire": true
+              },
+              "effects": {
+                "minecraft:fire_resistance": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/all_show_no_heat"
+  }
+}

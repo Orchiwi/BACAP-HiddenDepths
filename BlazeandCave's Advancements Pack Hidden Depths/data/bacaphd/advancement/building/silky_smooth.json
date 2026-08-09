@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "translate": "Silky Smooth"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft or collect every kind of Smooth block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/smooth_dude",
+  "criteria": {
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_stone"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_red_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
+          }
+        ]
+      }
+    },
+    "smooth_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/silky_smooth"
+  }
+}

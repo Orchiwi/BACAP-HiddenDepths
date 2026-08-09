@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_slab"
+    },
+    "title": {
+      "translate": "Waterlogged"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Slab underwater so it fills with water"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/slabs_for_days",
+  "criteria": {
+    "soaked": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:slabs",
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/waterlogged"
+  }
+}

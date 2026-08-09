@@ -1,0 +1,218 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Sticky Business"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Slime Block right on the face of a Sticky Piston"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "piston_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piston_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piston_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piston_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piston_up": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piston_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:slime_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sticky_business"
+  },
+  "requirements": [
+    [
+      "piston_north",
+      "piston_south",
+      "piston_east",
+      "piston_west",
+      "piston_up",
+      "piston_down"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Six Pack"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold Speed, Haste, Resistance, Jump Boost, Strength and Regeneration all at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "six": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:haste": {},
+          "minecraft:resistance": {},
+          "minecraft:jump_boost": {},
+          "minecraft:strength": {},
+          "minecraft:regeneration": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/six_pack"
+  }
+}

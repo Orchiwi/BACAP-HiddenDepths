@@ -1,0 +1,152 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sentry_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Pattern Maker"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Copy a Smithing Template using diamonds"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/agent_smithing_table",
+  "criteria": {
+    "bolt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bolt_armor_trim_smithing_template"
+      }
+    },
+    "coast": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coast_armor_trim_smithing_template"
+      }
+    },
+    "dune": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dune_armor_trim_smithing_template"
+      }
+    },
+    "eye": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:eye_armor_trim_smithing_template"
+      }
+    },
+    "flow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flow_armor_trim_smithing_template"
+      }
+    },
+    "host": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:host_armor_trim_smithing_template"
+      }
+    },
+    "raiser": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raiser_armor_trim_smithing_template"
+      }
+    },
+    "rib": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rib_armor_trim_smithing_template"
+      }
+    },
+    "sentry": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sentry_armor_trim_smithing_template"
+      }
+    },
+    "shaper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shaper_armor_trim_smithing_template"
+      }
+    },
+    "silence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:silence_armor_trim_smithing_template"
+      }
+    },
+    "snout": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:snout_armor_trim_smithing_template"
+      }
+    },
+    "spire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spire_armor_trim_smithing_template"
+      }
+    },
+    "tide": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tide_armor_trim_smithing_template"
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:vex_armor_trim_smithing_template"
+      }
+    },
+    "ward": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ward_armor_trim_smithing_template"
+      }
+    },
+    "wayfinder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wayfinder_armor_trim_smithing_template"
+      }
+    },
+    "wild": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wild_armor_trim_smithing_template"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/pattern_maker"
+  },
+  "requirements": [
+    [
+      "bolt",
+      "coast",
+      "dune",
+      "eye",
+      "flow",
+      "host",
+      "raiser",
+      "rib",
+      "sentry",
+      "shaper",
+      "silence",
+      "snout",
+      "spire",
+      "tide",
+      "vex",
+      "ward",
+      "wayfinder",
+      "wild"
+    ]
+  ]
+}

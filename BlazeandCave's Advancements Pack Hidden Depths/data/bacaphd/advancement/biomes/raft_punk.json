@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_raft"
+    },
+    "title": {
+      "translate": "Raft Punk"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Bamboo Raft inside a Bamboo Jungle"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_mighty_jungle",
+  "criteria": {
+    "bamboo_raft": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:bamboo_raft"
+              },
+              "location": {
+                "biomes": "minecraft:bamboo_jungle"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/raft_punk"
+  }
+}

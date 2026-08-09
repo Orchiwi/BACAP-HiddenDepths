@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chipped_anvil"
+    },
+    "title": {
+      "translate": "Anvil Chorus"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place an Anvil, a Chipped Anvil and a Damaged Anvil"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/baron_of_blacksmiths",
+  "criteria": {
+    "anvil": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:anvil"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "chipped_anvil": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chipped_anvil"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "damaged_anvil": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:damaged_anvil"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/anvil_chorus"
+  }
+}

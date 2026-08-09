@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "Cross-Contamination"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Potion of Healing in one hand and a Potion of Harming in the other"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "both_hands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:potion"
+                  ],
+                  "predicates": {
+                    "potion_contents": "minecraft:healing"
+                  }
+                },
+                "offhand": {
+                  "items": [
+                    "minecraft:potion"
+                  ],
+                  "predicates": {
+                    "potion_contents": "minecraft:harming"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/cross_contamination"
+  }
+}

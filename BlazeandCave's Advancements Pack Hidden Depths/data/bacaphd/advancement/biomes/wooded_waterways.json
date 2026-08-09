@@ -1,0 +1,117 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_boat"
+    },
+    "title": {
+      "translate": "Wooded Waterways"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Board a Boat in a Jungle, a Cherry Grove, a Mangrove Swamp, a Dark Forest and a Pale Garden"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "criteria": {
+    "jungle": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat"
+              },
+              "location": {
+                "biomes": "minecraft:jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_grove": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat"
+              },
+              "location": {
+                "biomes": "minecraft:cherry_grove"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_swamp": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat"
+              },
+              "location": {
+                "biomes": "minecraft:mangrove_swamp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_forest": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat"
+              },
+              "location": {
+                "biomes": "minecraft:dark_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_garden": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat"
+              },
+              "location": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/wooded_waterways"
+  }
+}

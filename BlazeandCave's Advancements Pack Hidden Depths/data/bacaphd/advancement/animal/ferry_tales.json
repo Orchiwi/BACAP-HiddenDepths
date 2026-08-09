@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_boat"
+    },
+    "title": {
+      "translate": "Ferry Tales"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Boat with a Panda aboard, then with a Fox, then with a Cat"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/lead_the_way",
+  "criteria": {
+    "panda": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat",
+                "passenger": {
+                  "entity_type": "minecraft:panda"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat",
+                "passenger": {
+                  "entity_type": "minecraft:fox"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat",
+                "passenger": {
+                  "entity_type": "minecraft:cat"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/ferry_tales"
+  }
+}

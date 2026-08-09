@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Harvest Moon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat Bread on the night of a full moon"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/an_apple_a_day",
+  "criteria": {
+    "full_moon_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 13000,
+              "max": 23000
+            },
+            "period": 192000
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/harvest_moon"
+  }
+}

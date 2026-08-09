@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Rustproofing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Seal a placed Copper Bulb, Grate, Door, Trapdoor, Chest and Golem Statue with Honeycomb"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/sly_copper_the_copper_heist",
+  "criteria": {
+    "waxed_bulb": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "waxed_grate": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_grate",
+                  "minecraft:waxed_exposed_copper_grate",
+                  "minecraft:waxed_weathered_copper_grate",
+                  "minecraft:waxed_oxidized_copper_grate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "waxed_door": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_door",
+                  "minecraft:waxed_exposed_copper_door",
+                  "minecraft:waxed_weathered_copper_door",
+                  "minecraft:waxed_oxidized_copper_door"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "waxed_trapdoor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_trapdoor",
+                  "minecraft:waxed_exposed_copper_trapdoor",
+                  "minecraft:waxed_weathered_copper_trapdoor",
+                  "minecraft:waxed_oxidized_copper_trapdoor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "waxed_chest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_chest",
+                  "minecraft:waxed_exposed_copper_chest",
+                  "minecraft:waxed_weathered_copper_chest",
+                  "minecraft:waxed_oxidized_copper_chest"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "waxed_statue": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_golem_statue",
+                  "minecraft:waxed_exposed_copper_golem_statue",
+                  "minecraft:waxed_weathered_copper_golem_statue",
+                  "minecraft:waxed_oxidized_copper_golem_statue"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/rustproofing"
+  }
+}

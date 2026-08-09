@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_brick_stairs"
+    },
+    "title": {
+      "translate": "Cutting Corners"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fit a Stair block into an inside corner"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stairs_no",
+  "criteria": {
+    "inner_left": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:stairs",
+                "state": {
+                  "shape": "inner_left"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "inner_right": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:stairs",
+                "state": {
+                  "shape": "inner_right"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/cutting_corners"
+  },
+  "requirements": [
+    [
+      "inner_left",
+      "inner_right"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Magma Chamber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Magma Cube while standing on a Magma Block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "hot_footed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:magma_cube"
+        },
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:magma_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/magma_chamber"
+  }
+}

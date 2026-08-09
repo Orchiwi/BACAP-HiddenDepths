@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_fence_gate"
+    },
+    "title": {
+      "translate": "Mind the Gate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slot a Fence Gate into the middle of a fence line"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/en_garde",
+  "criteria": {
+    "gate_east_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_fence_gate",
+                  "minecraft:spruce_fence_gate",
+                  "minecraft:birch_fence_gate",
+                  "minecraft:jungle_fence_gate",
+                  "minecraft:acacia_fence_gate",
+                  "minecraft:dark_oak_fence_gate",
+                  "minecraft:mangrove_fence_gate",
+                  "minecraft:cherry_fence_gate",
+                  "minecraft:pale_oak_fence_gate",
+                  "minecraft:bamboo_fence_gate",
+                  "minecraft:crimson_fence_gate",
+                  "minecraft:warped_fence_gate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:fences"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:fences"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gate_north_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_fence_gate",
+                  "minecraft:spruce_fence_gate",
+                  "minecraft:birch_fence_gate",
+                  "minecraft:jungle_fence_gate",
+                  "minecraft:acacia_fence_gate",
+                  "minecraft:dark_oak_fence_gate",
+                  "minecraft:mangrove_fence_gate",
+                  "minecraft:cherry_fence_gate",
+                  "minecraft:pale_oak_fence_gate",
+                  "minecraft:bamboo_fence_gate",
+                  "minecraft:crimson_fence_gate",
+                  "minecraft:warped_fence_gate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:fences"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:fences"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/mind_the_gate"
+  },
+  "requirements": [
+    [
+      "gate_east_west",
+      "gate_north_south"
+    ]
+  ]
+}

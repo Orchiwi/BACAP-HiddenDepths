@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "Last Post"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ring a Bell in the End"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/cow_jumped_over_the_moon",
+  "criteria": {
+    "ring": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ]
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/last_post"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Fragmentary Evidence"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Hold a full stack of every one of the twenty-three Pottery Sherds at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/stack_all_the_items",
+  "criteria": {
+    "the_vault": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:angler_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:archer_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:arms_up_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:blade_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:brewer_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:burn_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:danger_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:explorer_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:flow_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:friend_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:guster_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:heart_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:heartbreak_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:howl_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:miner_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:mourner_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:plenty_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:prize_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:scrape_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:sheaf_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:shelter_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:skull_pottery_sherd"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:snort_pottery_sherd"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/fragmentary_evidence"
+  }
+}

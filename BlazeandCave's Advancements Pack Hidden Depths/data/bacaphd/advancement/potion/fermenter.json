@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "Fermenter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Fermented Spider Eye"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "ferment": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fermented_spider_eye"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/fermenter"
+  }
+}

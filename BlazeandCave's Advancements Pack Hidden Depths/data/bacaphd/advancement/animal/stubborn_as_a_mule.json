@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Stubborn as a Mule"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Tame a Mule of your own"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/artificial_selection",
+  "criteria": {
+    "mule": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:mule"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/stubborn_as_a_mule"
+  }
+}

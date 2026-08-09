@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Bullseye Express"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit the bullseye of a Target Block from thirty blocks away, from the seat of a Minecart"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "cart_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 15
+        },
+        "projectile": {
+          "distance": {
+            "horizontal": {
+              "min": 30
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/bullseye_express"
+  }
+}

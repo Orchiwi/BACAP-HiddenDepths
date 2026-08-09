@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "Rock and a Hard Place"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Silverfish with a Stone Pickaxe"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "stone_pick_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:stone_pickaxe"
+                ]
+              }
+            }
+          },
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:silverfish"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/rock_and_a_hard_place"
+  }
+}

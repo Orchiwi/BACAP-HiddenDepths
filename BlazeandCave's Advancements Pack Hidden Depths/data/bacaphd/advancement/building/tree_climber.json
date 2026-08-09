@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "translate": "Tree Climber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fix a Ladder to the side of a standing Log"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ladder_climbers_inc",
+  "criteria": {
+    "facing_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "facing_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "facing_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "facing_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ladder"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/tree_climber"
+  },
+  "requirements": [
+    [
+      "facing_north",
+      "facing_south",
+      "facing_east",
+      "facing_west"
+    ]
+  ]
+}

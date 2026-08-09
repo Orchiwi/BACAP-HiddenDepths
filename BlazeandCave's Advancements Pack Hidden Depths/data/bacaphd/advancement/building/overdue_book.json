@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_bookshelf"
+    },
+    "title": {
+      "translate": "Overdue Book"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pull a Book back out of a Chiseled Bookshelf"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shelf_expression",
+  "criteria": {
+    "take_book": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chiseled_bookshelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/overdue_book"
+  }
+}

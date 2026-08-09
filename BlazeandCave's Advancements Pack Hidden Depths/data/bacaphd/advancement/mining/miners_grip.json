@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Miner's Grip"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Pickaxe in your main hand and a Torch in your off hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moar_tools",
+  "criteria": {
+    "pick_and_torch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                },
+                "offhand": {
+                  "items": [
+                    "minecraft:torch"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/miners_grip"
+  }
+}

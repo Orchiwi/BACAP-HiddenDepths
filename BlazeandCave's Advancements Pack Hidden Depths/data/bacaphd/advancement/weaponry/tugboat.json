@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Tugboat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Reel in a Boat with a Fishing Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/indiana_jones",
+  "criteria": {
+    "hook_a_boat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "#minecraft:boat"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/tugboat"
+  }
+}

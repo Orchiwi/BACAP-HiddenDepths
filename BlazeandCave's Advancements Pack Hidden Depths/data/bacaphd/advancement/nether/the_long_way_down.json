@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "The Long Way Down"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fall eighty blocks in a single drop inside the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/limbo_walker",
+  "criteria": {
+    "big_drop": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 80.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_long_way_down"
+  }
+}

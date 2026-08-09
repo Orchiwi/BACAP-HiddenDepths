@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Ranch Hand"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry the whole animal handler's kit at once: Shears, a Lead, a Name Tag, a Saddle and a Bundle"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/lead_the_way",
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shears"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:lead"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:name_tag"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:saddle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bundle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/ranch_hand"
+  }
+}

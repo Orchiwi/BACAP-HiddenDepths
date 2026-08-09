@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_grate"
+    },
+    "title": {
+      "translate": "Waterworks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/no_chain_no_gain",
+  "criteria": {
+    "flooded_grate": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_grate",
+                  "minecraft:exposed_copper_grate",
+                  "minecraft:weathered_copper_grate",
+                  "minecraft:oxidized_copper_grate",
+                  "minecraft:waxed_copper_grate",
+                  "minecraft:waxed_exposed_copper_grate",
+                  "minecraft:waxed_weathered_copper_grate",
+                  "minecraft:waxed_oxidized_copper_grate"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flooded_chain": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_chain",
+                  "minecraft:exposed_copper_chain",
+                  "minecraft:weathered_copper_chain",
+                  "minecraft:oxidized_copper_chain",
+                  "minecraft:waxed_copper_chain",
+                  "minecraft:waxed_exposed_copper_chain",
+                  "minecraft:waxed_weathered_copper_chain",
+                  "minecraft:waxed_oxidized_copper_chain"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flooded_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_lantern",
+                  "minecraft:exposed_copper_lantern",
+                  "minecraft:weathered_copper_lantern",
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:waxed_copper_lantern",
+                  "minecraft:waxed_exposed_copper_lantern",
+                  "minecraft:waxed_weathered_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/waterworks"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "Cave Bloom"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant an Eyeblossom in the Deep Dark, where the day never comes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/eyeball_forest",
+  "criteria": {
+    "eyeblossom_below": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:open_eyeblossom",
+                  "minecraft:closed_eyeblossom"
+                ]
+              },
+              "biomes": "minecraft:deep_dark"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/cave_bloom"
+  }
+}

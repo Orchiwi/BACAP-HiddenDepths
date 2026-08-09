@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "Dry Rations"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat Dried Kelp in the middle of a Desert, as far from the sea as you can get"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/kelp_me",
+  "criteria": {
+    "desert_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dried_kelp"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:desert"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/dry_rations"
+  }
+}

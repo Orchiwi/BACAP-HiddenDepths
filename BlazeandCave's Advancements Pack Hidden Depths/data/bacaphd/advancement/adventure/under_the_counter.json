@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Under the Counter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy Gunpowder and a Slimeball from Wandering Traders"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/travelling_merchant",
+  "criteria": {
+    "gunpowder": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:gunpowder"
+          ]
+        }
+      }
+    },
+    "slime_ball": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:slime_ball"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/under_the_counter"
+  }
+}

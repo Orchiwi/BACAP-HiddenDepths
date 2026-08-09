@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Hair Trigger"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Tripwire Hook straight off a Dispenser"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "hook_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hook_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hook_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hook_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hair_trigger"
+  },
+  "requirements": [
+    [
+      "hook_north",
+      "hook_south",
+      "hook_east",
+      "hook_west"
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Rod and Ranch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Reel in a Cow, a Pig, a Sheep and a Chicken with a Fishing Rod"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/master_angler",
+  "criteria": {
+    "cow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:cow"
+        }
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:pig"
+        }
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:sheep"
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:chicken"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/rod_and_ranch"
+  }
+}

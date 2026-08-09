@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper"
+    },
+    "title": {
+      "translate": "Dripstone Dividend"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Come away with Raw Copper mined inside a Dripstone Caves biome"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_miner",
+  "criteria": {
+    "raw_copper_underground": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:dripstone_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/dripstone_dividend"
+  }
+}

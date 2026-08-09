@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Do Not Feed the Birds"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Offer a Cookie to a Parrot and live with what you have done"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/caprymphony",
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/do_not_feed_the_birds"
+  }
+}

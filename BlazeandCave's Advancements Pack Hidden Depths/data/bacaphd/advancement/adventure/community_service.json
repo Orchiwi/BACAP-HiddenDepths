@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "Community Service"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a swing from an Iron Golem and survive it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rekt",
+  "criteria": {
+    "golem_punch": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1.0
+          },
+          "source_entity": {
+            "entity_type": "minecraft:iron_golem"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/community_service"
+  }
+}

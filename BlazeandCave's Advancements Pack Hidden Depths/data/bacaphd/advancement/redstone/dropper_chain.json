@@ -1,0 +1,614 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dropper"
+    },
+    "title": {
+      "translate": "Dropper Chain"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Line up three Droppers so each one fires into the next"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_dropper",
+  "criteria": {
+    "head_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head_up": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_up": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "head_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tail_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/dropper_chain"
+  },
+  "requirements": [
+    [
+      "head_north",
+      "tail_north",
+      "head_south",
+      "tail_south",
+      "head_east",
+      "tail_east",
+      "head_west",
+      "tail_west",
+      "head_up",
+      "tail_up",
+      "head_down",
+      "tail_down"
+    ]
+  ]
+}

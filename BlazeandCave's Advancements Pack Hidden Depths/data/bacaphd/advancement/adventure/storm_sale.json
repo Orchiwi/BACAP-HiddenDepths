@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Storm Sale"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Trade with a Villager in the middle of a thunderstorm"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "storm_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/storm_sale"
+  }
+}

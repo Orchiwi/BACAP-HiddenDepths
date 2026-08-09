@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Goat Rodeo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Goat with a Fishing Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/high_feet",
+  "criteria": {
+    "hooked_goat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:goat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/goat_rodeo"
+  }
+}

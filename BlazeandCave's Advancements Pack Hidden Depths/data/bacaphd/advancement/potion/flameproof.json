@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Flameproof"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a Potion of Fire Resistance"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "fire_resistance": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:fire_resistance"
+      }
+    },
+    "long_fire_resistance": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_fire_resistance"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/flameproof"
+  },
+  "requirements": [
+    [
+      "fire_resistance",
+      "long_fire_resistance"
+    ]
+  ]
+}

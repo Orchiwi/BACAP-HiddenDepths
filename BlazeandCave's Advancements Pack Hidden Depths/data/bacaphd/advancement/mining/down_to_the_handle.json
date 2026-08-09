@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Down to the Handle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bring a Netherite Pickaxe down to its last ten points of durability"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iconic_merchandising_prop",
+  "criteria": {
+    "nearly_gone": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ]
+        },
+        "durability": {
+          "min": 1,
+          "max": 10
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/down_to_the_handle"
+  }
+}

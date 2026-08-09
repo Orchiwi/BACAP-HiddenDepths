@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "translate": "Deep Foundations"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Blast Furnace below y = -50"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "deep_blast_furnace": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blast_furnace"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -50.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/deep_foundations"
+  }
+}

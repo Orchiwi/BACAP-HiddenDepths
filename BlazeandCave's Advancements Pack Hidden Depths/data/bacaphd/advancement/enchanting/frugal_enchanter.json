@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Frugal Enchanter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spend real levels enchanting all five Copper tools at an Enchanting Table"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "enchanted_copper_sword": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_sword"
+          ]
+        }
+      }
+    },
+    "enchanted_copper_pickaxe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_pickaxe"
+          ]
+        }
+      }
+    },
+    "enchanted_copper_axe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_axe"
+          ]
+        }
+      }
+    },
+    "enchanted_copper_shovel": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_shovel"
+          ]
+        }
+      }
+    },
+    "enchanted_copper_hoe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_hoe"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/frugal_enchanter"
+  }
+}

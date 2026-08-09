@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor"
+    },
+    "title": {
+      "translate": "High and Low"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Horse two hundred blocks above sea level, and again fifty blocks below it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/copper_stable",
+  "criteria": {
+    "high": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 200.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "low": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/high_and_low"
+  }
+}

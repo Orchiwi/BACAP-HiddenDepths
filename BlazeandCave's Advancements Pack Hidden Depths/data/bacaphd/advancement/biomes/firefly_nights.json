@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firefly_bush"
+    },
+    "title": {
+      "translate": "Firefly Nights"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Firefly Bush in a Mangrove Swamp"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "firefly_bush": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:firefly_bush"
+                ]
+              },
+              "biomes": "minecraft:mangrove_swamp"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/firefly_nights"
+  }
+}

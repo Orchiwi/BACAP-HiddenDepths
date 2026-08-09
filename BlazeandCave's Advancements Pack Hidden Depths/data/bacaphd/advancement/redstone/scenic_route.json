@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Scenic Route"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Minecart in eight different biomes, from Mushroom Fields to Ice Spikes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "ride_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:plains"
+          }
+        }
+      }
+    },
+    "ride_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:desert"
+          }
+        }
+      }
+    },
+    "ride_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "ride_swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:swamp"
+          }
+        }
+      }
+    },
+    "ride_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:badlands"
+          }
+        }
+      }
+    },
+    "ride_mushroom_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    },
+    "ride_ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:ice_spikes"
+          }
+        }
+      }
+    },
+    "ride_cherry_grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "biomes": "minecraft:cherry_grove"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/scenic_route"
+  }
+}

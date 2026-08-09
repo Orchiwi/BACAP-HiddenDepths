@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Worst Case Scenario"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bring a level five Raid down on a village with an Ominous Bottle"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_furious_test_subject",
+  "criteria": {
+    "raid_five": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:raid_omen": {
+            "amplifier": {
+              "min": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/worst_case_scenario"
+  }
+}

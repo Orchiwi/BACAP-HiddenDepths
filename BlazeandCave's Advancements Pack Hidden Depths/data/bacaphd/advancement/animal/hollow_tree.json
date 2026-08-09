@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Hollow Tree"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Beehive into a wall of Logs with one on either side"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/hive_mind",
+  "criteria": {
+    "hive_east_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beehive"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hive_north_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beehive"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:logs_that_burn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/hollow_tree"
+  },
+  "requirements": [
+    [
+      "hive_east_west",
+      "hive_north_south"
+    ]
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_stone_bricks"
+    },
+    "title": {
+      "translate": "Cracking Up"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect every kind of Cracked block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fake_stronghold",
+  "criteria": {
+    "cracked_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_stone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_deepslate_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_deepslate_tiles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_tiles"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_polished_blackstone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/cracking_up"
+  }
+}

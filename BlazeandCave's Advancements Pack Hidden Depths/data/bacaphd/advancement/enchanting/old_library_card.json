@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Old Library Card"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Spend levels on an Enchanting Table you set up inside a Stronghold"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/like_a_ninja",
+  "criteria": {
+    "enchant_underground": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 1
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:stronghold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/old_library_card"
+  }
+}

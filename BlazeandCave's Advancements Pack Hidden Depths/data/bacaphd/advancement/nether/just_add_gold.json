@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_scrap"
+    },
+    "title": {
+      "translate": "Just Add Gold"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold four Netherite Scrap and four Gold Ingots at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/holy_scrap",
+  "criteria": {
+    "recipe_in_hand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ],
+            "count": {
+              "min": 4
+            }
+          },
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ],
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/just_add_gold"
+  }
+}

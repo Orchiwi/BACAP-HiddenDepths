@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Witch's Brew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Splash Potion to the face from a Witch"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "witch_splash": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1.0
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:witch"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/witchs_brew"
+  }
+}

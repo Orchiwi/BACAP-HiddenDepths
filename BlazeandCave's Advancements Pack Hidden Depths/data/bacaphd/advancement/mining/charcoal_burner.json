@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:charcoal"
+    },
+    "title": {
+      "translate": "Charcoal Burner"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Smelt five hundred Charcoal"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/renewable_energy",
+  "criteria": {
+    "charcoal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:crafted",
+                    "stat": "minecraft:charcoal",
+                    "value": {
+                      "min": 500
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/charcoal_burner"
+  }
+}

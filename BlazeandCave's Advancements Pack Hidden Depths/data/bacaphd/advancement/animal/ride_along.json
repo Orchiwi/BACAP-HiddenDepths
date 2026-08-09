@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:parrot_spawn_egg"
+    },
+    "title": {
+      "translate": "Ride Along"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Horse with a tamed Parrot perched on your shoulder"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/parrot_choir",
+  "criteria": {
+    "left": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "right": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/ride_along"
+  },
+  "requirements": [
+    [
+      "left",
+      "right"
+    ]
+  ]
+}

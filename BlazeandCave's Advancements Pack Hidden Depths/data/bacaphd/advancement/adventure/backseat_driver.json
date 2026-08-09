@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Backseat Driver"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Pillager while it is riding a Ravager"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/its_so_beast_like",
+  "criteria": {
+    "rider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:pillager",
+          "vehicle": {
+            "entity_type": "minecraft:ravager"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/backseat_driver"
+  }
+}

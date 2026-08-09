@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "Iron Stomach"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat all five foods that can poison you: Rotten Flesh, a Spider Eye, a Poisonous Potato, a Pufferfish and Raw Chicken"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/certified_spud_chomper",
+  "criteria": {
+    "rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    },
+    "spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spider_eye"
+          ]
+        }
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "raw_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chicken"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/iron_stomach"
+  }
+}

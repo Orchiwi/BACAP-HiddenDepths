@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "Pocket Foundry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Furnace, Blast Furnace, Smoker, Anvil, Smithing Table, Grindstone and Stonecutter at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/hot_topic",
+  "criteria": {
+    "workshop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:smithing_table"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:grindstone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stonecutter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/pocket_foundry"
+  }
+}

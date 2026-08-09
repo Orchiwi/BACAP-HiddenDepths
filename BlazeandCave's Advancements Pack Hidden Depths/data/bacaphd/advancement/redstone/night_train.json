@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Night Train"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Minecart through pitch darkness"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "dark_cart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "light": {
+              "light": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/night_train"
+  }
+}

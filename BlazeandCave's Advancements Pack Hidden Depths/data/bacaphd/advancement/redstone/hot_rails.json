@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Hot Rails"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Minecart while you are on fire"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "burning_cart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hot_rails"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "The Smelting Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Furnace, a Blast Furnace and a Smoker"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/hot_topic",
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:furnace"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blast_furnace": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blast_furnace"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:smoker"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/the_smelting_line"
+  }
+}

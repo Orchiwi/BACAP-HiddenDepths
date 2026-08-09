@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sheep_spawn_egg"
+    },
+    "title": {
+      "translate": "Fleeced"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Sheep that you have already sheared bare"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/mary_had_a_little_lamb",
+  "criteria": {
+    "bald": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Sheared:1b}"
+        },
+        "partner": {
+          "entity_type": "minecraft:sheep",
+          "nbt": "{Sheared:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/fleeced"
+  }
+}

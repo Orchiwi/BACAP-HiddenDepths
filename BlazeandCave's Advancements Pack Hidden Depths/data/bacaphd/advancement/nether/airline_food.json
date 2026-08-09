@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Airline Food"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a meal while riding a Happy Ghast"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "inflight_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/airline_food"
+  }
+}

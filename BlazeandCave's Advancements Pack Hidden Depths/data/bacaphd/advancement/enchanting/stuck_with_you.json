@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Stuck With You"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Strap on an Elytra enchanted with Curse of Binding"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/handmade_blinding",
+  "criteria": {
+    "bound_wings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/stuck_with_you"
+  }
+}

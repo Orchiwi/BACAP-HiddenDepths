@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "Donkey Work"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Donkeys into a foal of their own"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/are_we_there_yet",
+  "criteria": {
+    "foal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:donkey"
+        },
+        "partner": {
+          "entity_type": "minecraft:donkey"
+        },
+        "child": {
+          "entity_type": "minecraft:donkey"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/donkey_work"
+  }
+}

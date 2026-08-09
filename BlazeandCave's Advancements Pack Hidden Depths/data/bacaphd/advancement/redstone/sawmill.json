@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Sawmill"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Watch a Crafter turn Logs into Planks all on its own"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "oak_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_planks"
+      }
+    },
+    "spruce_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_planks"
+      }
+    },
+    "birch_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_planks"
+      }
+    },
+    "jungle_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_planks"
+      }
+    },
+    "acacia_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_planks"
+      }
+    },
+    "dark_oak_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_planks"
+      }
+    },
+    "mangrove_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_planks"
+      }
+    },
+    "cherry_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_planks"
+      }
+    },
+    "pale_oak_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pale_oak_planks"
+      }
+    },
+    "bamboo_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_planks"
+      }
+    },
+    "crimson_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_planks"
+      }
+    },
+    "warped_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_planks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sawmill"
+  },
+  "requirements": [
+    [
+      "oak_planks",
+      "spruce_planks",
+      "birch_planks",
+      "jungle_planks",
+      "acacia_planks",
+      "dark_oak_planks",
+      "mangrove_planks",
+      "cherry_planks",
+      "pale_oak_planks",
+      "bamboo_planks",
+      "crimson_planks",
+      "warped_planks"
+    ]
+  ]
+}

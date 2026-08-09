@@ -206,6 +206,90 @@
           }
         }
       }
+    },
+    "last_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/last_post": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_shakedown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/shulker_shakedown": true
+            }
+          }
+        }
+      }
+    },
+    "interdimensional_snack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/interdimensional_snack": true
+            }
+          }
+        }
+      }
+    },
+    "endgame_grill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/endgame_grill": true
+            }
+          }
+        }
+      }
+    },
+    "space_jam": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/space_jam": true
+            }
+          }
+        }
+      }
+    },
+    "sky_tailor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/sky_tailor": true
+            }
+          }
+        }
+      }
+    },
+    "void_fanfare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/void_fanfare": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "Friendly Fire"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get shot by an Arrow that no living thing fired, straight out of a Dispenser"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "criteria": {
+    "ownerless_arrow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:arrow"
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/friendly_fire"
+  }
+}

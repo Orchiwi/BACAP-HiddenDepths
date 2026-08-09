@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Wings of Legend"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Finish an Elytra with Unbreaking III, Mending and both curses"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/curses",
+  "criteria": {
+    "perfect_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:binding_curse"
+                },
+                {
+                  "enchantments": "minecraft:vanishing_curse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/wings_of_legend"
+  }
+}

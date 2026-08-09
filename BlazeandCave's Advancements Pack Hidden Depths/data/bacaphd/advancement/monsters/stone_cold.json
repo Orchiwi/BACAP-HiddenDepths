@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_bricks"
+    },
+    "title": {
+      "translate": "Stone Cold"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Silverfish inside a Stronghold"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/termite_control",
+  "criteria": {
+    "stronghold_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:silverfish",
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/stone_cold"
+  }
+}

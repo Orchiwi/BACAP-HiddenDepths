@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "Ages of Stone"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Pickaxe of all seven materials at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/even_moar_tools",
+  "criteria": {
+    "all_picks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:copper_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/ages_of_stone"
+  }
+}

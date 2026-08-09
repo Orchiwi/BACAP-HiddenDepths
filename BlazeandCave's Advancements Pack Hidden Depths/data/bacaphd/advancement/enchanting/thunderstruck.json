@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Thunderstruck"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Call down lightning on a Ravager with a Channeling Trident"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/zeus",
+  "criteria": {
+    "struck_ravager": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:ravager"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/thunderstruck"
+  }
+}

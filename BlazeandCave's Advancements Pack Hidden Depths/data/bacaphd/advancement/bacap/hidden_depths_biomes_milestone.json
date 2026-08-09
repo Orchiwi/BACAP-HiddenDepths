@@ -314,6 +314,666 @@
           }
         }
       }
+    },
+    "ursa_major": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/ursa_major": true
+            }
+          }
+        }
+      }
+    },
+    "personality_test": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/personality_test": true
+            }
+          }
+        }
+      }
+    },
+    "hanami": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/hanami": true
+            }
+          }
+        }
+      }
+    },
+    "raft_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/raft_rider": true
+            }
+          }
+        }
+      }
+    },
+    "shipwright": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/shipwright": true
+            }
+          }
+        }
+      }
+    },
+    "grafted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/grafted": true
+            }
+          }
+        }
+      }
+    },
+    "sap_tapper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/sap_tapper": true
+            }
+          }
+        }
+      }
+    },
+    "wooded_waterways": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/wooded_waterways": true
+            }
+          }
+        }
+      }
+    },
+    "fleet_admiral": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/fleet_admiral": true
+            }
+          }
+        }
+      }
+    },
+    "frozen_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/frozen_fortress": true
+            }
+          }
+        }
+      }
+    },
+    "run_aground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/run_aground": true
+            }
+          }
+        }
+      }
+    },
+    "cold_case": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cold_case": true
+            }
+          }
+        }
+      }
+    },
+    "sunken_payload": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/sunken_payload": true
+            }
+          }
+        }
+      }
+    },
+    "small_mercies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/small_mercies": true
+            }
+          }
+        }
+      }
+    },
+    "petal_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/petal_storm": true
+            }
+          }
+        }
+      }
+    },
+    "eye_in_the_sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/eye_in_the_sky": true
+            }
+          }
+        }
+      }
+    },
+    "dry_season": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/dry_season": true
+            }
+          }
+        }
+      }
+    },
+    "goat_rodeo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/goat_rodeo": true
+            }
+          }
+        }
+      }
+    },
+    "light_reading": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/light_reading": true
+            }
+          }
+        }
+      }
+    },
+    "quiet_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/quiet_table": true
+            }
+          }
+        }
+      }
+    },
+    "brimstone_builder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/brimstone_builder": true
+            }
+          }
+        }
+      }
+    },
+    "chandelier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/chandelier": true
+            }
+          }
+        }
+      }
+    },
+    "gray_area": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/gray_area": true
+            }
+          }
+        }
+      }
+    },
+    "firefly_nights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/firefly_nights": true
+            }
+          }
+        }
+      }
+    },
+    "bucket_of_stink": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/bucket_of_stink": true
+            }
+          }
+        }
+      }
+    },
+    "cellar_door": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cellar_door": true
+            }
+          }
+        }
+      }
+    },
+    "ruin_raider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/ruin_raider": true
+            }
+          }
+        }
+      }
+    },
+    "rain_shadow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/rain_shadow": true
+            }
+          }
+        }
+      }
+    },
+    "summit_marker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/summit_marker": true
+            }
+          }
+        }
+      }
+    },
+    "raft_punk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/raft_punk": true
+            }
+          }
+        }
+      }
+    },
+    "chart_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/chart_house": true
+            }
+          }
+        }
+      }
+    },
+    "snow_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/snow_day": true
+            }
+          }
+        }
+      }
+    },
+    "skylight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/skylight": true
+            }
+          }
+        }
+      }
+    },
+    "cave_cruise": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cave_cruise": true
+            }
+          }
+        }
+      }
+    },
+    "booby_prize": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/booby_prize": true
+            }
+          }
+        }
+      }
+    },
+    "ice_age": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/ice_age": true
+            }
+          }
+        }
+      }
+    },
+    "miners_rest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/miners_rest": true
+            }
+          }
+        }
+      }
+    },
+    "cave_bloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cave_bloom": true
+            }
+          }
+        }
+      }
+    },
+    "deep_trench": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/deep_trench": true
+            }
+          }
+        }
+      }
+    },
+    "bad_neighbourhood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/bad_neighbourhood": true
+            }
+          }
+        }
+      }
+    },
+    "overdue_books": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/overdue_books": true
+            }
+          }
+        }
+      }
+    },
+    "sunken_statue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/sunken_statue": true
+            }
+          }
+        }
+      }
+    },
+    "deep_sleeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/deep_sleeper": true
+            }
+          }
+        }
+      }
+    },
+    "underground_economy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/underground_economy": true
+            }
+          }
+        }
+      }
+    },
+    "wake_the_neighbours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/wake_the_neighbours": true
+            }
+          }
+        }
+      }
+    },
+    "trespassers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/trespassers": true
+            }
+          }
+        }
+      }
+    },
+    "storm_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/storm_rider": true
+            }
+          }
+        }
+      }
+    },
+    "extreme_camping": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/extreme_camping": true
+            }
+          }
+        }
+      }
+    },
+    "mountaineer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/mountaineer": true
+            }
+          }
+        }
+      }
+    },
+    "eat_local": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/eat_local": true
+            }
+          }
+        }
+      }
+    },
+    "out_of_place": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/out_of_place": true
+            }
+          }
+        }
+      }
+    },
+    "house_hunting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/house_hunting": true
+            }
+          }
+        }
+      }
+    },
+    "extreme_angling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/extreme_angling": true
+            }
+          }
+        }
+      }
+    },
+    "whale_song": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/whale_song": true
+            }
+          }
+        }
+      }
+    },
+    "peak_voltage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/peak_voltage": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

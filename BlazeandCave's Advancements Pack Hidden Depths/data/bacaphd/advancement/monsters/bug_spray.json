@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Bug Spray"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Spider, a Cave Spider, a Silverfish and an Endermite with a sword enchanted with Bane of Arthropods"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/termite_control",
+  "criteria": {
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:spider"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:bane_of_arthropods"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:cave_spider"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:bane_of_arthropods"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:silverfish"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:bane_of_arthropods"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:endermite"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:bane_of_arthropods"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/bug_spray"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "Bramble Patch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Zombie hit you while every piece of your armour carries Thorns III"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/echidna",
+  "criteria": {
+    "zombie_thorns": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:zombie"
+          }
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:thorns",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:thorns",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:thorns",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:thorns",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/bramble_patch"
+  }
+}

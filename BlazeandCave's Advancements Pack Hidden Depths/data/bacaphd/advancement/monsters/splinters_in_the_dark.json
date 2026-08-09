@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": {
+      "translate": "Splinters in the Dark"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a hit from a Creaking"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/root",
+  "criteria": {
+    "hit_by_creaking": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:creaking"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/splinters_in_the_dark"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Omnibus"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Combine six different enchantments onto a single Enchanted Book"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/dewey_decimal",
+  "criteria": {
+    "six_in_one": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:protection"
+                },
+                {
+                  "enchantments": "minecraft:sharpness"
+                },
+                {
+                  "enchantments": "minecraft:efficiency"
+                },
+                {
+                  "enchantments": "minecraft:power"
+                },
+                {
+                  "enchantments": "minecraft:lure"
+                },
+                {
+                  "enchantments": "minecraft:thorns"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/omnibus"
+  }
+}

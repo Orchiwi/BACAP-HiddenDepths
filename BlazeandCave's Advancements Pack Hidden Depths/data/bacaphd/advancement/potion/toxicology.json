@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Toxicology"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a Potion of Poison and a Potion of Harming"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:poison"
+      }
+    },
+    "long_poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_poison"
+      }
+    },
+    "strong_poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_poison"
+      }
+    },
+    "harming": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:harming"
+      }
+    },
+    "strong_harming": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_harming"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/toxicology"
+  },
+  "requirements": [
+    [
+      "poison",
+      "long_poison",
+      "strong_poison"
+    ],
+    [
+      "harming",
+      "strong_harming"
+    ]
+  ]
+}

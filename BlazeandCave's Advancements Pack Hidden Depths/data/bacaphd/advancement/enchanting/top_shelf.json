@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Top Shelf"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant a Book using the enchanting table's most expensive slot"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "top_slot": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:book",
+            "minecraft:enchanted_book"
+          ]
+        },
+        "levels": {
+          "min": 3
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/top_shelf"
+  }
+}

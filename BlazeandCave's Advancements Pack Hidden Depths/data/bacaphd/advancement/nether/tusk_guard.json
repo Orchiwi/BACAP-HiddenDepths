@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Tusk Guard"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block a charging Hoglin with a Shield"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/whole_hog",
+  "criteria": {
+    "blocked_hoglin": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "entity_type": "minecraft:hoglin"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/tusk_guard"
+  }
+}

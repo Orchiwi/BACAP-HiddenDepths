@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "Assay Kit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fill a single Bundle with one of every raw mining drop"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/oresome",
+  "criteria": {
+    "assay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "predicates": {
+              "minecraft:bundle_contents": {
+                "items": {
+                  "contains": [
+                    {
+                      "items": [
+                        "minecraft:raw_copper"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:raw_iron"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:raw_gold"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:coal"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:lapis_lazuli"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:redstone"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:diamond"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:emerald"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:quartz"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:amethyst_shard"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:flint"
+                      ]
+                    },
+                    {
+                      "items": [
+                        "minecraft:ancient_debris"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/assay_kit"
+  }
+}

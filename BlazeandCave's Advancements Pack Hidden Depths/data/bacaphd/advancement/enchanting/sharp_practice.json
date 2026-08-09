@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword"
+    },
+    "title": {
+      "translate": "Sharp Practice"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a mob with a Copper Sword carrying Sharpness V"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/needle_sharp",
+  "criteria": {
+    "sharp_copper_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:copper_sword"
+                ],
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "minecraft:sharpness",
+                      "levels": {
+                        "min": 5
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/sharp_practice"
+  }
+}

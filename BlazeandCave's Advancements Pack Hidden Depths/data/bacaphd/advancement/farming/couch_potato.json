@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato"
+    },
+    "title": {
+      "translate": "Couch Potato"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Baked Potato while sitting in a Boat"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/die_potato",
+  "criteria": {
+    "boat_spud": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato"
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#minecraft:boat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/couch_potato"
+  }
+}

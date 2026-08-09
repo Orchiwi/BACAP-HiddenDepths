@@ -1,0 +1,124 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "Field Kitchen"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fit out a whole kitchen: place a Furnace, a Smoker, a Campfire, a Soul Campfire, a Cauldron and a Composter"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/delicious_hot_schmoes",
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:furnace"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:smoker"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "soul_campfire": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_campfire"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cauldron": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cauldron"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "composter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:composter"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/field_kitchen"
+  }
+}

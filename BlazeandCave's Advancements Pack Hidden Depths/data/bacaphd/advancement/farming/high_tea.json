@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "High Tea"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Cookie more than three hundred blocks up in the air"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/me_love_cookie",
+  "criteria": {
+    "cookie_in_the_clouds": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 300
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/high_tea"
+  }
+}

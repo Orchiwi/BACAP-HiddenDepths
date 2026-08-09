@@ -1,0 +1,238 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Potted History"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Leave a Decorated Pot behind in all twelve of the Overworld's ruins: Trial Chambers, Ancient City, Trail Ruins, Ocean Monument, Woodland Mansion, Shipwreck, Pillager Outpost, Stronghold, Desert Pyramid, Jungle Temple, Igloo and Swamp Hut"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/i_am_loot",
+  "criteria": {
+    "trial_chambers": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:trial_chambers"
+            }
+          }
+        ]
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    },
+    "trail_ruins": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:trail_ruins"
+            }
+          }
+        ]
+      }
+    },
+    "monument": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:monument"
+            }
+          }
+        ]
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:mansion"
+            }
+          }
+        ]
+      }
+    },
+    "shipwreck": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:shipwreck"
+            }
+          }
+        ]
+      }
+    },
+    "pillager_outpost": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:pillager_outpost"
+            }
+          }
+        ]
+      }
+    },
+    "stronghold": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:stronghold"
+            }
+          }
+        ]
+      }
+    },
+    "desert_pyramid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:desert_pyramid"
+            }
+          }
+        ]
+      }
+    },
+    "jungle_pyramid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:jungle_pyramid"
+            }
+          }
+        ]
+      }
+    },
+    "igloo": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:igloo"
+            }
+          }
+        ]
+      }
+    },
+    "swamp_hut": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              },
+              "structures": "minecraft:swamp_hut"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/potted_history"
+  }
+}

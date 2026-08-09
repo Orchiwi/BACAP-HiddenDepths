@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_lantern"
+    },
+    "title": {
+      "translate": "Chandelier"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Copper Lantern inside the Dripstone Caves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biome_sandwich",
+  "criteria": {
+    "copper_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_lantern"
+                ]
+              },
+              "biomes": "minecraft:dripstone_caves"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/chandelier"
+  }
+}

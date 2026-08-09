@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ancient_debris"
+    },
+    "title": {
+      "translate": "Scrapyard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect a full stack of Netherite Scrap"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/holy_scrap",
+  "criteria": {
+    "scrap_stack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/scrapyard"
+  }
+}

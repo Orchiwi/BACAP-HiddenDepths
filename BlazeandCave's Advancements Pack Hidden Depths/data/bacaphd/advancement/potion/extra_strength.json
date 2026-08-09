@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "Extra Strength"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold the strong version of every potion that has one, all at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/fork_in_the_road",
+  "criteria": {
+    "all_strong": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_leaping"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_swiftness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_slowness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_turtle_master"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_healing"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_harming"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_poison"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_regeneration"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:strong_strength"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/extra_strength"
+  }
+}

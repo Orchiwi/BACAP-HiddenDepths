@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Ancient Retirement"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear out a Netherite Pickaxe completely"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/fool_me_twice",
+  "criteria": {
+    "broke_it": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/ancient_retirement"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Mending Circle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear four armour pieces that all repair themselves with Mending"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "all_mending": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:mending"
+                      }
+                    ]
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:mending"
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:mending"
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:mending"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/mending_circle"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "translate": "Overqualified"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put Efficiency V and Unbreaking III on a Wooden Pickaxe"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/super_efficient",
+  "criteria": {
+    "overqualified": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/overqualified"
+  }
+}

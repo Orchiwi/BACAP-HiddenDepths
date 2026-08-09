@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "Leather Bound"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Own a full set of Leather armour with Protection IV on every single piece"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/covering_all_bases",
+  "criteria": {
+    "tanned_and_warded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/leather_bound"
+  }
+}

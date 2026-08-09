@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Munitions Plant"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Crafter turn out Arrows for you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/factorio",
+  "criteria": {
+    "crafted_arrows": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:arrow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/munitions_plant"
+  }
+}

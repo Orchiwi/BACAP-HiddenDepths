@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spire_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Sky Tailor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Apply the Spire armour trim to a piece of armour inside an End City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/ring_of_the_end",
+  "criteria": {
+    "spire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spire_armor_trim_smithing_template_smithing_trim",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:end_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/sky_tailor"
+  }
+}

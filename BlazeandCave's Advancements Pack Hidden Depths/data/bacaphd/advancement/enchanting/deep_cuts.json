@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Deep Cuts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Skewer a Guardian, an Elder Guardian, a Drowned and a Squid with an Impaling V Trident"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_tridenteer",
+  "criteria": {
+    "guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:guardian"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:impaling",
+                    "levels": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:elder_guardian"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:impaling",
+                    "levels": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:drowned"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:impaling",
+                    "levels": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:squid"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:impaling",
+                    "levels": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/deep_cuts"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_button"
+    },
+    "title": {
+      "translate": "Knock on Wood"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Push a Wooden Button of every wood type"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/click",
+  "criteria": {
+    "oak_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:birch_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jungle_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mangrove_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_button"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/knock_on_wood"
+  }
+}

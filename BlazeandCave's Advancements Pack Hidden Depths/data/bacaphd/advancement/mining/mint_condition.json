@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "Mint Condition"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Copper Nuggets, a Copper Ingot, Raw Copper, a Raw Copper Block and a Copper Block all at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/master_copper_miner",
+  "criteria": {
+    "every_form_of_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_nugget"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:raw_copper_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:copper_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mint_condition"
+  }
+}

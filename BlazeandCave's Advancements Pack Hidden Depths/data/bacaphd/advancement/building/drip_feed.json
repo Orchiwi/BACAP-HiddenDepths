@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Drip Feed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Cauldron directly beneath a Pointed Dripstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bubble_bubble_toil_and_trouble",
+  "criteria": {
+    "drip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cauldron",
+                  "minecraft:water_cauldron",
+                  "minecraft:lava_cauldron",
+                  "minecraft:powder_snow_cauldron"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pointed_dripstone"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/drip_feed"
+  }
+}

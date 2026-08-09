@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Bellwether"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Bell from a ceiling"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/no_chain_no_gain",
+  "criteria": {
+    "ceiling_bell": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ],
+                "state": {
+                  "attachment": "ceiling"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/bellwether"
+  }
+}

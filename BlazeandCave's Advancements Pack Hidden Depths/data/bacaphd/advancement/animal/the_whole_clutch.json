@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "The Whole Clutch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Gather a Chicken Egg, a Blue Egg, a Brown Egg, a Turtle Egg, a Sniffer Egg and the Dragon Egg"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/omelette",
+  "criteria": {
+    "eggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:blue_egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:brown_egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:turtle_egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sniffer_egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/the_whole_clutch"
+  }
+}

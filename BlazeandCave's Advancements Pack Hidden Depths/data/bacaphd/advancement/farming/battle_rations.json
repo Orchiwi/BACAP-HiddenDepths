@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Battle Rations"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a meal while Bad Omen still hangs over you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/full_stomach",
+  "criteria": {
+    "omen_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "effects": {
+            "minecraft:bad_omen": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/battle_rations"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Bell, Book and Candle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Bell, a Book and a Candle at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/village_settler",
+  "criteria": {
+    "trio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bell"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:book"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:candle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/bell_book_and_candle"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "Gilded Treachery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Piglin while wearing a full set of Golden Armour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "betrayal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/gilded_treachery"
+  }
+}

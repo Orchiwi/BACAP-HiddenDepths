@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": {
+      "translate": "Hasty Copper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Copper Pickaxe while the Haste effect is running"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_age",
+  "criteria": {
+    "hasty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:haste": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:copper_pickaxe"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/hasty_copper"
+  }
+}

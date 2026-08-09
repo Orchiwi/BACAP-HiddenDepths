@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Double Tap"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Skeleton and the Spider it is riding with a single piercing arrow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "spider_jockey": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:skeleton",
+            "vehicle": {
+              "entity_type": "minecraft:spider"
+            }
+          },
+          {
+            "entity_type": "minecraft:spider",
+            "nbt": "{Passengers:[{id:\"minecraft:skeleton\"}]}"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/double_tap"
+  }
+}

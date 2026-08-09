@@ -1,0 +1,190 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": {
+      "translate": "Pointed Progression"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Attack a mob with every kind of Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "wooden_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "stone_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stone_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "copper_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:copper_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "iron_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "golden_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "diamond_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:netherite_spear"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/pointed_progression"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower_seeds"
+    },
+    "title": {
+      "translate": "Birdseed Buffet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Offer a Parrot every one of the six seeds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/caprymphony",
+  "criteria": {
+    "wheat_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:melon_seeds"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pumpkin_seeds"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot_seeds"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "torchflower_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:torchflower_seeds"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "pitcher_pod": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pitcher_pod"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/birdseed_buffet"
+  }
+}

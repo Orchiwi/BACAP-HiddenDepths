@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow"
+    },
+    "title": {
+      "translate": "Snow Job"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stack Snow eight layers deep into one block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/ground_cover",
+  "criteria": {
+    "eight_layers": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:snow"
+                ],
+                "state": {
+                  "layers": "8"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/snow_job"
+  }
+}

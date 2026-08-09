@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_pressure_plate"
+    },
+    "title": {
+      "translate": "Pressure Test"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand on a powered Wooden Pressure Plate of every wood type"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "criteria": {
+    "oak_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:oak_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "spruce_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:spruce_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "birch_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:birch_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "jungle_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:jungle_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "acacia_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:acacia_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "dark_oak_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:dark_oak_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:mangrove_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "cherry_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cherry_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "pale_oak_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:pale_oak_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "bamboo_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bamboo_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "crimson_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:crimson_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "warped_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:warped_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/pressure_test"
+  }
+}

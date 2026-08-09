@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Terminal Ward"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cure a Zombie Villager in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "end_cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager",
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/terminal_ward"
+  }
+}

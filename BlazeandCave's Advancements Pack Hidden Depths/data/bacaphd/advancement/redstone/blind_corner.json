@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Blind Corner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Minecart wearing a Carved Pumpkin on your head"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "pumpkin_cart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:carved_pumpkin"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/blind_corner"
+  }
+}

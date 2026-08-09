@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_door"
+    },
+    "title": {
+      "translate": "Revolving Doors"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Open a Door made from every type of wood"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "oak_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:birch_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jungle_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mangrove_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped_door": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/revolving_doors"
+  }
+}

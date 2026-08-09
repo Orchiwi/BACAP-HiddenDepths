@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Site Foreman"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Run Scaffolding out to the very end of its reach"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ladder_climbers_inc",
+  "criteria": {
+    "far_out": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ],
+                "state": {
+                  "distance": "7"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/site_foreman"
+  }
+}

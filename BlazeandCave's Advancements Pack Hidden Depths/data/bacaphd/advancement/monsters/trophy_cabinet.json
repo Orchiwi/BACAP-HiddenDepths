@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Trophy Cabinet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Creeper Head, a Zombie Head, a Skeleton Skull, a Wither Skeleton Skull and a Piglin Head all at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/creepy_heads",
+  "criteria": {
+    "five_heads": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:zombie_head"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:piglin_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/trophy_cabinet"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armadillo_scute"
+    },
+    "title": {
+      "translate": "Pedigree"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed two Wolves that are both wearing Wolf Armor"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/full_kennel",
+  "criteria": {
+    "armoured": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:wolf",
+          "equipment": {
+            "body": {
+              "items": [
+                "minecraft:wolf_armor"
+              ]
+            }
+          }
+        },
+        "partner": {
+          "entity_type": "minecraft:wolf",
+          "equipment": {
+            "body": {
+              "items": [
+                "minecraft:wolf_armor"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/pedigree"
+  }
+}

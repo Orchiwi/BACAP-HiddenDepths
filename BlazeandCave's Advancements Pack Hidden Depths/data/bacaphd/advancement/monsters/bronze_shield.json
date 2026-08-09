@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chestplate"
+    },
+    "title": {
+      "translate": "Bronze Shield"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Creeper blast at point-blank range in a full set of Copper armour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/blast_shield",
+  "criteria": {
+    "copper_took_the_blast": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:creeper"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:copper_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:copper_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:copper_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:copper_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/bronze_shield"
+  }
+}

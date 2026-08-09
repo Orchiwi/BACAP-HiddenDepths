@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Iron Works"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry every tool and fitting made from Iron Ingots at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/master_iron_miner",
+  "criteria": {
+    "iron_everything": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:shears"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:minecart"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:hopper"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_bars"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_door"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_trapdoor"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cauldron"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:shield"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:flint_and_steel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/iron_works"
+  }
+}

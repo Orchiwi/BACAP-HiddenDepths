@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Second Set of Lungs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a Potion of Water Breathing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/marine_marauder",
+  "criteria": {
+    "water_breathing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:water_breathing"
+      }
+    },
+    "long_water_breathing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_water_breathing"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/second_set_of_lungs"
+  },
+  "requirements": [
+    [
+      "water_breathing",
+      "long_water_breathing"
+    ]
+  ]
+}

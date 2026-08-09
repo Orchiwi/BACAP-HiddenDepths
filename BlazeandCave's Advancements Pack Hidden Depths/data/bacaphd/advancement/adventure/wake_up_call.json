@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "translate": "Wake-Up Call"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ring a Bell inside a Woodland Mansion"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/allayance",
+  "criteria": {
+    "ring": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ]
+              },
+              "structures": "minecraft:mansion"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/wake_up_call"
+  }
+}

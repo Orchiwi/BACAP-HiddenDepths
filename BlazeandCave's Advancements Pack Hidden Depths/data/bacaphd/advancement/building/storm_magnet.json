@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Storm Magnet"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Lightning Rod higher than Y=250, up where the storms live"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/skyblock",
+  "criteria": {
+    "rod_in_the_sky": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lightning_rod"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 250.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/storm_magnet"
+  }
+}

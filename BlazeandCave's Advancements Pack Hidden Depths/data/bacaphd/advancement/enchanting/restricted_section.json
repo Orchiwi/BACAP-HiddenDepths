@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Restricted Section"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Crack open the loot of a Stronghold Library chest"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/like_a_ninja",
+  "criteria": {
+    "library_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/stronghold_library"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/restricted_section"
+  }
+}

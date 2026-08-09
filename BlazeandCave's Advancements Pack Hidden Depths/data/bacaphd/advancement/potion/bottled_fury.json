@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Bottled Fury"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect a full stack of Dragon's Breath"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "stack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bottled_fury"
+  }
+}

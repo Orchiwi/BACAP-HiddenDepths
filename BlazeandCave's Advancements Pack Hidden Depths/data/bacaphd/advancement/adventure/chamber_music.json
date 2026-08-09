@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "Chamber Music"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play a music disc on a Jukebox inside a Trial Chamber"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/music_to_my_ears",
+  "criteria": {
+    "disc_in_the_chamber": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              },
+              "structures": "minecraft:trial_chambers"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/chamber_music"
+  }
+}

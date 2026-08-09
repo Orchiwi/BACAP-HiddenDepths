@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": {
+      "translate": "Tuned In"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a Comparator so it feeds into a Calibrated Sculk Sensor"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/calibration_sensation",
+  "criteria": {
+    "comparator_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:comparator"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "comparator_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:comparator"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "comparator_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:comparator"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "comparator_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:comparator"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/tuned_in"
+  },
+  "requirements": [
+    [
+      "comparator_north",
+      "comparator_south",
+      "comparator_east",
+      "comparator_west"
+    ]
+  ]
+}

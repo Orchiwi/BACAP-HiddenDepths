@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Under Fire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take an unblocked hit from a Ghast's fireball, a Blaze's fireball, a Wither's skull, a Shulker's bullet, a Breeze's wind charge and an Evoker's fangs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/dungeon_crawler",
+  "criteria": {
+    "ghast_fireball": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:fireball"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "blaze_fireball": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:small_fireball"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "wither_skull": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:wither_skull"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "shulker_bullet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:shulker_bullet"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "breeze_charge": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:breeze_wind_charge"
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "evoker_fangs": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:evoker_fangs"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/under_fire"
+  }
+}

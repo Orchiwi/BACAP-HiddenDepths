@@ -1,0 +1,139 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chestplate"
+    },
+    "title": {
+      "translate": "Scrap Heap"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear out every Copper tool and every piece of Copper armour until all nine of them break"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/worked_to_the_bone",
+  "criteria": {
+    "broke_copper_sword": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_sword"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_axe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_axe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_shovel": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_shovel"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_hoe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_helmet": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_helmet"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_chestplate": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_chestplate"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_leggings": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_leggings"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "broke_copper_boots": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_boots"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/scrap_heap"
+  }
+}

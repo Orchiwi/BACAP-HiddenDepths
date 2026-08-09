@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Picnic Ruined"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Cooked Beef in the middle of a thunderstorm"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/full_stomach",
+  "criteria": {
+    "soggy_supper": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/picnic_ruined"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "translate": "Not So Invisible"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be invisible while wearing all four pieces of armour, which rather gives you away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "visible_armour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {}
+              },
+              "equipment": {
+                "head": {
+                  "count": {
+                    "min": 1
+                  }
+                },
+                "chest": {
+                  "count": {
+                    "min": 1
+                  }
+                },
+                "legs": {
+                  "count": {
+                    "min": 1
+                  }
+                },
+                "feet": {
+                  "count": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/not_so_invisible"
+  }
+}

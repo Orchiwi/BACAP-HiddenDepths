@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "Deep Trench"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand underwater at y 40 or lower on the floor of a deep ocean"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/wet_feet",
+  "criteria": {
+    "ocean_floor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                },
+                "biomes": [
+                  "minecraft:deep_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ],
+                "position": {
+                  "y": {
+                    "max": 40.0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/deep_trench"
+  }
+}

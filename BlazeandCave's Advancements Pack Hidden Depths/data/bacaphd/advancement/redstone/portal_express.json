@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Portal Express"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Minecart right into a Nether Portal"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "cart_in_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:nether_portal"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/portal_express"
+  }
+}

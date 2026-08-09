@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Field Medicine"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cure a Zombie Villager in the Nether"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "nether_cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager",
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/field_medicine"
+  }
+}

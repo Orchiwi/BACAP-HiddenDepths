@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Chamber Chemistry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Brew a Potion of Wind Charging, a Potion of Weaving and a Potion of Infestation"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/secret_of_the_ooze",
+  "criteria": {
+    "wind_charged": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:wind_charged"
+      }
+    },
+    "weaving": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:weaving"
+      }
+    },
+    "infested": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:infested"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/chamber_chemistry"
+  }
+}

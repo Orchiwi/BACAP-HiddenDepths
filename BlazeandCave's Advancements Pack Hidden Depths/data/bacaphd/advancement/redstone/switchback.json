@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Switchback"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay Rails into all four corner turns"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/railwayman",
+  "criteria": {
+    "turn_north_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail"
+                ],
+                "state": {
+                  "shape": "north_east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turn_north_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail"
+                ],
+                "state": {
+                  "shape": "north_west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turn_south_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail"
+                ],
+                "state": {
+                  "shape": "south_east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turn_south_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail"
+                ],
+                "state": {
+                  "shape": "south_west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/switchback"
+  }
+}

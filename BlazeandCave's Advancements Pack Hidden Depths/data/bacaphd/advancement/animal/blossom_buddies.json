@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "Blossom Buddies"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Bees under the petals of a Cherry Grove"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/ya_like_jazz",
+  "criteria": {
+    "cherry": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:bee"
+        },
+        "partner": {
+          "entity_type": "minecraft:bee"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:cherry_grove"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/blossom_buddies"
+  }
+}

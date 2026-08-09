@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg"
+    },
+    "title": {
+      "translate": "Familiar Territory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Tame the all black Cat that skulks around a Swamp Hut"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/herding_cats",
+  "criteria": {
+    "witch_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:all_black"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:swamp_hut"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/familiar_territory"
+  }
+}

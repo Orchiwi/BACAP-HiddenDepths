@@ -1,0 +1,292 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Pharmacopoeia"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Brew every single potion in the game, every extended and strong variant included"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/potion_master",
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:water"
+      }
+    },
+    "mundane": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:mundane"
+      }
+    },
+    "thick": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:thick"
+      }
+    },
+    "awkward": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "night_vision": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:night_vision"
+      }
+    },
+    "long_night_vision": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_night_vision"
+      }
+    },
+    "invisibility": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:invisibility"
+      }
+    },
+    "long_invisibility": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_invisibility"
+      }
+    },
+    "leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:leaping"
+      }
+    },
+    "long_leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_leaping"
+      }
+    },
+    "strong_leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_leaping"
+      }
+    },
+    "fire_resistance": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:fire_resistance"
+      }
+    },
+    "long_fire_resistance": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_fire_resistance"
+      }
+    },
+    "swiftness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:swiftness"
+      }
+    },
+    "long_swiftness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_swiftness"
+      }
+    },
+    "strong_swiftness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_swiftness"
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slowness"
+      }
+    },
+    "long_slowness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_slowness"
+      }
+    },
+    "strong_slowness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_slowness"
+      }
+    },
+    "turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:turtle_master"
+      }
+    },
+    "long_turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_turtle_master"
+      }
+    },
+    "strong_turtle_master": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_turtle_master"
+      }
+    },
+    "water_breathing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:water_breathing"
+      }
+    },
+    "long_water_breathing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_water_breathing"
+      }
+    },
+    "healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    },
+    "strong_healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_healing"
+      }
+    },
+    "harming": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:harming"
+      }
+    },
+    "strong_harming": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_harming"
+      }
+    },
+    "poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:poison"
+      }
+    },
+    "long_poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_poison"
+      }
+    },
+    "strong_poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_poison"
+      }
+    },
+    "regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:regeneration"
+      }
+    },
+    "long_regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_regeneration"
+      }
+    },
+    "strong_regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    },
+    "strength": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strength"
+      }
+    },
+    "long_strength": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_strength"
+      }
+    },
+    "strong_strength": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_strength"
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:weakness"
+      }
+    },
+    "long_weakness": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_weakness"
+      }
+    },
+    "slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slow_falling"
+      }
+    },
+    "long_slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_slow_falling"
+      }
+    },
+    "wind_charged": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:wind_charged"
+      }
+    },
+    "weaving": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:weaving"
+      }
+    },
+    "oozing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:oozing"
+      }
+    },
+    "infested": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:infested"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/pharmacopoeia"
+  }
+}

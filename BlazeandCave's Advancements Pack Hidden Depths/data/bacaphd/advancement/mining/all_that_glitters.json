@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "All That Glitters"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a full set of Golden tools and a Golden Sword at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/bling_bling_gone",
+  "criteria": {
+    "gold_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_hoe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/all_that_glitters"
+  }
+}

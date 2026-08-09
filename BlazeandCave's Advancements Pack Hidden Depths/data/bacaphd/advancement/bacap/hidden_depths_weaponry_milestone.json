@@ -230,6 +230,522 @@
           }
         }
       }
+    },
+    "counter_sniper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/counter_sniper": true
+            }
+          }
+        }
+      }
+    },
+    "celebration_volley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/celebration_volley": true
+            }
+          }
+        }
+      }
+    },
+    "axe_to_grind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/axe_to_grind": true
+            }
+          }
+        }
+      }
+    },
+    "bronze_point": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bronze_point": true
+            }
+          }
+        }
+      }
+    },
+    "rock_and_a_hard_place": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rock_and_a_hard_place": true
+            }
+          }
+        }
+      }
+    },
+    "pick_your_battles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/pick_your_battles": true
+            }
+          }
+        }
+      }
+    },
+    "pointed_progression": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/pointed_progression": true
+            }
+          }
+        }
+      }
+    },
+    "bronze_lance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bronze_lance": true
+            }
+          }
+        }
+      }
+    },
+    "copper_constabulary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/copper_constabulary": true
+            }
+          }
+        }
+      }
+    },
+    "cut_price_champion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cut_price_champion": true
+            }
+          }
+        }
+      }
+    },
+    "rust_bucket": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rust_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "riot_squad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/riot_squad": true
+            }
+          }
+        }
+      }
+    },
+    "wither_on_a_budget": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wither_on_a_budget": true
+            }
+          }
+        }
+      }
+    },
+    "angling_for_a_promotion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/angling_for_a_promotion": true
+            }
+          }
+        }
+      }
+    },
+    "tugboat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/tugboat": true
+            }
+          }
+        }
+      }
+    },
+    "firewood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/firewood": true
+            }
+          }
+        }
+      }
+    },
+    "whittled_arsenal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/whittled_arsenal": true
+            }
+          }
+        }
+      }
+    },
+    "woodsmans_justice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/woodsmans_justice": true
+            }
+          }
+        }
+      }
+    },
+    "hard_headed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hard_headed": true
+            }
+          }
+        }
+      }
+    },
+    "fools_gold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/fools_gold": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_treachery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/gilded_treachery": true
+            }
+          }
+        }
+      }
+    },
+    "distant_wailing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/distant_wailing": true
+            }
+          }
+        }
+      }
+    },
+    "business_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/business_end": true
+            }
+          }
+        }
+      }
+    },
+    "home_advantage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/home_advantage": true
+            }
+          }
+        }
+      }
+    },
+    "sky_harpoon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/sky_harpoon": true
+            }
+          }
+        }
+      }
+    },
+    "sitting_duck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/sitting_duck": true
+            }
+          }
+        }
+      }
+    },
+    "marked_for_death": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/marked_for_death": true
+            }
+          }
+        }
+      }
+    },
+    "rusty_nail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rusty_nail": true
+            }
+          }
+        }
+      }
+    },
+    "immortal_combat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/immortal_combat": true
+            }
+          }
+        }
+      }
+    },
+    "turnabout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/turnabout": true
+            }
+          }
+        }
+      }
+    },
+    "poke_the_bear": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/poke_the_bear": true
+            }
+          }
+        }
+      }
+    },
+    "smite_club": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/smite_club": true
+            }
+          }
+        }
+      }
+    },
+    "out_archered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/out_archered": true
+            }
+          }
+        }
+      }
+    },
+    "storm_caller": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/storm_caller": true
+            }
+          }
+        }
+      }
+    },
+    "lava_patrol": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/lava_patrol": true
+            }
+          }
+        }
+      }
+    },
+    "dragonlance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/dragonlance": true
+            }
+          }
+        }
+      }
+    },
+    "double_tap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/double_tap": true
+            }
+          }
+        }
+      }
+    },
+    "bullfighter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bullfighter": true
+            }
+          }
+        }
+      }
+    },
+    "swat_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/swat_team": true
+            }
+          }
+        }
+      }
+    },
+    "iron_fist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/iron_fist": true
+            }
+          }
+        }
+      }
+    },
+    "rust_never_sleeps": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rust_never_sleeps": true
+            }
+          }
+        }
+      }
+    },
+    "deep_sea_javelin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/deep_sea_javelin": true
+            }
+          }
+        }
+      }
+    },
+    "storm_the_castle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/storm_the_castle": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

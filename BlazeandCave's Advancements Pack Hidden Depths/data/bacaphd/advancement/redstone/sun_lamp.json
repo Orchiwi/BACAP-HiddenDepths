@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Sun Lamp"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sit a Daylight Detector directly on top of a Copper Bulb"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "detector_on_bulb": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_under_detector": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sun_lamp"
+  },
+  "requirements": [
+    [
+      "detector_on_bulb",
+      "bulb_under_detector"
+    ]
+  ]
+}

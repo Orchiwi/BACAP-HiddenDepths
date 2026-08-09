@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": {
+      "translate": "Pescatarian"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat Cod, Salmon, Tropical Fish, Pufferfish, Cooked Cod and Cooked Salmon"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/sushi",
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_cod"
+          ]
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_salmon"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/pescatarian"
+  }
+}

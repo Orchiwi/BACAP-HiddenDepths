@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Field Kit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Splash Potion of Weakness and a Golden Apple at the same time"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:weakness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    },
+    "kit_long": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_weakness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/field_kit"
+  },
+  "requirements": [
+    [
+      "kit",
+      "kit_long"
+    ]
+  ]
+}

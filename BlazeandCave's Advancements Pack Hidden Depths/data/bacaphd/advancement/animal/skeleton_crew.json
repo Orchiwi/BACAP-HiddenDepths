@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Skeleton Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Saddle a Skeleton Horse and ride it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "criteria": {
+    "undead_mount": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:skeleton_horse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/skeleton_crew"
+  }
+}

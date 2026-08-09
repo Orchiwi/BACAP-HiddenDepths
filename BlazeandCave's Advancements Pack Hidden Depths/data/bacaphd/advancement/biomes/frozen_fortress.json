@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "Frozen Fortress"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Find an Ocean Monument under a Deep Frozen Ocean"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/titanic",
+  "criteria": {
+    "monument_under_ice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:monument",
+                "biomes": [
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/frozen_fortress"
+  }
+}

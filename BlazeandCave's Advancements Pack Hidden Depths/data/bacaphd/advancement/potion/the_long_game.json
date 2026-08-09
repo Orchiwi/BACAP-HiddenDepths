@@ -1,0 +1,133 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "The Long Game"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold the extended version of every potion that has one, all at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/fork_in_the_road",
+  "criteria": {
+    "all_long": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_night_vision"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_invisibility"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_leaping"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_fire_resistance"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_swiftness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_slowness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_turtle_master"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_water_breathing"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_poison"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_regeneration"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_strength"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_weakness"
+            }
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:long_slow_falling"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_long_game"
+  }
+}

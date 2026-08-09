@@ -1,0 +1,143 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "Wood Fired"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft a Smoker out of every kind of log and stem there is"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/smokin_hot",
+  "criteria": {
+    "oak_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      }
+    },
+    "spruce_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      }
+    },
+    "birch_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      }
+    },
+    "jungle_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      }
+    },
+    "acacia_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      }
+    },
+    "dark_oak_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:dark_oak_log"
+          }
+        ]
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:mangrove_log"
+          }
+        ]
+      }
+    },
+    "cherry_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:cherry_log"
+          }
+        ]
+      }
+    },
+    "pale_oak_log": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:pale_oak_log"
+          }
+        ]
+      }
+    },
+    "crimson_stem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:crimson_stem"
+          }
+        ]
+      }
+    },
+    "warped_stem": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker",
+        "ingredients": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/wood_fired"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold_block"
+    },
+    "title": {
+      "translate": "Ore to Order"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Hold a full stack of all sixteen ores, ingots and gems at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "everything": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:raw_gold"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:coal"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:charcoal"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:quartz"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:flint"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/ore_to_order"
+  }
+}

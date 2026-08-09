@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Loyal to the End"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Loyalty III Trident right down to nothing"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/boomerang",
+  "criteria": {
+    "broke_trident": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:loyalty",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/loyal_to_the_end"
+  }
+}

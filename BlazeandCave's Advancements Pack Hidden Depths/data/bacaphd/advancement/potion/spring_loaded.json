@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Spring Loaded"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a Potion of Leaping"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hopping_mad",
+  "criteria": {
+    "leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:leaping"
+      }
+    },
+    "long_leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_leaping"
+      }
+    },
+    "strong_leaping": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_leaping"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/spring_loaded"
+  },
+  "requirements": [
+    [
+      "leaping",
+      "long_leaping",
+      "strong_leaping"
+    ]
+  ]
+}

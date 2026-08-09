@@ -1,0 +1,133 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Kaleidoscope"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay four Glazed Terracotta into a two-by-two square"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_glazed_terracotta_army",
+  "criteria": {
+    "two_by_two": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_glazed_terracotta",
+                  "minecraft:orange_glazed_terracotta",
+                  "minecraft:magenta_glazed_terracotta",
+                  "minecraft:light_blue_glazed_terracotta",
+                  "minecraft:yellow_glazed_terracotta",
+                  "minecraft:lime_glazed_terracotta",
+                  "minecraft:pink_glazed_terracotta",
+                  "minecraft:gray_glazed_terracotta",
+                  "minecraft:light_gray_glazed_terracotta",
+                  "minecraft:cyan_glazed_terracotta",
+                  "minecraft:purple_glazed_terracotta",
+                  "minecraft:blue_glazed_terracotta",
+                  "minecraft:brown_glazed_terracotta",
+                  "minecraft:green_glazed_terracotta",
+                  "minecraft:red_glazed_terracotta",
+                  "minecraft:black_glazed_terracotta"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_glazed_terracotta",
+                  "minecraft:orange_glazed_terracotta",
+                  "minecraft:magenta_glazed_terracotta",
+                  "minecraft:light_blue_glazed_terracotta",
+                  "minecraft:yellow_glazed_terracotta",
+                  "minecraft:lime_glazed_terracotta",
+                  "minecraft:pink_glazed_terracotta",
+                  "minecraft:gray_glazed_terracotta",
+                  "minecraft:light_gray_glazed_terracotta",
+                  "minecraft:cyan_glazed_terracotta",
+                  "minecraft:purple_glazed_terracotta",
+                  "minecraft:blue_glazed_terracotta",
+                  "minecraft:brown_glazed_terracotta",
+                  "minecraft:green_glazed_terracotta",
+                  "minecraft:red_glazed_terracotta",
+                  "minecraft:black_glazed_terracotta"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_glazed_terracotta",
+                  "minecraft:orange_glazed_terracotta",
+                  "minecraft:magenta_glazed_terracotta",
+                  "minecraft:light_blue_glazed_terracotta",
+                  "minecraft:yellow_glazed_terracotta",
+                  "minecraft:lime_glazed_terracotta",
+                  "minecraft:pink_glazed_terracotta",
+                  "minecraft:gray_glazed_terracotta",
+                  "minecraft:light_gray_glazed_terracotta",
+                  "minecraft:cyan_glazed_terracotta",
+                  "minecraft:purple_glazed_terracotta",
+                  "minecraft:blue_glazed_terracotta",
+                  "minecraft:brown_glazed_terracotta",
+                  "minecraft:green_glazed_terracotta",
+                  "minecraft:red_glazed_terracotta",
+                  "minecraft:black_glazed_terracotta"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_glazed_terracotta",
+                  "minecraft:orange_glazed_terracotta",
+                  "minecraft:magenta_glazed_terracotta",
+                  "minecraft:light_blue_glazed_terracotta",
+                  "minecraft:yellow_glazed_terracotta",
+                  "minecraft:lime_glazed_terracotta",
+                  "minecraft:pink_glazed_terracotta",
+                  "minecraft:gray_glazed_terracotta",
+                  "minecraft:light_gray_glazed_terracotta",
+                  "minecraft:cyan_glazed_terracotta",
+                  "minecraft:purple_glazed_terracotta",
+                  "minecraft:blue_glazed_terracotta",
+                  "minecraft:brown_glazed_terracotta",
+                  "minecraft:green_glazed_terracotta",
+                  "minecraft:red_glazed_terracotta",
+                  "minecraft:black_glazed_terracotta"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/kaleidoscope"
+  }
+}

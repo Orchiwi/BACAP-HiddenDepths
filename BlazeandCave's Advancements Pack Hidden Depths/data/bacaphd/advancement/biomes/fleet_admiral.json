@@ -1,0 +1,182 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_boat"
+    },
+    "title": {
+      "translate": "Fleet Admiral"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Board every kind of Boat, and the Bamboo Raft besides"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "criteria": {
+    "oak_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:oak_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:spruce_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:birch_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:jungle_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:acacia_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:dark_oak_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:mangrove_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:cherry_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:pale_oak_boat"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_raft": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:bamboo_raft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/fleet_admiral"
+  }
+}

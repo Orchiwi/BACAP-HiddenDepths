@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Sanctum"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set up a workshop: place an Enchanting Table, a Grindstone, a Smithing Table and a Lectern"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "enchanting_table": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:enchanting_table"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "grindstone": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:grindstone"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "smithing_table": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:smithing_table"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lectern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lectern"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/sanctum"
+  }
+}

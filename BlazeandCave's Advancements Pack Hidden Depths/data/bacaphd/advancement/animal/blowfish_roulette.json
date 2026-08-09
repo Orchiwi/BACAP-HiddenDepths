@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Blowfish Roulette"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Pufferfish and come away carrying Poison, Hunger and Nausea all at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/salmonella_poisoning",
+  "criteria": {
+    "ate_pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "triple_whammy": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {},
+          "minecraft:hunger": {},
+          "minecraft:nausea": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/blowfish_roulette"
+  }
+}

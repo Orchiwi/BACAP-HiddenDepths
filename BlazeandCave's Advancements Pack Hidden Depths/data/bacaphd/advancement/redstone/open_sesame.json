@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_door"
+    },
+    "title": {
+      "translate": "Open Sesame"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay a Stone Pressure Plate down right in front of an Iron Door"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "criteria": {
+    "plate_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stone_pressure_plate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plate_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stone_pressure_plate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plate_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stone_pressure_plate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plate_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stone_pressure_plate"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/open_sesame"
+  },
+  "requirements": [
+    [
+      "plate_north",
+      "plate_south",
+      "plate_east",
+      "plate_west"
+    ]
+  ]
+}

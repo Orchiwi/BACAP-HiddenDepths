@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Shared Dose"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Finish curing a Zombie Villager while Weakness is still running on you too"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "shared_weakness": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:weakness": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/shared_dose"
+  }
+}

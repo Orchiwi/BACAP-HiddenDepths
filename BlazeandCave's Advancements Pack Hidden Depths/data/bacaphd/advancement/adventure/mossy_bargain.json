@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Mossy Bargain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Moss Block, a Pale Moss Block and Pale Hanging Moss from Wandering Traders"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/florist",
+  "criteria": {
+    "moss_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    "pale_moss_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:pale_moss_block"
+          ]
+        }
+      }
+    },
+    "pale_hanging_moss": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:pale_hanging_moss"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/mossy_bargain"
+  }
+}

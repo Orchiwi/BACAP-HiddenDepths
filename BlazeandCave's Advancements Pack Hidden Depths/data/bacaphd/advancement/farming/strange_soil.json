@@ -1,0 +1,202 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:podzol"
+    },
+    "title": {
+      "translate": "Strange Soil"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a Sapling on Podzol, on Mycelium, on a Moss Block, on Mud and on Rooted Dirt"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "podzol": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling",
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:podzol"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mycelium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling",
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mycelium"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling",
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:moss_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mud": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling",
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mud"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rooted_dirt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling",
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rooted_dirt"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/strange_soil"
+  }
+}

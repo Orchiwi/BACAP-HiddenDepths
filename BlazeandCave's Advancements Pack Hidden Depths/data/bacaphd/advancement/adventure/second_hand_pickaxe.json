@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Second-Hand Pickaxe"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy the enchanted Iron Pickaxe a Wandering Trader carries"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/shady_deals",
+  "criteria": {
+    "used_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:iron_pickaxe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/second_hand_pickaxe"
+  }
+}

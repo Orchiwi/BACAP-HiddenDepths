@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lectern"
+    },
+    "title": {
+      "translate": "Public Reading"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a book down on a Lectern"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/writers_block",
+  "criteria": {
+    "book_on_lectern": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lectern"
+                ]
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:book",
+            "minecraft:written_book",
+            "minecraft:writable_book"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/public_reading"
+  }
+}

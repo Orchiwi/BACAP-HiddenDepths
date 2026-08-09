@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": {
+      "translate": "Marsh Fever"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take the Poison effect off the tip of a Bogged's arrow"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/string_shot",
+  "criteria": {
+    "bogged_poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:bogged"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/marsh_fever"
+  }
+}

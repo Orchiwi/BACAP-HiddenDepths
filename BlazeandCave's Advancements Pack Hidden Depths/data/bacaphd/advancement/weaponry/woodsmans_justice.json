@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "Woodsman's Justice"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill an Evoker, a Vindicator, a Pillager and a Ravager, each one with an Axe"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/axeman",
+  "criteria": {
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:evoker"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:vindicator"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:pillager"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/woodsmans_justice"
+  }
+}

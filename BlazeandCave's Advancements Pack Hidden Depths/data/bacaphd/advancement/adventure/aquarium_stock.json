@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish_bucket"
+    },
+    "title": {
+      "translate": "Aquarium Stock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Bucket of Pufferfish and a Bucket of Tropical Fish from Wandering Traders"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rebuilding_the_oceans",
+  "criteria": {
+    "pufferfish_bucket": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:pufferfish_bucket"
+          ]
+        }
+      }
+    },
+    "tropical_fish_bucket": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:tropical_fish_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/aquarium_stock"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Angling for a Promotion"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Copper Golem with a Fishing Rod and reel it in"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/indiana_jones",
+  "criteria": {
+    "hooked_a_golem": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:copper_golem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/angling_for_a_promotion"
+  }
+}

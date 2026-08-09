@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": {
+      "translate": "Pale Hunt"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Zombie, a Skeleton, a Creeper and a Spider among the pale oaks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/root",
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombie"
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper"
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:spider"
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/pale_hunt"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Doused"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Blaze while it is standing in water"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/blaze_extinguisher",
+  "criteria": {
+    "wet_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:blaze",
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/doused"
+  }
+}

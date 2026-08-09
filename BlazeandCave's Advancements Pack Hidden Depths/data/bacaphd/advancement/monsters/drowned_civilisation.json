@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Drowned Civilisation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Drowned inside an Ocean Ruin"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/because_im_aquaman",
+  "criteria": {
+    "drowned_in_the_ruins": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:drowned"
+        },
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structures": "minecraft:ocean_ruin_cold"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structures": "minecraft:ocean_ruin_warm"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/drowned_civilisation"
+  }
+}

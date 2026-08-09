@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "translate": "Chisel Set"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft or collect every kind of Chiseled block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_polish",
+  "criteria": {
+    "chiseled_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_stone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_red_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_quartz_block"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_nether_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_polished_blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_tuff"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_tuff_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_tuff_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_copper"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_bookshelf"
+            ]
+          }
+        ]
+      }
+    },
+    "chiseled_resin_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_resin_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/chisel_set"
+  }
+}

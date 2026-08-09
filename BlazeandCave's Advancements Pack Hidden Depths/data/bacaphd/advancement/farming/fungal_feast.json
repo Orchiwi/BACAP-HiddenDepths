@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "Fungal Feast"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slurp Mushroom Stew in a Mushroom Fields biome"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "criteria": {
+    "island_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fungal_feast"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Incoming!"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Ghast's fireball"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "criteria": {
+    "fireball_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:fireball"
+          },
+          "source_entity": {
+            "entity_type": "minecraft:ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/incoming"
+  }
+}

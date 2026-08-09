@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Bottle Collection"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Glass Bottle, a Water Bottle, a Honey Bottle, a Bottle o' Enchanting, a Dragon's Breath and an Ominous Bottle at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/mise_en_place",
+  "criteria": {
+    "every_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:water"
+            }
+          },
+          {
+            "items": [
+              "minecraft:honey_bottle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:experience_bottle"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:ominous_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bottle_collection"
+  }
+}

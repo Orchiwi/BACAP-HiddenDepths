@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Reeled In"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Villager with a Fishing Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "hooked_villager": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:villager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/reeled_in"
+  }
+}

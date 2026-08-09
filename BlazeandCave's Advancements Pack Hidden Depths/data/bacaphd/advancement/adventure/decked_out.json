@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flow_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Decked Out"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Stand in the Trial Chambers wearing four armour pieces all trimmed with the Flow pattern"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/tricky_treasures",
+  "criteria": {
+    "flow_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trial_chambers"
+              },
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/decked_out"
+  }
+}

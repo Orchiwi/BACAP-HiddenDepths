@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_torch"
+    },
+    "title": {
+      "translate": "Vigil"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Soul Torch in a Soul Sand Valley"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "soul_torch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_torch",
+                  "minecraft:soul_wall_torch"
+                ]
+              },
+              "biomes": "minecraft:soul_sand_valley"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/vigil"
+  }
+}

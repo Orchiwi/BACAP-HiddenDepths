@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine"
+    },
+    "title": {
+      "translate": "Ruin Raider"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot a chest in both a large and a small Underwater Ruin"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/atlantis",
+  "criteria": {
+    "big_ruin": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_big"
+      }
+    },
+    "small_ruin": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_small"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/ruin_raider"
+  }
+}

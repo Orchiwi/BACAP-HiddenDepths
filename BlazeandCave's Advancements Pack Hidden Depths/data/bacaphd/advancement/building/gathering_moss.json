@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "Gathering Moss"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect every mossy block there is"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/grass_type",
+  "criteria": {
+    "mossy_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_cobblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "mossy_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "moss_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      }
+    },
+    "moss_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_carpet"
+            ]
+          }
+        ]
+      }
+    },
+    "pale_moss_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_moss_block"
+            ]
+          }
+        ]
+      }
+    },
+    "pale_moss_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_moss_carpet"
+            ]
+          }
+        ]
+      }
+    },
+    "pale_hanging_moss": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_hanging_moss"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/gathering_moss"
+  }
+}

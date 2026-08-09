@@ -1,0 +1,220 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Dining Out"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat a meal inside a Village, a Woodland Mansion, an Ocean Monument, a Trial Chamber, a Bastion Remnant, an End City, an Ancient City and a Pillager Outpost"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "village": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": [
+              "minecraft:village_plains",
+              "minecraft:village_desert",
+              "minecraft:village_savanna",
+              "minecraft:village_snowy",
+              "minecraft:village_taiga"
+            ]
+          }
+        }
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:mansion"
+          }
+        }
+      }
+    },
+    "monument": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:monument"
+          }
+        }
+      }
+    },
+    "trial_chambers": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        }
+      }
+    },
+    "bastion": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        }
+      }
+    },
+    "end_city": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
+    "outpost": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot"
+          ]
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:pillager_outpost"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/dining_out"
+  }
+}

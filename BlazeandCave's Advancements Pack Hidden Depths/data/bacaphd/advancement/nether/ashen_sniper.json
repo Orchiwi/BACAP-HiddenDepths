@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Ashen Sniper"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shoot a Ghast dead with an Arrow from at least sixty-four blocks away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "criteria": {
+    "long_shot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ghast",
+          "distance": {
+            "absolute": {
+              "min": 64.0
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/ashen_sniper"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Hair of the Dog"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Regeneration while the Wither effect is eating away at you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "regeneration": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": "minecraft:regeneration"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      }
+    },
+    "long_regeneration": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": "minecraft:long_regeneration"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      }
+    },
+    "strong_regeneration": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": "minecraft:strong_regeneration"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/hair_of_the_dog"
+  },
+  "requirements": [
+    [
+      "regeneration",
+      "long_regeneration",
+      "strong_regeneration"
+    ]
+  ]
+}

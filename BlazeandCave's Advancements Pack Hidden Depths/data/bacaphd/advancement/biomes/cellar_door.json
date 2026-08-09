@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Cellar Door"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot the hidden chest in the cellar beneath an Igloo"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "igloo_cellar": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/igloo_chest"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/cellar_door"
+  }
+}

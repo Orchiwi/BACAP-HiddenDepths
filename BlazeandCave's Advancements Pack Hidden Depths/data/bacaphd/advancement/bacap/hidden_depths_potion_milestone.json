@@ -206,6 +206,630 @@
           }
         }
       }
+    },
+    "field_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/field_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "terminal_ward": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/terminal_ward": true
+            }
+          }
+        }
+      }
+    },
+    "doctors_bag": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/doctors_bag": true
+            }
+          }
+        }
+      }
+    },
+    "shared_dose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/shared_dose": true
+            }
+          }
+        }
+      }
+    },
+    "peak_condition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/peak_condition": true
+            }
+          }
+        }
+      }
+    },
+    "tap_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/tap_water": true
+            }
+          }
+        }
+      }
+    },
+    "bottoms_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bottoms_up": true
+            }
+          }
+        }
+      }
+    },
+    "awkward_silence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/awkward_silence": true
+            }
+          }
+        }
+      }
+    },
+    "bitter_pill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bitter_pill": true
+            }
+          }
+        }
+      }
+    },
+    "flameproof": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/flameproof": true
+            }
+          }
+        }
+      }
+    },
+    "second_set_of_lungs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/second_set_of_lungs": true
+            }
+          }
+        }
+      }
+    },
+    "spring_loaded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/spring_loaded": true
+            }
+          }
+        }
+      }
+    },
+    "dragging_your_feet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/dragging_your_feet": true
+            }
+          }
+        }
+      }
+    },
+    "toxicology": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/toxicology": true
+            }
+          }
+        }
+      }
+    },
+    "bubble_bath": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bubble_bath": true
+            }
+          }
+        }
+      }
+    },
+    "hair_of_the_dog": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/hair_of_the_dog": true
+            }
+          }
+        }
+      }
+    },
+    "highlighter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/highlighter": true
+            }
+          }
+        }
+      }
+    },
+    "rot_and_repair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/rot_and_repair": true
+            }
+          }
+        }
+      }
+    },
+    "mixed_messages": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/mixed_messages": true
+            }
+          }
+        }
+      }
+    },
+    "all_show_no_heat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/all_show_no_heat": true
+            }
+          }
+        }
+      }
+    },
+    "left_behind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/left_behind": true
+            }
+          }
+        }
+      }
+    },
+    "witchs_brew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/witchs_brew": true
+            }
+          }
+        }
+      }
+    },
+    "three_ways_to_serve": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/three_ways_to_serve": true
+            }
+          }
+        }
+      }
+    },
+    "marsh_fever": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/marsh_fever": true
+            }
+          }
+        }
+      }
+    },
+    "fermenter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/fermenter": true
+            }
+          }
+        }
+      }
+    },
+    "field_kit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/field_kit": true
+            }
+          }
+        }
+      }
+    },
+    "splash_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/splash_zone": true
+            }
+          }
+        }
+      }
+    },
+    "lights_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/lights_out": true
+            }
+          }
+        }
+      }
+    },
+    "cross_contamination": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/cross_contamination": true
+            }
+          }
+        }
+      }
+    },
+    "chamber_chemistry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/chamber_chemistry": true
+            }
+          }
+        }
+      }
+    },
+    "sober_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/sober_up": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_nightcap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/ominous_nightcap": true
+            }
+          }
+        }
+      }
+    },
+    "push_and_pull": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/push_and_pull": true
+            }
+          }
+        }
+      }
+    },
+    "not_so_invisible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/not_so_invisible": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_in_the_machine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/ghost_in_the_machine": true
+            }
+          }
+        }
+      }
+    },
+    "outrun_the_witch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/outrun_the_witch": true
+            }
+          }
+        }
+      }
+    },
+    "blind_fury": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/blind_fury": true
+            }
+          }
+        }
+      }
+    },
+    "bottled_fury": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bottled_fury": true
+            }
+          }
+        }
+      }
+    },
+    "clerical_work": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/clerical_work": true
+            }
+          }
+        }
+      }
+    },
+    "light_on_your_feet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/light_on_your_feet": true
+            }
+          }
+        }
+      }
+    },
+    "blast_shielding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/blast_shielding": true
+            }
+          }
+        }
+      }
+    },
+    "house_call": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/house_call": true
+            }
+          }
+        }
+      }
+    },
+    "worst_case_scenario": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/worst_case_scenario": true
+            }
+          }
+        }
+      }
+    },
+    "bottle_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/bottle_collection": true
+            }
+          }
+        }
+      }
+    },
+    "unseen_and_unheard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/unseen_and_unheard": true
+            }
+          }
+        }
+      }
+    },
+    "fully_stocked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/fully_stocked": true
+            }
+          }
+        }
+      }
+    },
+    "the_long_game": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/the_long_game": true
+            }
+          }
+        }
+      }
+    },
+    "extra_strength": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/extra_strength": true
+            }
+          }
+        }
+      }
+    },
+    "alchemists_tour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/alchemists_tour": true
+            }
+          }
+        }
+      }
+    },
+    "combat_cocktail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/combat_cocktail": true
+            }
+          }
+        }
+      }
+    },
+    "six_pack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/six_pack": true
+            }
+          }
+        }
+      }
+    },
+    "dive_bar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/dive_bar": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

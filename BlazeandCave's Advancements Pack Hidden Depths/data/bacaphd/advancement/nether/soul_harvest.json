@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_soil"
+    },
+    "title": {
+      "translate": "Soul Harvest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect a stack of Soul Sand and a stack of Soul Soil"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "soul_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_soil"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/soul_harvest"
+  }
+}

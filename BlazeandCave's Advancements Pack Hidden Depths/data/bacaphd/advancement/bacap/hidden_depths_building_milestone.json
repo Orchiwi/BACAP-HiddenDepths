@@ -242,6 +242,642 @@
           }
         }
       }
+    },
+    "public_reading": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/public_reading": true
+            }
+          }
+        }
+      }
+    },
+    "waterworks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/waterworks": true
+            }
+          }
+        }
+      }
+    },
+    "tradesmans_entrance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/tradesmans_entrance": true
+            }
+          }
+        }
+      }
+    },
+    "pendant_light": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/pendant_light": true
+            }
+          }
+        }
+      }
+    },
+    "growth_rings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/growth_rings": true
+            }
+          }
+        }
+      }
+    },
+    "sun_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/sun_trap": true
+            }
+          }
+        }
+      }
+    },
+    "on_a_pedestal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/on_a_pedestal": true
+            }
+          }
+        }
+      }
+    },
+    "employee_of_the_month": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/employee_of_the_month": true
+            }
+          }
+        }
+      }
+    },
+    "storm_magnet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/storm_magnet": true
+            }
+          }
+        }
+      }
+    },
+    "three_hearths": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/three_hearths": true
+            }
+          }
+        }
+      }
+    },
+    "field_kitchen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/field_kitchen": true
+            }
+          }
+        }
+      }
+    },
+    "camping_supplies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/camping_supplies": true
+            }
+          }
+        }
+      }
+    },
+    "trail_of_embers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/trail_of_embers": true
+            }
+          }
+        }
+      }
+    },
+    "hidden_hatch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/hidden_hatch": true
+            }
+          }
+        }
+      }
+    },
+    "mind_the_gate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/mind_the_gate": true
+            }
+          }
+        }
+      }
+    },
+    "canopy_camp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/canopy_camp": true
+            }
+          }
+        }
+      }
+    },
+    "cane_cutter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/cane_cutter": true
+            }
+          }
+        }
+      }
+    },
+    "log_cabin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/log_cabin": true
+            }
+          }
+        }
+      }
+    },
+    "lamp_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/lamp_post": true
+            }
+          }
+        }
+      }
+    },
+    "tree_climber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/tree_climber": true
+            }
+          }
+        }
+      }
+    },
+    "overdue_book": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/overdue_book": true
+            }
+          }
+        }
+      }
+    },
+    "story_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/story_time": true
+            }
+          }
+        }
+      }
+    },
+    "signpost_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/signpost_forest": true
+            }
+          }
+        }
+      }
+    },
+    "revolving_doors": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/revolving_doors": true
+            }
+          }
+        }
+      }
+    },
+    "all_bark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/all_bark": true
+            }
+          }
+        }
+      }
+    },
+    "triple_hung": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/triple_hung": true
+            }
+          }
+        }
+      }
+    },
+    "plank_owner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/plank_owner": true
+            }
+          }
+        }
+      }
+    },
+    "kaleidoscope": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/kaleidoscope": true
+            }
+          }
+        }
+      }
+    },
+    "masons_best": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/masons_best": true
+            }
+          }
+        }
+      }
+    },
+    "powder_keg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/powder_keg": true
+            }
+          }
+        }
+      }
+    },
+    "quartz_quota": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/quartz_quota": true
+            }
+          }
+        }
+      }
+    },
+    "pot_stack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/pot_stack": true
+            }
+          }
+        }
+      }
+    },
+    "four_of_a_kind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/four_of_a_kind": true
+            }
+          }
+        }
+      }
+    },
+    "candlemaker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/candlemaker": true
+            }
+          }
+        }
+      }
+    },
+    "neon_district": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/neon_district": true
+            }
+          }
+        }
+      }
+    },
+    "nether_nightlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/nether_nightlight": true
+            }
+          }
+        }
+      }
+    },
+    "transplant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/transplant": true
+            }
+          }
+        }
+      }
+    },
+    "sound_proofing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/sound_proofing": true
+            }
+          }
+        }
+      }
+    },
+    "streetlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/streetlight": true
+            }
+          }
+        }
+      }
+    },
+    "pattern_maker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/pattern_maker": true
+            }
+          }
+        }
+      }
+    },
+    "site_foreman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/site_foreman": true
+            }
+          }
+        }
+      }
+    },
+    "snow_job": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/snow_job": true
+            }
+          }
+        }
+      }
+    },
+    "bellwether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/bellwether": true
+            }
+          }
+        }
+      }
+    },
+    "reading_room": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/reading_room": true
+            }
+          }
+        }
+      }
+    },
+    "drip_feed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/drip_feed": true
+            }
+          }
+        }
+      }
+    },
+    "stalactite": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/stalactite": true
+            }
+          }
+        }
+      }
+    },
+    "double_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/double_up": true
+            }
+          }
+        }
+      }
+    },
+    "waterlogged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/waterlogged": true
+            }
+          }
+        }
+      }
+    },
+    "cutting_corners": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/cutting_corners": true
+            }
+          }
+        }
+      }
+    },
+    "chisel_set": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/chisel_set": true
+            }
+          }
+        }
+      }
+    },
+    "cracking_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/cracking_up": true
+            }
+          }
+        }
+      }
+    },
+    "gathering_moss": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/gathering_moss": true
+            }
+          }
+        }
+      }
+    },
+    "silky_smooth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/silky_smooth": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

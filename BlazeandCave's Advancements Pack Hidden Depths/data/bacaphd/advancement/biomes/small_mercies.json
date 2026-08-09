@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Small Mercies"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot the chest of one of the little Ocean Ruins, not the big one"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/atlantis",
+  "criteria": {
+    "small_ruin_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_small"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/small_mercies"
+  }
+}

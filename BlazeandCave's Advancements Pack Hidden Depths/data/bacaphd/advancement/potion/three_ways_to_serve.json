@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion"
+    },
+    "title": {
+      "translate": "Three Ways to Serve"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold the drinkable, splash and lingering versions of the same potion at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/fork_in_the_road",
+  "criteria": {
+    "three_ways": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:healing"
+            }
+          },
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:healing"
+            }
+          },
+          {
+            "items": [
+              "minecraft:lingering_potion"
+            ],
+            "predicates": {
+              "potion_contents": "minecraft:healing"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/three_ways_to_serve"
+  }
+}

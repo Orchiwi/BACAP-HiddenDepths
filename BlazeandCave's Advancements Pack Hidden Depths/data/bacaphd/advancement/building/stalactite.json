@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "Stalactite"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Pointed Dripstone from a Dripstone Block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_collection",
+  "criteria": {
+    "hanging_tip": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pointed_dripstone"
+                ],
+                "state": {
+                  "vertical_direction": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dripstone_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/stalactite"
+  }
+}

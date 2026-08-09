@@ -134,6 +134,162 @@
           }
         }
       }
+    },
+    "wandering_wholesaler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/wandering_wholesaler": true
+            }
+          }
+        }
+      }
+    },
+    "ore_to_order": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/ore_to_order": true
+            }
+          }
+        }
+      }
+    },
+    "copper_standard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/copper_standard": true
+            }
+          }
+        }
+      }
+    },
+    "the_larder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_larder": true
+            }
+          }
+        }
+      }
+    },
+    "bloodlines": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/bloodlines": true
+            }
+          }
+        }
+      }
+    },
+    "master_carpenter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/master_carpenter": true
+            }
+          }
+        }
+      }
+    },
+    "pharmacopoeia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/pharmacopoeia": true
+            }
+          }
+        }
+      }
+    },
+    "verdigris_champion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/verdigris_champion": true
+            }
+          }
+        }
+      }
+    },
+    "smitten": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/smitten": true
+            }
+          }
+        }
+      }
+    },
+    "potted_history": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/potted_history": true
+            }
+          }
+        }
+      }
+    },
+    "automated_empire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/automated_empire": true
+            }
+          }
+        }
+      }
+    },
+    "scrap_emperor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/scrap_emperor": true
+            }
+          }
+        }
+      }
+    },
+    "fragmentary_evidence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/fragmentary_evidence": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

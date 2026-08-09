@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "Old Roads"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand in Trail Ruins buried under a jungle, under a taiga and under a birch forest"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/happy_trails",
+  "criteria": {
+    "jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trail_ruins",
+                "biomes": [
+                  "minecraft:jungle",
+                  "minecraft:bamboo_jungle",
+                  "minecraft:sparse_jungle"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trail_ruins",
+                "biomes": [
+                  "minecraft:taiga",
+                  "minecraft:snowy_taiga",
+                  "minecraft:old_growth_pine_taiga",
+                  "minecraft:old_growth_spruce_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trail_ruins",
+                "biomes": [
+                  "minecraft:birch_forest",
+                  "minecraft:old_growth_birch_forest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/old_roads"
+  }
+}

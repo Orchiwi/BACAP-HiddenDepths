@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Forbidden Knowledge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item at a table you have set up inside the Deep Dark"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/cutting_edge_agriculture",
+  "criteria": {
+    "deep_dark_enchant": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/forbidden_knowledge"
+  }
+}

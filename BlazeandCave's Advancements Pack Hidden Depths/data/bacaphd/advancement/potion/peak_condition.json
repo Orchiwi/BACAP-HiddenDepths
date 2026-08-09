@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Peak Condition"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bite an Enchanted Golden Apple and carry Absorption, Regeneration, Fire Resistance and Resistance all at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "notch_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    },
+    "four_buffs": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:absorption": {},
+          "minecraft:regeneration": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:resistance": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/peak_condition"
+  }
+}

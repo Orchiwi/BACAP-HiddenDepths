@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "Cart Dispenser"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Aim a Dispenser straight down at a Rail so it can drop Minecarts onto the track"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "criteria": {
+    "dispenser_over_rail": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail",
+                  "minecraft:powered_rail",
+                  "minecraft:detector_rail",
+                  "minecraft:activator_rail"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rail_under_dispenser": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail",
+                  "minecraft:powered_rail",
+                  "minecraft:detector_rail",
+                  "minecraft:activator_rail"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/cart_dispenser"
+  },
+  "requirements": [
+    [
+      "dispenser_over_rail",
+      "rail_under_dispenser"
+    ]
+  ]
+}

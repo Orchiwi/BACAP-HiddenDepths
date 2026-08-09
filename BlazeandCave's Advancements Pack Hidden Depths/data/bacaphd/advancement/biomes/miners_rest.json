@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Miner's Rest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sleep in a bed inside an Abandoned Mineshaft"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/kilometre_walk",
+  "criteria": {
+    "mineshaft_nap": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structures": "minecraft:mineshaft"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "structures": "minecraft:mineshaft_mesa"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/miners_rest"
+  }
+}

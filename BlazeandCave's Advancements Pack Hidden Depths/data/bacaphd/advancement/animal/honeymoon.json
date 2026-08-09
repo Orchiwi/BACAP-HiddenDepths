@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Honeymoon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drink a Honey Bottle in the Overworld, the Nether and the End"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/winnie_the_pooh",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/honeymoon"
+  }
+}

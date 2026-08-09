@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Vanishing Act"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Potion of Invisibility from a Wandering Trader"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/shady_deals",
+  "criteria": {
+    "invis_potion": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:invisibility",
+              "minecraft:long_invisibility"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/vanishing_act"
+  }
+}

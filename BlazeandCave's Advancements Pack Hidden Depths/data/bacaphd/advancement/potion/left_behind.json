@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion"
+    },
+    "title": {
+      "translate": "Left Behind"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by the cloud of your own Lingering Potion"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "own_cloud": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:area_effect_cloud"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/left_behind"
+  }
+}

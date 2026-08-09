@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "Breeder's Pantry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry the breeding food of sixteen different species at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/humble_bundle",
+  "criteria": {
+    "pantry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:carrot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:potato"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:beetroot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wheat_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:hay_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:slime_ball"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:torchflower_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:seagrass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tropical_fish_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/breeders_pantry"
+  }
+}

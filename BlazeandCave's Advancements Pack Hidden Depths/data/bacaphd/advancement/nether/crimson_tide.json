@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": {
+      "translate": "Crimson Tide"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Silk Touch a stack of Crimson Nylium and a stack of Warped Nylium"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/what_a_fungi",
+  "criteria": {
+    "crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_nylium"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_nylium"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/crimson_tide"
+  }
+}

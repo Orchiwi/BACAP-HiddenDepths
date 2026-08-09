@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Baa Baa Rainbow Sheep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Name a Sheep 'jeb_' and watch its wool cycle through every colour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/live_and_let_dye",
+  "criteria": {
+    "jeb": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "jeb_"
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:sheep"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/baa_baa_rainbow_sheep"
+  }
+}

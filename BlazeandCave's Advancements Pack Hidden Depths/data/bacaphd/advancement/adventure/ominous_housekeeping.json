@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Ominous Housekeeping"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot a Trial Chamber supply barrel while Trial Omen is on you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/hard_mode_activated",
+  "criteria": {
+    "supply_barrel": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/trial_chambers/supply",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:trial_omen": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/ominous_housekeeping"
+  }
+}

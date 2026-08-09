@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Deep Fried"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cook raw food on a Campfire below Y=-50"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/smokin_hot",
+  "criteria": {
+    "deep_grill": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -50
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:beef",
+                "minecraft:porkchop",
+                "minecraft:chicken",
+                "minecraft:mutton",
+                "minecraft:rabbit",
+                "minecraft:cod",
+                "minecraft:salmon",
+                "minecraft:potato"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/deep_fried"
+  }
+}

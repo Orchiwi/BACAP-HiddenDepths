@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "The Pickaxe Graveyard"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear out a Pickaxe of every material until it snaps"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "copper_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/the_pickaxe_graveyard"
+  }
+}

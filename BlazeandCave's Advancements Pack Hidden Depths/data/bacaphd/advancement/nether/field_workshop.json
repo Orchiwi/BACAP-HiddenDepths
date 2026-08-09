@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Field Workshop"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Smithing Table and an Anvil in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/time_to_upgrade",
+  "criteria": {
+    "smithing_table": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:smithing_table"
+                ]
+              },
+              "dimension": "the_nether"
+            }
+          }
+        ]
+      }
+    },
+    "anvil": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:anvil",
+                  "minecraft:chipped_anvil",
+                  "minecraft:damaged_anvil"
+                ]
+              },
+              "dimension": "the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/field_workshop"
+  }
+}

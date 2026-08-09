@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Sculk Couture"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Apply both the Ward and the Silence armour trims inside an Ancient City"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "criteria": {
+    "ward": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ward_armor_trim_smithing_template_smithing_trim",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:ancient_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "silence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:silence_armor_trim_smithing_template_smithing_trim",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:ancient_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/sculk_couture"
+  }
+}

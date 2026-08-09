@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Gold Standard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Golden Apple, a Golden Carrot and a Glistering Melon Slice at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/24_carrot_gold",
+  "criteria": {
+    "gilded_larder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glistering_melon_slice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/gold_standard"
+  }
+}

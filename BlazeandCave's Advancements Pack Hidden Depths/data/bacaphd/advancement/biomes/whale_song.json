@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "Whale Song"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Blow a Goat Horn while underwater in a deep ocean"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/wet_feet",
+  "criteria": {
+    "horn_underwater": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                },
+                "biomes": [
+                  "minecraft:deep_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/whale_song"
+  }
+}

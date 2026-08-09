@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Full Curriculum"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Buy Protection IV, Sharpness V, Efficiency V, Power V and Unbreaking III books from Villagers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/librarians_pet",
+  "criteria": {
+    "protection": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:protection",
+                "levels": {
+                  "min": 4
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sharpness": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:sharpness",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "efficiency": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "power": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:power",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "unbreaking": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/full_curriculum"
+  }
+}

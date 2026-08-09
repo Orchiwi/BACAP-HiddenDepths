@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Carnivore"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat Cooked Beef, Porkchop, Chicken, Mutton, Rabbit, Cod and Salmon"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef"
+          ]
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        }
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_mutton"
+          ]
+        }
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_cod"
+          ]
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_salmon"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/carnivore"
+  }
+}

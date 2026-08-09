@@ -1,0 +1,236 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Stalemate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set two Pistons a block apart, pointing straight at each other"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_parts",
+  "criteria": {
+    "face_off_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "face_off_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "face_off_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "face_off_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "face_off_up": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "face_off_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/stalemate"
+  },
+  "requirements": [
+    [
+      "face_off_north",
+      "face_off_south",
+      "face_off_east",
+      "face_off_west",
+      "face_off_up",
+      "face_off_down"
+    ]
+  ]
+}

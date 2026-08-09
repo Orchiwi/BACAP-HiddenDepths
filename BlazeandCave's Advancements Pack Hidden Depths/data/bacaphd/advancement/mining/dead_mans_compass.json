@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "Dead Man's Compass"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Die in an Ancient City with a Recovery Compass in your hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "criteria": {
+    "died_holding_compass": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:recovery_compass"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/dead_mans_compass"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Marked for Death"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a hostile monster that is glowing from your Spectral Arrow"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "glowing_target": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters",
+          "effects": {
+            "minecraft:glowing": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/marked_for_death"
+  }
+}

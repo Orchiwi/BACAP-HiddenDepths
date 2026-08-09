@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_golem_statue"
+    },
+    "title": {
+      "translate": "Sunken Statue"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Leave a Copper Golem Statue standing inside an Ocean Monument"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/moskstraumen",
+  "criteria": {
+    "monument_statue": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:oxidized_copper_golem_statue"
+                ]
+              },
+              "structures": "minecraft:monument"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/sunken_statue"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "Cave Rave"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play a Music Disc in a Jukebox in a Lush Caves biome"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lush_hour",
+  "criteria": {
+    "lush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ],
+                "state": {
+                  "has_record": "true"
+                }
+              },
+              "biomes": "minecraft:lush_caves"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cave_rave"
+  }
+}

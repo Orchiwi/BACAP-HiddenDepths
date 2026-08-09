@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "Complete Works"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry sixteen signed Written Books at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/an_amazing_story",
+  "criteria": {
+    "library": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/complete_works"
+  }
+}

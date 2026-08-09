@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone_slab"
+    },
+    "title": {
+      "translate": "Double Up"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Merge two Slabs into one full double Slab"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/cut_in_half",
+  "criteria": {
+    "doubled": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:slabs",
+                "state": {
+                  "type": "double"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/double_up"
+  }
+}

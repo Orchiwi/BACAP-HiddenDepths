@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Nectar Nuptials"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Bees that are both loaded with nectar"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/hive_mind",
+  "criteria": {
+    "nectar": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:bee",
+          "nbt": "{HasNectar:1b}"
+        },
+        "partner": {
+          "entity_type": "minecraft:bee",
+          "nbt": "{HasNectar:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/nectar_nuptials"
+  }
+}

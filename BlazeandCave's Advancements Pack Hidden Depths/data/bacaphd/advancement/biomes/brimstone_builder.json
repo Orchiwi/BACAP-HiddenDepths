@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_bricks"
+    },
+    "title": {
+      "translate": "Brimstone Builder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place Sulfur Bricks inside the Sulfur Caves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biome_sandwich",
+  "criteria": {
+    "sulfur_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sulfur_bricks"
+                ]
+              },
+              "biomes": "minecraft:sulfur_caves"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/brimstone_builder"
+  }
+}

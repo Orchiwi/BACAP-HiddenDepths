@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ore"
+    },
+    "title": {
+      "translate": "Untouched Vein"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry an intact Copper Ore block and a Deepslate Copper Ore block at the same time"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_miner",
+  "criteria": {
+    "both_ores": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:deepslate_copper_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/untouched_vein"
+  }
+}

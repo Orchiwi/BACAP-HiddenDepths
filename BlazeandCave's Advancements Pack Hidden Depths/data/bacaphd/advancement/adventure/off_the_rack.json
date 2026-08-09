@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": {
+      "translate": "Off the Rack"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy a Diamond Pickaxe, a Diamond Axe and a Diamond Shovel from villagers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/all_chained_up",
+  "criteria": {
+    "diamond_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ]
+        }
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_axe"
+          ]
+        }
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_shovel"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/off_the_rack"
+  }
+}

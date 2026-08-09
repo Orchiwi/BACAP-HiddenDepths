@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "Byproducts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold one of every ordinary animal byproduct at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/true_cow_tipper",
+  "criteria": {
+    "harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:feather"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:white_wool"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:turtle_scute"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:armadillo_scute"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:ink_sac"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:milk_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:beef"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:porkchop"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:chicken"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:mutton"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/byproducts"
+  }
+}

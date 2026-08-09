@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Camping Supplies"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Campfire from a Fisherman instead of making one yourself"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/camping_out",
+  "criteria": {
+    "bought_campfire": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:campfire"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/camping_supplies"
+  }
+}

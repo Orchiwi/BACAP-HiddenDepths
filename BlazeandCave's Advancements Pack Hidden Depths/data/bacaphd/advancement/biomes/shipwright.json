@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_chest_boat"
+    },
+    "title": {
+      "translate": "Shipwright"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fit a Chest into a Boat by crafting a Chest Boat"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cargo_carrier",
+  "criteria": {
+    "oak_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_chest_boat"
+      }
+    },
+    "spruce_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_chest_boat"
+      }
+    },
+    "birch_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_chest_boat"
+      }
+    },
+    "jungle_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_chest_boat"
+      }
+    },
+    "acacia_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_chest_boat"
+      }
+    },
+    "dark_oak_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_chest_boat"
+      }
+    },
+    "mangrove_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_chest_boat"
+      }
+    },
+    "cherry_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_chest_boat"
+      }
+    },
+    "pale_oak_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pale_oak_chest_boat"
+      }
+    },
+    "bamboo_chest_raft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_chest_raft"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/shipwright"
+  },
+  "requirements": [
+    [
+      "oak_chest_boat",
+      "spruce_chest_boat",
+      "birch_chest_boat",
+      "jungle_chest_boat",
+      "acacia_chest_boat",
+      "dark_oak_chest_boat",
+      "mangrove_chest_boat",
+      "cherry_chest_boat",
+      "pale_oak_chest_boat",
+      "bamboo_chest_raft"
+    ]
+  ]
+}

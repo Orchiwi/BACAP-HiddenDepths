@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Endgame Grill"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cook raw food on a Campfire inside an End City"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/a_wizards_breakfast",
+  "criteria": {
+    "city_grill": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire"
+                ]
+              },
+              "structures": "minecraft:end_city"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:beef",
+                "minecraft:porkchop",
+                "minecraft:chicken",
+                "minecraft:mutton",
+                "minecraft:rabbit",
+                "minecraft:cod",
+                "minecraft:salmon",
+                "minecraft:potato"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/endgame_grill"
+  }
+}

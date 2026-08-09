@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "Rain Shadow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand in a Badlands while a thunderstorm rages everywhere else"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "dry_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:badlands",
+                  "minecraft:wooded_badlands",
+                  "minecraft:eroded_badlands"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/rain_shadow"
+  }
+}

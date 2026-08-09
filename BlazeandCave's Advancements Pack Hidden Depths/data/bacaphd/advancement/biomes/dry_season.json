@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_dry_grass"
+    },
+    "title": {
+      "translate": "Dry Season"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect both Short Dry Grass and Tall Dry Grass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "short_dry_grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:short_dry_grass"
+            ]
+          }
+        ]
+      }
+    },
+    "tall_dry_grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tall_dry_grass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/dry_season"
+  }
+}

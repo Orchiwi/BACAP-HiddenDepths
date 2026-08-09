@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "Portal Pilfering"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot the chest left beside a Ruined Portal"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/ancient_restoration",
+  "criteria": {
+    "ruined_portal_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ruined_portal"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/portal_pilfering"
+  }
+}

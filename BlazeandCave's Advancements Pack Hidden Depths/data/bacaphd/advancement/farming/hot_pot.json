@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Hot Pot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat a Cooked Porkchop while standing in Lava with Fire Resistance"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/meat_lovers",
+  "criteria": {
+    "lava_dinner": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        },
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:lava",
+                "minecraft:flowing_lava"
+              ]
+            }
+          },
+          "effects": {
+            "minecraft:fire_resistance": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/hot_pot"
+  }
+}

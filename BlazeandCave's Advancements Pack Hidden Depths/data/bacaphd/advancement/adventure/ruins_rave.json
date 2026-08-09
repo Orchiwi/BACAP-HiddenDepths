@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic"
+    },
+    "title": {
+      "translate": "Ruins Rave"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play the Relic music disc on a Jukebox standing in the Trail Ruins"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_chiptune_relic",
+  "criteria": {
+    "relic_on_site": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              },
+              "structures": "minecraft:trail_ruins"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_relic"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/ruins_rave"
+  }
+}

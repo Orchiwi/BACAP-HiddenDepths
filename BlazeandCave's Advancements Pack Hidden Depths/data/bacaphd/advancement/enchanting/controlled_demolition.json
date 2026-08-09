@@ -1,0 +1,93 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Controlled Demolition"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Creeper's blast head-on in four pieces of Blast Protection IV armour"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "criteria": {
+    "survived_blast": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:creeper"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:blast_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:blast_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:blast_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:blast_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/controlled_demolition"
+  }
+}

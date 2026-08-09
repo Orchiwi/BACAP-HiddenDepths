@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Light on Your Feet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Speed II, Jump Boost II and Slow Falling all at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hopping_mad",
+  "criteria": {
+    "parkour": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": {
+              "min": 1
+            }
+          },
+          "minecraft:jump_boost": {
+            "amplifier": {
+              "min": 1
+            }
+          },
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/light_on_your_feet"
+  }
+}

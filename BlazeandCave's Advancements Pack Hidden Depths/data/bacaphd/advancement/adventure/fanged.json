@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Fanged"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a bite from an Evoker's Fangs and live"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/feeling_ill",
+  "criteria": {
+    "fangs": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1.0
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:evoker_fangs"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:evoker"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/fanged"
+  }
+}

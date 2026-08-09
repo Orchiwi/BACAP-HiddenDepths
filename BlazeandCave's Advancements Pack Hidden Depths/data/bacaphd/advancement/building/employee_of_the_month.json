@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Employee of the Month"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mount a Copper Golem Statue inside an Item Frame"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/help_ive_been_framed",
+  "criteria": {
+    "statue_in_frame": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_golem_statue",
+            "minecraft:exposed_copper_golem_statue",
+            "minecraft:weathered_copper_golem_statue",
+            "minecraft:oxidized_copper_golem_statue",
+            "minecraft:waxed_copper_golem_statue",
+            "minecraft:waxed_exposed_copper_golem_statue",
+            "minecraft:waxed_weathered_copper_golem_statue",
+            "minecraft:waxed_oxidized_copper_golem_statue"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/employee_of_the_month"
+  }
+}

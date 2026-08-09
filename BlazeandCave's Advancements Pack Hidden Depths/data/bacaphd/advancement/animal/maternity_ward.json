@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_egg"
+    },
+    "title": {
+      "translate": "Maternity Ward"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay down a Bee Nest, a Turtle Egg and a Sniffer Egg"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/save_the_turtles",
+  "criteria": {
+    "bee_nest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turtle_egg": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:turtle_egg"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sniffer_egg": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sniffer_egg"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/maternity_ward"
+  }
+}

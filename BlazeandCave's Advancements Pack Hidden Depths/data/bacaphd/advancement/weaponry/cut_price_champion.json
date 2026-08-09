@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword"
+    },
+    "title": {
+      "translate": "Cut-Price Champion"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cut down an Elder Guardian with nothing better than a Copper Sword"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/death_star",
+  "criteria": {
+    "elder_guardian_on_the_cheap": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:elder_guardian"
+        },
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:copper_sword"
+                ]
+              }
+            }
+          },
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/cut_price_champion"
+  }
+}

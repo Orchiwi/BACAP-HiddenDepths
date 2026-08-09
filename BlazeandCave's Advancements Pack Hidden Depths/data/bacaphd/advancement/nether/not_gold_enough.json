@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_helmet"
+    },
+    "title": {
+      "translate": "Not Gold Enough"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Learn the hard way that Piglins have no respect for Copper armour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/cultural_misunderstandings",
+  "criteria": {
+    "piglin_unimpressed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:copper_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:copper_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:copper_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:copper_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/not_gold_enough"
+  }
+}

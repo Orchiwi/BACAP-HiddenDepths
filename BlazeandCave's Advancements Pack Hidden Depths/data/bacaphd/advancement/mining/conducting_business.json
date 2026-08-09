@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Conducting Business"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Channel lightning straight into a Copper Golem with a Channeling Trident"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/beep_bop",
+  "criteria": {
+    "struck_the_golem": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:copper_golem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/conducting_business"
+  }
+}

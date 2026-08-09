@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Cube Root"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get squashed to death by a Magma Cube"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/high_temperature_fluid_monster",
+  "criteria": {
+    "magma_cube": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:magma_cube"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/cube_root"
+  }
+}

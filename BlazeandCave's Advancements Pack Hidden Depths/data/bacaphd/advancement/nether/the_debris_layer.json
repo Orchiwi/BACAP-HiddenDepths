@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "The Debris Layer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand below y = 15 in the Nether holding a Diamond or Netherite Pickaxe"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/netherite_miner",
+  "criteria": {
+    "debris_layer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_nether",
+                "position": {
+                  "y": {
+                    "max": 15.0
+                  }
+                }
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_debris_layer"
+  }
+}

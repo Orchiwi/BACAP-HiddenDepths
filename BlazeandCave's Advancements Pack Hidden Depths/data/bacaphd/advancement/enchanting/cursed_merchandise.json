@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Cursed Merchandise"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy an Enchanted Book carrying a curse from a Villager"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/librarians_pet",
+  "criteria": {
+    "binding_curse": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "vanishing_curse": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "stored_enchantments": [
+              {
+                "enchantments": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/cursed_merchandise"
+  },
+  "requirements": [
+    [
+      "binding_curse",
+      "vanishing_curse"
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "Petty Cash"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have an Allay drop a Copper Ingot onto a Copper Block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/allayance",
+  "criteria": {
+    "allay_deposit": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:copper_ingot"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_block",
+                  "minecraft:exposed_copper",
+                  "minecraft:weathered_copper",
+                  "minecraft:oxidized_copper",
+                  "minecraft:waxed_copper_block",
+                  "minecraft:waxed_exposed_copper",
+                  "minecraft:waxed_weathered_copper",
+                  "minecraft:waxed_oxidized_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/petty_cash"
+  }
+}

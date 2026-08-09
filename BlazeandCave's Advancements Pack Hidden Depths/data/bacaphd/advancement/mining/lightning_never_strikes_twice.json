@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Lightning Never Strikes Twice"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a lightning bolt yourself while holding a Lightning Rod in your hand"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/shock_treatment",
+  "criteria": {
+    "struck_holding_the_rod": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:lightning_bolt"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:lightning_rod"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/lightning_never_strikes_twice"
+  }
+}

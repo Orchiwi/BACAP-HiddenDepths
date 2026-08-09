@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "Torpedo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Swim in Depth Strider III boots while Dolphin's Grace is pushing you along"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/scuba_gear",
+  "criteria": {
+    "dolphin_strider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:dolphins_grace": {}
+              },
+              "equipment": {
+                "feet": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:depth_strider",
+                        "levels": {
+                          "min": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/torpedo"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Mason's Best"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Glazed Terracotta from a Mason villager"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_glazed_terracotta_army",
+  "criteria": {
+    "glazed_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:white_glazed_terracotta",
+            "minecraft:orange_glazed_terracotta",
+            "minecraft:magenta_glazed_terracotta",
+            "minecraft:light_blue_glazed_terracotta",
+            "minecraft:yellow_glazed_terracotta",
+            "minecraft:lime_glazed_terracotta",
+            "minecraft:pink_glazed_terracotta",
+            "minecraft:gray_glazed_terracotta",
+            "minecraft:light_gray_glazed_terracotta",
+            "minecraft:cyan_glazed_terracotta",
+            "minecraft:purple_glazed_terracotta",
+            "minecraft:blue_glazed_terracotta",
+            "minecraft:brown_glazed_terracotta",
+            "minecraft:green_glazed_terracotta",
+            "minecraft:red_glazed_terracotta",
+            "minecraft:black_glazed_terracotta"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/masons_best"
+  }
+}

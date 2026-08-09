@@ -218,6 +218,30 @@
           }
         }
       }
+    },
+    "overburden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/overburden": true
+            }
+          }
+        }
+      }
+    },
+    "cheap_and_cheerful": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:statistics/cheap_and_cheerful": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -206,6 +206,294 @@
           }
         }
       }
+    },
+    "bronze_shield": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/bronze_shield": true
+            }
+          }
+        }
+      }
+    },
+    "zombie_diet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/zombie_diet": true
+            }
+          }
+        }
+      }
+    },
+    "splinters_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/splinters_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "pale_hunt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/pale_hunt": true
+            }
+          }
+        }
+      }
+    },
+    "overcharged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/overcharged": true
+            }
+          }
+        }
+      }
+    },
+    "king_size": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/king_size": true
+            }
+          }
+        }
+      }
+    },
+    "close_shave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/close_shave": true
+            }
+          }
+        }
+      }
+    },
+    "bug_spray": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/bug_spray": true
+            }
+          }
+        }
+      }
+    },
+    "occupational_hazards": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/occupational_hazards": true
+            }
+          }
+        }
+      }
+    },
+    "home_invasion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/home_invasion": true
+            }
+          }
+        }
+      }
+    },
+    "sunrise_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/sunrise_service": true
+            }
+          }
+        }
+      }
+    },
+    "wave_clear": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/wave_clear": true
+            }
+          }
+        }
+      }
+    },
+    "under_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/under_fire": true
+            }
+          }
+        }
+      }
+    },
+    "standard_issue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/standard_issue": true
+            }
+          }
+        }
+      }
+    },
+    "trophy_cabinet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/trophy_cabinet": true
+            }
+          }
+        }
+      }
+    },
+    "sleep_tight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/sleep_tight": true
+            }
+          }
+        }
+      }
+    },
+    "eight_legged_freaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/eight_legged_freaks": true
+            }
+          }
+        }
+      }
+    },
+    "floating_point": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/floating_point": true
+            }
+          }
+        }
+      }
+    },
+    "magma_chamber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/magma_chamber": true
+            }
+          }
+        }
+      }
+    },
+    "junior_varsity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/junior_varsity": true
+            }
+          }
+        }
+      }
+    },
+    "stone_cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/stone_cold": true
+            }
+          }
+        }
+      }
+    },
+    "trap_sprung": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/trap_sprung": true
+            }
+          }
+        }
+      }
+    },
+    "drowned_civilisation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/drowned_civilisation": true
+            }
+          }
+        }
+      }
+    },
+    "home_turf": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/home_turf": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

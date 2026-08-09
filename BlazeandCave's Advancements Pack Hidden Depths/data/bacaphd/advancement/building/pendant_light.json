@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bulb"
+    },
+    "title": {
+      "translate": "Pendant Light"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Copper Bulb from the bottom of a Copper Chain"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "hanging_bulb": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_chain",
+                  "minecraft:exposed_copper_chain",
+                  "minecraft:weathered_copper_chain",
+                  "minecraft:oxidized_copper_chain",
+                  "minecraft:waxed_copper_chain",
+                  "minecraft:waxed_exposed_copper_chain",
+                  "minecraft:waxed_weathered_copper_chain",
+                  "minecraft:waxed_oxidized_copper_chain"
+                ]
+              }
+            },
+            "offsetY": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/pendant_light"
+  }
+}

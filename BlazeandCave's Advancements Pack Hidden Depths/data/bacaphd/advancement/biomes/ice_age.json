@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Ice Age"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place Ice, Packed Ice and Blue Ice in a Desert"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/thick_ice",
+  "criteria": {
+    "ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ice"
+                ]
+              },
+              "biomes": "minecraft:desert"
+            }
+          }
+        ]
+      }
+    },
+    "packed_ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:packed_ice"
+                ]
+              },
+              "biomes": "minecraft:desert"
+            }
+          }
+        ]
+      }
+    },
+    "blue_ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blue_ice"
+                ]
+              },
+              "biomes": "minecraft:desert"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/ice_age"
+  }
+}

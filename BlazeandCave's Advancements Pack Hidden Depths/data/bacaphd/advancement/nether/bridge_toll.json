@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Bridge Toll"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot a chest inside a Nether Fortress"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/basis_of_brewing",
+  "criteria": {
+    "fortress_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/nether_bridge"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/bridge_toll"
+  }
+}

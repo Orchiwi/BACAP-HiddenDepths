@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_clump"
+    },
+    "title": {
+      "translate": "Sap Tapper"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect a full stack of Resin Clumps off the Pale Oaks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/resinance",
+  "criteria": {
+    "stack_of_resin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:resin_clump"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/sap_tapper"
+  }
+}

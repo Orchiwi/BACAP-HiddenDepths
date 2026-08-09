@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Rails to Ruins"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Minecart inside an Abandoned Mineshaft, a Stronghold, an Ancient City, a Woodland Mansion and a Nether Fortress"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "ride_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "structures": "minecraft:mineshaft"
+          }
+        }
+      }
+    },
+    "ride_stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
+        }
+      }
+    },
+    "ride_ancient_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
+    "ride_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "structures": "minecraft:mansion"
+          }
+        }
+      }
+    },
+    "ride_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "structures": "minecraft:fortress"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/rails_to_ruins"
+  }
+}

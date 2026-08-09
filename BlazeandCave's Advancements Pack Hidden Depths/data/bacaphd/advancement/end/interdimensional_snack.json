@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Interdimensional Snack"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Chorus Fruit in the Nether and let it throw you somewhere you did not choose"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/a_wizards_breakfast",
+  "criteria": {
+    "nether_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/interdimensional_snack"
+  }
+}

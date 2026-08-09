@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Bucket List"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Bucket of Cod, Salmon, Tropical Fish, Pufferfish, Axolotl and Tadpole all at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/bucket_brigade",
+  "criteria": {
+    "buckets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cod_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:salmon_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tropical_fish_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pufferfish_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tadpole_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/bucket_list"
+  }
+}

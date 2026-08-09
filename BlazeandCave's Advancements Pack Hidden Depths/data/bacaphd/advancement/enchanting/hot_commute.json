@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Hot Commute"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Strider across a lava sea in four pieces of Fire Protection IV armour"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fiery",
+  "criteria": {
+    "lava_ride": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          },
+          "equipment": {
+            "head": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/hot_commute"
+  }
+}

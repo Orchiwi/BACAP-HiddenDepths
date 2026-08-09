@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_campfire"
+    },
+    "title": {
+      "translate": "Soul Food"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cook raw food on a Soul Campfire in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "soul_grill": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_campfire"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:beef",
+                "minecraft:porkchop",
+                "minecraft:chicken",
+                "minecraft:mutton",
+                "minecraft:rabbit",
+                "minecraft:cod",
+                "minecraft:salmon",
+                "minecraft:potato"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/soul_food"
+  }
+}

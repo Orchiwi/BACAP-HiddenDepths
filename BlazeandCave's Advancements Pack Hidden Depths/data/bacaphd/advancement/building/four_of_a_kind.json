@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Four of a Kind"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a fourth Candle into a single block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/setting_up_the_mood",
+  "criteria": {
+    "four_candles": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:candles",
+                "state": {
+                  "candles": "4"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/four_of_a_kind"
+  }
+}

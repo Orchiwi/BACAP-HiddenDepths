@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Storm Rider"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Nautilus across a deep ocean during a thunderstorm"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "thunder_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:nautilus"
+              },
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/storm_rider"
+  }
+}

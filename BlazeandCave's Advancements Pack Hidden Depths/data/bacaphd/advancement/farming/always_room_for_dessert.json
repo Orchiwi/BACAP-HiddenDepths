@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Always Room for Dessert"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat a Golden Apple, an Enchanted Golden Apple, a Chorus Fruit, a Honey Bottle and Milk, each one on a completely full hunger bar"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/full_stomach",
+  "criteria": {
+    "golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:20}"
+        }
+      }
+    },
+    "notch_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:20}"
+        }
+      }
+    },
+    "chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:20}"
+        }
+      }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:20}"
+        }
+      }
+    },
+    "milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:20}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/always_room_for_dessert"
+  }
+}

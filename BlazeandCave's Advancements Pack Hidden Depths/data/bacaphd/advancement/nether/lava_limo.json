@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Lava Limo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Strider a thousand blocks across the Nether's lava seas"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/jenga",
+  "criteria": {
+    "lava_ride": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              },
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              }
+            }
+          }
+        ],
+        "distance": {
+          "horizontal": {
+            "min": 1000.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/lava_limo"
+  }
+}

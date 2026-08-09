@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_block"
+    },
+    "title": {
+      "translate": "Hellhound"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Tame a Wolf in the Nether"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/puppies_yipe",
+  "criteria": {
+    "nether_wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/hellhound"
+  }
+}

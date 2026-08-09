@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "Steering Committee"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get a Carrot on a Stick carrying Unbreaking III, Mending and Curse of Vanishing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "perfect_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:vanishing_curse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/steering_committee"
+  }
+}

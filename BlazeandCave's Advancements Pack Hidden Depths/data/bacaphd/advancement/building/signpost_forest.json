@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_hanging_sign"
+    },
+    "title": {
+      "translate": "Signpost Forest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hang a Hanging Sign made from every type of wood"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/hanging_around",
+  "criteria": {
+    "oak_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:birch_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jungle_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mangrove_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bamboo_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped_hanging_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_hanging_sign"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/signpost_forest"
+  }
+}

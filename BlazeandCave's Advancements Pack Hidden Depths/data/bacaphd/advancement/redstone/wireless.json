@@ -1,0 +1,242 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Wireless"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Sculk Sensor flush against a Copper Bulb"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/vibe_check",
+  "criteria": {
+    "bulb_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_up": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bulb_down": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/wireless"
+  },
+  "requirements": [
+    [
+      "bulb_north",
+      "bulb_south",
+      "bulb_east",
+      "bulb_west",
+      "bulb_up",
+      "bulb_down"
+    ]
+  ]
+}

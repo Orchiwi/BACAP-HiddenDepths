@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "Out of Place"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant Bamboo in a Desert, a Cactus in a Jungle, a Cherry Sapling in a Pale Garden and a Pale Oak Sapling in a Cherry Grove"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "bamboo_in_desert": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bamboo"
+                ]
+              },
+              "biomes": "minecraft:desert"
+            }
+          }
+        ]
+      }
+    },
+    "cactus_in_jungle": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cactus"
+                ]
+              },
+              "biomes": "minecraft:jungle"
+            }
+          }
+        ]
+      }
+    },
+    "cherry_in_pale_garden": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_sapling"
+                ]
+              },
+              "biomes": "minecraft:pale_garden"
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_in_cherry_grove": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_sapling"
+                ]
+              },
+              "biomes": "minecraft:cherry_grove"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/out_of_place"
+  }
+}

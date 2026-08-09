@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Underground Economy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade with a Wandering Trader while you are both standing in the Deep Dark"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biome_sandwich",
+  "criteria": {
+    "deep_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader",
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/underground_economy"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Comb and Get It"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shear a Beehive and a Bee Nest for their Honeycomb until you are holding six combs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/hive_mind",
+  "criteria": {
+    "shear_hive": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beehive"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "shear_nest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "six_combs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/comb_and_get_it"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "Eviction Notice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill an Evoker inside a Woodland Mansion"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/allayance",
+  "criteria": {
+    "mansion_evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:evoker"
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:mansion"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/eviction_notice"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "Light Reading"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Glow Berries on a ceiling inside the Deep Dark"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "glow_berries_below": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cave_vines"
+                ]
+              },
+              "biomes": "minecraft:deep_dark"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/light_reading"
+  }
+}

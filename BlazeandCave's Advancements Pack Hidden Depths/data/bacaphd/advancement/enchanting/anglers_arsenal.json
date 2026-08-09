@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Angler's Arsenal"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fish an Enchanted Book, a Bow and a Fishing Rod out of the water"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/hook_line_and_mender",
+  "criteria": {
+    "enchanted_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ]
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        }
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/anglers_arsenal"
+  }
+}

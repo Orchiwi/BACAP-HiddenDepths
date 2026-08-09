@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Silk Purse"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Silk Touch pickaxe and a Fortune III pickaxe at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "silk_and_fortune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:copper_pickaxe",
+              "minecraft:iron_pickaxe",
+              "minecraft:golden_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:wooden_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:copper_pickaxe",
+              "minecraft:iron_pickaxe",
+              "minecraft:golden_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/silk_purse"
+  }
+}

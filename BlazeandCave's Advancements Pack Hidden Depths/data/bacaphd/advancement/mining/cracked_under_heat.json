@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_deepslate_bricks"
+    },
+    "title": {
+      "translate": "Cracked Under Heat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Smelt both Cracked Deepslate Bricks and Cracked Deepslate Tiles"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "criteria": {
+    "cracked_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "cracked_tiles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cracked_deepslate_tiles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cracked_under_heat"
+  }
+}

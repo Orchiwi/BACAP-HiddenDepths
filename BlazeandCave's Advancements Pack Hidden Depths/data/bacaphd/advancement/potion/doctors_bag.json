@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "Doctor's Bag"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a Splash Potion of Weakness and a Golden Apple at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "predicates": {
+              "minecraft:potion_contents": [
+                "minecraft:weakness",
+                "minecraft:long_weakness"
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/doctors_bag"
+  }
+}

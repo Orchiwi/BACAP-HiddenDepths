@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spire_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Off the Deep End"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bring the Spire Smithing Template home from an End City"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/good_lookin_treasure",
+  "criteria": {
+    "spire_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spire_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/off_the_deep_end"
+  }
+}

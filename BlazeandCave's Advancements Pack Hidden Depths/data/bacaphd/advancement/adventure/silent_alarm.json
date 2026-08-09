@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Silent Alarm"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ring a Bell in the Deep Dark"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/oh_look_it_dings",
+  "criteria": {
+    "ring": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ]
+              },
+              "biomes": "minecraft:deep_dark"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/silent_alarm"
+  }
+}

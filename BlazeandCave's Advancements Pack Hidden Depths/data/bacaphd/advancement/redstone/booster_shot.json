@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Booster Shot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Redstone Torch directly underneath a Powered Rail"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/electric_rails",
+  "criteria": {
+    "torch_under": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_torch"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:powered_rail"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rail_over": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:powered_rail"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_torch"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/booster_shot"
+  },
+  "requirements": [
+    [
+      "torch_under",
+      "rail_over"
+    ]
+  ]
+}

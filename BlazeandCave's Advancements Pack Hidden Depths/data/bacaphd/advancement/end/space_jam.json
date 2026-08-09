@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "Space Jam"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play a Music Disc in a Jukebox inside an End City"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "end_city_set": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ],
+                "state": {
+                  "has_record": "true"
+                }
+              },
+              "structures": [
+                "minecraft:end_city"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/space_jam"
+  }
+}

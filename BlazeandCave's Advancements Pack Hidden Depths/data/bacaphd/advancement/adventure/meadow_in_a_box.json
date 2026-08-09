@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firefly_bush"
+    },
+    "title": {
+      "translate": "Meadow in a Box"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Firefly Bush, Tall Dry Grass and a Small Dripleaf from Wandering Traders"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/florist",
+  "criteria": {
+    "firefly_bush": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:firefly_bush"
+          ]
+        }
+      }
+    },
+    "tall_dry_grass": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:tall_dry_grass"
+          ]
+        }
+      }
+    },
+    "small_dripleaf": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:small_dripleaf"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/meadow_in_a_box"
+  }
+}

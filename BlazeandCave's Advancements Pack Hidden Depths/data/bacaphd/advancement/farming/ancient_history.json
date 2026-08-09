@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_spawn_egg"
+    },
+    "title": {
+      "translate": "Ancient History"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Breed two Sniffers in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/nest_egg",
+  "criteria": {
+    "end_sniffers": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:sniffer"
+        },
+        "partner": {
+          "entity_type": "minecraft:sniffer"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/ancient_history"
+  }
+}

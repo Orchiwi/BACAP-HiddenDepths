@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "Eat Local"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat Sweet Berries in a Taiga, Glow Berries in the Lush Caves, a Melon Slice in a Jungle and Dried Kelp in a Warm Ocean"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "sweet_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:taiga"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_berries"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:lush_caves"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:melon_slice"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dried_kelp"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/eat_local"
+  }
+}

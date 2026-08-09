@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": {
+      "translate": "Cheap and Cheerful"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break a thousand blocks with Copper Pickaxes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/root",
+  "criteria": {
+    "copper_picks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:used",
+                    "stat": "minecraft:copper_pickaxe",
+                    "value": {
+                      "min": 1000
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/cheap_and_cheerful"
+  }
+}

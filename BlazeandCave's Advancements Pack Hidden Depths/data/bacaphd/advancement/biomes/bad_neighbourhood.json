@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Bad Neighbourhood"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot a chest in both a Pillager Outpost and a Woodland Mansion"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/kilometre_walk",
+  "criteria": {
+    "outpost": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/pillager_outpost"
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/woodland_mansion"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/bad_neighbourhood"
+  }
+}
