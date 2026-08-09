@@ -39,6 +39,18 @@
         }
       }
     },
+    "nether_orchard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/nether_orchard": true
+            }
+          }
+        }
+      }
+    },
     "magma_marathon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -94,6 +106,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:nether/the_floor_is_lava": true
+            }
+          }
+        }
+      }
+    },
+    "around_the_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/around_the_worlds": true
             }
           }
         }
@@ -267,6 +291,30 @@
         }
       }
     },
+    "lava_patrol": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/lava_patrol": true
+            }
+          }
+        }
+      }
+    },
+    "scrap_emperor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/scrap_emperor": true
+            }
+          }
+        }
+      }
+    },
     "the_final_blade": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -370,18 +418,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:nether/ancient_retirement": true
-            }
-          }
-        }
-      }
-    },
-    "ancient_arsenal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:nether/ancient_arsenal": true
             }
           }
         }
@@ -586,18 +622,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:nether/withering_away": true
-            }
-          }
-        }
-      }
-    },
-    "gilded_judgement": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:nether/gilded_judgement": true
             }
           }
         }
@@ -850,18 +874,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:nether/doused": true
-            }
-          }
-        }
-      }
-    },
-    "ashen_sniper": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:nether/ashen_sniper": true
             }
           }
         }

@@ -27,18 +27,6 @@
         }
       }
     },
-    "death_by_committee": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:monsters/death_by_committee": true
-            }
-          }
-        }
-      }
-    },
     "pacifist_streak": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -147,6 +135,18 @@
         }
       }
     },
+    "now_you_see_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:monsters/now_you_see_me": true
+            }
+          }
+        }
+      }
+    },
     "sniffed_out": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -190,18 +190,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:monsters/identity_crisis": true
-            }
-          }
-        }
-      }
-    },
-    "caught_in_my_own_web": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:monsters/caught_in_my_own_web": true
             }
           }
         }

@@ -35,16 +35,16 @@ execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaph
 # Per tick on purpose. brewed_potion fires once per finished bottle taken out of the
 # stand, so a 10-tick sample would quietly drop two of every three-bottle batch. The
 # detector revokes the criterion before crediting, which is what re-arms the doorbell.
-execute as @a[gamemode=!spectator,advancements={bacaphd:potion/breaking_bad={brewed=true,impossible=false}}] run function bacaphd:detect/breaking_bad
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/breaking_bad={brewed=true,impossible=false}}] run function bacaphd:detect/breaking_bad
 # --- Pottery Barn (solo6): a Decorated Pot was just placed. The mirror is seeded in
 # --- bacaphd:seed, and the test is a strict increase, so an unset score cannot fire it.
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:building/pottery_barn=false},scores={bacaphd_s6ini=1}] at @s if score @s bacaphd_s6pot > @s bacaphd_s6potm run function bacaphd:detect/pottery_barn
 
 # --- Perpetual Motion (solo6): standing on a Redstone Lamp, per tick so no flip of the
 # --- clock can be missed by aliasing against a slower sample rate.
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/perpetual_motion=false}] at @s if block ~ ~-1 ~ minecraft:redstone_lamp run function bacaphd:detect/perpetual_motion
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/perpetual_motion=false}] at @s if block ~ ~-1 ~ minecraft:redstone_lamp run function bacaphd:detect/perpetual_motion
 # Stepping off the lamp ends the run immediately.
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/perpetual_motion=false},scores={bacaphd_s6pm=1..}] at @s unless block ~ ~-1 ~ minecraft:redstone_lamp run scoreboard players set @s bacaphd_s6pm 0
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/perpetual_motion=false},scores={bacaphd_s6pm=1..}] at @s unless block ~ ~-1 ~ minecraft:redstone_lamp run scoreboard players set @s bacaphd_s6pm 0
 
 # --- Mind the Gap (solo6): riding a minecart. Positioned at the cart, executed as the
 # --- rider, so the rail test reads the block the cart is in.

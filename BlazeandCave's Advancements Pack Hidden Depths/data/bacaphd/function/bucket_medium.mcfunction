@@ -15,9 +15,9 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:animal/bee_movie={stung=
 execute as @a[gamemode=!spectator,advancements={bacaphd:weaponry/boomerang_bones={shot_by_skeleton=true}}] unless entity @s[advancements={bacaphd:weaponry/boomerang_bones=true}] run function bacaphd:detect/boomerang_shot
 execute as @a[gamemode=!spectator,advancements={bacaphd:weaponry/boomerang_bones={arrow_kill=true}}] unless entity @s[advancements={bacaphd:weaponry/boomerang_bones=true}] run function bacaphd:detect/boomerang_kill
 execute as @a[gamemode=!spectator,scores={bacaphd_boomerang=1..}] run scoreboard players remove @s bacaphd_boomerang 1
-execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/death_by_committee={armed=true}}] run function bacaphd:detect/committee_arm
-execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/death_by_committee=false},scores={bacaphd_committee=1..}] run function bacaphd:detect/committee_tick
-execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/death_by_committee=false},scores={bacaphd_health=0,bacaphd_committee=0..}] run function bacaphd:detect/committee_reset
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/death_by_committee={armed=true}}] run function bacaphd:detect/committee_arm
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/death_by_committee=false},scores={bacaphd_committee=1..}] run function bacaphd:detect/committee_tick
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/death_by_committee=false},scores={bacaphd_health=0,bacaphd_committee=0..}] run function bacaphd:detect/committee_reset
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/boat_drop=false}] run function bacaphd:detect/boat_gate
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:biomes/ice_road_trucker=false}] run function bacaphd:detect/ice_gate
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/vertical_limit=false}] at @s if dimension minecraft:overworld positioned ~ -64 ~ if entity @s[dx=0,dy=6,dz=0] run scoreboard players set @s bacaphd_vl_t 120
@@ -25,8 +25,8 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:minin
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/free_solo=false}] at @s run function bacaphd:detect/free_solo
 execute as @a[advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_init_b2=1}] if score @s bacaphd_dragon_kills matches 0.. if score @s bacaphd_dragon_seen matches 0.. unless score @s bacaphd_dragon_kills = @s bacaphd_dragon_seen run function bacaphd:detect/untouchable
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/untouchable=false},scores={bacaphd_health=10..,bacaphd_untouched=0..1}] at @s unless dimension minecraft:the_end run scoreboard players set @s bacaphd_untouched 1
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:adventure/featherweight=false}] at @s if entity @e[type=minecraft:wither,distance=..128,limit=1] run function bacaphd:detect/featherweight
-execute as @a[advancements={bacaphd:adventure/featherweight=false},scores={bacaphd_fw_kit=1}] at @s unless entity @e[type=minecraft:wither,distance=..128,limit=1] run scoreboard players set @s bacaphd_fw_kit 0
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:weaponry/featherweight=false}] at @s if entity @e[type=minecraft:wither,distance=..128,limit=1] run function bacaphd:detect/featherweight
+execute as @a[advancements={bacaphd:weaponry/featherweight=false},scores={bacaphd_fw_kit=1}] at @s unless entity @e[type=minecraft:wither,distance=..128,limit=1] run scoreboard players set @s bacaphd_fw_kit 0
 # B45 Disenchanted - a Grindstone strip, anchored to the interact_with_grindstone statistic
 execute as @a[gamemode=!spectator,gamemode=!creative,scores={bacaphd_init_b4=1},advancements={bacaphd:enchanting/disenchanted=false}] run function bacaphd:detect/disenchanted
 # B46 Magma Marathon - lava distance while unburnt (Fire Resistance)
@@ -223,9 +223,9 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:biomes/thermal_shock={co
 
 # --- Golem Grand Tour (B13): a living Copper Golem beside you in all three dimensions.
 # Statues are blocks, not entities, so an oxidised-out golem stops counting.
-execute as @a[gamemode=!spectator,advancements={bacaphd:end/golem_grand_tour={overworld=false}}] at @s if dimension minecraft:overworld if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:end/golem_grand_tour overworld
-execute as @a[gamemode=!spectator,advancements={bacaphd:end/golem_grand_tour={nether=false}}] at @s if dimension minecraft:the_nether if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:end/golem_grand_tour nether
-execute as @a[gamemode=!spectator,advancements={bacaphd:end/golem_grand_tour={the_end=false}}] at @s if dimension minecraft:the_end if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:end/golem_grand_tour the_end
+execute as @a[gamemode=!spectator,advancements={bacaphd:mining/golem_grand_tour={overworld=false}}] at @s if dimension minecraft:overworld if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:mining/golem_grand_tour overworld
+execute as @a[gamemode=!spectator,advancements={bacaphd:mining/golem_grand_tour={nether=false}}] at @s if dimension minecraft:the_nether if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:mining/golem_grand_tour nether
+execute as @a[gamemode=!spectator,advancements={bacaphd:mining/golem_grand_tour={the_end=false}}] at @s if dimension minecraft:the_end if entity @e[type=minecraft:copper_golem,distance=..8,limit=1] run advancement grant @s only bacaphd:mining/golem_grand_tour the_end
 
 # --- Boxed In (B13): six trapdoor faces around one block, checked from on top of it.
 # Two lines because a closed trapdoor is either half=bottom (the player's feet land

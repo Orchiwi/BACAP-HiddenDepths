@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Chunk Miner"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Strip an entire Overworld chunk down to bedrock, leaving nothing but air"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/chunk_miner"
+  }
+}

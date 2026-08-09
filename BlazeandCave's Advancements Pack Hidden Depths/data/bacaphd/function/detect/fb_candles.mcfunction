@@ -4,4 +4,4 @@
 scoreboard players set @s bacaphd_fbc 0
 scoreboard players set @s bacaphd_fbx 0
 execute positioned ~-8 ~ ~-8 run function bacaphd:detect/fb_cx
-execute if score @s bacaphd_fbc matches 100.. run advancement grant @s only bacaphd:challenges/flying_buttress
+execute if score @s bacaphd_fbc matches 100.. run advancement grant @s only bacaphd:building/flying_buttress

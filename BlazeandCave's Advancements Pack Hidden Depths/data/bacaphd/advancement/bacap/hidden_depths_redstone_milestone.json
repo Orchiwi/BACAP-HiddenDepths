@@ -111,6 +111,18 @@
         }
       }
     },
+    "perpetual_motion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/perpetual_motion": true
+            }
+          }
+        }
+      }
+    },
     "mind_the_gap": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -214,6 +226,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:redstone/golem_on_rails": true
+            }
+          }
+        }
+      }
+    },
+    "trolley_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/trolley_service": true
+            }
+          }
+        }
+      }
+    },
+    "automated_empire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/automated_empire": true
             }
           }
         }

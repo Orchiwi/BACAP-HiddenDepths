@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Meltdown"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get a Snow Golem into a desert and watch it melt away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/eyeball_forest",
+  "criteria": {
+    "melting_at_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:snow_golem",
+                  "nbt": "{Health:3.0f}",
+                  "location": {
+                    "biomes": "minecraft:desert"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melting_at_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:snow_golem",
+                  "nbt": "{Health:2.0f}",
+                  "location": {
+                    "biomes": "minecraft:desert"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "melting_at_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:snow_golem",
+                  "nbt": "{Health:1.0f}",
+                  "location": {
+                    "biomes": "minecraft:desert"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/meltdown"
+  },
+  "requirements": [
+    [
+      "melting_at_3",
+      "melting_at_2",
+      "melting_at_1"
+    ]
+  ]
+}

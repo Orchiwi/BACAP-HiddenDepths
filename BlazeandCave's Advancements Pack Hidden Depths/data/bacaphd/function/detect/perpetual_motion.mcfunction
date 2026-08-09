@@ -10,4 +10,4 @@ scoreboard players operation @s bacaphd_s6pml = #lit bacaphd_s6t
 # Five seconds with no flip is not a running clock, so the run starts again from zero.
 execute if score @s bacaphd_s6pmg matches 101.. run scoreboard players set @s bacaphd_s6pm 0
 execute if score @s bacaphd_s6pmg matches 101.. run scoreboard players set @s bacaphd_s6pmg 0
-execute if score @s bacaphd_s6pm matches 24000.. run advancement grant @s only bacaphd:challenges/perpetual_motion
+execute if score @s bacaphd_s6pm matches 24000.. run advancement grant @s only bacaphd:redstone/perpetual_motion

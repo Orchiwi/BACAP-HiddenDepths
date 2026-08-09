@@ -63,30 +63,6 @@
         }
       }
     },
-    "chunk_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/chunk_miner": true
-            }
-          }
-        }
-      }
-    },
-    "deep_pockets": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/deep_pockets": true
-            }
-          }
-        }
-      }
-    },
     "vein_miner": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -202,6 +178,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:mining/patient_investor": true
+            }
+          }
+        }
+      }
+    },
+    "golem_grand_tour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/golem_grand_tour": true
             }
           }
         }
@@ -699,30 +687,6 @@
         }
       }
     },
-    "cave_cuisine": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/cave_cuisine": true
-            }
-          }
-        }
-      }
-    },
-    "bone_appetit": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/bone_appetit": true
-            }
-          }
-        }
-      }
-    },
     "miners_mess": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -735,18 +699,6 @@
         }
       }
     },
-    "deep_fried": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/deep_fried": true
-            }
-          }
-        }
-      }
-    },
     "wood_fired": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -754,18 +706,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:mining/wood_fired": true
-            }
-          }
-        }
-      }
-    },
-    "deep_dish": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/deep_dish": true
             }
           }
         }
@@ -843,18 +783,6 @@
         }
       }
     },
-    "cave_rave": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/cave_rave": true
-            }
-          }
-        }
-      }
-    },
     "bottom_of_the_charts": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -874,18 +802,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:mining/sculk_couture": true
-            }
-          }
-        }
-      }
-    },
-    "echo_chamber": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:mining/echo_chamber": true
             }
           }
         }

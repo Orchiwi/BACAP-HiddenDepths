@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Scrap Emperor"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry every Netherite tool, weapon and armour piece in your inventory at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/basis_of_brewing",
+  "criteria": {
+    "full_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/scrap_emperor"
+  }
+}

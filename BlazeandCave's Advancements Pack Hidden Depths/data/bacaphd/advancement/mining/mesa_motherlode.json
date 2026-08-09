@@ -7,10 +7,10 @@
       "translate": "Mesa Motherlode"
     },
     "description": {
-      "color": "green",
+      "color": "#75E1FF",
       "translate": "Stand in a Badlands biome holding a full stack of Gold Ore"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/gold_mine",

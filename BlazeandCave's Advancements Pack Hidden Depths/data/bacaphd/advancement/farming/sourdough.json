@@ -7,10 +7,10 @@
       "translate": "Sourdough"
     },
     "description": {
-      "color": "green",
+      "color": "#75E1FF",
       "translate": "Bake bread in the Nether from wheat you planted there"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/bake_bread",

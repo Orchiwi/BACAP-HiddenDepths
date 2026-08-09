@@ -7,10 +7,10 @@
       "translate": "Jump the Tracks"
     },
     "description": {
-      "color": "green",
+      "color": "#75E1FF",
       "translate": "Jump a Minecart across a ten-block gap in the track and land back on rails"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/on_a_rail",

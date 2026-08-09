@@ -87,18 +87,6 @@
         }
       }
     },
-    "featherweight": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:adventure/featherweight": true
-            }
-          }
-        }
-      }
-    },
     "five_stages_of_grief": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -183,6 +171,18 @@
         }
       }
     },
+    "bread_winner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/bread_winner": true
+            }
+          }
+        }
+      }
+    },
     "golem_foundry": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -262,18 +262,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:adventure/fetch_quest": true
-            }
-          }
-        }
-      }
-    },
-    "breeze_block": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:adventure/breeze_block": true
             }
           }
         }
@@ -387,18 +375,6 @@
         }
       }
     },
-    "dye_another_day": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:adventure/dye_another_day": true
-            }
-          }
-        }
-      }
-    },
     "deep_discount": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -406,18 +382,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:adventure/deep_discount": true
-            }
-          }
-        }
-      }
-    },
-    "trolley_service": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:adventure/trolley_service": true
             }
           }
         }
@@ -795,18 +759,6 @@
         }
       }
     },
-    "pattern_book": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:adventure/pattern_book": true
-            }
-          }
-        }
-      }
-    },
     "payday": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -922,6 +874,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:adventure/curators_cut": true
+            }
+          }
+        }
+      }
+    },
+    "pattern_maker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/pattern_maker": true
+            }
+          }
+        }
+      }
+    },
+    "wandering_wholesaler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:adventure/wandering_wholesaler": true
             }
           }
         }

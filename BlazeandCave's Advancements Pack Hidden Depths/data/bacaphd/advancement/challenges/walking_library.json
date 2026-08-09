@@ -1,0 +1,147 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Walking Library"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Carry twenty different enchantments at once across your armour and both hands"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "loadout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:protection"
+                      },
+                      {
+                        "enchantments": "minecraft:respiration"
+                      },
+                      {
+                        "enchantments": "minecraft:aqua_affinity"
+                      },
+                      {
+                        "enchantments": "minecraft:unbreaking"
+                      },
+                      {
+                        "enchantments": "minecraft:mending"
+                      }
+                    ]
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:blast_protection"
+                      },
+                      {
+                        "enchantments": "minecraft:thorns"
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:fire_protection"
+                      },
+                      {
+                        "enchantments": "minecraft:swift_sneak"
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:projectile_protection"
+                      },
+                      {
+                        "enchantments": "minecraft:feather_falling"
+                      },
+                      {
+                        "enchantments": "minecraft:depth_strider"
+                      },
+                      {
+                        "enchantments": "minecraft:soul_speed"
+                      }
+                    ]
+                  }
+                },
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:sharpness"
+                      },
+                      {
+                        "enchantments": "minecraft:knockback"
+                      },
+                      {
+                        "enchantments": "minecraft:fire_aspect"
+                      },
+                      {
+                        "enchantments": "minecraft:looting"
+                      }
+                    ]
+                  }
+                },
+                "offhand": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:power"
+                      },
+                      {
+                        "enchantments": "minecraft:punch"
+                      },
+                      {
+                        "enchantments": "minecraft:flame"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/walking_library"
+  }
+}

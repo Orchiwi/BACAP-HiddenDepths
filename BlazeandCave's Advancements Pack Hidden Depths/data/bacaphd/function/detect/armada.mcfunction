@@ -4,6 +4,6 @@
 # without guessing at any NBT field.
 execute as @e[type=minecraft:nautilus,distance=..20] if items entity @s armor.body * run tag @s add bacaphd.armoured
 execute store result score #armoured bacaphd_naut if entity @e[type=minecraft:nautilus,distance=..20,tag=bacaphd.armoured,limit=20]
-execute if score #armoured bacaphd_naut matches 20 run advancement grant @s only bacaphd:biomes/armada
+execute if score #armoured bacaphd_naut matches 20 run advancement grant @s only bacaphd:challenges/armada
 tag @e[type=minecraft:nautilus,distance=..20,tag=bacaphd.armoured] remove bacaphd.armoured
 scoreboard players reset #armoured bacaphd_naut

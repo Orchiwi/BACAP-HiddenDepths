@@ -15,13 +15,49 @@
   },
   "parent": "bacaphd:bacap/hidden_depths_end_milestone",
   "criteria": {
-    "naked_and_afraid": {
+    "armada": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/naked_and_afraid": true
+              "bacaphd:challenges/armada": true
+            }
+          }
+        }
+      }
+    },
+    "death_by_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/death_by_committee": true
+            }
+          }
+        }
+      }
+    },
+    "chunk_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/chunk_miner": true
+            }
+          }
+        }
+      }
+    },
+    "deep_pockets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/deep_pockets": true
             }
           }
         }
@@ -51,49 +87,37 @@
         }
       }
     },
-    "flying_buttress": {
+    "anglers_atlas": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/flying_buttress": true
+              "bacaphd:challenges/anglers_atlas": true
             }
           }
         }
       }
     },
-    "perpetual_motion": {
+    "breaking_bad": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/perpetual_motion": true
+              "bacaphd:challenges/breaking_bad": true
             }
           }
         }
       }
     },
-    "fort_knox": {
+    "seed_bank": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/fort_knox": true
-            }
-          }
-        }
-      }
-    },
-    "bread_winner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/bread_winner": true
+              "bacaphd:challenges/seed_bank": true
             }
           }
         }
@@ -111,37 +135,61 @@
         }
       }
     },
-    "ground_zero": {
+    "walking_library": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/ground_zero": true
+              "bacaphd:challenges/walking_library": true
             }
           }
         }
       }
     },
-    "full_spectrum_flock": {
+    "dye_another_day": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/full_spectrum_flock": true
+              "bacaphd:challenges/dye_another_day": true
             }
           }
         }
       }
     },
-    "wandering_wholesaler": {
+    "pattern_book": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:challenges/wandering_wholesaler": true
+              "bacaphd:challenges/pattern_book": true
+            }
+          }
+        }
+      }
+    },
+    "wither_on_a_budget": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/wither_on_a_budget": true
+            }
+          }
+        }
+      }
+    },
+    "rust_never_sleeps": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/rust_never_sleeps": true
             }
           }
         }
@@ -159,18 +207,6 @@
         }
       }
     },
-    "copper_standard": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/copper_standard": true
-            }
-          }
-        }
-      }
-    },
     "the_larder": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -178,30 +214,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:challenges/the_larder": true
-            }
-          }
-        }
-      }
-    },
-    "bloodlines": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/bloodlines": true
-            }
-          }
-        }
-      }
-    },
-    "master_carpenter": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/master_carpenter": true
             }
           }
         }
@@ -231,18 +243,6 @@
         }
       }
     },
-    "smitten": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/smitten": true
-            }
-          }
-        }
-      }
-    },
     "potted_history": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -255,30 +255,6 @@
         }
       }
     },
-    "automated_empire": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/automated_empire": true
-            }
-          }
-        }
-      }
-    },
-    "scrap_emperor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:challenges/scrap_emperor": true
-            }
-          }
-        }
-      }
-    },
     "fragmentary_evidence": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -286,6 +262,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:challenges/fragmentary_evidence": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_arsenal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/ancient_arsenal": true
             }
           }
         }

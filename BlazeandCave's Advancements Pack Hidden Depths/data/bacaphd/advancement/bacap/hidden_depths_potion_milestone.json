@@ -51,18 +51,6 @@
         }
       }
     },
-    "breaking_bad": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:potion/breaking_bad": true
-            }
-          }
-        }
-      }
-    },
     "chemical_dependency": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -178,6 +166,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:potion/call_it_off": true
+            }
+          }
+        }
+      }
+    },
+    "caught_in_my_own_web": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:potion/caught_in_my_own_web": true
             }
           }
         }

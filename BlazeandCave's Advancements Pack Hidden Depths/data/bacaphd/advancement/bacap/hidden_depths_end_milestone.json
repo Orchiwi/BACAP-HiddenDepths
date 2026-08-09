@@ -75,18 +75,6 @@
         }
       }
     },
-    "around_the_worlds": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:end/around_the_worlds": true
-            }
-          }
-        }
-      }
-    },
     "needle_threader": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -178,18 +166,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:end/round_trip": true
-            }
-          }
-        }
-      }
-    },
-    "golem_grand_tour": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:end/golem_grand_tour": true
             }
           }
         }

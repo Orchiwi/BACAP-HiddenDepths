@@ -171,18 +171,6 @@
         }
       }
     },
-    "walking_library": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:enchanting/walking_library": true
-            }
-          }
-        }
-      }
-    },
     "death_by_a_thousand_cuts": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -639,18 +627,6 @@
         }
       }
     },
-    "hammer_time": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:enchanting/hammer_time": true
-            }
-          }
-        }
-      }
-    },
     "loyal_to_the_end": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -814,6 +790,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:enchanting/top_shelf": true
+            }
+          }
+        }
+      }
+    },
+    "second_edition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/second_edition": true
+            }
+          }
+        }
+      }
+    },
+    "complete_works": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/complete_works": true
             }
           }
         }

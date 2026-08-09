@@ -15,4 +15,4 @@ scoreboard players operation @s bacaphd_bw += #bwnew bacaphd_sys
 # ever test that at least one Villager exists.
 scoreboard players set #bwpop bacaphd_sys 0
 execute if score @s bacaphd_bw matches 18.. at @s as @e[type=minecraft:villager,distance=..48] run scoreboard players add #bwpop bacaphd_sys 1
-execute if score @s bacaphd_bw matches 18.. if score #bwpop bacaphd_sys matches 20.. run advancement grant @s only bacaphd:challenges/bread_winner
+execute if score @s bacaphd_bw matches 18.. if score #bwpop bacaphd_sys matches 20.. run advancement grant @s only bacaphd:adventure/bread_winner

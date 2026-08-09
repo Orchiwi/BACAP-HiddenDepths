@@ -11,4 +11,4 @@
 $execute positioned $(x0) 0 $(z0) run fill ~ -59 ~ ~15 67 ~15 minecraft:air replace minecraft:cave_air
 $execute positioned $(x0) 0 $(z0) run fill ~ 68 ~ ~15 194 ~15 minecraft:air replace minecraft:cave_air
 $execute positioned $(x0) 0 $(z0) run fill ~ 195 ~ ~15 319 ~15 minecraft:air replace minecraft:cave_air
-$execute positioned $(x0) 0 $(z0) if blocks ~ -59 ~ ~14 67 ~15 ~1 -59 ~ all if blocks ~ 68 ~ ~14 194 ~15 ~1 68 ~ all if blocks ~ 195 ~ ~14 319 ~15 ~1 195 ~ all if blocks ~ -59 ~ ~15 67 ~14 ~ -59 ~1 all if blocks ~ 68 ~ ~15 194 ~14 ~ 68 ~1 all if blocks ~ 195 ~ ~15 319 ~14 ~ 195 ~1 all run advancement grant @s only bacaphd:mining/chunk_miner
+$execute positioned $(x0) 0 $(z0) if blocks ~ -59 ~ ~14 67 ~15 ~1 -59 ~ all if blocks ~ 68 ~ ~14 194 ~15 ~1 68 ~ all if blocks ~ 195 ~ ~14 319 ~15 ~1 195 ~ all if blocks ~ -59 ~ ~15 67 ~14 ~ -59 ~1 all if blocks ~ 68 ~ ~15 194 ~14 ~ 68 ~1 all if blocks ~ 195 ~ ~15 319 ~14 ~ 195 ~1 all run advancement grant @s only bacaphd:challenges/chunk_miner

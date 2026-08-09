@@ -7,10 +7,10 @@
       "translate": "Gateway Tourist"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Teleport through End Gateways ten times"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/taking_the_scenic_route",

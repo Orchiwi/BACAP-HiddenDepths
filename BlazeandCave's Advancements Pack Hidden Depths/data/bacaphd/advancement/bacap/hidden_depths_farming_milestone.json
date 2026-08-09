@@ -27,18 +27,6 @@
         }
       }
     },
-    "nether_orchard": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:farming/nether_orchard": true
-            }
-          }
-        }
-      }
-    },
     "sniffer_sommelier": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -111,18 +99,6 @@
         }
       }
     },
-    "seed_bank": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:farming/seed_bank": true
-            }
-          }
-        }
-      }
-    },
     "dig_site": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -171,18 +147,6 @@
         }
       }
     },
-    "stable_diet": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:farming/stable_diet": true
-            }
-          }
-        }
-      }
-    },
     "old_growth": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -219,13 +183,49 @@
         }
       }
     },
-    "meltdown": {
+    "cave_cuisine": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:farming/meltdown": true
+              "bacaphd:farming/cave_cuisine": true
+            }
+          }
+        }
+      }
+    },
+    "bone_appetit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bone_appetit": true
+            }
+          }
+        }
+      }
+    },
+    "deep_fried": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/deep_fried": true
+            }
+          }
+        }
+      }
+    },
+    "deep_dish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/deep_dish": true
             }
           }
         }
@@ -562,30 +562,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:farming/strange_soil": true
-            }
-          }
-        }
-      }
-    },
-    "second_edition": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:farming/second_edition": true
-            }
-          }
-        }
-      }
-    },
-    "complete_works": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:farming/complete_works": true
             }
           }
         }

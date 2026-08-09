@@ -7,10 +7,10 @@
       "translate": "Waterworks"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/no_chain_no_gain",

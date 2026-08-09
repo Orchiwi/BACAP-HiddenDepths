@@ -1,0 +1,121 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "Bloodlines"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Breed a pup of every one of the nine Wolf variants"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/caprymphony",
+  "criteria": {
+    "pale": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:pale"
+          }
+        }
+      }
+    },
+    "spotted": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:spotted"
+          }
+        }
+      }
+    },
+    "snowy": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:snowy"
+          }
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:black"
+          }
+        }
+      }
+    },
+    "ashen": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:ashen"
+          }
+        }
+      }
+    },
+    "rusty": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:rusty"
+          }
+        }
+      }
+    },
+    "woods": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:woods"
+          }
+        }
+      }
+    },
+    "chestnut": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:chestnut"
+          }
+        }
+      }
+    },
+    "striped": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:striped"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/bloodlines"
+  }
+}

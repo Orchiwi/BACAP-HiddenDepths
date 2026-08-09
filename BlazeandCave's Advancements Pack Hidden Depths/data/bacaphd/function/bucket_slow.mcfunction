@@ -18,8 +18,8 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:anima
 execute as @a[tag=bacaphd.cs_off] run function bacaphd:detect/copper_stable_off
 
 # --- Armada (B11): twenty Nautiluses in Nautilus Armor within twenty blocks ---
-execute as @a[gamemode=!spectator,advancements={bacaphd:biomes/armada=false}] at @s store result score @s bacaphd_naut if entity @e[type=minecraft:nautilus,distance=..20,limit=20]
-execute as @a[gamemode=!spectator,advancements={bacaphd:biomes/armada=false},scores={bacaphd_naut=20}] at @s run function bacaphd:detect/armada
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/armada=false}] at @s store result score @s bacaphd_naut if entity @e[type=minecraft:nautilus,distance=..20,limit=20]
+execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/armada=false},scores={bacaphd_naut=20}] at @s run function bacaphd:detect/armada
 
 # --- Key Master (B14): count keys across the whole inventory, not one stack ---
 execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/key_master=false}] run function bacaphd:detect/key_master
@@ -27,7 +27,7 @@ execute store result score #now bacaphd_gametime run time query gametime
 execute as @a[gamemode=!spectator] if score @s bacaphd_cakes_used matches 0.. if score @s bacaphd_cakes_seen matches 0.. unless score @s bacaphd_cakes_used = @s bacaphd_cakes_seen run function bacaphd:detect/cake_hoarder
 execute as @a[gamemode=!spectator] if score @s bacaphd_ore_diamond matches 0.. if score @s bacaphd_ore_diamond_seen matches 0.. unless score @s bacaphd_ore_diamond = @s bacaphd_ore_diamond_seen run function bacaphd:detect/vein_miner
 execute as @a[gamemode=!spectator] if score @s bacaphd_ore_deepslate matches 0.. if score @s bacaphd_ore_deepslate_seen matches 0.. unless score @s bacaphd_ore_deepslate = @s bacaphd_ore_deepslate_seen run function bacaphd:detect/vein_miner
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/chunk_miner=false}] at @s run function bacaphd:detect/chunk_gate
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/chunk_miner=false}] at @s run function bacaphd:detect/chunk_gate
 execute as @a[gamemode=!spectator,advancements={bacaphd:farming/herbivore=false},scores={bacaphd_init_b2=1}] run function bacaphd:detect/herbivore
 execute as @a[gamemode=!spectator,advancements={bacaphd:monsters/pacifist_streak=false},scores={bacaphd_init_b2=1}] run function bacaphd:detect/pacifist
 # B44 Book Worm - a full inventory of Enchanted Books
@@ -79,7 +79,7 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:statistics/alt_f4=false}
 execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:building/wall_to_wall=false}] at @s run function bacaphd:detect/wall_to_wall
 # --- Flying Buttress (solo4): a 21-block-check height gate sits in front of the
 # --- expensive wall and candle passes, so the usual cost of this line is 21 checks.
-execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/flying_buttress=false}] at @s run function bacaphd:detect/flying_buttress
+execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:building/flying_buttress=false}] at @s run function bacaphd:detect/flying_buttress
 # --- Weathering Heights (solo4): 11x5x11, four short-circuiting run tests per position.
 execute as @r[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:mining/weathering_heights=false}] at @s run function bacaphd:detect/weathering_heights
 # --- Butterfingers (solo4): a plain statistic threshold, no detection function.
@@ -105,7 +105,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:stati
 # All Eyes on Me - the one-block gate is also the 'standing among them' condition.
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:biomes/all_eyes_on_me=false}] at @s if block ~ ~ ~ minecraft:open_eyeblossom run function bacaphd:detect/all_eyes_on_me
 # Fort Knox - you have to be standing on obsidian before anything is scanned.
-execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:challenges/fort_knox=false}] at @s if block ~ ~-1 ~ minecraft:obsidian run function bacaphd:detect/fort_knox
+execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:building/fort_knox=false}] at @s if block ~ ~-1 ~ minecraft:obsidian run function bacaphd:detect/fort_knox
 # Grand Central - four cheap gates, at most one of which can match, so the 9x9
 # walk runs once and only for a player standing in a rail block.
 execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaphd:redstone/grand_central=false}] at @s if block ~ ~ ~ minecraft:rail run function bacaphd:detect/grand_central
@@ -160,7 +160,7 @@ execute as @a[gamemode=!spectator,advancements={bacaphd:farming/rotisserie={stac
 # --- Assembly Line (S8): five Crafters chained through four Hoppers ---
 execute as @a[gamemode=!spectator,advancements={bacaphd:redstone/assembly_line=false}] at @s run function bacaphd:detect/assembly_line
 # --- Bread Winner (solo9): births are counted once each, so a ready-made village pays nothing ---
-execute as @a[gamemode=!spectator,advancements={bacaphd:challenges/bread_winner=false}] at @s if entity @e[type=minecraft:villager,distance=..48,limit=1] run function bacaphd:detect/bread_winner
+execute as @a[gamemode=!spectator,advancements={bacaphd:adventure/bread_winner=false}] at @s if entity @e[type=minecraft:villager,distance=..48,limit=1] run function bacaphd:detect/bread_winner
 # --- Door to Door marker sweep (solo9): deliberately NOT gated on the advancement, so markers cannot
 # --- survive the grant and litter the world. A door with no breaker left on it is no longer tracked.
 execute as @a[gamemode=!spectator] at @s as @e[type=minecraft:marker,tag=bacaphd.dd,distance=..48] at @s unless entity @e[type=minecraft:zombie,distance=..4,nbt={CanBreakDoors:1b},limit=1] run kill @s

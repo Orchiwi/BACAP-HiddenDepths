@@ -75,6 +75,18 @@
         }
       }
     },
+    "flying_buttress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/flying_buttress": true
+            }
+          }
+        }
+      }
+    },
     "pottery_barn": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -106,6 +118,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:building/layer_cake": true
+            }
+          }
+        }
+      }
+    },
+    "fort_knox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/fort_knox": true
             }
           }
         }
@@ -382,18 +406,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:building/camping_supplies": true
-            }
-          }
-        }
-      }
-    },
-    "trail_of_embers": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:building/trail_of_embers": true
             }
           }
         }
@@ -711,18 +723,6 @@
         }
       }
     },
-    "pattern_maker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:building/pattern_maker": true
-            }
-          }
-        }
-      }
-    },
     "site_foreman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -874,6 +874,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:building/silky_smooth": true
+            }
+          }
+        }
+      }
+    },
+    "master_carpenter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/master_carpenter": true
+            }
+          }
+        }
+      }
+    },
+    "hollow_tree": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:building/hollow_tree": true
             }
           }
         }

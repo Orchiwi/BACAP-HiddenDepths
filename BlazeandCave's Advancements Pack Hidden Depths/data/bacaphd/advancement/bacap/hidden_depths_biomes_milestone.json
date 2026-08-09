@@ -27,18 +27,6 @@
         }
       }
     },
-    "armada": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/armada": true
-            }
-          }
-        }
-      }
-    },
     "abyssal_jouster": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -58,18 +46,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:biomes/ice_road_trucker": true
-            }
-          }
-        }
-      }
-    },
-    "anglers_atlas": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/anglers_atlas": true
             }
           }
         }
@@ -171,13 +147,13 @@
         }
       }
     },
-    "now_you_see_me": {
+    "ground_zero": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaphd:biomes/now_you_see_me": true
+              "bacaphd:biomes/ground_zero": true
             }
           }
         }
@@ -255,30 +231,6 @@
         }
       }
     },
-    "ark_encounter": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/ark_encounter": true
-            }
-          }
-        }
-      }
-    },
-    "shoulder_to_cry_on": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/shoulder_to_cry_on": true
-            }
-          }
-        }
-      }
-    },
     "down_periscope": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -315,6 +267,54 @@
         }
       }
     },
+    "meltdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/meltdown": true
+            }
+          }
+        }
+      }
+    },
+    "trail_of_embers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/trail_of_embers": true
+            }
+          }
+        }
+      }
+    },
+    "cave_rave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/cave_rave": true
+            }
+          }
+        }
+      }
+    },
+    "echo_chamber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:biomes/echo_chamber": true
+            }
+          }
+        }
+      }
+    },
     "ursa_major": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -322,18 +322,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:biomes/ursa_major": true
-            }
-          }
-        }
-      }
-    },
-    "personality_test": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/personality_test": true
             }
           }
         }
@@ -514,18 +502,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:biomes/dry_season": true
-            }
-          }
-        }
-      }
-    },
-    "goat_rodeo": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:biomes/goat_rodeo": true
             }
           }
         }

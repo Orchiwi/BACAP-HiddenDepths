@@ -39,6 +39,30 @@
         }
       }
     },
+    "naked_and_afraid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/naked_and_afraid": true
+            }
+          }
+        }
+      }
+    },
+    "featherweight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/featherweight": true
+            }
+          }
+        }
+      }
+    },
     "bring_a_spear_to_a_gunfight": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -190,6 +214,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:weaponry/long_reach_of_the_law": true
+            }
+          }
+        }
+      }
+    },
+    "breeze_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/breeze_block": true
             }
           }
         }
@@ -370,18 +406,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:weaponry/riot_squad": true
-            }
-          }
-        }
-      }
-    },
-    "wither_on_a_budget": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:weaponry/wither_on_a_budget": true
             }
           }
         }
@@ -639,18 +663,6 @@
         }
       }
     },
-    "lava_patrol": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:weaponry/lava_patrol": true
-            }
-          }
-        }
-      }
-    },
     "dragonlance": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -711,18 +723,6 @@
         }
       }
     },
-    "rust_never_sleeps": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:weaponry/rust_never_sleeps": true
-            }
-          }
-        }
-      }
-    },
     "deep_sea_javelin": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -742,6 +742,66 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:weaponry/storm_the_castle": true
+            }
+          }
+        }
+      }
+    },
+    "copper_standard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/copper_standard": true
+            }
+          }
+        }
+      }
+    },
+    "smitten": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/smitten": true
+            }
+          }
+        }
+      }
+    },
+    "hammer_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hammer_time": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_judgement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/gilded_judgement": true
+            }
+          }
+        }
+      }
+    },
+    "ashen_sniper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ashen_sniper": true
             }
           }
         }

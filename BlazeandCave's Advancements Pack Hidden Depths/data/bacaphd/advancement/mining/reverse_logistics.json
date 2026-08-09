@@ -7,10 +7,10 @@
       "translate": "Reverse Logistics"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Watch a Copper Golem pull an item back out of a Copper Chest and carry it away"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/beep_bop",

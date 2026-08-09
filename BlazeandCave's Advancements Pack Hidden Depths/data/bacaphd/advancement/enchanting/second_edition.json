@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "Second Edition"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Copy a signed Written Book by crafting it with a Book and Quill"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "copy": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:book_cloning"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/second_edition"
+  }
+}

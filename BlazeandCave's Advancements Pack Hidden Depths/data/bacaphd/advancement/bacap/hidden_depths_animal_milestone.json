@@ -207,6 +207,18 @@
         }
       }
     },
+    "stable_diet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/stable_diet": true
+            }
+          }
+        }
+      }
+    },
     "shake_it_off": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -214,6 +226,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:animal/shake_it_off": true
+            }
+          }
+        }
+      }
+    },
+    "full_spectrum_flock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/full_spectrum_flock": true
             }
           }
         }
@@ -238,6 +262,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:animal/family_planning": true
+            }
+          }
+        }
+      }
+    },
+    "ark_encounter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/ark_encounter": true
+            }
+          }
+        }
+      }
+    },
+    "shoulder_to_cry_on": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/shoulder_to_cry_on": true
             }
           }
         }
@@ -274,6 +322,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:animal/selective_breeding": true
+            }
+          }
+        }
+      }
+    },
+    "bloodlines": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/bloodlines": true
             }
           }
         }
@@ -867,18 +927,6 @@
         }
       }
     },
-    "hollow_tree": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaphd:animal/hollow_tree": true
-            }
-          }
-        }
-      }
-    },
     "ferry_tales": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -934,6 +982,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaphd:animal/full_brass": true
+            }
+          }
+        }
+      }
+    },
+    "personality_test": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/personality_test": true
+            }
+          }
+        }
+      }
+    },
+    "goat_rodeo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:animal/goat_rodeo": true
             }
           }
         }

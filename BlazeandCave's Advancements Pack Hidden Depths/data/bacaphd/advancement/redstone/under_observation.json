@@ -7,10 +7,10 @@
       "translate": "Under Observation"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Set an Observer down beside a Shelf, a Copper Chest and a Copper Bulb"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/observer_buddy",

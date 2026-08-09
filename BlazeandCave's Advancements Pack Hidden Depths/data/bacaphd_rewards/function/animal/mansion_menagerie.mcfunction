@@ -1,1 +1,1 @@
-function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:animal/mansion_menagerie",reward_id:"animal/mansion_menagerie",tier:"challenge"}
+function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:animal/mansion_menagerie",reward_id:"animal/mansion_menagerie",tier:"goal"}

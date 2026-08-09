@@ -7,10 +7,10 @@
       "translate": "Memory Cell"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Set a Comparator against a lit Copper Bulb so it can read what the bulb remembers"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/comparing_comparator",
