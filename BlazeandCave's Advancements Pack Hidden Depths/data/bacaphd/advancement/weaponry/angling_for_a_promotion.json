@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:fishing_rod"
+      "id": "minecraft:copper_golem_statue"
     },
     "title": {
       "translate": "Angling for a Promotion"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/indiana_jones",
+  "parent": "bacaphd:weaponry/tugboat",
   "criteria": {
     "hooked_a_golem": {
       "trigger": "minecraft:fishing_rod_hooked",

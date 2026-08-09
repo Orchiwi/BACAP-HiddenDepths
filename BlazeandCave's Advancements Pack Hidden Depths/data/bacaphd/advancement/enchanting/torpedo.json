@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_boots"
+      "id": "minecraft:dolphin_spawn_egg"
     },
     "title": {
       "translate": "Torpedo"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/scuba_gear",
+  "parent": "bacaphd:enchanting/wet_work",
   "criteria": {
     "dolphin_strider": {
       "trigger": "minecraft:location",

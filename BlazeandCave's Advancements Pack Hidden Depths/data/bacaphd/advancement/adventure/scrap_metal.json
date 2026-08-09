@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_block"
+      "id": "minecraft:iron_nugget"
     },
     "title": {
       "translate": "Scrap Metal"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/your_daily_fix",
+  "parent": "bacaphd:adventure/golem_foundry",
   "criteria": {
     "village_golem": {
       "trigger": "minecraft:player_killed_entity",

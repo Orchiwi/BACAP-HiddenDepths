@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:rabbit_foot"
+      "id": "minecraft:leather_boots"
     },
     "title": {
       "translate": "Light on Your Feet"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/hopping_mad",
+  "parent": "bacaphd:potion/spring_loaded",
   "criteria": {
     "parkour": {
       "trigger": "minecraft:effects_changed",

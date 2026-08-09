@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lightning_rod"
+      "id": "minecraft:happy_ghast_spawn_egg"
     },
     "title": {
       "translate": "Static Discharge"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/hot_air_balloon",
+  "parent": "bacaphd:nether/airline_food",
   "criteria": {
     "struck": {
       "trigger": "minecraft:lightning_strike",

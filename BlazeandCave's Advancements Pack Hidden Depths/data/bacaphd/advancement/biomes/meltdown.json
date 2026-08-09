@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:snow_block"
+      "id": "minecraft:snowball"
     },
     "title": {
       "translate": "Meltdown"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/eyeball_forest",
+  "parent": "bacaphd:biomes/ice_age",
   "criteria": {
     "melting_at_3": {
       "trigger": "minecraft:tick",

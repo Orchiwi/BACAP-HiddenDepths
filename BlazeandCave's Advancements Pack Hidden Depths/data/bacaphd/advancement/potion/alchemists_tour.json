@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:nether_wart"
+      "id": "minecraft:blaze_rod"
     },
     "title": {
       "translate": "Alchemist's Tour"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaphd:potion/have_stand_will_travel",
+  "parent": "bacaphd:potion/brewing_under_pressure",
   "criteria": {
     "witch_hut": {
       "trigger": "minecraft:brewed_potion",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trident"
+      "id": "minecraft:skeleton_spawn_egg"
     },
     "title": {
       "translate": "Peak Voltage"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/high_feet",
+  "parent": "bacaphd:biomes/summit_marker",
   "criteria": {
     "summit_strike": {
       "trigger": "minecraft:channeled_lightning",

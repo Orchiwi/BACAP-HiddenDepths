@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lightning_rod"
+      "id": "minecraft:heart_pottery_sherd"
     },
     "title": {
       "translate": "Love and Thunder"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/cow_tipper",
+  "parent": "bacaphd:animal/cave_dwellers",
   "criteria": {
     "storm": {
       "trigger": "minecraft:bred_animals",

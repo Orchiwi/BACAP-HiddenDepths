@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:jukebox"
+      "id": "minecraft:music_disc_11"
     },
     "title": {
       "translate": "Bottom of the Charts"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:mining/rock_bottom",
+  "parent": "bacaphd:mining/deep_foundations",
   "criteria": {
     "low": {
       "trigger": "minecraft:item_used_on_block",

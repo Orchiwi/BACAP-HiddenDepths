@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:campfire"
+      "id": "minecraft:fire_charge"
     },
     "title": {
       "translate": "All Show, No Heat"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/stayin_frosty",
+  "parent": "bacaphd:potion/flameproof",
   "criteria": {
     "burning_safely": {
       "trigger": "minecraft:location",

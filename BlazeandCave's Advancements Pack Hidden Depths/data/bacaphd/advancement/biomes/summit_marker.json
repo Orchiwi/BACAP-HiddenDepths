@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:copper_golem_statue"
+      "id": "minecraft:exposed_copper_golem_statue"
     },
     "title": {
       "translate": "Summit Marker"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/high_feet",
+  "parent": "bacaphd:biomes/eye_in_the_sky",
   "criteria": {
     "summit_statue": {
       "trigger": "minecraft:placed_block",

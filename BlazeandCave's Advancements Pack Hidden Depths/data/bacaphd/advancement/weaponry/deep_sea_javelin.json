@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trident"
+      "id": "minecraft:guardian_spawn_egg"
     },
     "title": {
       "translate": "Deep Sea Javelin"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/king_of_the_sea",
+  "parent": "bacaphd:weaponry/sky_harpoon",
   "criteria": {
     "speared_guardian": {
       "trigger": "minecraft:player_killed_entity",

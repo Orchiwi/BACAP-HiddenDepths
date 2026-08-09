@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:rail"
+      "id": "minecraft:glass"
     },
     "title": {
       "translate": "Chunnel"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/on_a_rail",
+  "parent": "bacaphd:redstone/bedrock_line",
   "criteria": {
     "wet_cart": {
       "trigger": "minecraft:location",

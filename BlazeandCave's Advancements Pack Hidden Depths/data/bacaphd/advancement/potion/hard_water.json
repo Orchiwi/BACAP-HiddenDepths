@@ -18,7 +18,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/death_by_magic",
+  "parent": "bacaphd:potion/splash_zone",
   "criteria": {
     "own_splash": {
       "trigger": "minecraft:entity_hurt_player",

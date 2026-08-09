@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:brewing_stand"
+      "id": "minecraft:glass_bottle"
     },
     "title": {
       "translate": "Breaking Bad"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/all_the_items",
+  "parent": "bacaphd:challenges/pharmacopoeia",
   "criteria": {
     "brewed": {
       "trigger": "minecraft:brewed_potion"

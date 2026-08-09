@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:honeycomb"
+      "id": "minecraft:waxed_copper_block"
     },
     "title": {
       "translate": "Vertical Integration"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/hive_mind",
+  "parent": "bacaphd:animal/nectar_nuptials",
   "criteria": {
     "bred_the_bees": {
       "trigger": "minecraft:bred_animals",

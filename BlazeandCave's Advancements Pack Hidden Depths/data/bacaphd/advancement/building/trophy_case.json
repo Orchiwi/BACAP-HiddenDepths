@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:copper_golem_statue"
+      "id": "minecraft:exposed_copper_golem_statue"
     },
     "title": {
       "translate": "Trophy Case"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/shelfception",
+  "parent": "bacaphd:building/off_the_shelf",
   "criteria": {
     "statue_on_shelf": {
       "trigger": "minecraft:default_block_use",

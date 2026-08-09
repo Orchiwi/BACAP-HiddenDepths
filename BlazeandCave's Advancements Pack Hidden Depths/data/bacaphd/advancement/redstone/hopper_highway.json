@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaphd:redstone/sorting_facility",
+  "parent": "bacaphd:redstone/golem_conveyor",
   "criteria": {
     "line_north": {
       "trigger": "minecraft:placed_block",

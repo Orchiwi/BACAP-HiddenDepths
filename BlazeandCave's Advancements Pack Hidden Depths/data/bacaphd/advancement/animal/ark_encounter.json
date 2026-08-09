@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:oak_boat"
+      "id": "minecraft:spruce_chest_boat"
     },
     "title": {
       "translate": "Ark Encounter"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/caprymphony",
+  "parent": "bacaphd:animal/love_and_thunder",
   "criteria": {
     "afloat": {
       "trigger": "minecraft:bred_animals",

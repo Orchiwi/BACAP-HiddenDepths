@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:open_eyeblossom"
+      "id": "minecraft:closed_eyeblossom"
     },
     "title": {
       "translate": "Cave Bloom"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/eyeball_forest",
+  "parent": "bacaphd:biomes/all_eyes_on_me",
   "criteria": {
     "eyeblossom_below": {
       "trigger": "minecraft:placed_block",

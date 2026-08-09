@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:mace"
+      "id": "minecraft:bedrock"
     },
     "title": {
       "translate": "Ground Floor"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "parent": "bacaphd:weaponry/hammer_time",
   "criteria": {
     "smash": {
       "trigger": "minecraft:player_killed_entity",

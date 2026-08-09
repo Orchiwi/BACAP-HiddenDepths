@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:ghast_tear"
     },
     "title": {
       "translate": "Distant Wailing"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/point_blank",
+  "parent": "bacaphd:weaponry/counter_sniper",
   "criteria": {
     "long_shot": {
       "trigger": "minecraft:player_killed_entity",

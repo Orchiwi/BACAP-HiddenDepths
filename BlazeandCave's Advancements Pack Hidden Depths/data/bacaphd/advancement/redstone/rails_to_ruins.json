@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:rail"
+      "id": "minecraft:mossy_cobblestone"
     },
     "title": {
       "translate": "Rails to Ruins"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/on_a_rail",
+  "parent": "bacaphd:redstone/scenic_route",
   "criteria": {
     "ride_mineshaft": {
       "trigger": "minecraft:location",

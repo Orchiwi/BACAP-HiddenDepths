@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:chiseled_bookshelf"
     },
     "title": {
       "translate": "Walking Library"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/all_the_items",
+  "parent": "bacaphd:challenges/ancient_arsenal",
   "criteria": {
     "loadout": {
       "trigger": "minecraft:location",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_spear"
+      "id": "minecraft:phantom_membrane"
     },
     "title": {
       "translate": "Ghost Story"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/toasted_marshmallow",
+  "parent": "bacaphd:weaponry/breeze_block",
   "criteria": {
     "speared_phantom": {
       "trigger": "minecraft:player_killed_entity",

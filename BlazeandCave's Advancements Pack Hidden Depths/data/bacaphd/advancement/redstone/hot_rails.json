@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:minecart"
+      "id": "minecraft:magma_block"
     },
     "title": {
       "translate": "Hot Rails"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/all_aboard",
+  "parent": "bacaphd:redstone/storm_chaser",
   "criteria": {
     "burning_cart": {
       "trigger": "minecraft:location",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lava_bucket"
+      "id": "minecraft:strider_spawn_egg"
     },
     "title": {
       "translate": "Lava Limo"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/jenga",
+  "parent": "bacaphd:nether/under_the_bridge",
   "criteria": {
     "lava_ride": {
       "trigger": "minecraft:ride_entity_in_lava",

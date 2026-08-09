@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lectern"
+      "id": "minecraft:writable_book"
     },
     "title": {
       "translate": "Story Time"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/writers_block",
+  "parent": "bacaphd:building/public_reading",
   "criteria": {
     "book_on_lectern": {
       "trigger": "minecraft:item_used_on_block",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:red_bed"
+      "id": "minecraft:pillager_spawn_egg"
     },
     "title": {
       "translate": "Squatter's Rights"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/out_of_posts",
+  "parent": "bacaphd:adventure/hostile_takeover",
   "criteria": {
     "outpost_nap": {
       "trigger": "minecraft:slept_in_bed",

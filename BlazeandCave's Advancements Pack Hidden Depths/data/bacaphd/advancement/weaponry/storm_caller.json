@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lightning_rod"
+      "id": "minecraft:phantom_spawn_egg"
     },
     "title": {
       "translate": "Storm Caller"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/king_of_the_sea",
+  "parent": "bacaphd:weaponry/storm_the_castle",
   "criteria": {
     "struck_phantom": {
       "trigger": "minecraft:channeled_lightning",

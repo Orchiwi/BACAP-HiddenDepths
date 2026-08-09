@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:parrot_spawn_egg"
+      "id": "minecraft:crying_obsidian"
     },
     "title": {
       "translate": "Shoulder to Cry On"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/caprymphony",
+  "parent": "bacaphd:animal/ride_along",
   "criteria": {
     "nether_left": {
       "trigger": "minecraft:changed_dimension",

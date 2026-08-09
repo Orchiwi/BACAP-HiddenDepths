@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:wolf_armor"
+      "id": "minecraft:bone"
     },
     "title": {
       "translate": "Bloodlines"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/caprymphony",
+  "parent": "bacaphd:animal/pedigree",
   "criteria": {
     "pale": {
       "trigger": "minecraft:bred_animals",

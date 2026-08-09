@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:copper_chestplate"
+      "id": "minecraft:wither_skeleton_skull"
     },
     "title": {
       "translate": "Wither on a Budget"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/all_the_items",
+  "parent": "bacaphd:challenges/rust_never_sleeps",
   "criteria": {
     "budget_wither": {
       "trigger": "minecraft:player_killed_entity",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:enchanting_table"
+      "id": "minecraft:ender_eye"
     },
     "title": {
       "translate": "Planar Scholar"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaphd:enchanting/bargain_bin",
+  "parent": "bacaphd:enchanting/forbidden_knowledge",
   "criteria": {
     "overworld": {
       "trigger": "minecraft:enchanted_item",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:brewing_stand"
+      "id": "minecraft:prismarine_crystals"
     },
     "title": {
       "translate": "Brewing Under Pressure"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/medic",
+  "parent": "bacaphd:potion/have_stand_will_travel",
   "criteria": {
     "brewing_under_pressure": {
       "trigger": "minecraft:brewed_potion",

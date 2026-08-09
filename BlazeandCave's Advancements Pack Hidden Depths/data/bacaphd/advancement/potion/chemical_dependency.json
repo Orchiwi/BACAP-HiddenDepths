@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:brewing_stand"
+      "id": "minecraft:clock"
     },
     "title": {
       "translate": "Chemical Dependency"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "parent": "bacaphd:potion/overdose",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

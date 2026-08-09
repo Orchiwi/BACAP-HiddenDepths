@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:jukebox"
+      "id": "minecraft:music_disc_precipice"
     },
     "title": {
       "translate": "Chamber Music"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/music_to_my_ears",
+  "parent": "bacaphd:adventure/chamber_pot",
   "criteria": {
     "disc_in_the_chamber": {
       "trigger": "minecraft:item_used_on_block",
