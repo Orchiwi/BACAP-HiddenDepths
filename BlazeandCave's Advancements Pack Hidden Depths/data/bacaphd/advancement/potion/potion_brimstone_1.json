@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur"
+    },
+    "title": {
+      "translate": "A Whiff of Brimstone"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 200 Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_brimstone_1"
+  }
+}

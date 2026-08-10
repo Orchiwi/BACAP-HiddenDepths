@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_spawn_egg"
+    },
+    "title": {
+      "translate": "The Fire Went Out"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 10,000 Blazes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_blaze_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blaze_4"
+  }
+}

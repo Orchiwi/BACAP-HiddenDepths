@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Worn to the Haft"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use a Wooden Axe 7,500 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_wooden_axe_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_wooden_axe_4"
+  }
+}

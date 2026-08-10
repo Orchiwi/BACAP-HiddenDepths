@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Framed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 32 Item Frames"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/flashy_items",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_frame_gallery_1"
+  }
+}

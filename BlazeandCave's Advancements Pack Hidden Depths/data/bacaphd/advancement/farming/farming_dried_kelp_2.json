@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Seaweed Snacks"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Dry 4,096 Kelp"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_dried_kelp_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_dried_kelp_2"
+  }
+}

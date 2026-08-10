@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Stoker's Union"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 4,096 Coal Ore"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_coal_ore_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_coal_ore_3"
+  }
+}

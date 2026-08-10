@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_lamp"
+    },
+    "title": {
+      "translate": "The Big Screen"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 4,000 Redstone Lamps"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_lamps_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_lamps_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "Teleportation Addiction"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 8,000 Ender Pearls"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_pearl_teleporter_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_pearl_teleporter_3"
+  }
+}

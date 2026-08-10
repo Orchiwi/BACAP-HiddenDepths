@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vault"
+    },
+    "title": {
+      "translate": "Greater Risk, Greater Reward"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use 75 Ominous Trial Keys"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_ominous_trial_keys_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_ominous_trial_keys_2"
+  }
+}

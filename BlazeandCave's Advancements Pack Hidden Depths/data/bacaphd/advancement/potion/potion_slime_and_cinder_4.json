@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "The Magma Dairy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 4,000 Magma Cream"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_slime_and_cinder_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_slime_and_cinder_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pressure_plate"
+    },
+    "title": {
+      "translate": "The Pressure Is On"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 5,000 Stone Pressure Plates"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_pressure_plates_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_pressure_plates_4"
+  }
+}

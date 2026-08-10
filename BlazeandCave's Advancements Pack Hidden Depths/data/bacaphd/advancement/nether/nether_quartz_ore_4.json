@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "The Alabaster Motherlode"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 8,192 Nether Quartz Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_quartz_ore_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_quartz_ore_4"
+  }
+}

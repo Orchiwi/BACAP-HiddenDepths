@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "Dried in the Sun"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Mud Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_mud_bricks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mud_bricks_2"
+  }
+}

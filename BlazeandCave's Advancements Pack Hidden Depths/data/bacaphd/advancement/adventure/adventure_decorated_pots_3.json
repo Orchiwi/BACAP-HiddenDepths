@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prize_pottery_sherd"
+    },
+    "title": {
+      "translate": "Museum of Broken Things"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 512 Decorated Pots"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_decorated_pots_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_decorated_pots_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Rivers of Fire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use 1,024 Lava Buckets"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_lava_placed_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_lava_placed_3"
+  }
+}

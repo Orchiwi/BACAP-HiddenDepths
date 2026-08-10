@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Reptile Dysfunction"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill the Ender Dragon 25 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_dragon_slayer_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_dragon_slayer_2"
+  }
+}

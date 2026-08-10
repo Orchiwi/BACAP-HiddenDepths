@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_stairs"
+    },
+    "title": {
+      "translate": "Stairway to the Void"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 256 Purpur Stairs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_purpur_stairway_1"
+  }
+}

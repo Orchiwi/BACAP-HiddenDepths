@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": {
+      "translate": "Stew for the Ages"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 8,192 Mushroom Stew"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_mushroom_stew_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_mushroom_stew_4"
+  }
+}

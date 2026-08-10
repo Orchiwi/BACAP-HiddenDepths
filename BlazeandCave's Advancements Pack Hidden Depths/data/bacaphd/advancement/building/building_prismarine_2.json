@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "Tidewashed Masonry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Prismarine"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_prismarine_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_prismarine_2"
+  }
+}

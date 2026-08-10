@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "The Everburning Mortar"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 8,000 Blaze Powder"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_pestle_and_blaze_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_pestle_and_blaze_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "translate": "Legionnaire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 1,250 hits with an Iron Spear"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_iron_spear_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_iron_spear_2"
+  }
+}

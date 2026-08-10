@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "Fortress Purge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 400 Wither Skeletons"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_wither_skeleton_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_wither_skeleton_2"
+  }
+}

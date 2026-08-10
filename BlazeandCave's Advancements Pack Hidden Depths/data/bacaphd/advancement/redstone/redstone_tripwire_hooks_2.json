@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Watch Your Ankles"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 160 Tripwire Hooks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_tripwire_hooks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_tripwire_hooks_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish_bucket"
+    },
+    "title": {
+      "translate": "Pufferfish Roulette"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat 96 Pufferfish"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_pufferfish_roulette_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_pufferfish_roulette_2"
+  }
+}

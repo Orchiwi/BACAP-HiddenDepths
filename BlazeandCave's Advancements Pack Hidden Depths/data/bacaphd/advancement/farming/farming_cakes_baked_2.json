@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "Bakery Business"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bake 100 Cakes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_cakes_baked_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_cakes_baked_2"
+  }
+}

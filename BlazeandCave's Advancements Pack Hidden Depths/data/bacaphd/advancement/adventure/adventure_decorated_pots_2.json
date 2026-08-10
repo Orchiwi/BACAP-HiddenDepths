@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:explorer_pottery_sherd"
+    },
+    "title": {
+      "translate": "Ceramics Collection"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 128 Decorated Pots"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_decorated_pots_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_decorated_pots_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Pyromaniac's Habit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use Flint and Steel 512 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_flint_and_steel_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_flint_and_steel_2"
+  }
+}

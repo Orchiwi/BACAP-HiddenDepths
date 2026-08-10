@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "Johnny Who?"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 8,000 Vindicators"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_vindicator_kills_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_vindicator_kills_4"
+  }
+}

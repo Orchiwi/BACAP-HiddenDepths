@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": {
+      "translate": "Green Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a Wooden Axe 100 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/viking",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_wooden_axe_1"
+  }
+}

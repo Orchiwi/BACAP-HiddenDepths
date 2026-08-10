@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "No Regeneration For You"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 1,000 Axolotls"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_axolotl_cull_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_axolotl_cull_3"
+  }
+}

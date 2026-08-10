@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Silencing the Wails"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 200 Ghasts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_ghast_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_ghast_2"
+  }
+}

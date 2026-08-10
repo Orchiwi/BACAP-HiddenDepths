@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Liquid Diet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drink 750 Potions"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_bottoms_up_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_bottoms_up_3"
+  }
+}

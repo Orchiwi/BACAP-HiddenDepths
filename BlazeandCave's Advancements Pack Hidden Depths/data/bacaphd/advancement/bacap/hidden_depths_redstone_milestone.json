@@ -902,6 +902,1410 @@
           }
         }
       }
+    },
+    "redstone_dust_placed_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dust_placed_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dust_placed_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dust_placed_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dust_placed_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dust_placed_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dust_placed_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dust_placed_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_torches_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_torches_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_torches_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_torches_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_torches_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_torches_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_torches_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_torches_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_power_blocks_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_power_blocks_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_power_blocks_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_power_blocks_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_power_blocks_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_power_blocks_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_power_blocks_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_power_blocks_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_repeaters_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_repeaters_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_repeaters_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_repeaters_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_repeaters_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_repeaters_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_repeaters_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_repeaters_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_comparators_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_comparators_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_comparators_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_comparators_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_comparators_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_comparators_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_comparators_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_comparators_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pistons_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pistons_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pistons_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pistons_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pistons_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pistons_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pistons_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pistons_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_sticky_pistons_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_sticky_pistons_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_sticky_pistons_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_sticky_pistons_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_sticky_pistons_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_sticky_pistons_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_sticky_pistons_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_sticky_pistons_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_slime_blocks_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_slime_blocks_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_slime_blocks_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_slime_blocks_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_slime_blocks_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_slime_blocks_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_slime_blocks_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_slime_blocks_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_observers_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_observers_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_observers_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_observers_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_observers_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_observers_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_observers_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_observers_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_hoppers_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_hoppers_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_hoppers_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_hoppers_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_hoppers_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_hoppers_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_hoppers_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_hoppers_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_droppers_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_droppers_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_droppers_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_droppers_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_droppers_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_droppers_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_droppers_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_droppers_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dispensers_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dispensers_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dispensers_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dispensers_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dispensers_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dispensers_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_dispensers_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_dispensers_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lamps_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lamps_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lamps_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lamps_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lamps_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lamps_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lamps_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lamps_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_note_blocks_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_note_blocks_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_note_blocks_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_note_blocks_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_note_blocks_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_note_blocks_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_note_blocks_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_note_blocks_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_levers_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_levers_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_levers_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_levers_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_levers_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_levers_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_levers_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_levers_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_buttons_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_buttons_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_buttons_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_buttons_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_buttons_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_buttons_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_buttons_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_buttons_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pressure_plates_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pressure_plates_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pressure_plates_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pressure_plates_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pressure_plates_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pressure_plates_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_pressure_plates_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_pressure_plates_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tripwire_hooks_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tripwire_hooks_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tripwire_hooks_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tripwire_hooks_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tripwire_hooks_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tripwire_hooks_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tripwire_hooks_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tripwire_hooks_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_daylight_detectors_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_daylight_detectors_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_daylight_detectors_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_daylight_detectors_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_daylight_detectors_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_daylight_detectors_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_daylight_detectors_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_daylight_detectors_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_crafters_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_crafters_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_crafters_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_crafters_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_crafters_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_crafters_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_crafters_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_crafters_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_powered_rails_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_powered_rails_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_powered_rails_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_powered_rails_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_powered_rails_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_powered_rails_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_powered_rails_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_powered_rails_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_detector_rails_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_detector_rails_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_detector_rails_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_detector_rails_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_detector_rails_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_detector_rails_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_detector_rails_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_detector_rails_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_minecarts_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_minecarts_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_minecarts_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_minecarts_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_minecarts_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_minecarts_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_minecarts_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_minecarts_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_chest_minecarts_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_chest_minecarts_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_chest_minecarts_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_chest_minecarts_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_chest_minecarts_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_chest_minecarts_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_chest_minecarts_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_chest_minecarts_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tnt_minecarts_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tnt_minecarts_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tnt_minecarts_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tnt_minecarts_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tnt_minecarts_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tnt_minecarts_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_tnt_minecarts_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_tnt_minecarts_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_targets_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_targets_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_targets_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_targets_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_targets_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_targets_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_targets_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_targets_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_targets_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_targets_5": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_trapped_chests_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_trapped_chests_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_trapped_chests_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_trapped_chests_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_trapped_chests_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_trapped_chests_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_trapped_chests_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_trapped_chests_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lightning_rods_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lightning_rods_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lightning_rods_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lightning_rods_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lightning_rods_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lightning_rods_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_lightning_rods_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_lightning_rods_4": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_copper_bulbs_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_copper_bulbs_1": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_copper_bulbs_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_copper_bulbs_2": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_copper_bulbs_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_copper_bulbs_3": true
+            }
+          }
+        }
+      }
+    },
+    "redstone_copper_bulbs_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:redstone/redstone_copper_bulbs_4": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

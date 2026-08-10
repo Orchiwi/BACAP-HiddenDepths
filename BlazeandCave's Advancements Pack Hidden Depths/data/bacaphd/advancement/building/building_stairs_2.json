@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_stairs"
+    },
+    "title": {
+      "translate": "Grand Staircase"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Oak Stairs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stairs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stairs_2"
+  }
+}

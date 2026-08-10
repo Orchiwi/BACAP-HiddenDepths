@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "Dune Undertaker"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 12,000 Husks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_husk_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_husk_4"
+  }
+}

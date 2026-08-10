@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_slab"
+    },
+    "title": {
+      "translate": "Colonnade"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Purpur Pillars"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_purpur_pillar_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_purpur_pillar_2"
+  }
+}

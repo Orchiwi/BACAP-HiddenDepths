@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "Coppersmith"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Cut Copper"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cut_copper_1"
+  }
+}

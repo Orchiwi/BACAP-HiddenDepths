@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_dye"
+    },
+    "title": {
+      "translate": "Glow of the Reef"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 512 Sea Pickles"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_sea_pickles_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_sea_pickles_2"
+  }
+}

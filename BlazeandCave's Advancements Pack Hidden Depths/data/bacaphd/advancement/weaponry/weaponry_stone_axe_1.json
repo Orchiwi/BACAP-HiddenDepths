@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "Rough Hewn"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a Stone Axe 250 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/viking",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_stone_axe_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "The Warren Wars"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 3,500 Rabbits"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_hasenpfeffer_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_hasenpfeffer_3"
+  }
+}

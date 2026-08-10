@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "Everybody Gets a Name"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 300 Name Tags"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_name_tags_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_name_tags_3"
+  }
+}

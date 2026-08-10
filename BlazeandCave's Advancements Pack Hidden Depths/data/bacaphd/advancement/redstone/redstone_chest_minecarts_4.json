@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "The Iron Convoy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 1,000 Minecarts with Chest"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_chest_minecarts_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_chest_minecarts_4"
+  }
+}

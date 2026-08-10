@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Reroll Roulette"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,500 Lecterns"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_lectern_reroll_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lectern_reroll_3"
+  }
+}

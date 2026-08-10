@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "The Endless Forest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant 25,000 Oak Saplings"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_saplings_planted_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_saplings_planted_4"
+  }
+}

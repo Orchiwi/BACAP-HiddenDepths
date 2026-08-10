@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Every Petal Counted"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 20,000 Wildflowers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_wildflowers_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_wildflowers_4"
+  }
+}

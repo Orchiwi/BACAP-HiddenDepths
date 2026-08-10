@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "No Fortress Left Standing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 30,000 Nether Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_fortress_bricks_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_fortress_bricks_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brick_stairs"
+    },
+    "title": {
+      "translate": "Fired and Stacked"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,024 Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_bricks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_bricks_3"
+  }
+}

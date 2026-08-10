@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_hyphae"
+    },
+    "title": {
+      "translate": "Razing the Warped Forest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 12,500 Warped Stems"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_warped_stem_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_stem_3"
+  }
+}

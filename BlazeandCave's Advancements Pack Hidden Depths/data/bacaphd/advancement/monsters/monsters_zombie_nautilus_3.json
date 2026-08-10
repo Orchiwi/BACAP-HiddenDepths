@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine"
+    },
+    "title": {
+      "translate": "Reef of Bones"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 600 Zombie Nautiluses"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_zombie_nautilus_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_zombie_nautilus_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "Cauldron Economy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 2,048 Mushroom Stew"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_mushroom_stew_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_mushroom_stew_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_stairs"
+    },
+    "title": {
+      "translate": "Rooflines"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 5,000 Oak Stairs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stairs_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stairs_3"
+  }
+}

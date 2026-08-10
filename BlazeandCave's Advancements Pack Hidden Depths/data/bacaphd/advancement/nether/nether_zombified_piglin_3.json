@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "Gold Farm Foreman"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 20,000 Zombified Piglins"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_zombified_piglin_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_zombified_piglin_3"
+  }
+}

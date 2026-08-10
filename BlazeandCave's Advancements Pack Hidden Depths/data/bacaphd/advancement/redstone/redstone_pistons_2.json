@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone"
+    },
+    "title": {
+      "translate": "Block Shifter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 500 Pistons"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_pistons_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_pistons_2"
+  }
+}

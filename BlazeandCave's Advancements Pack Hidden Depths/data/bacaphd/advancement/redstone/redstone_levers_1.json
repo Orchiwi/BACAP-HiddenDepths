@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lever"
+    },
+    "title": {
+      "translate": "Flick It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 50 Levers"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/leveraging_synergy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_levers_1"
+  }
+}

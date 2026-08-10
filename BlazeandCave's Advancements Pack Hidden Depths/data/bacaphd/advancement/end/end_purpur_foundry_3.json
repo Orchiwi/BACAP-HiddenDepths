@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_slab"
+    },
+    "title": {
+      "translate": "The Purpur Foundry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 5,000 Purpur Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_purpur_foundry_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_purpur_foundry_3"
+  }
+}

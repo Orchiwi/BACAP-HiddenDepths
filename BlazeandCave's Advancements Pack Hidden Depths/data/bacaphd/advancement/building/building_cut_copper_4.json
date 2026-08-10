@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_cut_copper"
+    },
+    "title": {
+      "translate": "The Verdigris Spire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 12,000 Cut Copper"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cut_copper_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cut_copper_4"
+  }
+}

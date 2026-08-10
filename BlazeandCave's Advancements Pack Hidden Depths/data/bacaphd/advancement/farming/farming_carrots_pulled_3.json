@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "Root of the Matter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Harvest 10,000 Carrots"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_carrots_pulled_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_carrots_pulled_3"
+  }
+}

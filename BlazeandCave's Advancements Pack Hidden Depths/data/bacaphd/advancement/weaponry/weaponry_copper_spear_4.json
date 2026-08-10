@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_cut_copper"
+    },
+    "title": {
+      "translate": "Corroded Conqueror"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 12,000 hits with a Copper Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_spear_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_spear_4"
+  }
+}

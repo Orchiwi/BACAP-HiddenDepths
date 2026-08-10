@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block"
+    },
+    "title": {
+      "translate": "Nether's Marble"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Quartz Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/greek_art_decor",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_quartz_1"
+  }
+}

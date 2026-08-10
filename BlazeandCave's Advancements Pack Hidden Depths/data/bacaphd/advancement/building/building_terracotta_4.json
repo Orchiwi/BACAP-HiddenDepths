@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_glazed_terracotta"
+    },
+    "title": {
+      "translate": "The Kiln Never Cools"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 20,000 Terracotta"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_terracotta_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_terracotta_4"
+  }
+}

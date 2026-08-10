@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_candle"
+    },
+    "title": {
+      "translate": "Vigil Eternal"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 1,024 Candles"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_candles_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_candles_3"
+  }
+}

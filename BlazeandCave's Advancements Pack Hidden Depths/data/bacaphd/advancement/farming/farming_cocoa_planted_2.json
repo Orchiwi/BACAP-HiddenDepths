@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "Bean There"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use 2,000 Cocoa Beans"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_cocoa_planted_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_cocoa_planted_2"
+  }
+}

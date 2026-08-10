@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Brilliant Cut"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 2,500 hits with a Diamond Sword"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_sword_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_sword_2"
+  }
+}

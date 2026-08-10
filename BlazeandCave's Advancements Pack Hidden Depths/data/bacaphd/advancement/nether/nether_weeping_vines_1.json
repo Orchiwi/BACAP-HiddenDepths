@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weeping_vines"
+    },
+    "title": {
+      "translate": "Trimming the Tendrils"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 32 Weeping Vines"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dont_blink",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_weeping_vines_1"
+  }
+}

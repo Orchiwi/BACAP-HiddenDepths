@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot"
+    },
+    "title": {
+      "translate": "Root Awakening"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Harvest 200 Beetroots"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/souperman",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_beetroots_pulled_1"
+  }
+}

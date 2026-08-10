@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_planks"
+    },
+    "title": {
+      "translate": "Sea of Green"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 50,000 Bamboo"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_bamboo_grove_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_bamboo_grove_3"
+  }
+}

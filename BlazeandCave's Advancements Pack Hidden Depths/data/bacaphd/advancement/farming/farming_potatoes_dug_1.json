@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "translate": "Spud Duty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Harvest 250 Potatoes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/die_potato",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_potatoes_dug_1"
+  }
+}

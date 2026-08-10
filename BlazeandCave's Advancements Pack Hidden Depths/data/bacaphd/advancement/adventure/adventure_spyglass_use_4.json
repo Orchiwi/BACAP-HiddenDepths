@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Nothing Escapes Notice"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Look through a Spyglass 15,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_spyglass_use_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_spyglass_use_4"
+  }
+}

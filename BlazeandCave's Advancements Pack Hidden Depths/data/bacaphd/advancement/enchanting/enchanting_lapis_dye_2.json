@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "Bluer Than the Book"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 256 Blue Dye"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_lapis_dye_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_dye_2"
+  }
+}

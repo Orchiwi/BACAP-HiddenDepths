@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow"
+    },
+    "title": {
+      "translate": "Snowed Under"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 4,000 Snow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_snow_shovelling_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_snow_shovelling_2"
+  }
+}

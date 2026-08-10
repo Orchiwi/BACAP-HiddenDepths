@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "Mesa Unmade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 60,000 Red Sand"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_red_sand_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_red_sand_4"
+  }
+}

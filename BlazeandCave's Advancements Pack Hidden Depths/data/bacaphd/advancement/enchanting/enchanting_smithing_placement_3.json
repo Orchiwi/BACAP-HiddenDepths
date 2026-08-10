@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "The Village Hires Again"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 600 Smithing Tables"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_smithing_placement_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_smithing_placement_3"
+  }
+}

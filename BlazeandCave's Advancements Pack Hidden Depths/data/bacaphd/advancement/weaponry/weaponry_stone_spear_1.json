@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_spear"
+    },
+    "title": {
+      "translate": "Knapped and Ready"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 100 hits with a Stone Spear"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/arrow_of_ultimate_obliteration",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_stone_spear_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": {
+      "translate": "Red Harvest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Harvest 1,500 Beetroots"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_beetroots_pulled_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_beetroots_pulled_2"
+  }
+}

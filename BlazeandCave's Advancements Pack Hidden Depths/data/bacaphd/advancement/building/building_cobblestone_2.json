@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "Quarry to Castle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 5,000 Cobblestone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cobblestone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cobblestone_2"
+  }
+}

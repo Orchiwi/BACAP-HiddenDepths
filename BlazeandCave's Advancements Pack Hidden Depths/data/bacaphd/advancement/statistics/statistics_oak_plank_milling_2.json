@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_stairs"
+    },
+    "title": {
+      "translate": "Sawdust in Your Boots"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 3,000 Oak Planks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_oak_plank_milling_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_oak_plank_milling_2"
+  }
+}

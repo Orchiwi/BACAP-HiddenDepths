@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Invisible Alarm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 800 Tripwire Hooks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_tripwire_hooks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_tripwire_hooks_3"
+  }
+}

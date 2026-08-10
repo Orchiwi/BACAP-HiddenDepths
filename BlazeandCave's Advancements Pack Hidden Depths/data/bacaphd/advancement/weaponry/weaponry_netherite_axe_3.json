@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "The Long Haft"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use a Netherite Axe 7,500 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_netherite_axe_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_netherite_axe_3"
+  }
+}

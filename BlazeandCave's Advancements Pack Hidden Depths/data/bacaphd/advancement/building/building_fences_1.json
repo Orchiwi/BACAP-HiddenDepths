@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence"
+    },
+    "title": {
+      "translate": "Good Fences"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Oak Fences"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/en_garde",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_fences_1"
+  }
+}

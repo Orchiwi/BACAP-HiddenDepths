@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "Green Around the Edges"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 200 Mossy Cobblestone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/tomb_raider",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_mossy_cobblestone_1"
+  }
+}

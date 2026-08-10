@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:terracotta"
+    },
+    "title": {
+      "translate": "Painted Hills"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Terracotta"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_terracotta_mesa_1"
+  }
+}

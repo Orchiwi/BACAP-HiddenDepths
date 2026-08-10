@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato"
+    },
+    "title": {
+      "translate": "Potato Powered"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat 2,500 Baked Potatoes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_potato_feasting_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_potato_feasting_3"
+  }
+}

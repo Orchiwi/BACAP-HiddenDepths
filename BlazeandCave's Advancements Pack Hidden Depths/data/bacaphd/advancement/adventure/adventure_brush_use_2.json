@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "Field Archaeologist"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a Brush 750 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_brush_use_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_brush_use_2"
+  }
+}

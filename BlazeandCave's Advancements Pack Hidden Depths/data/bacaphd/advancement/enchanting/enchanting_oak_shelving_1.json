@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_shelf"
+    },
+    "title": {
+      "translate": "Somewhere to Display It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 16 Oak Shelves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_oak_shelving_1"
+  }
+}

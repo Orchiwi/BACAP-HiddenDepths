@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "Deconstruction Crew"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 8,000 Prismarine"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_prismarine_haul_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_prismarine_haul_2"
+  }
+}

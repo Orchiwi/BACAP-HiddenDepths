@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_block"
+    },
+    "title": {
+      "translate": "Resin Rush"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 512 Resin Clumps"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_resin_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_resin_2"
+  }
+}

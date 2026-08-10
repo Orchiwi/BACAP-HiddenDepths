@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_shulker_box"
+    },
+    "title": {
+      "translate": "Set It Down, Open It Up"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Shulker Boxes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/somewhere_over_the_rainbow",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_box_nomad_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "True Blue"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 400 Lapis Lazuli Ore"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_lapis_seams_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_seams_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_basalt"
+    },
+    "title": {
+      "translate": "Snapping Columns"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 2,000 Basalt"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_basalt_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_basalt_2"
+  }
+}

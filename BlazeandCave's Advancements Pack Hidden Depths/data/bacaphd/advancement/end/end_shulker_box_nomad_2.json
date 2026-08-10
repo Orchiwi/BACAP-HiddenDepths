@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Base Camp in a Box"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 512 Shulker Boxes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_shulker_box_nomad_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_box_nomad_2"
+  }
+}

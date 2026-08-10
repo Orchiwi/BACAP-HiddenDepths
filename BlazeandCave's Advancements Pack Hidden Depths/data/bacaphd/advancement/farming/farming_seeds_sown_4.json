@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Sower of the Endless Field"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant 50,000 Wheat Seeds"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_seeds_sown_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_seeds_sown_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Nine to a Block"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 256 Nether Wart Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_wart_bales_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_wart_bales_2"
+  }
+}

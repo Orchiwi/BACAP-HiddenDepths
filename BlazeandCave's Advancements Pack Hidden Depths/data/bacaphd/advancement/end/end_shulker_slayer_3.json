@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_shulker_box"
+    },
+    "title": {
+      "translate": "The Levitation Will Not Be Televised"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 2,500 Shulkers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_shulker_slayer_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_slayer_3"
+  }
+}

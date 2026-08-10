@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cube_spawn_egg"
+    },
+    "title": {
+      "translate": "Bouncing Off the Walls"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 1,000 Magma Cubes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_magma_cube_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_magma_cube_2"
+  }
+}

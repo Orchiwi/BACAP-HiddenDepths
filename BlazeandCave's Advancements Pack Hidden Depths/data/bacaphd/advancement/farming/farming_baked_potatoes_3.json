@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Spuds by the Sackful"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bake 8,000 Baked Potatoes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_baked_potatoes_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_baked_potatoes_3"
+  }
+}

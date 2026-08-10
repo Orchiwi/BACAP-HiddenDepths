@@ -266,6 +266,1422 @@
           }
         }
       }
+    },
+    "end_dragon_slayer_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_dragon_slayer_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_dragon_slayer_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_dragon_slayer_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_dragon_slayer_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_dragon_slayer_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_enderman_hunter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_enderman_hunter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_enderman_hunter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_enderman_hunter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_enderman_hunter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_enderman_hunter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_endermite_purge_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_endermite_purge_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_endermite_purge_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_endermite_purge_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_endermite_purge_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_endermite_purge_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_slayer_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_slayer_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_slayer_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_slayer_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_slayer_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_slayer_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_phantom_cull_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_phantom_cull_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_phantom_cull_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_phantom_cull_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_phantom_cull_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_phantom_cull_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_quarry_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_quarry_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_quarry_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_quarry_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_quarry_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_quarry_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_quarry_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_quarry_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_builder_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_builder_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_builder_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_builder_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_end_stone_builder_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_end_stone_builder_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_mason_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_mason_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_mason_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_mason_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_mason_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_mason_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_looter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_looter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_looter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_looter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_looter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_looter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_foundry_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_foundry_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_foundry_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_foundry_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_foundry_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_foundry_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_stairway_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_stairway_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_stairway_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_stairway_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_stairway_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_stairway_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_florist_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_florist_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_florist_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_florist_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_florist_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_florist_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_smelter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_smelter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_smelter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_smelter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_smelter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_smelter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_teleporter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_teleporter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_teleporter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_teleporter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_teleporter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_teleporter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_ritualist_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_ritualist_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_ritualist_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_ritualist_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_ritualist_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_ritualist_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_pearl_teleporter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_pearl_teleporter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_pearl_teleporter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_pearl_teleporter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_pearl_teleporter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_pearl_teleporter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_seeker_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_seeker_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_seeker_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_seeker_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_seeker_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_seeker_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_smith_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_smith_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_smith_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_smith_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_smith_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_smith_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_lighter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_lighter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_lighter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_lighter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_rod_lighter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rod_lighter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_flier_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_flier_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_flier_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_flier_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_flier_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_flier_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_factory_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_factory_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_factory_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_factory_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_rocket_factory_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_rocket_factory_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_firework_artisan_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_firework_artisan_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_firework_artisan_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_firework_artisan_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_firework_artisan_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_firework_artisan_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_network_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_network_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_network_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_network_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_network_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_network_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_crafter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_crafter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_crafter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_crafter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_crafter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_crafter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_nomad_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_nomad_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_nomad_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_nomad_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_box_nomad_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_box_nomad_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_harvest_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_harvest_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_harvest_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_harvest_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_harvest_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_harvest_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_harvest_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_harvest_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_harvest_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_harvest_5": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_planter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_planter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_planter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_planter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_planter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_planter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_chorus_planter_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_chorus_planter_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_pillar_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_pillar_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_pillar_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_pillar_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_pillar_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_pillar_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_purpur_pillar_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_purpur_pillar_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_stairs_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_stairs_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_stairs_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_stairs_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_stairs_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_stairs_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_brick_stairs_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_brick_stairs_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_crafter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_crafter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_crafter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_crafter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_crafter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_crafter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_eye_crafter_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_eye_crafter_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_forge_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_forge_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_forge_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_forge_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_forge_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_forge_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_crystal_forge_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_crystal_forge_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_unpacking_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_unpacking_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_unpacking_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_unpacking_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_unpacking_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_unpacking_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_shulker_unpacking_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_shulker_unpacking_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_placer_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_placer_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_placer_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_placer_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_placer_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_placer_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_ender_chest_placer_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_ender_chest_placer_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_scaffold_bridger_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_scaffold_bridger_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_scaffold_bridger_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_scaffold_bridger_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_scaffold_bridger_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_scaffold_bridger_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_scaffold_bridger_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_scaffold_bridger_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_glass_smelter_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_glass_smelter_1": true
+            }
+          }
+        }
+      }
+    },
+    "end_glass_smelter_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_glass_smelter_2": true
+            }
+          }
+        }
+      }
+    },
+    "end_glass_smelter_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_glass_smelter_3": true
+            }
+          }
+        }
+      }
+    },
+    "end_glass_smelter_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_glass_smelter_4": true
+            }
+          }
+        }
+      }
+    },
+    "end_glass_smelter_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:end/end_glass_smelter_5": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

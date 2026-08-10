@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "Hasenpfeffer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 700 Rabbits"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_hasenpfeffer_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_hasenpfeffer_2"
+  }
+}

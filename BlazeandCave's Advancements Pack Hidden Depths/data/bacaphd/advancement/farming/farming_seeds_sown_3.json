@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "Seeds of Prosperity"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant 10,000 Wheat Seeds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_seeds_sown_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_seeds_sown_3"
+  }
+}

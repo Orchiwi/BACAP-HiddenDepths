@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Confectionery Empire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 750 Cakes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_cake_baking_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_cake_baking_4"
+  }
+}

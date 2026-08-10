@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_sandstone"
+    },
+    "title": {
+      "translate": "Wonder of the Desert"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 20,000 Sandstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_sandstone_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_sandstone_4"
+  }
+}

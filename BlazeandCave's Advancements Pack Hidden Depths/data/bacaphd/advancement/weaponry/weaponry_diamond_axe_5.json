@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "The Axe That Never Dulls"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use a Diamond Axe 50,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_axe_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_axe_5"
+  }
+}

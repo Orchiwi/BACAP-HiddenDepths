@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fox_spawn_egg"
+    },
+    "title": {
+      "translate": "Bramble Wrangler"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 3,000 Sweet Berry Bushes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_sweet_berries_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_sweet_berries_3"
+  }
+}

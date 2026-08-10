@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_dye"
+    },
+    "title": {
+      "translate": "Lapis to Spare"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 64 Blue Dye"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_dye_1"
+  }
+}

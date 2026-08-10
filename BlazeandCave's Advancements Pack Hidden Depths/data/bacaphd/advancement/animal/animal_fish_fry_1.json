@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_cod"
+    },
+    "title": {
+      "translate": "Fish Fry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat 200 Cooked Cod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/delicious_fish",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_fish_fry_1"
+  }
+}

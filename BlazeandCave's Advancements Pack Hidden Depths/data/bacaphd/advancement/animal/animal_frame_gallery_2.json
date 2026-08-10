@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": {
+      "translate": "Gallery of Beasts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 200 Item Frames"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_frame_gallery_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_frame_gallery_2"
+  }
+}

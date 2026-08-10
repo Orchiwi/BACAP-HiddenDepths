@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "Obsidian's Cheap Cousin"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 5,000 Blackstone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_blackstone_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blackstone_3"
+  }
+}

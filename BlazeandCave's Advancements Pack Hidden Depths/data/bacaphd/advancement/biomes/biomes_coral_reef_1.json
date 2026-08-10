@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tube_coral"
+    },
+    "title": {
+      "translate": "Coral Cutter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 32 Tube Coral Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_great_blocky_reef",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_coral_reef_1"
+  }
+}

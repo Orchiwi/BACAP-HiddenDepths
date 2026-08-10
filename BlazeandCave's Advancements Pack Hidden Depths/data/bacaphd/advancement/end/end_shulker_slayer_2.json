@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "Shells Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 500 Shulkers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_shulker_slayer_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_slayer_2"
+  }
+}

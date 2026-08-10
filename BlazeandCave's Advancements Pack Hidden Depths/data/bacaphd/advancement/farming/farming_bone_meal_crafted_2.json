@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Grave Robbing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 2,048 Bone Meal"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_bone_meal_crafted_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_bone_meal_crafted_2"
+  }
+}

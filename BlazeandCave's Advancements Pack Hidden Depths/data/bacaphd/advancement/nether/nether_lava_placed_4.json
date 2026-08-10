@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "An Ocean of Molten Rock"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 4,096 Lava Buckets"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_lava_placed_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_lava_placed_4"
+  }
+}

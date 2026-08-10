@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Nothing Wasted, Not Even Iron"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 300 Anvils"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_anvil_salvage_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_anvil_salvage_3"
+  }
+}

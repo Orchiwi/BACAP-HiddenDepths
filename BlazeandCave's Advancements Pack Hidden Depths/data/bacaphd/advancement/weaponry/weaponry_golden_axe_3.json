@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "Golden Ratio"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use a Golden Axe 2,500 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_golden_axe_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_golden_axe_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_prismarine"
+    },
+    "title": {
+      "translate": "Ocean Architect"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 2,500 Prismarine"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_prismarine_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_prismarine_3"
+  }
+}

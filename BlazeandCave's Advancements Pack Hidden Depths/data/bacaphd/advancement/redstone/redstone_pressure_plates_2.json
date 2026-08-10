@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Weight Detection"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 192 Stone Pressure Plates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_pressure_plates_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_pressure_plates_2"
+  }
+}

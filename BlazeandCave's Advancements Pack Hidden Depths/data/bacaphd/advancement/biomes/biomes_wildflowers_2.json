@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_dye"
+    },
+    "title": {
+      "translate": "Meadow Picker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 1,500 Wildflowers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_wildflowers_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_wildflowers_2"
+  }
+}

@@ -1,0 +1,1 @@
+function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:biomes/biomes_red_sand_5",reward_id:"biomes/biomes_red_sand_5",tier:"challenge"}

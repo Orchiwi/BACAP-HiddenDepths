@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_stone_bricks"
+    },
+    "title": {
+      "translate": "Ancestral Aim"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 10,000 hits with a Stone Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_stone_spear_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_stone_spear_4"
+  }
+}

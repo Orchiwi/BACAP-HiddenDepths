@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Silence the Grove"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 250 Creaking Hearts"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_creaking_hearts_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_creaking_hearts_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "Fuel for the Fire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 400 Blaze Powder"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_pestle_and_blaze_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_pestle_and_blaze_2"
+  }
+}

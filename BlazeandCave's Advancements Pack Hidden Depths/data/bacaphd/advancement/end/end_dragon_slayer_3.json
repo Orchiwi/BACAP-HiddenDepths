@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_dragon_spawn_egg"
+    },
+    "title": {
+      "translate": "Extinction Event"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill the Ender Dragon 100 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_dragon_slayer_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_dragon_slayer_3"
+  }
+}

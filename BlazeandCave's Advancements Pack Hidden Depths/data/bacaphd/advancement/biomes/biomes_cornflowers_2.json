@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_dye"
+    },
+    "title": {
+      "translate": "Wildflower Wanderer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 750 Cornflowers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_cornflowers_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cornflowers_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": {
+      "translate": "The Ceiling Weeps No More"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 8,000 Weeping Vines"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_weeping_vines_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_weeping_vines_5"
+  }
+}

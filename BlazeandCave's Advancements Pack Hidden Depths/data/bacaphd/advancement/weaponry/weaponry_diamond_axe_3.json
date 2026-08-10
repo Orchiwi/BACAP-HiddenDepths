@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_ore"
+    },
+    "title": {
+      "translate": "Grain Against Gem"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use a Diamond Axe 10,000 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_axe_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_axe_3"
+  }
+}

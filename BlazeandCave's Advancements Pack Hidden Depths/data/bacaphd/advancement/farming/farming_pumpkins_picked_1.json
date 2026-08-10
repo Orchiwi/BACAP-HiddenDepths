@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "Gourd Gatherer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Harvest 250 Pumpkins"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/naturally_carved",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_pumpkins_picked_1"
+  }
+}

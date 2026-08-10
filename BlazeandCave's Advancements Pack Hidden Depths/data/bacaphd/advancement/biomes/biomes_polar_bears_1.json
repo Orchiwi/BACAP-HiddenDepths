@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polar_bear_spawn_egg"
+    },
+    "title": {
+      "translate": "Fur Trader"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 5 Polar Bears"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/barbearian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_polar_bears_1"
+  }
+}

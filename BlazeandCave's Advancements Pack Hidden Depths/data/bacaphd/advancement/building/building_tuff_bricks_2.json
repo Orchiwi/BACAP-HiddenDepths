@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff_bricks"
+    },
+    "title": {
+      "translate": "Ashen Brickwork"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Tuff Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_tuff_bricks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_tuff_bricks_2"
+  }
+}

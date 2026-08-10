@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": {
+      "translate": "Nothing Suspicious Here"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 2,500 Suspicious Stews"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_questionable_cuisine_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_questionable_cuisine_4"
+  }
+}

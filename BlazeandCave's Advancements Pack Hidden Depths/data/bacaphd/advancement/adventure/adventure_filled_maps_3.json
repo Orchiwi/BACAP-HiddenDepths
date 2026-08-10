@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": {
+      "translate": "Atlas of Everything"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 1,024 Filled Maps"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_filled_maps_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_filled_maps_3"
+  }
+}

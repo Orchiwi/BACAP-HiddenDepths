@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_wall"
+    },
+    "title": {
+      "translate": "Wall Started"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Cobblestone Walls"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_walls",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_walls_1"
+  }
+}

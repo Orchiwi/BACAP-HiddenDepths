@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_scute"
+    },
+    "title": {
+      "translate": "Beach Raider"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 150 Turtles"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_shell_poacher_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_shell_poacher_2"
+  }
+}

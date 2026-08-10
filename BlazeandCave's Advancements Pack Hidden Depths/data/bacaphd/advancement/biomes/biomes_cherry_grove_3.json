@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_planks"
+    },
+    "title": {
+      "translate": "Cherry Picked"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 5,000 Cherry Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_cherry_grove_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cherry_grove_3"
+  }
+}

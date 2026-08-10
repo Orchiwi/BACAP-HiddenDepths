@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "A Star Is Born"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 64 Firework Stars"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/rocketman",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_firework_artisan_1"
+  }
+}

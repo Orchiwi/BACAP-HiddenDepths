@@ -410,7 +410,17 @@ scoreboard objectives add bacaphd_ctorchd dummy
 scoreboard objectives add bacaphd_yeet_m dummy
 scoreboard objectives add bacaphd_pi_own dummy
 
-function bacaphd:setup_stats
+function bacaphd:setup_stats_01
+function bacaphd:setup_stats_02
+function bacaphd:setup_stats_03
+function bacaphd:setup_stats_04
+function bacaphd:setup_stats_05
+function bacaphd:setup_stats_06
+function bacaphd:setup_stats_07
+function bacaphd:setup_stats_08
+function bacaphd:setup_stats_09
+function bacaphd:setup_stats_10
+function bacaphd:setup_stats_unverified
 
 # Constant used to take absolute values in the Ominous Marathon distance checks
 scoreboard players set #neg1 bacaphd_const -1

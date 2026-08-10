@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cocoa_beans"
+    },
+    "title": {
+      "translate": "Cocoa Loco"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 250 Cocoa Pods"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_mighty_jungle",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cocoa_beans_1"
+  }
+}

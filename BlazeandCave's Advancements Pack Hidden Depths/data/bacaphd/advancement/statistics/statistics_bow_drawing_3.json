@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Fletcher's Best Customer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fire a Bow 5,000 Times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_bow_drawing_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_bow_drawing_3"
+  }
+}

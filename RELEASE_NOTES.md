@@ -2,20 +2,20 @@
 > advancements have not been played through on a live server. Expect some not to fire, and
 > please open an issue when one doesn't — that feedback is the point of the alpha.
 
-**875 solo advancements for BlazeandCave's Advancements Pack.** Weighted towards the Copper
+**2,372 solo advancements for BlazeandCave's Advancements Pack.** Weighted towards the Copper
 Age content no other pack covers — the 16 coloured Happy Ghast harnesses, 16 bundle colours
 and 15 shelf wood types had no advancements at all. None duplicates any of the advancements
 already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-HiddenDepths-v0.1.0-alpha.7.zip`** below and drop it into
+Download **`BACAP-HiddenDepths-v0.1.0-alpha.8.zip`** below and drop it into
 your world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip            <- required, install first
-  BACAP-HiddenDepths-v0.1.0-alpha.7.zip                        <- this pack (rename freely)
+  BACAP-HiddenDepths-v0.1.0-alpha.8.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard
@@ -25,7 +25,7 @@ chain ending in *Hidden Depths Legend*.
 
 ### What's in it
 
-875 advancements across 15 tabs: Biomes 80, Adventure 78, Animals 77, Nether 75, Mining 73, Building 72, Redstone 71, Potions 68, Enchanting 67, Weaponry 61, Farming 48, Monsters 40, The End 23, Super Challenges 23, Statistics 19. Full list with tiers and XP in
+2,372 advancements across 15 tabs: Animals 197, Nether 194, Adventure 192, Building 192, Biomes 192, Redstone 191, Enchanting 185, Mining 171, Potions 171, Farming 163, Weaponry 159, The End 139, Monsters 131, Statistics 73, Super Challenges 22. Full list with tiers and XP in
 [`ADVANCEMENTS.md`](../blob/main/ADVANCEMENTS.md).
 
 Everything is completable solo — Copper Age collections, spear and nautilus work, movement
@@ -33,7 +33,7 @@ and physics stunts, restriction challenges, and a few deliberately silly ones.
 
 ### Notes
 
-Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. 112 of the 875 use
+Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. 406 of them are tiered statistic ladders of 3-5 rungs each, so progression is linear rather than a wall of one-offs. 1,609 of the 2,372 use
 tick-driven detection for block scans, movement streaks and statistic tracking that
 advancement criteria cannot express; every check is gated on players who do not yet hold
 the advancement, so completed entries stop costing anything. The heaviest is Chunk Miner,

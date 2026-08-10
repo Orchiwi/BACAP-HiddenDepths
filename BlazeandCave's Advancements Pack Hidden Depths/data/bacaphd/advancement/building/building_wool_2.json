@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_carpet"
+    },
+    "title": {
+      "translate": "Woolly Ambitions"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 White Wool"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_wool_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_wool_2"
+  }
+}

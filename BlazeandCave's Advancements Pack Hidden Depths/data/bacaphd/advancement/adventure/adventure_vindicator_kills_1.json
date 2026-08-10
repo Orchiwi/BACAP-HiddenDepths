@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "Splitting Heirs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 50 Vindicators"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/heres_johnny",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_vindicator_kills_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar_cane"
+    },
+    "title": {
+      "translate": "Grain by Grain"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 800 Sugar"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sweet_tooth_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sweet_tooth_2"
+  }
+}

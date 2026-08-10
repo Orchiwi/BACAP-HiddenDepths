@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus_flower"
+    },
+    "title": {
+      "translate": "Pins and Needles"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 4,000 Cactus"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_cactus_farm_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cactus_farm_2"
+  }
+}

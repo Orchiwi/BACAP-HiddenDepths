@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_fence"
+    },
+    "title": {
+      "translate": "Paddocks and Pastures"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 2,500 Oak Fences"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_fences_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_fences_3"
+  }
+}

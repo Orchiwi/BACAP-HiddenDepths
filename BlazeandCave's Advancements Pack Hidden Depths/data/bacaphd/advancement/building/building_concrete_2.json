@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_concrete"
+    },
+    "title": {
+      "translate": "Poured Foundations"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 White Concrete"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_concrete_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_concrete_2"
+  }
+}

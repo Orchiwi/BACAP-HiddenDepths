@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit"
+    },
+    "title": {
+      "translate": "Roasting the Harvest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Smelt 4,096 Popped Chorus Fruit"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_chorus_smelter_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_chorus_smelter_2"
+  }
+}

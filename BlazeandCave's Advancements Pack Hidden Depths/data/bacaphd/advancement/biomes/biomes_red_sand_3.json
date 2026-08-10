@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_red_sandstone"
+    },
+    "title": {
+      "translate": "Bleeding Badlands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 20,000 Red Sand"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_red_sand_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_red_sand_3"
+  }
+}

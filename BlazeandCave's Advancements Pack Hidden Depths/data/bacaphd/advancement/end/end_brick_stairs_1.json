@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_stairs"
+    },
+    "title": {
+      "translate": "One Step Beyond the Void"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 256 End Stone Brick Stairs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/end_bricks",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_stairs_1"
+  }
+}

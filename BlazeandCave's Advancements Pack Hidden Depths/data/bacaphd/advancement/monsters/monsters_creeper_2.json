@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_spawn_egg"
+    },
+    "title": {
+      "translate": "Permanently Defused"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 1,000 Creepers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_creeper_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_creeper_2"
+  }
+}

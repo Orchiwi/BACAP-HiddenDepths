@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp"
+    },
+    "title": {
+      "translate": "Fish for Every Meal"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 6,000 Cooked Cod"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_fish_fry_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_fish_fry_3"
+  }
+}

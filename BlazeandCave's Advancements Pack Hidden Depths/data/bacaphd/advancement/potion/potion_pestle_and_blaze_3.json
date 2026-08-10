@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_spawn_egg"
+    },
+    "title": {
+      "translate": "Ground to a Fine Powder"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 2,000 Blaze Powder"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_pestle_and_blaze_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_pestle_and_blaze_3"
+  }
+}

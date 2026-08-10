@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_spawn_egg"
+    },
+    "title": {
+      "translate": "Pale Garden Pruning"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 300 Creakings"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_creaking_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_creaking_3"
+  }
+}

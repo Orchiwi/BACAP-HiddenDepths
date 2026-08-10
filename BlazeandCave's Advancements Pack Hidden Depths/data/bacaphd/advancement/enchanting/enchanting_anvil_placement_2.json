@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:damaged_anvil"
+    },
+    "title": {
+      "translate": "They Keep Breaking"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 75 Anvils"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_anvil_placement_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_anvil_placement_2"
+  }
+}

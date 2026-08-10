@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Hellish Horticulture"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant 6,000 Nether Wart"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sowing_the_nether_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sowing_the_nether_3"
+  }
+}

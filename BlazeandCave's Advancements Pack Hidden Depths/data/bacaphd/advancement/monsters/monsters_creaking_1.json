@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_clump"
+    },
+    "title": {
+      "translate": "Caught Mid-Step"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 10 Creakings"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_creaking_1"
+  }
+}

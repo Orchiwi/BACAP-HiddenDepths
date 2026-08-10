@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Nothing Swims Down There"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 2,000 Zombie Nautiluses"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_zombie_nautilus_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_zombie_nautilus_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "Bleached Undergrowth"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 6,000 Pale Moss Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_pale_moss_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pale_moss_3"
+  }
+}

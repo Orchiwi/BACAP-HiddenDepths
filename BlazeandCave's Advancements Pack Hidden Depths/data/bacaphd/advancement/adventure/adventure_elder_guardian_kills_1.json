@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "Curse Lifted"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 3 Elder Guardians"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/the_deep_end",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_elder_guardian_kills_1"
+  }
+}

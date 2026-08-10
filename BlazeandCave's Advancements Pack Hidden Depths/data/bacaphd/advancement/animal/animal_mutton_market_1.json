@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mutton"
+    },
+    "title": {
+      "translate": "Lamb to the Slaughter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 200 Sheep"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/wooly",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_mutton_market_1"
+  }
+}

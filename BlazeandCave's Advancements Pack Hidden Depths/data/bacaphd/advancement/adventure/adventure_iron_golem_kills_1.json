@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_nugget"
+    },
+    "title": {
+      "translate": "Ingot Refund"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 25 Iron Golems"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rekt",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_iron_golem_kills_1"
+  }
+}

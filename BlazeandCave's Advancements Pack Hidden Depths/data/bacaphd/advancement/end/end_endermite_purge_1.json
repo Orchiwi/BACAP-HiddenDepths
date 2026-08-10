@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": {
+      "translate": "Pearl Parasite"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 8 Endermites"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/good_luck_getting_this_one",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_endermite_purge_1"
+  }
+}

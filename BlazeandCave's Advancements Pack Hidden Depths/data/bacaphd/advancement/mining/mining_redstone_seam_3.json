@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "Powering the Depths"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,048 Redstone Ore"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_redstone_seam_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_redstone_seam_3"
+  }
+}

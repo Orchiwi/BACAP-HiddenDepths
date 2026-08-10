@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": {
+      "translate": "Pyramid Scheme"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Sandstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_sandstone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_sandstone_2"
+  }
+}

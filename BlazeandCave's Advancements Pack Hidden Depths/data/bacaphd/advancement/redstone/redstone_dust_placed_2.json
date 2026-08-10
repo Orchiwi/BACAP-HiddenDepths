@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_ore"
+    },
+    "title": {
+      "translate": "Dust Devil"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,500 Redstone Dust"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_dust_placed_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_dust_placed_2"
+  }
+}

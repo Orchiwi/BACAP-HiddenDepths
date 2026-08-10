@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Harvest for the Herd"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 8,000 Hay Bales"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_hay_feeder_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_hay_feeder_4"
+  }
+}

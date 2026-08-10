@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_sapling"
+    },
+    "title": {
+      "translate": "Reforestation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant 750 Oak Saplings"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_saplings_planted_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_saplings_planted_2"
+  }
+}

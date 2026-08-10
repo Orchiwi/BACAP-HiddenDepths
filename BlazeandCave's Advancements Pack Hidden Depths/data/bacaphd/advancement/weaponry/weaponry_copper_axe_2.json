@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper"
+    },
+    "title": {
+      "translate": "Tarnished Temper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a Copper Axe 1,000 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_axe_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_axe_2"
+  }
+}

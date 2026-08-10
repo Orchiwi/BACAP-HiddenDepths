@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "translate": "White Veins"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 128 Nether Quartz Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/instant_mining",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_quartz_ore_1"
+  }
+}

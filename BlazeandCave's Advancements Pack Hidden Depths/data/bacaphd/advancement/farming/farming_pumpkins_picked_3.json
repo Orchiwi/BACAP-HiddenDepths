@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jack_o_lantern"
+    },
+    "title": {
+      "translate": "The Great Gourd"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Harvest 10,000 Pumpkins"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_pumpkins_picked_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_pumpkins_picked_3"
+  }
+}

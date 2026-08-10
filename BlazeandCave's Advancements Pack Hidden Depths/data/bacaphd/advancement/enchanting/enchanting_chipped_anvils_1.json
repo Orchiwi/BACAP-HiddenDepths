@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chipped_anvil"
+    },
+    "title": {
+      "translate": "First Crack"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 4 Chipped Anvils"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/baron_of_blacksmiths",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_chipped_anvils_1"
+  }
+}

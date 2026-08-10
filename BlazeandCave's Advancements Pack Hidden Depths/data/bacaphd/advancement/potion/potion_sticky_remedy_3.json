@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Hive Pharmacy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 1,600 Honey Bottles"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sticky_remedy_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sticky_remedy_3"
+  }
+}

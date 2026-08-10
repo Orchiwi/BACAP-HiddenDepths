@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_spawn_egg"
+    },
+    "title": {
+      "translate": "Heartless"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 50 Creaking Hearts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_creaking_hearts_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_creaking_hearts_2"
+  }
+}

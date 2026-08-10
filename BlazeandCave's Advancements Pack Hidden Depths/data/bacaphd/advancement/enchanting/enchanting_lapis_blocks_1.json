@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "translate": "Blue Bricks"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 16 Blocks of Lapis Lazuli"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_blocks_1"
+  }
+}

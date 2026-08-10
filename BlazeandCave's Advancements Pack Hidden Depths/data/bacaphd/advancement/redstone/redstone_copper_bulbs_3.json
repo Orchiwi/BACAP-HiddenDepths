@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_bulb"
+    },
+    "title": {
+      "translate": "Patina Glow"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 480 Copper Bulbs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_copper_bulbs_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_copper_bulbs_3"
+  }
+}

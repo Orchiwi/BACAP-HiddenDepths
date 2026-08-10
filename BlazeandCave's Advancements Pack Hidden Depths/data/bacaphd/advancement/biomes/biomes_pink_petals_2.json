@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_dye"
+    },
+    "title": {
+      "translate": "Pink Carpet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 1,500 Pink Petals"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_pink_petals_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pink_petals_2"
+  }
+}

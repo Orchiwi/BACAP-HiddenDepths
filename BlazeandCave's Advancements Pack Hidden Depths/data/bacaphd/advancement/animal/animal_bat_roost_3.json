@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bat_spawn_egg"
+    },
+    "title": {
+      "translate": "Silence in the Roost"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 2,000 Bats"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_bat_roost_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_bat_roost_3"
+  }
+}

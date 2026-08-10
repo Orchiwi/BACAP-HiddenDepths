@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_deepslate_bricks"
+    },
+    "title": {
+      "translate": "The Deep Keep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Deepslate Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_deepslate_bricks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_bricks_2"
+  }
+}

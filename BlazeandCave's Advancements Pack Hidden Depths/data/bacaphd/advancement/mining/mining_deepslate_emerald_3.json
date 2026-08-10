@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "The Mountain's Ransom"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 128 Deepslate Emerald Ore"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_deepslate_emerald_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_deepslate_emerald_3"
+  }
+}

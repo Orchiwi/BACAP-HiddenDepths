@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_cube_spawn_egg"
+    },
+    "title": {
+      "translate": "Burst the Bubble"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 32 Sulfur Cubes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas_bomb",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_stink_cubes_1"
+  }
+}

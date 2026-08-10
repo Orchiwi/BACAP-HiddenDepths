@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:frogspawn"
+    },
+    "title": {
+      "translate": "Pond Skipper"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 750 Lily Pads"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_lily_pads_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_lily_pads_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper"
+    },
+    "title": {
+      "translate": "Verdigris Veteran"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 3,000 hits with a Copper Sword"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_sword_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_sword_3"
+  }
+}

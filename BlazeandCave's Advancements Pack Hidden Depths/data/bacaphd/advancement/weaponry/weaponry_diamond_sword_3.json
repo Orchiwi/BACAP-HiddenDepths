@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_diamond_ore"
+    },
+    "title": {
+      "translate": "Hardness Ten"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 12,500 hits with a Diamond Sword"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_sword_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_sword_3"
+  }
+}

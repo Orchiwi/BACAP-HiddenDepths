@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence_gate"
+    },
+    "title": {
+      "translate": "Property Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Oak Fences"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_fences_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_fences_2"
+  }
+}

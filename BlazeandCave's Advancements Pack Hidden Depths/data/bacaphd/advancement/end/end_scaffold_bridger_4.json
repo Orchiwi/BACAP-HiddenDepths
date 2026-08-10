@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "A Bamboo Road to Nowhere"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 100,000 Scaffolding"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_scaffold_bridger_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_scaffold_bridger_4"
+  }
+}

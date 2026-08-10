@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:activator_rail"
+    },
+    "title": {
+      "translate": "Total Traffic Control"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 3,200 Detector Rails"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_detector_rails_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_detector_rails_4"
+  }
+}

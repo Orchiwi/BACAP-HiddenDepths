@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_leaves"
+    },
+    "title": {
+      "translate": "Leaf It to Me"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 1,000 Oak Leaves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_leaves_stripped_1"
+  }
+}

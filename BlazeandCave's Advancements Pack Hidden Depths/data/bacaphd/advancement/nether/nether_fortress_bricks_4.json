@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_nether_bricks"
+    },
+    "title": {
+      "translate": "Fortress Salvager"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 12,000 Nether Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_fortress_bricks_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_fortress_bricks_4"
+  }
+}

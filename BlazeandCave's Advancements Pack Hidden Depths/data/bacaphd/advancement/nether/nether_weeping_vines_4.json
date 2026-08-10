@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_hyphae"
+    },
+    "title": {
+      "translate": "Reaping the Red Ropes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,000 Weeping Vines"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_weeping_vines_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_weeping_vines_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enderman_spawn_egg"
+    },
+    "title": {
+      "translate": "Staring Contest Champion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 5,000 Endermen"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_enderman_hunter_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_enderman_hunter_2"
+  }
+}

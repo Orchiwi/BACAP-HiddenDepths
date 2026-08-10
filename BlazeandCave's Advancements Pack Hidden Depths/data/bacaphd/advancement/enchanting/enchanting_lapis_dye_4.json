@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "translate": "The Enchanter Would Weep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 4,096 Blue Dye"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_lapis_dye_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_dye_4"
+  }
+}

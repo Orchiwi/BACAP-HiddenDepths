@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_roots"
+    },
+    "title": {
+      "translate": "Red Timber"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,000 Mangrove Logs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_mangrove_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_mangrove_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold"
+    },
+    "title": {
+      "translate": "Bastion Burglar"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 128 Gilded Blackstone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_gilded_blackstone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_gilded_blackstone_2"
+  }
+}

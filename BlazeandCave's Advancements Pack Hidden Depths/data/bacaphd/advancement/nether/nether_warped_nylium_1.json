@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "Turquoise Turf"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 100 Warped Nylium"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/what_a_fungi",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_nylium_1"
+  }
+}

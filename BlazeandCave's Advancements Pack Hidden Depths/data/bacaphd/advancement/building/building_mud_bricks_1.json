@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate": "Wattle and Daub"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Mud Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/elmer_mudd",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mud_bricks_1"
+  }
+}

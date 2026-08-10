@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Window Shopping"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Glass Panes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_glass_panes_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_glass_panes_2"
+  }
+}

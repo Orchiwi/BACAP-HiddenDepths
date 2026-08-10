@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_brick_wall"
+    },
+    "title": {
+      "translate": "The Long Wall"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 12,000 Cobblestone Walls"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_walls_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_walls_4"
+  }
+}

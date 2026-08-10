@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_door"
+    },
+    "title": {
+      "translate": "Quarantine Enforced"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 2,000 Zombie Villagers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_zombie_villager_kills_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_zombie_villager_kills_3"
+  }
+}

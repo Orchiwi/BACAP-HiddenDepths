@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_stairs"
+    },
+    "title": {
+      "translate": "Escher's Nightmare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 20,000 Oak Stairs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stairs_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stairs_4"
+  }
+}

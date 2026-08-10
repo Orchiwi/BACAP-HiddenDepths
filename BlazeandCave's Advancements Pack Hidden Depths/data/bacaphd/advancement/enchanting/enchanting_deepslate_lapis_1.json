@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_lapis_ore"
+    },
+    "title": {
+      "translate": "Down Where the Blue Is"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 64 Deepslate Lapis Lazuli Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_deepslate_lapis_1"
+  }
+}

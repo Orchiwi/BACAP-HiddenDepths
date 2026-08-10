@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_lichen"
+    },
+    "title": {
+      "translate": "The Glowing Orchard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use 10,000 Glow Berries"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_glow_berries_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_glow_berries_3"
+  }
+}

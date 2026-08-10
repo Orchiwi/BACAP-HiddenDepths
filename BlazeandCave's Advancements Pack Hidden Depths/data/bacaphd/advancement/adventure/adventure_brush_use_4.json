@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:angler_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Dig Never Ends"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use a Brush 10,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_brush_use_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_brush_use_4"
+  }
+}

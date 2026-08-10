@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_plant"
+    },
+    "title": {
+      "translate": "Pruning the Void Garden"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 2,500 Chorus Plant blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_chorus_harvest_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_chorus_harvest_2"
+  }
+}

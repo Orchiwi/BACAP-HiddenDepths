@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "Wringing Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 64 Sponges"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/sponge_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_sponge_haul_1"
+  }
+}

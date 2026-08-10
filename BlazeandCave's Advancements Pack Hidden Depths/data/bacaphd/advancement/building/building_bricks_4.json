@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brick_wall"
+    },
+    "title": {
+      "translate": "The Brickworks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 5,000 Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_bricks_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_bricks_4"
+  }
+}

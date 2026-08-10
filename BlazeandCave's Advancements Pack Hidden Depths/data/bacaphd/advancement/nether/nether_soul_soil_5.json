@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": {
+      "translate": "The Valley Laid Bare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 25,000 Soul Soil"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_soul_soil_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_soul_soil_5"
+  }
+}

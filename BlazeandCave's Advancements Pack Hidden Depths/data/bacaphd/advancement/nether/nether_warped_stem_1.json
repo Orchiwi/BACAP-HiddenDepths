@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_stem"
+    },
+    "title": {
+      "translate": "Teal Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 250 Warped Stems"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/twisted",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_stem_1"
+  }
+}

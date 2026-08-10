@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_dye"
+    },
+    "title": {
+      "translate": "Bluestone Country"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 2,048 Deepslate Lapis Lazuli Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_deepslate_lapis_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_deepslate_lapis_3"
+  }
+}

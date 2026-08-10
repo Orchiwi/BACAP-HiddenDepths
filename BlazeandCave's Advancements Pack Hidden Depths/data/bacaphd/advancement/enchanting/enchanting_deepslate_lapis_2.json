@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Cobalt Vein"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 512 Deepslate Lapis Lazuli Ore"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_deepslate_lapis_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_deepslate_lapis_2"
+  }
+}

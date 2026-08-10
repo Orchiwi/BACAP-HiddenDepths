@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:terracotta"
+    },
+    "title": {
+      "translate": "Fired Earth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Terracotta"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_terracotta_army",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_terracotta_1"
+  }
+}

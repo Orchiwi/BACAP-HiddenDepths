@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_carpet"
+    },
+    "title": {
+      "translate": "Grey Carpet"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 200 Pale Moss Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pale_in_comparison",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pale_moss_1"
+  }
+}

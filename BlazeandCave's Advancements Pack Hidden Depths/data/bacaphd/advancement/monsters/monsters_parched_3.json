@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "Desert Ossuary"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 3,000 Parched"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_parched_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_parched_3"
+  }
+}

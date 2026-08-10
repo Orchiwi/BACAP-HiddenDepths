@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite"
+    },
+    "title": {
+      "translate": "Neolithic Habits"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use a Stone Axe 5,000 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_stone_axe_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_stone_axe_3"
+  }
+}

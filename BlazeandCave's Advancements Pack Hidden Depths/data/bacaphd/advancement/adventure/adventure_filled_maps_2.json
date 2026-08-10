@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Cartography Department"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 256 Filled Maps"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_filled_maps_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_filled_maps_2"
+  }
+}

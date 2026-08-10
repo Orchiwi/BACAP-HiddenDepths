@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "The Sargasso Sea"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 20,000 Kelp"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_kelp_harvest_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_kelp_harvest_3"
+  }
+}

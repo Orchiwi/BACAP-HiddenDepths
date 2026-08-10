@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold_block"
+    },
+    "title": {
+      "translate": "Plundering the Piglin Vaults"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 512 Gilded Blackstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_gilded_blackstone_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_gilded_blackstone_3"
+  }
+}

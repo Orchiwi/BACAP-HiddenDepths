@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_polished_blackstone"
+    },
+    "title": {
+      "translate": "Blackstone Baron"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 20,000 Blackstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_blackstone_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blackstone_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": {
+      "translate": "The Red Reserve"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 1,024 Nether Wart Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_wart_bales_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_wart_bales_3"
+  }
+}

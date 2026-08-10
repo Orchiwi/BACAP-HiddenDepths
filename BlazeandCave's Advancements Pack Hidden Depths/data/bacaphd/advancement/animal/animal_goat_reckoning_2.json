@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mutton"
+    },
+    "title": {
+      "translate": "Peak Predator"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 300 Goats"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_goat_reckoning_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_goat_reckoning_2"
+  }
+}

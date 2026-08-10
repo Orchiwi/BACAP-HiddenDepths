@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_roots"
+    },
+    "title": {
+      "translate": "Crimson Groundskeeper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 600 Crimson Nylium"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_nylium_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_nylium_2"
+  }
+}

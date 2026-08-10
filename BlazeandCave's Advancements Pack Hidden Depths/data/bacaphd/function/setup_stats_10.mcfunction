@@ -1,0 +1,32 @@
+# Statistic objectives, shard 10 of 10. Attested by BACAP or
+# Enhanced Discoveries, or built from an id classified by statsurface.py.
+# Isolated so a rejected criterion costs this shard and nothing else.
+scoreboard objectives add bacaphd_l_statistics_arrow_fletching minecraft.crafted:minecraft.arrow
+scoreboard objectives add bacaphd_l_statistics_chest_building minecraft.crafted:minecraft.chest
+scoreboard objectives add bacaphd_l_statistics_pickaxe_wear minecraft.used:minecraft.diamond_pickaxe
+scoreboard objectives add bacaphd_l_statistics_potato_feasting minecraft.used:minecraft.baked_potato
+scoreboard objectives add bacaphd_l_weaponry_wooden_sword minecraft.used:minecraft.wooden_sword
+scoreboard objectives add bacaphd_l_weaponry_stone_sword minecraft.used:minecraft.stone_sword
+scoreboard objectives add bacaphd_l_weaponry_iron_sword minecraft.used:minecraft.iron_sword
+scoreboard objectives add bacaphd_l_weaponry_diamond_sword minecraft.used:minecraft.diamond_sword
+scoreboard objectives add bacaphd_l_weaponry_netherite_sword minecraft.used:minecraft.netherite_sword
+scoreboard objectives add bacaphd_l_weaponry_iron_axe minecraft.used:minecraft.iron_axe
+scoreboard objectives add bacaphd_l_weaponry_netherite_axe minecraft.used:minecraft.netherite_axe
+scoreboard objectives add bacaphd_l_weaponry_wooden_spear minecraft.used:minecraft.wooden_spear
+scoreboard objectives add bacaphd_l_weaponry_iron_spear minecraft.used:minecraft.iron_spear
+scoreboard objectives add bacaphd_l_weaponry_diamond_spear minecraft.used:minecraft.diamond_spear
+scoreboard objectives add bacaphd_l_weaponry_netherite_spear minecraft.used:minecraft.netherite_spear
+scoreboard objectives add bacaphd_l_weaponry_trident minecraft.used:minecraft.trident
+scoreboard objectives add bacaphd_l_weaponry_fire_charge minecraft.used:minecraft.fire_charge
+scoreboard objectives add bacaphd_l_weaponry_copper_sword minecraft.used:minecraft.copper_sword
+scoreboard objectives add bacaphd_l_weaponry_golden_sword minecraft.used:minecraft.golden_sword
+scoreboard objectives add bacaphd_l_weaponry_wooden_axe minecraft.used:minecraft.wooden_axe
+scoreboard objectives add bacaphd_l_weaponry_stone_axe minecraft.used:minecraft.stone_axe
+scoreboard objectives add bacaphd_l_weaponry_copper_axe minecraft.used:minecraft.copper_axe
+scoreboard objectives add bacaphd_l_weaponry_golden_axe minecraft.used:minecraft.golden_axe
+scoreboard objectives add bacaphd_l_weaponry_diamond_axe minecraft.used:minecraft.diamond_axe
+scoreboard objectives add bacaphd_l_weaponry_copper_spear minecraft.used:minecraft.copper_spear
+scoreboard objectives add bacaphd_l_weaponry_stone_spear minecraft.used:minecraft.stone_spear
+scoreboard objectives add bacaphd_l_weaponry_golden_spear minecraft.used:minecraft.golden_spear
+scoreboard objectives add bacaphd_l_weaponry_shield_crafted minecraft.crafted:minecraft.shield
+scoreboard objectives add bacaphd_l_weaponry_nether_star minecraft.used:minecraft.nether_star

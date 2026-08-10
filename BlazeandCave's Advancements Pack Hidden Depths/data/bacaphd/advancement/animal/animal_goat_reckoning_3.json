@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_spawn_egg"
+    },
+    "title": {
+      "translate": "The Kidding Stops"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 1,500 Goats"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_goat_reckoning_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_goat_reckoning_3"
+  }
+}

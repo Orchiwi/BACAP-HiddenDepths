@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Dark Quarry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 256 Blackstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_descent",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blackstone_1"
+  }
+}

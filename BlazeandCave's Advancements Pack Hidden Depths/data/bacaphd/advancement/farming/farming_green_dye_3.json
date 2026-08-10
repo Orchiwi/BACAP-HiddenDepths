@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_wool"
+    },
+    "title": {
+      "translate": "Everything's Coming Up Green"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Smelt 10,000 Green Dye"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_green_dye_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_green_dye_3"
+  }
+}

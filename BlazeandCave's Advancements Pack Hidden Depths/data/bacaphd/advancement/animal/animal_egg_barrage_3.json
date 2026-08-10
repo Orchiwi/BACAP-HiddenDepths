@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_egg"
+    },
+    "title": {
+      "translate": "The Great Egg Barrage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 6,000 Eggs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_egg_barrage_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_egg_barrage_3"
+  }
+}

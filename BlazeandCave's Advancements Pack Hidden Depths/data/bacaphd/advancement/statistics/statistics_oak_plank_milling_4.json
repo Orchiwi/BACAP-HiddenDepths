@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_wood"
+    },
+    "title": {
+      "translate": "The Lumber Baron"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 75,000 Oak Planks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_oak_plank_milling_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_oak_plank_milling_4"
+  }
+}

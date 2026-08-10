@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate": "Mire Monarch"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 12,000 Bogged"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_bogged_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_bogged_4"
+  }
+}

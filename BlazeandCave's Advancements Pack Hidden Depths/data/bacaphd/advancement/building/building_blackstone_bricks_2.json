@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "Blackened Halls"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,024 Polished Blackstone Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_blackstone_bricks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_blackstone_bricks_2"
+  }
+}

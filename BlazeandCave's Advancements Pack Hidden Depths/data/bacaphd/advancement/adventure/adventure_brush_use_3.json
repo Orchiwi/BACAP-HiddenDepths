@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_gravel"
+    },
+    "title": {
+      "translate": "Sifting the Centuries"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use a Brush 3,000 times"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_brush_use_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_brush_use_3"
+  }
+}

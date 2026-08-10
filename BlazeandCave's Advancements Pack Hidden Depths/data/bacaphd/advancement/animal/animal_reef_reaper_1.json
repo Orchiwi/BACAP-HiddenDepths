@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "Bleaching the Reef"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 100 Tropical Fish"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/grinding_nemo",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_reef_reaper_1"
+  }
+}

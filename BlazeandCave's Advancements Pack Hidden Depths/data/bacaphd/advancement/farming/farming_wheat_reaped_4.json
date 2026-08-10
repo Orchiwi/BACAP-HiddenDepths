@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_hoe"
+    },
+    "title": {
+      "translate": "Lord of the Grain"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Harvest 80,000 Wheat"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_wheat_reaped_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_wheat_reaped_4"
+  }
+}

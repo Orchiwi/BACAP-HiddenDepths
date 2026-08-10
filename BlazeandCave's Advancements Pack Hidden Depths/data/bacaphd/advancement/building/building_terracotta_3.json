@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Layer Cake Cliffs"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 5,000 Terracotta"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_terracotta_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_terracotta_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_planks"
+    },
+    "title": {
+      "translate": "Clear the Taiga"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 10,000 Spruce Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_spruce_taiga_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_spruce_taiga_3"
+  }
+}

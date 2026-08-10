@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone_slab"
+    },
+    "title": {
+      "translate": "Half Measures"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Smooth Stone Slabs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/cut_in_half",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_slabs_1"
+  }
+}

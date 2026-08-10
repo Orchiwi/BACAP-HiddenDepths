@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_redstone_ore"
+    },
+    "title": {
+      "translate": "Spaghetti Junction"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 12,500 Redstone Dust"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_dust_placed_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_dust_placed_3"
+  }
+}

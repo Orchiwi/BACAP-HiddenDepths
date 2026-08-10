@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "The Pick That Never Sleeps"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use a Diamond Pickaxe 150,000 Times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_pickaxe_wear_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_pickaxe_wear_5"
+  }
+}

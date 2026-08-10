@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Healing by the Slice"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 1,000 Glistering Melon Slices"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_gilded_fruit_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_gilded_fruit_3"
+  }
+}
