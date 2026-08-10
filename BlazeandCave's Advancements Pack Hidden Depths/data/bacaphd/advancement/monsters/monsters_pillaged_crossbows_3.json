@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pillager_spawn_egg"
+    },
+    "title": {
+      "translate": "Armory of the Outposts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 100 Crossbows"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_pillaged_crossbows_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_pillaged_crossbows_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Weaving the Ashen Moss"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 8,192 Pale Moss Carpets."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_pale_moss_carpets_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_pale_moss_carpets_3"
+  }
+}

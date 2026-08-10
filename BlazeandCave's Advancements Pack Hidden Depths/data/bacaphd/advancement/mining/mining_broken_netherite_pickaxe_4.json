@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "The Ultimate Attrition"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 150 Netherite Pickaxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_broken_netherite_pickaxe_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_broken_netherite_pickaxe_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_sprouts"
+    },
+    "title": {
+      "translate": "Grazing the Nylium"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 1,500 Nether Sprouts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_nether_sprouts_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_nether_sprouts_mined_2"
+  }
+}

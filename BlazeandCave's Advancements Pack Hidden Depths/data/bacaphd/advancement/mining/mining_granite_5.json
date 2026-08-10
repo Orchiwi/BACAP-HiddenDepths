@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_wall"
+    },
+    "title": {
+      "translate": "Granite for Granted"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 400,000 Granite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_granite_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_granite_5"
+  }
+}

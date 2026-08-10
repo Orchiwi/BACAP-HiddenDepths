@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_concrete"
+    },
+    "title": {
+      "translate": "The Brutalist Turn"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 30,000 Gray Concrete."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_gray_concrete_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_gray_concrete_3"
+  }
+}

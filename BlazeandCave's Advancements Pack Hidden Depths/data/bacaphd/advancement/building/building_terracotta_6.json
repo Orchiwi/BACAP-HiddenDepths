@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_terracotta"
+    },
+    "title": {
+      "translate": "The Badlands Owe Me"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 100,000 Terracotta"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_terracotta_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_terracotta_6"
+  }
+}

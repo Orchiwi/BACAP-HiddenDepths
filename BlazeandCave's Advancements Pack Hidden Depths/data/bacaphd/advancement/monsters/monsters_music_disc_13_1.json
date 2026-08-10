@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_13"
+    },
+    "title": {
+      "translate": "A Creeper Concert"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect 5 Music Disc 13"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/what_a_creep",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_music_disc_13_1"
+  }
+}

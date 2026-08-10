@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_banner_pattern"
+    },
+    "title": {
+      "translate": "Sew Explosive"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 1 Creeper Charge Banner Pattern"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/flying_colors",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_creeper_banner_crafted_1"
+  }
+}

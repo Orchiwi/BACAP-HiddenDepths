@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "Anchors Beyond All Need"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 50 Respawn Anchors"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_respawn_anchor_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_respawn_anchor_mined_2"
+  }
+}

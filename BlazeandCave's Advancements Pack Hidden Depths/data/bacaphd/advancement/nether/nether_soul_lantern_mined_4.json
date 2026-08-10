@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_soil"
+    },
+    "title": {
+      "translate": "Every Lantern Taken Down"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 10,000 Soul Lanterns"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_soul_lantern_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_soul_lantern_mined_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flow_pottery_sherd"
+    },
+    "title": {
+      "translate": "Every Dark Vault Is Mine"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 8,000 Ominous Trial Keys"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_ominous_key_haul_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_ominous_key_haul_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "The Night Vision Larder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect 2,500 Golden Carrots"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_gilded_carrot_haul_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_gilded_carrot_haul_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "Play It Again"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play the Otherside music disc 5 times."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/why_do_i_hear_boss_music",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_otherside_plays_1"
+  }
+}

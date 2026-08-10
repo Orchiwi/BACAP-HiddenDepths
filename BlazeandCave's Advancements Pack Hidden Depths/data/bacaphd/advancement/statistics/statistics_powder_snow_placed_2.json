@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Winter, Poured"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 200 Powder Snow Buckets"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_powder_snow_placed_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_powder_snow_placed_2"
+  }
+}

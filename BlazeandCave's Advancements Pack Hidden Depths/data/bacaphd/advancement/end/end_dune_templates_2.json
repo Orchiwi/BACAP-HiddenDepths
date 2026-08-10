@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "Copy of a Copy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 16 Dune Armour Trim Smithing Templates."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_dune_templates_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_dune_templates_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_quartz_block"
+    },
+    "title": {
+      "translate": "Quartz Palace Salvager"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 10,000 Quartz Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_quartz_block_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_quartz_block_mined_3"
+  }
+}

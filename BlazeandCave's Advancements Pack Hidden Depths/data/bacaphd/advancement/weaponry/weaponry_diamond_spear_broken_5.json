@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": {
+      "translate": "Eight Hundred Broken Points"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 800 Diamond Spears"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_spear_broken_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_spear_broken_5"
+  }
+}

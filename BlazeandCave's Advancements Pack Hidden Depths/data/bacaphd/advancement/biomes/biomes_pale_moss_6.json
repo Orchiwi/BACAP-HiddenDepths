@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_carpet"
+    },
+    "title": {
+      "translate": "Grey Carpet Rolled Up"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 150,000 Pale Moss Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_pale_moss_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pale_moss_6"
+  }
+}

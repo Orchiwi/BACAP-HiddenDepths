@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit"
+    },
+    "title": {
+      "translate": "Stew on It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 64 Rabbit Stew"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/getting_into_a_stew",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_rabbit_stew_pickup_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_log"
+    },
+    "title": {
+      "translate": "Blossom Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 64 Cherry Wood."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pretty_in_pink",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cherry_timber_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "A Blizzard by the Bucket"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,000 Powder Snow Buckets"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_powder_snow_placed_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_powder_snow_placed_3"
+  }
+}

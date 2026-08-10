@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur"
+    },
+    "title": {
+      "translate": "Yellow Veins Forever"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 150,000 Sulfur"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_brimstone_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_brimstone_6"
+  }
+}

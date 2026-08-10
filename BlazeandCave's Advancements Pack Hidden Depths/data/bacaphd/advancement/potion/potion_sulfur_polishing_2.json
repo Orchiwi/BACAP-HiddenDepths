@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_sulfur"
+    },
+    "title": {
+      "translate": "Polished and Pungent"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 5,000 Polished Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_polishing_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_polishing_2"
+  }
+}

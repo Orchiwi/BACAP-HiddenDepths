@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_cube_bucket"
+    },
+    "title": {
+      "translate": "Cube in a Pail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 50 Sulfur Cubes from a Bucket"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_cube_bottling_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Thirty Thousand Little Sprouts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 30,000 Nether Sprouts"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_nether_sprouts_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_nether_sprouts_mined_4"
+  }
+}

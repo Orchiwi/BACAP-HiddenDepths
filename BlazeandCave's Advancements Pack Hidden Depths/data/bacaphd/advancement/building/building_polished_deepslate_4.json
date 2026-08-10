@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_deepslate_wall"
+    },
+    "title": {
+      "translate": "Sheen of the Depths"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 25,000 Polished Deepslate"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_polished_deepslate_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_polished_deepslate_4"
+  }
+}

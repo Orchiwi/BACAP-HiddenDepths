@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_dye"
+    },
+    "title": {
+      "translate": "Dandelion Dominion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 100,000 Dandelions"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_dandelion_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dandelion_3"
+  }
+}

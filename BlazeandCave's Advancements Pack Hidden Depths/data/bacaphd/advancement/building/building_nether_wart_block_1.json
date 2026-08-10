@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Fungal Decor"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 250 Nether Wart Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fake_fortress",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_nether_wart_block_1"
+  }
+}

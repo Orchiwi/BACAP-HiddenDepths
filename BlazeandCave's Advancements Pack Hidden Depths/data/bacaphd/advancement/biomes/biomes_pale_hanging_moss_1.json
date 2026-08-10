@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "Grey Curtains"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Pale Hanging Moss"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/le_creak_cest_chic",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pale_hanging_moss_1"
+  }
+}

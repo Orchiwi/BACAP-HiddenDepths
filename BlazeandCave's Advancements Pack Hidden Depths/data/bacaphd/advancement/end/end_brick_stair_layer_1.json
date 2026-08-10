@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_stairs"
+    },
+    "title": {
+      "translate": "One Step at a Time, Upward"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,000 End Stone Brick Stairs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_stair_layer_1"
+  }
+}

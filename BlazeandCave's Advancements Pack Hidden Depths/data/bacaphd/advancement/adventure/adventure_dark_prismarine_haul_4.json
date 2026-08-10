@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Nothing Dark Remains"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 100,000 Dark Prismarine"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_dark_prismarine_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_dark_prismarine_haul_4"
+  }
+}

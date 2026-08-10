@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_spike"
+    },
+    "title": {
+      "translate": "Snapping the Spires"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 500 Sulfur Spikes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_spikes_1"
+  }
+}

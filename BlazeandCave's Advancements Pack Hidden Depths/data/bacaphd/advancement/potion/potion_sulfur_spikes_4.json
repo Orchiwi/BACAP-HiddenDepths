@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_spike"
+    },
+    "title": {
+      "translate": "The Spikes Are All Mine"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 40,000 Sulfur Spikes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_spikes_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_spikes_4"
+  }
+}

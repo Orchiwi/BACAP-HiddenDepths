@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_pane"
+    },
+    "title": {
+      "translate": "Cathedral of Amber Light"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 30,000 Orange Stained Glass Panes."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_orange_glass_panes_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_orange_glass_panes_4"
+  }
+}

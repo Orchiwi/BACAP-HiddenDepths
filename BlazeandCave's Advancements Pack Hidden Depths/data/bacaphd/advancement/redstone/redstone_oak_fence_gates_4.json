@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence_gate"
+    },
+    "title": {
+      "translate": "The Swinging Frontier"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 16,000 Oak Fence Gates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_oak_fence_gates_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_oak_fence_gates_4"
+  }
+}

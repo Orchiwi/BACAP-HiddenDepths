@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Three Hundred Ruined Breastplates"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 300 Netherite Chestplates"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_netherite_chestplate_breaking_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_netherite_chestplate_breaking_4"
+  }
+}

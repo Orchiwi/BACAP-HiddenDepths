@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_concrete"
+    },
+    "title": {
+      "translate": "The Grey Modernists"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 60,000 White Concrete"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_concrete_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_concrete_6"
+  }
+}

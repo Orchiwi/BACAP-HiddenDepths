@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_concrete"
+    },
+    "title": {
+      "translate": "Wealth Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 300,000 Blocks of Emerald"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_emerald_blocks_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_emerald_blocks_7"
+  }
+}

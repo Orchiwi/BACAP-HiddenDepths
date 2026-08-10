@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
+    },
+    "title": {
+      "translate": "Soft Metal, Hard Work"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wear out 4 Golden Shovels"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shovel_knight",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_golden_shovel_broken_1"
+  }
+}

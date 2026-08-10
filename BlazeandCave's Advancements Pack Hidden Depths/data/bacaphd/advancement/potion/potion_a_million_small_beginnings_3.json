@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Seeds Beyond Counting"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 200,000 Wheat Seeds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_a_million_small_beginnings_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_a_million_small_beginnings_3"
+  }
+}

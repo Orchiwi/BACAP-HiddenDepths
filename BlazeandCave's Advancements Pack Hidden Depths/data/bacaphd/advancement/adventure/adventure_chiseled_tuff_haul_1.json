@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff_bricks"
+    },
+    "title": {
+      "translate": "Prying Off the Ornament"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 256 Chiseled Tuff Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/this_will_be_a_breeze",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_chiseled_tuff_haul_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_planks"
+    },
+    "title": {
+      "translate": "Planks of the Damned"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 10,000 Crimson Planks."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_planks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_planks_2"
+  }
+}

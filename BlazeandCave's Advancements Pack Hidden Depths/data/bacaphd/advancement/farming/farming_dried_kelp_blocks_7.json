@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "The Ocean, Compressed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 125,000 Dried Kelp Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_dried_kelp_blocks_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_dried_kelp_blocks_7"
+  }
+}

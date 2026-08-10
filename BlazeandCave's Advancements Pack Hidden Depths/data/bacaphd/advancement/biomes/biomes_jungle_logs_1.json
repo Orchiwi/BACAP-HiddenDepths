@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "Vine-Choked Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 2,000 Jungle Logs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_mighty_jungle",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_jungle_logs_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_banner_pattern"
+    },
+    "title": {
+      "translate": "Snout on Cloth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drop 2 Piglin Banner Patterns"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/superhero_of_the_village",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_piglin_patterns_1"
+  }
+}

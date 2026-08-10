@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate_stairs"
+    },
+    "title": {
+      "translate": "Broken From Below"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 4,000 Cobbled Deepslate"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cobbled_deepslate_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cobbled_deepslate_2"
+  }
+}

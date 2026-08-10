@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_deepslate_tiles"
+    },
+    "title": {
+      "translate": "The Tilewright of the Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 75,000 Deepslate Tiles"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_deepslate_tiles_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_tiles_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dune_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "The Template Foundry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 256 Dune Armour Trim Smithing Templates."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_dune_templates_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_dune_templates_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "The Tide Brought Too Many"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drop 1,200 Nautilus Shells"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_nautilus_shell_discard_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_nautilus_shell_discard_4"
+  }
+}

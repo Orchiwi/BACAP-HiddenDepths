@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "The Anchor Foundry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 800 Respawn Anchors"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_respawn_anchor_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_respawn_anchor_mined_4"
+  }
+}

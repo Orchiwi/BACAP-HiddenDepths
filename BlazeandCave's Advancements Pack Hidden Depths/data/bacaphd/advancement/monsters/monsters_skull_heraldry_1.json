@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern"
+    },
+    "title": {
+      "translate": "Sigil of the Skull"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 1 Skull Banner Pattern"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spooky_skulls",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_skull_heraldry_1"
+  }
+}

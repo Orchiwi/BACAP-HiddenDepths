@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_creator_music_box"
+    },
+    "title": {
+      "translate": "Wind the Music Box"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Play the Creator (Music Box) disc 25 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/music_to_my_ears",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_music_box_plays_1"
+  }
+}

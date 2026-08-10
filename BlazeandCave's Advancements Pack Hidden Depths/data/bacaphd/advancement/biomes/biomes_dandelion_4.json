@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_dandelion"
+    },
+    "title": {
+      "translate": "Not a Wish Left to Make"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 400,000 Dandelions"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_dandelion_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dandelion_4"
+  }
+}

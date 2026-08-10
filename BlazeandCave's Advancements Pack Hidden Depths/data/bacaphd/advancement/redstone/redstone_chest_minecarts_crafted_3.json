@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "The Container Yard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 1,024 Minecarts with Chest"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_chest_minecarts_crafted_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_chest_minecarts_crafted_3"
+  }
+}

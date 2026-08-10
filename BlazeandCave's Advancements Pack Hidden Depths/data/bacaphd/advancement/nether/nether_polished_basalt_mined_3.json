@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "Basalt Columns for Days"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 12,500 Polished Basalt"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_polished_basalt_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_polished_basalt_mined_3"
+  }
+}

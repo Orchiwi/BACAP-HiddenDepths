@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_carpet"
+    },
+    "title": {
+      "translate": "Nothing Hangs in the Pale Garden"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 200,000 Pale Hanging Moss"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_pale_hanging_moss_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_pale_hanging_moss_4"
+  }
+}

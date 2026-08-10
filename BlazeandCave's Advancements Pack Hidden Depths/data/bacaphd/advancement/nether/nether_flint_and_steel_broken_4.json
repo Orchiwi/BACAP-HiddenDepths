@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Five Hundred Spent Igniters"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear out 500 Flint and Steel"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_flint_and_steel_broken_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_flint_and_steel_broken_4"
+  }
+}

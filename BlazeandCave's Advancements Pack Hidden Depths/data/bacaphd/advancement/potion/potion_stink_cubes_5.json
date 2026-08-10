@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur"
+    },
+    "title": {
+      "translate": "Clearing the Fumes"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 10,000 Sulfur Cubes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_stink_cubes_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_stink_cubes_5"
+  }
+}

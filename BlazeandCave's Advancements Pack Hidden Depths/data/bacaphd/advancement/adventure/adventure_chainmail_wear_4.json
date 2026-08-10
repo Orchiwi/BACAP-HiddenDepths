@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
+    },
+    "title": {
+      "translate": "Retro Fashion Victim"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break 400 Chainmail Chestplates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_chainmail_wear_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_chainmail_wear_4"
+  }
+}

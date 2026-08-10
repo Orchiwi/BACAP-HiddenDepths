@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_bricks"
+    },
+    "title": {
+      "translate": "Bricks of the Nether"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 256 Quartz Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/quartz_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_quartz_bricks_1"
+  }
+}

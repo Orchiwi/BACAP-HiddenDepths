@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:frogspawn"
+    },
+    "title": {
+      "translate": "No Tadpoles Today"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 100 Frogspawn"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/welcome_to_neverland",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_frogspawn_1"
+  }
+}

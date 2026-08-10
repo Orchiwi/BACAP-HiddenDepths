@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper"
+    },
+    "title": {
+      "translate": "Slate and Speckle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,024 Deepslate Copper Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_deepslate_copper_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_deepslate_copper_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "Logging the Rainforest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 20,000 Jungle Logs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_jungle_logs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_jungle_logs_2"
+  }
+}

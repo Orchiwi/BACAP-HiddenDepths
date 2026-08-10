@@ -420,6 +420,17 @@ function bacaphd:setup_stats_07
 function bacaphd:setup_stats_08
 function bacaphd:setup_stats_09
 function bacaphd:setup_stats_10
+function bacaphd:setup_stats_11
+function bacaphd:setup_stats_12
+function bacaphd:setup_stats_13
+function bacaphd:setup_stats_14
+function bacaphd:setup_stats_15
+function bacaphd:setup_stats_16
+function bacaphd:setup_stats_17
+function bacaphd:setup_stats_18
+function bacaphd:setup_stats_19
+function bacaphd:setup_stats_20
+function bacaphd:setup_stats_21
 function bacaphd:setup_stats_unverified
 
 # Constant used to take absolute values in the Ominous Marathon distance checks

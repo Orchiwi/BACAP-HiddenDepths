@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shaper_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Shaped by Hand"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 8 Shaper Armor Trim Smithing Templates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raiders_of_the_lost_trim",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_shaper_trims_1"
+  }
+}

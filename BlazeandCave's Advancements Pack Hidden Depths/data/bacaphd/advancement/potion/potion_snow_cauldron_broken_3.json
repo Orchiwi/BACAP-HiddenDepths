@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "The Freezing Store"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break 800 Powder Snow Cauldrons"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_snow_cauldron_broken_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_snow_cauldron_broken_3"
+  }
+}

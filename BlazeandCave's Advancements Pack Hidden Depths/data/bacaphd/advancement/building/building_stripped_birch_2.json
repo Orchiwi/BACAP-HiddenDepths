@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_birch_log"
+    },
+    "title": {
+      "translate": "Bare Beams"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,200 Stripped Birch Wood."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stripped_birch_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stripped_birch_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_slab"
+    },
+    "title": {
+      "translate": "Orange Grain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 5,000 Acacia Planks."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_acacia_planks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_acacia_planks_2"
+  }
+}

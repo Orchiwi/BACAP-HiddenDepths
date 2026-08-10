@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_leaves"
+    },
+    "title": {
+      "translate": "The Umbrella Tree Reserve"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 8,192 Acacia Saplings."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_acacia_saplings_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_acacia_saplings_3"
+  }
+}

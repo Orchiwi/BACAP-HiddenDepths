@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "The Copy Room"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 32 Raiser Armour Trim Smithing Templates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_raiser_trim_crafted_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_raiser_trim_crafted_3"
+  }
+}

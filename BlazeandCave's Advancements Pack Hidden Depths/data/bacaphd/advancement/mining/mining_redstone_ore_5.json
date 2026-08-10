@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:repeater"
+    },
+    "title": {
+      "translate": "An Ocean of Red Dust"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 65,536 Deepslate Redstone Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_redstone_ore_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_redstone_ore_5"
+  }
+}

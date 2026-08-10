@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sandstone_slab"
+    },
+    "title": {
+      "translate": "Red Sandstone Sovereign"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 40,000 Red Sandstone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_red_sandstone_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_red_sandstone_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Quartermaster of the Cavalry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drop 192 Iron Horse Armor"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_iron_horse_armor_dropped_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_iron_horse_armor_dropped_4"
+  }
+}

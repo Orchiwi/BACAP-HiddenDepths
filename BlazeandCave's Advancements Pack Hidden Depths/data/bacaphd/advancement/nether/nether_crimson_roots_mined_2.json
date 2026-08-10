@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_roots"
+    },
+    "title": {
+      "translate": "Roots by the Armful"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,500 Crimson Roots"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_roots_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_roots_mined_2"
+  }
+}

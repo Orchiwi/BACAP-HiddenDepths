@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "The Vault Overflows"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop 16 Blocks of Netherite"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_netherite_block_discard_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_netherite_block_discard_3"
+  }
+}

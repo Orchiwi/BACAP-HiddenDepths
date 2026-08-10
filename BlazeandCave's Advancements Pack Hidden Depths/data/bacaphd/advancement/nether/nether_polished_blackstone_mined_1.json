@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "Smoothing the Ash"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Polished Blackstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_polished_blackstone_mined_1"
+  }
+}

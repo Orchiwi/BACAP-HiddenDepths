@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_wall"
+    },
+    "title": {
+      "translate": "Marking the Edge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 500 End Stone Brick Walls"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/no_dont_let_me_leave_murph",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_wall_layer_1"
+  }
+}

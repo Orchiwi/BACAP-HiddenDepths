@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": {
+      "translate": "A Sensitive World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 100,000 Oak Pressure Plates"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_wooden_plates_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_plates_5"
+  }
+}

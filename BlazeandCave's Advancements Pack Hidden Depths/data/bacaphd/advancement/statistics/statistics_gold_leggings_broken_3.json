@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "The Cost of Looking Rich"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break 100 Golden Leggings"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_gold_leggings_broken_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_gold_leggings_broken_3"
+  }
+}

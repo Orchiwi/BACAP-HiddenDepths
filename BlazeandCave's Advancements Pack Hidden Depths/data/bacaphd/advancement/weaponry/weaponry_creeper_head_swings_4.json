@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_banner"
+    },
+    "title": {
+      "translate": "Trophy Turned Truncheon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use 4,000 Creeper Heads"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_creeper_head_swings_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_creeper_head_swings_4"
+  }
+}

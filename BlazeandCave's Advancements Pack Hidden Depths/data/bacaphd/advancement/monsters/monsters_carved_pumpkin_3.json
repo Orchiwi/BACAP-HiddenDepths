@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "Pumpkin Patch Panopticon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 2,500 Carved Pumpkins"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_carved_pumpkin_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_carved_pumpkin_3"
+  }
+}

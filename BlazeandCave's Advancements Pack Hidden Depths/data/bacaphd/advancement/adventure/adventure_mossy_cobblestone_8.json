@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "Every Stone Scrubbed Clean"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 800,000 Mossy Cobblestone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_mossy_cobblestone_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_mossy_cobblestone_8"
+  }
+}

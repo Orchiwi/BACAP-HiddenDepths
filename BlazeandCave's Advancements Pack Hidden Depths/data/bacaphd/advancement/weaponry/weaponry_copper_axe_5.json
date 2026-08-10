@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_axe"
+    },
+    "title": {
+      "translate": "Corrosion Doesn't Care"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use a Copper Axe 50,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_axe_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_axe_5"
+  }
+}

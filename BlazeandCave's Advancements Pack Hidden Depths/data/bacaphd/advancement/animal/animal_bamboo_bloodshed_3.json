@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:panda_spawn_egg"
+    },
+    "title": {
+      "translate": "No More Rolling Giants"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 750 Pandas"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_bamboo_bloodshed_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_bamboo_bloodshed_3"
+  }
+}

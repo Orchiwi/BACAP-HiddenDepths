@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": {
+      "translate": "Lance of Cold Light"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 45,000 hits with a Diamond Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_diamond_spear_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_diamond_spear_4"
+  }
+}

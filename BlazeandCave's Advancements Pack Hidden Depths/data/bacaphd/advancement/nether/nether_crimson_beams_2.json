@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stem"
+    },
+    "title": {
+      "translate": "Bloodwood Builder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 10,000 Crimson Stems."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_beams_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_beams_2"
+  }
+}

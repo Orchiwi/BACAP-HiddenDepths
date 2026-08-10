@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_spawn_egg"
+    },
+    "title": {
+      "translate": "The Meadow Stops Hopping"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 90,000 Rabbits"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_hasenpfeffer_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_hasenpfeffer_6"
+  }
+}

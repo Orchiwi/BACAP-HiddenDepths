@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay"
+    },
+    "title": {
+      "translate": "The Riverbed Robbed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 4,000 Clay Balls"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_clay_ball_hoard_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_clay_ball_hoard_2"
+  }
+}

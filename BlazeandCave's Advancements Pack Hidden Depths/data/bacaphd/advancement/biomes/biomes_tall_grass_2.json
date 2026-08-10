@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_grass"
+    },
+    "title": {
+      "translate": "Scythe of the Plains"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 20,000 Tall Grass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_tall_grass_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_tall_grass_2"
+  }
+}

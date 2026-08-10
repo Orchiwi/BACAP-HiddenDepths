@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_leaves"
+    },
+    "title": {
+      "translate": "Pale Bark, Pale Leaves"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 1,000 Birch Leaves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_birch_leaves_1"
+  }
+}

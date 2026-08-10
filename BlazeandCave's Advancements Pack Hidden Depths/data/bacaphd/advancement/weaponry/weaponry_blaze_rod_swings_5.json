@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "The Blaze Regrets Everything"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 60,000 hits with a Blaze Rod"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_blaze_rod_swings_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_blaze_rod_swings_5"
+  }
+}

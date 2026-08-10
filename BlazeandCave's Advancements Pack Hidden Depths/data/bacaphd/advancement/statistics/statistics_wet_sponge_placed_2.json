@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "The Monument Emptied"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 100 Wet Sponges"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_wet_sponge_placed_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_wet_sponge_placed_2"
+  }
+}

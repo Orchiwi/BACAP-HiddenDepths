@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass"
+    },
+    "title": {
+      "translate": "Windows the Colour of the Cities"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 Purple Stained Glass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_violet_glass_layer_1"
+  }
+}

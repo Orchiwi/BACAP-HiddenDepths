@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_door"
+    },
+    "title": {
+      "translate": "A Doorway for Every Room"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 5,000 Copper Doors."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_copper_doors_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_copper_doors_4"
+  }
+}

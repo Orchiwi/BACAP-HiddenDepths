@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "The Lamplighter's Round"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,500 Oxidized Copper Lanterns."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_copper_lanterns_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_copper_lanterns_3"
+  }
+}

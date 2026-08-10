@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_sapling"
+    },
+    "title": {
+      "translate": "Canopy Without Horizon"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant 400,000 Oak Saplings"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_saplings_planted_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_saplings_planted_7"
+  }
+}

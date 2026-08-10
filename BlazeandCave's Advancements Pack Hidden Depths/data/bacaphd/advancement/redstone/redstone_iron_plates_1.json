@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "A Heavy Signal"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Heavy Weighted Pressure Plates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/metal_plate",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_iron_plates_1"
+  }
+}

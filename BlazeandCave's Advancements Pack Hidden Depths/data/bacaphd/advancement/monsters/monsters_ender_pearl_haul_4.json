@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enderman_spawn_egg"
+    },
+    "title": {
+      "translate": "The Void Pays Its Debts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 40,000 Ender Pearls"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_ender_pearl_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_ender_pearl_haul_4"
+  }
+}

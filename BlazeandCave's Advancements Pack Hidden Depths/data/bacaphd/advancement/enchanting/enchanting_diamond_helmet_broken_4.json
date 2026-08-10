@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "translate": "The Helmet Graveyard"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear out 160 Diamond Helmets until they break"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_diamond_helmet_broken_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_diamond_helmet_broken_4"
+  }
+}

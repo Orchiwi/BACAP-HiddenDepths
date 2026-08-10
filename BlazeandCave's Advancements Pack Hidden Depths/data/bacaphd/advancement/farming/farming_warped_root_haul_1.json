@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_roots"
+    },
+    "title": {
+      "translate": "Teal Tendrils"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 256 Warped Roots."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/shrooms",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_warped_root_haul_1"
+  }
+}

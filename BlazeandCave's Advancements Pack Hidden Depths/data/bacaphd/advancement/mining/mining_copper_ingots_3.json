@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "Ingots Turning Green"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Obtain 32,768 Copper Ingots from crafting and smelting"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_copper_ingots_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_copper_ingots_3"
+  }
+}

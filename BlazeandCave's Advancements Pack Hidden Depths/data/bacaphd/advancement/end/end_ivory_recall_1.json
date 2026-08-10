@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_shulker_box"
+    },
+    "title": {
+      "translate": "Packing Up the White"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 500 White Shulker Boxes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/somewhere_over_the_rainbow",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_ivory_recall_1"
+  }
+}

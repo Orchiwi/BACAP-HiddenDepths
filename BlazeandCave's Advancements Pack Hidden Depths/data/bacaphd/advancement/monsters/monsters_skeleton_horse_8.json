@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "The Storm Rides Alone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 2,500 Skeleton Horses"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_skeleton_horse_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_skeleton_horse_8"
+  }
+}

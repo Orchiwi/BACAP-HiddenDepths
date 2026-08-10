@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_stairs"
+    },
+    "title": {
+      "translate": "End City Envy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 4,000 Purpur Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_purpur_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_purpur_3"
+  }
+}

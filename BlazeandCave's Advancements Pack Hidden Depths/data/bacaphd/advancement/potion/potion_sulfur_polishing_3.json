@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_stairs"
+    },
+    "title": {
+      "translate": "The Gleaming Yellow Halls"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 20,000 Polished Sulfur"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_polishing_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_polishing_3"
+  }
+}

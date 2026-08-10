@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_brick_stairs"
+    },
+    "title": {
+      "translate": "Mudbrick Millennia"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 500,000 Mud Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_mud_bricks_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mud_bricks_8"
+  }
+}

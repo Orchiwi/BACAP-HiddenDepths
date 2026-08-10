@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azalea"
+    },
+    "title": {
+      "translate": "Vine Trimmer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 8,192 Cave Vines"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_cave_vines_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_cave_vines_3"
+  }
+}

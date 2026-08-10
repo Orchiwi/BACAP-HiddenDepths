@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_sapling"
+    },
+    "title": {
+      "translate": "Barbering the Birch Grove"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 8,000 Birch Leaves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_birch_leaves_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_birch_leaves_2"
+  }
+}

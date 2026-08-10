@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
+    },
+    "title": {
+      "translate": "Kindling and Regret"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear out 250 Wooden Shovels"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_broken_wooden_shovel_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_broken_wooden_shovel_3"
+  }
+}

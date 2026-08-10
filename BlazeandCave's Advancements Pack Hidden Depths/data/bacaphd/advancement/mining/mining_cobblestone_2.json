@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_stairs"
+    },
+    "title": {
+      "translate": "Second Time Around"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 5,000 Cobblestone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_cobblestone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_cobblestone_2"
+  }
+}

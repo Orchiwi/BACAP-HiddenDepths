@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate_slab"
+    },
+    "title": {
+      "translate": "The Rubble of the Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 12,000 Cobbled Deepslate"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cobbled_deepslate_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cobbled_deepslate_3"
+  }
+}

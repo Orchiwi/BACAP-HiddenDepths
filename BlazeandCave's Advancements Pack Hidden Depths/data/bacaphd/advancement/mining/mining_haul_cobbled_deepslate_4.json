@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_deepslate"
+    },
+    "title": {
+      "translate": "A Million Shards of Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 1,000,000 Cobbled Deepslate"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_haul_cobbled_deepslate_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_haul_cobbled_deepslate_4"
+  }
+}

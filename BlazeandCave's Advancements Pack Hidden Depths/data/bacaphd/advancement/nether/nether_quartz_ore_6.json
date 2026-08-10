@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "translate": "The Quartz Cartel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 32,768 Nether Quartz Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_quartz_ore_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_quartz_ore_6"
+  }
+}

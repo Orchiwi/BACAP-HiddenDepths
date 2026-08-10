@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Half a Fortress"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 131,072 Nether Brick Slabs."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_brick_slabs_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_brick_slabs_4"
+  }
+}

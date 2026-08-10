@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "A Hoard of Half-Dead Anvils"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 400 Damaged Anvils"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_damaged_anvil_gathered_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_damaged_anvil_gathered_4"
+  }
+}

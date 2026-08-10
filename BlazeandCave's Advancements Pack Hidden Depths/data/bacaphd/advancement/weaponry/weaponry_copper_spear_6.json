@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper"
+    },
+    "title": {
+      "translate": "Salt Air and Slaughter"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 85,000 hits with a Copper Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_spear_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_spear_6"
+  }
+}

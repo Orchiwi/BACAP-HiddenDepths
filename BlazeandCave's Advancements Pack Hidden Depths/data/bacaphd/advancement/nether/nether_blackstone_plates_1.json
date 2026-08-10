@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_pressure_plate"
+    },
+    "title": {
+      "translate": "Bastion Trip Hazard"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 256 Polished Blackstone Pressure Plates."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blackstone_plates_1"
+  }
+}

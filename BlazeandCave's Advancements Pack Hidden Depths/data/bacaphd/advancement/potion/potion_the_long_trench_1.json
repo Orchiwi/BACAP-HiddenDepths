@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
+    },
+    "title": {
+      "translate": "The Gentleman's Spade"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a Diamond Shovel 5,000 times"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/super_strength",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_the_long_trench_1"
+  }
+}

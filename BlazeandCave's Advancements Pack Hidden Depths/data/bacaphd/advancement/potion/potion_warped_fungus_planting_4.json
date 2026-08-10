@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "An Ocean of Warped Timber"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant 16,000 Warped Fungi"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_warped_fungus_planting_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_warped_fungus_planting_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Baled to the Ceiling"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 10,000 Nether Wart Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_wart_bales_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_wart_bales_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "Polished and Plundered"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,500 Polished Blackstone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_polished_blackstone_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_polished_blackstone_mined_2"
+  }
+}

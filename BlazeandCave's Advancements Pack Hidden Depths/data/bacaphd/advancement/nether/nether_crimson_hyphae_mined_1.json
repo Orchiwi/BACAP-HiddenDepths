@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_hyphae"
+    },
+    "title": {
+      "translate": "Bark of the Bloodwood"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Crimson Hyphae"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stem_research",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_hyphae_mined_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": {
+      "translate": "Wooden Triggers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,048 Oak Pressure Plates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_wooden_plates_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_plates_2"
+  }
+}

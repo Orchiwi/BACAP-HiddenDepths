@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dripstone_block"
+    },
+    "title": {
+      "translate": "Cave Quarrier"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 2,000 Dripstone Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dripstone_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_block"
+    },
+    "title": {
+      "translate": "The Bamboo Pagoda"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 4,096 Bamboo Stairs."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_bamboo_carpentry_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_bamboo_carpentry_3"
+  }
+}

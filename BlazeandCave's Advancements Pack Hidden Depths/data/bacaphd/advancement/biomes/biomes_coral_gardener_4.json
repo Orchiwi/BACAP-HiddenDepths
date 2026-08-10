@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brain_coral_block"
+    },
+    "title": {
+      "translate": "A Reef of Your Own Making"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 4,096 Brain Coral Blocks."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_coral_gardener_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_coral_gardener_4"
+  }
+}

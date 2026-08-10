@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_emerald_ore"
+    },
+    "title": {
+      "translate": "The Emerald Recession"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,048 Blocks of Emerald"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_the_emerald_recession_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_the_emerald_recession_3"
+  }
+}

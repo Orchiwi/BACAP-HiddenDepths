@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_grass"
+    },
+    "title": {
+      "translate": "Waist Deep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 2,000 Tall Grass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_tall_grass_1"
+  }
+}

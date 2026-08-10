@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sulfur"
+    },
+    "title": {
+      "translate": "Patterned in Yellow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 2,500 Chiseled Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_chiseling_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_chiseling_2"
+  }
+}

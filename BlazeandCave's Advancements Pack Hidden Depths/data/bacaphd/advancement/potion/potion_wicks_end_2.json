@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_candle"
+    },
+    "title": {
+      "translate": "Wick's End"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 800 White Candles"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_wicks_end_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_wicks_end_2"
+  }
+}

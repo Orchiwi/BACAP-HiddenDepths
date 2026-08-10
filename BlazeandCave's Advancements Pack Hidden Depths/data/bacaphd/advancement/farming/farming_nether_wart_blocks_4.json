@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "A Continent of Wart"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 200,000 Nether Wart Blocks."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_nether_wart_blocks_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_nether_wart_blocks_4"
+  }
+}

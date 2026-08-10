@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_sandstone"
+    },
+    "title": {
+      "translate": "Sanded Smooth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 500 Smooth Sandstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/built_on_sand_set_in_stone",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_smooth_sandstone_1"
+  }
+}

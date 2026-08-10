@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Frequency Thief"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 200 Calibrated Sculk Sensors"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_calibrated_sculk_sensor_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_calibrated_sculk_sensor_3"
+  }
+}

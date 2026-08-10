@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_lapis_ore"
+    },
+    "title": {
+      "translate": "Silk in the Deep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 128 Deepslate Lapis Lazuli Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/pick_like_silk",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_deep_lapis_haul_1"
+  }
+}

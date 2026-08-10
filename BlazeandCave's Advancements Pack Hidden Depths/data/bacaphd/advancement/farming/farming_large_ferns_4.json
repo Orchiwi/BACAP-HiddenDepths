@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_fern"
+    },
+    "title": {
+      "translate": "The Understory Erased"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 250,000 Large Ferns."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_large_ferns_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_large_ferns_4"
+  }
+}

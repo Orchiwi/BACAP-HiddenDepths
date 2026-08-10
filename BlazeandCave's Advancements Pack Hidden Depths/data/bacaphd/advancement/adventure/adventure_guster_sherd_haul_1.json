@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guster_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Face of the Wind"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 16 Guster Pottery Sherds"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/break_wind",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_guster_sherd_haul_1"
+  }
+}

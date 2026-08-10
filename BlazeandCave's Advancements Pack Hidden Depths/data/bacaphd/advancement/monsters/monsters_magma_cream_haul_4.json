@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cube_spawn_egg"
+    },
+    "title": {
+      "translate": "Rendered the Nether Down"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 40,000 Magma Cream"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_magma_cream_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_magma_cream_haul_4"
+  }
+}

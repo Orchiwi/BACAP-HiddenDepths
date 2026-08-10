@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Blocks of Gold, Swallowed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 600 Enchanted Golden Apples"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_taste_of_divinity_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_taste_of_divinity_5"
+  }
+}

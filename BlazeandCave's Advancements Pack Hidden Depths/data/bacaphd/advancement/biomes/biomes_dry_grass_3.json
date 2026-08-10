@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_dry_grass"
+    },
+    "title": {
+      "translate": "Grazing Land Gone"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 50,000 Short Dry Grass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_dry_grass_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dry_grass_3"
+  }
+}

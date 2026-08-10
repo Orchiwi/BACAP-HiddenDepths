@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_granite"
+    },
+    "title": {
+      "translate": "Granite State of Mind"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 4,000 Granite"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_granite_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_granite_2"
+  }
+}

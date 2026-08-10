@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
+    },
+    "title": {
+      "translate": "Fishing for Aqua Affinity"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 1,500 Diamond Helmets"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_diamond_helms_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_diamond_helms_3"
+  }
+}

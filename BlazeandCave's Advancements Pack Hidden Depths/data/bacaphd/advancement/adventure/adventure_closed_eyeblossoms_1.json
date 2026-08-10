@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:closed_eyeblossom"
+    },
+    "title": {
+      "translate": "Shut Eye"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 64 Closed Eyeblossoms"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/slenderman",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_closed_eyeblossoms_1"
+  }
+}

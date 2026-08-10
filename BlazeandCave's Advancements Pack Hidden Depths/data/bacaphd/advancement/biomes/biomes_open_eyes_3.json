@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:closed_eyeblossom"
+    },
+    "title": {
+      "translate": "The Garden Stares Back"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 256 Open Eyeblossoms."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_open_eyes_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_open_eyes_3"
+  }
+}

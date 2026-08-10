@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_dye"
+    },
+    "title": {
+      "translate": "Petals for the Grinder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 4,000 Oxeye Daisies"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_petals_for_the_grinder_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_petals_for_the_grinder_2"
+  }
+}

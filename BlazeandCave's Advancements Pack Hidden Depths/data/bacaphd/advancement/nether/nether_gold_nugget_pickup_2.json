@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "Sifting the Gold Farm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect 25,000 Gold Nuggets"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_gold_nugget_pickup_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_gold_nugget_pickup_2"
+  }
+}

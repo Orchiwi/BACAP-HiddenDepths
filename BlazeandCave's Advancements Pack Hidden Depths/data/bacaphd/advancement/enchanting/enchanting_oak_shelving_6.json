@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_shelf"
+    },
+    "title": {
+      "translate": "Oak Enough for a Fleet"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 6,000 Oak Shelves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_oak_shelving_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_oak_shelving_6"
+  }
+}

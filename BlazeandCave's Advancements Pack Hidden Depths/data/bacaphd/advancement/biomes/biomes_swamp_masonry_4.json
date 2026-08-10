@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "A Swamp Cast in Brick"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 16,384 Packed Mud."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_swamp_masonry_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_swamp_masonry_4"
+  }
+}

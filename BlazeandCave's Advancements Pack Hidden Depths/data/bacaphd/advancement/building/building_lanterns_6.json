@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_lantern"
+    },
+    "title": {
+      "translate": "Festival Without End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 40,000 Lanterns"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_lanterns_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_lanterns_6"
+  }
+}

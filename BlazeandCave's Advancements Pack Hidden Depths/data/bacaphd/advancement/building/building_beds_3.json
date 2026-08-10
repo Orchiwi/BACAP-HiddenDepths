@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_bed"
+    },
+    "title": {
+      "translate": "Beds for an Army"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 512 White Beds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_beds_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_beds_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stem"
+    },
+    "title": {
+      "translate": "Fungal Felling"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 150,000 Red Mushroom Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_mushrooms_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_mushrooms_6"
+  }
+}

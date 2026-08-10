@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_deepslate_stairs"
+    },
+    "title": {
+      "translate": "Dark Mirror Walls"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 Polished Deepslate"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_polished_deepslate_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_polished_deepslate_2"
+  }
+}

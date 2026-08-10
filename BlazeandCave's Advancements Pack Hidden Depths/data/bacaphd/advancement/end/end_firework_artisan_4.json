@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "Pyrotechnic Palette"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 4,096 Firework Stars"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_firework_artisan_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_firework_artisan_4"
+  }
+}

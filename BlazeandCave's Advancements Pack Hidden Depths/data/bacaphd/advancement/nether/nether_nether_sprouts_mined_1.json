@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_sprouts"
+    },
+    "title": {
+      "translate": "Sprouts of the Warped Waste"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 250 Nether Sprouts"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hell_botanist",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_nether_sprouts_mined_1"
+  }
+}

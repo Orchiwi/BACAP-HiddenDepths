@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "Botanist of the Blue Waste"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 7,500 Nether Sprouts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_nether_sprouts_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_nether_sprouts_mined_3"
+  }
+}

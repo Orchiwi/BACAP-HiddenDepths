@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_brick_wall"
+    },
+    "title": {
+      "translate": "Red Bricks Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 20,000 Red Nether Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_red_nether_bricks_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_red_nether_bricks_mined_4"
+  }
+}

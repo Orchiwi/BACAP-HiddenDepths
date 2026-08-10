@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_stairs"
+    },
+    "title": {
+      "translate": "Eighty Thousand Thin Slices"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 80,000 End Stone Brick Slabs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_brick_slab_forge_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_slab_forge_4"
+  }
+}

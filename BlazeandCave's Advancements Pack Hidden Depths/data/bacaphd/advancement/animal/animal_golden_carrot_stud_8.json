@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Breeding for Perfection"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 150,000 Golden Carrots"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_golden_carrot_stud_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_golden_carrot_stud_8"
+  }
+}

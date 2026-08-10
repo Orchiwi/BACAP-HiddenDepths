@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": {
+      "translate": "Everything Sets It Off"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 8,192 Oak Pressure Plates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_wooden_plates_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_plates_3"
+  }
+}

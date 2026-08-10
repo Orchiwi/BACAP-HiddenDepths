@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_brick_wall"
+    },
+    "title": {
+      "translate": "Walls of Rotten Egg"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 20,000 Sulfur Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_bricking_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_bricking_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite_wall"
+    },
+    "title": {
+      "translate": "The Andesite Age"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 120,000 Andesite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_andesite_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_andesite_5"
+  }
+}

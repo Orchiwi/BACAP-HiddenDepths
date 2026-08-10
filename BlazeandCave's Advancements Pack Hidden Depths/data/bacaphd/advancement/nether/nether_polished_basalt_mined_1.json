@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_basalt"
+    },
+    "title": {
+      "translate": "Pillars Cut and Carried"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Polished Basalt"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nether_rock_collection",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_polished_basalt_mined_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_seeds"
+    },
+    "title": {
+      "translate": "Planting for October"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant 250 Pumpkin Seeds"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/pumpa_kungen",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_pumpkin_seeds_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_spawn_egg"
+    },
+    "title": {
+      "translate": "The Unluckiest Rabbits"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 8,000 Rabbit's Feet"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_lucky_feet_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_lucky_feet_4"
+  }
+}

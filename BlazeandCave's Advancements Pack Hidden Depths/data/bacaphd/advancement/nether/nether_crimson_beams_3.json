@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_crimson_stem"
+    },
+    "title": {
+      "translate": "The Crimson Carpenter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 50,000 Crimson Stems."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_beams_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_beams_3"
+  }
+}

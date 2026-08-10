@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_ore"
+    },
+    "title": {
+      "translate": "Silk on the Seam"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 128 Lapis Lazuli Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/pick_like_silk",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_ore_haul_1"
+  }
+}

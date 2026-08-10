@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Moss Is Just Cobblestone Now"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 2,500,000 Mossy Cobblestone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_mossy_cobblestone_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_mossy_cobblestone_9"
+  }
+}

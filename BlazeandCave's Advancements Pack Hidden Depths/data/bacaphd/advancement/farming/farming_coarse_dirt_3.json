@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coarse_dirt"
+    },
+    "title": {
+      "translate": "The Barren Mix"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 8,192 Coarse Dirt."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_coarse_dirt_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_coarse_dirt_3"
+  }
+}

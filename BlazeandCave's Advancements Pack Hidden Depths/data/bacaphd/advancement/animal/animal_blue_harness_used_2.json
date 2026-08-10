@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_harness"
+    },
+    "title": {
+      "translate": "Harness the Sky"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use 32 Blue Harnesses"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_blue_harness_used_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_blue_harness_used_2"
+  }
+}

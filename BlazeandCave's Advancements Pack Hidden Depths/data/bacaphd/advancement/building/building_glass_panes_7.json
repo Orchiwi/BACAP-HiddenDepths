@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Every Wall a Window"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 150,000 Glass Panes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_glass_panes_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_glass_panes_7"
+  }
+}

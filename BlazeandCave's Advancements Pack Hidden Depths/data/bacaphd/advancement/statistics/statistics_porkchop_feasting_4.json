@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "The Pig Herds Fear Me"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 40,000 Cooked Porkchops"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_porkchop_feasting_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_porkchop_feasting_4"
+  }
+}

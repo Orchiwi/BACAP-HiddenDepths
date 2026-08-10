@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_shelf"
+    },
+    "title": {
+      "translate": "The Pinewood Study"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 1,000 Spruce Shelves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_spruce_shelving_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_spruce_shelving_3"
+  }
+}

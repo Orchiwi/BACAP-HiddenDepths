@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_trapdoor"
+    },
+    "title": {
+      "translate": "Trapdoor Logic"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Iron Trapdoors"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_iron_trapdoors_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_iron_trapdoors_2"
+  }
+}

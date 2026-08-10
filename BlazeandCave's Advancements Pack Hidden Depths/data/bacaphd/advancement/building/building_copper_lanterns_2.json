@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_lantern"
+    },
+    "title": {
+      "translate": "Verdigris Lamplight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 256 Oxidized Copper Lanterns."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_copper_lanterns_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_copper_lanterns_2"
+  }
+}

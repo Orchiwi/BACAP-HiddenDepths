@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_spawn_egg"
+    },
+    "title": {
+      "translate": "Five Hundred Silent Mouths"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 512 Zombie Heads"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_zombie_head_break_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_zombie_head_break_4"
+  }
+}

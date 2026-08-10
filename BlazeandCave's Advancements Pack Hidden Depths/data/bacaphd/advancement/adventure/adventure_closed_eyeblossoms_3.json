@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_leaves"
+    },
+    "title": {
+      "translate": "The Garden Sleeps"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 1,024 Closed Eyeblossoms"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_closed_eyeblossoms_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_closed_eyeblossoms_3"
+  }
+}

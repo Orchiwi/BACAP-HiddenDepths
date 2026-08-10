@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_stone_brick_slab"
+    },
+    "title": {
+      "translate": "Abandoned on Purpose"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 4,000 Mossy Stone Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_mossy_stone_bricks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mossy_stone_bricks_3"
+  }
+}

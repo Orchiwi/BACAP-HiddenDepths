@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "Everything Ends in Purple"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 150,000 Purple Concrete"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_in_the_key_of_violet_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_in_the_key_of_violet_4"
+  }
+}

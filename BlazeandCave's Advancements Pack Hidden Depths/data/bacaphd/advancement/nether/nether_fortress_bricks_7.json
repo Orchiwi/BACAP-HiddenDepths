@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_stairs"
+    },
+    "title": {
+      "translate": "The Corridors Are Gone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 200,000 Nether Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_fortress_bricks_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_fortress_bricks_7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "The Warped Ladder Falls"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 12,500 Twisting Vines"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_twisting_vines_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_twisting_vines_mined_3"
+  }
+}

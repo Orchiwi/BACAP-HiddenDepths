@@ -1,0 +1,1 @@
+function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:redstone/redstone_chest_minecarts_crafted_3",reward_id:"redstone/redstone_chest_minecarts_crafted_3",tier:"goal"}

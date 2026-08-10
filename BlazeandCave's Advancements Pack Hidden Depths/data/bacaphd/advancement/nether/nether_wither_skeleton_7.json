@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick"
+    },
+    "title": {
+      "translate": "The Fortress Is a Tomb"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 100,000 Wither Skeletons"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_wither_skeleton_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_wither_skeleton_7"
+  }
+}

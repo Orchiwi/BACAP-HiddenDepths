@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:big_dripleaf"
+    },
+    "title": {
+      "translate": "The Floor Gave Way"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 1,000 Big Dripleaf"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_big_dripleaf_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_big_dripleaf_2"
+  }
+}

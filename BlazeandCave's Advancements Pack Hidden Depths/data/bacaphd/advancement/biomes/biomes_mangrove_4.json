@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_log"
+    },
+    "title": {
+      "translate": "Stilts and Silt"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 25,000 Mangrove Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_mangrove_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_mangrove_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "translate": "Timber, Sort Of"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 4,000 Brown Mushroom Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_mushroom_blocks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_mushroom_blocks_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "A Million Small Beginnings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 1,000,000 Wheat Seeds"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_a_million_small_beginnings_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_a_million_small_beginnings_4"
+  }
+}

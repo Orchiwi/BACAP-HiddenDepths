@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_button"
+    },
+    "title": {
+      "translate": "The Button Farm"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 25,000 Stone Buttons"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_buttons_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_buttons_6"
+  }
+}

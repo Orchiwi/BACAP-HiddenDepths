@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_egg"
+    },
+    "title": {
+      "translate": "Cracked Opening"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 64 Blue Eggs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/egging_dude",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_blue_egg_throws_1"
+  }
+}

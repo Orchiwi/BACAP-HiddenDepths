@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "The Pale Garden Spreads"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 50,000 Pale Moss Carpets."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_pale_moss_carpets_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_pale_moss_carpets_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "A Thousand Placements, One Egg"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 1,024 Dragon Eggs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_dragon_egg_relocator_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_dragon_egg_relocator_4"
+  }
+}

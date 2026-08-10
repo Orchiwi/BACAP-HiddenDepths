@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_slab"
+    },
+    "title": {
+      "translate": "Fortress Half Measures"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 512 Nether Brick Slabs."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_hunt_begins",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_brick_slabs_1"
+  }
+}

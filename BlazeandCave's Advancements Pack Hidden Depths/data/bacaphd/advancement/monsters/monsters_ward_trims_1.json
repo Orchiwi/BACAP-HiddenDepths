@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ward_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Mark of the Ward"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 1 Ward Armor Trim Smithing Template"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/blind_stare",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_ward_trims_1"
+  }
+}

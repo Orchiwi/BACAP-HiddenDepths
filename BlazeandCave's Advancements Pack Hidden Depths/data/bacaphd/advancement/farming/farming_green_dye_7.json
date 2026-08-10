@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_wool"
+    },
+    "title": {
+      "translate": "Emerald Without Emeralds"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Smelt 600,000 Green Dye"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_green_dye_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_green_dye_7"
+  }
+}

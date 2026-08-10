@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_stem"
+    },
+    "title": {
+      "translate": "Hyphae Hoarder of the Warp"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 40,000 Warped Hyphae"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_warped_hyphae_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_hyphae_mined_4"
+  }
+}

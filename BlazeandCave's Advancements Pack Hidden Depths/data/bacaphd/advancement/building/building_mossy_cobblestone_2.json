@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone_stairs"
+    },
+    "title": {
+      "translate": "The Overgrown Keep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 1,000 Mossy Cobblestone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_mossy_cobblestone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mossy_cobblestone_2"
+  }
+}

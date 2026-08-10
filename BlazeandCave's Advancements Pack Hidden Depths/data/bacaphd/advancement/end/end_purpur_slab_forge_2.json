@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "Half-Blocks, Whole Obsession"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 5,000 Purpur Slabs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_purpur_slab_forge_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_purpur_slab_forge_2"
+  }
+}

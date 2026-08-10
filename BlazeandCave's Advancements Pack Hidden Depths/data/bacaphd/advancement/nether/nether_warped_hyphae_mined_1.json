@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_hyphae"
+    },
+    "title": {
+      "translate": "Skin of the Warped Giants"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Warped Hyphae"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stem_research",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_hyphae_mined_1"
+  }
+}

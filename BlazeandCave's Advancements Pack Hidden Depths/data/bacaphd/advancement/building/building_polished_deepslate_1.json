@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_deepslate"
+    },
+    "title": {
+      "translate": "Buffed to a Dark Shine"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 500 Polished Deepslate"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_polish",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_polished_deepslate_1"
+  }
+}

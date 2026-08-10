@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:medium_amethyst_bud"
+    },
+    "title": {
+      "translate": "Budding Interest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 16 Medium Amethyst Buds"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/pick_like_silk",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_amethyst_bud_gathered_1"
+  }
+}

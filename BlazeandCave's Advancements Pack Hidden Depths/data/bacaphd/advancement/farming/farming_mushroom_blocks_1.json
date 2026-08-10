@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom_block"
+    },
+    "title": {
+      "translate": "Fell the Fungus"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 500 Brown Mushroom Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mega_mushroom",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_mushroom_blocks_1"
+  }
+}

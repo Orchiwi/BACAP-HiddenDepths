@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_spawn_egg"
+    },
+    "title": {
+      "translate": "Gardener of Lost Species"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant 2,000 Torchflower Seeds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_torchflower_sowing_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_torchflower_sowing_3"
+  }
+}

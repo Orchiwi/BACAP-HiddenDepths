@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "Connoisseur of Chisel Work"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 20,000 Chiseled Tuff Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_chiseled_tuff_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_chiseled_tuff_haul_4"
+  }
+}

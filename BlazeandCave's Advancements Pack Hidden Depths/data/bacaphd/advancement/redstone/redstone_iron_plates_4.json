@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "The Ferrous Floor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 8,192 Heavy Weighted Pressure Plates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_iron_plates_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_iron_plates_4"
+  }
+}

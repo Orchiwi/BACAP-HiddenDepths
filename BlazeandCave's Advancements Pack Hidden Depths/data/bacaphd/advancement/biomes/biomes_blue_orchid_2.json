@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_orchid"
+    },
+    "title": {
+      "translate": "Beauty in the Bog"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,500 Blue Orchids"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_blue_orchid_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_blue_orchid_2"
+  }
+}

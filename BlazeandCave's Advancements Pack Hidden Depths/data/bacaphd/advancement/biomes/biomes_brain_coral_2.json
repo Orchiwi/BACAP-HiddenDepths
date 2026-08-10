@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brain_coral_block"
+    },
+    "title": {
+      "translate": "Coral Neurosurgeon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 512 Brain Coral Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_brain_coral_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_brain_coral_2"
+  }
+}

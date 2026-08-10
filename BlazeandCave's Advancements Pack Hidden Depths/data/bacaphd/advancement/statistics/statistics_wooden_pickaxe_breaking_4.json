@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "The Wooden Age Eternal"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 3,000 Wooden Pickaxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_wooden_pickaxe_breaking_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_wooden_pickaxe_breaking_4"
+  }
+}

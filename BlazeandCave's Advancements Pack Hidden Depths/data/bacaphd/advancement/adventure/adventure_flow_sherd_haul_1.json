@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flow_pottery_sherd"
+    },
+    "title": {
+      "translate": "A Sherd That Flows"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 16 Flow Pottery Sherds"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/tricky_treasures",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_flow_sherd_haul_1"
+  }
+}

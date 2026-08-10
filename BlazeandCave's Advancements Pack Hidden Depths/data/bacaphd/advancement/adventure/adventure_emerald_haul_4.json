@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_stained_glass"
+    },
+    "title": {
+      "translate": "Merchant Overlord"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 250,000 Emeralds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_emerald_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_emerald_haul_4"
+  }
+}

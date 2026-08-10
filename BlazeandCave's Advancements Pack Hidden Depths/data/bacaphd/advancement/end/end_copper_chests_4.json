@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_oxidized_copper_chest"
+    },
+    "title": {
+      "translate": "Chests Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 512 Oxidized Copper Chests."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_copper_chests_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_copper_chests_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sulfur"
+    },
+    "title": {
+      "translate": "Every Face Engraved"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 40,000 Chiseled Sulfur"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_chiseling_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_chiseling_4"
+  }
+}

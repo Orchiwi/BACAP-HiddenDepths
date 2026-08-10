@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Snout Count Rising"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 6,000 Piglins"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_piglin_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_piglin_4"
+  }
+}

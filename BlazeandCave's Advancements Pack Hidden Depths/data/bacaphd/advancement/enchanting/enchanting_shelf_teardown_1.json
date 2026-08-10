@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_shelf"
+    },
+    "title": {
+      "translate": "Unfitting the Study"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 128 Oak Shelves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_shelf_teardown_1"
+  }
+}

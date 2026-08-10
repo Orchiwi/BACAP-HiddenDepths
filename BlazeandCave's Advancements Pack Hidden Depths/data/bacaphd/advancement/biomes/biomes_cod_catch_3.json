@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_cod"
+    },
+    "title": {
+      "translate": "Cod Almighty"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect 10,000 Cod"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_cod_catch_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_cod_catch_3"
+  }
+}

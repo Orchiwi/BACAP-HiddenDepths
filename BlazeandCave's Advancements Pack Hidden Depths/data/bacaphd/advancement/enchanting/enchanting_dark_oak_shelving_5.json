@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_shelf"
+    },
+    "title": {
+      "translate": "Darkest Library in the World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 8,000 Dark Oak Shelves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_dark_oak_shelving_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_dark_oak_shelving_5"
+  }
+}

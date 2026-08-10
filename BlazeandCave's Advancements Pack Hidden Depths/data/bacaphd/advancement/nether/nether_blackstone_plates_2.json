@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_pressure_plate"
+    },
+    "title": {
+      "translate": "Blackstone Underfoot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 2,048 Polished Blackstone Pressure Plates."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_blackstone_plates_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blackstone_plates_2"
+  }
+}

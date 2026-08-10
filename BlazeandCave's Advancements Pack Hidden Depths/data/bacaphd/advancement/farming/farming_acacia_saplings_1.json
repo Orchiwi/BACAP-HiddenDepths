@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling"
+    },
+    "title": {
+      "translate": "Savanna Nursery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 128 Acacia Saplings."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_acacia_saplings_1"
+  }
+}

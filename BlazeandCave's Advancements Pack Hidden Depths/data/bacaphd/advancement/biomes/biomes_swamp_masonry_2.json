@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_mud"
+    },
+    "title": {
+      "translate": "Swamp Masonry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 1,024 Packed Mud."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_swamp_masonry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_swamp_masonry_2"
+  }
+}

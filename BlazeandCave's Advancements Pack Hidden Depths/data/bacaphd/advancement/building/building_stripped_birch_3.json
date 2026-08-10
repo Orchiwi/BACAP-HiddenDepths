@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_planks"
+    },
+    "title": {
+      "translate": "The Blond Frame"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 7,000 Stripped Birch Wood."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stripped_birch_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stripped_birch_3"
+  }
+}

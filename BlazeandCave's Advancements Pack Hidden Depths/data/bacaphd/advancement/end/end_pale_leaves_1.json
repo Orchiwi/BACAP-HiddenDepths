@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_leaves"
+    },
+    "title": {
+      "translate": "Pruning the Pale"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Pale Oak Leaves."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/getting_chorus",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_pale_leaves_1"
+  }
+}

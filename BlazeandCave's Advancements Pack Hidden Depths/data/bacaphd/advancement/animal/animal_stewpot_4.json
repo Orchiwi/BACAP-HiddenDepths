@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_spawn_egg"
+    },
+    "title": {
+      "translate": "Stew for an Age"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 12,000 Rabbit Stew"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_stewpot_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_stewpot_4"
+  }
+}

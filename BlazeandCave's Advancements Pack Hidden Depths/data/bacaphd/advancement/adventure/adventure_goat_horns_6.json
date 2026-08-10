@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_spawn_egg"
+    },
+    "title": {
+      "translate": "Echoes Across the Mountains"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Blow a Goat Horn 20,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_goat_horns_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_goat_horns_6"
+  }
+}

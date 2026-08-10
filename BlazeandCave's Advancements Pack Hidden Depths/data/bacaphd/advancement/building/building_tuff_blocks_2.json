@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_slab"
+    },
+    "title": {
+      "translate": "Volcanic Texture"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,500 Tuff."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_tuff_blocks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_tuff_blocks_2"
+  }
+}

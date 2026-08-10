@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_spawn_egg"
+    },
+    "title": {
+      "translate": "The Hide Mountain"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 10,000 Rabbit Hide"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_pelt_pile_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_pelt_pile_3"
+  }
+}

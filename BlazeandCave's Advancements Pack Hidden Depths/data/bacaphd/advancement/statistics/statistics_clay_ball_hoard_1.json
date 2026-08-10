@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay_ball"
+    },
+    "title": {
+      "translate": "Muddy Handed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 500 Clay Balls"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_clay_ball_hoard_1"
+  }
+}

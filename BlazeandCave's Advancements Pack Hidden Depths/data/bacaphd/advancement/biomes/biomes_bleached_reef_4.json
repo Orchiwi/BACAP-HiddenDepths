@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_tube_coral_block"
+    },
+    "title": {
+      "translate": "White Bones of the Sea"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 2,048 Dead Tube Coral Blocks."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_bleached_reef_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_bleached_reef_4"
+  }
+}

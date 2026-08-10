@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "A Fortune in Facets"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 65,536 Amethyst Shards"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_haul_amethyst_shard_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_haul_amethyst_shard_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_basalt"
+    },
+    "title": {
+      "translate": "The Polished Hell Quarry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 50,000 Polished Basalt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_polished_basalt_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_polished_basalt_mined_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leaf_litter"
+    },
+    "title": {
+      "translate": "Raking It In"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Leaf Litter"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/enchanted_forest",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_leaf_litter_1"
+  }
+}

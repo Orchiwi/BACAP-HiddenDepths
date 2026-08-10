@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod_bucket"
+    },
+    "title": {
+      "translate": "The Cod Diplomat"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 30,000 Raw Cod"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_raw_cod_tamer_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_raw_cod_tamer_4"
+  }
+}

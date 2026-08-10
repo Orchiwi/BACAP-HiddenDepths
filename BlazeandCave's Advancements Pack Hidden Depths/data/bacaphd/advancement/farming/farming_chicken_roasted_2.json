@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken"
+    },
+    "title": {
+      "translate": "The Rotisserie"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cook 2,000 Chicken"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_chicken_roasted_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_chicken_roasted_2"
+  }
+}

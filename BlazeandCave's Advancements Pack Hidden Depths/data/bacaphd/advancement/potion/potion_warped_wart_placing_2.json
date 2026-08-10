@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_wart_block"
+    },
+    "title": {
+      "translate": "Warped and Stacked"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,500 Warped Wart Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_warped_wart_placing_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_warped_wart_placing_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_bricks"
+    },
+    "title": {
+      "translate": "Quartz Cathedral"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 16,384 Quartz Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_quartz_bricks_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_quartz_bricks_4"
+  }
+}

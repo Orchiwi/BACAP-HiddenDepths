@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_wall"
+    },
+    "title": {
+      "translate": "Every City Was Mine"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 250,000 End Stone Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_brick_mason_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_mason_6"
+  }
+}

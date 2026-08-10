@@ -1,4 +1,4 @@
-# Statistic objectives, shard 6 of 10. Attested by BACAP or
+# Statistic objectives, shard 6 of 21. Attested by BACAP or
 # Enhanced Discoveries, or built from an id classified by statsurface.py.
 # Isolated so a rejected criterion costs this shard and nothing else.
 scoreboard objectives add bacaphd_l_end_chorus_teleporter minecraft.used:minecraft.chorus_fruit

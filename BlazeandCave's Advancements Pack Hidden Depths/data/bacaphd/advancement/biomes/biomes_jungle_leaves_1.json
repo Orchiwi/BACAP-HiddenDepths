@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_leaves"
+    },
+    "title": {
+      "translate": "Leaf Blower"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 5,000 Jungle Leaves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/edge_of_the_jungle",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_jungle_leaves_1"
+  }
+}

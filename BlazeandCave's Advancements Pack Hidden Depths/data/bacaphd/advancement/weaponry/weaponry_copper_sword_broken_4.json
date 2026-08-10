@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weathered_copper"
+    },
+    "title": {
+      "translate": "The Oxide Ossuary"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break 640 Copper Swords"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_copper_sword_broken_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_copper_sword_broken_4"
+  }
+}

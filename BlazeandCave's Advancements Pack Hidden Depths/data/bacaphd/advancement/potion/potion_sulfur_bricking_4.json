@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_bricks"
+    },
+    "title": {
+      "translate": "A Citadel of Brimstone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 80,000 Sulfur Bricks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_bricking_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_bricking_4"
+  }
+}

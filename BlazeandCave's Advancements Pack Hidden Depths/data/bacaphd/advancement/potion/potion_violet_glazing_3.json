@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass"
+    },
+    "title": {
+      "translate": "Stained for the Apothecary"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 10,000 Purple Stained Glass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_violet_glazing_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_violet_glazing_3"
+  }
+}

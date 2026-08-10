@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tiles"
+    },
+    "title": {
+      "translate": "Tiled in Shadow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 500 Deepslate Tiles"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/deepslate_conspiracy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_tiles_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "Seaweed Silo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 8,192 Dried Kelp Blocks."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_kelp_stores_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_kelp_stores_3"
+  }
+}

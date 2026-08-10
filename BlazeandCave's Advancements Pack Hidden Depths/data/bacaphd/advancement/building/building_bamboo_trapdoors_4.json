@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_block"
+    },
+    "title": {
+      "translate": "The Trapdoor Architect"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 10,000 Bamboo Trapdoors."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_bamboo_trapdoors_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_bamboo_trapdoors_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Wrath in a Glass Bottle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect 500 Dragon's Breath"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/why_do_i_hear_boss_music",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_breath_hauler_1"
+  }
+}

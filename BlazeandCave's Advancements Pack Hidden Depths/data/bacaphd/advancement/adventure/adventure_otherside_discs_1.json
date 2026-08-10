@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "A Glimpse of the Otherside"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drop 1 Otherside Music Disc"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_chiptune_relic",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_otherside_discs_1"
+  }
+}

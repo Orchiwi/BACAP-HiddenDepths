@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_wall"
+    },
+    "title": {
+      "translate": "A Floor Above Nothing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 80,000 End Stone Brick Slabs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_brick_slab_layer_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_brick_slab_layer_4"
+  }
+}

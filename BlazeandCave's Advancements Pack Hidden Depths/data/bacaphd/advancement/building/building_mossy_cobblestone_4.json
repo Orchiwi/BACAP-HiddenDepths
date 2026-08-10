@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone_wall"
+    },
+    "title": {
+      "translate": "Time Weathers Everything"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 12,000 Mossy Cobblestone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_mossy_cobblestone_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_mossy_cobblestone_4"
+  }
+}

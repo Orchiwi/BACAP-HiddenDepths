@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "Watched by Flowers"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 1,024 Open Eyeblossoms."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_open_eyes_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_open_eyes_4"
+  }
+}

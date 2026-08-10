@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "A Library of Eyes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 64 Eye Armor Trim Smithing Templates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_eye_trims_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_eye_trims_3"
+  }
+}

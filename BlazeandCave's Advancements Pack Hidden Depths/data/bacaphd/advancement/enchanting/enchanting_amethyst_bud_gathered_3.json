@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_amethyst_bud"
+    },
+    "title": {
+      "translate": "Pruning the Geode"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 1,024 Medium Amethyst Buds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_amethyst_bud_gathered_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_amethyst_bud_gathered_3"
+  }
+}

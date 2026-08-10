@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_sulfur"
+    },
+    "title": {
+      "translate": "Smoothing the Stink"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 1,000 Polished Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_polishing_1"
+  }
+}

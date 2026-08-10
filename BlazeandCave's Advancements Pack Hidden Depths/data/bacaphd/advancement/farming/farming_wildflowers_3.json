@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:short_grass"
+    },
+    "title": {
+      "translate": "The Wild Garden"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 10,000 Wildflowers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_wildflowers_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_wildflowers_3"
+  }
+}

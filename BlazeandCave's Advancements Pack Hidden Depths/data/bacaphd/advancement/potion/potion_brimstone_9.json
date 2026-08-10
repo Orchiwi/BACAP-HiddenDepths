@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_sulfur"
+    },
+    "title": {
+      "translate": "Hollowed the Brimstone World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 2,500,000 Sulfur"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_brimstone_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_brimstone_9"
+  }
+}

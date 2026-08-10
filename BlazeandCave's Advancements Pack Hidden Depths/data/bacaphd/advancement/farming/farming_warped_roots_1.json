@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_roots"
+    },
+    "title": {
+      "translate": "Blue Tendrils"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Harvest 500 Warped Roots"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/im_gonna_be_sick",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_warped_roots_1"
+  }
+}

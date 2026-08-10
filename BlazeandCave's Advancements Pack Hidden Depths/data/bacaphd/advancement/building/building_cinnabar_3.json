@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cinnabar_bricks"
+    },
+    "title": {
+      "translate": "Chiseled in Crimson"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 3,000 Chiseled Cinnabar."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cinnabar_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cinnabar_3"
+  }
+}

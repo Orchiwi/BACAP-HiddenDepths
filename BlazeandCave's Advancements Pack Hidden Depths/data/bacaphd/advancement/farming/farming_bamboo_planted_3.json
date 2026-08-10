@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_planks"
+    },
+    "title": {
+      "translate": "Panda Provisions"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant 20,000 Bamboo"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_bamboo_planted_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_bamboo_planted_3"
+  }
+}

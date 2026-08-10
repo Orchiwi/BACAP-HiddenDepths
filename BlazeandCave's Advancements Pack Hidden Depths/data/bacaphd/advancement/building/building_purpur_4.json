@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_slab"
+    },
+    "title": {
+      "translate": "Purpur Palace"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 15,000 Purpur Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_purpur_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_purpur_4"
+  }
+}

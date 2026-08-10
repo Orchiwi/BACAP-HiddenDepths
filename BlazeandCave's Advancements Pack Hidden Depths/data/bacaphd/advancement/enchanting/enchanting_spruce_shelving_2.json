@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_shelf"
+    },
+    "title": {
+      "translate": "Spruce Fittings"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 256 Spruce Shelves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_spruce_shelving_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_spruce_shelving_2"
+  }
+}

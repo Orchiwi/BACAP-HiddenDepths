@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stairs"
+    },
+    "title": {
+      "translate": "A Hundred Thousand Red Boards"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 100,000 Crimson Planks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_planks_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_planks_mined_4"
+  }
+}

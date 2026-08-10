@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_shelf"
+    },
+    "title": {
+      "translate": "Birch by the Forestful"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 3,000 Birch Shelves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_birch_shelving_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_birch_shelving_4"
+  }
+}

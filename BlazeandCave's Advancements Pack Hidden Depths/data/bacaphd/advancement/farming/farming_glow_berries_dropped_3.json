@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cave_vines"
+    },
+    "title": {
+      "translate": "Berries Beyond the Basket"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop 16,384 Glow Berries."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_glow_berries_dropped_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_glow_berries_dropped_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_stairs"
+    },
+    "title": {
+      "translate": "The Quarry Has No Bottom"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 500,000 Cobblestone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cobblestone_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cobblestone_6"
+  }
+}

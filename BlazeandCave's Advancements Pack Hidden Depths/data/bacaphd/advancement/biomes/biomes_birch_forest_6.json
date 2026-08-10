@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_log"
+    },
+    "title": {
+      "translate": "Birch Barren"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 200,000 Birch Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_birch_forest_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_birch_forest_6"
+  }
+}

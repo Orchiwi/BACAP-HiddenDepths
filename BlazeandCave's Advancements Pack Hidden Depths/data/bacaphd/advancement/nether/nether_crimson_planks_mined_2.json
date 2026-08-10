@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_door"
+    },
+    "title": {
+      "translate": "Fungal Carpentry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 5,000 Crimson Planks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_planks_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_planks_mined_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Blood Brick Escalation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 Red Nether Brick Stairs."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_red_brick_stairs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_red_brick_stairs_2"
+  }
+}

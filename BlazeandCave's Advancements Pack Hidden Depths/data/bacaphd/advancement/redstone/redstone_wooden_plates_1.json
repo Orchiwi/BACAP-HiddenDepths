@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": {
+      "translate": "Step Lightly"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 256 Oak Pressure Plates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/pressure_detector",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_plates_1"
+  }
+}

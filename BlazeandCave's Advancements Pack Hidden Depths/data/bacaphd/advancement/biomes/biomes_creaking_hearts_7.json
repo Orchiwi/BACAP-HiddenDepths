@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_block"
+    },
+    "title": {
+      "translate": "Ten Thousand Silences"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 10,000 Creaking Hearts"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_creaking_hearts_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_creaking_hearts_7"
+  }
+}

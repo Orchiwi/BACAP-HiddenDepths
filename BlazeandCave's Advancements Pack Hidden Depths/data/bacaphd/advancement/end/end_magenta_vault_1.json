@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_shulker_box"
+    },
+    "title": {
+      "translate": "A Louder Shade of Purple"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 128 Magenta Shulker Boxes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/unstoppable_force_vs_immovable_object",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_magenta_vault_1"
+  }
+}

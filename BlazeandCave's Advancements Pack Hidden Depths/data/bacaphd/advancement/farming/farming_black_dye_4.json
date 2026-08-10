@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_concrete"
+    },
+    "title": {
+      "translate": "Midnight Industry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 40,000 Black Dye"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_black_dye_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_black_dye_4"
+  }
+}

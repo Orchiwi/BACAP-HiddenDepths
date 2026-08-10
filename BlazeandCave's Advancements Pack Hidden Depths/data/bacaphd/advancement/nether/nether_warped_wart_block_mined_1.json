@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_wart_block"
+    },
+    "title": {
+      "translate": "Blue Sponge Harvest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Warped Wart Blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_wart_block_mined_1"
+  }
+}

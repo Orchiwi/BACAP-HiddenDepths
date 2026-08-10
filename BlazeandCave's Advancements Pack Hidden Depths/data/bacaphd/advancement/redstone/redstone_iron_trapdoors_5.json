@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_trapdoor"
+    },
+    "title": {
+      "translate": "Every Floor a Trap"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 25,000 Iron Trapdoors"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_iron_trapdoors_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_iron_trapdoors_5"
+  }
+}

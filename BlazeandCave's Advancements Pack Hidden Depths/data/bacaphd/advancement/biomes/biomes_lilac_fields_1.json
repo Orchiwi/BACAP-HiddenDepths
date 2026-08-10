@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lilac"
+    },
+    "title": {
+      "translate": "Sprig of Lilac"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 64 Lilacs."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/enchanted_forest",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_lilac_fields_1"
+  }
+}

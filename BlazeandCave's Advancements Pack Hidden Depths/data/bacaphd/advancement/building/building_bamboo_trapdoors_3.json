@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_mosaic"
+    },
+    "title": {
+      "translate": "Trapdoor Tessellation"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 2,000 Bamboo Trapdoors."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_bamboo_trapdoors_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_bamboo_trapdoors_3"
+  }
+}

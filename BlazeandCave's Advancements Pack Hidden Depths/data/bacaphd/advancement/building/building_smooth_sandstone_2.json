@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_sandstone_stairs"
+    },
+    "title": {
+      "translate": "The Polished Dunes"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 Smooth Sandstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_smooth_sandstone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_smooth_sandstone_2"
+  }
+}

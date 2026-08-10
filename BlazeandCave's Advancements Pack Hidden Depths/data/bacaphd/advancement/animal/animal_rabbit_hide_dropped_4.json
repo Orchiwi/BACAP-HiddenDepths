@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_spawn_egg"
+    },
+    "title": {
+      "translate": "Bunny Bindings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drop 4,096 Rabbit Hide"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_rabbit_hide_dropped_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_rabbit_hide_dropped_4"
+  }
+}

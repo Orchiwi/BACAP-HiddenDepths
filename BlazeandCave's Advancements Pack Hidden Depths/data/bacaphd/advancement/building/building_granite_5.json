@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_wall"
+    },
+    "title": {
+      "translate": "Continental Granite"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 120,000 Granite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_granite_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_granite_5"
+  }
+}

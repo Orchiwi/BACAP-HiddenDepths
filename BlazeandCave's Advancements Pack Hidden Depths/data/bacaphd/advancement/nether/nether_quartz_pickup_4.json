@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "translate": "Two Hundred Thousand Shards"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 200,000 Nether Quartz"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_quartz_pickup_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_quartz_pickup_4"
+  }
+}

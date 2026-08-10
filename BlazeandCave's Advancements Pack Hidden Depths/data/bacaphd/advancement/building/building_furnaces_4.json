@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal_block"
+    },
+    "title": {
+      "translate": "The Great Foundry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 8,000 Furnaces"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_furnaces_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_furnaces_4"
+  }
+}

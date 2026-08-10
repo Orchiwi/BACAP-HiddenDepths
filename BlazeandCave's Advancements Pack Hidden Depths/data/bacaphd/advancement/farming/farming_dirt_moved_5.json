@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rooted_dirt"
+    },
+    "title": {
+      "translate": "Reshaped the Whole Valley"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 750,000 Dirt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_dirt_moved_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_dirt_moved_5"
+  }
+}

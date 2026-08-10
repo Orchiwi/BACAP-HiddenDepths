@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tile_wall"
+    },
+    "title": {
+      "translate": "Every Floor Is Deepslate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 25,000 Deepslate Tiles"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_deepslate_tiles_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_tiles_4"
+  }
+}

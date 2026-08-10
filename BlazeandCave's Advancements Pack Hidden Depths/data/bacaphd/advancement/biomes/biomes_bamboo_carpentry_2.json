@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_stairs"
+    },
+    "title": {
+      "translate": "Culm and Rafter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,024 Bamboo Stairs."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_bamboo_carpentry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_bamboo_carpentry_2"
+  }
+}

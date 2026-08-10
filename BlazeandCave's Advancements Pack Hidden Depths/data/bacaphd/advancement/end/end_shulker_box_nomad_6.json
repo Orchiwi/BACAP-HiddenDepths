@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_shulker_box"
+    },
+    "title": {
+      "translate": "Base Camp, Everywhere"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 25,000 Shulker Boxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_shulker_box_nomad_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_box_nomad_6"
+  }
+}

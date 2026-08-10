@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "The Field Is Bald Now"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 100,000 Oxeye Daisies"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_petals_for_the_grinder_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_petals_for_the_grinder_4"
+  }
+}

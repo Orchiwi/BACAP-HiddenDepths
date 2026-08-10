@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_shulker_box"
+    },
+    "title": {
+      "translate": "The Scarlet Warehouse"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 512 Red Shulker Boxes."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_red_shulkers_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_red_shulkers_4"
+  }
+}

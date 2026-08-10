@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Digging Where It Burns"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 4,000 Potent Sulfur"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_potent_sulfur_dug_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_potent_sulfur_dug_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brain_coral"
+    },
+    "title": {
+      "translate": "Hive Mind of the Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 8,192 Brain Coral Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_brain_coral_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_brain_coral_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_stained_glass"
+    },
+    "title": {
+      "translate": "The Stained Chapel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 White Stained Glass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_stained_glass_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stained_glass_2"
+  }
+}

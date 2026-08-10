@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_shelf"
+    },
+    "title": {
+      "translate": "Stalks Into Slats"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 64 Bamboo Shelves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_bamboo_shelving_1"
+  }
+}

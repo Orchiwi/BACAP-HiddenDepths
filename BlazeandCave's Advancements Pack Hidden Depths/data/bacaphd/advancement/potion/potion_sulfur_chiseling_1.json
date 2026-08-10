@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sulfur"
+    },
+    "title": {
+      "translate": "Chisel to the Crust"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 500 Chiseled Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas_bomb",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_chiseling_1"
+  }
+}

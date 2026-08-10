@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potent_sulfur"
+    },
+    "title": {
+      "translate": "The Richer Vein"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 250 Potent Sulfur"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_potent_sulfur_dug_1"
+  }
+}

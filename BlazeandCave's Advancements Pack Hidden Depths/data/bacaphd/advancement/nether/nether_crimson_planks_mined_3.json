@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_slab"
+    },
+    "title": {
+      "translate": "The Crimson Sawmill"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 25,000 Crimson Planks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_crimson_planks_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_crimson_planks_mined_3"
+  }
+}

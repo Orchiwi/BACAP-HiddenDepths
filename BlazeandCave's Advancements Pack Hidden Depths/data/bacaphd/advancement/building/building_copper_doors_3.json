@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weathered_copper_door"
+    },
+    "title": {
+      "translate": "Doors Without End"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 900 Copper Doors."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_copper_doors_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_copper_doors_3"
+  }
+}

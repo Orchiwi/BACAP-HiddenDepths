@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass_pane"
+    },
+    "title": {
+      "translate": "The Stained Sky"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 50,000 Purple Stained Glass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_violet_glass_layer_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_violet_glass_layer_3"
+  }
+}

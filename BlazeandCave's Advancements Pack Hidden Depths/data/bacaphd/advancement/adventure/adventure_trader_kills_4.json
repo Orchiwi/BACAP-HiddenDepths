@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wandering_trader_spawn_egg"
+    },
+    "title": {
+      "translate": "Nowhere Left to Wander"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 500 Wandering Traders"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_trader_kills_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_trader_kills_4"
+  }
+}

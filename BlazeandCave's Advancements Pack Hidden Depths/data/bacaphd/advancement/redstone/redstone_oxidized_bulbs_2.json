@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_bulb"
+    },
+    "title": {
+      "translate": "Verdigris Glow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 256 Oxidized Copper Bulbs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_oxidized_bulbs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_oxidized_bulbs_2"
+  }
+}

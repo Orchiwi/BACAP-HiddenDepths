@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_leggings"
+    },
+    "title": {
+      "translate": "Fool's Trousers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break 5 Golden Leggings"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_spender",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_gold_leggings_broken_1"
+  }
+}

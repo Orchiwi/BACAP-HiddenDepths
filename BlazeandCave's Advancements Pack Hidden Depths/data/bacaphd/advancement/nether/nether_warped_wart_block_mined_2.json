@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_wart_block"
+    },
+    "title": {
+      "translate": "Warped Warts by the Crate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,500 Warped Wart Blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_warped_wart_block_mined_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_wart_block_mined_2"
+  }
+}

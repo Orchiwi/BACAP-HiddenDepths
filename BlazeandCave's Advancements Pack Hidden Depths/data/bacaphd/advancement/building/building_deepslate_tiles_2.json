@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tile_stairs"
+    },
+    "title": {
+      "translate": "The Tessellated Deep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 2,000 Deepslate Tiles"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_deepslate_tiles_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_tiles_2"
+  }
+}

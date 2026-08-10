@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_stairs"
+    },
+    "title": {
+      "translate": "Granite Countertops"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 25,000 Granite"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_granite_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_granite_3"
+  }
+}

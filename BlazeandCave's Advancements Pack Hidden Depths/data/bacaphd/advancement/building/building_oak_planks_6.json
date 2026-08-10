@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_slab"
+    },
+    "title": {
+      "translate": "Planked to Perfection"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 250,000 Oak Planks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_oak_planks_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_oak_planks_6"
+  }
+}

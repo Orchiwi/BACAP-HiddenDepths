@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weathered_copper"
+    },
+    "title": {
+      "translate": "A Touch of Patina"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 64 Oxidized Copper"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_oxidized_copper_1"
+  }
+}

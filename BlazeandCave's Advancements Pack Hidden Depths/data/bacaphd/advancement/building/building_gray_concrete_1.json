@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_concrete_powder"
+    },
+    "title": {
+      "translate": "From Powder to Stone"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Gray Concrete."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/concrete_evidence",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_gray_concrete_1"
+  }
+}

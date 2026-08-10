@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_basalt"
+    },
+    "title": {
+      "translate": "Basalt by the Bargeload"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 500,000 Basalt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_basalt_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_basalt_7"
+  }
+}

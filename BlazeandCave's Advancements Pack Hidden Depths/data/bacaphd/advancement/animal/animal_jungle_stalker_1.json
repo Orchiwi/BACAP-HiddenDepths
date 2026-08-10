@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_leaves"
+    },
+    "title": {
+      "translate": "Spots in the Undergrowth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 100 Ocelots"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_jungle_stalker_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_concrete"
+    },
+    "title": {
+      "translate": "Every Base Painted Purple"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 40,000 Purple Shulker Boxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_violet_deployment_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_violet_deployment_4"
+  }
+}

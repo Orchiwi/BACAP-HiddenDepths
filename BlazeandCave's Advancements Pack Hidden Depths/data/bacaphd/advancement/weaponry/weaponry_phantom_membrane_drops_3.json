@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_spawn_egg"
+    },
+    "title": {
+      "translate": "The Sleepless Legion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop 4,096 Phantom Membranes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_phantom_membrane_drops_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_phantom_membrane_drops_3"
+  }
+}

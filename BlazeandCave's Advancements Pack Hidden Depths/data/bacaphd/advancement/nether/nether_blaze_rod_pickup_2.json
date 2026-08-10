@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "Bundles of Burning Sticks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect 2,500 Blaze Rods"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_blaze_rod_pickup_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_blaze_rod_pickup_2"
+  }
+}

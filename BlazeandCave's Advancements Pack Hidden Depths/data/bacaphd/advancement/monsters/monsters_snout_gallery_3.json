@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_spawn_egg"
+    },
+    "title": {
+      "translate": "The Snorting Gallery"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 32 Piglin Heads"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_snout_gallery_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_snout_gallery_3"
+  }
+}

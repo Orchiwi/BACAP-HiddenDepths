@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit"
+    },
+    "title": {
+      "translate": "Meadow on a Plate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat 5,000 Cooked Rabbit"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_hare_roast_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_hare_roast_2"
+  }
+}

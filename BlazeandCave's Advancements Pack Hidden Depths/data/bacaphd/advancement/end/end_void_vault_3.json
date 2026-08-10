@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_concrete"
+    },
+    "title": {
+      "translate": "The Midnight Inventory"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 10,000 Black Shulker Boxes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_void_vault_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_void_vault_3"
+  }
+}

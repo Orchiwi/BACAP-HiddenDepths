@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "Ten Thousand Rough Acres"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 65,536 Coarse Dirt."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_coarse_dirt_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_coarse_dirt_4"
+  }
+}

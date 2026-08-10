@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_birch_wood"
+    },
+    "title": {
+      "translate": "Pale Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Stripped Birch Wood."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stripper",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_stripped_birch_1"
+  }
+}

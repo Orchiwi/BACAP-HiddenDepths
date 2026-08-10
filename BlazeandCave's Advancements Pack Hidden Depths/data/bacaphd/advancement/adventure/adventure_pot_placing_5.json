@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:archer_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Pottery Metropolis"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 75,000 Decorated Pots"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_pot_placing_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_pot_placing_5"
+  }
+}

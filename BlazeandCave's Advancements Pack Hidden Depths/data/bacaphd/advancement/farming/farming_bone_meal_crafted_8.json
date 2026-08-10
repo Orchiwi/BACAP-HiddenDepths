@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_dye"
+    },
+    "title": {
+      "translate": "White as Winter"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 3,000,000 Bone Meal"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_bone_meal_crafted_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_bone_meal_crafted_8"
+  }
+}

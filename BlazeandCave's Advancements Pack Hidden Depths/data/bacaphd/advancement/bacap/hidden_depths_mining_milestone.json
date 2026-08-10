@@ -2066,6 +2066,4086 @@
           }
         }
       }
+    },
+    "mining_stone_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tuff_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tuff_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tuff_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tuff_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tuff_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tuff_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gravel_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gravel_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gravel_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gravel_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gravel_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gravel_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gravel_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gravel_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_obsidian_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_obsidian_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_obsidian_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_obsidian_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_obsidian_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_obsidian_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_coal_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_coal_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_coal_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_coal_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_coal_ore_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_coal_ore_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ore_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ore_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_ore_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_ore_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diamond_ore_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diamond_ore_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diamond_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diamond_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diamond_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diamond_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diamond_ore_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diamond_ore_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_emerald_ore_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_emerald_ore_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_emerald_ore_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_emerald_ore_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_emerald_ore_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_emerald_ore_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_dripstone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_dripstone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_dripstone_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_dripstone_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_dripstone_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_dripstone_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_glow_lichen_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_glow_lichen_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_glow_lichen_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_glow_lichen_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_glow_lichen_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_glow_lichen_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_warden_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_warden_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_warden_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_warden_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_warden_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_warden_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_warden_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_warden_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_spider_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_spider_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_spider_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_spider_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_spider_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_spider_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_silverfish_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_silverfish_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_silverfish_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_silverfish_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_silverfish_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_silverfish_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tnt_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tnt_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tnt_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tnt_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_tnt_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_tnt_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_coal_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_coal_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_coal_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_coal_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_coal_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_coal_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_diamond_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_diamond_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_diamond_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_diamond_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_diamond_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_diamond_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_diamond_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_diamond_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_seam_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_seam_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_seam_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_seam_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_redstone_seam_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_redstone_seam_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_geode_shell_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_geode_shell_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_geode_shell_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_geode_shell_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_geode_shell_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_geode_shell_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_veins_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_veins_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_veins_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_veins_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_veins_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_veins_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_torches_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_torches_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_torches_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_torches_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_torches_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_torches_8": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ingots_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ingots_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ingots_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ingots_6": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ingots_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ingots_7": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobbled_deepslate_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobbled_deepslate_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobbled_deepslate_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobbled_deepslate_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobbled_deepslate_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobbled_deepslate_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobbled_deepslate_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobbled_deepslate_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_granite_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_granite_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_granite_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_granite_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_granite_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_granite_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_granite_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_granite_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_granite_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_granite_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_andesite_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_andesite_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_andesite_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_andesite_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_andesite_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_andesite_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_andesite_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_andesite_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_andesite_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_andesite_5": true
+            }
+          }
+        }
+      }
+    },
+    "mining_calcite_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_calcite_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_calcite_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_calcite_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_calcite_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_calcite_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_calcite_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_calcite_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_budding_amethyst_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_budding_amethyst_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_budding_amethyst_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_budding_amethyst_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_budding_amethyst_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_budding_amethyst_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_budding_amethyst_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_budding_amethyst_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_small_amethyst_bud_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_small_amethyst_bud_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_small_amethyst_bud_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_small_amethyst_bud_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_small_amethyst_bud_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_small_amethyst_bud_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_small_amethyst_bud_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_small_amethyst_bud_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_large_amethyst_bud_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_large_amethyst_bud_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_large_amethyst_bud_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_large_amethyst_bud_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_large_amethyst_bud_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_large_amethyst_bud_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_large_amethyst_bud_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_large_amethyst_bud_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_shallow_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_shallow_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_shallow_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_shallow_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_shallow_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_shallow_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ore_shallow_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ore_shallow_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_shallow_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_shallow_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_shallow_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_shallow_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_shallow_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_shallow_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_ore_shallow_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_ore_shallow_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_copper_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_copper_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_copper_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_copper_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_copper_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_copper_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_copper_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_copper_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_infested_deepslate_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_infested_deepslate_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_infested_deepslate_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_infested_deepslate_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_infested_deepslate_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_infested_deepslate_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_infested_deepslate_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_infested_deepslate_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_vines_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_vines_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_vines_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_vines_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_vines_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_vines_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cave_vines_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cave_vines_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_hanging_roots_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_hanging_roots_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_hanging_roots_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_hanging_roots_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_hanging_roots_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_hanging_roots_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_hanging_roots_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_hanging_roots_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_sensor_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_sensor_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_sensor_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_sensor_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_sensor_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_sensor_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_sculk_sensor_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_sculk_sensor_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mineshaft_rails_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mineshaft_rails_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mineshaft_rails_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mineshaft_rails_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mineshaft_rails_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mineshaft_rails_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mineshaft_rails_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mineshaft_rails_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_smelted_stone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_smelted_stone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_smelted_stone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_smelted_stone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_smelted_stone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_smelted_stone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_smelted_stone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_smelted_stone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_charcoal_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_charcoal_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_charcoal_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_charcoal_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_charcoal_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_charcoal_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_charcoal_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_charcoal_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ingots_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ingots_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ingots_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ingots_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ingots_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ingots_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gold_ingots_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gold_ingots_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ingots_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ingots_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ingots_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ingots_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ingots_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ingots_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_ingots_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_ingots_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_nuggets_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_nuggets_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_nuggets_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_nuggets_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_nuggets_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_nuggets_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_nuggets_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_nuggets_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_minecarts_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_minecarts_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_minecarts_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_minecarts_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_minecarts_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_minecarts_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_minecarts_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_minecarts_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_crafting_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_crafting_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_crafting_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_crafting_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_crafting_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_crafting_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rail_crafting_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rail_crafting_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_pickaxes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_pickaxes_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_pickaxes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_pickaxes_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_pickaxes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_pickaxes_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_stone_pickaxes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_stone_pickaxes_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_pickaxes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_pickaxes_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_pickaxes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_pickaxes_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_pickaxes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_pickaxes_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_pickaxes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_pickaxes_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_lanterns_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_lanterns_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_lanterns_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_lanterns_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_lanterns_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_lanterns_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_lanterns_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_lanterns_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_compasses_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_compasses_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_compasses_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_compasses_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_compasses_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_compasses_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_compasses_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_compasses_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobblestone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobblestone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobblestone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobblestone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobblestone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobblestone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobblestone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobblestone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobbled_deepslate_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobbled_deepslate_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobbled_deepslate_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobbled_deepslate_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobbled_deepslate_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobbled_deepslate_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_cobbled_deepslate_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_cobbled_deepslate_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_diamond_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_diamond_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_diamond_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_diamond_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_diamond_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_diamond_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_diamond_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_diamond_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_gold_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_gold_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_gold_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_gold_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_gold_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_gold_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_gold_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_gold_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_copper_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_copper_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_copper_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_copper_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_copper_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_copper_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_raw_copper_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_raw_copper_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_redstone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_redstone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_redstone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_redstone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_redstone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_redstone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_redstone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_redstone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_coal_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_coal_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_coal_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_coal_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_coal_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_coal_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_coal_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_coal_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_echo_shard_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_echo_shard_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_echo_shard_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_echo_shard_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_echo_shard_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_echo_shard_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_echo_shard_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_echo_shard_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_amethyst_shard_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_amethyst_shard_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_amethyst_shard_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_amethyst_shard_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_amethyst_shard_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_amethyst_shard_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_haul_amethyst_shard_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_haul_amethyst_shard_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_stone_pickaxe_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_stone_pickaxe_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_stone_pickaxe_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_stone_pickaxe_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_stone_pickaxe_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_stone_pickaxe_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_stone_pickaxe_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_stone_pickaxe_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_iron_pickaxe_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_iron_pickaxe_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_iron_pickaxe_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_iron_pickaxe_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_iron_pickaxe_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_iron_pickaxe_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_iron_pickaxe_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_iron_pickaxe_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_netherite_pickaxe_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_netherite_pickaxe_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_netherite_pickaxe_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_netherite_pickaxe_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_netherite_pickaxe_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_netherite_pickaxe_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_netherite_pickaxe_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_netherite_pickaxe_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_pickaxe_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_pickaxe_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_pickaxe_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_pickaxe_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_pickaxe_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_pickaxe_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_pickaxe_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_pickaxe_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_shovel_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_shovel_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_shovel_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_shovel_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_shovel_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_shovel_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_shovel_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_shovel_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_golem_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_golem_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_golem_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_golem_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_golem_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_golem_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_golem_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_golem_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_torches_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_torches_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_torches_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_torches_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_torches_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_torches_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_torches_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_torches_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_lanterns_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_lanterns_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_lanterns_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_lanterns_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_lanterns_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_lanterns_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_copper_lanterns_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_copper_lanterns_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_ingot_tally_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_ingot_tally_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_ingot_tally_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_ingot_tally_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_ingot_tally_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_ingot_tally_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_ingot_tally_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_ingot_tally_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_raw_iron_blocks_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_raw_iron_blocks_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_raw_iron_blocks_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_raw_iron_blocks_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_raw_iron_blocks_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_raw_iron_blocks_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_raw_iron_blocks_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_raw_iron_blocks_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_oxidized_copper_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_oxidized_copper_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_oxidized_copper_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_oxidized_copper_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_oxidized_copper_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_oxidized_copper_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_oxidized_copper_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_oxidized_copper_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_hoard_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_hoard_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_hoard_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_hoard_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_hoard_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_hoard_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_diorite_hoard_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_diorite_hoard_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gilded_blackstone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gilded_blackstone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gilded_blackstone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gilded_blackstone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gilded_blackstone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gilded_blackstone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_gilded_blackstone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_gilded_blackstone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_haul_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_haul_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_haul_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_haul_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_haul_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_haul_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_rooted_dirt_haul_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_rooted_dirt_haul_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_placed_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_placed_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_placed_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_placed_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_placed_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_placed_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_deepslate_emerald_placed_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_deepslate_emerald_placed_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_buds_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_buds_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_buds_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_buds_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_buds_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_buds_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_amethyst_buds_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_amethyst_buds_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_slabs_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_slabs_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_slabs_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_slabs_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_slabs_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_slabs_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_cobblestone_slabs_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_cobblestone_slabs_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_weathered_cut_copper_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_weathered_cut_copper_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_weathered_cut_copper_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_weathered_cut_copper_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_weathered_cut_copper_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_weathered_cut_copper_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_weathered_cut_copper_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_weathered_cut_copper_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_chiseled_deepslate_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_chiseled_deepslate_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_chiseled_deepslate_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_chiseled_deepslate_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_chiseled_deepslate_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_chiseled_deepslate_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_chiseled_deepslate_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_chiseled_deepslate_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_chains_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_chains_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_chains_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_chains_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_chains_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_chains_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_iron_chains_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_iron_chains_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_axe_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_axe_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_axe_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_axe_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_axe_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_axe_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_golden_axe_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_golden_axe_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mossy_cobblestone_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mossy_cobblestone_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mossy_cobblestone_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mossy_cobblestone_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mossy_cobblestone_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mossy_cobblestone_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_mossy_cobblestone_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_mossy_cobblestone_4": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_wooden_shovel_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_wooden_shovel_1": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_wooden_shovel_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_wooden_shovel_2": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_wooden_shovel_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_wooden_shovel_3": true
+            }
+          }
+        }
+      }
+    },
+    "mining_broken_wooden_shovel_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:mining/mining_broken_wooden_shovel_4": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

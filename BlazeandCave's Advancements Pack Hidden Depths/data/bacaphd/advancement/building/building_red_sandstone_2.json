@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_red_sandstone"
+    },
+    "title": {
+      "translate": "The Red Mesa Rises"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 4,000 Red Sandstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_red_sandstone_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_red_sandstone_2"
+  }
+}

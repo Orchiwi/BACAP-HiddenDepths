@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_carpet"
+    },
+    "title": {
+      "translate": "Unpacking the Pack Animals"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 1,000 Trader Llamas"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_trader_llama_kills_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_trader_llama_kills_3"
+  }
+}

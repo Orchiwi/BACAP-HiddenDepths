@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_wall"
+    },
+    "title": {
+      "translate": "An Ocean Without Monuments"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 3,500,000 Prismarine"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_prismarine_haul_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_prismarine_haul_7"
+  }
+}

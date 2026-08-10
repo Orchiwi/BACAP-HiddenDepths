@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_bricks"
+    },
+    "title": {
+      "translate": "Dismantling the Chamber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Tuff Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/break_wind",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_tuff_brick_haul_1"
+  }
+}

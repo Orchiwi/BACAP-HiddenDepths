@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:closed_eyeblossom"
+    },
+    "title": {
+      "translate": "The Garden Blinks Last"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 20,000 Open Eyeblossoms"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_eyeblossom_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_eyeblossom_4"
+  }
+}

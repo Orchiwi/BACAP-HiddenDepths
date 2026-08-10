@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_bricks"
+    },
+    "title": {
+      "translate": "Demolisher of Ordeals"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break 1,200 Trial Spawners"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_trial_spawners_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_trial_spawners_4"
+  }
+}

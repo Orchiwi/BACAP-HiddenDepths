@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate_wall"
+    },
+    "title": {
+      "translate": "Cobbled Together Down There"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 40,000 Cobbled Deepslate"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_cobbled_deepslate_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cobbled_deepslate_4"
+  }
+}

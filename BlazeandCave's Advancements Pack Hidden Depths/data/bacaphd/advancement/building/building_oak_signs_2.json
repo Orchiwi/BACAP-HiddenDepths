@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_hanging_sign"
+    },
+    "title": {
+      "translate": "The Labelled World"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 512 Oak Signs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_oak_signs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_oak_signs_2"
+  }
+}

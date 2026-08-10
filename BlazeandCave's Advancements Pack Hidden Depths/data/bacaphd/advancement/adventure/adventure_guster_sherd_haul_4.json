@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guster_banner_pattern"
+    },
+    "title": {
+      "translate": "The Guster Gallery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 1,024 Guster Pottery Sherds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_guster_sherd_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_guster_sherd_haul_4"
+  }
+}

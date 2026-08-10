@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_stew"
+    },
+    "title": {
+      "translate": "The Stewpot Bubbles"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 250 Rabbit Stew"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/just_keeps_going",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_stewpot_1"
+  }
+}

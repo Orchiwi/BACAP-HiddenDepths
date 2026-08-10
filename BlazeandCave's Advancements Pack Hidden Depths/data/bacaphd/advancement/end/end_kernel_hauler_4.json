@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Silo of the Chorus Harvest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 400,000 Popped Chorus Fruit"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_kernel_hauler_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_kernel_hauler_4"
+  }
+}

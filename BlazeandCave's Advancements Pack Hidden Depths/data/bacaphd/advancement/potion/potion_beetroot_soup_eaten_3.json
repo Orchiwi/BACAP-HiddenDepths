@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": {
+      "translate": "Soup of the Long Winter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat 10,000 Beetroot Soups"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_beetroot_soup_eaten_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_beetroot_soup_eaten_3"
+  }
+}

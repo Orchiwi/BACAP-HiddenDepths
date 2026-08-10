@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_cinnabar"
+    },
+    "title": {
+      "translate": "Vermilion Masonry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Chiseled Cinnabar."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/cinnabar_island",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_cinnabar_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stem"
+    },
+    "title": {
+      "translate": "Brown as Far as Torchlight Goes"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant 40,000 Brown Mushrooms"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_brown_cap_planting_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_brown_cap_planting_4"
+  }
+}

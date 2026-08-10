@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_spear"
+    },
+    "title": {
+      "translate": "Tip of the Treeline"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 10,000 hits with a Wooden Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_wooden_spear_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_wooden_spear_5"
+  }
+}

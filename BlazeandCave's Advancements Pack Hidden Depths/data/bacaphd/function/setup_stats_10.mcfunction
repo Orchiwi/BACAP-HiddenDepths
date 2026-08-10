@@ -1,4 +1,4 @@
-# Statistic objectives, shard 10 of 10. Attested by BACAP or
+# Statistic objectives, shard 10 of 21. Attested by BACAP or
 # Enhanced Discoveries, or built from an id classified by statsurface.py.
 # Isolated so a rejected criterion costs this shard and nothing else.
 scoreboard objectives add bacaphd_l_statistics_arrow_fletching minecraft.crafted:minecraft.arrow
@@ -30,3 +30,24 @@ scoreboard objectives add bacaphd_l_weaponry_stone_spear minecraft.used:minecraf
 scoreboard objectives add bacaphd_l_weaponry_golden_spear minecraft.used:minecraft.golden_spear
 scoreboard objectives add bacaphd_l_weaponry_shield_crafted minecraft.crafted:minecraft.shield
 scoreboard objectives add bacaphd_l_weaponry_nether_star minecraft.used:minecraft.nether_star
+scoreboard objectives add bacaphd_l_adventure_vault_breaking minecraft.mined:minecraft.vault
+scoreboard objectives add bacaphd_l_adventure_trial_spawners minecraft.mined:minecraft.trial_spawner
+scoreboard objectives add bacaphd_l_adventure_mace_crafting minecraft.crafted:minecraft.mace
+scoreboard objectives add bacaphd_l_adventure_tuff_brick_haul minecraft.mined:minecraft.tuff_bricks
+scoreboard objectives add bacaphd_l_adventure_chiseled_tuff_haul minecraft.mined:minecraft.chiseled_tuff_bricks
+scoreboard objectives add bacaphd_l_adventure_sea_lantern_crafting minecraft.crafted:minecraft.sea_lantern
+scoreboard objectives add bacaphd_l_adventure_prismarine_brick_crafting minecraft.crafted:minecraft.prismarine_bricks
+scoreboard objectives add bacaphd_l_adventure_dark_prismarine_crafting minecraft.crafted:minecraft.dark_prismarine
+scoreboard objectives add bacaphd_l_adventure_sponge_drying minecraft.crafted:minecraft.sponge
+scoreboard objectives add bacaphd_l_adventure_dark_prismarine_haul minecraft.mined:minecraft.dark_prismarine
+scoreboard objectives add bacaphd_l_adventure_prismarine_brick_haul minecraft.mined:minecraft.prismarine_bricks
+scoreboard objectives add bacaphd_l_adventure_crossbow_crafting minecraft.crafted:minecraft.crossbow
+scoreboard objectives add bacaphd_l_adventure_crossbow_breaking minecraft.broken:minecraft.crossbow
+scoreboard objectives add bacaphd_l_adventure_shield_breaking minecraft.broken:minecraft.shield
+scoreboard objectives add bacaphd_l_adventure_emerald_crafting minecraft.crafted:minecraft.emerald
+scoreboard objectives add bacaphd_l_adventure_chainmail_wear minecraft.broken:minecraft.chainmail_chestplate
+scoreboard objectives add bacaphd_l_adventure_trader_llama_kills minecraft.killed:minecraft.trader_llama
+scoreboard objectives add bacaphd_l_adventure_allay_kills minecraft.killed:minecraft.allay
+scoreboard objectives add bacaphd_l_adventure_bell_placing minecraft.used:minecraft.bell
+scoreboard objectives add bacaphd_l_adventure_bell_crafting minecraft.crafted:minecraft.bell
+scoreboard objectives add bacaphd_l_adventure_composters minecraft.crafted:minecraft.composter

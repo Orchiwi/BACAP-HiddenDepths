@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cinnabar"
+    },
+    "title": {
+      "translate": "The Red Vein"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 512 Cinnabar."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_cinnabar_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_cinnabar_2"
+  }
+}

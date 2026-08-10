@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_concrete"
+    },
+    "title": {
+      "translate": "Fifty Shades of Gray"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 5,000 Gray Concrete."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_gray_concrete_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_gray_concrete_2"
+  }
+}

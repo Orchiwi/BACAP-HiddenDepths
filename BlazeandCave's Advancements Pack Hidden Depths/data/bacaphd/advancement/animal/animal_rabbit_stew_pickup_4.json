@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Hasenpfeffer Incorporated"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 4,096 Rabbit Stew"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_rabbit_stew_pickup_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_rabbit_stew_pickup_4"
+  }
+}

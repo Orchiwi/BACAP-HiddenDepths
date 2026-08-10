@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_spawn_egg"
+    },
+    "title": {
+      "translate": "Personal Weather Machine"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 500,000 Wind Charges"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_wind_charges_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_wind_charges_7"
+  }
+}

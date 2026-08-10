@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_hyphae"
+    },
+    "title": {
+      "translate": "Logging in the Fungus Wastes"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 750,000 Crimson Stems."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_crimson_stems_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_crimson_stems_4"
+  }
+}

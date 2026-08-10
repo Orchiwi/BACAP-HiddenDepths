@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "The Extinction of the Vein"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 200 Deepslate Emerald Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_deepslate_emerald_silk_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_deepslate_emerald_silk_4"
+  }
+}

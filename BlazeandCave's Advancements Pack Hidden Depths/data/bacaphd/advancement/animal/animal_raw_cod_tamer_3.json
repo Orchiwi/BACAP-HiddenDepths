@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ocelot_spawn_egg"
+    },
+    "title": {
+      "translate": "Every Cat Is Yours"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Use 10,000 Raw Cod"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_raw_cod_tamer_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_raw_cod_tamer_3"
+  }
+}

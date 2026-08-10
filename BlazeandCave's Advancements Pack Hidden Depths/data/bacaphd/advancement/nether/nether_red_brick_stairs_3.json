@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_bricks"
+    },
+    "title": {
+      "translate": "Steps of Sacrifice"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 10,000 Red Nether Brick Stairs."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_red_brick_stairs_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_red_brick_stairs_3"
+  }
+}

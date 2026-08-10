@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_red_sandstone"
+    },
+    "title": {
+      "translate": "The Red Plateau Gone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 250,000 Red Sandstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_red_sandstone_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_red_sandstone_4"
+  }
+}

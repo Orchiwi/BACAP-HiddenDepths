@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_slab"
+    },
+    "title": {
+      "translate": "Granite Baron"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 40,000 Granite"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_granite_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_granite_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_redstone_ore"
+    },
+    "title": {
+      "translate": "Vein Attempt"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 64 Deepslate Redstone Ore"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/master_engineer",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_deepslate_ore_placing_1"
+  }
+}

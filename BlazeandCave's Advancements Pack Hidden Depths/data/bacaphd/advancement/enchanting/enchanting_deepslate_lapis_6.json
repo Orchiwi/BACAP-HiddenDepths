@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_lapis_ore"
+    },
+    "title": {
+      "translate": "Where the Deepslate Bleeds"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 30,000 Deepslate Lapis Lazuli Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_deepslate_lapis_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_deepslate_lapis_6"
+  }
+}

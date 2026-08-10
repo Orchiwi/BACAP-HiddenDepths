@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_slab"
+    },
+    "title": {
+      "translate": "Slabbed Into Oblivion"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 250,000 Smooth Stone Slabs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_slabs_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_slabs_7"
+  }
+}

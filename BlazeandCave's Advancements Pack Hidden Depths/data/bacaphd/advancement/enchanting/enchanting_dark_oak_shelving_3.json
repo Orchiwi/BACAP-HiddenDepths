@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_shelf"
+    },
+    "title": {
+      "translate": "The Gloomy Archive"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 1,000 Dark Oak Shelves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_dark_oak_shelving_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_dark_oak_shelving_3"
+  }
+}

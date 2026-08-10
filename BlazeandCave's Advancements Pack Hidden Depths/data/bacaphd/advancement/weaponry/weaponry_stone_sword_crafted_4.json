@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone"
+    },
+    "title": {
+      "translate": "Quarried for War"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 32,768 Stone Swords"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:weaponry/weaponry_stone_sword_crafted_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/weaponry_stone_sword_crafted_4"
+  }
+}

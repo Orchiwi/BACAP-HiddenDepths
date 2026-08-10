@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:squid_spawn_egg"
+    },
+    "title": {
+      "translate": "The Tentacle Trade"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 150,000 Squid"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_ink_economy_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_ink_economy_6"
+  }
+}

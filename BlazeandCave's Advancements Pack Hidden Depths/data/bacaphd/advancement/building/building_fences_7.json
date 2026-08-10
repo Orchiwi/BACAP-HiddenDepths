@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_fence"
+    },
+    "title": {
+      "translate": "Nothing Gets Out"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 150,000 Oak Fences"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_fences_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_fences_7"
+  }
+}

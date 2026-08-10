@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_carpet"
+    },
+    "title": {
+      "translate": "Carpeting the Lush Caves"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 2,048 Moss Carpets."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_moss_carpets_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_moss_carpets_2"
+  }
+}

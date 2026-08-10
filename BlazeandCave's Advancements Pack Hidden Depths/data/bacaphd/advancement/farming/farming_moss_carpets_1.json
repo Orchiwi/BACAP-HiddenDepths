@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_carpet"
+    },
+    "title": {
+      "translate": "Soft Green Underfoot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 256 Moss Carpets."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_moss_carpets_1"
+  }
+}

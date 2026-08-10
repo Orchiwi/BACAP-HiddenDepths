@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_sapling"
+    },
+    "title": {
+      "translate": "The Roof Comes Down"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 400,000 Dark Oak Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_dark_oak_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dark_oak_4"
+  }
+}

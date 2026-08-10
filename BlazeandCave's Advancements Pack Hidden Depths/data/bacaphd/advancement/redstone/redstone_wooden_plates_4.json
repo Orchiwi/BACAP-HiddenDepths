@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": {
+      "translate": "The Planked Path"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 32,000 Oak Pressure Plates"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_wooden_plates_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_plates_4"
+  }
+}

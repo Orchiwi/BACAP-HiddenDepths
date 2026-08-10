@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tiles"
+    },
+    "title": {
+      "translate": "The Deepslate Dominion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 75,000 Deepslate"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_deepslate_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_deepslate_4"
+  }
+}

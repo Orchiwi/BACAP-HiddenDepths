@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_leaves"
+    },
+    "title": {
+      "translate": "Winter Comes Early"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 400,000 Spruce Leaves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_spruce_leaves_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_spruce_leaves_5"
+  }
+}

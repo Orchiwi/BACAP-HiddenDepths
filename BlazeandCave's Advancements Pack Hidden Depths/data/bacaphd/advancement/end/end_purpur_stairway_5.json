@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_slab"
+    },
+    "title": {
+      "translate": "Stairway to Nowhere in Particular"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 50,000 Purpur Stairs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_purpur_stairway_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_purpur_stairway_5"
+  }
+}

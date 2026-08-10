@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_candle"
+    },
+    "title": {
+      "translate": "Candlelight Cathedral"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 15,000 Candles"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_candles_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_candles_6"
+  }
+}

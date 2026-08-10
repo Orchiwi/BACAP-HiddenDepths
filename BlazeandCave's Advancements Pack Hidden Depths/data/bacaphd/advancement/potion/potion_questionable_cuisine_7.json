@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "translate": "Flowers for Dinner Again"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 40,000 Suspicious Stews"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_questionable_cuisine_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_questionable_cuisine_7"
+  }
+}

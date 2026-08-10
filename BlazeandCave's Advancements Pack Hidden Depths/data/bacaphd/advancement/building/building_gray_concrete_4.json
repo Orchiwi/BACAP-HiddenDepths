@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_glazed_terracotta"
+    },
+    "title": {
+      "translate": "A Skyline of Solid Gray"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 150,000 Gray Concrete."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_gray_concrete_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_gray_concrete_4"
+  }
+}

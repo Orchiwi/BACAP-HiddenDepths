@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guardian_spawn_egg"
+    },
+    "title": {
+      "translate": "Crystal Salvage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 5,000 Prismarine Crystals"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_crystal_haul_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_crystal_haul_3"
+  }
+}

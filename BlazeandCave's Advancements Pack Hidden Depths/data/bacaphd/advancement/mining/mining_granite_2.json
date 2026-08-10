@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_granite"
+    },
+    "title": {
+      "translate": "Speckled and Spent"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 5,000 Granite"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_granite_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_granite_2"
+  }
+}

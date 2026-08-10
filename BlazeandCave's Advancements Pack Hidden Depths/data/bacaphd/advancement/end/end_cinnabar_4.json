@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cinnabar_bricks"
+    },
+    "title": {
+      "translate": "Cinnabar Baron"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 8,192 Cinnabar."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_cinnabar_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_cinnabar_4"
+  }
+}

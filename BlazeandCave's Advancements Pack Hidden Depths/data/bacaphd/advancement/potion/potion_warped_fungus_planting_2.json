@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_roots"
+    },
+    "title": {
+      "translate": "Blue Stems in the Waste"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant 1,000 Warped Fungi"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_warped_fungus_planting_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_warped_fungus_planting_2"
+  }
+}

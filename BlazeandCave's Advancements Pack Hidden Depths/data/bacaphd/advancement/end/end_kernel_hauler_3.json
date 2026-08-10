@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "The Popcorn Reserve"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect 100,000 Popped Chorus Fruit"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_kernel_hauler_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_kernel_hauler_3"
+  }
+}

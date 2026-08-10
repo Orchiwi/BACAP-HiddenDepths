@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_stained_glass_pane"
+    },
+    "title": {
+      "translate": "The Glazier's Curse"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 60,000 Glass Panes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_glass_panes_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_glass_panes_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_tuff"
+    },
+    "title": {
+      "translate": "The Tuff Palette"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 15,000 Tuff."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_tuff_blocks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_tuff_blocks_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_button"
+    },
+    "title": {
+      "translate": "Push Wood Forever"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 100,000 Oak Buttons"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_wooden_buttons_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_wooden_buttons_5"
+  }
+}

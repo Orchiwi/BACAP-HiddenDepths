@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_rabbit"
+    },
+    "title": {
+      "translate": "Rabbit on the Spit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cook 128 Rabbit"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/vegetarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_rabbit_roasted_1"
+  }
+}

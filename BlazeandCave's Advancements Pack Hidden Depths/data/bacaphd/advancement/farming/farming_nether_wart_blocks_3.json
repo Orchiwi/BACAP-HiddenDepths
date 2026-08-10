@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": {
+      "translate": "Roof of the Red Forest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 32,768 Nether Wart Blocks."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_nether_wart_blocks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_nether_wart_blocks_3"
+  }
+}

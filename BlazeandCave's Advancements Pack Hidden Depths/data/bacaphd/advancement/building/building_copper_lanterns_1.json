@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_lantern"
+    },
+    "title": {
+      "translate": "Green Glow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 32 Oxidized Copper Lanterns."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/festival_of_lights",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_copper_lanterns_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence_gate"
+    },
+    "title": {
+      "translate": "Latch and Swing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 128 Oak Fence Gates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/leveraging_synergy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_oak_fence_gates_1"
+  }
+}

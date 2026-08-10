@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_andesite"
+    },
+    "title": {
+      "translate": "The Grey in Between"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 4,000 Andesite"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_andesite_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_andesite_2"
+  }
+}

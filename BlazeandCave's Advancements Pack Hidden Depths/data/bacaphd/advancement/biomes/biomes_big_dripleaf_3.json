@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:small_dripleaf"
+    },
+    "title": {
+      "translate": "Platform Removed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 5,000 Big Dripleaf"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_big_dripleaf_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_big_dripleaf_3"
+  }
+}

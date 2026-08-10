@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_fern"
+    },
+    "title": {
+      "translate": "Waist-High Green"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 500 Large Ferns."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/foliage",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_large_ferns_1"
+  }
+}

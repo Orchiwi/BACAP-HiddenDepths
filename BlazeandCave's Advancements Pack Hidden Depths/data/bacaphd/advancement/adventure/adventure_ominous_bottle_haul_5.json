@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewer_pottery_sherd"
+    },
+    "title": {
+      "translate": "Doom by the Crate"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 15,000 Ominous Bottles"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_ominous_bottle_haul_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_ominous_bottle_haul_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azalea_leaves"
+    },
+    "title": {
+      "translate": "The Ceiling Stops Raining"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 6,400 Spore Blossoms"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_spore_blossom_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_spore_blossom_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite_slab"
+    },
+    "title": {
+      "translate": "An Ocean of Andesite"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 250,000 Polished Andesite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_speckle_by_speckle_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_speckle_by_speckle_4"
+  }
+}

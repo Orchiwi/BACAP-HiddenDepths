@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_shelf"
+    },
+    "title": {
+      "translate": "Shadowed Timber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 64 Dark Oak Shelves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_dark_oak_shelving_1"
+  }
+}

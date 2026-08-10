@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coast_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Trimmings for All"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 8,192 Smithing Tables"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_smithing_tables_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_smithing_tables_4"
+  }
+}

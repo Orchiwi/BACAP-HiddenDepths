@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "Every Axe Has Its Day"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 100 Diamond Axes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:statistics/statistics_diamond_axe_breaking_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/statistics_diamond_axe_breaking_3"
+  }
+}

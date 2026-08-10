@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "Connoisseur of the Unlabelled"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 100,000 Suspicious Stews"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_questionable_cuisine_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_questionable_cuisine_8"
+  }
+}

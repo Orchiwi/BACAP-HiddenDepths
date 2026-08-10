@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_cinnabar"
+    },
+    "title": {
+      "translate": "Quicksilver Prospector"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,048 Cinnabar."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_cinnabar_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_cinnabar_3"
+  }
+}

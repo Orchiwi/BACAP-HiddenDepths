@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_bricks"
+    },
+    "title": {
+      "translate": "The Yellow Masonry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 5,000 Sulfur Bricks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_sulfur_bricking_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_sulfur_bricking_2"
+  }
+}

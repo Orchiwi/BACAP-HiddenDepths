@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wildflowers"
+    },
+    "title": {
+      "translate": "Let a Thousand Flowers Bloom"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 40,000 Wildflowers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_wildflowers_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_wildflowers_4"
+  }
+}

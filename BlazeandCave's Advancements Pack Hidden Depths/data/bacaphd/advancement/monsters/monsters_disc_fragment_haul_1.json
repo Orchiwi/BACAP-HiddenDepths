@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:disc_fragment_5"
+    },
+    "title": {
+      "translate": "Shards of a Song"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect 16 Disc Fragments"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/blind_stare",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_disc_fragment_haul_1"
+  }
+}

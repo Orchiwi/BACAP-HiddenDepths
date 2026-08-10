@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_stairs"
+    },
+    "title": {
+      "translate": "Planking the Entire Warp Zone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 100,000 Warped Planks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_warped_planks_mined_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_warped_planks_mined_4"
+  }
+}

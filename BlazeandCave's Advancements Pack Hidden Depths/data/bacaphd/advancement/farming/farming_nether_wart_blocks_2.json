@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Harvesting the Bleeding Wood"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 4,096 Nether Wart Blocks."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_nether_wart_blocks_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_nether_wart_blocks_2"
+  }
+}

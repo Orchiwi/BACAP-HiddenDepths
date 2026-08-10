@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "Crimson Cliffs Cut Down"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 60,000 Red Sandstone"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_red_sandstone_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_red_sandstone_3"
+  }
+}

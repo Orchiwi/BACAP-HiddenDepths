@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_banner_pattern"
+    },
+    "title": {
+      "translate": "Standard Bearer of the Piglins"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drop 128 Piglin Banner Patterns"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_piglin_patterns_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_piglin_patterns_4"
+  }
+}

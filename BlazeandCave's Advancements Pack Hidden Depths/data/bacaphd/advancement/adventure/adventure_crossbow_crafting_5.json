@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pillager_spawn_egg"
+    },
+    "title": {
+      "translate": "Out-Pillaging the Pillagers"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 20,000 Crossbows"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_crossbow_crafting_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_crossbow_crafting_5"
+  }
+}

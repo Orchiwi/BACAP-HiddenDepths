@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "The Rabbit Never Escaped"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat 16,000 Rabbit Stews"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_rabbit_stew_eaten_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_rabbit_stew_eaten_4"
+  }
+}

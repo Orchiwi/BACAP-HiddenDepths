@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_spawn_egg"
+    },
+    "title": {
+      "translate": "Skulls Beyond the Wall"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 1,024 Skeleton Skulls"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:monsters/monsters_skeleton_skull_break_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/monsters_skeleton_skull_break_4"
+  }
+}

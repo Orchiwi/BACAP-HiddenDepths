@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_concrete"
+    },
+    "title": {
+      "translate": "Magenta Beyond Reason"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft 8,192 Magenta Shulker Boxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_magenta_vault_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_magenta_vault_4"
+  }
+}

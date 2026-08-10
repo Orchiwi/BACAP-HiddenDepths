@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_sandstone"
+    },
+    "title": {
+      "translate": "Desert Without End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 500,000 Sandstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_sandstone_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_sandstone_8"
+  }
+}

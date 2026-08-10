@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tube_coral"
+    },
+    "title": {
+      "translate": "The Reef Waves Back"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 2,500 Tube Coral Fans"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_coral_fans_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_coral_fans_3"
+  }
+}

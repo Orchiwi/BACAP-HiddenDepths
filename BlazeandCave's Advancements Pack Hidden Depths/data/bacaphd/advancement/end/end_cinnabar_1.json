@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cinnabar"
+    },
+    "title": {
+      "translate": "First Blush of Cinnabar"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 64 Cinnabar."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/some_breakthrough",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_cinnabar_1"
+  }
+}

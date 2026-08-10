@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potent_sulfur"
+    },
+    "title": {
+      "translate": "Purest Brimstone Unearthed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 16,000 Potent Sulfur"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_potent_sulfur_dug_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_potent_sulfur_dug_4"
+  }
+}

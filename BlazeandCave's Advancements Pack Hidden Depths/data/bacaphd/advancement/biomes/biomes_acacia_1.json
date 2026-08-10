@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_log"
+    },
+    "title": {
+      "translate": "Savanna Sawmill"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Acacia Logs"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/high_feet",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_acacia_1"
+  }
+}

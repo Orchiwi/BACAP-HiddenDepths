@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_shulker_box"
+    },
+    "title": {
+      "translate": "Fifty Thousand Unpackings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 50,000 Shulker Boxes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_shulker_box_nomad_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_shulker_box_nomad_7"
+  }
+}

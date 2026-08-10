@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal_block"
+    },
+    "title": {
+      "translate": "The Coal Bunker"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 32,768 Coal"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_haul_coal_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_haul_coal_2"
+  }
+}

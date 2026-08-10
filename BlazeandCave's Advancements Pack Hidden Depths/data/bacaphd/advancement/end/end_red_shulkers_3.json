@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_terracotta"
+    },
+    "title": {
+      "translate": "Red Tape"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft 128 Red Shulker Boxes."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:end/end_red_shulkers_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/end_red_shulkers_3"
+  }
+}

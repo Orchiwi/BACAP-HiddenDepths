@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_ore"
+    },
+    "title": {
+      "translate": "The Blue Seam Runs Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 10,000 Lapis Lazuli Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:enchanting/enchanting_lapis_seams_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/enchanting_lapis_seams_5"
+  }
+}

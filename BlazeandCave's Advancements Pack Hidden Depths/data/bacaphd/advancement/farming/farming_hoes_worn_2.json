@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": {
+      "translate": "Handles by the Dozen"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wear out 50 Iron Hoes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_hoes_worn_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_hoes_worn_2"
+  }
+}

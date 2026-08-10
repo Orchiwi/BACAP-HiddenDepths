@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lilac"
+    },
+    "title": {
+      "translate": "Lilac Empire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 8,192 Lilacs."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_lilac_fields_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_lilac_fields_4"
+  }
+}

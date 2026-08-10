@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom_block"
+    },
+    "title": {
+      "translate": "Mycelium Magnate"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break 250,000 Brown Mushroom Blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_mushroom_blocks_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_mushroom_blocks_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Violet Windows"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 2,500 Purple Stained Glass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:potion/potion_violet_glazing_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/potion_violet_glazing_2"
+  }
+}

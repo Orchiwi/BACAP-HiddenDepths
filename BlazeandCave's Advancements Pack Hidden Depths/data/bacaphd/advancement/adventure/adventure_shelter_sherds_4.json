@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shelter_pottery_sherd"
+    },
+    "title": {
+      "translate": "Roof Over Every Head"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 512 Shelter Pottery Sherds"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_shelter_sherds_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_shelter_sherds_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_log"
+    },
+    "title": {
+      "translate": "A Savanna Seeded Forever"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 50,000 Acacia Saplings."
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:farming/farming_acacia_saplings_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/farming_acacia_saplings_4"
+  }
+}

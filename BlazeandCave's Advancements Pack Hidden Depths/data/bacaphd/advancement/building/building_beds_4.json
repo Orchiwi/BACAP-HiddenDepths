@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_bed"
+    },
+    "title": {
+      "translate": "Village of Dreams"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 2,000 White Beds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_beds_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_beds_4"
+  }
+}

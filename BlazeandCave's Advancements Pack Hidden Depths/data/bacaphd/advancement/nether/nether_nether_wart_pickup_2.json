@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "The Soul Sand Plantation"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect 10,000 Nether Wart"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_nether_wart_pickup_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_nether_wart_pickup_2"
+  }
+}

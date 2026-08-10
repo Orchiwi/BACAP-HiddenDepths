@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_slab"
+    },
+    "title": {
+      "translate": "Fortress Flooring"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 4,096 Nether Brick Slabs."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_brick_slabs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_brick_slabs_2"
+  }
+}

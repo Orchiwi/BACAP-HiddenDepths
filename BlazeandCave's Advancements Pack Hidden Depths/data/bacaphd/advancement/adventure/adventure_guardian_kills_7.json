@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guardian_spawn_egg"
+    },
+    "title": {
+      "translate": "Spines and Splinters"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 700,000 Guardians"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_guardian_kills_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_guardian_kills_7"
+  }
+}

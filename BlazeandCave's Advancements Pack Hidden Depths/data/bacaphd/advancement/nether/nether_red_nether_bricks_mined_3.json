@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_brick_stairs"
+    },
+    "title": {
+      "translate": "The Crimson Kiln"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 5,000 Red Nether Bricks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:nether/nether_red_nether_bricks_mined_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/nether_red_nether_bricks_mined_3"
+  }
+}

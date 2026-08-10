@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_stairs"
+    },
+    "title": {
+      "translate": "Where the Mountain Stood"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 5,000,000 Stone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:mining/mining_stone_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mining_stone_8"
+  }
+}

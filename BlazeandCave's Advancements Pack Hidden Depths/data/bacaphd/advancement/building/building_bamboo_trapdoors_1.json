@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_trapdoor"
+    },
+    "title": {
+      "translate": "A Hatch in the Floor"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place 32 Bamboo Trapdoors."
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/its_a_trap",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_bamboo_trapdoors_1"
+  }
+}

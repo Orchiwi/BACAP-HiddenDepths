@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_redstone_ore"
+    },
+    "title": {
+      "translate": "The Manufactured Motherlode"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 4,096 Deepslate Redstone Ore"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:redstone/redstone_deepslate_ore_placing_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/redstone_deepslate_ore_placing_4"
+  }
+}

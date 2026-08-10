@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:llama_spawn_egg"
+    },
+    "title": {
+      "translate": "Spat At One Time Too Many"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 50 Trader Llamas"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/deals_off",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_trader_llama_kills_1"
+  }
+}

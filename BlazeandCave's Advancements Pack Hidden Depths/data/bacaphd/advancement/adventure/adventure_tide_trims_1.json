@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tide_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Cast in the Tide"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft 4 Tide Armor Trim Smithing Templates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/mold_maker",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_tide_trims_1"
+  }
+}

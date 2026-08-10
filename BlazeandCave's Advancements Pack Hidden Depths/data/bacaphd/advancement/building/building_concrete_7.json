@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_concrete"
+    },
+    "title": {
+      "translate": "Reinforced Ambition"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place 150,000 White Concrete"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:building/building_concrete_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_concrete_7"
+  }
+}

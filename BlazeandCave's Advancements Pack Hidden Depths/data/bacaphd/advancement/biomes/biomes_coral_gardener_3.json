@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brain_coral_block"
+    },
+    "title": {
+      "translate": "Gardener of the Shallows"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place 1,024 Brain Coral Blocks."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_coral_gardener_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_coral_gardener_3"
+  }
+}

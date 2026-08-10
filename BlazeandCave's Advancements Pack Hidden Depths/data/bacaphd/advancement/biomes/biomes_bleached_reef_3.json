@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_tube_coral_block"
+    },
+    "title": {
+      "translate": "The Bleached Shelf"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine 512 Dead Tube Coral Blocks."
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_bleached_reef_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_bleached_reef_3"
+  }
+}

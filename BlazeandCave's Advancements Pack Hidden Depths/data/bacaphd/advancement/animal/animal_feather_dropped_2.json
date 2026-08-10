@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken"
+    },
+    "title": {
+      "translate": "Plucked Clean"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drop 1,024 Feathers"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:animal/animal_feather_dropped_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/animal_feather_dropped_2"
+  }
+}

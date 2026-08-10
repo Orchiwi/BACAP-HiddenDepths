@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_concrete"
+    },
+    "title": {
+      "translate": "The Green Bank"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 5,000 Blocks of Emerald"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:adventure/adventure_emerald_block_haul_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/adventure_emerald_block_haul_3"
+  }
+}

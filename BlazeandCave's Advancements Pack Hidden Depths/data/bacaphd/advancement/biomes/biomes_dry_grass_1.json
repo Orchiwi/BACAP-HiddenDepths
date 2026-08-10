@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:short_dry_grass"
+    },
+    "title": {
+      "translate": "Brittle Harvest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mine 1,000 Short Dry Grass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/theres_a_zombie_on_the_lawn",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_dry_grass_1"
+  }
+}

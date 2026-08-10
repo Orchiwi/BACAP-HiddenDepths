@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_planks"
+    },
+    "title": {
+      "translate": "The Pale Woods Vanish"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mine 500,000 Birch Logs"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaphd:biomes/biomes_birch_forest_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/biomes_birch_forest_7"
+  }
+}
