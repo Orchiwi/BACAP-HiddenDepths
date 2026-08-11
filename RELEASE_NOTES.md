@@ -9,13 +9,13 @@ already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-HiddenDepths-v0.1.0-alpha.13.zip`** below and drop it into
+Download **`BACAP-HiddenDepths-v0.1.0-alpha.14.zip`** below and drop it into
 your world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip            <- required, install first
-  BACAP-HiddenDepths-v0.1.0-alpha.13.zip                        <- this pack (rename freely)
+  BACAP-HiddenDepths-v0.1.0-alpha.14.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard
