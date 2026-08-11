@@ -1,0 +1,258 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Melon Slicer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Point a Piston at a Melon and an Observer at the Melon Stem that feeds it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/scientific_inaccuracy",
+  "criteria": {
+    "piston": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:piston",
+                        "state": {
+                          "facing": "north"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:melon"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:piston",
+                        "state": {
+                          "facing": "south"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:melon"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:piston",
+                        "state": {
+                          "facing": "east"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:melon"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:piston",
+                        "state": {
+                          "facing": "west"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:melon"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "observer": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:observer",
+                        "state": {
+                          "facing": "north"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:melon_stem",
+                          "minecraft:attached_melon_stem"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:observer",
+                        "state": {
+                          "facing": "south"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetZ": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:melon_stem",
+                          "minecraft:attached_melon_stem"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:observer",
+                        "state": {
+                          "facing": "east"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:melon_stem",
+                          "minecraft:attached_melon_stem"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:observer",
+                        "state": {
+                          "facing": "west"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:melon_stem",
+                          "minecraft:attached_melon_stem"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/melon_slicer"
+  }
+}

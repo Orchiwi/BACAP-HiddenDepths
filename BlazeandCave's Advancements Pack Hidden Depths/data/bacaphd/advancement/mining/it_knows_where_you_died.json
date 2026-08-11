@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "It Knows Where You Died"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be killed by the Warden while holding the Recovery Compass that will point you straight back to it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "criteria": {
+    "return_trip": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:warden"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:recovery_compass"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/it_knows_where_you_died"
+  }
+}

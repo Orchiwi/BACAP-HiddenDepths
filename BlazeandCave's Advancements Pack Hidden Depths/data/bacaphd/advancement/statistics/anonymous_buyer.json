@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Anonymous Buyer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy something while completely invisible. The Villager takes it remarkably well"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_spender",
+  "criteria": {
+    "unseen_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/anonymous_buyer"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Out of Bolts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shoot a Crossbow until the stock gives out and it comes apart in your hands"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "snapped_bow": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/out_of_bolts"
+  }
+}

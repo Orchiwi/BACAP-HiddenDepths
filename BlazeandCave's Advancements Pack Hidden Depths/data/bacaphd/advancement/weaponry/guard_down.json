@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Guard Down"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Die to an arrow with a perfectly good Shield sitting unraised in your off hand"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/loser",
+  "criteria": {
+    "unraised": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/guard_down"
+  }
+}

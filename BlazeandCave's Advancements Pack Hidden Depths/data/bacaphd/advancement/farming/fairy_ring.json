@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "Fairy Ring"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Mushroom hemmed in by Mushrooms on all four sides"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/shrooms",
+  "criteria": {
+    "ring": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom",
+                  "minecraft:red_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom",
+                  "minecraft:red_mushroom"
+                ]
+              }
+            },
+            "offsetX": 1
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom",
+                  "minecraft:red_mushroom"
+                ]
+              }
+            },
+            "offsetX": -1
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom",
+                  "minecraft:red_mushroom"
+                ]
+              }
+            },
+            "offsetZ": 1
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom",
+                  "minecraft:red_mushroom"
+                ]
+              }
+            },
+            "offsetZ": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fairy_ring"
+  }
+}

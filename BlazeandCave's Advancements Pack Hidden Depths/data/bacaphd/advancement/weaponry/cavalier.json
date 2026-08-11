@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Cavalier"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land a Spear charge attack from the saddle of a Horse"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/britney_spears",
+  "criteria": {
+    "horse_charge": {
+      "trigger": "minecraft:spear_mobs",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/cavalier"
+  }
+}

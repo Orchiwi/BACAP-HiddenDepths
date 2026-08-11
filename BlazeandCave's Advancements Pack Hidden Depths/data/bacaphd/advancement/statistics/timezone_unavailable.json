@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "Timezone Unavailable"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Clock in the Nether and watch it give up on the concept of morning"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/happy_new_year",
+  "criteria": {
+    "lost_time": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clock"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/timezone_unavailable"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_planks"
+    },
+    "title": {
+      "translate": "Wooden Nightmare"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Creaking in the Pale Garden that made it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/loser",
+  "criteria": {
+    "creaked": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "entity_type": "minecraft:creaking"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/wooden_nightmare"
+  }
+}

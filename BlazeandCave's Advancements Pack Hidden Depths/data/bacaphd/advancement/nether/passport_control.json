@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_banner_pattern"
+    },
+    "title": {
+      "translate": "Passport Control"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Step through a Nether Portal wearing a Piglin Head"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/from_whence_it_came",
+  "criteria": {
+    "crossed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:piglin_head"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/passport_control"
+  }
+}

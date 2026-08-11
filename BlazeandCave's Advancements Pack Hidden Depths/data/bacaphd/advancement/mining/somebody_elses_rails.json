@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Somebody Else's Rails"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Minecart along track that was laid in an Abandoned Mineshaft long before you arrived"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/steals_on_wheels",
+  "criteria": {
+    "mine_cart": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "structures": "minecraft:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/somebody_elses_rails"
+  }
+}

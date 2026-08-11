@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Both Ends of the Line"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Board a Minecart in the Nether and again in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "nether": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "end": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/both_ends_of_the_line"
+  }
+}

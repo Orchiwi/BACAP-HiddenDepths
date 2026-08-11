@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Second Chance in Hell"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have a Totem of Undying pull you back together in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/let_me_out",
+  "criteria": {
+    "saved": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/second_chance_in_hell"
+  }
+}

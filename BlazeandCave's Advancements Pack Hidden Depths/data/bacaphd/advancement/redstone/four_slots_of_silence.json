@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Four Slots of Silence"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold a Shulker Box whose first four slots are a Sculk Sensor, a Calibrated Sculk Sensor, a Sculk Shrieker and a Sculk Catalyst"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sculker_box",
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_box",
+              "minecraft:white_shulker_box",
+              "minecraft:orange_shulker_box",
+              "minecraft:magenta_shulker_box",
+              "minecraft:light_blue_shulker_box",
+              "minecraft:yellow_shulker_box",
+              "minecraft:lime_shulker_box",
+              "minecraft:pink_shulker_box",
+              "minecraft:gray_shulker_box",
+              "minecraft:light_gray_shulker_box",
+              "minecraft:cyan_shulker_box",
+              "minecraft:purple_shulker_box",
+              "minecraft:blue_shulker_box",
+              "minecraft:brown_shulker_box",
+              "minecraft:green_shulker_box",
+              "minecraft:red_shulker_box",
+              "minecraft:black_shulker_box"
+            ],
+            "components": {
+              "minecraft:container": [
+                {
+                  "slot": 0,
+                  "item": {
+                    "id": "minecraft:sculk_sensor"
+                  }
+                },
+                {
+                  "slot": 1,
+                  "item": {
+                    "id": "minecraft:calibrated_sculk_sensor"
+                  }
+                },
+                {
+                  "slot": 2,
+                  "item": {
+                    "id": "minecraft:sculk_shrieker"
+                  }
+                },
+                {
+                  "slot": 3,
+                  "item": {
+                    "id": "minecraft:sculk_catalyst"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/four_slots_of_silence"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "Concussive Maintenance"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Flatten a Copper Golem with a Mace smash"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "flattened": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:copper_golem"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/concussive_maintenance"
+  }
+}

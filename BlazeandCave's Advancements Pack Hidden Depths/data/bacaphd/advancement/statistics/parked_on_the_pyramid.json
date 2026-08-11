@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "Parked on the Pyramid"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Camel around inside a Desert Pyramid without falling into the hole"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/horse_training",
+  "criteria": {
+    "inside": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:camel"
+              },
+              "location": {
+                "structures": "desert_pyramid"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/parked_on_the_pyramid"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "Birthday in Hell"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut yourself a slice of Cake in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hells_bells",
+  "criteria": {
+    "nether_cake": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/birthday_in_hell"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Greening the Desert"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Make one Desert hold Wheat, an Oak Sapling, Sugar Cane, Moss Carpet, a Flowering Azalea, a Big Dripleaf and a Lily Pad"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "criteria": {
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:oak_sapling"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sugar_cane": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_carpet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:moss_carpet"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "flowering_azalea": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:flowering_azalea"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "big_dripleaf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:big_dripleaf"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lily_pad": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:lily_pad"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/greening_the_desert"
+  }
+}

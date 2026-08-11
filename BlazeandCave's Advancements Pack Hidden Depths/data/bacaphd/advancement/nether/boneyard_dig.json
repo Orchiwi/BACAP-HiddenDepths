@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_block"
+    },
+    "title": {
+      "translate": "Boneyard Dig"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Come away from a Nether Fossil with the Bone Blocks it was made of"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nether_rock_collection",
+  "criteria": {
+    "fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:soul_sand_valley"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/boneyard_dig"
+  }
+}

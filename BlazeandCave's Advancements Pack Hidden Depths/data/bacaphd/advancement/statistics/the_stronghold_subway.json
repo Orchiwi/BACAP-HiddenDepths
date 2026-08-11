@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_bricks"
+    },
+    "title": {
+      "translate": "The Stronghold Subway"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Run a Minecart line through the corridors of a Stronghold, past the librarians' shelves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/minecart_rider",
+  "criteria": {
+    "underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "structures": "stronghold"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/the_stronghold_subway"
+  }
+}

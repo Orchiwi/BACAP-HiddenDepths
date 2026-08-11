@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Eight Times the Legwork"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cover a full kilometre inside the Nether before stepping back out into daylight"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/65_hours_of_walking",
+  "criteria": {
+    "long_haul": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 1000.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/eight_times_the_legwork"
+  }
+}

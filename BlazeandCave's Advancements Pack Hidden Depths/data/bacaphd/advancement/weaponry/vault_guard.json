@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "Vault Guard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a monster while standing on top of a Vault"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "on_the_vault": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:vault"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/vault_guard"
+  }
+}

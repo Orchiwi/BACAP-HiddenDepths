@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:infested_stone_bricks"
+    },
+    "title": {
+      "translate": "Compound Problem"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a mob that is Weaving and Infested at once, so the Cobwebs arrive full of Silverfish"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "double_trouble": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "effects": {
+            "minecraft:weaving": {},
+            "minecraft:infested": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/compound_problem"
+  }
+}

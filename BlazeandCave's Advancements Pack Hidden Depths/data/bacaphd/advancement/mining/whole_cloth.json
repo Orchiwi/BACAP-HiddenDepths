@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Whole Cloth"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Come away with a block of Deepslate itself instead of the cobbled rubble it usually leaves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "criteria": {
+    "intact_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/whole_cloth"
+  }
+}

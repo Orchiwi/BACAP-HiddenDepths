@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "On the Last Tooth"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear a Diamond Pickaxe down to a single point of durability and then stop swinging"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "criteria": {
+    "one_left": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ]
+        },
+        "durability": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/on_the_last_tooth"
+  }
+}

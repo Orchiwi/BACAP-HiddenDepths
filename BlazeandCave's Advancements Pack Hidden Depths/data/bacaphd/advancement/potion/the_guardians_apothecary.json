@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "The Guardians' Apothecary"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a potion out of a Brewing Stand inside an Ocean Monument while under Water Breathing"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "brewed": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:monument"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:water_breathing": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_guardians_apothecary"
+  }
+}

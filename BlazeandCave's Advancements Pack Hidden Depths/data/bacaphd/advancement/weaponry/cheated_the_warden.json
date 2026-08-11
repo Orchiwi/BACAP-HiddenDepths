@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Cheated the Warden"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pop a Totem of Undying in the Deep Dark, then leave before you need a second one"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/half_heart_life",
+  "criteria": {
+    "second_chance": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/cheated_the_warden"
+  }
+}

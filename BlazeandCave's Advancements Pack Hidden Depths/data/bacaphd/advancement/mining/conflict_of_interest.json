@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "Conflict of Interest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Diamond Pickaxe while standing on a Diamond Ore block you have not broken yet"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/even_moar_tools",
+  "criteria": {
+    "on_the_vein": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/conflict_of_interest"
+  }
+}

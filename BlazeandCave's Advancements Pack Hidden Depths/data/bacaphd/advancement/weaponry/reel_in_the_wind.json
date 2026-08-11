@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Reel in the Wind"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hook a Breeze on a Fishing Rod inside a Trial Chamber and drag the wind back down to you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/pig_fishing_tournament",
+  "criteria": {
+    "hooked_breeze": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:breeze"
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/reel_in_the_wind"
+  }
+}

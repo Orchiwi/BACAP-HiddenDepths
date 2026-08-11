@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ravager_spawn_egg"
+    },
+    "title": {
+      "translate": "Bull on a String"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hook a Ravager on a Fishing Rod and hold on for exactly as long as that works"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/when_pigs_finally_fly",
+  "criteria": {
+    "hooked_ravager": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bull_on_a_string"
+  }
+}

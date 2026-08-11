@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Down Here Without a Bruise"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Stand fifty blocks below sea level with your damage taken still sitting on zero"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/bloodthirsty",
+  "criteria": {
+    "deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "max": -50
+                  }
+                }
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:damage_taken",
+                    "value": {
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/down_here_without_a_bruise"
+  }
+}

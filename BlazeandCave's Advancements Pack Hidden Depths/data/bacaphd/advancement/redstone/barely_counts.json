@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Barely Counts"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Clip the very outside ring of a Target Block for a signal strength of one"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_acquired",
+  "criteria": {
+    "outer_ring": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 1
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/barely_counts"
+  }
+}

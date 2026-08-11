@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Cross-Border Rail"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay track straight through a Nether portal and ride a Minecart over the border"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_like_trains",
+  "criteria": {
+    "crossed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/cross_border_rail"
+  }
+}

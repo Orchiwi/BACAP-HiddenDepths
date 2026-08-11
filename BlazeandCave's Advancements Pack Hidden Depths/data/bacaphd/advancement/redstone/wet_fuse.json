@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Wet Fuse"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place TNT while you are underwater. It still goes off, it just stops breaking things"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/mobile_explosion",
+  "criteria": {
+    "soggy_tnt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tnt"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/wet_fuse"
+  }
+}

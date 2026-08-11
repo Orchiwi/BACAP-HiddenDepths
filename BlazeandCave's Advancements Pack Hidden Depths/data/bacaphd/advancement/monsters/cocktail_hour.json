@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Cocktail Hour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be carrying a Witch's Poison, Slowness and Weakness all at the same moment"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/witch",
+  "criteria": {
+    "three_at_once": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {},
+          "minecraft:slowness": {},
+          "minecraft:weakness": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/cocktail_hour"
+  }
+}

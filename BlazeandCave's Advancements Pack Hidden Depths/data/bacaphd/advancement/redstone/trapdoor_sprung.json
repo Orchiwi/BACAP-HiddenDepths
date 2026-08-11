@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_trapdoor"
+    },
+    "title": {
+      "translate": "Trapdoor Sprung"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place an Iron Trapdoor into a powered spot and watch it drop open under your feet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/engineer",
+  "criteria": {
+    "prepowered_trapdoor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_trapdoor"
+                ],
+                "state": {
+                  "powered": "true",
+                  "open": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/trapdoor_sprung"
+  }
+}

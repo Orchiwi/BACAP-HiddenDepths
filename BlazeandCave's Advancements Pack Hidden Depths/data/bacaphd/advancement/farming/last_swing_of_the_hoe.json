@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
+    },
+    "title": {
+      "translate": "Last Swing of the Hoe"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wear a Hoe down to its very last use without letting it break"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "worn_out": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_hoe",
+            "minecraft:stone_hoe",
+            "minecraft:copper_hoe",
+            "minecraft:iron_hoe",
+            "minecraft:golden_hoe",
+            "minecraft:diamond_hoe",
+            "minecraft:netherite_hoe"
+          ]
+        },
+        "durability": {
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/last_swing_of_the_hoe"
+  }
+}

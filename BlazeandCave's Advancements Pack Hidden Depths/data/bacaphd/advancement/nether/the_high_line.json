@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "The High Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Climb into a Minecart on top of the Nether roof"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/limbo_walker",
+  "criteria": {
+    "rooftop_rail": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "position": {
+              "y": {
+                "min": 128
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_high_line"
+  }
+}

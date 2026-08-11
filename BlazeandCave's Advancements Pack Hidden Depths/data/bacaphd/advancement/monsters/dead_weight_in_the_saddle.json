@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Dead Weight in the Saddle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill the Skeleton riding a Skeleton Horse and leave the horse standing there, riderless"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_undead_cavalry",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton",
+          "vehicle": {
+            "entity_type": "minecraft:skeleton_horse"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/dead_weight_in_the_saddle"
+  }
+}

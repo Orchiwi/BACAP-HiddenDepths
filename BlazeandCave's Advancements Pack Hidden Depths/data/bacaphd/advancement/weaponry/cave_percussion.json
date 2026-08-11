@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bat_spawn_egg"
+    },
+    "title": {
+      "translate": "Cave Percussion"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drop out of the dark onto a Bat and finish it with a Mace smash, which takes more timing than it deserves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "batted": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:bat"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/cave_percussion"
+  }
+}

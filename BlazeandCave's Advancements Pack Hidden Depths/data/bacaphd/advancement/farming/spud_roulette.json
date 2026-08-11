@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "Spud Roulette"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Eat a Poisonous Potato while Poison is already running through you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/not_today",
+  "criteria": {
+    "double_dose": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:poison": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/spud_roulette"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Calling Off the Raid"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink Milk while carrying Bad Omen, so the village never learns you were coming"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:bad_omen": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/calling_off_the_raid"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "The Only Pickaxe You'll Ever Need"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold a Diamond Pickaxe carrying Efficiency V, Fortune III, Unbreaking III and Mending all at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iconic_merchandising_prop",
+  "criteria": {
+    "perfect_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/the_only_pickaxe_youll_ever_need"
+  }
+}

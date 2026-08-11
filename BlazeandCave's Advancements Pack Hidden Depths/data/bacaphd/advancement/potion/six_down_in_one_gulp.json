@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "translate": "Six Down in One Gulp"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drink Milk while under six different potion effects and lose every one of them"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:speed": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:strength": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:jump_boost": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:regeneration": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:fire_resistance": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:night_vision": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/six_down_in_one_gulp"
+  }
+}

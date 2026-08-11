@@ -1,0 +1,160 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "translate": "The Four Giants"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Force all four giants out of the ground: a huge Red Mushroom, a huge Brown Mushroom, a huge Crimson Fungus and a huge Warped Fungus"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mega_mushroom",
+  "criteria": {
+    "red": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:red_mushroom"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dirt",
+                  "minecraft:grass_block",
+                  "minecraft:podzol",
+                  "minecraft:mycelium",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "minecraft:coarse_dirt",
+                  "minecraft:rooted_dirt"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:brown_mushroom"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dirt",
+                  "minecraft:grass_block",
+                  "minecraft:podzol",
+                  "minecraft:mycelium",
+                  "minecraft:moss_block",
+                  "minecraft:mud",
+                  "minecraft:coarse_dirt",
+                  "minecraft:rooted_dirt"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:crimson_fungus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:crimson_nylium"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:warped_fungus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:warped_nylium"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_four_giants"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Track Maintenance"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay a Rail inside an Abandoned Mineshaft, closing one of the gaps the old crew never got to"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/steals_on_wheels",
+  "criteria": {
+    "patched": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail"
+                ]
+              },
+              "structures": "minecraft:mineshaft"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/track_maintenance"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Only Helps On The Way Up"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take fall damage while Jump Boost is still running. It was never going to catch you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hopping_mad",
+  "criteria": {
+    "bad_landing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:jump_boost": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/only_helps_on_the_way_up"
+  }
+}

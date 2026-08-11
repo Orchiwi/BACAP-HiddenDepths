@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Poisoned Twice Over"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Cave Spider while the Poison from the last one is still working through you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/poisonous_ew",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:cave_spider"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:poison": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/poisoned_twice_over"
+  }
+}

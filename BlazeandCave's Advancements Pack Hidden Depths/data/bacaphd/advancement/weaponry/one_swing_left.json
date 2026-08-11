@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "One Swing Left"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Sword down to its very last point of durability and have the sense to stop swinging"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "last_point": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_sword",
+            "minecraft:stone_sword",
+            "minecraft:copper_sword",
+            "minecraft:golden_sword",
+            "minecraft:iron_sword",
+            "minecraft:diamond_sword",
+            "minecraft:netherite_sword"
+          ]
+        },
+        "durability": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/one_swing_left"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Express Line Through Hell"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cover a kilometre of Overworld through the Nether without letting Speed run out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "travelled": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 1000
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:speed": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/express_line_through_hell"
+  }
+}

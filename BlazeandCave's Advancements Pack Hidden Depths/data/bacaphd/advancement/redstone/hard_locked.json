@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:repeater"
+    },
+    "title": {
+      "translate": "Hard Locked"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place a Repeater beside a powered one facing it, so the new Repeater is locked before it ever ticks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/repeating_repeater",
+  "criteria": {
+    "locked": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:repeater"
+                ],
+                "state": {
+                  "locked": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hard_locked"
+  }
+}

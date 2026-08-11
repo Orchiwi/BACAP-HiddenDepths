@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Ceiling Unlimited"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Happy Ghast over 250 blocks above the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/midport_village",
+  "criteria": {
+    "high_flight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              },
+              "location": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                  "y": {
+                    "min": 250
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/ceiling_unlimited"
+  }
+}

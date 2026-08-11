@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Automated Alloy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Crafter alloy a Netherite Ingot for you while you watch"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/diamonds_are_not_forever",
+  "criteria": {
+    "machine_made": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_ingot"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/automated_alloy"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot"
+    },
+    "title": {
+      "translate": "Trespass and Till"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put a crop in the ground inside a Desert Pyramid, a Jungle Temple, an Ancient City and a Pillager Outpost"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "desert_pyramid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:desert_pyramid"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_temple": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:jungle_pyramid"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:ancient_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "outpost": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:pillager_outpost"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/trespass_and_till"
+  }
+}

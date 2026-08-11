@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Drive-By Trigger"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Trip a tripwire without touching the ground, rolling through it in a Minecart"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "rolling_trip": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:tripwire",
+        "state": {
+          "attached": "true",
+          "powered": "true"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/drive_by_trigger"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lever"
+    },
+    "title": {
+      "translate": "Switched On in a Storm"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Flick a Lever above y=200 in the middle of a thunderstorm"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/leveraging_synergy",
+  "criteria": {
+    "storm_switch": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lever"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 200
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/switched_on_in_a_storm"
+  }
+}

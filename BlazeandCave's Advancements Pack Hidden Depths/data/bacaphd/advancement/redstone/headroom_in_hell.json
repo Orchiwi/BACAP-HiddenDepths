@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Headroom in Hell"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Launch yourself 80 blocks up with TNT in the Nether, ceiling permitting"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "nether_launch": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:tnt"
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 80.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/headroom_in_hell"
+  }
+}

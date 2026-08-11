@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Carriage to Carriage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Loot a mineshaft's Minecart with Chest while sitting in a Minecart of your own"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "train_robbery": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/abandoned_mineshaft",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/carriage_to_carriage"
+  }
+}

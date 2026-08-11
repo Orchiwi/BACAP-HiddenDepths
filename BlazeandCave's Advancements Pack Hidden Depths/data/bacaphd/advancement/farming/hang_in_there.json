@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_propagule"
+    },
+    "title": {
+      "translate": "Hang In There"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Mangrove Propagule so that it dangles from Mangrove Leaves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_mangrove_grove",
+  "criteria": {
+    "dangling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mangrove_propagule"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mangrove_leaves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/hang_in_there"
+  }
+}

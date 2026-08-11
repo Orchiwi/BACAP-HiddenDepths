@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hopper"
+    },
+    "title": {
+      "translate": "Self-Assembling Plumbing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Crafter build a Hopper for its own supply line"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_hopper",
+  "criteria": {
+    "auto_hopper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hopper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/self_assembling_plumbing"
+  }
+}

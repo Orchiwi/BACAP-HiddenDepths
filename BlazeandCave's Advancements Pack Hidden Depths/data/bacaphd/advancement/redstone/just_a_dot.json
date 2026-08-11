@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Just a Dot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place Redstone Dust that connects to absolutely nothing on any side"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/root",
+  "criteria": {
+    "lonely_dust": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_wire"
+                ],
+                "state": {
+                  "north": "none",
+                  "east": "none",
+                  "south": "none",
+                  "west": "none"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/just_a_dot"
+  }
+}

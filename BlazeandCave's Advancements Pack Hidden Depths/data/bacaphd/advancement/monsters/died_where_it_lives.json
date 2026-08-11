@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Died Where It Lives"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Let an Evoker finish you off inside the Woodland Mansion it has never once left"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/dungeon_crawler",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:evoker"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mansion"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/died_where_it_lives"
+  }
+}

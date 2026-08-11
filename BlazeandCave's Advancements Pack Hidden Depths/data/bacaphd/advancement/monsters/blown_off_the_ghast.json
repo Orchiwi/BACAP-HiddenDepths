@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Blown Off the Ghast"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Warden's sonic boom to the chest while riding a Happy Ghast, and keep hold of it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/maximum_resistance",
+  "criteria": {
+    "boomed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:warden"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/blown_off_the_ghast"
+  }
+}

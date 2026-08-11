@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken"
+    },
+    "title": {
+      "translate": "Steed Removed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take the Chicken out from under a Chicken Jockey and leave the rider standing there"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/poultry_boy",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:chicken",
+          "passenger": {
+            "entity_type": "minecraft:zombie",
+            "flags": {
+              "is_baby": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/steed_removed"
+  }
+}

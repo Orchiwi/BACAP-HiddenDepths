@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Modernising the Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay a Powered Rail in an Abandoned Mineshaft and bring the old line up to standard"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "new_track": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:powered_rail"
+                ]
+              },
+              "structures": "minecraft:mineshaft"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/modernising_the_line"
+  }
+}

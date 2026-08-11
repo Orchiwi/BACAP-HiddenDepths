@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Culture Shock"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Zoglin in the Overworld, where the Hoglin you led through the portal ended up"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zoglin",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/culture_shock"
+  }
+}

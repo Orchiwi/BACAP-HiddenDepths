@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "Grave Concerns"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set Crying Obsidian into an Ancient City so at least something down there is mourning properly"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "weeping": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crying_obsidian"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/grave_concerns"
+  }
+}

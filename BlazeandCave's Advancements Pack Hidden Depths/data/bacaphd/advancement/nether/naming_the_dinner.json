@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "Naming the Dinner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Name Tag on a Hoglin, which is always a mistake"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/whole_hog",
+  "criteria": {
+    "named_hog": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:hoglin"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/naming_the_dinner"
+  }
+}

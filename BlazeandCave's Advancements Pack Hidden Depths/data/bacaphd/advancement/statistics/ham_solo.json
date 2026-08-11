@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pig_spawn_egg"
+    },
+    "title": {
+      "translate": "Ham Solo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Steer a Pig into the Nether on nothing but a Carrot on a Stick and blind optimism"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/lightning_mcpig",
+  "criteria": {
+    "crossed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:pig"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/ham_solo"
+  }
+}

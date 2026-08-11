@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polar_bear_spawn_egg"
+    },
+    "title": {
+      "translate": "Bear on a Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Polar Bear with a Fishing Rod and immediately reconsider the whole idea"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/pig_fishing_tournament",
+  "criteria": {
+    "hooked_bear": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:polar_bear"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bear_on_a_line"
+  }
+}

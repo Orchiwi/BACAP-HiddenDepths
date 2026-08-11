@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_fungus"
+    },
+    "title": {
+      "translate": "Naturalised Livestock"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Breed a pair of Hoglins in the Overworld before the pair of them turn"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/when_hoglins_breed",
+  "criteria": {
+    "bred_abroad": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:hoglin",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/naturalised_livestock"
+  }
+}

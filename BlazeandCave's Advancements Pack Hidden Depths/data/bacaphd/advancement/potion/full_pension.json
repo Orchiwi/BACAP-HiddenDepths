@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Full Pension"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break a raid raised by the strongest Bad Omen there is and walk out a Hero of the Village V"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "hero_five": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hero_of_the_village": {
+            "amplifier": {
+              "min": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/full_pension"
+  }
+}

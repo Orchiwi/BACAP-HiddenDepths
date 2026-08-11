@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Break Room"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Campfire below y-level -50 and take five minutes off from the deepslate"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "deep_fire": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -50.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/break_room"
+  }
+}

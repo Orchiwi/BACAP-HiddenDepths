@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "Burning the Furniture"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Torch out of Charcoal while standing in complete darkness"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/renewable_energy",
+  "criteria": {
+    "dark_torch": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:torch",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:charcoal"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "light": {
+                  "light": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/burning_the_furniture"
+  }
+}

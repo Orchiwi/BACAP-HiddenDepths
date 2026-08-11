@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Nether Snare"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a Tripwire Hook inside a Nether Fortress"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "fortress_hook": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ]
+              },
+              "structures": "minecraft:fortress"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/nether_snare"
+  }
+}

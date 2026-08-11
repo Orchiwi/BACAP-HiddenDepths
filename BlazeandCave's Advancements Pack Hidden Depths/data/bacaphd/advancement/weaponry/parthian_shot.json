@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Parthian Shot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill something with an arrow from the back of a moving Horse, the oldest trick in cavalry"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/the_mighty_hunter",
+  "criteria": {
+    "horseback": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:horse"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/parthian_shot"
+  }
+}

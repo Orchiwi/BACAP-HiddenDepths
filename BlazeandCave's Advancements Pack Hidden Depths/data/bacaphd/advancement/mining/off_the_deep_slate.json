@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "Off the Deep Slate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Stone Pickaxe out of Cobbled Deepslate instead of ordinary cobblestone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "criteria": {
+    "deepslate_pick": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/off_the_deep_slate"
+  }
+}

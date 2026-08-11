@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Live Third Rail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand on a Powered Rail while it is switched on"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/railwayman",
+  "criteria": {
+    "live": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powered_rail",
+        "state": {
+          "powered": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/live_third_rail"
+  }
+}

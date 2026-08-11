@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Killed by Your Own Fuse"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be finished off by your own primed TNT"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "self_destruct": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:tnt"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/killed_by_your_own_fuse"
+  }
+}

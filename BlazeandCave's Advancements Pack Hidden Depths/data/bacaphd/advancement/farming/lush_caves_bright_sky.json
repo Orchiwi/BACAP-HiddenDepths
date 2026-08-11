@@ -1,0 +1,127 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azalea"
+    },
+    "title": {
+      "translate": "Lush Caves, Bright Sky"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Grow the Lush Caves out in the open: Moss Carpet, an Azalea, a Flowering Azalea, a Small Dripleaf and a Big Dripleaf, all under open sky"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "criteria": {
+    "moss_carpet": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:moss_carpet"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "can_see_sky": true
+            }
+          }
+        ]
+      }
+    },
+    "azalea": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:azalea"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "can_see_sky": true
+            }
+          }
+        ]
+      }
+    },
+    "flowering_azalea": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:flowering_azalea"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "can_see_sky": true
+            }
+          }
+        ]
+      }
+    },
+    "small_dripleaf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:small_dripleaf"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "can_see_sky": true
+            }
+          }
+        ]
+      }
+    },
+    "big_dripleaf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:big_dripleaf"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "can_see_sky": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/lush_caves_bright_sky"
+  }
+}

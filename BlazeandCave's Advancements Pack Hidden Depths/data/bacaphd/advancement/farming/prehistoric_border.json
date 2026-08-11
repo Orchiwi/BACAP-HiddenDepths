@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_plant"
+    },
+    "title": {
+      "translate": "Prehistoric Border"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand a grown Torchflower and a grown Pitcher Plant side by side"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "pairing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:pitcher_plant"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:torchflower"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:torchflower"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:torchflower"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:torchflower"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/prehistoric_border"
+  }
+}

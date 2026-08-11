@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": {
+      "translate": "Exotic Seeds"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Pitcher Pod or Torchflower Seeds off a Wandering Trader"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/scientific_inaccuracy",
+  "criteria": {
+    "seed_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:pitcher_pod",
+            "minecraft:torchflower_seeds"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/exotic_seeds"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "Compressed Kilometres"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Make one Nether crossing two thousand blocks long. That is sixteen kilometres of Overworld you never walked"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+  "criteria": {
+    "compressed": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 2000.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/compressed_kilometres"
+  }
+}

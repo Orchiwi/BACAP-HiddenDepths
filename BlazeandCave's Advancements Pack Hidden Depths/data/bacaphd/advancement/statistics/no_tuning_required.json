@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "No Tuning Required"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Crouch and place a block against a Note Block, so its note is never touched"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/black_belt_ninja",
+  "criteria": {
+    "untuned": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/no_tuning_required"
+  }
+}

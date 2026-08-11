@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snout_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Snout Certified"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold the Snout Armour Trim while still standing in the Bastion that hid it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/gilded_miner",
+  "criteria": {
+    "trim_in_situ": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snout_armor_trim_smithing_template"
+            ]
+          }
+        ],
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/snout_certified"
+  }
+}

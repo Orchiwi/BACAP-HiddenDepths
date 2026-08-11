@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "The Suit Didn't Help"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get killed by a Piglin while wearing every last piece of Gold armour"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/et_tu_brute",
+  "criteria": {
+    "betrayed": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:golden_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:golden_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:golden_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:golden_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_suit_didnt_help"
+  }
+}

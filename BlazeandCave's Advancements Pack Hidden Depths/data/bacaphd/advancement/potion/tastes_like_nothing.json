@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": {
+      "translate": "Tastes Like Nothing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink an Awkward Potion. Nothing happens, and that is entirely the point"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "awkward_sip": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "potion_contents": [
+              "minecraft:awkward"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/tastes_like_nothing"
+  }
+}

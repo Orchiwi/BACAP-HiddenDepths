@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "High Voltage"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place Redstone Dust above y=300, further up than any signal has any business being"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/root",
+  "criteria": {
+    "sky_wire": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_wire"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 300
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/high_voltage"
+  }
+}

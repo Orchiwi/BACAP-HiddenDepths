@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz"
+    },
+    "title": {
+      "translate": "Quartz Import Business"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Nether Quartz while standing below y = -50 in the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/quartz_miner",
+  "criteria": {
+    "imported": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                  "y": {
+                    "max": -50
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/quartz_import_business"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Riding Before Walking"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get up on a Horse before you have walked a hundred blocks in your whole life"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/horse_training",
+  "criteria": {
+    "mounted": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_horses"
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:walk_one_cm",
+                    "value": {
+                      "max": 10000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/riding_before_walking"
+  }
+}

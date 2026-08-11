@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Stuck the Landing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Come down forty blocks onto Slime while sneaking, so you stick instead of bouncing"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/spring_in_your_step",
+  "criteria": {
+    "landed": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 40
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              },
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/stuck_the_landing"
+  }
+}

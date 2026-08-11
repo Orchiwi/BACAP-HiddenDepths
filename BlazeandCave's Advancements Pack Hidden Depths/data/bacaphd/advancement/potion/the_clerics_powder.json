@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "The Cleric's Powder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy Glowstone Dust from a villager rather than climbing into the Nether roof for it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glowstone_dust"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_clerics_powder"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Solar Panel in Hell"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Install a Daylight Detector in the Nether, where the sun never comes up"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "nether_solar": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/solar_panel_in_hell"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "It Makes That Noise"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk across a floor of Amethyst Blocks purely because of the sound it makes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/amethyst_miner",
+  "criteria": {
+    "chimes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:amethyst_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/it_makes_that_noise"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Pig on a Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Hoglin with a Fishing Rod and drag it somewhere it did not want to go"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/roadhog",
+  "criteria": {
+    "hooked_hog": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/pig_on_a_line"
+  }
+}

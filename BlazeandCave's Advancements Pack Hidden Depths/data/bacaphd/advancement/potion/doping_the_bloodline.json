@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "Doping the Bloodline"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed two animals that you have both dosed with Speed, and see whether it carries"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "fast_parents": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "effects": {
+            "minecraft:speed": {}
+          }
+        },
+        "partner": {
+          "effects": {
+            "minecraft:speed": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/doping_the_bloodline"
+  }
+}

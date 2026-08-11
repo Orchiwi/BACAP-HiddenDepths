@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Imported Alarm System"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Plant a Sculk Shrieker in the Nether, where it will scream and nothing will ever answer"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/shriek_forever_after",
+  "criteria": {
+    "nether_shrieker": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_shrieker"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/imported_alarm_system"
+  }
+}

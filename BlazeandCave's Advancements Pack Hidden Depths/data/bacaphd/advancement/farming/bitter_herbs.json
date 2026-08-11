@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Bitter Herbs"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Slurp a Suspicious Stew while stood in a Wither Rose"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/suspicious_looking_stew",
+  "criteria": {
+    "rose_broth": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:wither_rose"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/bitter_herbs"
+  }
+}

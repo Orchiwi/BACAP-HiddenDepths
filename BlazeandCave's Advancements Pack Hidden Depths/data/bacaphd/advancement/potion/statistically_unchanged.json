@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_nugget"
+    },
+    "title": {
+      "translate": "Statistically Unchanged"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold Strength and Weakness at the same time and achieve precisely nothing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "cancelled_out": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {},
+          "minecraft:weakness": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/statistically_unchanged"
+  }
+}

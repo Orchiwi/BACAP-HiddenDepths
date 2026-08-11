@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "Coal-Fired Commute"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Furnace Minecart on a Powered Rail and let two centuries of transport argue it out"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/steals_on_wheels",
+  "criteria": {
+    "steam_vs_electric": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:powered_rail"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:furnace_minecart"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/coal_fired_commute"
+  }
+}

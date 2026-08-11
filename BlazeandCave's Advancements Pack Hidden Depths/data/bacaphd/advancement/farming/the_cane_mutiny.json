@@ -1,0 +1,238 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "The Cane Mutiny"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Root Sugar Cane in every block that will hold it: Dirt, Grass, Coarse Dirt, Podzol, Rooted Dirt, Mud, Sand, Red Sand and Moss"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "criteria": {
+    "dirt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:dirt"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "grass_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:grass_block"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coarse_dirt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:coarse_dirt"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "podzol": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:podzol"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rooted_dirt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:rooted_dirt"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mud": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mud"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sand": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sand"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "red_sand": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:red_sand"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "moss_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:moss_block"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_cane_mutiny"
+  }
+}

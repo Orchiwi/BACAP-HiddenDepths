@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "Monument Angling"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sink a hook into an Elder Guardian inside its own Ocean Monument"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/pig_fishing_tournament",
+  "criteria": {
+    "hooked_elder": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:elder_guardian"
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:monument"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/monument_angling"
+  }
+}

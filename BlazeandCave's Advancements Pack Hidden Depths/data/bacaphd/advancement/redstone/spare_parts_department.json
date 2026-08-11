@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dropper"
+    },
+    "title": {
+      "translate": "Spare Parts Department"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Crafter build a Dropper, the very part it was built from"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "auto_dropper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dropper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/spare_parts_department"
+  }
+}

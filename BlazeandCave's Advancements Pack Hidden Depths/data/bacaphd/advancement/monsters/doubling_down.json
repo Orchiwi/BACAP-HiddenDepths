@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "Doubling Down"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Spider Eye while you are already Poisoned, and see how much worse it gets"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/pupil_poppers",
+  "criteria": {
+    "another_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spider_eye"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:poison": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/doubling_down"
+  }
+}

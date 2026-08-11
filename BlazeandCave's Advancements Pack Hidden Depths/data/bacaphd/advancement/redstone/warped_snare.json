@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Warped Snare"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Tripwire Hook out of Warped Planks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "warped_hook": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tripwire_hook",
+        "ingredients": [
+          {
+            "items": "minecraft:warped_planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/warped_snare"
+  }
+}

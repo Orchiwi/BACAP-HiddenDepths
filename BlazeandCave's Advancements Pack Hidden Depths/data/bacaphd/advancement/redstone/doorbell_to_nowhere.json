@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_button"
+    },
+    "title": {
+      "translate": "Doorbell to Nowhere"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Push a Button in the End. Nobody is coming to the door"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/click",
+  "criteria": {
+    "end_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:buttons"
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/doorbell_to_nowhere"
+  }
+}

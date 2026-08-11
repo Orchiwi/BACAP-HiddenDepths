@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Ferry Under Fire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Ghast's fireball square in the back while a Strider carries you over the lava"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/fire_blast_shield",
+  "criteria": {
+    "strafed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:ghast"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/ferry_under_fire"
+  }
+}

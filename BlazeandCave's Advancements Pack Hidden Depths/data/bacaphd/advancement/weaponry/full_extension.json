@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": {
+      "translate": "Full Extension"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land a single Spear blow worth ten hearts of damage"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/britney_spears",
+  "criteria": {
+    "deep_stab": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_spear",
+                    "minecraft:stone_spear",
+                    "minecraft:copper_spear",
+                    "minecraft:golden_spear",
+                    "minecraft:iron_spear",
+                    "minecraft:diamond_spear",
+                    "minecraft:netherite_spear"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/full_extension"
+  }
+}

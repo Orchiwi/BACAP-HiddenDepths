@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Four-Way Junction"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place Redstone Dust that connects sideways in all four directions at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/root",
+  "criteria": {
+    "crossroads": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_wire"
+                ],
+                "state": {
+                  "north": "side",
+                  "east": "side",
+                  "south": "side",
+                  "west": "side"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/four_way_junction"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "Infernal Dairy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk a Cow through the portal and milk it in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hell_botanist",
+  "criteria": {
+    "hell_milk": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/infernal_dairy"
+  }
+}

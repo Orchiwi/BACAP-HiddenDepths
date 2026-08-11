@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Ding When It Lands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Note Block directly on top of a Target so every hit rings out"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_acquired",
+  "criteria": {
+    "chime_target": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:target"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/ding_when_it_lands"
+  }
+}

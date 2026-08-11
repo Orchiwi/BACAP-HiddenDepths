@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Nothing but Dust"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold the entire harvest of the Badlands at once: a Dead Bush, Short Dry Grass and Tall Dry Grass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/yay_deadbush",
+  "criteria": {
+    "dust_harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_bush"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:short_dry_grass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tall_dry_grass"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:badlands",
+                  "minecraft:eroded_badlands",
+                  "minecraft:wooded_badlands"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/nothing_but_dust"
+  }
+}

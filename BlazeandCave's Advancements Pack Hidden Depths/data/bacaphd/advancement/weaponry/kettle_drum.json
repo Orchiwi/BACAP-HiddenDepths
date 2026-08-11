@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Kettle Drum"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Finish an Iron Golem with a Mace smash, which is a lot of metal to have to fall on"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/warden_extinction",
+  "criteria": {
+    "dented": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:iron_golem"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/kettle_drum"
+  }
+}

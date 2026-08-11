@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Downward Force"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Piston facing straight down, ready to drop the floor out from under something"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_parts",
+  "criteria": {
+    "floor_piston": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston"
+                ],
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/downward_force"
+  }
+}

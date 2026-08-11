@@ -1,0 +1,150 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "translate": "Kitchen Garden"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant Wheat, Carrots, Potatoes and Beetroot inside a Village, where the Villagers can watch you do it properly"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_plains",
+                  "minecraft:village_desert",
+                  "minecraft:village_savanna",
+                  "minecraft:village_snowy",
+                  "minecraft:village_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "carrots": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:carrots"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_plains",
+                  "minecraft:village_desert",
+                  "minecraft:village_savanna",
+                  "minecraft:village_snowy",
+                  "minecraft:village_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "potatoes": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potatoes"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_plains",
+                  "minecraft:village_desert",
+                  "minecraft:village_savanna",
+                  "minecraft:village_snowy",
+                  "minecraft:village_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beetroots": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beetroots"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_plains",
+                  "minecraft:village_desert",
+                  "minecraft:village_savanna",
+                  "minecraft:village_snowy",
+                  "minecraft:village_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/kitchen_garden"
+  }
+}

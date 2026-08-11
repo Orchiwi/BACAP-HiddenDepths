@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Customs Declaration"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw a Gold Ingot to a Piglin you dragged into the Overworld"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/we_got_a_live_one",
+  "criteria": {
+    "paid_abroad": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ],
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/customs_declaration"
+  }
+}

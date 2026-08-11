@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "translate": "Desert Irrigation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fill a Bucket with Water without once stepping out of the Desert"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/its_a_cactus",
+  "criteria": {
+    "oasis_draw": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/desert_irrigation"
+  }
+}

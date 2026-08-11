@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Screaming Into the Void"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place a Sculk Shrieker in the End, where nothing will ever answer it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/the_block_of_eternal_screaming",
+  "criteria": {
+    "end_shrieker": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_shrieker"
+                ]
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/screaming_into_the_void"
+  }
+}

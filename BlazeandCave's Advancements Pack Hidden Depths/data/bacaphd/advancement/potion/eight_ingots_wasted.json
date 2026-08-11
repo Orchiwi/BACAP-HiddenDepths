@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "Eight Ingots Wasted"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drink Milk while an Enchanted Golden Apple's Regeneration II, Resistance, Fire Resistance and Absorption IV are all still running"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "flushed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:regeneration": {
+                  "amplifier": {
+                    "min": 1
+                  }
+                },
+                "minecraft:resistance": {},
+                "minecraft:fire_resistance": {},
+                "minecraft:absorption": {
+                  "amplifier": {
+                    "min": 3
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/eight_ingots_wasted"
+  }
+}

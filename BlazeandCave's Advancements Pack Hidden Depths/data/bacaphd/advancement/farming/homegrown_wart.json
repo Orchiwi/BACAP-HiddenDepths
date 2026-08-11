@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": {
+      "translate": "Homegrown Wart"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant Nether Wart on Soul Sand back in the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/natural_fertiliser",
+  "criteria": {
+    "overworld_wart": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:nether_wart"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_sand"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/homegrown_wart"
+  }
+}

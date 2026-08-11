@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "Walking the Blimp"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Clip a Lead onto a Happy Ghast and take the thing for a walk like a dog"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/test_flight",
+  "criteria": {
+    "leashed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:happy_ghast"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/walking_the_blimp"
+  }
+}

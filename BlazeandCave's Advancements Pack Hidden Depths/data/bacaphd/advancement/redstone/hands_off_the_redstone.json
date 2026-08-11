@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_torch"
+    },
+    "title": {
+      "translate": "Hands Off the Redstone"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have a Crafter produce a Redstone Torch without you touching a thing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "auto_torch": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_torch"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hands_off_the_redstone"
+  }
+}

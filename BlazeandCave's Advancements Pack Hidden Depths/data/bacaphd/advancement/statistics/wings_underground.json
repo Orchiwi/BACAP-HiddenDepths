@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "Wings Underground"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Glide on an Elytra below sea level with stone overhead instead of sky"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/take_to_the_skies",
+  "criteria": {
+    "caving": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{FallFlying:1b}",
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/wings_underground"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Phantom Ferry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Board a Happy Ghast three days short of sleep, with the Phantoms already on your trail"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/test_flight",
+  "criteria": {
+    "boarded": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:time_since_rest",
+                    "value": {
+                      "min": 72000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/phantom_ferry"
+  }
+}

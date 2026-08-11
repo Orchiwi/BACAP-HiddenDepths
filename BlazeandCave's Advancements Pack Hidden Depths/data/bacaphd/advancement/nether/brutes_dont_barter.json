@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "Brutes Don't Barter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Piglin Brute's axe while dressed head to toe in Gold"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/brute_force",
+  "criteria": {
+    "no_deal": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:piglin_brute"
+          }
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/brutes_dont_barter"
+  }
+}

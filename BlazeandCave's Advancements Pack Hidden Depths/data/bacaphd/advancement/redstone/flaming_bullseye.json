@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Flaming Bullseye"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit the middle of a Target Block with a burning arrow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "hot_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "projectile": {
+          "entity_type": "minecraft:arrow",
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/flaming_bullseye"
+  }
+}

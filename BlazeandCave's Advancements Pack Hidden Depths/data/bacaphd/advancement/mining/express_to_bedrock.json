@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Express to Bedrock"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Minecart below y-level -55, on rails you hauled all the way down there"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "deep_line": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -55.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/express_to_bedrock"
+  }
+}

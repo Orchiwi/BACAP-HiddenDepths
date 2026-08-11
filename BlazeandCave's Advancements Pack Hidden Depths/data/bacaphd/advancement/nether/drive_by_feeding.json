@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "Drive-By Feeding"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand a Hoglin a Crimson Fungus without getting off your Strider"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/bobbleheads",
+  "criteria": {
+    "mounted_meal": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crimson_fungus"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:hoglin"
+            }
+          }
+        ],
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/drive_by_feeding"
+  }
+}

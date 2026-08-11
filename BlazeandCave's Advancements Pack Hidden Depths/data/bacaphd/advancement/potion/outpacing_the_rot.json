@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Outpacing the Rot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Wither's skull square in the chest while Regeneration patches you up just as fast"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "stalemate": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:wither_skull"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:regeneration": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/outpacing_the_rot"
+  }
+}

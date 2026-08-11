@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Trident Loan"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw a Trident to a Drowned and watch it take you up on the offer"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/because_im_aquaman",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:drowned"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/trident_loan"
+  }
+}

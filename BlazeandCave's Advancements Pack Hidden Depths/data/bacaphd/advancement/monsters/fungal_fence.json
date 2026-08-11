@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "Fungal Fence"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Warped Fungus in the Crimson Forest and watch the Hoglins give it a wide berth"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_fungus"
+                ]
+              },
+              "biomes": "minecraft:crimson_forest"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/fungal_fence"
+  }
+}

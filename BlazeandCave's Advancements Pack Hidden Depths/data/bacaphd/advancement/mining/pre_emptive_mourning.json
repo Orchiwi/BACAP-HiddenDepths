@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Pre-emptive Mourning"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Recovery Compass while still standing in the Deep Dark. Planning ahead, then"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "criteria": {
+    "early_compass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:recovery_compass",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/pre_emptive_mourning"
+  }
+}

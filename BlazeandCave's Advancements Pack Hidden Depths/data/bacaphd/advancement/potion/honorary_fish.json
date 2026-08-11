@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Honorary Fish"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have Conduit Power, Dolphin's Grace and Water Breathing all at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/marine_marauder",
+  "criteria": {
+    "effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {},
+          "minecraft:dolphins_grace": {},
+          "minecraft:water_breathing": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/honorary_fish"
+  }
+}

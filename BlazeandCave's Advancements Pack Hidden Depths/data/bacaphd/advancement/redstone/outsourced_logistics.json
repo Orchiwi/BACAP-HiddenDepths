@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Outsourced Logistics"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand an Allay some Redstone Dust and let it fetch the rest of the pile for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/root",
+  "criteria": {
+    "allay_dust": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:redstone"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:allay"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/outsourced_logistics"
+  }
+}

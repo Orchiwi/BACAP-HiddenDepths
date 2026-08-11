@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "Death by Poultry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be finished off by the toddler riding the Chicken"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/poultry_boy",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:zombie",
+              "flags": {
+                "is_baby": true
+              },
+              "vehicle": {
+                "entity_type": "minecraft:chicken"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/death_by_poultry"
+  }
+}

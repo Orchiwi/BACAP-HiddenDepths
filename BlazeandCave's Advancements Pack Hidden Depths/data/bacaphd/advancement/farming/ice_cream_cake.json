@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Ice Cream Cake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a Cake down directly on Ice out in a snowy biome"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/must_be_your_birthday",
+  "criteria": {
+    "frozen_cake": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              },
+              "biomes": [
+                "minecraft:snowy_plains",
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_slopes",
+                "minecraft:ice_spikes"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ice",
+                  "minecraft:packed_ice",
+                  "minecraft:blue_ice"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/ice_cream_cake"
+  }
+}

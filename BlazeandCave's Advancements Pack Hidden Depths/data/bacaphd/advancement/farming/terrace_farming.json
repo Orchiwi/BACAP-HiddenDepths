@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Terrace Farming"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stack three floors of Wheat two blocks apart and plant the middle one last"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "middle_storey": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/terrace_farming"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Denied at the Door"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get your Shield up in time to catch a Warden's swing in the Deep Dark. Its other attack will not be so polite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "warded": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:warden"
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/denied_at_the_door"
+  }
+}

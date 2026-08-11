@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Both Instruments Lying"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand in the End holding a Clock and a Compass, neither of which will tell you a thing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_first_night",
+  "criteria": {
+    "useless_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clock"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/both_instruments_lying"
+  }
+}

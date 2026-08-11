@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sticky_piston"
+    },
+    "title": {
+      "translate": "Flying Machine Starter Kit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place an Observer directly on top of a Sticky Piston"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/observer_buddy",
+  "criteria": {
+    "engine": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:observer"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/flying_machine_starter_kit"
+  }
+}

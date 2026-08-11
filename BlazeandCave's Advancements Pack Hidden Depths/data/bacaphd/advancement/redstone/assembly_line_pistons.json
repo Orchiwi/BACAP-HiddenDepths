@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Assembly Line Pistons"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Watch a Crafter build a Piston for you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_parts",
+  "criteria": {
+    "auto_piston": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:piston"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/assembly_line_pistons"
+  }
+}

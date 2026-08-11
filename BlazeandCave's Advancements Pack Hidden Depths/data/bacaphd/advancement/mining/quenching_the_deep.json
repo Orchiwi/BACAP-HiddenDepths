@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Quenching the Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pour water straight onto lava below y-level -50 and make your own Obsidian where it lies"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/obsidian_miner",
+  "criteria": {
+    "quench": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lava"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -50.0
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:water_bucket"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/quenching_the_deep"
+  }
+}

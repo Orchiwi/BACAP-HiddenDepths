@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Sitting on a Bomb"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Creeper that has wandered on top of a block of TNT"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/what_a_creep",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper",
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:tnt"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/sitting_on_a_bomb"
+  }
+}

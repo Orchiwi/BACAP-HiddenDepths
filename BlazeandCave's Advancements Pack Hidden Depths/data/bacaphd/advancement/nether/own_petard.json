@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_spawn_egg"
+    },
+    "title": {
+      "translate": "Own Petard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get killed by the Wither in the Nether, which is where you built it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/decaying_beauty",
+  "criteria": {
+    "hoisted": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/own_petard"
+  }
+}

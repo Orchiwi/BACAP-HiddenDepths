@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "Gold Is a Terrible Idea"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Golden Pickaxe out completely without ever leaving the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/instant_mining",
+  "criteria": {
+    "worn_pick": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_pickaxe"
+        },
+        "durability": {
+          "max": 1
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/gold_is_a_terrible_idea"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "The Hero Nobody Saw"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Win a raid while Invisible from start to finish"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "raid": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_hero_nobody_saw"
+  }
+}

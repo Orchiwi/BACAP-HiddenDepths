@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "translate": "Sentimental Value"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand on the bedrock at the bottom of the Overworld holding the wooden pickaxe you started with"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "first_tool_last_layer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_pickaxe"
+                  ]
+                }
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:bedrock"
+                  ]
+                }
+              },
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/sentimental_value"
+  }
+}

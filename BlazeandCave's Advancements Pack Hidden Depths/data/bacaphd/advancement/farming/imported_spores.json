@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "Imported Spores"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Haul Nylium home and raise a Huge Fungus in the Overworld with Bone Meal"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mega_mushroom",
+  "criteria": {
+    "overworld_fungus": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_fungus",
+                  "minecraft:warped_fungus"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_nylium",
+                  "minecraft:warped_nylium"
+                ]
+              }
+            },
+            "offsetY": -1
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/imported_spores"
+  }
+}

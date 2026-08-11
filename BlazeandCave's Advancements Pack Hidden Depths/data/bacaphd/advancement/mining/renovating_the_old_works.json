@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Renovating the Old Works"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Lantern from the ceiling of an Abandoned Mineshaft and put the lights back on"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "hung": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern"
+                ],
+                "state": {
+                  "hanging": "true"
+                }
+              },
+              "structures": "minecraft:mineshaft"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/renovating_the_old_works"
+  }
+}

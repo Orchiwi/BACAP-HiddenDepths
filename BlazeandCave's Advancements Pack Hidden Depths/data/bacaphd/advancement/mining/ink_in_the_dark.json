@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "Ink in the Dark"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Glow Ink Sac off a Glow Squid found below y-level 0"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "criteria": {
+    "cave_ink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/ink_in_the_dark"
+  }
+}

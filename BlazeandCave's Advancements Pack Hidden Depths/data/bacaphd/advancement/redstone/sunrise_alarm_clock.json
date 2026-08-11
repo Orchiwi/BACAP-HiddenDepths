@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Sunrise Alarm Clock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Daylight Detector directly on top of a Note Block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "dawn_chime": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sunrise_alarm_clock"
+  }
+}

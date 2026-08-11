@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Bed Rest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be killed by a Creeper while standing on the Bed you were about to use"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/what_a_creep",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:creeper"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": "#minecraft:beds"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/bed_rest"
+  }
+}

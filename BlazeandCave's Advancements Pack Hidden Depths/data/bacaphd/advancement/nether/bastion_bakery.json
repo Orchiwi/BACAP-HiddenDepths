@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Bastion Bakery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Golden Apple inside a Bastion Remnant, out of their own gold"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/gilty",
+  "criteria": {
+    "baked_on_site": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_apple",
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/bastion_bakery"
+  }
+}

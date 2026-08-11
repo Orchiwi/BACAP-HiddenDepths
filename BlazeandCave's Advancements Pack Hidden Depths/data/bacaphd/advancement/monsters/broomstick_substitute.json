@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "Broomstick Substitute"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Witch while she is still riding the Chicken she arrived on"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_wicked_witch_of_the_west",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:witch",
+          "vehicle": {
+            "entity_type": "minecraft:chicken"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/broomstick_substitute"
+  }
+}

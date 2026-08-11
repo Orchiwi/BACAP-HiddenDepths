@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flowering_azalea"
+    },
+    "title": {
+      "translate": "Bloom in the Gloom"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Flowering Azalea in the Deep Dark, the one biome that grows nothing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "criteria": {
+    "sculk_bloom": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:flowering_azalea"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_dark"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/bloom_in_the_gloom"
+  }
+}

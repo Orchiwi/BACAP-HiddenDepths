@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Day One Descent"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Reach the Deep Dark inside your first twenty minutes in a brand new world"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/passing_the_time",
+  "criteria": {
+    "early": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "deep_dark"
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:play_time",
+                    "value": {
+                      "max": 24000
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/day_one_descent"
+  }
+}

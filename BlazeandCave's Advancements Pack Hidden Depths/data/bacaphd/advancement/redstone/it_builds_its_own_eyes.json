@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:observer"
+    },
+    "title": {
+      "translate": "It Builds Its Own Eyes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be nearby when a Crafter assembles an Observer with nobody watching it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/observer_buddy",
+  "criteria": {
+    "auto_observer": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:observer"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/it_builds_its_own_eyes"
+  }
+}

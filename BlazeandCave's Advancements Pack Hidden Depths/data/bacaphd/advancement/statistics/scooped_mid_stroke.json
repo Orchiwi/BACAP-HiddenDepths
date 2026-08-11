@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Scooped Mid-Stroke"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bottle an Axolotl without stopping swimming to do it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "swimming_catch": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/scooped_mid_stroke"
+  }
+}

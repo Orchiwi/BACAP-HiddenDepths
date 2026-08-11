@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_diamond_ore"
+    },
+    "title": {
+      "translate": "Show Home"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place a block of Deepslate Diamond Ore above sea level where everyone can see what you found"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/master_diamond_miner",
+  "criteria": {
+    "ore_on_display": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:deepslate_diamond_ore"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 63.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/show_home"
+  }
+}

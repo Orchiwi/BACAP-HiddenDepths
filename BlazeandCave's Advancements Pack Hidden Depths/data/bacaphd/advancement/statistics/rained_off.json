@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Rained Off"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Strider through Overworld rain and watch it shiver the whole way"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/taking_it_in_stride",
+  "criteria": {
+    "soaked": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              },
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/rained_off"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar_cane"
+    },
+    "title": {
+      "translate": "Reed Island"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Sugar Cane with Water pressed against all four of its sides"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "criteria": {
+    "island_reed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sugar_cane"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/reed_island"
+  }
+}

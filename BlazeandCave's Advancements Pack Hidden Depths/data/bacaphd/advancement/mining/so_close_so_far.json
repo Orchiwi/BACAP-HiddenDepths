@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "translate": "So Close, So Far"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Snap a Wooden Pickaxe while standing on Diamond Ore it could never have mined"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/aww_it_broke",
+  "criteria": {
+    "snapped_on_diamond": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:diamond_ore",
+                    "minecraft:deepslate_diamond_ore"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/so_close_so_far"
+  }
+}

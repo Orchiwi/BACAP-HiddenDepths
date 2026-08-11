@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Bounce Test"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Fall at least 30 blocks and come to rest on a Slime Block"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "landed_soft": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/bounce_test"
+  }
+}

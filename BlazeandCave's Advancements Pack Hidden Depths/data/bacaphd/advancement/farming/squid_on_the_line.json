@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Squid on the Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hook a Squid on your Fishing Rod instead of a fish"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/squid_game",
+  "criteria": {
+    "hooked_squid": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:squid"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/squid_on_the_line"
+  }
+}

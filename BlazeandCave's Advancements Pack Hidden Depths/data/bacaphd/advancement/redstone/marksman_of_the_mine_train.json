@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Marksman of the Mine Train"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit a Target with an arrow fired from a Minecart at full speed"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "moving_shot": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": {
+          "entity_type": "minecraft:arrow"
+        },
+        "shooter": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "movement": {
+                "speed": {
+                  "min": 6.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/marksman_of_the_mine_train"
+  }
+}

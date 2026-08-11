@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "The Pig Is Unimpressed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drink a Potion of Swiftness while riding a Pig"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:swiftness",
+              "minecraft:long_swiftness",
+              "minecraft:strong_swiftness"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:pig"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_pig_is_unimpressed"
+  }
+}

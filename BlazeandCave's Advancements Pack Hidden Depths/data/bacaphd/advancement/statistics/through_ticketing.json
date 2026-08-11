@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "Through Ticketing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Come back out of the Nether still sat in the Minecart, half a kilometre from where you got in"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/global_railway_network",
+  "criteria": {
+    "travelled": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 500
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/through_ticketing"
+  }
+}

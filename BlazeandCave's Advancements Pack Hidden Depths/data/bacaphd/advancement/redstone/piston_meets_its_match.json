@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Piston Meets Its Match"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Sticky Piston flat against Obsidian and consider what you have achieved"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "futile": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sticky_piston"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetX": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetX": -1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetY": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetY": -1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetZ": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:obsidian"
+                    ]
+                  }
+                },
+                "offsetZ": -1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/piston_meets_its_match"
+  }
+}

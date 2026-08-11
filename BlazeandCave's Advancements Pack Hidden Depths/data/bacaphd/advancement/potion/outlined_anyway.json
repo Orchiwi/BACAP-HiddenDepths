@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Outlined Anyway"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Invisibility while you are Glowing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:invisibility",
+              "minecraft:long_invisibility"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:glowing": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/outlined_anyway"
+  }
+}

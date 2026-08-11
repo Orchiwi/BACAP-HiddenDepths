@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "Recursive Reading"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Redstone Comparator inside an Item Frame, so a Comparator can read a Comparator"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/comparing_comparator",
+  "criteria": {
+    "framed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:comparator"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/recursive_reading"
+  }
+}

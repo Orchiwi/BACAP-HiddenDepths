@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Airborne Retail"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade with a Villager without ever climbing down off the Happy Ghast you are flying"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_elytra",
+  "criteria": {
+    "sky_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/airborne_retail"
+  }
+}

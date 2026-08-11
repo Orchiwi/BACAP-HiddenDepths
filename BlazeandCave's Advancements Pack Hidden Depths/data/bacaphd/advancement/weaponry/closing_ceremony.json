@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Closing Ceremony"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill something with a Firework while you are gliding on Elytra more than two hundred blocks up"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/who_ya_gonna_call",
+  "criteria": {
+    "finale": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:firework_rocket"
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 200.0
+              }
+            }
+          },
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:elytra"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/closing_ceremony"
+  }
+}

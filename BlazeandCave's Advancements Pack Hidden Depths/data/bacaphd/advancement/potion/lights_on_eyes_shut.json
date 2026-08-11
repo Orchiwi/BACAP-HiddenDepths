@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Lights On, Eyes Shut"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Night Vision while Blindness is in effect. It does not help"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/nocturnal",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:night_vision",
+              "minecraft:long_night_vision"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:blindness": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/lights_on_eyes_shut"
+  }
+}

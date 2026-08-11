@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "Redundant Refreshment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Water Bottle while you are already fully underwater"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/water_balloon",
+  "criteria": {
+    "pointless_drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "potion_contents": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/redundant_refreshment"
+  }
+}

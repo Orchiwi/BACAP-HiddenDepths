@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus_flower"
+    },
+    "title": {
+      "translate": "Bloom in the Badlands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Come away from the Badlands with a Cactus Flower"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/spikey",
+  "criteria": {
+    "flowering_cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus_flower"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:badlands",
+                  "minecraft:eroded_badlands",
+                  "minecraft:wooded_badlands"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/bloom_in_the_badlands"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armor_stand"
+    },
+    "title": {
+      "translate": "Standing Guard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put a Netherite Sword into an Armour Stand's hand and let it keep watch"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "armed_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:armor_stand"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/standing_guard"
+  }
+}

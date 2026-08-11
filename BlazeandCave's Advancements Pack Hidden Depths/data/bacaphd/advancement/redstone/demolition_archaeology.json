@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Demolition Archaeology"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Set off TNT by hand inside an Ancient City"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "boom": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tnt"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel",
+                "minecraft:fire_charge"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/demolition_archaeology"
+  }
+}

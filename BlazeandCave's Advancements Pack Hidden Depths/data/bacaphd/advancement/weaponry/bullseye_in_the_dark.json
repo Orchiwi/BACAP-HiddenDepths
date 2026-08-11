@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Bullseye in the Dark"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Target block down below y=-40 and ring its dead centre where nobody will ever see it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "quiet_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 15
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bullseye_in_the_dark"
+  }
+}

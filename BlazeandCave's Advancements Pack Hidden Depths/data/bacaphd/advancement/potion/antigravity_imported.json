@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "Antigravity, Imported"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Levitate 30 blocks upwards in the Overworld. Somebody had to carry a Shulker home"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "lifted": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/antigravity_imported"
+  }
+}

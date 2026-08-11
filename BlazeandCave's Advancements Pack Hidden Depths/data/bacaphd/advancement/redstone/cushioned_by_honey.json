@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Cushioned by Honey"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fall at least 50 blocks and come to rest standing on a Honey Block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "soft_landing": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 50.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:honey_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/cushioned_by_honey"
+  }
+}

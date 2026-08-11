@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "No Sense of Time"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Clock below y-level -50, where it is the only way to know if the sun is up"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/whats_the_time_mr_wolf",
+  "criteria": {
+    "deep_clock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:clock"
+                  ]
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/no_sense_of_time"
+  }
+}

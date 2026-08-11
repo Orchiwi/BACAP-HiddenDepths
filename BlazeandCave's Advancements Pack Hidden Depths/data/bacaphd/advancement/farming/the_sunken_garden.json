@@ -1,0 +1,162 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_pad"
+    },
+    "title": {
+      "translate": "The Sunken Garden"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Lay out a whole garden on the floor of a Deep Ocean: Kelp, Seagrass, a Sea Pickle, Glow Lichen and a Lily Pad on the surface above"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/undersea_gardener",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:kelp"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "seagrass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:seagrass"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sea_pickle": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sea_pickle"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_lichen": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glow_lichen"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lily_pad": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:lily_pad"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:deep_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_sunken_garden"
+  }
+}

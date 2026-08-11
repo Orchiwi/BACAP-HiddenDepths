@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Both Ends Tied"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a Tripwire Hook that finds string waiting for it and latches onto the line straight away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "attached_hook": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tripwire_hook"
+                ],
+                "state": {
+                  "attached": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/both_ends_tied"
+  }
+}

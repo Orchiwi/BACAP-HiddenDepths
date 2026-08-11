@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "Every Step of the Way"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Arrive in the End having never ridden a boat, a minecart or any animal alive"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_boats",
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:boat_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:minecart_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:horse_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:pig_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:strider_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:happy_ghast_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/every_step_of_the_way"
+  }
+}

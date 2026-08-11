@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "translate": "Never Touched a Ladder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get two hundred blocks up a Jagged Peak with no climbing on your record at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "summit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "jagged_peaks",
+                "position": {
+                  "y": {
+                    "min": 200
+                  }
+                }
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:climb_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/never_touched_a_ladder"
+  }
+}

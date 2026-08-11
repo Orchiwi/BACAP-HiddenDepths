@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Row Your Warden"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Shut a Warden inside a Boat, then kill it while it sits there unable to reach you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/house_of_freaks",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:warden",
+          "vehicle": {
+            "entity_type": "#minecraft:boat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/row_your_warden"
+  }
+}

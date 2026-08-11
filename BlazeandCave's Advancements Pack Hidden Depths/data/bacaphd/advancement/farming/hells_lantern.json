@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Hell's Lantern"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carve a Pumpkin with Shears down in the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/naturally_carved",
+  "criteria": {
+    "nether_carve": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pumpkin"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/hells_lantern"
+  }
+}

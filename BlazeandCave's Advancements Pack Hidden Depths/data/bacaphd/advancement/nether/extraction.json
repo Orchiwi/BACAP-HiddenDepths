@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Extraction"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Nether Star out of the Nether in your own hand"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/beacon_overlord",
+  "criteria": {
+    "carried_out": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld",
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:nether_star"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/extraction"
+  }
+}

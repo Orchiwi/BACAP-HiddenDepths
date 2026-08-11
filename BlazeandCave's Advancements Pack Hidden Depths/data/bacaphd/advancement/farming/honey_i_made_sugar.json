@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "Honey, I Made Sugar"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Make Sugar out of a Honey Bottle and leave the Sugar Cane standing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "criteria": {
+    "bee_sugar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sugar_from_honey_bottle"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/honey_i_made_sugar"
+  }
+}

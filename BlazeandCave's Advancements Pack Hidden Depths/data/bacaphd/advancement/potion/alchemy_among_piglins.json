@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "Alchemy Among Piglins"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Brew a potion inside a Bastion Remnant while wearing a Golden Helmet"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "brewed": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:bastion_remnant"
+              },
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:golden_helmet"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/alchemy_among_piglins"
+  }
+}

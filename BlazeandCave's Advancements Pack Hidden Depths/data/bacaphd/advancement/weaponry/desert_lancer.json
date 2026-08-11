@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_spear"
+    },
+    "title": {
+      "translate": "Desert Lancer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a Spear charge attack from the hump of a Camel with nobody else holding the reins"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/britney_spears",
+  "criteria": {
+    "camel_charge": {
+      "trigger": "minecraft:spear_mobs",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:camel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/desert_lancer"
+  }
+}

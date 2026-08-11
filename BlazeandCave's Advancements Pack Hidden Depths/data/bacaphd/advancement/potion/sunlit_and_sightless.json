@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "Sunlit and Sightless"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Suffer Blindness while standing in the brightest light the world has"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/nocturnal",
+  "criteria": {
+    "there": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "light": {
+                  "light": {
+                    "min": 15
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:blindness": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/sunlit_and_sightless"
+  }
+}

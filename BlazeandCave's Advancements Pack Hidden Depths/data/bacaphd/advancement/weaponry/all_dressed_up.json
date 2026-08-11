@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "translate": "All Dressed Up"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a monster with a Wooden Sword while wearing a full set of Netherite armour"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "overdressed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword"
+                  ]
+                },
+                "head": {
+                  "items": [
+                    "minecraft:netherite_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:netherite_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:netherite_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:netherite_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/all_dressed_up"
+  }
+}

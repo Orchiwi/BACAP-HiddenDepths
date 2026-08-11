@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Undertow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get caught in a Magma Block's bubble column and let it drag you to the bottom"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/olympic_athlete",
+  "criteria": {
+    "dragged_down": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column",
+        "state": {
+          "drag": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/undertow"
+  }
+}

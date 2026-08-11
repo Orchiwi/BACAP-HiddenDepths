@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "Down to Sticks and Stones"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Stone Pickaxe below y-level -50, having run out of everything better down there"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moar_tools",
+  "criteria": {
+    "desperate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/down_to_sticks_and_stones"
+  }
+}

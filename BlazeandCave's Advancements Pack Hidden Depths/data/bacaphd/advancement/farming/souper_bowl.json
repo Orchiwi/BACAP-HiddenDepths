@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": {
+      "translate": "Souper Bowl"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Mushroom Stew, Beetroot Soup, Rabbit Stew and Suspicious Stew all at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/souperman",
+  "criteria": {
+    "four_bowls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:beetroot_soup"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rabbit_stew"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:suspicious_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/souper_bowl"
+  }
+}

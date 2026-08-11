@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Night Mode"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Flip a Daylight Detector over so it powers up when the sun goes down instead"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "inverted": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/night_mode"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_seeds"
+    },
+    "title": {
+      "translate": "Gourd Against Gourd"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Melon Stem and a Pumpkin Stem right beside each other and let them fight over the space"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/scientific_inaccuracy",
+  "criteria": {
+    "stem_standoff": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:melon_stem"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:pumpkin_stem"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:pumpkin_stem"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:pumpkin_stem"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:pumpkin_stem"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/gourd_against_gourd"
+  }
+}

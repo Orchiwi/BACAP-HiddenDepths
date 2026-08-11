@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "Paid on the Spot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Enchant something while standing on the Lapis Ore that is paying for it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lapis_lazuli_miner",
+  "criteria": {
+    "paid_in_place": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:lapis_ore",
+                    "minecraft:deepslate_lapis_ore"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/paid_on_the_spot"
+  }
+}

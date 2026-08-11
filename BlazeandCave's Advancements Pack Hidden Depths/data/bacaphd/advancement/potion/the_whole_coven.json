@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "The Whole Coven"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be carrying a Witch's Slowness, Poison and Weakness all at the very same moment"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_furious_test_subject",
+  "criteria": {
+    "triple_dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {},
+          "minecraft:poison": {},
+          "minecraft:weakness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:witch"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_whole_coven"
+  }
+}

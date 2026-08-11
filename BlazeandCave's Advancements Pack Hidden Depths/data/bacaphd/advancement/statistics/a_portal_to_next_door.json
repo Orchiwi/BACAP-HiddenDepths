@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "A Portal to Next Door"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build a portal pair so badly aligned that the Nether saves you four blocks of walking"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+  "criteria": {
+    "pointless": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "max": 4
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/a_portal_to_next_door"
+  }
+}

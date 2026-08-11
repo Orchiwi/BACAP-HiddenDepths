@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Nether Ice Highway"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sprint down a Blue Ice highway laid through the Nether wastes"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/natural_sprinter",
+  "criteria": {
+    "skating": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:blue_ice"
+                  ]
+                }
+              },
+              "location": {
+                "dimension": "the_nether"
+              },
+              "flags": {
+                "is_sprinting": true
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/nether_ice_highway"
+  }
+}

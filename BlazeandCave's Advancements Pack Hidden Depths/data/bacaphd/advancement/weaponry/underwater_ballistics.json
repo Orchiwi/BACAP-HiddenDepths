@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Underwater Ballistics"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fire a Crossbow while you are swimming, the one ranged weapon that does not mind getting wet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "wet_shot": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "player": {
+          "flags": {
+            "is_swimming": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/underwater_ballistics"
+  }
+}

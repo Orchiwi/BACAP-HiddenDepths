@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Against Doctor's Orders"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sprint while Slowness is running through you, and get absolutely nowhere quickly"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/your_legs_must_be_tired",
+  "criteria": {
+    "slow_sprint": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true
+              },
+              "effects": {
+                "minecraft:slowness": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/against_doctors_orders"
+  }
+}

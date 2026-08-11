@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "Tell Them Apart"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold a Dispenser and a Dropper at the same time and try to remember which is which"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_dropper",
+  "criteria": {
+    "pair": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dispenser"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dropper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/tell_them_apart"
+  }
+}

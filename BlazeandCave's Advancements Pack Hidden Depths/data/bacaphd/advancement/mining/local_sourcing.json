@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_bricks"
+    },
+    "title": {
+      "translate": "Local Sourcing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Sulfur Bricks without once leaving the Sulfur Cave you quarried them out of"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/all_the_balls",
+  "criteria": {
+    "on_location": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sulfur_bricks",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:sulfur_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/local_sourcing"
+  }
+}

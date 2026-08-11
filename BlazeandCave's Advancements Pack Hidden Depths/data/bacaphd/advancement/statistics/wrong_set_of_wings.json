@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Wrong Set of Wings"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Swim a stretch of water with an Elytra strapped to your back, doing nothing at all for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "useless_wings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              },
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/wrong_set_of_wings"
+  }
+}

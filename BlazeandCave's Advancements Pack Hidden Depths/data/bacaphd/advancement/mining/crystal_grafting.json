@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "Crystal Grafting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take an Amethyst Cluster off the wall in one piece and then put one back somewhere else"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/gi_geode",
+  "criteria": {
+    "harvested": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_cluster"
+            ]
+          }
+        ]
+      }
+    },
+    "replanted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:amethyst_cluster"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/crystal_grafting"
+  }
+}

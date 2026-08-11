@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "It'll Never Grow There"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a crop in pitch darkness, where it will sit at zero growth forever"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "lightless": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "light": {
+                "light": {
+                  "max": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/itll_never_grow_there"
+  }
+}

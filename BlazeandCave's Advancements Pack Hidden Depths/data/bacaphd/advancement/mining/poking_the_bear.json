@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Poking the Bear"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a hit on the Warden, then spend the next few seconds regretting the decision"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/shriek_forever_after",
+  "criteria": {
+    "one_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/poking_the_bear"
+  }
+}

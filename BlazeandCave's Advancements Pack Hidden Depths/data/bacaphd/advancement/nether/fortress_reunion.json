@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Fortress Reunion"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Raise the Wither inside the Nether Fortress you took its skulls from"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_hunt_begins",
+  "criteria": {
+    "summoned_at_home": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:fortress",
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/fortress_reunion"
+  }
+}

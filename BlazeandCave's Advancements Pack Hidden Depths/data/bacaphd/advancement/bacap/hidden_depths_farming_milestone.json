@@ -6290,6 +6290,1710 @@
           }
         }
       }
+    },
+    "plough_horse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/plough_horse": true
+            }
+          }
+        }
+      }
+    },
+    "sowing_on_an_empty_stomach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sowing_on_an_empty_stomach": true
+            }
+          }
+        }
+      }
+    },
+    "sowing_in_the_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sowing_in_the_storm": true
+            }
+          }
+        }
+      }
+    },
+    "green_fingers_cold_toes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/green_fingers_cold_toes": true
+            }
+          }
+        }
+      }
+    },
+    "itll_never_grow_there": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/itll_never_grow_there": true
+            }
+          }
+        }
+      }
+    },
+    "artificial_sunshine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/artificial_sunshine": true
+            }
+          }
+        }
+      }
+    },
+    "hydroponics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hydroponics": true
+            }
+          }
+        }
+      }
+    },
+    "gourd_against_gourd": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/gourd_against_gourd": true
+            }
+          }
+        }
+      }
+    },
+    "reed_island": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/reed_island": true
+            }
+          }
+        }
+      }
+    },
+    "prickly_pillar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/prickly_pillar": true
+            }
+          }
+        }
+      }
+    },
+    "under_the_roots": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/under_the_roots": true
+            }
+          }
+        }
+      }
+    },
+    "bone_meal_on_tap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bone_meal_on_tap": true
+            }
+          }
+        }
+      }
+    },
+    "hang_in_there": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hang_in_there": true
+            }
+          }
+        }
+      }
+    },
+    "seaweed_in_space": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/seaweed_in_space": true
+            }
+          }
+        }
+      }
+    },
+    "lichen_lanterns": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/lichen_lanterns": true
+            }
+          }
+        }
+      }
+    },
+    "honey_i_made_sugar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/honey_i_made_sugar": true
+            }
+          }
+        }
+      }
+    },
+    "beet_red": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/beet_red": true
+            }
+          }
+        }
+      }
+    },
+    "prickly_pink": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/prickly_pink": true
+            }
+          }
+        }
+      }
+    },
+    "knee_high_by_july": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/knee_high_by_july": true
+            }
+          }
+        }
+      }
+    },
+    "gilding_the_wheat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/gilding_the_wheat": true
+            }
+          }
+        }
+      }
+    },
+    "lucky_bamboo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/lucky_bamboo": true
+            }
+          }
+        }
+      }
+    },
+    "potted_prehistory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/potted_prehistory": true
+            }
+          }
+        }
+      }
+    },
+    "warts_in_the_void": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/warts_in_the_void": true
+            }
+          }
+        }
+      }
+    },
+    "fairy_lights_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fairy_lights_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "the_cane_reaper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_cane_reaper": true
+            }
+          }
+        }
+      }
+    },
+    "watching_the_bamboo_grow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/watching_the_bamboo_grow": true
+            }
+          }
+        }
+      }
+    },
+    "desert_irrigation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/desert_irrigation": true
+            }
+          }
+        }
+      }
+    },
+    "buying_the_farm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/buying_the_farm": true
+            }
+          }
+        }
+      }
+    },
+    "underground_lanterns": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/underground_lanterns": true
+            }
+          }
+        }
+      }
+    },
+    "bloom_in_the_gloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bloom_in_the_gloom": true
+            }
+          }
+        }
+      }
+    },
+    "crowning_glory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/crowning_glory": true
+            }
+          }
+        }
+      }
+    },
+    "night_light_for_the_crops": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/night_light_for_the_crops": true
+            }
+          }
+        }
+      }
+    },
+    "ceiling_crops": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/ceiling_crops": true
+            }
+          }
+        }
+      }
+    },
+    "trespass_and_till": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/trespass_and_till": true
+            }
+          }
+        }
+      }
+    },
+    "petals_for_a_pillow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/petals_for_a_pillow": true
+            }
+          }
+        }
+      }
+    },
+    "chocolate_coated": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/chocolate_coated": true
+            }
+          }
+        }
+      }
+    },
+    "the_devils_toadstool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_devils_toadstool": true
+            }
+          }
+        }
+      }
+    },
+    "fungal_colonists": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fungal_colonists": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_pigments": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/ancient_pigments": true
+            }
+          }
+        }
+      }
+    },
+    "seeds_from_a_stranger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/seeds_from_a_stranger": true
+            }
+          }
+        }
+      }
+    },
+    "head_and_shoulders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/head_and_shoulders": true
+            }
+          }
+        }
+      }
+    },
+    "lush_caves_bright_sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/lush_caves_bright_sky": true
+            }
+          }
+        }
+      }
+    },
+    "crop_rotation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/crop_rotation": true
+            }
+          }
+        }
+      }
+    },
+    "dry_farming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/dry_farming": true
+            }
+          }
+        }
+      }
+    },
+    "the_fungal_loophole": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_fungal_loophole": true
+            }
+          }
+        }
+      }
+    },
+    "buried_botany": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/buried_botany": true
+            }
+          }
+        }
+      }
+    },
+    "night_in_the_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/night_in_the_fields": true
+            }
+          }
+        }
+      }
+    },
+    "kitchen_garden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/kitchen_garden": true
+            }
+          }
+        }
+      }
+    },
+    "wart_of_the_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/wart_of_the_fortress": true
+            }
+          }
+        }
+      }
+    },
+    "carved_on_the_vine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/carved_on_the_vine": true
+            }
+          }
+        }
+      }
+    },
+    "kelp_beneath_the_floe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/kelp_beneath_the_floe": true
+            }
+          }
+        }
+      }
+    },
+    "terrace_farming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/terrace_farming": true
+            }
+          }
+        }
+      }
+    },
+    "melon_slicer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/melon_slicer": true
+            }
+          }
+        }
+      }
+    },
+    "cocoa_in_the_void": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/cocoa_in_the_void": true
+            }
+          }
+        }
+      }
+    },
+    "fully_overgrown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fully_overgrown": true
+            }
+          }
+        }
+      }
+    },
+    "prehistoric_border": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/prehistoric_border": true
+            }
+          }
+        }
+      }
+    },
+    "deep_sea_farm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/deep_sea_farm": true
+            }
+          }
+        }
+      }
+    },
+    "cloud_farming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/cloud_farming": true
+            }
+          }
+        }
+      }
+    },
+    "under_glass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/under_glass": true
+            }
+          }
+        }
+      }
+    },
+    "bonsai_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bonsai_collection": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_windowsill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_whole_windowsill": true
+            }
+          }
+        }
+      }
+    },
+    "the_four_giants": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_four_giants": true
+            }
+          }
+        }
+      }
+    },
+    "the_cane_mutiny": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_cane_mutiny": true
+            }
+          }
+        }
+      }
+    },
+    "hells_herbarium": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hells_herbarium": true
+            }
+          }
+        }
+      }
+    },
+    "pickling_the_reef": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/pickling_the_reef": true
+            }
+          }
+        }
+      }
+    },
+    "the_flower_press": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_flower_press": true
+            }
+          }
+        }
+      }
+    },
+    "hells_arboretum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hells_arboretum": true
+            }
+          }
+        }
+      }
+    },
+    "greening_the_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/greening_the_desert": true
+            }
+          }
+        }
+      }
+    },
+    "hells_allotment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hells_allotment": true
+            }
+          }
+        }
+      }
+    },
+    "twelve_fields_twelve_biomes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/twelve_fields_twelve_biomes": true
+            }
+          }
+        }
+      }
+    },
+    "the_sunken_garden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_sunken_garden": true
+            }
+          }
+        }
+      }
+    },
+    "the_cellar_garden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_cellar_garden": true
+            }
+          }
+        }
+      }
+    },
+    "fairy_ring": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fairy_ring": true
+            }
+          }
+        }
+      }
+    },
+    "sunlit_spores": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sunlit_spores": true
+            }
+          }
+        }
+      }
+    },
+    "imported_spores": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/imported_spores": true
+            }
+          }
+        }
+      }
+    },
+    "lights_out_lunch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/lights_out_lunch": true
+            }
+          }
+        }
+      }
+    },
+    "milked_for_soup": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/milked_for_soup": true
+            }
+          }
+        }
+      }
+    },
+    "mycelium_invasion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/mycelium_invasion": true
+            }
+          }
+        }
+      }
+    },
+    "make_a_wish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/make_a_wish": true
+            }
+          }
+        }
+      }
+    },
+    "ice_cream_cake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/ice_cream_cake": true
+            }
+          }
+        }
+      }
+    },
+    "sweetened_with_honey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/sweetened_with_honey": true
+            }
+          }
+        }
+      }
+    },
+    "cob_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/cob_house": true
+            }
+          }
+        }
+      }
+    },
+    "let_them_compost_cake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/let_them_compost_cake": true
+            }
+          }
+        }
+      }
+    },
+    "rich_pickings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/rich_pickings": true
+            }
+          }
+        }
+      }
+    },
+    "void_gardener": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/void_gardener": true
+            }
+          }
+        }
+      }
+    },
+    "spud_roulette": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/spud_roulette": true
+            }
+          }
+        }
+      }
+    },
+    "chaser": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/chaser": true
+            }
+          }
+        }
+      }
+    },
+    "hells_lantern": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/hells_lantern": true
+            }
+          }
+        }
+      }
+    },
+    "gourd_goggles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/gourd_goggles": true
+            }
+          }
+        }
+      }
+    },
+    "straw_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/straw_man": true
+            }
+          }
+        }
+      }
+    },
+    "lantern_on_thin_ice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/lantern_on_thin_ice": true
+            }
+          }
+        }
+      }
+    },
+    "automated_bakery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/automated_bakery": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_climate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/wrong_climate": true
+            }
+          }
+        }
+      }
+    },
+    "nightmare_before_bedtime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nightmare_before_bedtime": true
+            }
+          }
+        }
+      }
+    },
+    "melon_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/melon_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "winter_melon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/winter_melon": true
+            }
+          }
+        }
+      }
+    },
+    "piglins_sweet_tooth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/piglins_sweet_tooth": true
+            }
+          }
+        }
+      }
+    },
+    "seed_vault": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/seed_vault": true
+            }
+          }
+        }
+      }
+    },
+    "exotic_seeds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/exotic_seeds": true
+            }
+          }
+        }
+      }
+    },
+    "souper_bowl": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/souper_bowl": true
+            }
+          }
+        }
+      }
+    },
+    "desert_provisions": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/desert_provisions": true
+            }
+          }
+        }
+      }
+    },
+    "soup_and_cinders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/soup_and_cinders": true
+            }
+          }
+        }
+      }
+    },
+    "bitter_herbs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bitter_herbs": true
+            }
+          }
+        }
+      }
+    },
+    "dandelion_dinner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/dandelion_dinner": true
+            }
+          }
+        }
+      }
+    },
+    "houseplant_from_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/houseplant_from_hell": true
+            }
+          }
+        }
+      }
+    },
+    "bloom_in_the_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bloom_in_the_badlands": true
+            }
+          }
+        }
+      }
+    },
+    "landing_in_the_hay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/landing_in_the_hay": true
+            }
+          }
+        }
+      }
+    },
+    "squid_on_the_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/squid_on_the_line": true
+            }
+          }
+        }
+      }
+    },
+    "neon_signage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/neon_signage": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_pigment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/ancient_pigment": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_grows_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nothing_grows_here": true
+            }
+          }
+        }
+      }
+    },
+    "reeds_on_the_roof": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/reeds_on_the_roof": true
+            }
+          }
+        }
+      }
+    },
+    "dear_diary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/dear_diary": true
+            }
+          }
+        }
+      }
+    },
+    "filed_under_fiction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/filed_under_fiction": true
+            }
+          }
+        }
+      }
+    },
+    "the_allay_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/the_allay_post": true
+            }
+          }
+        }
+      }
+    },
+    "master_pruner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/master_pruner": true
+            }
+          }
+        }
+      }
+    },
+    "pale_pruning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/pale_pruning": true
+            }
+          }
+        }
+      }
+    },
+    "fortune_favours_the_farmer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fortune_favours_the_farmer": true
+            }
+          }
+        }
+      }
+    },
+    "last_swing_of_the_hoe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/last_swing_of_the_hoe": true
+            }
+          }
+        }
+      }
+    },
+    "peasant_uprising": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/peasant_uprising": true
+            }
+          }
+        }
+      }
+    },
+    "smoke_screen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/smoke_screen": true
+            }
+          }
+        }
+      }
+    },
+    "bottled_sunshine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/bottled_sunshine": true
+            }
+          }
+        }
+      }
+    },
+    "full_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/full_house": true
+            }
+          }
+        }
+      }
+    },
+    "four_pickles_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/four_pickles_deep": true
+            }
+          }
+        }
+      }
+    },
+    "fertile_seabed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fertile_seabed": true
+            }
+          }
+        }
+      }
+    },
+    "coral_cultivator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/coral_cultivator": true
+            }
+          }
+        }
+      }
+    },
+    "nether_turf": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nether_turf": true
+            }
+          }
+        }
+      }
+    },
+    "one_leaf_bigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/one_leaf_bigger": true
+            }
+          }
+        }
+      }
+    },
+    "two_stage_bloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/two_stage_bloom": true
+            }
+          }
+        }
+      }
+    },
+    "fussy_sapling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fussy_sapling": true
+            }
+          }
+        }
+      }
+    },
+    "fruit_of_the_damned": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fruit_of_the_damned": true
+            }
+          }
+        }
+      }
+    },
+    "alien_crop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/alien_crop": true
+            }
+          }
+        }
+      }
+    },
+    "desert_bloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/desert_bloom": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_but_dust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/nothing_but_dust": true
+            }
+          }
+        }
+      }
+    },
+    "riverside_lanterns": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/riverside_lanterns": true
+            }
+          }
+        }
+      }
+    },
+    "fireflies_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/fireflies_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "four_in_bloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/four_in_bloom": true
+            }
+          }
+        }
+      }
+    },
+    "ceiling_garden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/ceiling_garden": true
+            }
+          }
+        }
+      }
+    },
+    "meadow_makeover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/meadow_makeover": true
+            }
+          }
+        }
+      }
+    },
+    "withered_appetite": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/withered_appetite": true
+            }
+          }
+        }
+      }
+    },
+    "unexpected_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/unexpected_journey": true
+            }
+          }
+        }
+      }
+    },
+    "homegrown_wart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:farming/homegrown_wart": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

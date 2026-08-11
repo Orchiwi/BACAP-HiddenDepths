@@ -1,0 +1,253 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_pot"
+    },
+    "title": {
+      "translate": "Bonsai Collection"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Sit every sapling, propagule and azalea bush the world grows into a Flower Pot"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_oak_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:oak_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_spruce_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:spruce_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_birch_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:birch_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_jungle_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:jungle_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_acacia_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:acacia_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_dark_oak_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:dark_oak_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_cherry_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:cherry_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_pale_oak_sapling"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:pale_oak_sapling"
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_mangrove_propagule"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:mangrove_propagule"
+            }
+          }
+        ]
+      }
+    },
+    "azalea_bush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_azalea_bush"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:azalea"
+            }
+          }
+        ]
+      }
+    },
+    "flowering_azalea_bush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_flowering_azalea_bush"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:flowering_azalea"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/bonsai_collection"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "All Four Wings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Loot a chest out of every kind of Bastion: bridge, stables, treasure room and all the rest"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/time_to_upgrade",
+  "criteria": {
+    "bridge": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_bridge"
+      }
+    },
+    "stables": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_hoglin_stable"
+      }
+    },
+    "treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      }
+    },
+    "other": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_other"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/all_four_wings"
+  }
+}

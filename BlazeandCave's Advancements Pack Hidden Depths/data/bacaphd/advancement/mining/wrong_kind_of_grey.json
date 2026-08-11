@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Wrong Kind of Grey"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Pale Moss below y-level -30, where nothing pale has any business growing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moss_maker",
+  "criteria": {
+    "pale_below": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_moss_block"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -30.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/wrong_kind_of_grey"
+  }
+}

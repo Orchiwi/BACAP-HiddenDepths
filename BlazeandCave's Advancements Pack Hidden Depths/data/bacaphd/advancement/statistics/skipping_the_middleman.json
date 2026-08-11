@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Skipping the Middleman"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Light a Nether portal in the End and go straight from one to the other, no Overworld involved"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_cars",
+  "criteria": {
+    "shortcut": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_end",
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/skipping_the_middleman"
+  }
+}

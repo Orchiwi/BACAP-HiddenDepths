@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": {
+      "translate": "Alarm System, Ancient Model"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a Calibrated Sculk Sensor of your own inside an Ancient City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/vibe_check",
+  "criteria": {
+    "tuned": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/alarm_system_ancient_model"
+  }
+}

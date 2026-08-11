@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "The Most Expensive Gravel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw an Enchanted Golden Apple to a Piglin and let it barter that away for gravel"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hung_drawn_and_bartered",
+  "criteria": {
+    "wasted_apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_most_expensive_gravel"
+  }
+}

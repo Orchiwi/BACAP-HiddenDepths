@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Half a Heart to Spare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take nineteen points of fall damage in one landing and still be standing afterwards"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/boing_boing",
+  "criteria": {
+    "crunch": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 19.0
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/half_a_heart_to_spare"
+  }
+}

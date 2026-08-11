@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Green Fingers, Cold Toes"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a crop while you are standing waist deep in Powder Snow"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "frozen_farmer": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/green_fingers_cold_toes"
+  }
+}

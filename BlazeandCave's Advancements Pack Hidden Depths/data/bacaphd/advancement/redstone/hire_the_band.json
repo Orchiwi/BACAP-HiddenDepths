@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allay_spawn_egg"
+    },
+    "title": {
+      "translate": "Hire the Band"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand a Note Block to an Allay and let it hold the instrument for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/noteworthy",
+  "criteria": {
+    "handover": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:note_block"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:allay"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hire_the_band"
+  }
+}

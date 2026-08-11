@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "Dressed Like the Locals"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk a Crimson Forest in a full suit of Gold armour, and be ignored for it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/cultural_misunderstandings",
+  "criteria": {
+    "gold_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:golden_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:golden_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:golden_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:golden_boots"
+                  ]
+                }
+              },
+              "location": {
+                "biomes": "minecraft:crimson_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/dressed_like_the_locals"
+  }
+}

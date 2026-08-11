@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Airborne Bullseye"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put an arrow dead centre of a Target from the back of a flying Happy Ghast"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 15
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/airborne_bullseye"
+  }
+}

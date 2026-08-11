@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_seeds"
+    },
+    "title": {
+      "translate": "Seeds from a Stranger"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy Wheat, Beetroot, Melon and Pumpkin Seeds off Wandering Traders"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "wheat_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds"
+          ]
+        }
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:beetroot_seeds"
+          ]
+        }
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:melon_seeds"
+          ]
+        }
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:pumpkin_seeds"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/seeds_from_a_stranger"
+  }
+}

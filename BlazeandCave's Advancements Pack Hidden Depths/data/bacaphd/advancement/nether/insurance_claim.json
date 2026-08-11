@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Insurance Claim"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Burn a Totem of Undying while you are standing in the Nether's lava"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/im_in_lava_with_you",
+  "criteria": {
+    "claimed": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:lava",
+                    "minecraft:flowing_lava"
+                  ]
+                },
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/insurance_claim"
+  }
+}

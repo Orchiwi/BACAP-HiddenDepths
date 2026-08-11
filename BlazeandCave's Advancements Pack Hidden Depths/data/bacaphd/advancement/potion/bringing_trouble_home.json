@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Bringing Trouble Home"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink an Ominous Bottle while standing in a village"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ominous_bottle"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:village_plains",
+                  "minecraft:village_desert",
+                  "minecraft:village_savanna",
+                  "minecraft:village_snowy",
+                  "minecraft:village_taiga"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bringing_trouble_home"
+  }
+}

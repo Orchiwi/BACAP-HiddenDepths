@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Supply Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Donkey that is already loaded with a chest, so the walking pays for itself"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/scourge_of_the_west",
+  "criteria": {
+    "mounted": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:donkey",
+                "nbt": "{ChestedHorse:1b}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/supply_line"
+  }
+}

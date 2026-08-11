@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": {
+      "translate": "Recalibrating the Alarm"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Install a Calibrated Sculk Sensor inside an Ancient City and improve on the original security"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "upgrade": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:calibrated_sculk_sensor"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/recalibrating_the_alarm"
+  }
+}

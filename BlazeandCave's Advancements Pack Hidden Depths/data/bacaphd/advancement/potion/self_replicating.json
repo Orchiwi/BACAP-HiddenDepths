@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "title": {
+      "translate": "Self-Replicating"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Silverfish you have made Infested, and watch the problem solve itself into more problems"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas_bomb",
+  "criteria": {
+    "infested_fish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:silverfish",
+          "effects": {
+            "minecraft:infested": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/self_replicating"
+  }
+}

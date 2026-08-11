@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Mutually Repellent"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Honey Block and a Slime Block at once, the only two blocks that refuse to stick to each other"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "both": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:slime_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/mutually_repellent"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Concert for the Sleeping City"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Play a Note Block inside an Ancient City. This is a terrible idea"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/travelling_bard",
+  "criteria": {
+    "bad_idea": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/concert_for_the_sleeping_city"
+  }
+}

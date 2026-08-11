@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "translate": "No Uniform Required"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Barter with a Piglin without one scrap of Gold armour on you, and take what comes"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/we_got_a_live_one",
+  "criteria": {
+    "naked_barter": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "items": [
+                      "minecraft:golden_helmet"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": [
+                      "minecraft:golden_chestplate"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "items": [
+                      "minecraft:golden_leggings"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": [
+                      "minecraft:golden_boots"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/no_uniform_required"
+  }
+}

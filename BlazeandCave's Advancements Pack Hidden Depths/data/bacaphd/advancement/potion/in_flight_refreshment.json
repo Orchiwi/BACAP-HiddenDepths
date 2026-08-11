@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "In-Flight Refreshment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a potion while riding a Happy Ghast, with nothing at all underneath you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "sky_sip": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/in_flight_refreshment"
+  }
+}

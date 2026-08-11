@@ -6470,6 +6470,1638 @@
           }
         }
       }
+    },
+    "no_steel_required": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_steel_required": true
+            }
+          }
+        }
+      }
+    },
+    "optimism_in_a_bucket": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/optimism_in_a_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "cross_dimensional_storage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/cross_dimensional_storage": true
+            }
+          }
+        }
+      }
+    },
+    "rails_through_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/rails_through_hell": true
+            }
+          }
+        }
+      }
+    },
+    "pointless_navigation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/pointless_navigation": true
+            }
+          }
+        }
+      }
+    },
+    "hells_water_feature": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hells_water_feature": true
+            }
+          }
+        }
+      }
+    },
+    "the_fire_you_brought_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_fire_you_brought_home": true
+            }
+          }
+        }
+      }
+    },
+    "hells_taxi": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hells_taxi": true
+            }
+          }
+        }
+      }
+    },
+    "pig_on_a_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/pig_on_a_line": true
+            }
+          }
+        }
+      }
+    },
+    "naming_the_dinner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/naming_the_dinner": true
+            }
+          }
+        }
+      }
+    },
+    "death_by_beanbag": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/death_by_beanbag": true
+            }
+          }
+        }
+      }
+    },
+    "something_to_cry_about": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/something_to_cry_about": true
+            }
+          }
+        }
+      }
+    },
+    "import_tax": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/import_tax": true
+            }
+          }
+        }
+      }
+    },
+    "wholesale": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/wholesale": true
+            }
+          }
+        }
+      }
+    },
+    "dressed_like_the_locals": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/dressed_like_the_locals": true
+            }
+          }
+        }
+      }
+    },
+    "twice_cooked_pork": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/twice_cooked_pork": true
+            }
+          }
+        }
+      }
+    },
+    "poached_pork": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/poached_pork": true
+            }
+          }
+        }
+      }
+    },
+    "no_longer_friendly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_longer_friendly": true
+            }
+          }
+        }
+      }
+    },
+    "suckling_pig": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/suckling_pig": true
+            }
+          }
+        }
+      }
+    },
+    "crossbreeding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/crossbreeding": true
+            }
+          }
+        }
+      }
+    },
+    "hells_fertiliser": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hells_fertiliser": true
+            }
+          }
+        }
+      }
+    },
+    "there_was_never_any_bark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/there_was_never_any_bark": true
+            }
+          }
+        }
+      }
+    },
+    "snout_on_display": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/snout_on_display": true
+            }
+          }
+        }
+      }
+    },
+    "glowing_signage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/glowing_signage": true
+            }
+          }
+        }
+      }
+    },
+    "boneyard_dig": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/boneyard_dig": true
+            }
+          }
+        }
+      }
+    },
+    "blue_flames_at_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/blue_flames_at_home": true
+            }
+          }
+        }
+      }
+    },
+    "soil_not_sand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/soil_not_sand": true
+            }
+          }
+        }
+      }
+    },
+    "infernal_dairy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/infernal_dairy": true
+            }
+          }
+        }
+      }
+    },
+    "birthday_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/birthday_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "dredging_from_the_saddle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/dredging_from_the_saddle": true
+            }
+          }
+        }
+      }
+    },
+    "preheated": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/preheated": true
+            }
+          }
+        }
+      }
+    },
+    "insured_commuter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/insured_commuter": true
+            }
+          }
+        }
+      }
+    },
+    "pearl_toll": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/pearl_toll": true
+            }
+          }
+        }
+      }
+    },
+    "straight_from_the_tap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/straight_from_the_tap": true
+            }
+          }
+        }
+      }
+    },
+    "leather_was_a_mistake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/leather_was_a_mistake": true
+            }
+          }
+        }
+      }
+    },
+    "dinner_is_served_hot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/dinner_is_served_hot": true
+            }
+          }
+        }
+      }
+    },
+    "onto_the_hotplate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/onto_the_hotplate": true
+            }
+          }
+        }
+      }
+    },
+    "cold_soles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/cold_soles": true
+            }
+          }
+        }
+      }
+    },
+    "caught_in_the_drizzle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/caught_in_the_drizzle": true
+            }
+          }
+        }
+      }
+    },
+    "no_wheel_no_brakes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_wheel_no_brakes": true
+            }
+          }
+        }
+      }
+    },
+    "ferry_under_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/ferry_under_fire": true
+            }
+          }
+        }
+      }
+    },
+    "it_followed_me_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/it_followed_me_home": true
+            }
+          }
+        }
+      }
+    },
+    "kerbside_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/kerbside_service": true
+            }
+          }
+        }
+      }
+    },
+    "the_suit_didnt_help": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_suit_didnt_help": true
+            }
+          }
+        }
+      }
+    },
+    "steered_into_the_ground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/steered_into_the_ground": true
+            }
+          }
+        }
+      }
+    },
+    "gold_is_a_terrible_idea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/gold_is_a_terrible_idea": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_vine_wrong_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/wrong_vine_wrong_forest": true
+            }
+          }
+        }
+      }
+    },
+    "dust_bowl_farming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/dust_bowl_farming": true
+            }
+          }
+        }
+      }
+    },
+    "one_tree_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/one_tree_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "basalt_farm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/basalt_farm": true
+            }
+          }
+        }
+      }
+    },
+    "top_of_the_spire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/top_of_the_spire": true
+            }
+          }
+        }
+      }
+    },
+    "hells_cavalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hells_cavalry": true
+            }
+          }
+        }
+      }
+    },
+    "imported_muscle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/imported_muscle": true
+            }
+          }
+        }
+      }
+    },
+    "just_in_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/just_in_time": true
+            }
+          }
+        }
+      }
+    },
+    "duty_free": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/duty_free": true
+            }
+          }
+        }
+      }
+    },
+    "the_most_expensive_gravel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_most_expensive_gravel": true
+            }
+          }
+        }
+      }
+    },
+    "redirected_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/redirected_fire": true
+            }
+          }
+        }
+      }
+    },
+    "ghast_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/ghast_post": true
+            }
+          }
+        }
+      }
+    },
+    "whaling_in_the_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/whaling_in_the_valley": true
+            }
+          }
+        }
+      }
+    },
+    "femur_first": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/femur_first": true
+            }
+          }
+        }
+      }
+    },
+    "repellent_hunting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/repellent_hunting": true
+            }
+          }
+        }
+      }
+    },
+    "trespassing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/trespassing": true
+            }
+          }
+        }
+      }
+    },
+    "repatriated": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/repatriated": true
+            }
+          }
+        }
+      }
+    },
+    "insurance_claim": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/insurance_claim": true
+            }
+          }
+        }
+      }
+    },
+    "hot_money": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hot_money": true
+            }
+          }
+        }
+      }
+    },
+    "locals_only": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/locals_only": true
+            }
+          }
+        }
+      }
+    },
+    "everything_with_a_snout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/everything_with_a_snout": true
+            }
+          }
+        }
+      }
+    },
+    "no_uniform_required": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_uniform_required": true
+            }
+          }
+        }
+      }
+    },
+    "customs_declaration": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/customs_declaration": true
+            }
+          }
+        }
+      }
+    },
+    "penthouse_rates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/penthouse_rates": true
+            }
+          }
+        }
+      }
+    },
+    "wearing_the_face": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/wearing_the_face": true
+            }
+          }
+        }
+      }
+    },
+    "brutes_dont_barter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/brutes_dont_barter": true
+            }
+          }
+        }
+      }
+    },
+    "local_dress_code": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/local_dress_code": true
+            }
+          }
+        }
+      }
+    },
+    "all_four_wings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/all_four_wings": true
+            }
+          }
+        }
+      }
+    },
+    "playing_to_the_locals": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/playing_to_the_locals": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_guillotine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/gilded_guillotine": true
+            }
+          }
+        }
+      }
+    },
+    "severance_package": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/severance_package": true
+            }
+          }
+        }
+      }
+    },
+    "snout_certified": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/snout_certified": true
+            }
+          }
+        }
+      }
+    },
+    "no_gold_no_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_gold_no_service": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_bakery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/bastion_bakery": true
+            }
+          }
+        }
+      }
+    },
+    "not_fooling_anyone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/not_fooling_anyone": true
+            }
+          }
+        }
+      }
+    },
+    "portal_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/portal_guard": true
+            }
+          }
+        }
+      }
+    },
+    "passport_control": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/passport_control": true
+            }
+          }
+        }
+      }
+    },
+    "skewered_brute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/skewered_brute": true
+            }
+          }
+        }
+      }
+    },
+    "deported": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/deported": true
+            }
+          }
+        }
+      }
+    },
+    "offshore_account": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/offshore_account": true
+            }
+          }
+        }
+      }
+    },
+    "out_of_their_element": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/out_of_their_element": true
+            }
+          }
+        }
+      }
+    },
+    "walkies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/walkies": true
+            }
+          }
+        }
+      }
+    },
+    "naturalised_livestock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/naturalised_livestock": true
+            }
+          }
+        }
+      }
+    },
+    "undead_bacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/undead_bacon": true
+            }
+          }
+        }
+      }
+    },
+    "boar_in_the_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/boar_in_the_village": true
+            }
+          }
+        }
+      }
+    },
+    "well_done_sir": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/well_done_sir": true
+            }
+          }
+        }
+      }
+    },
+    "drive_by_feeding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/drive_by_feeding": true
+            }
+          }
+        }
+      }
+    },
+    "hog_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/hog_line": true
+            }
+          }
+        }
+      }
+    },
+    "strider_cavalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/strider_cavalry": true
+            }
+          }
+        }
+      }
+    },
+    "tapping_the_source": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/tapping_the_source": true
+            }
+          }
+        }
+      }
+    },
+    "feeding_on_thin_ice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/feeding_on_thin_ice": true
+            }
+          }
+        }
+      }
+    },
+    "mounted_marksman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/mounted_marksman": true
+            }
+          }
+        }
+      }
+    },
+    "the_long_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_long_ride": true
+            }
+          }
+        }
+      }
+    },
+    "reeling_in_the_sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/reeling_in_the_sky": true
+            }
+          }
+        }
+      }
+    },
+    "gliding_gunner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/gliding_gunner": true
+            }
+          }
+        }
+      }
+    },
+    "anti_aircraft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/anti_aircraft": true
+            }
+          }
+        }
+      }
+    },
+    "whaling_season": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/whaling_season": true
+            }
+          }
+        }
+      }
+    },
+    "mistaken_for_a_cloud": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/mistaken_for_a_cloud": true
+            }
+          }
+        }
+      }
+    },
+    "airborne_bullseye": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/airborne_bullseye": true
+            }
+          }
+        }
+      }
+    },
+    "ceiling_unlimited": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/ceiling_unlimited": true
+            }
+          }
+        }
+      }
+    },
+    "basement_flight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/basement_flight": true
+            }
+          }
+        }
+      }
+    },
+    "fireball_express": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/fireball_express": true
+            }
+          }
+        }
+      }
+    },
+    "bathing_under_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/bathing_under_fire": true
+            }
+          }
+        }
+      }
+    },
+    "speck_on_the_horizon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/speck_on_the_horizon": true
+            }
+          }
+        }
+      }
+    },
+    "no_water_for_miles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/no_water_for_miles": true
+            }
+          }
+        }
+      }
+    },
+    "gunboat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/gunboat": true
+            }
+          }
+        }
+      }
+    },
+    "three_skulls_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/three_skulls_deep": true
+            }
+          }
+        }
+      }
+    },
+    "fortress_reunion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/fortress_reunion": true
+            }
+          }
+        }
+      }
+    },
+    "own_petard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/own_petard": true
+            }
+          }
+        }
+      }
+    },
+    "sent_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/sent_home": true
+            }
+          }
+        }
+      }
+    },
+    "aerial_exorcism": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/aerial_exorcism": true
+            }
+          }
+        }
+      }
+    },
+    "skull_percussion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/skull_percussion": true
+            }
+          }
+        }
+      }
+    },
+    "skull_deflected": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/skull_deflected": true
+            }
+          }
+        }
+      }
+    },
+    "lighthouse_on_the_ceiling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/lighthouse_on_the_ceiling": true
+            }
+          }
+        }
+      }
+    },
+    "beam_interrupted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/beam_interrupted": true
+            }
+          }
+        }
+      }
+    },
+    "extraction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/extraction": true
+            }
+          }
+        }
+      }
+    },
+    "dairy_cure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/dairy_cure": true
+            }
+          }
+        }
+      }
+    },
+    "automated_alloy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/automated_alloy": true
+            }
+          }
+        }
+      }
+    },
+    "forged_on_their_gold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/forged_on_their_gold": true
+            }
+          }
+        }
+      }
+    },
+    "portable_fortune": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/portable_fortune": true
+            }
+          }
+        }
+      }
+    },
+    "not_built_for_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/not_built_for_this": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_refinery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_whole_refinery": true
+            }
+          }
+        }
+      }
+    },
+    "the_high_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/the_high_line": true
+            }
+          }
+        }
+      }
+    },
+    "summit_camp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/summit_camp": true
+            }
+          }
+        }
+      }
+    },
+    "star_on_top": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/star_on_top": true
+            }
+          }
+        }
+      }
+    },
+    "leaving_in_a_hurry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/leaving_in_a_hurry": true
+            }
+          }
+        }
+      }
+    },
+    "late_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/late_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "honeyed_descent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/honeyed_descent": true
+            }
+          }
+        }
+      }
+    },
+    "second_chance_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/second_chance_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "stable_economy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:nether/stable_economy": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

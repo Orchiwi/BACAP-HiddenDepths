@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Neither Rising Nor Falling"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have Levitation and Slow Falling in effect at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:levitation": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/neither_rising_nor_falling"
+  }
+}

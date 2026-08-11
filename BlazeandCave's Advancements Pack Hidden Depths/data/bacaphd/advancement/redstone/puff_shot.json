@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Puff Shot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Blow a Wind Charge into the dead centre of a Target Block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "wind_target": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "projectile": {
+          "entity_type": "minecraft:wind_charge"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/puff_shot"
+  }
+}

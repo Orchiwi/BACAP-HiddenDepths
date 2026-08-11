@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "Compression Chamber"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have a Crafter squash nine Redstone Dust into a Block of Redstone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "auto_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/compression_chamber"
+  }
+}

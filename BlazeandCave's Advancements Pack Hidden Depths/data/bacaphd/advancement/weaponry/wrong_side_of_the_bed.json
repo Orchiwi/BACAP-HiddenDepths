@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Wrong Side of the Bed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a monster while standing on a Bed you never got to sleep in"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "bedside": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:white_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:brown_bed",
+                    "minecraft:green_bed",
+                    "minecraft:red_bed",
+                    "minecraft:black_bed"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/wrong_side_of_the_bed"
+  }
+}

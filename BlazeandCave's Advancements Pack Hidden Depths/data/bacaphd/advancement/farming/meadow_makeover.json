@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxeye_daisy"
+    },
+    "title": {
+      "translate": "Meadow Makeover"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bone-meal the grass of a Meadow and raise a bed of flowers out of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/you_cant_take_the_sky_from_me",
+  "criteria": {
+    "meadow_flowers": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:grass_block"
+                ]
+              },
+              "biomes": [
+                "minecraft:meadow"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/meadow_makeover"
+  }
+}

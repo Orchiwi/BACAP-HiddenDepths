@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Blast Absorbed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand in a Creeper's explosion with nothing but a Beacon's Resistance holding you together"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "cushioned": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:creeper"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:resistance": {
+                  "ambient": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/blast_absorbed"
+  }
+}

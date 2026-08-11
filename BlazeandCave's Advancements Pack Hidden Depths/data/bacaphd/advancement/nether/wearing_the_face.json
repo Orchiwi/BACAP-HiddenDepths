@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Wearing the Face"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Barter with a Piglin while wearing the head of one of its own"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/piglin_peril",
+  "criteria": {
+    "masked_trade": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ],
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:piglin_head"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/wearing_the_face"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "Steered into the Ground"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Warped Fungus on a Stick down to its very last point"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/fool_me_twice",
+  "criteria": {
+    "worn_stick": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:warped_fungus_on_a_stick"
+        },
+        "durability": {
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/steered_into_the_ground"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Wrong Climate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build a Snow Golem in a Desert, the one biome that finishes it off on the spot"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/olaf",
+  "criteria": {
+    "doomed_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:snow_golem"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:desert"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/wrong_climate"
+  }
+}

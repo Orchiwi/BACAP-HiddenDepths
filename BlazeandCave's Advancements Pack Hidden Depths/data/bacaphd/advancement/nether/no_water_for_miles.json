@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_ghast"
+    },
+    "title": {
+      "translate": "No Water for Miles"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Dried Ghast down in the Nether, where nothing will ever rehydrate it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/ghast_slayer",
+  "criteria": {
+    "hopeless": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dried_ghast"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/no_water_for_miles"
+  }
+}

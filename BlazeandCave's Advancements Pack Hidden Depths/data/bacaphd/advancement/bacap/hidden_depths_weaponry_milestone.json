@@ -5438,6 +5438,1614 @@
           }
         }
       }
+    },
+    "one_swing_left": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/one_swing_left": true
+            }
+          }
+        }
+      }
+    },
+    "method_acting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/method_acting": true
+            }
+          }
+        }
+      }
+    },
+    "no_cure_for_that": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/no_cure_for_that": true
+            }
+          }
+        }
+      }
+    },
+    "thanks_for_the_flower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/thanks_for_the_flower": true
+            }
+          }
+        }
+      }
+    },
+    "her_own_poison": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/her_own_poison": true
+            }
+          }
+        }
+      }
+    },
+    "withering_reply": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/withering_reply": true
+            }
+          }
+        }
+      }
+    },
+    "starved_for_revenge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/starved_for_revenge": true
+            }
+          }
+        }
+      }
+    },
+    "slow_to_anger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/slow_to_anger": true
+            }
+          }
+        }
+      }
+    },
+    "lipstick_on_a_pig": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/lipstick_on_a_pig": true
+            }
+          }
+        }
+      }
+    },
+    "between_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/between_worlds": true
+            }
+          }
+        }
+      }
+    },
+    "bouncer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bouncer": true
+            }
+          }
+        }
+      }
+    },
+    "cradle_snatcher": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cradle_snatcher": true
+            }
+          }
+        }
+      }
+    },
+    "steelworks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/steelworks": true
+            }
+          }
+        }
+      }
+    },
+    "bargain_bin_knight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bargain_bin_knight": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_side_of_the_bed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wrong_side_of_the_bed": true
+            }
+          }
+        }
+      }
+    },
+    "vault_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/vault_guard": true
+            }
+          }
+        }
+      }
+    },
+    "rail_rage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rail_rage": true
+            }
+          }
+        }
+      }
+    },
+    "matching_set": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/matching_set": true
+            }
+          }
+        }
+      }
+    },
+    "distant_relative": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/distant_relative": true
+            }
+          }
+        }
+      }
+    },
+    "one_clean_cut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/one_clean_cut": true
+            }
+          }
+        }
+      }
+    },
+    "rarefied_combat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rarefied_combat": true
+            }
+          }
+        }
+      }
+    },
+    "standing_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/standing_guard": true
+            }
+          }
+        }
+      }
+    },
+    "all_dressed_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/all_dressed_up": true
+            }
+          }
+        }
+      }
+    },
+    "jockey_club": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/jockey_club": true
+            }
+          }
+        }
+      }
+    },
+    "looted_and_lost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/looted_and_lost": true
+            }
+          }
+        }
+      }
+    },
+    "shell_collector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/shell_collector": true
+            }
+          }
+        }
+      }
+    },
+    "displaced_aggression": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/displaced_aggression": true
+            }
+          }
+        }
+      }
+    },
+    "exorcism": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/exorcism": true
+            }
+          }
+        }
+      }
+    },
+    "loud_and_clear": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/loud_and_clear": true
+            }
+          }
+        }
+      }
+    },
+    "slow_motion_replay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/slow_motion_replay": true
+            }
+          }
+        }
+      }
+    },
+    "concussive_maintenance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/concussive_maintenance": true
+            }
+          }
+        }
+      }
+    },
+    "deadlift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/deadlift": true
+            }
+          }
+        }
+      }
+    },
+    "silent_sledge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/silent_sledge": true
+            }
+          }
+        }
+      }
+    },
+    "three_levels_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/three_levels_deep": true
+            }
+          }
+        }
+      }
+    },
+    "arms_factory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/arms_factory": true
+            }
+          }
+        }
+      }
+    },
+    "transplant_surgery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/transplant_surgery": true
+            }
+          }
+        }
+      }
+    },
+    "desert_lancer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/desert_lancer": true
+            }
+          }
+        }
+      }
+    },
+    "cavalier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cavalier": true
+            }
+          }
+        }
+      }
+    },
+    "hot_lance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hot_lance": true
+            }
+          }
+        }
+      }
+    },
+    "wading_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wading_in": true
+            }
+          }
+        }
+      }
+    },
+    "overkill_cutlery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/overkill_cutlery": true
+            }
+          }
+        }
+      }
+    },
+    "full_extension": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/full_extension": true
+            }
+          }
+        }
+      }
+    },
+    "goat_blocked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/goat_blocked": true
+            }
+          }
+        }
+      }
+    },
+    "phlegmatic_response": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/phlegmatic_response": true
+            }
+          }
+        }
+      }
+    },
+    "hive_defence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hive_defence": true
+            }
+          }
+        }
+      }
+    },
+    "tin_handshake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/tin_handshake": true
+            }
+          }
+        }
+      }
+    },
+    "bullet_dodged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bullet_dodged": true
+            }
+          }
+        }
+      }
+    },
+    "percussive_defence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/percussive_defence": true
+            }
+          }
+        }
+      }
+    },
+    "thatll_buff_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/thatll_buff_out": true
+            }
+          }
+        }
+      }
+    },
+    "all_the_gear_no_idea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/all_the_gear_no_idea": true
+            }
+          }
+        }
+      }
+    },
+    "played_with_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/played_with_fire": true
+            }
+          }
+        }
+      }
+    },
+    "sandblasted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/sandblasted": true
+            }
+          }
+        }
+      }
+    },
+    "wooden_nightmare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wooden_nightmare": true
+            }
+          }
+        }
+      }
+    },
+    "poltergeist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/poltergeist": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_fungus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wrong_fungus": true
+            }
+          }
+        }
+      }
+    },
+    "its_own_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/its_own_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "pearl_handled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/pearl_handled": true
+            }
+          }
+        }
+      }
+    },
+    "exact_change": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/exact_change": true
+            }
+          }
+        }
+      }
+    },
+    "dry_your_eyes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/dry_your_eyes": true
+            }
+          }
+        }
+      }
+    },
+    "sick_beats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/sick_beats": true
+            }
+          }
+        }
+      }
+    },
+    "core_blimey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/core_blimey": true
+            }
+          }
+        }
+      }
+    },
+    "undying_irony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/undying_irony": true
+            }
+          }
+        }
+      }
+    },
+    "hardware_store": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hardware_store": true
+            }
+          }
+        }
+      }
+    },
+    "cold_shower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cold_shower": true
+            }
+          }
+        }
+      }
+    },
+    "arming_the_enemy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/arming_the_enemy": true
+            }
+          }
+        }
+      }
+    },
+    "cave_percussion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cave_percussion": true
+            }
+          }
+        }
+      }
+    },
+    "ceiling_fan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ceiling_fan": true
+            }
+          }
+        }
+      }
+    },
+    "cart_wreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cart_wreck": true
+            }
+          }
+        }
+      }
+    },
+    "fortress_demolition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/fortress_demolition": true
+            }
+          }
+        }
+      }
+    },
+    "arrow_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/arrow_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "deep_dark_percussion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/deep_dark_percussion": true
+            }
+          }
+        }
+      }
+    },
+    "long_way_down_hammer_ready": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/long_way_down_hammer_ready": true
+            }
+          }
+        }
+      }
+    },
+    "lift_and_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/lift_and_drop": true
+            }
+          }
+        }
+      }
+    },
+    "javelin_from_the_nest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/javelin_from_the_nest": true
+            }
+          }
+        }
+      }
+    },
+    "hades_declines": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/hades_declines": true
+            }
+          }
+        }
+      }
+    },
+    "no_take_backs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/no_take_backs": true
+            }
+          }
+        }
+      }
+    },
+    "trade_dispute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/trade_dispute": true
+            }
+          }
+        }
+      }
+    },
+    "iron_and_lightning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/iron_and_lightning": true
+            }
+          }
+        }
+      }
+    },
+    "denied_at_the_door": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/denied_at_the_door": true
+            }
+          }
+        }
+      }
+    },
+    "bee_blocked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bee_blocked": true
+            }
+          }
+        }
+      }
+    },
+    "wooden_heart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/wooden_heart": true
+            }
+          }
+        }
+      }
+    },
+    "golem_rebuffed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/golem_rebuffed": true
+            }
+          }
+        }
+      }
+    },
+    "brute_force_denied": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/brute_force_denied": true
+            }
+          }
+        }
+      }
+    },
+    "spitshine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/spitshine": true
+            }
+          }
+        }
+      }
+    },
+    "vexing_defence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/vexing_defence": true
+            }
+          }
+        }
+      }
+    },
+    "cutting_the_web": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cutting_the_web": true
+            }
+          }
+        }
+      }
+    },
+    "sandcastle_siege": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/sandcastle_siege": true
+            }
+          }
+        }
+      }
+    },
+    "snow_removal_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/snow_removal_service": true
+            }
+          }
+        }
+      }
+    },
+    "agricultural_accident": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/agricultural_accident": true
+            }
+          }
+        }
+      }
+    },
+    "axe_versus_axe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/axe_versus_axe": true
+            }
+          }
+        }
+      }
+    },
+    "peasants_verdict": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/peasants_verdict": true
+            }
+          }
+        }
+      }
+    },
+    "reel_in_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/reel_in_the_wind": true
+            }
+          }
+        }
+      }
+    },
+    "reeling_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/reeling_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "bear_on_a_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bear_on_a_line": true
+            }
+          }
+        }
+      }
+    },
+    "monument_angling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/monument_angling": true
+            }
+          }
+        }
+      }
+    },
+    "bull_on_a_string": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bull_on_a_string": true
+            }
+          }
+        }
+      }
+    },
+    "parthian_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/parthian_shot": true
+            }
+          }
+        }
+      }
+    },
+    "from_the_gunwale": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/from_the_gunwale": true
+            }
+          }
+        }
+      }
+    },
+    "danger_close": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/danger_close": true
+            }
+          }
+        }
+      }
+    },
+    "three_on_a_stick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/three_on_a_stick": true
+            }
+          }
+        }
+      }
+    },
+    "cavalry_cancelled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cavalry_cancelled": true
+            }
+          }
+        }
+      }
+    },
+    "coldshot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/coldshot": true
+            }
+          }
+        }
+      }
+    },
+    "rocket_sled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/rocket_sled": true
+            }
+          }
+        }
+      }
+    },
+    "fletchers_apprentice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/fletchers_apprentice": true
+            }
+          }
+        }
+      }
+    },
+    "ammunition_factory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/ammunition_factory": true
+            }
+          }
+        }
+      }
+    },
+    "from_the_rafters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/from_the_rafters": true
+            }
+          }
+        }
+      }
+    },
+    "duel_at_eighty_paces": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/duel_at_eighty_paces": true
+            }
+          }
+        }
+      }
+    },
+    "out_of_bolts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/out_of_bolts": true
+            }
+          }
+        }
+      }
+    },
+    "bullseye_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bullseye_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "air_burst": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/air_burst": true
+            }
+          }
+        }
+      }
+    },
+    "closing_ceremony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/closing_ceremony": true
+            }
+          }
+        }
+      }
+    },
+    "new_years_resolution": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/new_years_resolution": true
+            }
+          }
+        }
+      }
+    },
+    "blast_fishing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/blast_fishing": true
+            }
+          }
+        }
+      }
+    },
+    "explosive_bedtime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/explosive_bedtime": true
+            }
+          }
+        }
+      }
+    },
+    "charged_anchor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/charged_anchor": true
+            }
+          }
+        }
+      }
+    },
+    "crater_face": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/crater_face": true
+            }
+          }
+        }
+      }
+    },
+    "calamari_skewer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/calamari_skewer": true
+            }
+          }
+        }
+      }
+    },
+    "boar_hunt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/boar_hunt": true
+            }
+          }
+        }
+      }
+    },
+    "roast_dinner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/roast_dinner": true
+            }
+          }
+        }
+      }
+    },
+    "unscheduled_flight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/unscheduled_flight": true
+            }
+          }
+        }
+      }
+    },
+    "cheated_the_warden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/cheated_the_warden": true
+            }
+          }
+        }
+      }
+    },
+    "poppy_rejected": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/poppy_rejected": true
+            }
+          }
+        }
+      }
+    },
+    "guard_down": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/guard_down": true
+            }
+          }
+        }
+      }
+    },
+    "underwater_ballistics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/underwater_ballistics": true
+            }
+          }
+        }
+      }
+    },
+    "bone_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/bone_deep": true
+            }
+          }
+        }
+      }
+    },
+    "feeding_the_sculk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/feeding_the_sculk": true
+            }
+          }
+        }
+      }
+    },
+    "blunt_blades": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/blunt_blades": true
+            }
+          }
+        }
+      }
+    },
+    "fish_eat_fish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/fish_eat_fish": true
+            }
+          }
+        }
+      }
+    },
+    "blowfish_beatdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/blowfish_beatdown": true
+            }
+          }
+        }
+      }
+    },
+    "self_propelled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/self_propelled": true
+            }
+          }
+        }
+      }
+    },
+    "anti_gravity_marksman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/anti_gravity_marksman": true
+            }
+          }
+        }
+      }
+    },
+    "blind_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/blind_fire": true
+            }
+          }
+        }
+      }
+    },
+    "kettle_drum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/kettle_drum": true
+            }
+          }
+        }
+      }
+    },
+    "archers_paradox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:weaponry/archers_paradox": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

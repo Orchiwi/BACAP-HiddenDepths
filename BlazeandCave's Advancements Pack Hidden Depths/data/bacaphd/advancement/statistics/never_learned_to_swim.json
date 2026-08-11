@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Never Learned to Swim"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take to the water in a Boat without ever having swum a single stroke"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/luxury_cruise",
+  "criteria": {
+    "boarded": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_boats"
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:swim_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/never_learned_to_swim"
+  }
+}

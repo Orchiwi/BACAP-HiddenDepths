@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_boat"
+    },
+    "title": {
+      "translate": "Above the Waterline"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sit in a Boat two hundred and fifty blocks above the sea it was carved for"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/sailor_of_the_seven_seas",
+  "criteria": {
+    "aloft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_boats"
+              },
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "min": 250
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/above_the_waterline"
+  }
+}

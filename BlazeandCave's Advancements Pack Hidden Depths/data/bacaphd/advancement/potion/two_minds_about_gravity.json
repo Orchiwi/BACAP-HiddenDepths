@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Two Minds About Gravity"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drink a Potion of Slow Falling while a Shulker has you levitating upwards"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:slow_falling",
+              "minecraft:long_slow_falling"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:levitation": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/two_minds_about_gravity"
+  }
+}

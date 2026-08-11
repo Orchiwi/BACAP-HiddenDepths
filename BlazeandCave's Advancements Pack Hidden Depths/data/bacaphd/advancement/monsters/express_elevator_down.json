@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Express Elevator, Down"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Creeper's blast throw you off the edge and finish twenty blocks lower down"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/blast_shield",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:creeper"
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 20.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/express_elevator_down"
+  }
+}

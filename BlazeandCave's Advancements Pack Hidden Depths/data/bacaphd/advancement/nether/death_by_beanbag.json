@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cube_spawn_egg"
+    },
+    "title": {
+      "translate": "Death by Beanbag"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Let a Magma Cube be the thing that finally does you in"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/high_temperature_fluid_monster",
+  "criteria": {
+    "squashed": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:magma_cube"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/death_by_beanbag"
+  }
+}

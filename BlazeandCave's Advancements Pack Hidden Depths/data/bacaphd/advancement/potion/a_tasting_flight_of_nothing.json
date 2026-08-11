@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "A Tasting Flight of Nothing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Water Bottle, a Mundane Potion, an Awkward Potion and a Thick Potion"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:water"
+            ]
+          }
+        }
+      }
+    },
+    "mundane": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:mundane"
+            ]
+          }
+        }
+      }
+    },
+    "awkward": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:awkward"
+            ]
+          }
+        }
+      }
+    },
+    "thick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:thick"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/a_tasting_flight_of_nothing"
+  }
+}

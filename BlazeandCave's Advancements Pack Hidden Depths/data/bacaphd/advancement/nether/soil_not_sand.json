@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_campfire"
+    },
+    "title": {
+      "translate": "Soil, Not Sand"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build your Soul Campfire out of Soul Soil rather than the Soul Sand everybody else uses"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/burnt_right_into_your_soul",
+  "criteria": {
+    "soil_recipe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:soul_campfire",
+        "ingredients": [
+          {
+            "items": "minecraft:soul_soil"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/soil_not_sand"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "Tin Handshake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stop an Iron Golem's punch dead on your Shield"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "criteria": {
+    "punch": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:iron_golem"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/tin_handshake"
+  }
+}

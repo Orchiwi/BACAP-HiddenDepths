@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": {
+      "translate": "Too Deep to Hear"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slip past a Sculk Sensor below y-level -50, where nobody was listening anyway"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/black_belt_ninja",
+  "criteria": {
+    "deep_tiptoe": {
+      "trigger": "minecraft:avoid_vibration",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/too_deep_to_hear"
+  }
+}

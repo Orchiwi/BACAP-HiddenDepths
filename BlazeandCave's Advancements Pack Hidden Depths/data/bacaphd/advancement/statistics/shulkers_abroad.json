@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "Shulkers Abroad"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get yourself levitated twenty blocks in the Overworld, which means moving a Shulker there first"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/frequent_flyer",
+  "criteria": {
+    "lifted": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 20
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/shulkers_abroad"
+  }
+}

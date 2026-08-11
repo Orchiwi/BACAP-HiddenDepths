@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "Delta Crossing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Strider a hundred blocks across the lava of the Basalt Deltas"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/this_ride_is_lit_yo",
+  "criteria": {
+    "delta_ride": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 100.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:basalt_deltas"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/delta_crossing"
+  }
+}

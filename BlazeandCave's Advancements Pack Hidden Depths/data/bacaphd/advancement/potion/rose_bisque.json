@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Rose Bisque"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cook a Suspicious Stew out of a Wither Rose and eat it. The rot is entirely self-inflicted"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "ate_the_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      }
+    },
+    "the_rot": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:wither": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/rose_bisque"
+  }
+}

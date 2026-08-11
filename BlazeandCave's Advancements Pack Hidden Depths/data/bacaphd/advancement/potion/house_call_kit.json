@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "House Call Kit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a Splash Potion of Weakness and a Golden Apple together, ready for the next Zombie Villager you meet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/imbued_projectiles",
+  "criteria": {
+    "doctors_bag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:splash_potion",
+            "predicates": {
+              "potion_contents": [
+                "minecraft:weakness",
+                "minecraft:long_weakness"
+              ]
+            }
+          },
+          {
+            "items": "minecraft:golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/house_call_kit"
+  }
+}

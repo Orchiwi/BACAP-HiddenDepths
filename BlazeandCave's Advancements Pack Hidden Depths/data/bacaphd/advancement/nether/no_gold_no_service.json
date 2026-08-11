@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "No Gold, No Service"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Piglin while holding an entire Block of Gold"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_piglins_best_friend",
+  "criteria": {
+    "rejected": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:gold_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/no_gold_no_service"
+  }
+}

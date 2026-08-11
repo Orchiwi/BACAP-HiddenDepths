@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "The Long Way to a Trident"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw one of your own Tridents to a Drowned and let it arm itself with it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/because_im_aquaman",
+  "criteria": {
+    "armed_the_dead": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:drowned"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/the_long_way_to_a_trident"
+  }
+}

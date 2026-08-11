@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Unscheduled Flight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Breeze's wind charge put you fifteen blocks into the air and survive the part that comes after"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "launched": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 15.0
+          }
+        },
+        "cause": {
+          "entity_type": "minecraft:breeze_wind_charge"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/unscheduled_flight"
+  }
+}

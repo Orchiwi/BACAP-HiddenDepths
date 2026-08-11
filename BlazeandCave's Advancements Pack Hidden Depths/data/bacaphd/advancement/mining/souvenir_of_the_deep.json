@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_vein"
+    },
+    "title": {
+      "translate": "Souvenir of the Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bring a handful of Sculk Vein up out of the dark to prove where you have been"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/shriek_forever_after",
+  "criteria": {
+    "vein_souvenir": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_vein"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/souvenir_of_the_deep"
+  }
+}

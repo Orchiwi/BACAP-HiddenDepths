@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": {
+      "translate": "Ten Minute Nether"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be standing in the Nether with under ten minutes on the clock in a brand new world"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_first_night",
+  "criteria": {
+    "speedrun": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:play_time",
+                    "value": {
+                      "max": 12000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/ten_minute_nether"
+  }
+}

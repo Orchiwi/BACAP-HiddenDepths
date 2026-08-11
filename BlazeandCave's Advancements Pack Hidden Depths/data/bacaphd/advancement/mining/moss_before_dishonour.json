@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "Moss Before Dishonour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bone-meal a Moss Block inside an Ancient City and let something green grow over the tomb"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moss_maker",
+  "criteria": {
+    "city_moss": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:moss_block"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/moss_before_dishonour"
+  }
+}

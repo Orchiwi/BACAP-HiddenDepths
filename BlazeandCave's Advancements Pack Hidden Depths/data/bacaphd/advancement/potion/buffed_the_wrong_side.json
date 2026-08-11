@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "Buffed the Wrong Side"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be killed by a mob that you were the one to hand Strength to"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/super_strength",
+  "criteria": {
+    "backfired": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:strength": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/buffed_the_wrong_side"
+  }
+}

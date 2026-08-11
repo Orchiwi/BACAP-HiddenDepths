@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "The Mason's Middleman"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy your Quartz from a Master Mason instead of digging it out of the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/quirky_quartz",
+  "criteria": {
+    "bought": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:quartz_block",
+            "minecraft:quartz_pillar"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/the_masons_middleman"
+  }
+}

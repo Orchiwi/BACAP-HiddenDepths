@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Cave Spider's Pantry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Empty the chest at the end of an abandoned Mineshaft corridor, cobwebs and all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spider_smasher",
+  "criteria": {
+    "mineshaft_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/abandoned_mineshaft"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/cave_spiders_pantry"
+  }
+}

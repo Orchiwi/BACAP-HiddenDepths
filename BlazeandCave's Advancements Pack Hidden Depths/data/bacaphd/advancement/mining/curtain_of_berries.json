@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Curtain of Berries"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk straight through a curtain of Cave Vines hanging in a Lush Cave"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lush_hour",
+  "criteria": {
+    "through_the_vines": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cave_vines_plant",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:lush_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/curtain_of_berries"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Bone Deep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Beat a Skeleton to death with a Bone, so it is at least being hit with something familiar"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/slapfish",
+  "criteria": {
+    "bone_beating": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:bone"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bone_deep"
+  }
+}

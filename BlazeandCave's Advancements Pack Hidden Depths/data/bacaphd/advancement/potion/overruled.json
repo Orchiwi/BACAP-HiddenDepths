@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Overruled"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hold Night Vision and Darkness at the same time and find out which one the Deep Dark respects"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/nocturnal",
+  "criteria": {
+    "outvoted": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {},
+          "minecraft:darkness": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/overruled"
+  }
+}

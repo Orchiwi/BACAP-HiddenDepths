@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Lift and Drop"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Shulker levitate you twenty blocks with a Mace in hand, then use the height it gave you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/warden_extinction",
+  "criteria": {
+    "lifted": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 20.0
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/lift_and_drop"
+  }
+}

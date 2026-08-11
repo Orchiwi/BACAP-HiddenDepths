@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Harvesting the Ceiling"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut String out of an Abandoned Mineshaft's own cobwebs without leaving the tunnels"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/eeuuwww",
+  "criteria": {
+    "web_harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/harvesting_the_ceiling"
+  }
+}

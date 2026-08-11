@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Buying the Farm"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Trade with a Villager while you are standing in your own Wheat"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/bake_bread",
+  "criteria": {
+    "field_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/buying_the_farm"
+  }
+}

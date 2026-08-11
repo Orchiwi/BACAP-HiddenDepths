@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "Beneath the Ice Sheet"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Swim under a Frozen Ocean's roof of ice with no hole in sight"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "under": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "frozen_ocean",
+                "block": {
+                  "blocks": [
+                    "minecraft:water"
+                  ]
+                }
+              },
+              "flags": {
+                "is_swimming": true
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/beneath_the_ice_sheet"
+  }
+}

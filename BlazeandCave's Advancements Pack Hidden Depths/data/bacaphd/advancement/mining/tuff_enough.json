@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "translate": "Tuff Enough"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Chiseled Tuff out of the grey stuff every other miner shovels straight into the lava"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/mineral_collection",
+  "criteria": {
+    "chisel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/tuff_enough"
+  }
+}

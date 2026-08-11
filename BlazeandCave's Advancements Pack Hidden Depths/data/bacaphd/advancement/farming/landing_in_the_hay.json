@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Landing in the Hay"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop thirty blocks and let a Hay Bale take the worst of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/spikey",
+  "criteria": {
+    "soft_bale": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:hay_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/landing_in_the_hay"
+  }
+}

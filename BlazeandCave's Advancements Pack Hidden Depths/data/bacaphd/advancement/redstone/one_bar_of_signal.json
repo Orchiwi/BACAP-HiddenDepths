@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "One Bar of Signal"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place the fifteenth piece of Redstone Dust in a line, where the signal has faded to a single bar"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/root",
+  "criteria": {
+    "faded": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_wire"
+                ],
+                "state": {
+                  "power": "1"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/one_bar_of_signal"
+  }
+}

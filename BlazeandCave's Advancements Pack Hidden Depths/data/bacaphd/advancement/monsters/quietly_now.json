@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Quietly Now"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill an Enderman standing on a Sculk Shrieker in an Ancient City and hope that was quiet enough"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/plane_walker",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:enderman",
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:sculk_shrieker"
+              ]
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/quietly_now"
+  }
+}

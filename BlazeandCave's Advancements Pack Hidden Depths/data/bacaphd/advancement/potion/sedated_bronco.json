@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Sedated Bronco"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slow a wild Horse down with a potion before you climb on and break it in"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "doped_horse": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:horse",
+          "effects": {
+            "minecraft:slowness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/sedated_bronco"
+  }
+}

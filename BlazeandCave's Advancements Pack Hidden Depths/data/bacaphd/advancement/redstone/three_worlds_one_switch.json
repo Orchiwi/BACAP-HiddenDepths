@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lever"
+    },
+    "title": {
+      "translate": "Three Worlds, One Switch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Flick a Lever in the Overworld, in the Nether and in the End"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/leveraging_synergy",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lever"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lever"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    },
+    "end": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lever"
+                ]
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/three_worlds_one_switch"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "A Bowl of Flowers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Obtain the Saturation effect, which no Brewing Stand will ever give you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:saturation": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/a_bowl_of_flowers"
+  }
+}

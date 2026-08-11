@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "Pale Pruning"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cut Pale Hanging Moss back with Shears inside a Pale Garden"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "trim_moss": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_hanging_moss"
+                ]
+              },
+              "biomes": [
+                "minecraft:pale_garden"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/pale_pruning"
+  }
+}

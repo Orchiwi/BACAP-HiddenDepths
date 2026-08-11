@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "Fungal Colonists"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Raise a huge Warped Fungus from Nylium you carried up into the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mega_mushroom",
+  "criteria": {
+    "emigrant_fungus": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:warped_fungus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:warped_nylium"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fungal_colonists"
+  }
+}

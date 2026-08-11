@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
+    },
+    "title": {
+      "translate": "Bargain Bin Knight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a monster wearing one piece each of Leather, Golden, Iron and Diamond armour"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "mismatched": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:iron_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:golden_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:diamond_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bargain_bin_knight"
+  }
+}

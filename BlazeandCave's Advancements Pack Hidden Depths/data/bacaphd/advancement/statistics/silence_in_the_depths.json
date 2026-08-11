@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Silence in the Depths"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sneak past a Sculk Sensor down in the Deep Dark, where getting it wrong actually costs you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/black_belt_ninja",
+  "criteria": {
+    "quiet": {
+      "trigger": "minecraft:avoid_vibration",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/silence_in_the_depths"
+  }
+}

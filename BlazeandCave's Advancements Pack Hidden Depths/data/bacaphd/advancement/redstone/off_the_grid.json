@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Off the Grid"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Daylight Detector somewhere it cannot see the sky at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "buried_solar": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              },
+              "can_see_sky": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/off_the_grid"
+  }
+}

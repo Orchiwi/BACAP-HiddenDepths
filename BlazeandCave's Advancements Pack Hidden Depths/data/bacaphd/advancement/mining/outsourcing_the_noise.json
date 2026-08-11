@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Outsourcing the Noise"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Let a Crafter make Deepslate Bricks for you inside an Ancient City, and let it be the loud one"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "auto_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_bricks",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/outsourcing_the_noise"
+  }
+}

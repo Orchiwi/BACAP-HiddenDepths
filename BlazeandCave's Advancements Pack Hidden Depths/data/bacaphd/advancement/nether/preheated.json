@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Preheated"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Walk through the portal into the Nether while you are already on fire"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/ancient_restoration",
+  "criteria": {
+    "burning_entry": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": {
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/preheated"
+  }
+}

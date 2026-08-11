@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_torch"
+    },
+    "title": {
+      "translate": "A Light That Gives No Warmth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Redstone Torch in the Deep Dark"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/powerful_light",
+  "criteria": {
+    "dim_torch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_torch",
+                  "minecraft:redstone_wall_torch"
+                ]
+              },
+              "biomes": [
+                "minecraft:deep_dark"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/a_light_that_gives_no_warmth"
+  }
+}

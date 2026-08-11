@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Bargain Bin Blessing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant a Pickaxe on the cheapest slot the table offers, for a single level"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iconic_merchandising_prop",
+  "criteria": {
+    "cheapskate": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:copper_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ]
+        },
+        "levels": {
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/bargain_bin_blessing"
+  }
+}

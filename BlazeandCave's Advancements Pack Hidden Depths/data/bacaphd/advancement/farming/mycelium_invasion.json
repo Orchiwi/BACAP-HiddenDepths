@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": {
+      "translate": "Mycelium Invasion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay Mycelium down on the open Plains, an ocean away from any Mushroom Island"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/shrooms",
+  "criteria": {
+    "plains_mycelium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mycelium"
+                ]
+              },
+              "biomes": [
+                "minecraft:plains"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/mycelium_invasion"
+  }
+}

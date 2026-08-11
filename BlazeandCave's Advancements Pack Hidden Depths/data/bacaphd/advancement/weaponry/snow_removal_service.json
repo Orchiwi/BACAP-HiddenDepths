@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Snow Removal Service"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Clear a Stray away with a Shovel while you are both standing in snow"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shovel_knight",
+  "criteria": {
+    "cleared": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:stray"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_shovel",
+                "minecraft:stone_shovel",
+                "minecraft:copper_shovel",
+                "minecraft:iron_shovel",
+                "minecraft:golden_shovel",
+                "minecraft:diamond_shovel",
+                "minecraft:netherite_shovel"
+              ]
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:snow",
+                "minecraft:snow_block",
+                "minecraft:powder_snow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/snow_removal_service"
+  }
+}

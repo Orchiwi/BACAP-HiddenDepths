@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Hades Declines"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw a Trident through a Strider as it wanders across the lava it lives on"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/poseidon_vs_hades",
+  "criteria": {
+    "speared_strider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:strider"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/hades_declines"
+  }
+}

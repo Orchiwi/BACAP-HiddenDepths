@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:llama_spawn_egg"
+    },
+    "title": {
+      "translate": "Hijacking the Caravan"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get on the back of a Wandering Trader's own Llama while he is still using it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/horse_training",
+  "criteria": {
+    "mounted": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:trader_llama"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/hijacking_the_caravan"
+  }
+}

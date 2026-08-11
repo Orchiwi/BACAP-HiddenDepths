@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Cheating the Dark"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take on Night Vision below y-level -50 and make every seam of ore obvious"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "criteria": {
+    "nv_deep": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {}
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cheating_the_dark"
+  }
+}

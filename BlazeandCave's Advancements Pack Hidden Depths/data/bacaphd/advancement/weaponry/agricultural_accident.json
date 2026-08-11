@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "Agricultural Accident"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Bring a Ravager down using nothing but a Hoe, the least respected tool in the shed"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/viking",
+  "criteria": {
+    "tilled": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_hoe",
+                "minecraft:stone_hoe",
+                "minecraft:copper_hoe",
+                "minecraft:iron_hoe",
+                "minecraft:golden_hoe",
+                "minecraft:diamond_hoe",
+                "minecraft:netherite_hoe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/agricultural_accident"
+  }
+}

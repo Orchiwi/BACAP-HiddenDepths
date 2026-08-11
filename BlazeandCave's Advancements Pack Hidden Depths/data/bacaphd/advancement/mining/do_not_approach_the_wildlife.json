@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Do Not Approach the Wildlife"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Study the Deep Dark down a Spyglass instead of walking any closer to it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/pixel_perfect",
+  "criteria": {
+    "long_lens": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/do_not_approach_the_wildlife"
+  }
+}

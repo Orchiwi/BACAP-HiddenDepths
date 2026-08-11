@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Absorbing the Warden"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Warden's hit while the Turtle Master's Resistance is holding"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:warden"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:resistance": {
+                  "amplifier": {
+                    "min": 2
+                  }
+                },
+                "minecraft:slowness": {
+                  "amplifier": {
+                    "min": 3
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/absorbing_the_warden"
+  }
+}

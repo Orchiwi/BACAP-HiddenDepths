@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Claim Staked"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Chest down inside an Abandoned Mineshaft. The place has an owner again"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "claimed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chest"
+                ]
+              },
+              "structures": "minecraft:mineshaft"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/claim_staked"
+  }
+}

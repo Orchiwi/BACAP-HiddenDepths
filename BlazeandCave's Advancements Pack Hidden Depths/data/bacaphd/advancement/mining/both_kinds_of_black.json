@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:charcoal"
+    },
+    "title": {
+      "translate": "Both Kinds of Black"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry Coal and Charcoal at the same time and try to tell them apart"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fossil_fuel",
+  "criteria": {
+    "two_blacks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:charcoal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/both_kinds_of_black"
+  }
+}

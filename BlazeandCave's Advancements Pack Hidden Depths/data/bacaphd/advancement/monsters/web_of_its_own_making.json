@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Web of Its Own Making"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Spider that has walked straight into a Cobweb"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spider_smasher",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:spider",
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:cobweb"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/web_of_its_own_making"
+  }
+}

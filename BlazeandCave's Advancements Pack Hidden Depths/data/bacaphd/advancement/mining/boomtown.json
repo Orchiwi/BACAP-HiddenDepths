@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold"
+    },
+    "title": {
+      "translate": "Boomtown"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Raw Gold inside the Abandoned Mineshaft that runs through a Badlands"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/gold_mine",
+  "criteria": {
+    "mesa_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_gold"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mineshaft_mesa"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/boomtown"
+  }
+}

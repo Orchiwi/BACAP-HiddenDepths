@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "Not Even Warm"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a hit from a Blaze while Fire Resistance is shrugging off everything it throws"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:blaze"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:fire_resistance": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/not_even_warm"
+  }
+}

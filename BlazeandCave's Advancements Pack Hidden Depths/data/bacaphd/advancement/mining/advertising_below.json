@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flowering_azalea"
+    },
+    "title": {
+      "translate": "Advertising Below"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Flowering Azalea above sea level to tell everyone what is underneath it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iggy",
+  "criteria": {
+    "signpost": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:flowering_azalea"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 63.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/advertising_below"
+  }
+}

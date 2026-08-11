@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Reeling in the Sky"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hook a Ghast on a Fishing Rod and drag it down to you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "criteria": {
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ghast"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/reeling_in_the_sky"
+  }
+}

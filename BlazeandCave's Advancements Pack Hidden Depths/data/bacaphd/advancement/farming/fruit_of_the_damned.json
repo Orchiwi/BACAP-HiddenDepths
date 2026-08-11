@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "Fruit of the Damned"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hang Glow Berries from a Nether ceiling"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "nether_vines": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cave_vines"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fruit_of_the_damned"
+  }
+}

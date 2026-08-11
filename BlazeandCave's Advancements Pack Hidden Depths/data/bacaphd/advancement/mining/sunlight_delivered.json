@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Sunlight, Delivered"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Feel Haste II from a Beacon while standing below y-level -40. Yes, it needs a clear shaft to the sky"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "deep_haste": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -40.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/sunlight_delivered"
+  }
+}

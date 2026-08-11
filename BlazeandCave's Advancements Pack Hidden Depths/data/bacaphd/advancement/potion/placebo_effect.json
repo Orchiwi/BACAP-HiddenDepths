@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Placebo Effect"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sit in a Boat under Speed II and discover that the Boat could not care less"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "useless_boost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:oak_boat",
+                  "minecraft:spruce_boat",
+                  "minecraft:birch_boat",
+                  "minecraft:jungle_boat",
+                  "minecraft:acacia_boat",
+                  "minecraft:dark_oak_boat",
+                  "minecraft:mangrove_boat",
+                  "minecraft:cherry_boat",
+                  "minecraft:pale_oak_boat",
+                  "minecraft:bamboo_raft"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:speed": {
+                  "amplifier": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/placebo_effect"
+  }
+}

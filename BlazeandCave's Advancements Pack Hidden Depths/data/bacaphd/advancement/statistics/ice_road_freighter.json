@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Ice Road Freighter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get a Boat up to speed on a Blue Ice road with no water anywhere near it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/luxury_cruise",
+  "criteria": {
+    "sliding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_boats",
+                "stepping_on": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:blue_ice"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/ice_road_freighter"
+  }
+}

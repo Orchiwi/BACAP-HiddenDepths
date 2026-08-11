@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "Gentle Extraction"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put Silk Touch on a Diamond Pickaxe and start taking blocks instead of breaking them"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/oresome",
+  "criteria": {
+    "silky": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/gentle_extraction"
+  }
+}

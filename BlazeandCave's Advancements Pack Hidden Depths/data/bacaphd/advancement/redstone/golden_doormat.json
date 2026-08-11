@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Golden Doormat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay a Light Weighted Pressure Plate inside a Bastion Remnant, where the gold belongs"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/bling_plate",
+  "criteria": {
+    "bastion_plate": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:light_weighted_pressure_plate"
+                ]
+              },
+              "structures": "minecraft:bastion_remnant"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/golden_doormat"
+  }
+}

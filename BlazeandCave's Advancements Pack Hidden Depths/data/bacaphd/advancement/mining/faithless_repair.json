@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Faithless Repair"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break a pickaxe that had Mending on it. You never gave it a single point of experience"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "criteria": {
+    "mending_failed": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:copper_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/faithless_repair"
+  }
+}

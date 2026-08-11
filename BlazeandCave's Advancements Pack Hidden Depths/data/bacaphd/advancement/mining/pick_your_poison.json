@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Pick Your Poison"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry a pickaxe of every material at once, from the wooden one to the netherite one"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moar_tools",
+  "criteria": {
+    "full_rack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:copper_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/pick_your_poison"
+  }
+}

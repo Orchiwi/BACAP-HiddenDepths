@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Cold Calling"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade with a Villager while you are sunk to the eyes in Powder Snow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_spender",
+  "criteria": {
+    "frozen_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:powder_snow"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/cold_calling"
+  }
+}

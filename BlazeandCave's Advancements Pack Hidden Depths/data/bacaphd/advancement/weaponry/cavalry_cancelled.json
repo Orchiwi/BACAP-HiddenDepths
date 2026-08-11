@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Cavalry Cancelled"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Skewer a Pillager and the Ravager carrying it on one bolt and end the charge in a single shot"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "unhorsed": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:pillager"
+          },
+          {
+            "entity_type": "minecraft:ravager"
+          }
+        ],
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:crossbow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/cavalry_cancelled"
+  }
+}

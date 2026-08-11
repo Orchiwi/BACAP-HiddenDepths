@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hoglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Stable Economy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed Hoglins in the stable of the Bastion that was farming them"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/when_hoglins_breed",
+  "criteria": {
+    "stable_bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:hoglin"
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/stable_economy"
+  }
+}

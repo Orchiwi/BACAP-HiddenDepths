@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_planks"
+    },
+    "title": {
+      "translate": "Wooden Heart"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Raise your Shield against the Creaking in a Pale Garden, since hitting it back achieves nothing at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "creak_blocked": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:creaking"
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/wooden_heart"
+  }
+}

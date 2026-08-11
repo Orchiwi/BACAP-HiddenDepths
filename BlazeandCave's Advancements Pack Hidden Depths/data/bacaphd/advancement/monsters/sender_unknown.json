@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Sender Unknown"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be shot dead by a Skeleton standing at least 40 blocks away. Sniper Duel, from the other end"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spooky_skeleton",
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton",
+          "distance": {
+            "horizontal": {
+              "min": 40.0
+            }
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/sender_unknown"
+  }
+}

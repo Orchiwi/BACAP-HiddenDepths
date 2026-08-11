@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "translate": "Milked for Soup"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fill an empty Bowl straight out of a Mooshroom"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "criteria": {
+    "bowl_on_cow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bowl"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:mooshroom"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/milked_for_soup"
+  }
+}

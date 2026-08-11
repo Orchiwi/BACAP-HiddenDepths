@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Steelworks"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a monster while wearing a full set of Chainmail armour, the set nobody can craft"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "ringmail": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:chainmail_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:chainmail_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:chainmail_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:chainmail_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/steelworks"
+  }
+}

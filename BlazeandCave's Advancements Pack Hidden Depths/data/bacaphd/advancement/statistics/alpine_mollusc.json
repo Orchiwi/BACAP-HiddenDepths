@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Alpine Mollusc"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Nautilus in water above y-level 150. Getting it up there is the whole advancement"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/captain_nemo",
+  "criteria": {
+    "high_nautilus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:nautilus"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 150.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/alpine_mollusc"
+  }
+}

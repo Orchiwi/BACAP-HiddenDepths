@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": {
+      "translate": "Buried Botany"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sow both of the Sniffer's ancient seeds inside an Ancient City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "torchflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:torchflower_crop"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:ancient_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pitcher": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:pitcher_crop"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:ancient_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/buried_botany"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Beam Interrupted"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Beacon under the Nether's ceiling, where its beam will never see sky"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/light_show",
+  "criteria": {
+    "buried_beam": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beacon"
+                ]
+              },
+              "dimension": "minecraft:the_nether",
+              "position": {
+                "y": {
+                  "max": 110
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/beam_interrupted"
+  }
+}

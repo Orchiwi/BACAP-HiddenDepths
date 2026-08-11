@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Javelin from the Nest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw a Trident down onto something from the back of a Happy Ghast and never leave the saddle"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/the_aquatic_hunter",
+  "criteria": {
+    "skyborne": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/javelin_from_the_nest"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus"
+    },
+    "title": {
+      "translate": "Out of Fungus"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Steer a Strider until the Warped Fungus on a Stick gives out entirely"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/this_ride_is_lit_yo",
+  "criteria": {
+    "snapped_stick": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/out_of_fungus"
+  }
+}

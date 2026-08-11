@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "Lights Out Lunch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Slurp Mushroom Stew in pitch blackness, with no light on you at all"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "criteria": {
+    "blind_supper": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "light": {
+                "light": {
+                  "max": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/lights_out_lunch"
+  }
+}

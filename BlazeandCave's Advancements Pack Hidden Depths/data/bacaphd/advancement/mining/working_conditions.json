@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Working Conditions"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Strider twenty blocks across the lava sea that lies on the Overworld's own bedrock"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "deep_crossing": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "start_position": {
+          "position": {
+            "y": {
+              "max": -50.0
+            }
+          },
+          "dimension": "minecraft:overworld"
+        },
+        "distance": {
+          "horizontal": {
+            "min": 20.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/working_conditions"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Absolutely Not Sneaking"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Sprint through an Ancient City. Every single thing about this is a mistake"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/marathon",
+  "criteria": {
+    "loud_visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true
+              },
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/absolutely_not_sneaking"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Shared Prescription"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cure a Zombie Villager while the same Weakness you threw at it is still on your own arm"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "self_dosed": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "entity_type": "minecraft:zombie_villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:weakness": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/shared_prescription"
+  }
+}

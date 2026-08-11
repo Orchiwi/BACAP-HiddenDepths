@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "Molten Payday"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up a Diamond while you are standing in lava. Hope you planned ahead"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/diamond_miner",
+  "criteria": {
+    "lava_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:lava",
+                    "minecraft:flowing_lava"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/molten_payday"
+  }
+}

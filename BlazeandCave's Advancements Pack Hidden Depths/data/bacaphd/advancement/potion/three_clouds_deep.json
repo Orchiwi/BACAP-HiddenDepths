@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Three Clouds Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a mob carrying Poison, Slowness and Weakness at once. That is three clouds' worth of work"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "soaked": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "effects": {
+            "minecraft:poison": {},
+            "minecraft:slowness": {},
+            "minecraft:weakness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/three_clouds_deep"
+  }
+}

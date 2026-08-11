@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_dye"
+    },
+    "title": {
+      "translate": "Ancient Pigment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Grind a Torchflower dug up by a Sniffer into Orange Dye"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/squid_game",
+  "criteria": {
+    "torch_dye": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_torchflower"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/ancient_pigment"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Parkour Loadout"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Speed, Jump Boost and Slow Falling together and become genuinely hard to catch"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "loadout": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:jump_boost": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/parkour_loadout"
+  }
+}

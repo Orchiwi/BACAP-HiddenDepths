@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_cube_spawn_egg"
+    },
+    "title": {
+      "translate": "Invasive Species"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pour a bucketed Sulfur Cube out in the Nether and see how the locals take to it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/all_the_balls",
+  "criteria": {
+    "released": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:sulfur_cube_bucket"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/invasive_species"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Climbed Every Metre of It"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand three hundred blocks up in the Overworld without ever having flown an Elytra"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/take_to_the_skies",
+  "criteria": {
+    "high": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "min": 300
+                  }
+                }
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:aviate_one_cm",
+                    "value": {
+                      "max": 0
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/climbed_every_metre_of_it"
+  }
+}

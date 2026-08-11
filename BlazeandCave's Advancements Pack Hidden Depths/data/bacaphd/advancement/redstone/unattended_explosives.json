@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Unattended Explosives"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Crafter make TNT while you stand well back"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "auto_tnt": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/unattended_explosives"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Left Them Upstairs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Wooden Pickaxe below y-level -50, because you brought logs but forgot your tools"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/moar_tools",
+  "criteria": {
+    "emergency_pick": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/left_them_upstairs"
+  }
+}

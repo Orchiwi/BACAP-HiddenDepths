@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Glue Factory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Let a Crafter do the sticky work and produce a Sticky Piston"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "auto_sticky": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sticky_piston"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/glue_factory"
+  }
+}

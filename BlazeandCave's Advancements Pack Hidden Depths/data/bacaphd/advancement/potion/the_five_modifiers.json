@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "The Five Modifiers"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Redstone, Glowstone Dust, Gunpowder, Dragon's Breath and a Fermented Spider Eye at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "modifiers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:glowstone_dust"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:fermented_spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_five_modifiers"
+  }
+}

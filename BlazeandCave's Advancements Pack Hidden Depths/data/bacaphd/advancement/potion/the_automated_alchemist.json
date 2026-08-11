@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "The Automated Alchemist"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have a Crafter make a Fermented Spider Eye for you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fermented_spider_eye"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_automated_alchemist"
+  }
+}

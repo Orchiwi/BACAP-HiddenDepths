@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_egg"
+    },
+    "title": {
+      "translate": "Blue Yolk Special"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit a Target with a Blue Egg thrown from at least 40 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/splatfest",
+  "criteria": {
+    "long_egg": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:egg",
+              "nbt": "{Item:{id:\"minecraft:blue_egg\"}}",
+              "distance": {
+                "horizontal": {
+                  "min": 40.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/blue_yolk_special"
+  }
+}

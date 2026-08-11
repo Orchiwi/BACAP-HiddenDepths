@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "Deepest Line on the Network"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Board a Minecart below y = -50"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "deep_line": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/deepest_line_on_the_network"
+  }
+}

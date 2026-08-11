@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Heavy Freight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ferry an Iron Golem by Boat, the only way anybody ever moves one"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/luxury_cruise",
+  "criteria": {
+    "golem_ferry": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:oak_boat",
+                  "minecraft:spruce_boat",
+                  "minecraft:birch_boat",
+                  "minecraft:jungle_boat",
+                  "minecraft:acacia_boat",
+                  "minecraft:dark_oak_boat",
+                  "minecraft:mangrove_boat",
+                  "minecraft:cherry_boat",
+                  "minecraft:pale_oak_boat",
+                  "minecraft:bamboo_raft",
+                  "minecraft:oak_chest_boat",
+                  "minecraft:spruce_chest_boat",
+                  "minecraft:birch_chest_boat",
+                  "minecraft:jungle_chest_boat",
+                  "minecraft:acacia_chest_boat",
+                  "minecraft:dark_oak_chest_boat",
+                  "minecraft:mangrove_chest_boat",
+                  "minecraft:cherry_chest_boat",
+                  "minecraft:pale_oak_chest_boat",
+                  "minecraft:bamboo_chest_raft"
+                ],
+                "passenger": {
+                  "entity_type": "minecraft:iron_golem"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/heavy_freight"
+  }
+}

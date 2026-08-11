@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Snagged in the Dark"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trip a tripwire of your own inside an Ancient City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/tripping_over",
+  "criteria": {
+    "city_trip": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:tripwire",
+        "state": {
+          "attached": "true",
+          "powered": "true"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/snagged_in_the_dark"
+  }
+}

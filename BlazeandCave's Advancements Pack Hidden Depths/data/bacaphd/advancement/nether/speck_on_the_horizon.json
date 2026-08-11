@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Speck on the Horizon"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Ghast that is more than a hundred blocks away from you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "criteria": {
+    "long_shot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ghast",
+          "distance": {
+            "absolute": {
+              "min": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/speck_on_the_horizon"
+  }
+}

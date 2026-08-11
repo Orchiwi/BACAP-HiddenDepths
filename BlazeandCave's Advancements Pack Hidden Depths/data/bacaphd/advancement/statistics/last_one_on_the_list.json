@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_spawn_egg"
+    },
+    "title": {
+      "translate": "Last One on the List"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Save the Nautilus for last: mount one only once every other way of travelling has mileage on it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/shell_testing",
+  "criteria": {
+    "mounted": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:nautiluses"
+              },
+              "minecraft:type_specific/player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:pig_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:horse_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:strider_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:boat_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:minecart_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:happy_ghast_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  },
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:aviate_one_cm",
+                    "value": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/last_one_on_the_list"
+  }
+}

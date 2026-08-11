@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Bed Not Included"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a Bed four hundred blocks through the Nether and bring it back out unexploded"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "carried": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 400.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:white_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:brown_bed",
+                    "minecraft:green_bed",
+                    "minecraft:red_bed",
+                    "minecraft:black_bed"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/bed_not_included"
+  }
+}

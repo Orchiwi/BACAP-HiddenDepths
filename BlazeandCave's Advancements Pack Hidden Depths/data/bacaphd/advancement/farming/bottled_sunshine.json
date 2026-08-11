@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Bottled Sunshine"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bottle Honey straight from a wild Bee Nest in a Flower Forest"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/vegetarian",
+  "criteria": {
+    "wild_honey": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ],
+                "state": {
+                  "honey_level": "5"
+                }
+              },
+              "biomes": [
+                "minecraft:flower_forest"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glass_bottle"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/bottled_sunshine"
+  }
+}

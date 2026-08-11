@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Mind the Roof"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get thrown 20 blocks vertically by an explosion in the Nether without pasting yourself on the ceiling"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "nether_launch": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "start_position": {
+          "dimension": "minecraft:the_nether"
+        },
+        "distance": {
+          "y": {
+            "min": 20
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/mind_the_roof"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Witch's Miscalculation"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Burn a Totem of Undying inside a Swamp Hut, under the owner's own roof"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/witch",
+  "criteria": {
+    "saved_in_the_hut": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:swamp_hut"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/witchs_miscalculation"
+  }
+}

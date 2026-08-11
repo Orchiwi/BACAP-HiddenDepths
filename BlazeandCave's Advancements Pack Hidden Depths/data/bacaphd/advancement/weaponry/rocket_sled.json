@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Rocket Sled"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Load a Firework into a Crossbow and still put it through the dead centre of a Target block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "rocket_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 15
+        },
+        "projectile": {
+          "entity_type": "minecraft:firework_rocket"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/rocket_sled"
+  }
+}

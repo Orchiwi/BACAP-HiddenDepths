@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_chest_boat"
+    },
+    "title": {
+      "translate": "Nothing to Declare"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Chest Boat and its whole cargo into the Nether without ever getting out of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/pirate_captain",
+  "criteria": {
+    "crossed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:chest_boats"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/nothing_to_declare"
+  }
+}

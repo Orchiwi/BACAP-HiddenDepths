@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Airship in a Storm"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Fly a Happy Ghast two hundred blocks up while a thunderstorm rolls underneath you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_blimp_enthusiast",
+  "criteria": {
+    "aloft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              },
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "min": 200
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/airship_in_a_storm"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Rich Pickings"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pull the Bone Meal out of a Composter that has filled right to the brim"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/natural_fertiliser",
+  "criteria": {
+    "harvest_bin": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:composter"
+                ],
+                "state": {
+                  "level": "8"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/rich_pickings"
+  }
+}

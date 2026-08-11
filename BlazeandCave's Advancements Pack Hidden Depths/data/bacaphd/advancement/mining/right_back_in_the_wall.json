@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "title": {
+      "translate": "Right Back In the Wall"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Silverfish with the very Pickaxe whose swing let it out of the stone"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/dungeons_and_spawners",
+  "criteria": {
+    "reburied": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:silverfish"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:stone_pickaxe",
+                    "minecraft:copper_pickaxe",
+                    "minecraft:iron_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/right_back_in_the_wall"
+  }
+}

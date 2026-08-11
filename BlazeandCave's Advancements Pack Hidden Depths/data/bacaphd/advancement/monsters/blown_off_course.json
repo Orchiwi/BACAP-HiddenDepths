@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Blown Off Course"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Breeze's own Wind Charge blow you fifteen blocks clean across the room"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/dungeon_crawler",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:breeze_wind_charge"
+            }
+          }
+        ],
+        "distance": {
+          "horizontal": {
+            "min": 15.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/blown_off_course"
+  }
+}

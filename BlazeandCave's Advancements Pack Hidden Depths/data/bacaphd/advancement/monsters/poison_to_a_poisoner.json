@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "Poison to a Poisoner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw a Poisonous Potato to a Bogged and let it pick the useless thing up"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/bogged_down",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:bogged"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/poison_to_a_poisoner"
+  }
+}

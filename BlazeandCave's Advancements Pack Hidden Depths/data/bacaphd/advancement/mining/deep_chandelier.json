@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Deep Chandelier"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Lantern from the ceiling below y-level -50 and make the place feel lived in"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "criteria": {
+    "hung_lamp": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern"
+                ],
+                "state": {
+                  "hanging": "true"
+                }
+              },
+              "position": {
+                "y": {
+                  "max": -50.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/deep_chandelier"
+  }
+}

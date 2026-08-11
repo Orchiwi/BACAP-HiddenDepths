@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "Suckling Pig"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put down a baby Hoglin, which had not even grown into a proper porkchop"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/roadhog",
+  "criteria": {
+    "piglet": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/suckling_pig"
+  }
+}

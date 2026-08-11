@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Bedrock Dash"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get up to a sprint at y-level -59, with the bedrock scraping right under your boots"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/your_legs_must_be_tired",
+  "criteria": {
+    "deep_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -59.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/bedrock_dash"
+  }
+}

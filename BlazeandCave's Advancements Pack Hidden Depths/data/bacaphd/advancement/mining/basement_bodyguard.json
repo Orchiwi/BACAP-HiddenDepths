@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Basement Bodyguard"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Build an Iron Golem below y-level -40 out of the iron you dug up down there"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iron_miner",
+  "criteria": {
+    "deep_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:iron_golem",
+          "location": {
+            "position": {
+              "y": {
+                "max": -40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/basement_bodyguard"
+  }
+}

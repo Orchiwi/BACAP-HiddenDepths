@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_fungus"
+    },
+    "title": {
+      "translate": "Crossbreeding"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Crimson Fungus on top of Warped Nylium, where it has no business growing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/what_a_fungi",
+  "criteria": {
+    "wrong_soil": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_fungus"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:warped_nylium"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/crossbreeding"
+  }
+}

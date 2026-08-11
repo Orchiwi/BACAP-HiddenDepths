@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_brute_spawn_egg"
+    },
+    "title": {
+      "translate": "Everything with a Snout"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Put down a Piglin, a Piglin Brute, a Zombified Piglin, a Hoglin and a Zoglin"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/cultural_misunderstandings",
+  "criteria": {
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin"
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin_brute"
+        }
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombified_piglin"
+        }
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin"
+        }
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/everything_with_a_snout"
+  }
+}

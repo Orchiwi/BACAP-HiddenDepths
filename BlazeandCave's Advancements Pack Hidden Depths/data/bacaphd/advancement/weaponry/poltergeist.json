@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vex_spawn_egg"
+    },
+    "title": {
+      "translate": "Poltergeist"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Vex, a mob that is barely there at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/loser",
+  "criteria": {
+    "haunted": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "entity_type": "minecraft:vex"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/poltergeist"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_seeds"
+    },
+    "title": {
+      "translate": "Sowing in the Storm"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get a crop into the ground while a thunderstorm is breaking over the field"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "storm_sowing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/sowing_in_the_storm"
+  }
+}

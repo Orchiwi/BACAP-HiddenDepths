@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "The Unseen Matchmaker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed two animals while you are Invisible"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_unseen_matchmaker"
+  }
+}

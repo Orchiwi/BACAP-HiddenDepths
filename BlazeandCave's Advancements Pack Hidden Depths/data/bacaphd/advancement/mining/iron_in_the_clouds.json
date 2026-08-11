@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron"
+    },
+    "title": {
+      "translate": "Iron in the Clouds"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Raw Iron above y-level 232, where the mountains hide a second seam of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iron_miner",
+  "criteria": {
+    "high_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 232.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/iron_in_the_clouds"
+  }
+}

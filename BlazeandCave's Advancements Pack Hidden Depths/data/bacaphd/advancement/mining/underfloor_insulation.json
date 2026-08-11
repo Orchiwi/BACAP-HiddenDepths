@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Underfloor Insulation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay Obsidian on the very lowest layer you can reach, directly on top of the bedrock"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "floor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:obsidian"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -58.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/underfloor_insulation"
+  }
+}

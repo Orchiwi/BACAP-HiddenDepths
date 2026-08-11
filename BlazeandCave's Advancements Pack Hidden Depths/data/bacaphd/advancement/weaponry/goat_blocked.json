@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "Goat Blocked"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Goat's charge square on your Shield"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "ram": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:goat"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/goat_blocked"
+  }
+}

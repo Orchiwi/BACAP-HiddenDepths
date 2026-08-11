@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Kelp Beneath the Floe"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant Kelp on the floor of a Frozen Ocean, under the ice"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/kelp_me",
+  "criteria": {
+    "ice_kelp": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:kelp"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:frozen_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/kelp_beneath_the_floe"
+  }
+}

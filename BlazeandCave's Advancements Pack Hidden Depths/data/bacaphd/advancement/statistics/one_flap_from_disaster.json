@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "One Flap From Disaster"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear an Elytra down to its very last point of durability and land before it gives out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/frequent_flyer",
+  "criteria": {
+    "threadbare": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        },
+        "durability": {
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/one_flap_from_disaster"
+  }
+}

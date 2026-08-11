@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_sapling"
+    },
+    "title": {
+      "translate": "Fussy Sapling"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Bone-meal a Pale Oak Sapling into a tree, which only ever works on Pale Moss"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "pale_growth": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_sapling"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_moss_block"
+                ]
+              }
+            },
+            "offsetY": -1
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fussy_sapling"
+  }
+}

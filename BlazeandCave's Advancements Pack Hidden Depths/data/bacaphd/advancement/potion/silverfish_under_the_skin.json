@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "title": {
+      "translate": "Silverfish Under the Skin"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Infestation yourself and become a nest"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/secret_of_the_ooze",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:infested"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/silverfish_under_the_skin"
+  }
+}

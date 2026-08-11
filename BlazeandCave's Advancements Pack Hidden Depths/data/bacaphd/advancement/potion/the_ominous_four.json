@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "The Ominous Four"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold Oozing, Weaving, Wind Charged and Infested all at once, inside the Trial Chambers where they belong"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "all_four": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:oozing": {},
+          "minecraft:weaving": {},
+          "minecraft:wind_charged": {},
+          "minecraft:infested": {}
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trial_chambers"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_ominous_four"
+  }
+}

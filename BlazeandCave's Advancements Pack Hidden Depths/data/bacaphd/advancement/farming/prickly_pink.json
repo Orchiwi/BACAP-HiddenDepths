@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus_flower"
+    },
+    "title": {
+      "translate": "Prickly Pink"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Squeeze a Cactus Flower into Pink Dye"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/its_a_cactus",
+  "criteria": {
+    "cactus_pigment": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_cactus_flower"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/prickly_pink"
+  }
+}

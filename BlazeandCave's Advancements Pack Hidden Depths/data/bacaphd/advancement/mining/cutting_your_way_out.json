@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Cutting Your Way Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk into a Cobweb while you happen to already be holding the Shears"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/eeuuwww",
+  "criteria": {
+    "web_shears": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cutting_your_way_out"
+  }
+}

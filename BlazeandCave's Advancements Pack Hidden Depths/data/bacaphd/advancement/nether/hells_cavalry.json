@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_horse_armor"
+    },
+    "title": {
+      "translate": "Hell's Cavalry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lead a Horse down through the portal and ride it in the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/legend_of_hell_chicken_riders",
+  "criteria": {
+    "nether_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/hells_cavalry"
+  }
+}

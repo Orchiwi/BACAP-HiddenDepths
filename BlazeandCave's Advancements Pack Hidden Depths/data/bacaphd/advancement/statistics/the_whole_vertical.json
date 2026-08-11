@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "The Whole Vertical"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drop three hundred blocks in one go, from cloud height to below sea level, and get up again"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/boing_boing",
+  "criteria": {
+    "landed": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 300
+          }
+        },
+        "start_position": {
+          "position": {
+            "y": {
+              "min": 250
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/the_whole_vertical"
+  }
+}

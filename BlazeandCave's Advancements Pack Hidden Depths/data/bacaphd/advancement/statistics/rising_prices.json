@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Rising Prices"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Complete a trade while a Shulker's bullet has you drifting off the floor"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/stonks",
+  "criteria": {
+    "floating_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:levitation": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/rising_prices"
+  }
+}

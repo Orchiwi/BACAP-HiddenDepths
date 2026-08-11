@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Ammunition Factory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Crafter to fletching your Arrows so you never have to do it by hand again"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/that_is_so_fletch",
+  "criteria": {
+    "automated_arrows": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:arrow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/ammunition_factory"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "Sump Diving"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Swim below y-level -50, down where the flooded deepslate never sees a ripple"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/olympic_athlete",
+  "criteria": {
+    "deep_swim": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/sump_diving"
+  }
+}

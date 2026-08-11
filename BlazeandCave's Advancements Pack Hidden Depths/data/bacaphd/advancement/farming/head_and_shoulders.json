@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sunflower"
+    },
+    "title": {
+      "translate": "Head and Shoulders"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant every flower that stands two blocks tall: a Sunflower, a Lilac, a Rose Bush, a Peony and a Pitcher Plant"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "sunflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sunflower"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lilac": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:lilac"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rose_bush": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:rose_bush"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "peony": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:peony"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pitcher_plant": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:pitcher_plant"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/head_and_shoulders"
+  }
+}

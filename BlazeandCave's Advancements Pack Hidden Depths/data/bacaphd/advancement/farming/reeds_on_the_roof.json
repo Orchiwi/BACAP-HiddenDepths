@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:muddy_mangrove_roots"
+    },
+    "title": {
+      "translate": "Reeds on the Roof"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Grow Sugar Cane on top of Muddy Mangrove Roots in a Mangrove Swamp"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "criteria": {
+    "swamp_cane": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sugar_cane"
+                ]
+              },
+              "biomes": [
+                "minecraft:mangrove_swamp"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:muddy_mangrove_roots"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/reeds_on_the_roof"
+  }
+}

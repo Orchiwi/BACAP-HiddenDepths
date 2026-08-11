@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Hive Defence"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch a Bee's sting on your Shield"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "sting": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:bee"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/hive_defence"
+  }
+}

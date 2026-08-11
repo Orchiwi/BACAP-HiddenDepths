@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Quiet Chemistry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a potion out of a Brewing Stand while crouching inside an Ancient City"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/root",
+  "criteria": {
+    "brewed": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              },
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/quiet_chemistry"
+  }
+}

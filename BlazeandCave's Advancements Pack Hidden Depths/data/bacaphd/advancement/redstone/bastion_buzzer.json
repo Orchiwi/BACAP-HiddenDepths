@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_button"
+    },
+    "title": {
+      "translate": "Bastion Buzzer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Push a Polished Blackstone Button inside a Bastion Remnant"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/click",
+  "criteria": {
+    "bastion_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:polished_blackstone_button"
+                ]
+              },
+              "structures": "minecraft:bastion_remnant"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/bastion_buzzer"
+  }
+}

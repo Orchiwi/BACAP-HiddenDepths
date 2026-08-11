@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "translate": "Dandelion Dinner"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up the Saturation effect, which only a Dandelion in a Suspicious Stew will give you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/suspicious_looking_stew",
+  "criteria": {
+    "saturated": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:saturation": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/dandelion_dinner"
+  }
+}

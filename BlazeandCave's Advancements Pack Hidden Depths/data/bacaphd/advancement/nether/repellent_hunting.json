@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hoglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Repellent Hunting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Hoglin with nothing in your hand but the Warped Fungus that terrifies it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/whole_hog",
+  "criteria": {
+    "fungus_fist": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:warped_fungus"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/repellent_hunting"
+  }
+}

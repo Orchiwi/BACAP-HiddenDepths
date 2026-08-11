@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Mounted Marksman"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Loose a Crossbow bolt from the back of a Strider out on the lava"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/im_in_lava_with_you",
+  "criteria": {
+    "shot_from_the_saddle": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/mounted_marksman"
+  }
+}

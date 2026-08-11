@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "Industrial Action"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Beacon's Haste and an Elder Guardian's Mining Fatigue together and let them argue it out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_furious_test_subject",
+  "criteria": {
+    "arbitration": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:mining_fatigue": {},
+          "minecraft:haste": {
+            "ambient": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/industrial_action"
+  }
+}

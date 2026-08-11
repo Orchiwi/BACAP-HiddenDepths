@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Gravel Wins"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Break a shovel while standing in the gravel patch that finished it off"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/weve_broken_our_last_shovel",
+  "criteria": {
+    "shovel_gone": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_shovel",
+            "minecraft:stone_shovel",
+            "minecraft:copper_shovel",
+            "minecraft:iron_shovel",
+            "minecraft:golden_shovel",
+            "minecraft:diamond_shovel",
+            "minecraft:netherite_shovel"
+          ]
+        },
+        "durability": {
+          "max": 0
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:gravel"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/gravel_wins"
+  }
+}

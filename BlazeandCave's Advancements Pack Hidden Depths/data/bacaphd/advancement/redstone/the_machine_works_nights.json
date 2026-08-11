@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "The Machine Works Nights"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have a Crafter assemble a Daylight Detector after dark"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "night_build": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:daylight_detector",
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 13000,
+              "max": 23000
+            },
+            "period": 24000
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/the_machine_works_nights"
+  }
+}

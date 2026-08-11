@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "Running Hot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sprint through the Nether while you are on fire. Stopping was never an option"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/marathon",
+  "criteria": {
+    "ablaze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true,
+                "is_on_fire": true
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/running_hot"
+  }
+}

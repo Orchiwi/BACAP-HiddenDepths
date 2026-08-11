@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "Offshore Account"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Open an Ender Chest inside a Bastion Remnant"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/enders_chest",
+  "criteria": {
+    "filing": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ender_chest"
+                ]
+              },
+              "structures": [
+                "minecraft:bastion_remnant"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/offshore_account"
+  }
+}

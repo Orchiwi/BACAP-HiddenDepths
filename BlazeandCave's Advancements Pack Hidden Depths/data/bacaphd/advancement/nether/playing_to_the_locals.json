@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "translate": "Playing to the Locals"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spin Pigstep on a Jukebox inside the Bastion you took the disc from"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/wub_wub_wub",
+  "criteria": {
+    "housewarming": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              },
+              "structures": [
+                "minecraft:bastion_remnant"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_pigstep"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/playing_to_the_locals"
+  }
+}

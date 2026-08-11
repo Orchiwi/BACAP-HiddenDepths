@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "Hoglin Husbandry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed a pair of Hoglins in the Crimson Forest and add to the herd rather than the larder"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:hoglin"
+        },
+        "partner": {
+          "entity_type": "minecraft:hoglin"
+        },
+        "child": {
+          "entity_type": "minecraft:hoglin",
+          "location": {
+            "biomes": "minecraft:crimson_forest"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/hoglin_husbandry"
+  }
+}

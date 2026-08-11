@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "The Lucky Swing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Talk the enchanting table into putting Fortune III on a Pickaxe"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/oresome",
+  "criteria": {
+    "fortune3": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:copper_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:fortune",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/the_lucky_swing"
+  }
+}

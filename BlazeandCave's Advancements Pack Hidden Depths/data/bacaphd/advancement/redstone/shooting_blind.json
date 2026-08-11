@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Shooting Blind"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit a Target Block dead centre while suffering from Blindness"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "blind_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:blindness": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/shooting_blind"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "translate": "Dredging from the Saddle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Scoop up a Bucket of lava without ever getting off your Strider"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/jenga",
+  "criteria": {
+    "saddle_scoop": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lava_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/dredging_from_the_saddle"
+  }
+}

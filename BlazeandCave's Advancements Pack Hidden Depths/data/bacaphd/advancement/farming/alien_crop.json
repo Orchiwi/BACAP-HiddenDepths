@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_flower"
+    },
+    "title": {
+      "translate": "Alien Crop"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a Chorus Flower on End Stone you dragged back to the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "transplant": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chorus_flower"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:end_stone"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/alien_crop"
+  }
+}

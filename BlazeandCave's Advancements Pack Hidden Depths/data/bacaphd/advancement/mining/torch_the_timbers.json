@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Torch the Timbers"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set fire to the wooden supports holding up an Abandoned Mineshaft. Nobody was using them"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "timber_fire": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_planks",
+                  "minecraft:oak_fence",
+                  "minecraft:dark_oak_planks",
+                  "minecraft:dark_oak_fence",
+                  "minecraft:spruce_planks",
+                  "minecraft:spruce_fence",
+                  "minecraft:acacia_planks",
+                  "minecraft:acacia_fence"
+                ]
+              },
+              "structures": "minecraft:mineshaft"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/torch_the_timbers"
+  }
+}

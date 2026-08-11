@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Blunt Blades"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Use a pair of Shears until there is nothing left of them but the memory of a haircut"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/rock_paper_shears",
+  "criteria": {
+    "worn_shears": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/blunt_blades"
+  }
+}

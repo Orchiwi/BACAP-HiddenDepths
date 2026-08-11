@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Anti-Aircraft"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bring down a Ghast with a Crossbow bolt"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/ghast_slayer",
+  "criteria": {
+    "flak": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:ghast"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/anti_aircraft"
+  }
+}

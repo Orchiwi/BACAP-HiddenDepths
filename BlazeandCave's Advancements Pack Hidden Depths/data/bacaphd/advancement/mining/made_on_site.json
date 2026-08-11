@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Made on Site"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft TNT below y-level 0 rather than carrying the stuff all the way down"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/strike_a_light",
+  "criteria": {
+    "deep_tnt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/made_on_site"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "Lit From Within"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get the Glowing effect onto yourself. No Brewing Stand can do it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:glowing": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/lit_from_within"
+  }
+}

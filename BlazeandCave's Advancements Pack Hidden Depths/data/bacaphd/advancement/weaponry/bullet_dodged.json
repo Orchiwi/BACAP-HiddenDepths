@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Bullet Dodged"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Block a Shulker's bullet with your Shield before it can lift you off the floor"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "criteria": {
+    "bullet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:shulker_bullet"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/bullet_dodged"
+  }
+}

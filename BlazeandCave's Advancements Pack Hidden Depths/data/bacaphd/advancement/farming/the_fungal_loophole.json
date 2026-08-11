@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": {
+      "translate": "The Fungal Loophole"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a Mushroom on each of the four soils that let it ignore the light: Podzol, Mycelium, Crimson Nylium and Warped Nylium"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/shrooms",
+  "criteria": {
+    "podzol": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom",
+                  "minecraft:brown_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:podzol"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mycelium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom",
+                  "minecraft:brown_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mycelium"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crimson_nylium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom",
+                  "minecraft:brown_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:crimson_nylium"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "warped_nylium": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom",
+                  "minecraft:brown_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:warped_nylium"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_fungal_loophole"
+  }
+}

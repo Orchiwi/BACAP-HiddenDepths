@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Previously Owned Rails"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Minecart through an abandoned Mineshaft on the track somebody else already laid"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/minecart_rider",
+  "criteria": {
+    "old_track": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "structures": "minecraft:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/previously_owned_rails"
+  }
+}

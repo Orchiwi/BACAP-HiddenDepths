@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "translate": "Three Hundred Rungs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be hanging on a Ladder three hundred blocks above the floor of the world"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "clinging": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "overworld",
+                "block": {
+                  "blocks": [
+                    "minecraft:ladder"
+                  ]
+                },
+                "position": {
+                  "y": {
+                    "min": 300
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/three_hundred_rungs"
+  }
+}

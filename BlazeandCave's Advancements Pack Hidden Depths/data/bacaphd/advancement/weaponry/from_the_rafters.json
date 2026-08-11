@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "From the Rafters"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Stand above y=200 and drop something with an arrow while it is still below y=100"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/there_it_goes",
+  "criteria": {
+    "plunging_fire": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 100.0
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 200.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/from_the_rafters"
+  }
+}

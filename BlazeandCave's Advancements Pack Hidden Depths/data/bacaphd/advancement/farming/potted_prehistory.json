@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": {
+      "translate": "Potted Prehistory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Torchflower, the oldest flower the Sniffers remember, into a Flower Pot"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "criteria": {
+    "potted_relic": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_torchflower"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:torchflower"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/potted_prehistory"
+  }
+}

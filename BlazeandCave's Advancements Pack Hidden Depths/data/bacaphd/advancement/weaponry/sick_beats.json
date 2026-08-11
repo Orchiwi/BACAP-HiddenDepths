@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_11"
+    },
+    "title": {
+      "translate": "Sick Beats"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a monster by hitting it repeatedly with a Music Disc"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/its_time_consuming",
+  "criteria": {
+    "dropped_the_beat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:music_disc_13",
+                    "minecraft:music_disc_cat",
+                    "minecraft:music_disc_blocks",
+                    "minecraft:music_disc_chirp",
+                    "minecraft:music_disc_far",
+                    "minecraft:music_disc_mall",
+                    "minecraft:music_disc_mellohi",
+                    "minecraft:music_disc_stal",
+                    "minecraft:music_disc_strad",
+                    "minecraft:music_disc_ward",
+                    "minecraft:music_disc_11",
+                    "minecraft:music_disc_wait",
+                    "minecraft:music_disc_pigstep",
+                    "minecraft:music_disc_otherside",
+                    "minecraft:music_disc_5",
+                    "minecraft:music_disc_relic",
+                    "minecraft:music_disc_creator",
+                    "minecraft:music_disc_precipice"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/sick_beats"
+  }
+}

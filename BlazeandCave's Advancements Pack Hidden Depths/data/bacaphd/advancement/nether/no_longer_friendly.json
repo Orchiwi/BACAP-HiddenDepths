@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "No Longer Friendly"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get gored by a Zoglin, which has forgotten it ever liked anything"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/zork_chop",
+  "criteria": {
+    "zoglin_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:zoglin"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/no_longer_friendly"
+  }
+}

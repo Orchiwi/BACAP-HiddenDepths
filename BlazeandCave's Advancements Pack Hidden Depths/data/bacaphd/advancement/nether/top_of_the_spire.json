@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "Top of the Spire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand on top of a basalt pillar above y=100 in a Soul Sand Valley"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/limbo_walker",
+  "criteria": {
+    "spire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:basalt",
+                    "minecraft:polished_basalt"
+                  ]
+                }
+              },
+              "location": {
+                "biomes": "minecraft:soul_sand_valley",
+                "position": {
+                  "y": {
+                    "min": 100
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/top_of_the_spire"
+  }
+}

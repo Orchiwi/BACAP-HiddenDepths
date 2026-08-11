@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Blimp in the Basement"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Coax a Happy Ghast underground and fly it below y=0 where there is no sky at all"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_elytra",
+  "criteria": {
+    "underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              },
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/blimp_in_the_basement"
+  }
+}

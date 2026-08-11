@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Beating the Fuse"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Bring a Mace down on a Creeper from above and land the smash before the fuse ends it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/what_a_creep",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/beating_the_fuse"
+  }
+}

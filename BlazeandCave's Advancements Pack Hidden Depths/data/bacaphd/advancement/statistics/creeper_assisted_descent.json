@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_spawn_egg"
+    },
+    "title": {
+      "translate": "Creeper Assisted Descent"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Creeper do the launching and come down twenty blocks below where it found you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/spring_in_your_step",
+  "criteria": {
+    "blown": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:creeper"
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 20
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/creeper_assisted_descent"
+  }
+}

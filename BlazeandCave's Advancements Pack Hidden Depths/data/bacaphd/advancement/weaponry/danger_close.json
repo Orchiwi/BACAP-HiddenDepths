@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Danger Close"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an arrow into a Creeper from under three blocks away, which is well inside its opinion of personal space"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "too_close": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper",
+          "distance": {
+            "absolute": {
+              "max": 3.0
+            }
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/danger_close"
+  }
+}

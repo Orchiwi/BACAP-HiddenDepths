@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "Crouch Cancel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Crouch on top of a Slime Block so it cannot bounce you anywhere"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "no_bounce": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              },
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/crouch_cancel"
+  }
+}

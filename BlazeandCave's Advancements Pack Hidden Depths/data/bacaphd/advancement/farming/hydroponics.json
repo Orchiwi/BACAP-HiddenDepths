@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Hydroponics"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Wheat with nothing but Water two blocks beneath it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "floating_field": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/hydroponics"
+  }
+}

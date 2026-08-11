@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Ejector Boat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Wind Charged mob while sat in a Boat and let the burst do the steering"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "boat_launch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "effects": {
+            "minecraft:wind_charged": {}
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:oak_boat",
+                  "minecraft:spruce_boat",
+                  "minecraft:birch_boat",
+                  "minecraft:jungle_boat",
+                  "minecraft:acacia_boat",
+                  "minecraft:dark_oak_boat",
+                  "minecraft:mangrove_boat",
+                  "minecraft:cherry_boat",
+                  "minecraft:pale_oak_boat",
+                  "minecraft:bamboo_raft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/ejector_boat"
+  }
+}

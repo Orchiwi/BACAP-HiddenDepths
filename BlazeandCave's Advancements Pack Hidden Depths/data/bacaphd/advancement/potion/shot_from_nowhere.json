@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Shot from Nowhere"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fire a Crossbow while Invisible and let the bolt appear out of thin air"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stealth_takedown",
+  "criteria": {
+    "ghost_bolt": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/shot_from_nowhere"
+  }
+}

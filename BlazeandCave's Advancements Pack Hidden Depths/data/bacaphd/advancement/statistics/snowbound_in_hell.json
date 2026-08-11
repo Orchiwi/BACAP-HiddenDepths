@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Snowbound in Hell"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sink into a block of Powder Snow you carried all the way into the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_cars",
+  "criteria": {
+    "cold_in_hell": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powder_snow",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/snowbound_in_hell"
+  }
+}

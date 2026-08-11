@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Blast Mining"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Light a block of TNT with Flint and Steel below y-level 0 and get out of the way"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/strike_a_light",
+  "criteria": {
+    "lit_tnt": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tnt"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": 0.0
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/blast_mining"
+  }
+}

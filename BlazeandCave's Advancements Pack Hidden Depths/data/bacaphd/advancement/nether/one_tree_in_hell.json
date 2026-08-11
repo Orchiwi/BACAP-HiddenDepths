@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "One Tree in Hell"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get an Oak Sapling to stand in the Nether, on dirt you carried down yourself"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_struggle_nether_ends",
+  "criteria": {
+    "sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/one_tree_in_hell"
+  }
+}

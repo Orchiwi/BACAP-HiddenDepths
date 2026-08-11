@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_dye"
+    },
+    "title": {
+      "translate": "Crowning Glory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Cactus Flower on the very top of a Cactus"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/spikey",
+  "criteria": {
+    "crowned": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus_flower"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/crowning_glory"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Wholesale"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand a Piglin an entire Block of Gold and watch it admire nine ingots at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+  "criteria": {
+    "block_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_block"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:piglin"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/wholesale"
+  }
+}

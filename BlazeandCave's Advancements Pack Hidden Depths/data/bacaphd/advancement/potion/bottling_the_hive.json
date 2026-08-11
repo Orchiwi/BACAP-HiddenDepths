@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Bottling the Hive"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Draw a Honey Bottle straight out of a full Beehive with a Glass Bottle"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beehive",
+                  "minecraft:bee_nest"
+                ],
+                "state": {
+                  "honey_level": "5"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glass_bottle"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bottling_the_hive"
+  }
+}

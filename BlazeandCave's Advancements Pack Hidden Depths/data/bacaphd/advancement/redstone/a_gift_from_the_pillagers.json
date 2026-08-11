@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "translate": "A Gift From the Pillagers"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Leave a Trapped Chest behind inside a Pillager Outpost"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/troll_chest",
+  "criteria": {
+    "outpost_trap": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:trapped_chest"
+                ]
+              },
+              "structures": "minecraft:pillager_outpost"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/a_gift_from_the_pillagers"
+  }
+}

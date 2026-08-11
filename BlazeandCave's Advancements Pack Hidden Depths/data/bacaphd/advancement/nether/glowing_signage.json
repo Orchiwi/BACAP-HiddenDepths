@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_hanging_sign"
+    },
+    "title": {
+      "translate": "Glowing Signage"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Crimson Hanging Sign from a Shroomlight and let the fungus do the lighting"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "criteria": {
+    "lit_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_hanging_sign"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:shroomlight"
+                ]
+              }
+            },
+            "offsetY": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/glowing_signage"
+  }
+}

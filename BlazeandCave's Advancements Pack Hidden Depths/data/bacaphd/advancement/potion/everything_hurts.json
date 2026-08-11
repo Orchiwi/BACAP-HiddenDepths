@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Everything Hurts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry Poison, Wither, Hunger, Weakness, Slowness and Nausea all at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+  "criteria": {
+    "misery": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {},
+          "minecraft:wither": {},
+          "minecraft:hunger": {},
+          "minecraft:weakness": {},
+          "minecraft:slowness": {},
+          "minecraft:nausea": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/everything_hurts"
+  }
+}

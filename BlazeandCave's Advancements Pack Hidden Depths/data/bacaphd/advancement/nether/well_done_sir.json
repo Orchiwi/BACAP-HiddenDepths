@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Well Done, Sir"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Hoglin alight with a Fire Aspect sword before it is even dead"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/roadhog",
+  "criteria": {
+    "pre_cooked": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:copper_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword",
+                "minecraft:netherite_sword"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_aspect",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/well_done_sir"
+  }
+}

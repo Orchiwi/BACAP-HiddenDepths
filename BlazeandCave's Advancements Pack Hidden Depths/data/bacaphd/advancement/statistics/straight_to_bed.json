@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_bed"
+    },
+    "title": {
+      "translate": "Straight to Bed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fall forty blocks and land straight into bed, which takes some of the sting out of it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/jumping_jacks",
+  "criteria": {
+    "landed": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 40
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": "#minecraft:beds"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/straight_to_bed"
+  }
+}

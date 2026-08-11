@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "Leather Was a Mistake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch fire in the Nether wearing a full suit of Leather armour"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/polar_opposites",
+  "criteria": {
+    "burning_leather": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fire",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ]
+                }
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/leather_was_a_mistake"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Sowing on an Empty Stomach"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a crop with your hunger bar scraped completely bare"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/bake_bread",
+  "criteria": {
+    "famine_sowing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{foodLevel:0}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/sowing_on_an_empty_stomach"
+  }
+}

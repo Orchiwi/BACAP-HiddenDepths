@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Lipstick on a Pig"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Spend real enchanting levels on a plain Wooden Sword"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "gilded_stick": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_sword"
+          ]
+        },
+        "levels": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/lipstick_on_a_pig"
+  }
+}

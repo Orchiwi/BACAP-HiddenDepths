@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Caught in the Drizzle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sit on a Strider in the Overworld and let the rain fall on it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/bobbleheads",
+  "criteria": {
+    "wet_strider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              },
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/caught_in_the_drizzle"
+  }
+}

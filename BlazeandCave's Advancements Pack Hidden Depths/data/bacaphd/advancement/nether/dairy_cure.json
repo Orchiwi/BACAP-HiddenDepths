@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "Dairy Cure"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink Milk to shake off the Wither's decay without ever leaving the Nether"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/decaying_beauty",
+  "criteria": {
+    "cured": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": {
+          "effects": {
+            "minecraft:wither": {}
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/dairy_cure"
+  }
+}

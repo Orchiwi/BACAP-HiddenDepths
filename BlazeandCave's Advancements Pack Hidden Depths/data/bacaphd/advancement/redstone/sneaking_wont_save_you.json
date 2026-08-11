@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pressure_plate"
+    },
+    "title": {
+      "translate": "Sneaking Won't Save You"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set off a Stone Pressure Plate while sneaking, and learn that it never helped"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "criteria": {
+    "crouched": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:stone_pressure_plate",
+        "state": {
+          "powered": "true"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sneaking_wont_save_you"
+  }
+}

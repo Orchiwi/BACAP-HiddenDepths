@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Air Burst"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Burst a Firework Rocket squarely in a Phantom and take it out of the night sky"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/who_ya_gonna_call",
+  "criteria": {
+    "burst": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:phantom"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/air_burst"
+  }
+}

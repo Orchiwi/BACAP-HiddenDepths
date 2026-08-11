@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Three Skulls Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold all three Wither Skeleton Skulls at once, with nothing left to collect"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_hunt_begins",
+  "criteria": {
+    "full_set": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ],
+            "count": {
+              "min": 3
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/three_skulls_deep"
+  }
+}

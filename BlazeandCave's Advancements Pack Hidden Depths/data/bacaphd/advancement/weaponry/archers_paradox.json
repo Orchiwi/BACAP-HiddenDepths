@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Archer's Paradox"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Skeleton with an arrow while a Bow of your own is the only thing in your off hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/the_mighty_hunter",
+  "criteria": {
+    "twin_bows": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:bow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/archers_paradox"
+  }
+}

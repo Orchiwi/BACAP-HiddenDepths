@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Caught in Your Own Web"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk into a Cobweb while the Weaving effect is on you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/secret_of_the_ooze",
+  "criteria": {
+    "web": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:weaving": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/caught_in_your_own_web"
+  }
+}

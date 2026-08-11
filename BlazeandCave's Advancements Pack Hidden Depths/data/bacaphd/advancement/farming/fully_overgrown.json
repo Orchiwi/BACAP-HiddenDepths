@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Fully Overgrown"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Train Vines onto all four faces of a single block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "vine_north": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vine",
+                "state": {
+                  "north": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "vine_south": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vine",
+                "state": {
+                  "south": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "vine_east": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vine",
+                "state": {
+                  "east": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "vine_west": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vine",
+                "state": {
+                  "west": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/fully_overgrown"
+  }
+}

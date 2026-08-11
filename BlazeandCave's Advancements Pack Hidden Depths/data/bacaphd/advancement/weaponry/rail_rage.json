@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Rail Rage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a monster with a Sword without once getting out of your Minecart"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "commuter": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword"
+                  ]
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/rail_rage"
+  }
+}

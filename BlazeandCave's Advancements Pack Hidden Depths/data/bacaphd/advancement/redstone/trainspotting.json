@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Trainspotting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Watch a Minecart through a Spyglass from at least 60 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "spotted": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:minecart",
+                  "distance": {
+                    "absolute": {
+                      "min": 60.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/trainspotting"
+  }
+}

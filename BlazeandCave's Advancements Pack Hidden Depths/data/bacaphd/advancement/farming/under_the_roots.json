@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hanging_roots"
+    },
+    "title": {
+      "translate": "Under the Roots"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang Hanging Roots from the underside of a block of Rooted Dirt, the way the caves do it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "criteria": {
+    "cave_ceiling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:hanging_roots"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:rooted_dirt"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/under_the_roots"
+  }
+}

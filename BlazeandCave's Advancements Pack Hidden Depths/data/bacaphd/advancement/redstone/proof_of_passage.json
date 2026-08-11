@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "Proof of Passage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be inside a Detector Rail, in a Minecart, at the instant it reports you to the circuit"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/pressure_detector",
+  "criteria": {
+    "detected": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:detector_rail",
+        "state": {
+          "powered": "true"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/proof_of_passage"
+  }
+}

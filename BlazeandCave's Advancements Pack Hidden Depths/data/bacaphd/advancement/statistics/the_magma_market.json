@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "The Magma Market"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Trade with a Villager from the back of a Strider, out on open lava"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_spender",
+  "criteria": {
+    "lava_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider",
+                "location": {
+                  "fluid": {
+                    "fluids": [
+                      "minecraft:lava",
+                      "minecraft:flowing_lava"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/the_magma_market"
+  }
+}

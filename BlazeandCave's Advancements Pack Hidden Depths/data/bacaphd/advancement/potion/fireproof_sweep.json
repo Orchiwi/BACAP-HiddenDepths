@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Fireproof Sweep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Blaze, a Wither Skeleton and a Ghast, each of them while Fire Resistance is on you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stayin_frosty",
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:blaze"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:fire_resistance": {}
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither_skeleton"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:fire_resistance": {}
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ghast"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:fire_resistance": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/fireproof_sweep"
+  }
+}

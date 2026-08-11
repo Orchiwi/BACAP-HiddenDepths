@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "On-Site Fabrication"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Stonecutter below y-level -50 so the stone never has to travel to be shaped"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/hot_topic",
+  "criteria": {
+    "deep_cutter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stonecutter"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -50.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/on_site_fabrication"
+  }
+}

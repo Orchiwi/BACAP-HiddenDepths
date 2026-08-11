@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "Nether Turf"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spread Moss with Bone Meal in the Nether, over stone you laid down yourself"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "hell_moss": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:moss_block"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/nether_turf"
+  }
+}

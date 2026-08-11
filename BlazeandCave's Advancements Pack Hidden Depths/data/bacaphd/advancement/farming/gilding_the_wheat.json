@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Gilding the Wheat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Waste Bone Meal on a stalk of Wheat that was already fully grown"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "pointless": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat",
+                "state": {
+                  "age": "7"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/gilding_the_wheat"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_raft"
+    },
+    "title": {
+      "translate": "Raft Out of Water"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sit in a Bamboo Raft in the Nether, the one place a raft has nothing to offer"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/luxury_cruise",
+  "criteria": {
+    "dry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:bamboo_raft"
+              },
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/raft_out_of_water"
+  }
+}

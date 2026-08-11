@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:big_dripleaf"
+    },
+    "title": {
+      "translate": "Rigid Underfoot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stand on a Big Dripleaf that a redstone signal is holding flat, so it never tips you off"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "criteria": {
+    "held_flat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:big_dripleaf"
+                  ],
+                  "state": {
+                    "tilt": "none"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/rigid_underfoot"
+  }
+}

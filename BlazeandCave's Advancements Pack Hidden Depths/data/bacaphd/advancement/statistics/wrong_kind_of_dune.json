@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:camel_spawn_egg"
+    },
+    "title": {
+      "translate": "Wrong Kind of Dune"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Camel out across the Snowy Plains, which is not the sand it was bred for"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_cars",
+  "criteria": {
+    "mounted": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:camel"
+              },
+              "location": {
+                "biomes": "snowy_plains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/wrong_kind_of_dune"
+  }
+}

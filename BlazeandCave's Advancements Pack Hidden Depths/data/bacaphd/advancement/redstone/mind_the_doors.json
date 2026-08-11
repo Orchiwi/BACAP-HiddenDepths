@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:activator_rail"
+    },
+    "title": {
+      "translate": "Mind the Doors"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand on an Activator Rail at the moment it fires"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/railwayman",
+  "criteria": {
+    "eject": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:activator_rail",
+        "state": {
+          "powered": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/mind_the_doors"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Up and Down at Once"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Levitation and Slow Falling together and let them argue about which way you go"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "both_ways": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:levitation": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/up_and_down_at_once"
+  }
+}

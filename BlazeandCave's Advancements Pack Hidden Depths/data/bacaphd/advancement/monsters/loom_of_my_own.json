@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:loom"
+    },
+    "title": {
+      "translate": "Loom of My Own"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take on the Weaving effect, then kill a Spider in webbing of your own making"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spider_smasher",
+  "criteria": {
+    "weaving": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:weaving": {}
+        }
+      }
+    },
+    "tangled": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:spider"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/loom_of_my_own"
+  }
+}

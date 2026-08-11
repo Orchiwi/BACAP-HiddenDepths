@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Seed Vault"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry every sowable seed at once: Wheat, Beetroot, Melon, Pumpkin, Torchflower and a Pitcher Pod"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/scientific_inaccuracy",
+  "criteria": {
+    "vault": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:beetroot_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:melon_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pumpkin_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:torchflower_seeds"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:pitcher_pod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/seed_vault"
+  }
+}

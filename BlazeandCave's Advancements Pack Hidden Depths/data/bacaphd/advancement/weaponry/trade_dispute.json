@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "Trade Dispute"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Settle an argument with a Wandering Trader by putting a Channeling Trident's lightning through him"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/poseidon_vs_hades",
+  "criteria": {
+    "bolt_of_commerce": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:wandering_trader"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/trade_dispute"
+  }
+}

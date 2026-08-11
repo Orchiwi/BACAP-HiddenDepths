@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_villager_spawn_egg"
+    },
+    "title": {
+      "translate": "The Longest House Call"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Haul a Zombie Villager all the way to the End and only then cure it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "end_cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "entity_type": "minecraft:zombie_villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/the_longest_house_call"
+  }
+}

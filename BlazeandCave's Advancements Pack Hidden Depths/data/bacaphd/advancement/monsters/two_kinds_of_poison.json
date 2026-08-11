@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Two Kinds of Poison"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Run a single Piercing crossbow bolt through a Bogged and a Cave Spider at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/bogged_down",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:bogged"
+          },
+          {
+            "entity_type": "minecraft:cave_spider"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/two_kinds_of_poison"
+  }
+}

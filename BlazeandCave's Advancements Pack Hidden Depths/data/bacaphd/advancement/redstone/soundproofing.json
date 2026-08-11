@@ -1,0 +1,200 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Soundproofing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Sculk Sensor with a block of Wool pressed right up against it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/vibe_check",
+  "criteria": {
+    "muffled": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetX": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetX": -1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetY": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetY": -1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetZ": 1
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:white_wool",
+                      "minecraft:orange_wool",
+                      "minecraft:magenta_wool",
+                      "minecraft:light_blue_wool",
+                      "minecraft:yellow_wool",
+                      "minecraft:lime_wool",
+                      "minecraft:pink_wool",
+                      "minecraft:gray_wool",
+                      "minecraft:light_gray_wool",
+                      "minecraft:cyan_wool",
+                      "minecraft:purple_wool",
+                      "minecraft:blue_wool",
+                      "minecraft:brown_wool",
+                      "minecraft:green_wool",
+                      "minecraft:red_wool",
+                      "minecraft:black_wool"
+                    ]
+                  }
+                },
+                "offsetZ": -1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/soundproofing"
+  }
+}

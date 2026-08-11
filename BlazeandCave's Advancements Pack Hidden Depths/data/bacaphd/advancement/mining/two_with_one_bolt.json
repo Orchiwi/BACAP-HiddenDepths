@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Two With One Bolt"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put one arrow through two different kinds of underground mob at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/dungeons_and_spawners",
+  "criteria": {
+    "skewered": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "unique_entity_types": {
+          "min": 2
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/two_with_one_bolt"
+  }
+}

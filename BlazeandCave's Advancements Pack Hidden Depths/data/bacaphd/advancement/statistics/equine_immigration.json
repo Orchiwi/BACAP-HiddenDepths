@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Equine Immigration"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take your Horse through a Nether portal with you instead of tying it up outside"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/sheriff_firearm",
+  "criteria": {
+    "crossed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_horses"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/equine_immigration"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:husk_spawn_egg"
+    },
+    "title": {
+      "translate": "Rationed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Let a Husk get a punch in and leave you with the Hunger it carries"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/desert_nomad",
+  "criteria": {
+    "husk_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:husk"
+          }
+        }
+      }
+    },
+    "starving": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hunger": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/rationed"
+  }
+}

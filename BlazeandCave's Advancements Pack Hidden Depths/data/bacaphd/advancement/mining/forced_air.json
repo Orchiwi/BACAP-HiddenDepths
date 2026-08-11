@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "translate": "Forced Air"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Turn the Furnace you built into a Blast Furnace so your ore stops taking all day"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/smokin_hot",
+  "criteria": {
+    "upgrade": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blast_furnace",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/forced_air"
+  }
+}

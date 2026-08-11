@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Withered Appetite"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat an Enchanted Golden Apple while the Wither is eating you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ultra_hardcore",
+  "criteria": {
+    "desperate_bite": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/withered_appetite"
+  }
+}

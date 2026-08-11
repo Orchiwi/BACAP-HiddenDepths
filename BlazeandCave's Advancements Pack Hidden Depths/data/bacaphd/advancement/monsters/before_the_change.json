@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Before the Change"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a Zombie standing in water before it has time to become a Drowned"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/dead_dont_die",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombie",
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/before_the_change"
+  }
+}

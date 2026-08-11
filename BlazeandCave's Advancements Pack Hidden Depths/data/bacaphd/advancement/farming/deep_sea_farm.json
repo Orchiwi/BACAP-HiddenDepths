@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:seagrass"
+    },
+    "title": {
+      "translate": "Deep Sea Farm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant Kelp, Seagrass and a Sea Pickle inside an Ocean Monument"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/undersea_gardener",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:kelp"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:monument"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "seagrass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:seagrass"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:monument"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sea_pickle": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:sea_pickle"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:monument"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/deep_sea_farm"
+  }
+}

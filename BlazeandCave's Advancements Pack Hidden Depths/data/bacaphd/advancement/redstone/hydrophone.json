@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Hydrophone"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Sculk Sensor underwater so it listens through the water"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/vibe_check",
+  "criteria": {
+    "wet_sensor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_sensor"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/hydrophone"
+  }
+}

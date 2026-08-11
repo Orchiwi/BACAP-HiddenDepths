@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "Loaded and Aimed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Dispenser pointing straight up at the sky"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "criteria": {
+    "skyward": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dispenser"
+                ],
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/loaded_and_aimed"
+  }
+}

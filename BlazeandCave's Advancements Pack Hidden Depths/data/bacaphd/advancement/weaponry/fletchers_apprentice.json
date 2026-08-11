@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Fletcher's Apprentice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy your Arrows off a Fletcher rather than grinding Gravel for Flint like everybody else"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/that_is_so_fletch",
+  "criteria": {
+    "bought_arrows": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/fletchers_apprentice"
+  }
+}

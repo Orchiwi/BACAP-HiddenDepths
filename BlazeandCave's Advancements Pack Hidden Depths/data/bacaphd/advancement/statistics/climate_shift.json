@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Climate Shift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Step into the Nether from a Desert and come back out on Snowy Plains a kilometre away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_cars",
+  "criteria": {
+    "travelled": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "start_position": {
+          "biomes": "desert"
+        },
+        "distance": {
+          "horizontal": {
+            "min": 1000
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "snowy_plains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/climate_shift"
+  }
+}

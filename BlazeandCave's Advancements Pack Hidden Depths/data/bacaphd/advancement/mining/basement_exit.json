@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Basement Exit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Strike Flint and Steel against Obsidian below y-level -55 and open a way out of the world's cellar"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/obsidian_miner",
+  "criteria": {
+    "deep_portal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:obsidian"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -55.0
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/basement_exit"
+  }
+}

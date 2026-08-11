@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Optimism in a Bucket"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Step through into the Nether carrying a Bucket of Water, for all the good it will do you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_spring",
+  "criteria": {
+    "wet_arrival": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:water_bucket"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/optimism_in_a_bucket"
+  }
+}

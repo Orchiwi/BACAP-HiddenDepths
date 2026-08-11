@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Rot Interrupted"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Burn a Totem of Undying to walk out of a Wither's decay alive"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "saved": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/rot_interrupted"
+  }
+}

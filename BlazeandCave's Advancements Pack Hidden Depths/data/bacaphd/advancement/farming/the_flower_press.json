@@ -1,0 +1,172 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern"
+    },
+    "title": {
+      "translate": "The Flower Press"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Press every last flower in the game into its dye, from the Dandelion to the Pitcher Plant"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "black_dye_from_wither_rose": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_dye_from_wither_rose"
+      }
+    },
+    "blue_dye_from_cornflower": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_dye_from_cornflower"
+      }
+    },
+    "cyan_dye_from_pitcher_plant": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_dye_from_pitcher_plant"
+      }
+    },
+    "gray_dye_from_closed_eyeblossom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_dye_from_closed_eyeblossom"
+      }
+    },
+    "light_blue_dye_from_blue_orchid": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_dye_from_blue_orchid"
+      }
+    },
+    "light_gray_dye_from_azure_bluet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_azure_bluet"
+      }
+    },
+    "light_gray_dye_from_oxeye_daisy": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_oxeye_daisy"
+      }
+    },
+    "light_gray_dye_from_white_tulip": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_white_tulip"
+      }
+    },
+    "magenta_dye_from_allium": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_allium"
+      }
+    },
+    "magenta_dye_from_lilac": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_lilac"
+      }
+    },
+    "orange_dye_from_open_eyeblossom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_open_eyeblossom"
+      }
+    },
+    "orange_dye_from_orange_tulip": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_orange_tulip"
+      }
+    },
+    "orange_dye_from_torchflower": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_torchflower"
+      }
+    },
+    "pink_dye_from_cactus_flower": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_cactus_flower"
+      }
+    },
+    "pink_dye_from_peony": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_peony"
+      }
+    },
+    "pink_dye_from_pink_petals": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_pink_petals"
+      }
+    },
+    "pink_dye_from_pink_tulip": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_pink_tulip"
+      }
+    },
+    "red_dye_from_poppy": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_poppy"
+      }
+    },
+    "red_dye_from_rose_bush": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_rose_bush"
+      }
+    },
+    "red_dye_from_tulip": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_tulip"
+      }
+    },
+    "white_dye_from_lily_of_the_valley": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_dye_from_lily_of_the_valley"
+      }
+    },
+    "yellow_dye_from_dandelion": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_dandelion"
+      }
+    },
+    "yellow_dye_from_golden_dandelion": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_golden_dandelion"
+      }
+    },
+    "yellow_dye_from_sunflower": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_sunflower"
+      }
+    },
+    "yellow_dye_from_wildflowers": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_wildflowers"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_flower_press"
+  }
+}

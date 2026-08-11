@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Snout on Display"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Piglin Head down on display in the Nether, in full view of its relatives"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/piglin_peril",
+  "criteria": {
+    "head_display": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piglin_head"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/snout_on_display"
+  }
+}

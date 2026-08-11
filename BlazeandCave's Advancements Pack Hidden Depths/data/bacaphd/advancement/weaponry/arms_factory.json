@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Arms Factory"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have a Crafter assemble a Mace for you with no hands involved at all"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "auto_mace": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mace"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/arms_factory"
+  }
+}

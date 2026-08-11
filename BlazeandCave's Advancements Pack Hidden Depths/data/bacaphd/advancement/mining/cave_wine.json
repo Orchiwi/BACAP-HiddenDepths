@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Cave Wine"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a potion below y-level -50, a proper cellar for once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "cellar": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cave_wine"
+  }
+}

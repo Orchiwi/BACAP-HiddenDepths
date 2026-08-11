@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Feeding on Thin Ice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Feed a Strider some Warped Fungus while you are both stood on Blue Ice"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/jenga",
+  "criteria": {
+    "iced_supper": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_fungus"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:strider"
+            }
+          }
+        ],
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:blue_ice"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/feeding_on_thin_ice"
+  }
+}

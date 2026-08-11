@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Petals for a Pillow"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sleep a full night with a Spore Blossom hanging directly over the bed"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "criteria": {
+    "slept_under_petals": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:spore_blossom"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:spore_blossom"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:spore_blossom"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/petals_for_a_pillow"
+  }
+}

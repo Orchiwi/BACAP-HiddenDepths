@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Down the Drain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get dragged under by a Magma Block's bubble column fifty blocks below sea level"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "dragged": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column",
+        "state": {
+          "drag": "true"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/down_the_drain"
+  }
+}

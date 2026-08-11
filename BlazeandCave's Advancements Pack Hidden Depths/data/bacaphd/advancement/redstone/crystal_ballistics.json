@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "Crystal Ballistics"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Let an End Crystal throw you at least 15 blocks and survive the landing"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "crystal_launch": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:end_crystal"
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 15
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/crystal_ballistics"
+  }
+}

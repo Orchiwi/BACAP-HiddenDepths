@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_ore"
+    },
+    "title": {
+      "translate": "Ore in a Jar"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a whole block of Redstone Ore out of the ground, still in one piece"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/redstone_miner",
+  "criteria": {
+    "intact_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore",
+              "minecraft:deepslate_redstone_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/ore_in_a_jar"
+  }
+}

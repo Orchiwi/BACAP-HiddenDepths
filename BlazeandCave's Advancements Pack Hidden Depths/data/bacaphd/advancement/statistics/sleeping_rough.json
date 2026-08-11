@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "Sleeping Rough"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a bed down fifty-five blocks below sea level and actually sleep in it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_first_night",
+  "criteria": {
+    "slept": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "overworld",
+                "position": {
+                  "y": {
+                    "max": -55
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/sleeping_rough"
+  }
+}

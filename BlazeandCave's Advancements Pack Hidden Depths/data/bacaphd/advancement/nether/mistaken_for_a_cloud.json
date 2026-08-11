@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Mistaken for a Cloud"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get shot out of the sky by a Ghast while riding a Happy Ghast"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/pillow_fight",
+  "criteria": {
+    "shot_down": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:fireball"
+          },
+          "source_entity": {
+            "entity_type": "minecraft:ghast"
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/mistaken_for_a_cloud"
+  }
+}

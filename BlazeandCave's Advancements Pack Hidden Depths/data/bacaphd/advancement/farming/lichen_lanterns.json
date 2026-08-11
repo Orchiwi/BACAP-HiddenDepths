@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_lichen"
+    },
+    "title": {
+      "translate": "Lichen Lanterns"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stick Glow Lichen underwater and let it light the sea floor for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/kelp_me",
+  "criteria": {
+    "drowned_light": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glow_lichen"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/lichen_lanterns"
+  }
+}

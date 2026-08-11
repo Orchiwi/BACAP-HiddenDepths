@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "Hanging Garden"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant Glow Berries on the stone ceiling of your mine and light the tunnel for free"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lush_hour",
+  "criteria": {
+    "ceiling_crop": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:granite",
+                  "minecraft:diorite"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": 0.0
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glow_berries"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/hanging_garden"
+  }
+}

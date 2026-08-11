@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Portable Fortune"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Walk into the End carrying a whole Block of Netherite"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/netherite_mad_lad",
+  "criteria": {
+    "hauled": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end",
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:netherite_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/portable_fortune"
+  }
+}

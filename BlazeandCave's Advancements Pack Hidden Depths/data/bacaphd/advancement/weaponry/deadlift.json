@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_golem_spawn_egg"
+    },
+    "title": {
+      "translate": "Deadlift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Finish an Iron Golem with a Mace smash"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "scrapped": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:iron_golem"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/deadlift"
+  }
+}

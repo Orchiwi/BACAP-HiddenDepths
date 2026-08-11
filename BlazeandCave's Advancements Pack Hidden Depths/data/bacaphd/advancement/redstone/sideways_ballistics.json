@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Sideways Ballistics"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Let TNT throw you at least 60 blocks sideways instead of upwards"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/we_have_liftoff",
+  "criteria": {
+    "lateral": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:tnt"
+            }
+          }
+        ],
+        "distance": {
+          "horizontal": {
+            "min": 60.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/sideways_ballistics"
+  }
+}

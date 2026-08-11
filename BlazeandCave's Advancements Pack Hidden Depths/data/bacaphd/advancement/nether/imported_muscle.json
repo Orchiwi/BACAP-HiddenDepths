@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Imported Muscle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build yourself an Iron Golem in the Nether, where nothing else will take your side"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/we_got_a_live_one",
+  "criteria": {
+    "nether_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:iron_golem",
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/imported_muscle"
+  }
+}

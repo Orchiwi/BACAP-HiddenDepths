@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Zero Friction"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sprint along a run of Blue Ice, the fastest a pair of legs will ever go"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/natural_sprinter",
+  "criteria": {
+    "skating": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:blue_ice"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/zero_friction"
+  }
+}

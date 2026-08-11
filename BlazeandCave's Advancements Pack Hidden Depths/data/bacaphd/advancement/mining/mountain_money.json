@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Mountain Money"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up an Emerald in the mountain biomes that are the only place its ore ever generates"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/emerald_miner",
+  "criteria": {
+    "hill_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:windswept_hills",
+                  "minecraft:windswept_forest",
+                  "minecraft:windswept_gravelly_hills",
+                  "minecraft:jagged_peaks",
+                  "minecraft:frozen_peaks",
+                  "minecraft:stony_peaks",
+                  "minecraft:snowy_slopes",
+                  "minecraft:meadow",
+                  "minecraft:grove"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/mountain_money"
+  }
+}

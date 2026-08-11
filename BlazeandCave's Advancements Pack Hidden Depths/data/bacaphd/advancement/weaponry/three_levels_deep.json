@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "Three Levels Deep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant a Mace from the most expensive slot on the table, three whole levels at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "top_slot": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mace"
+          ]
+        },
+        "levels": {
+          "min": 3
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/three_levels_deep"
+  }
+}

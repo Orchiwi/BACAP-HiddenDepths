@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Tapping the Source"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fill a bucket with lava without once getting off your Strider"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_reels",
+  "criteria": {
+    "drawn_from_the_saddle": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lava_bucket"
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/tapping_the_source"
+  }
+}

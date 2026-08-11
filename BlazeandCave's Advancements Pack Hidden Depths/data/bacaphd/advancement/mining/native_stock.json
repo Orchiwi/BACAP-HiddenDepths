@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Native Stock"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bucket up an Axolotl in the Lush Caves it was actually born in"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lush_hour",
+  "criteria": {
+    "local_axolotl": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:lush_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/native_stock"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_scrap"
+    },
+    "title": {
+      "translate": "The Whole Refinery"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold Ancient Debris, Netherite Scrap, a Netherite Ingot and a Netherite Block all at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/master_netherite_miner",
+  "criteria": {
+    "every_stage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_whole_refinery"
+  }
+}

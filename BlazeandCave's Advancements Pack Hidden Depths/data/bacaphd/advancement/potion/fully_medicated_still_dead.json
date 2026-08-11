@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Fully Medicated, Still Dead"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get killed while Regeneration, Absorption, Resistance and Fire Resistance are all running"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:regeneration": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:absorption": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:resistance": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                },
+                "minecraft:fire_resistance": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/fully_medicated_still_dead"
+  }
+}

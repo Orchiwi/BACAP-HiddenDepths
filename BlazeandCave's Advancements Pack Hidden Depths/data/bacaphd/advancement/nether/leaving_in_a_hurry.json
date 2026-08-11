@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Leaving in a Hurry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Dive into a Nether Portal while you are still on fire"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/from_whence_it_came",
+  "criteria": {
+    "burning_exit": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:nether_portal",
+        "player": {
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/leaving_in_a_hurry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "Robot Archery Range"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have a Crafter put together a Target Block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/craftception",
+  "criteria": {
+    "auto_target": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:target"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/robot_archery_range"
+  }
+}

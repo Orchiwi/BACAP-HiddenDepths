@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Downhill in the Nether"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Slide down a wall of Honey Blocks in the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "nether_slide": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "blocks": [
+          "minecraft:honey_block"
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/downhill_in_the_nether"
+  }
+}

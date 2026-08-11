@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Double Redundancy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slide down a Honey Block while Slow Falling is already running. Two safety systems, one drop"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "belt_and_braces": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "blocks": [
+          "minecraft:honey_block"
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:slow_falling": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/double_redundancy"
+  }
+}

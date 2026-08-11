@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_pie"
+    },
+    "title": {
+      "translate": "Automated Bakery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Let a Crafter bake your Pumpkin Pie for you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/the_pie",
+  "criteria": {
+    "auto_pie": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pumpkin_pie"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/automated_bakery"
+  }
+}

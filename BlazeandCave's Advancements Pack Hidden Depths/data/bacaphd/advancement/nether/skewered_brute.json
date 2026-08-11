@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Skewered Brute"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stick a thrown Trident into a Piglin Brute"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/astrobrute",
+  "criteria": {
+    "impaled": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin_brute"
+        },
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/skewered_brute"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Storm Verdict"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Call a Channeling lightning bolt down onto a Witch"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/taste_of_your_own_medicine",
+  "criteria": {
+    "sentenced": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:witch"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/storm_verdict"
+  }
+}

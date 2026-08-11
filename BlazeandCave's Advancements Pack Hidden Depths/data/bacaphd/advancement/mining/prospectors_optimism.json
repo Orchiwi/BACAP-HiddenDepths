@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "Prospector's Optimism"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Spyglass below y-level -40, in a place with nothing whatsoever to look at"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/galileo_figaro",
+  "criteria": {
+    "blind_optimism": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spyglass",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -40.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/prospectors_optimism"
+  }
+}

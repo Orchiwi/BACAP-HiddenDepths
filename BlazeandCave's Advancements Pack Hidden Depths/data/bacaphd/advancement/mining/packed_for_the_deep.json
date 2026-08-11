@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "Packed for the Deep"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Reach y-level -55 carrying the whole kit: a pickaxe, torches, a water bucket and something to eat"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "full_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:torch"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:cooked_beef",
+              "minecraft:cooked_porkchop",
+              "minecraft:cooked_mutton",
+              "minecraft:bread"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -55.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/packed_for_the_deep"
+  }
+}

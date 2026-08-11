@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calcite"
+    },
+    "title": {
+      "translate": "Cross Section"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold all three layers of a geode at once: Smooth Basalt, Calcite and Amethyst"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/good_for_your_bones",
+  "criteria": {
+    "three_layers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:calcite"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:amethyst_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/cross_section"
+  }
+}

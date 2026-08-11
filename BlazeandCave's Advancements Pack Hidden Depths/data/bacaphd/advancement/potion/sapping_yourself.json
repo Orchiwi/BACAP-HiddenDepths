@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Sapping Yourself"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Weakness. It was meant for the zombie"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "potion_contents": [
+              "minecraft:weakness",
+              "minecraft:long_weakness"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/sapping_yourself"
+  }
+}

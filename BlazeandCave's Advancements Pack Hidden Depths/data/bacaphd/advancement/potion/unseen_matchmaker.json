@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Unseen Matchmaker"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed a pair of animals while Invisible. They manage perfectly well without seeing you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "ghost_farmer": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/unseen_matchmaker"
+  }
+}

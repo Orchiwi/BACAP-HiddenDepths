@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "Lights Out, Boys"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Torch on top of a Monster Spawner and put it out of business"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/dungeons_and_spawners",
+  "criteria": {
+    "torch_the_spawner": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spawner"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:torch"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/lights_out_boys"
+  }
+}

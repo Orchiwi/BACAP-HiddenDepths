@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Elevenses at Bedrock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sit down to a cooked meal below y-level -55 like a proper shift worker"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "deep_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_chicken",
+            "minecraft:baked_potato",
+            "minecraft:bread"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -55.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/elevenses_at_bedrock"
+  }
+}

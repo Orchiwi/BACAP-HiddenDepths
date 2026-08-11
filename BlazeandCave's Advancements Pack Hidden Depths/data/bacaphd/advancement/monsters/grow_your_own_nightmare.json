@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "Grow Your Own Nightmare"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a Creaking Heart of your own into the timber of the Pale Garden"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/night_runner",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:creaking_heart"
+                ]
+              },
+              "biomes": "minecraft:pale_garden"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/grow_your_own_nightmare"
+  }
+}

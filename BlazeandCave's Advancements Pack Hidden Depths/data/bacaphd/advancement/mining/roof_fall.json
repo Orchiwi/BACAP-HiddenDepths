@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "translate": "Roof Fall"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop twenty blocks down an Abandoned Mineshaft's own shaft and get up again"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "shaft_drop": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 20.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/roof_fall"
+  }
+}

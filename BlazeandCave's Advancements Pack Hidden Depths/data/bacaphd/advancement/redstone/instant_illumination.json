@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_lamp"
+    },
+    "title": {
+      "translate": "Instant Illumination"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Redstone Lamp into a powered spot so it is glowing before you let go of it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/powerful_light",
+  "criteria": {
+    "prelit": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:redstone_lamp"
+                ],
+                "state": {
+                  "lit": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/instant_illumination"
+  }
+}

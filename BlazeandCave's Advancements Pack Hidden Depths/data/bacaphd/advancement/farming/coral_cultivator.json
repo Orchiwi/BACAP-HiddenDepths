@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tube_coral_block"
+    },
+    "title": {
+      "translate": "Coral Cultivator"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Bone-meal a Sea Pickle rooted on Coral Blocks to breed a whole colony"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/undersea_gardener",
+  "criteria": {
+    "colony": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sea_pickle"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tube_coral_block",
+                  "minecraft:brain_coral_block",
+                  "minecraft:bubble_coral_block",
+                  "minecraft:fire_coral_block",
+                  "minecraft:horn_coral_block"
+                ]
+              }
+            },
+            "offsetY": -1
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/coral_cultivator"
+  }
+}

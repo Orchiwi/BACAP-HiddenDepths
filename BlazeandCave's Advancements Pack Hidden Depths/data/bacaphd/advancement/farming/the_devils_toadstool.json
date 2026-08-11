@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "The Devil's Toadstool"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bone meal a Mushroom rooted in Nylium into a giant one, down in the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mega_mushroom",
+  "criteria": {
+    "hell_shroom": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom",
+                  "minecraft:brown_mushroom"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_nylium",
+                  "minecraft:warped_nylium"
+                ]
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_devils_toadstool"
+  }
+}

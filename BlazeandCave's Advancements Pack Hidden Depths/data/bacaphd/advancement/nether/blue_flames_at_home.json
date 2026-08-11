@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_soil"
+    },
+    "title": {
+      "translate": "Blue Flames at Home"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Strike Soul Soil you carried up to the Overworld and light a blue fire under your own sky"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "blue_fire": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_soil",
+                  "minecraft:soul_sand"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/blue_flames_at_home"
+  }
+}

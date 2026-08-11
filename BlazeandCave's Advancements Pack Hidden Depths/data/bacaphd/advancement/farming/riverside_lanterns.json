@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firefly_bush"
+    },
+    "title": {
+      "translate": "Riverside Lanterns"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Plant a Firefly Bush in the Mud of a Mangrove Swamp"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/you_cant_take_the_sky_from_me",
+  "criteria": {
+    "swamp_bush": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:firefly_bush"
+                ]
+              },
+              "biomes": [
+                "minecraft:mangrove_swamp"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mud"
+                ]
+              }
+            },
+            "offsetY": -1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/riverside_lanterns"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Lighthouse on the Ceiling"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Raise a Beacon to full power on top of the Nether's bedrock roof"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/light_show",
+  "criteria": {
+    "roof_beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 4
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "position": {
+              "y": {
+                "min": 128
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/lighthouse_on_the_ceiling"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur"
+    },
+    "title": {
+      "translate": "Blast Assisted Descent"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Let a Sulfur Cube launch you, then fall at least fifteen blocks working out what went wrong"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/stink_bomb",
+  "criteria": {
+    "boosted": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:sulfur_cube"
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 15.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/blast_assisted_descent"
+  }
+}

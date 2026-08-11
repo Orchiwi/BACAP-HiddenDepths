@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": {
+      "translate": "Garbage In, Signal Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Feed a Poisonous Potato to a Composter. Even rubbish carries a signal strength"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/comparing_comparator",
+  "criteria": {
+    "compost_poison": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:composter"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:poisonous_potato"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/garbage_in_signal_out"
+  }
+}

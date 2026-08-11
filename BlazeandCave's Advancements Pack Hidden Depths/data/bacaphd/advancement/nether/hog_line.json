@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "Hog Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Hoglin on a Fishing Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_reels",
+  "criteria": {
+    "hooked_hog": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:hoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/hog_line"
+  }
+}

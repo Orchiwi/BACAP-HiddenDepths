@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Cruel Kindness"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Heal a mob up with Regeneration and then kill it anyway"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "betrayed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "effects": {
+            "minecraft:regeneration": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/cruel_kindness"
+  }
+}

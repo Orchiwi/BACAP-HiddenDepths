@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Anti-Gravity Marksman"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill something with an arrow while a Shulker's Levitation is still carrying you upwards"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "floating_shot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/anti_gravity_marksman"
+  }
+}

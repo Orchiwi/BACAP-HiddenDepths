@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": {
+      "translate": "Under Glass"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Grow a crop with a pane of Glass sat directly on top of it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/come_to_the_countryside",
+  "criteria": {
+    "cloche": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat",
+                  "minecraft:carrots",
+                  "minecraft:potatoes",
+                  "minecraft:beetroots"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glass"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/under_glass"
+  }
+}

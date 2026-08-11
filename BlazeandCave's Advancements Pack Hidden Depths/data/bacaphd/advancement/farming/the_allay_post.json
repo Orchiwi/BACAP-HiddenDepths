@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "The Allay Post"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have an Allay carry your Book and Quill and drop it onto a Note Block"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/write_your_thoughts",
+  "criteria": {
+    "delivery": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:writable_book"
+          ]
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/the_allay_post"
+  }
+}

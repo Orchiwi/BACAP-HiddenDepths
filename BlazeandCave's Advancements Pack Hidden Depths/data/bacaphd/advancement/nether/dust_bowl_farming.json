@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Dust Bowl Farming"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sow Wheat in the Nether, on farmland that will never see a drop of water"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hell_botanist",
+  "criteria": {
+    "dry_crop": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/dust_bowl_farming"
+  }
+}

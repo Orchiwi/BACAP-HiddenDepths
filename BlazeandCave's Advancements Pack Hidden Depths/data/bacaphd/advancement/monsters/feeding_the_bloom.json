@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Feeding the Bloom"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a Warden close enough to a Sculk Catalyst that the floor drinks the whole thing in"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/stealth_is_optional",
+  "criteria": {
+    "offering": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/feeding_the_bloom"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Premedicated Summoning"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Summon the Wither while already drinking the Turtle Master"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "summoned": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:resistance": {
+                  "amplifier": {
+                    "min": 2
+                  }
+                },
+                "minecraft:slowness": {
+                  "amplifier": {
+                    "min": 3
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/premedicated_summoning"
+  }
+}

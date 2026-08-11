@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_core"
+    },
+    "title": {
+      "translate": "Long Way Down, Hammer Ready"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fall eighty blocks with a Mace already in your hand and nothing underneath you but plans"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/warden_extinction",
+  "criteria": {
+    "committed": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 80.0
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/long_way_down_hammer_ready"
+  }
+}

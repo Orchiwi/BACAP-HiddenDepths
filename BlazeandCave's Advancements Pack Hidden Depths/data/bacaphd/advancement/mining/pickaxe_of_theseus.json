@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Pickaxe of Theseus"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Nurse a battered Diamond Pickaxe all the way back to full durability instead of forging a new one"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "criteria": {
+    "restored": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ]
+        },
+        "durability": {
+          "min": 1561
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/pickaxe_of_theseus"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Ingredient on the Hook"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fish up a Pufferfish instead of buying one"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/marine_marauder",
+  "criteria": {
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/ingredient_on_the_hook"
+  }
+}

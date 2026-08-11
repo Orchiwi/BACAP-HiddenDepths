@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Pearl Toll"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pay the price of your own Ender Pearl somewhere in the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_descent",
+  "criteria": {
+    "pearl_hurt": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:ender_pearl"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/pearl_toll"
+  }
+}

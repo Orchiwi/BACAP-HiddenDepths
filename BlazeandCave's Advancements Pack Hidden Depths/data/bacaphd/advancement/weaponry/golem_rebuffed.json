@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "Golem Rebuffed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take an Iron Golem's full swing on your Shield and keep your feet under you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "golem_stopped": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:iron_golem"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/golem_rebuffed"
+  }
+}

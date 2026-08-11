@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sulfur"
+    },
+    "title": {
+      "translate": "Grade A Stink"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Chiseled Sulfur, because if you must build with the stuff you may as well do it properly"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/all_the_balls",
+  "criteria": {
+    "decorative": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_sulfur"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/grade_a_stink"
+  }
+}

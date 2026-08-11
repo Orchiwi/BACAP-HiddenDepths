@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allay_spawn_egg"
+    },
+    "title": {
+      "translate": "Arrow Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have an Allay bring your Arrows back to you so you never have to walk the range yourself"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/that_is_so_fletch",
+  "criteria": {
+    "restocked": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:allay"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/arrow_delivery"
+  }
+}

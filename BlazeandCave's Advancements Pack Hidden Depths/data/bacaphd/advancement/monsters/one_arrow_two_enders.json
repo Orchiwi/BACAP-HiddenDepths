@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "One Arrow, Two Enders"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Run one Piercing bolt through an Enderman and the Endermite that came out of your pocket"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/impossible",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:enderman"
+          },
+          {
+            "entity_type": "minecraft:endermite"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/one_arrow_two_enders"
+  }
+}

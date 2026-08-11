@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Coldshot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Snowball into the dead centre of a Target block, with no fletching involved at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/snowball_fight",
+  "criteria": {
+    "cold_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 15
+        },
+        "projectile": {
+          "entity_type": "minecraft:snowball"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/coldshot"
+  }
+}

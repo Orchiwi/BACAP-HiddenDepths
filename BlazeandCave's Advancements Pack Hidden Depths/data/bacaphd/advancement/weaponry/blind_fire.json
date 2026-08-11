@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ink_sac"
+    },
+    "title": {
+      "translate": "Blind Fire"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill something with an arrow while Blindness has taken away everything past three blocks"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "unsighted": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:blindness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/blind_fire"
+  }
+}

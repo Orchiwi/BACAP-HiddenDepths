@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "The Long Ride"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Steer a Strider until the Warped Fungus on a Stick falls apart in your hand"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/jenga",
+  "criteria": {
+    "worn_out": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_long_ride"
+  }
+}

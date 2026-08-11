@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Shaft Assembly"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Climb up inside your own Scaffolding below y-level -50, the miner's honest elevator"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "climbing": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:scaffolding",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/shaft_assembly"
+  }
+}

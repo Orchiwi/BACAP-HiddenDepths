@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": {
+      "translate": "Emergency Chute"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be more than 200 blocks up with an Arrow of Slow Falling already in your hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/furious_ammunition",
+  "criteria": {
+    "packed_a_chute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:tipped_arrow",
+                  "predicates": {
+                    "potion_contents": [
+                      "minecraft:slow_falling",
+                      "minecraft:long_slow_falling"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 200.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/emergency_chute"
+  }
+}

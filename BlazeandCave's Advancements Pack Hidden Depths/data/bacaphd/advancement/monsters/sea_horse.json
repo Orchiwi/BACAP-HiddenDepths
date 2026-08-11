@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Sea Horse"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Skeleton Horse while completely underwater. It never needed to breathe anyway"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_undead_cavalry",
+  "criteria": {
+    "submerged_ride": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:skeleton_horse"
+              },
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/sea_horse"
+  }
+}

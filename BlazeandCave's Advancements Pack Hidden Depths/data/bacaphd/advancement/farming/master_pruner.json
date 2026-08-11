@@ -1,0 +1,122 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Master Pruner"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Shears to all four plants that can be trimmed back: Kelp, Cave Vines, Twisting Vines and Weeping Vines"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:kelp_plant"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "cave_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cave_vines_plant"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "twisting": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:twisting_vines_plant"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "weeping": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weeping_vines_plant"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/master_pruner"
+  }
+}

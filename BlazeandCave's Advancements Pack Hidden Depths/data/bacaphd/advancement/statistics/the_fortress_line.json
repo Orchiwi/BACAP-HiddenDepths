@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "The Fortress Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay rail through a Nether Fortress and ride your own service through it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/global_railway_network",
+  "criteria": {
+    "fortress_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "location": {
+                "structures": "minecraft:fortress"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/the_fortress_line"
+  }
+}

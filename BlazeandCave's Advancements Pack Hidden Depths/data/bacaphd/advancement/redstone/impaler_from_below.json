@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Impaler From Below"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit a Target with a Trident thrown while you are underwater"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "wet_throw": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": {
+          "entity_type": "minecraft:trident"
+        },
+        "shooter": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/impaler_from_below"
+  }
+}

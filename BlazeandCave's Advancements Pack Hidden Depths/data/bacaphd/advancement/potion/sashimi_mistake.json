@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Sashimi Mistake"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Pufferfish raw instead of brewing with it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/sashimi_mistake"
+  }
+}

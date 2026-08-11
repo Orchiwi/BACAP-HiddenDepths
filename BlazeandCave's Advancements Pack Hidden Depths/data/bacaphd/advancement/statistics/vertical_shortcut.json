@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Vertical Shortcut"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Use the Nether to skip a hundred and fifty blocks of vertical climb in the Overworld"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/65_hours_of_walking",
+  "criteria": {
+    "lifted": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 150
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/vertical_shortcut"
+  }
+}

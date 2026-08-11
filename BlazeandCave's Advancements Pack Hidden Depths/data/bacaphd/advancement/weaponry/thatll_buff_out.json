@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chipped_anvil"
+    },
+    "title": {
+      "translate": "That'll Buff Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block a single blow heavy enough to knock ten points of durability off your Shield at once"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "heavy_block": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        },
+        "delta": {
+          "max": -10
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/thatll_buff_out"
+  }
+}

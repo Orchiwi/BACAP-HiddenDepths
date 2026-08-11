@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "translate": "Trapped Under the City"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Open a Trapped Chest inside an Ancient City"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/troll_chest",
+  "criteria": {
+    "city_trap": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:trapped_chest"
+                ]
+              },
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/trapped_under_the_city"
+  }
+}

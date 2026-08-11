@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_vein"
+    },
+    "title": {
+      "translate": "Sculk Abroad"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a Sculk Catalyst in the Nether and find out whether the dark travels"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/stealth_is_optional",
+  "criteria": {
+    "transplant": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_catalyst"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:monsters/sculk_abroad"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "The Fire You Brought Home"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set light to a block of Netherrack you carried back to the Overworld, and never put it out"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/spreading_corruption",
+  "criteria": {
+    "eternal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:netherrack"
+                ]
+              },
+              "dimension": "minecraft:overworld"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/the_fire_you_brought_home"
+  }
+}

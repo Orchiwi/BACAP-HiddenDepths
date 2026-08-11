@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Onto the Hotplate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop thirty blocks through the Basalt Deltas and land squarely on a Magma Block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stepping_on_legos",
+  "criteria": {
+    "bad_landing": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:magma_block"
+                  ]
+                }
+              },
+              "location": {
+                "biomes": "minecraft:basalt_deltas"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/onto_the_hotplate"
+  }
+}

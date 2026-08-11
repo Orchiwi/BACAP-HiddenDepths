@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "The Company Store"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Walk a Villager down into an Abandoned Mineshaft and open for trade where the last crew went broke"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "criteria": {
+    "deep_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mineshaft"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/the_company_store"
+  }
+}

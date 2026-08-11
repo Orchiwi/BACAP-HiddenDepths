@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stem"
+    },
+    "title": {
+      "translate": "There Was Never Any Bark"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take an axe to a Crimson Stem and strip off a bark that was never there"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/what_about_corruption_planks",
+  "criteria": {
+    "stripped": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_stem",
+                  "minecraft:crimson_hyphae"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/there_was_never_any_bark"
+  }
+}

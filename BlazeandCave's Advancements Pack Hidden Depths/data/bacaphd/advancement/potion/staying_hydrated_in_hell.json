@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Staying Hydrated in Hell"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a plain Water Bottle in the Nether, where water has no business surviving at all"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "nether_water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "potion_contents": [
+              "minecraft:water"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/staying_hydrated_in_hell"
+  }
+}

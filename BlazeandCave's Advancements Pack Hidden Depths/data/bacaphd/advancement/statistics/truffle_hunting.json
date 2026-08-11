@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "Truffle Hunting"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Steer a saddled Pig below y-level -40 and see what it turns up down there"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/pig_training",
+  "criteria": {
+    "deep_pig": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:pig"
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -40.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/truffle_hunting"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Rocket-Propelled Bullseye"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit the middle of a Target Block with a Firework Rocket fired from a Crossbow"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/target_practise",
+  "criteria": {
+    "rocket_bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "projectile": {
+          "entity_type": "minecraft:firework_rocket"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:redstone/rocket_propelled_bullseye"
+  }
+}

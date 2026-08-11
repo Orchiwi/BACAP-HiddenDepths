@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Nowhere to Rise"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spend nine straight seconds under Levitation in a corridor too low to rise in"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/who_needs_elytra",
+  "criteria": {
+    "pinned": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "duration": {
+          "min": 180
+        },
+        "distance": {
+          "y": {
+            "max": 2
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/nowhere_to_rise"
+  }
+}

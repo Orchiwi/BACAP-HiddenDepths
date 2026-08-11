@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Right at the Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up Lapis Lazuli within one block of y-level 0, exactly where it likes to hide"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lapis_lazuli_miner",
+  "criteria": {
+    "lapis_line": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": -1.0,
+                    "max": 1.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/right_at_the_line"
+  }
+}

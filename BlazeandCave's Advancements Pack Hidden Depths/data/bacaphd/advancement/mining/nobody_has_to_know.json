@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diorite"
+    },
+    "title": {
+      "translate": "Nobody Has to Know"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build with Diorite below y-level -40, where nobody will ever be around to judge you for it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/bulldozer",
+  "criteria": {
+    "secret_shame": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:diorite"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": -40.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:mining/nobody_has_to_know"
+  }
+}

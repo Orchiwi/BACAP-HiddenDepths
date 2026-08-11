@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "No Take-Backs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw a Trident at a mob out on the End islands and accept that it may never come home"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/the_aquatic_hunter",
+  "criteria": {
+    "hurled": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/no_take_backs"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "Summit Camp"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a Respawn Anchor down on top of the Nether roof"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/anchorman",
+  "criteria": {
+    "high_anchor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ]
+              },
+              "dimension": "minecraft:the_nether",
+              "position": {
+                "y": {
+                  "min": 128
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:nether/summit_camp"
+  }
+}

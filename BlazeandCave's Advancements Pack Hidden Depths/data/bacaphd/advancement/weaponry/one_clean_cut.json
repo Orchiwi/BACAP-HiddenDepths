@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "One Clean Cut"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land a single Sword blow worth ten hearts of damage"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "cleave": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/one_clean_cut"
+  }
+}

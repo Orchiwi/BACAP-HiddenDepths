@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Bad Idea, Bottled"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Potion of Harming yourself, deliberately, with nobody forcing your hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "self_harm": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "potion_contents": [
+              "minecraft:harming",
+              "minecraft:strong_harming"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/bad_idea_bottled"
+  }
+}

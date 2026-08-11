@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "title": {
+      "translate": "Reeling in the Dark"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Put a hook in the Warden. Whatever you had planned for afterwards, do it quickly"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/when_pigs_finally_fly",
+  "criteria": {
+    "hooked_warden": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/reeling_in_the_dark"
+  }
+}

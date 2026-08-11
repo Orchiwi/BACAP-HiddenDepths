@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "River Dolphin"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a tow from Dolphin's Grace in a River, miles from any sea a Dolphin would choose"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/olympic_gold_medallist",
+  "criteria": {
+    "river_tow": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:dolphins_grace": {}
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:river",
+                  "minecraft:frozen_river"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/river_dolphin"
+  }
+}

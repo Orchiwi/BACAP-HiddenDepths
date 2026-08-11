@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wildflowers"
+    },
+    "title": {
+      "translate": "Four in Bloom"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Crowd four Wildflowers into a single block"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/you_cant_take_the_sky_from_me",
+  "criteria": {
+    "full_clump": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wildflowers"
+                ],
+                "state": {
+                  "flower_amount": "4"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/four_in_bloom"
+  }
+}

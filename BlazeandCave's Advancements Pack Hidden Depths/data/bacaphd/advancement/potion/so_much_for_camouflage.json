@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "So Much for Camouflage"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be killed by a mob while Invisibility was supposed to be keeping you out of trouble"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stealth_takedown",
+  "criteria": {
+    "seen_anyway": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:invisibility": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:potion/so_much_for_camouflage"
+  }
+}

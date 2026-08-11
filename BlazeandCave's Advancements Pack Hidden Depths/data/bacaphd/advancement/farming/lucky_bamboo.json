@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "Lucky Bamboo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand a single Bamboo shoot in a Flower Pot"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/booshes",
+  "criteria": {
+    "potted_shoot": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:potted_bamboo"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bamboo"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:farming/lucky_bamboo"
+  }
+}

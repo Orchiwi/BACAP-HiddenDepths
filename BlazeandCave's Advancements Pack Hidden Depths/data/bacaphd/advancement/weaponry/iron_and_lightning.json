@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Iron and Lightning"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Channel a bolt of lightning into an Iron Golem and find out it does not care in the slightest"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/poseidon_vs_hades",
+  "criteria": {
+    "golem_bolt": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:iron_golem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:weaponry/iron_and_lightning"
+  }
+}

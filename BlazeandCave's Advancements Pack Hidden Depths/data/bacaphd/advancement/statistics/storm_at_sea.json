@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_boat"
+    },
+    "title": {
+      "translate": "Storm at Sea"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Push off in a Boat over the Deep Ocean while the thunder is directly overhead"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/pirate_captain",
+  "criteria": {
+    "launched": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_boats"
+              },
+              "location": {
+                "biomes": "deep_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:statistics/storm_at_sea"
+  }
+}
