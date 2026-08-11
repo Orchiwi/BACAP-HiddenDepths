@@ -3442,7 +3442,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Growth Spurt** | Farming | Use 4,000 Bone Meal | 15 |
 | · | **Handles by the Dozen** | Farming | Wear out 50 Iron Hoes | 15 |
 | · | **Hanging Nursery** | Farming | Mine 64 Mangrove Propagules. | 15 |
-| ◆ | **Harvest Moon** | Farming | Eat Bread on the night of a full moon | 40 |
+| ◆ | **Harvest Moon** | Farming | Eat Bread after dark | 40 |
 | ◆ | **Harvest of the Huge** | Farming | Break 20,000 Brown Mushroom Blocks | 40 |
 | ★ | **Harvest of the Shallows** | Farming | Dry 100,000 Kelp | 120 |
 | ◆ | **Harvesting the Bleeding Wood** | Farming | Pick up 4,096 Nether Wart Blocks. | 40 |
@@ -10515,7 +10515,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Harvest Bags Overflowing** | The End | ◆ | Collect 25,000 Chorus Fruit |
 | **Harvest Beyond Reason** | Potions | ★ | Craft 150,000 Nether Wart Blocks |
 | **Harvest for the Herd** | Animals | ★ | Use 8,000 Hay Bales |
-| **Harvest Moon** | Farming | ◆ | Eat Bread on the night of a full moon |
+| **Harvest Moon** | Farming | ◆ | Eat Bread after dark |
 | **Harvest of Grinning Heads** | Monsters | ★ | Craft 256 Carved Pumpkins |
 | **Harvest of Hollow Hearts** | Monsters | ◆ | Collect 500 Creaking Hearts |
 | **Harvest of the Hanging Suns** | Nether | ★ | Mine 10,000 Glowstone |
