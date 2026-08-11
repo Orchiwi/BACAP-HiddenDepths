@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "On a First-Name Basis"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Give an Enderman a Name Tag without it taking offence"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_actual_end",
+  "criteria": {
+    "named": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:enderman"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/on_a_first_name_basis"
+  }
+}

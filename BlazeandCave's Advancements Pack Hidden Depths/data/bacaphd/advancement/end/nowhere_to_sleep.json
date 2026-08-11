@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Nowhere to Sleep"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Bed down in the End, then think very hard before you use it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_actual_end",
+  "criteria": {
+    "bed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_bed",
+                  "minecraft:orange_bed",
+                  "minecraft:magenta_bed",
+                  "minecraft:light_blue_bed",
+                  "minecraft:yellow_bed",
+                  "minecraft:lime_bed",
+                  "minecraft:pink_bed",
+                  "minecraft:gray_bed",
+                  "minecraft:light_gray_bed",
+                  "minecraft:cyan_bed",
+                  "minecraft:purple_bed",
+                  "minecraft:blue_bed",
+                  "minecraft:brown_bed",
+                  "minecraft:green_bed",
+                  "minecraft:red_bed",
+                  "minecraft:black_bed"
+                ]
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/nowhere_to_sleep"
+  }
+}

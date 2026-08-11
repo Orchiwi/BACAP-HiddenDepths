@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_horse_armor"
+    },
+    "title": {
+      "translate": "Hooves on Ice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Horse out across a Frozen Ocean"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/master_farrier",
+  "criteria": {
+    "skating": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              },
+              "location": {
+                "biomes": [
+                  "minecraft:frozen_ocean",
+                  "minecraft:deep_frozen_ocean"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/hooves_on_ice"
+  }
+}

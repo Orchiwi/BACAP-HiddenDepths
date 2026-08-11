@@ -10,15 +10,15 @@ None of these duplicates any of the 1,776 advancements in BlazeandCave's Advance
 
 All completable solo. Weighted towards the Copper Age content neither installed pack touches.
 
-**7396 advancements** across 15 tabs, plus 16 progression entries.
+**8283 advancements** across 15 tabs, plus 16 progression entries.
 
 | Tab | Count |
 |---|---|
-| Adventure | 647 |
-| Animals | 605 |
-| Biomes | 579 |
-| Building | 624 |
-| Enchanting | 630 |
+| Adventure | 787 |
+| Animals | 744 |
+| Biomes | 719 |
+| Building | 757 |
+| Enchanting | 765 |
 | Farming | 523 |
 | Mining | 511 |
 | Monsters | 428 |
@@ -26,8 +26,8 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | Potions | 469 |
 | Redstone | 566 |
 | Statistics | 271 |
-| Super Challenges | 22 |
-| The End | 531 |
+| Super Challenges | 86 |
+| The End | 667 |
 | Weaponry | 452 |
 
 ## Adventure — Hidden Depths
@@ -66,6 +66,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **A World That Chimes** | Adventure | Place 20,000 Bells | 120 |
 | ★ | **Absorbent Empire** | Adventure | Mine 25,000 Sponges | 120 |
 | ★ | **Admiral of the Sprucewood** | Adventure | Place 4,096 Spruce Boats | 120 |
+| ◆ | **Aerial Survey** | Adventure | Look through a Spyglass from the back of a Happy Ghast | 40 |
 | · | **Air Support** | Adventure | Throw 250 Wind Charges | 15 |
 | ◆ | **All Work and No Play** | Adventure | Kill 300 Vindicators | 40 |
 | ★ | **All the Cages Stand Empty** | Adventure | Break 10,000 Monster Spawners | 120 |
@@ -73,20 +74,29 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Amethyst and Copper** | Adventure | Craft 256 Spyglasses | 15 |
 | ★ | **An Iceberg of One's Own** | Adventure | Pick up 32,768 Blue Ice | 120 |
 | ★ | **An Ocean Without Monuments** | Adventure | Mine 500,000 Prismarine | 120 |
+| ◆ | **Anchor in the Dark** | Adventure | Bind a Compass to a Lodestone inside an Ancient City | 40 |
 | · | **Aquarium Stock** | Adventure | Buy a Bucket of Pufferfish and a Bucket of Tropical Fish from Wandering Traders | 15 |
 | ★ | **Archaeology as a Lifestyle** | Adventure | Use a Brush 25,000 times | 120 |
 | ◆ | **Architect of the Abyss** | Adventure | Craft 30,000 Prismarine Bricks | 40 |
 | · | **Arming Like a Pillager** | Adventure | Craft 64 Crossbows | 15 |
+| · | **Asking For It** | Adventure | Set a Note Block down inside an Ancient City | 15 |
 | ◆ | **Assembly Line of Ruin** | Adventure | Craft 400 Maces | 40 |
 | ★ | **Atlas of Everything** | Adventure | Craft 300 Filled Maps | 120 |
+| · | **Axe Denied** | Adventure | Catch a Vindicator's axe on your shield | 15 |
 | ★ | **Axes Laid Down** | Adventure | Kill 2,000 Vindicators | 120 |
 | ◆ | **Backseat Driver** | Adventure | Kill a Pillager while it is riding a Ravager | 40 |
 | · | **Bad Reputation** | Adventure | Kill 10 Villagers | 15 |
 | ★ | **Baron of Sponges** | Adventure | Kill 600 Elder Guardians | 120 |
+| ★ | **Beached** | Adventure | Kill an Elder Guardian with not a drop of water left around it | 120 |
+| ◆ | **Bedrock Bargains** | Adventure | Trade with a Villager below Y level -50 | 40 |
 | · | **Beds for the Newcomers** | Adventure | Craft 256 White Beds | 15 |
 | ★ | **Beholden** | Adventure | Pick up 256 Eye Armor Trim Smithing Templates | 120 |
 | ◆ | **Belfry Enthusiast** | Adventure | Place 5,000 Bells | 40 |
+| ◆ | **Bell of the Deep** | Adventure | Ring a Bell inside an Ocean Monument | 40 |
 | ◆ | **Bell, Book and Candle** | Adventure | Carry a Bell, a Book and a Candle at the same time | 40 |
+| ◆ | **Below Decks** | Adventure | Empty a Shipwreck's map chest, its supply chest and its treasure chest | 40 |
+| · | **Berth of a Legend** | Adventure | Sleep in a bed inside a Shipwreck | 15 |
+| ◆ | **Between Waves** | Adventure | Sleep in a bed inside a Trial Chamber | 40 |
 | ★ | **Beyond All Curing** | Adventure | Kill 5,000 Zombie Villagers | 120 |
 | · | **Beyond Curing** | Adventure | Kill 100 Zombie Villagers | 15 |
 | ◆ | **Bins Beyond Number** | Adventure | Craft 2,048 Composters | 40 |
@@ -94,22 +104,30 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Blank Canvas** | Adventure | Craft 20 Empty Maps | 15 |
 | ★ | **Blank Slate Cartography** | Adventure | Craft 400 Empty Maps | 120 |
 | · | **Blast Off, Bop** | Adventure | Send a Copper Golem flying with a thrown Wind Charge | 15 |
+| · | **Blind Bidding** | Adventure | Trade with a Villager while completely blind | 15 |
 | · | **Blind Bouquet** | Adventure | Pick up 256 Closed Eyeblossoms | 15 |
 | · | **Blind Faith** | Adventure | Trade with a Villager while Blindness is on you | 15 |
+| · | **Blind Spot** | Adventure | Look through a Spyglass while Blindness is on you | 15 |
 | ★ | **Blinded by the Light** | Adventure | Kill 1,500 Guardians | 120 |
+| ◆ | **Bling on a Budget** | Adventure | Trim a Chainmail Chestplate with Netherite | 40 |
 | · | **Blocks in the Backpack** | Adventure | Pick up 256 Blocks of Emerald | 15 |
 | ◆ | **Boat Drop** | Adventure | Survive a sixty-block fall while sitting in a boat | 45 |
 | · | **Bolt Catcher** | Adventure | Kill 100 Pillagers | 15 |
 | ◆ | **Bolts for Everyone** | Adventure | Craft 1,024 Crossbows | 40 |
 | · | **Bones in the Clay** | Adventure | Pick up 128 Skull Pottery Sherds | 15 |
+| ◆ | **Borrowed Light** | Adventure | Set a Sea Lantern down inside an Ancient City | 40 |
 | ★ | **Both Sides of the Otherside** | Adventure | Drop 64 Otherside Music Discs | 120 |
 | · | **Bottle Breaker** | Adventure | Kill 50 Witches | 15 |
 | · | **Bottling the Wind** | Adventure | Pick up 512 Breeze Rods | 15 |
+| · | **Bread Line** | Adventure | Throw a loaf of Bread to a Villager and watch him snatch it up | 15 |
 | · | **Breaking the Bank Open** | Adventure | Craft 1,500 Emeralds | 15 |
 | ★ | **Breathless Ballads** | Adventure | Blow a Goat Horn 6,000 times | 120 |
 | ◆ | **Brew No More** | Adventure | Kill 400 Witches | 40 |
 | · | **Brick by Trial Brick** | Adventure | Mine 5,000 Tuff Bricks | 15 |
 | · | **Bricks That Shimmer** | Adventure | Craft 2,000 Prismarine Bricks | 15 |
+| ★ | **Bring Your Own Sun** | Adventure | Raise a working Beacon inside an Ancient City | 120 |
+| ◆ | **Bring a Bodyguard** | Adventure | Build an Iron Golem down in the Deep Dark | 40 |
+| ◆ | **Bristles Gone** | Adventure | Wear a Brush down to its very last bristle | 40 |
 | · | **Bristles Worn Away** | Adventure | Break 10 Brushes | 15 |
 | ★ | **Broken Beasts of Burden** | Adventure | Kill 750 Ravagers | 120 |
 | ◆ | **Builder of Drowned Vaults** | Adventure | Craft 30,000 Dark Prismarine | 40 |
@@ -119,11 +137,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Bureaucracy of Exploration** | Adventure | Pick up 15,000 Paper | 40 |
 | · | **Cage Breaker** | Adventure | Break 10 Monster Spawners | 15 |
 | · | **Call of the Outpost** | Adventure | Blow a Goat Horn 75 times | 15 |
+| ◆ | **Captain's Quarters** | Adventure | Sleep in a bed inside a sunken Shipwreck | 40 |
+| · | **Carbon Copy** | Adventure | Copy a filled Map onto a blank one | 15 |
 | ★ | **Cartographer of Worlds** | Adventure | Craft 20,000 Filled Maps | 120 |
 | ◆ | **Cartography Department** | Adventure | Craft 100 Filled Maps | 40 |
 | ★ | **Cast in Gold Forever** | Adventure | Craft 20,000 Bells | 120 |
 | · | **Cast in the Tide** | Adventure | Craft 4 Tide Armor Trim Smithing Templates | 15 |
 | ★ | **Cauldron Dry** | Adventure | Kill 1,500 Witches | 120 |
+| ◆ | **Cavalry From Above** | Adventure | Win a raid without ever climbing down off your Happy Ghast | 40 |
 | ★ | **Ceramic Civilization** | Adventure | Craft 10,000 Decorated Pots | 120 |
 | ◆ | **Ceramics Collection** | Adventure | Craft 50 Decorated Pots | 40 |
 | ★ | **Ceramics of the Trial** | Adventure | Pick up 4,000 Flow Pottery Sherds | 120 |
@@ -136,21 +157,30 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Chamber Vandal** | Adventure | Break 100 Vaults | 15 |
 | ◆ | **Chamber of Commerce** | Adventure | Trade with a Villager inside the Trial Chambers | 40 |
 | ◆ | **Chamber of Secrets** | Adventure | Loot all six kinds of Trial Chamber chest: entrance, corridor, intersection, barrel, supply and reward | 70 |
+| ★ | **Charge of the Pork Brigade** | Adventure | Defeat a Ravager while riding a Pig | 120 |
 | ◆ | **Chart-Topping Loot** | Adventure | Pick up 32 Pigstep Music Discs | 40 |
 | ◆ | **Charting Everything** | Adventure | Craft 2,048 Cartography Tables | 40 |
 | · | **Cheating the Chamber** | Adventure | Break 80 Trial Spawners | 15 |
+| · | **Chewed Out** | Adventure | Get killed by an Evoker's Fangs | 15 |
+| ◆ | **Childhood Restored** | Adventure | Cure a baby Zombie Villager | 40 |
 | · | **Chipped from the Berg** | Adventure | Pick up 256 Blue Ice | 15 |
 | · | **Chipping at the Dark** | Adventure | Mine 1,000 Dark Prismarine | 15 |
 | · | **Chipping the Monument** | Adventure | Mine 1,000 Prismarine | 15 |
 | ★ | **Christening the World** | Adventure | Use 250 Name Tags | 120 |
 | ◆ | **Clay Begets Clay** | Adventure | Craft 128 Shaper Armor Trim Smithing Templates | 40 |
+| · | **Cleaning Staff** | Adventure | Hand an Allay a Sponge and point it at the water | 15 |
 | · | **Cobble With Company** | Adventure | Mine 256 Infested Cobblestone | 15 |
 | · | **Cold Little Lights** | Adventure | Pick up 256 Prismarine Crystals | 15 |
 | · | **Cold Storage** | Adventure | Buy Blue Ice and Packed Ice from Wandering Traders | 15 |
+| · | **Collection Plate** | Adventure | Open the chest in a village church | 15 |
 | ◆ | **Colours of the Bastion** | Adventure | Drop 8 Piglin Banner Patterns | 40 |
+| · | **Combination Lock** | Adventure | Throw one of the three levers on a Jungle Temple's puzzle wall | 15 |
 | · | **Community Service** | Adventure | Take a swing from an Iron Golem and survive it | 15 |
 | · | **Compact Fortune** | Adventure | Pick up 1,024 Blocks of Emerald | 15 |
 | ◆ | **Composting Industrialist** | Adventure | Craft 8,192 Composters | 40 |
+| ◆ | **Concert for the Guardians** | Adventure | Play a music disc on a Jukebox inside an Ocean Monument | 40 |
+| ★ | **Conduit in the Dark** | Adventure | Flood a room of an Ancient City and take Conduit Power there | 120 |
+| · | **Confiscated** | Adventure | Empty the arrows out of a Jungle Temple's trap dispenser | 15 |
 | ★ | **Connoisseur of Bad Omen** | Adventure | Drink 1,000 Ominous Bottles | 120 |
 | ◆ | **Connoisseur of Chisel Work** | Adventure | Mine 20,000 Chiseled Tuff Bricks | 40 |
 | · | **Coopering Away** | Adventure | Craft 256 Barrels | 15 |
@@ -159,6 +189,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Corporate Ladder** | Adventure | Trade with Villagers at all five career levels, from Novice to Master | 40 |
 | · | **Course by Course** | Adventure | Mine 10,000 Prismarine Bricks | 15 |
 | · | **Courting Disaster** | Adventure | Drink 25 Ominous Bottles | 15 |
+| · | **Crew Reunion** | Adventure | Get killed by a Drowned inside a Shipwreck, by the crew that never left | 15 |
 | ◆ | **Crossbow Manufactory** | Adventure | Craft 5,000 Crossbows | 40 |
 | ★ | **Crossbows in the Dirt** | Adventure | Kill 4,000 Pillagers | 120 |
 | ◆ | **Crystal Salvage** | Adventure | Pick up 5,000 Prismarine Crystals | 40 |
@@ -167,22 +198,26 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Currents in Clay** | Adventure | Pick up 256 Flow Pottery Sherds | 40 |
 | · | **Curse Lifted** | Adventure | Kill 3 Elder Guardians | 15 |
 | ◆ | **Cutting Corners Precisely** | Adventure | Craft 2,048 Stonecutters | 40 |
+| ◆ | **Dairy Countermeasures** | Adventure | Drink Milk inside an Ocean Monument to shrug off the Elder Guardian's curse | 40 |
 | · | **Damp Masonry** | Adventure | Mine 500 Mossy Cobblestone | 15 |
 | · | **Darker Than Brass** | Adventure | Pick up 32 Ominous Trial Keys | 15 |
 | ◆ | **Daylight Under Water** | Adventure | Craft 20,000 Sea Lanterns | 40 |
 | ★ | **Dead Calm** | Adventure | Kill 200 Breezes | 120 |
 | ★ | **Death Has Given Up** | Adventure | Pick up 20,000 Totems of Undying | 120 |
 | ★ | **Death Keeps Missing** | Adventure | Use 150 Totems of Undying | 120 |
+| · | **Death by Laser Pointer** | Adventure | Let a Guardian's beam be the last thing you ever see | 15 |
 | ★ | **Decked Out** | Adventure | Stand in the Trial Chambers wearing four armour pieces all trimmed with the Flow pattern | 120 |
 | ◆ | **Deconstruction Crew** | Adventure | Mine 3,000 Prismarine | 40 |
 | ◆ | **Deep Discount** | Adventure | Trade with a Villager below Y=-50 | 40 |
 | · | **Defusing the Temple** | Adventure | Break 128 Trapped Chests | 15 |
 | ◆ | **Demolisher of Ordeals** | Adventure | Break 1,200 Trial Spawners | 40 |
 | · | **Dense Little Thing** | Adventure | Pick up 16 Heavy Cores | 15 |
+| · | **Diamonds in the Sand** | Adventure | Pick up a Diamond inside a Desert Pyramid | 15 |
 | ◆ | **Diamonds into Seawater** | Adventure | Craft 16 Tide Armor Trim Smithing Templates | 40 |
 | ◆ | **Dig Site Consumables** | Adventure | Break 600 Brushes | 40 |
 | · | **Dismantling the Chamber** | Adventure | Mine 1,000 Tuff Bricks | 15 |
 | · | **Distant Horizons** | Adventure | Look through a Spyglass 250 times | 15 |
+| ★ | **Divine Intervention** | Adventure | Channel lightning into a Pillager that is taking part in a raid | 120 |
 | ◆ | **Divine Retribution** | Adventure | Call down a channelled lightning bolt onto a Ravager | 40 |
 | ★ | **Doom by the Crate** | Adventure | Pick up 15,000 Ominous Bottles | 120 |
 | ★ | **Doom in a Bottle** | Adventure | Drink 150 Ominous Bottles | 120 |
@@ -191,7 +226,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Drain the Deep** | Adventure | Mine 250 Sponges | 40 |
 | · | **Draining the Monument** | Adventure | Drop 256 Wet Sponges | 15 |
 | · | **Draught Excluder** | Adventure | Kill 25 Breezes | 15 |
+| ★ | **Dressed for the Desert** | Adventure | Stand in a desert wearing four pieces of armour all trimmed with the Dune pattern | 120 |
+| ★ | **Dressed for the Occasion** | Adventure | Unlock a Vault while wearing a full suit of armour trimmed with Flow | 120 |
+| ◆ | **Drive-Through Banking** | Adventure | Unlock a Vault without ever getting off your Happy Ghast | 40 |
 | ★ | **Drunk on Omens** | Adventure | Drink 400 Ominous Bottles | 120 |
+| ◆ | **Dry Docked** | Adventure | Sit in a Boat inside an Ancient City, nowhere near a drop of water | 40 |
 | ◆ | **Dug Up One Too Many** | Adventure | Pick up 2,048 Skull Pottery Sherds | 40 |
 | ◆ | **Dungeon Crate Digger** | Adventure | Drop 16 Otherside Music Discs | 40 |
 | ◆ | **Duplicated Only to Die** | Adventure | Kill 1,000 Allays | 40 |
@@ -199,10 +238,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Echoes Across the Mountains** | Adventure | Blow a Goat Horn 2,500 times | 120 |
 | ◆ | **Economy of Scale** | Adventure | Craft 150 Blocks of Emerald | 40 |
 | ★ | **Eight Songs, One Lung** | Adventure | Blow a Goat Horn 400 times | 120 |
+| ◆ | **Ejector Seat** | Adventure | Wind Charge yourself 15 blocks straight up while inside the Trial Chambers | 40 |
 | ★ | **Elder Statesman** | Adventure | Kill 25 Elder Guardians | 120 |
+| ◆ | **Emeralds Under Pressure** | Adventure | Trade with a Villager while standing on an active Trial Spawner | 40 |
 | ◆ | **Emeralds Underfoot** | Adventure | Drop 256 Blocks of Emerald | 40 |
 | ◆ | **Employing Every Fletcher** | Adventure | Craft 2,048 Fletching Tables | 40 |
 | ★ | **Enough Paper for Any Map** | Adventure | Pick up 100,000 Paper | 120 |
+| ★ | **Escort Duty** | Adventure | Get Dolphin's Grace running on you while you are inside an Ocean Monument | 120 |
 | ◆ | **Estate Sale** | Adventure | Put down a Wandering Trader and lead one of the Trader Llamas it leaves behind away with you | 50 |
 | ★ | **Every Banner Torn Down** | Adventure | Kill 25,000 Pillagers | 120 |
 | ★ | **Every Breeze Accounted For** | Adventure | Pick up 32,768 Breeze Rods | 120 |
@@ -240,29 +282,39 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Fatigue Is a Personal Matter** | Adventure | Kill 1,500 Elder Guardians | 120 |
 | · | **Feathers and Flint** | Adventure | Craft 512 Fletching Tables | 15 |
 | · | **Feeding the Cartographer** | Adventure | Pick up 6,000 Paper | 15 |
+| ◆ | **Feeding the Dark** | Adventure | Kill something beside a Sculk Catalyst while the Darkness is pressing in on you | 40 |
 | ◆ | **Fetch Quest** | Adventure | Have an Allay bring a full stack of sixty-four items to a Note Block in one delivery | 110 |
 | · | **Field Archaeologist** | Adventure | Use a Brush 250 times | 15 |
 | ◆ | **Fired Until It Fell Apart** | Adventure | Break 150 Crossbows | 40 |
 | · | **First Names** | Adventure | Use 10 Name Tags | 15 |
+| ★ | **Fish Out of Water** | Adventure | Kill a Guardian that is flopping about in open air | 120 |
 | · | **Fish in a Barrel** | Adventure | Kill 250 Guardians | 15 |
+| ◆ | **Fishing Trip** | Adventure | Kill a Guardian without ever getting out of your Boat | 40 |
 | · | **Five Second Chances** | Adventure | Use 5 Totems of Undying | 15 |
 | · | **Fleet of Spruce** | Adventure | Place 256 Spruce Boats | 15 |
+| · | **Fletcher's Stock** | Adventure | Open the chest in a village fletcher's house | 15 |
 | ◆ | **Fly the Snout** | Adventure | Drop 32 Piglin Banner Patterns | 40 |
 | · | **Found in the Tack Box** | Adventure | Drop 16 Saddles | 15 |
 | · | **Founding Charter** | Adventure | Craft 64 Bells | 15 |
+| ★ | **Four Roads Home** | Adventure | Excavate all four of the Trail Ruins patterns: Host, Raiser, Shaper and Wayfinder | 120 |
 | · | **Framed and Glowing** | Adventure | Place 256 Glow Item Frames | 15 |
 | ◆ | **Free Solo** | Adventure | Climb two hundred blocks of ladders or vines without touching the ground | 150 |
+| · | **Fungal Marksman** | Adventure | Get shot dead by a Bogged inside the Trial Chambers | 15 |
+| ◆ | **Ghast's Eye View** | Adventure | Chart the ground from the back of a Happy Ghast, filled Map in hand | 40 |
 | ★ | **Ghost Town** | Adventure | Trade with a Villager inside an Ancient City | 120 |
 | ★ | **Ghost Towns Everywhere** | Adventure | Kill 2,000 Villagers | 120 |
 | ★ | **Ghosts of the Mansion** | Adventure | Kill 2,000 Vexes | 120 |
+| · | **Gilding the Lily** | Adventure | Trim a Golden Chestplate with Gold and accomplish absolutely nothing | 15 |
 | · | **Glow of the Drowned Halls** | Adventure | Pick up 1,024 Prismarine Crystals | 15 |
 | ★ | **Glued to the Horizon** | Adventure | Look through a Spyglass 4,000 times | 120 |
 | ◆ | **Golem Foundry** | Adventure | Let a village grow big enough to spawn its own Iron Golem | 45 |
+| · | **Grate Job** | Adventure | Defeat a Breeze while standing on a Copper Grate | 15 |
 | ◆ | **Greater Risk, Greater Reward** | Adventure | Use 30 Ominous Trial Keys | 40 |
 | ★ | **Greater Trials, Greater Spoils** | Adventure | Use 2,000 Ominous Trial Keys | 120 |
 | · | **Green Around the Edges** | Adventure | Mine 200 Mossy Cobblestone | 15 |
 | · | **Green Confetti** | Adventure | Drop 32 Blocks of Emerald | 15 |
 | ◆ | **Green Tide** | Adventure | Pick up 15,000 Emeralds | 40 |
+| ◆ | **Grit of the Cold Sea** | Adventure | Come up out of a cold ocean ruin with a Pottery Sherd in your hands | 40 |
 | · | **Ground Another Lens** | Adventure | Craft 64 Spyglasses | 15 |
 | · | **Guardian's Gift** | Adventure | Take the Tide Smithing Template from an Elder Guardian | 15 |
 | · | **Gusts Baked in Clay** | Adventure | Pick up 64 Guster Pottery Sherds | 15 |
@@ -272,19 +324,29 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Hanging the First Bell** | Adventure | Place 64 Bells | 15 |
 | · | **Heavy Handed** | Adventure | Craft 5 Maces | 15 |
 | · | **Held the Line Anyway** | Adventure | Break 40 Shields | 15 |
+| ◆ | **Hellmarket** | Adventure | Trade with a Villager in the Nether | 40 |
+| ◆ | **Helmet Policy** | Adventure | Take a hit from an Elder Guardian while wearing a Turtle Helmet | 40 |
 | ◆ | **Herald of the Hills** | Adventure | Blow a Goat Horn 150 times | 40 |
 | · | **Hero Abroad** | Adventure | Carry the Hero of the Village effect into the Nether | 15 |
+| · | **Highlighted Deals** | Adventure | Trade with a Wandering Trader while he is glowing | 15 |
 | ◆ | **Hinges and Splinters** | Adventure | Break 1,500 Chests | 40 |
 | ◆ | **Hoarder of Dark Keys** | Adventure | Pick up 2,048 Ominous Trial Keys | 40 |
 | ◆ | **Hoglin Hit Single** | Adventure | Pick up 8 Pigstep Music Discs | 40 |
+| · | **Home Field Advantage** | Adventure | Get killed by a Guardian inside an Ocean Monument | 15 |
+| ★ | **Home Security** | Adventure | Build an Iron Golem inside an Ocean Monument | 120 |
+| ★ | **Homecoming Outfit** | Adventure | Stand in the Trail Ruins wearing a full suit of Wayfinder-trimmed armour | 120 |
 | ◆ | **Horns Down** | Adventure | Kill 30 Ravagers | 40 |
 | ★ | **Horns Snapped Clean Off** | Adventure | Kill 2,000 Ravagers | 120 |
 | · | **Hostile Takeover** | Adventure | Kill a Pillager inside its own Pillager Outpost | 15 |
+| · | **Hot Merchandise** | Adventure | Trade with a Villager who is currently on fire | 15 |
 | · | **Hotter Than the Rest** | Adventure | Craft 128 Blast Furnaces | 15 |
+| · | **Housewarming Gift** | Adventure | Place a Decorated Pot inside a Pillager Outpost | 15 |
 | · | **Housing Shortage Solved** | Adventure | Craft 1,024 White Beds | 15 |
 | ★ | **Hurricane Season** | Adventure | Throw 1,500 Wind Charges | 120 |
 | · | **Hut Clearance** | Adventure | Kill 150 Witches | 15 |
 | ★ | **Immortal by Attrition** | Adventure | Use 40 Totems of Undying | 120 |
+| · | **Impulse Purchase** | Adventure | Buy a Bucket of Tropical Fish from a Wandering Trader | 15 |
+| ◆ | **Indoor Rowing** | Adventure | Get into a Boat inside an Ocean Monument | 40 |
 | ◆ | **Industrial Dehydration** | Adventure | Dry 1,024 Sponges | 40 |
 | ◆ | **Industrial Recycling** | Adventure | Kill 150 Iron Golems | 40 |
 | · | **Ingot Refund** | Adventure | Kill 25 Iron Golems | 15 |
@@ -292,10 +354,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Insider Trading** | Adventure | Trade with a Villager while you are carrying Bad Omen | 15 |
 | ★ | **Invisible and Departed** | Adventure | Kill 1,000 Wandering Traders | 120 |
 | ★ | **Iron Recycling Program** | Adventure | Kill 2,500 Iron Golems | 120 |
+| · | **Johnny Says Hi** | Adventure | Get killed by a Vindicator named Johnny | 15 |
 | ★ | **Johnny Who?** | Adventure | Kill 750 Vindicators | 120 |
 | ◆ | **Junk Drawer** | Adventure | Get sixty-four different items into a single Bundle | 200 |
 | ◆ | **Key Master** | Adventure | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once | 65 |
 | · | **Key Ring** | Adventure | Use 50 Trial Keys | 15 |
+| ★ | **Key to Another World** | Adventure | Carry an Ominous Trial Key all the way to the End, where it opens nothing | 120 |
 | ★ | **Keymaster of the Chambers** | Adventure | Use 2,000 Trial Keys | 120 |
 | · | **Kiln Fired** | Adventure | Craft 20 Decorated Pots | 15 |
 | ◆ | **Kindling for the Village** | Adventure | Break 600 Shields | 40 |
@@ -309,13 +373,18 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Lid Lifter** | Adventure | Break 100 Chests | 15 |
 | · | **Life Insurance, Bulk Rate** | Adventure | Pick up 64 Totems of Undying | 15 |
 | ★ | **Light Stolen From the Sea** | Adventure | Pick up 100,000 Prismarine Crystals | 120 |
+| ★ | **Lighthouse** | Adventure | Raise a Beacon to full power inside an Ocean Monument | 120 |
 | · | **Lighting the Map Wall** | Adventure | Place 1,024 Glow Item Frames | 15 |
 | ★ | **Lights Out Down Below** | Adventure | Mine 4,000 Sea Lanterns | 120 |
 | · | **Lights of the Deep** | Adventure | Mine 75 Sea Lanterns | 15 |
 | ★ | **Liquidity Beyond Reason** | Adventure | Craft 100,000 Emeralds | 120 |
+| · | **Little Curator** | Adventure | Hand a Pottery Sherd to an Allay and let it carry the exhibit | 15 |
 | ★ | **Locksmith Eternal** | Adventure | Use 25,000 Trial Keys | 120 |
 | · | **Long Look** | Adventure | Look through a Spyglass 100 times | 15 |
+| · | **Long Way Down** | Adventure | Drop twenty blocks inside an Ancient City and get back up again | 15 |
+| ★ | **Long-Distance Spitting** | Adventure | Get spat at by a Trader Llama while you are riding a Happy Ghast | 120 |
 | · | **Loot and Scoot** | Adventure | Break 250 Chests | 15 |
+| · | **Looting the Recruiters** | Adventure | Empty a Pillager Outpost chest while Bad Omen hangs over you | 15 |
 | ★ | **Lord of the Undertow** | Adventure | Craft 256 Tide Armor Trim Smithing Templates | 120 |
 | ★ | **Lord of the Updraft** | Adventure | Throw 50,000 Wind Charges | 120 |
 | ★ | **Luck Is a Numbers Game** | Adventure | Drop 1,024 Rabbit's Feet | 120 |
@@ -327,19 +396,26 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Meals on Wheels** | Adventure | Watch one Villager throw food to another Villager | 25 |
 | ◆ | **Merchant Overlord** | Adventure | Pick up 40,000 Emeralds | 40 |
 | · | **Merchant Prince** | Adventure | Craft 50 Blocks of Emerald | 15 |
+| · | **Might As Well** | Adventure | Wear a Carved Pumpkin in the Deep Dark, where you could not see anything anyway | 15 |
+| ★ | **Mixed Blessings** | Adventure | Carry Conduit Power and an Elder Guardian's Mining Fatigue at the same time | 120 |
 | ◆ | **Mixed Signals** | Adventure | Hold Hero of the Village and Bad Omen at the same time | 40 |
 | ◆ | **Monument Blackout** | Adventure | Mine 500 Sea Lanterns | 40 |
 | ★ | **Monument Demolition** | Adventure | Mine 25,000 Prismarine | 120 |
 | ◆ | **Monument Toppler** | Adventure | Kill 8 Elder Guardians | 40 |
+| ★ | **Monumental Nap** | Adventure | Sleep in a bed inside an Ocean Monument | 120 |
 | ★ | **Monuments Beyond Number** | Adventure | Craft 100,000 Prismarine Bricks | 120 |
+| · | **Mop Duty** | Adventure | Put a Sponge of your own down inside an Ocean Monument | 15 |
 | ◆ | **More Saddles Than Steeds** | Adventure | Drop 256 Saddles | 40 |
 | ★ | **Moss Is Just Cobblestone Now** | Adventure | Mine 200,000 Mossy Cobblestone | 120 |
 | ★ | **Moss Never Sleeps** | Adventure | Mine 7,500 Mossy Cobblestone | 120 |
 | · | **Mossy Bargain** | Adventure | Buy a Moss Block, a Pale Moss Block and Pale Hanging Moss from Wandering Traders | 15 |
 | ◆ | **Mossy Cobblestone Blues** | Adventure | Drop 4 Otherside Music Discs | 40 |
+| · | **Mossy Maternity** | Adventure | Place a Sniffer Egg on a Moss Block so that it hatches twice as fast | 15 |
 | ★ | **Museum of Broken Things** | Adventure | Craft 150 Decorated Pots | 120 |
 | ★ | **Nameless No More** | Adventure | Use 5,000 Name Tags | 120 |
+| · | **Neighbourhood Watch** | Adventure | Plant a Sculk Sensor in the middle of a village | 15 |
 | · | **Nest Egg of Green** | Adventure | Craft 20 Blocks of Emerald | 15 |
+| · | **Nether Tumble Dryer** | Adventure | Set a Wet Sponge down in the Nether and watch the steam come off it | 15 |
 | · | **New Villages Everywhere** | Adventure | Craft 256 Bells | 15 |
 | ★ | **Nine Hundred Lives** | Adventure | Use 400 Totems of Undying | 120 |
 | ◆ | **Nine Lives and Counting** | Adventure | Use 15 Totems of Undying | 40 |
@@ -357,10 +433,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Nobody Answers to Johnny** | Adventure | Kill 15,000 Vindicators | 120 |
 | ★ | **Nobody Left to Raid With** | Adventure | Kill 50,000 Pillagers | 120 |
 | ★ | **Nobody Left to Trade With** | Adventure | Kill 250 Villagers | 120 |
+| ★ | **Noise Complaint** | Adventure | Have an Allay drop its haul on a Note Block inside an Ancient City | 120 |
 | · | **Not Insured** | Adventure | Get killed by a mob with a Totem of Undying stashed in your bag or Ender Chest instead of your hand | 20 |
 | · | **Not My Problem** | Adventure | Let an Iron Golem finish off a monster that was chasing you, without landing a hit yourself | 25 |
 | ★ | **Not One Brick Left** | Adventure | Mine 300,000 Tuff Bricks | 120 |
 | · | **Not So Lucky** | Adventure | Drop 16 Rabbit's Feet | 15 |
+| ★ | **Not Today, Warden** | Adventure | Burn a Totem of Undying to walk out of an Ancient City alive | 120 |
 | ★ | **Not a Breath Remains** | Adventure | Kill 15,000 Breezes | 120 |
 | ★ | **Not a Drop Remains** | Adventure | Mine 75,000 Sponges | 120 |
 | ★ | **Nothing Ancient Left** | Adventure | Mine 500,000 Mossy Stone Bricks | 120 |
@@ -381,71 +459,105 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Nothing Phases Through** | Adventure | Kill 5,000 Vexes | 120 |
 | ★ | **Nothing Spawns Here Anymore** | Adventure | Break 4,000 Monster Spawners | 120 |
 | ★ | **Nothing Worth Locking** | Adventure | Break 5,000 Vaults | 120 |
+| ◆ | **Nothing to Farm** | Adventure | Find a Diamond Hoe in an Ancient City, where nothing has grown in an age | 40 |
+| ◆ | **Nothing to Ride** | Adventure | Find a Saddle among an Ancient City's treasure, with nothing alive down there to put it on | 40 |
 | ★ | **Nowhere Left to Wander** | Adventure | Kill 150 Wandering Traders | 120 |
 | ★ | **Obscenely Solvent** | Adventure | Pick up 100,000 Blocks of Emerald | 120 |
 | ◆ | **Off the Deep End** | Adventure | Bring the Spire Smithing Template home from an End City | 40 |
+| · | **Off the Map** | Adventure | Carry a filled Map in your hand all the way through the Nether | 15 |
 | ◆ | **Off the Rack** | Adventure | Buy a Diamond Pickaxe, a Diamond Axe and a Diamond Shovel from villagers | 40 |
 | ◆ | **Old Roads** | Adventure | Stand in Trail Ruins buried under a jungle, under a taiga and under a birch forest | 40 |
 | · | **Older Than the Village** | Adventure | Mine 10,000 Mossy Stone Bricks | 15 |
 | ◆ | **Omen Connoisseur** | Adventure | Drink 60 Ominous Bottles | 40 |
 | · | **Omen Inventory** | Adventure | Pick up 256 Ominous Bottles | 15 |
 | ★ | **Omen Sommelier** | Adventure | Drink 5,000 Ominous Bottles | 120 |
+| · | **Ominous Arrival** | Adventure | Bring the Raid Omen down upon a village | 15 |
 | · | **Ominous Housekeeping** | Adventure | Loot a Trial Chamber supply barrel while Trial Omen is on you | 15 |
 | ★ | **Ominous Marathon** | Adventure | Open an Ominous Vault in five separate Trial Chambers | 260 |
+| · | **Ominous Perch** | Adventure | Stand on top of an ominous Trial Spawner while it is still spitting out mobs | 15 |
+| ◆ | **Ominous Withdrawal** | Adventure | Unlock a Vault with a Trial Key while the Trial Omen still hangs over you | 40 |
+| · | **On Display** | Adventure | Mount a Pottery Sherd in an Item Frame, museum style | 15 |
 | ◆ | **One Mace Is Never Enough** | Adventure | Craft 100 Maces | 40 |
 | · | **One More Spin** | Adventure | Play the Creator (Music Box) disc 100 times | 15 |
 | ◆ | **One for Every Lookout** | Adventure | Craft 5,000 Spyglasses | 40 |
 | ★ | **Only Water Remains** | Adventure | Mine 500,000 Prismarine Bricks | 120 |
+| ★ | **Open House** | Adventure | Trade with a Villager inside a Woodland Mansion | 120 |
 | · | **Out of the Furnace, Dry** | Adventure | Dry 64 Sponges | 15 |
 | ★ | **Out-Pillaging the Pillagers** | Adventure | Craft 20,000 Crossbows | 120 |
 | · | **Outpost Eviction** | Adventure | Kill 250 Pillagers | 15 |
+| ★ | **Overboard** | Adventure | Kill a Guardian while it is sitting in a Boat of its own | 120 |
 | · | **Overgrown Pattern** | Adventure | Find the Wild Smithing Template in a Jungle Temple | 15 |
 | ◆ | **Overgrown Ruins** | Adventure | Mine 1,500 Mossy Cobblestone | 40 |
 | ★ | **Overgrown and Undone** | Adventure | Mine 15,000 Mossy Cobblestone | 120 |
+| · | **Overqualified for Farming** | Adventure | Buy a Diamond Hoe from a Villager | 15 |
+| ◆ | **Overwatch** | Adventure | Look through a Spyglass from more than three hundred blocks up | 40 |
+| ◆ | **Packed Lunch** | Adventure | Scoop a Cod into a Bucket inside an Ocean Monument | 40 |
+| · | **Padded Cell** | Adventure | Lay Wool across the floor of an Ancient City | 15 |
+| · | **Panic Buying** | Adventure | Trade with a Villager while Bad Omen hangs over you | 15 |
 | · | **Pattern Maker** | Adventure | Copy a Smithing Template using diamonds | 15 |
 | · | **Payday** | Adventure | Hand a Copper Ingot to an Allay | 20 |
 | · | **Peeling the Monument** | Adventure | Mine 2,000 Prismarine Bricks | 15 |
+| · | **Periscope Down** | Adventure | Look through a Spyglass while you are under water | 15 |
+| · | **Permanent Resident** | Adventure | Give a Wandering Trader a Name Tag so he never wanders off | 15 |
 | ★ | **Perpetual Gale** | Adventure | Throw 4,000 Wind Charges | 120 |
 | ◆ | **Persona Non Grata** | Adventure | Kill 30 Villagers | 40 |
 | ★ | **Personal Weather Machine** | Adventure | Throw 25,000 Wind Charges | 120 |
 | ◆ | **Pest Control Underground** | Adventure | Mine 5,000 Infested Cobblestone | 40 |
 | ◆ | **Petty Cash** | Adventure | Have an Allay drop a Copper Ingot onto a Copper Block | 50 |
+| ◆ | **Pharaoh's Reserve** | Adventure | Pull an Enchanted Golden Apple out of a Desert Pyramid | 40 |
 | · | **Pickaxe Exorcism** | Adventure | Break 30 Monster Spawners | 15 |
 | · | **Pieces of Shelter** | Adventure | Pick up 32 Shelter Pottery Sherds | 15 |
+| · | **Piggy Bank** | Adventure | Stash a Diamond inside a Decorated Pot | 15 |
 | · | **Pocket Windstorm** | Adventure | Throw 100 Wind Charges | 15 |
 | · | **Pockets Full of Green** | Adventure | Pick up 2,500 Emeralds | 15 |
 | · | **Poltergeist Purge** | Adventure | Kill 25 Vexes | 15 |
 | · | **Poppies for the Fallen** | Adventure | Kill 75 Iron Golems | 15 |
 | ★ | **Population Boom** | Adventure | Grow a village of your own from two Villagers to a population of twenty by breeding alone | 400 |
 | ★ | **Population Zero** | Adventure | Kill 100 Villagers | 120 |
+| · | **Portal Room Souvenir** | Adventure | Fill a bucket with lava inside a Stronghold | 15 |
 | ★ | **Potions Without End** | Adventure | Place 30,000 Brewing Stands | 120 |
 | ◆ | **Pots on Every Pedestal** | Adventure | Place 5,000 Decorated Pots | 40 |
+| · | **Potted Contraband** | Adventure | Stash an Ominous Trial Key inside a Decorated Pot | 15 |
+| ★ | **Prehistoric Hell** | Adventure | Breed two Sniffers in the Nether | 120 |
 | ◆ | **Prehistoric Payload** | Adventure | Pick up 256 Torchflower Seeds | 40 |
 | ◆ | **Prismarine Payday** | Adventure | Kill 600 Guardians | 40 |
+| · | **Propaganda Department** | Adventure | Place a Lectern inside a Pillager Outpost | 15 |
 | · | **Prying Off the Ornament** | Adventure | Mine 256 Chiseled Tuff Bricks | 15 |
 | ◆ | **Prying Up the Past** | Adventure | Mine 3,000 Mossy Cobblestone | 40 |
 | · | **Prying Up the Ruins** | Adventure | Mine 2,000 Mossy Stone Bricks | 15 |
+| ◆ | **Pulling the Rug Out** | Adventure | Kill a Ravager out from underneath the Pillager riding it | 40 |
 | ◆ | **Quarantine Enforced** | Adventure | Kill 500 Zombie Villagers | 40 |
+| ◆ | **Rations Under Fire** | Adventure | Crack open a Trial Chamber supply barrel while a Trial Omen is upon you | 40 |
 | · | **Read the Wiring First** | Adventure | Break 512 Trapped Chests | 15 |
+| ◆ | **Reading Privileges** | Adventure | Enchant an item inside a Stronghold, surrounded by someone else's bookshelves | 40 |
 | ★ | **Reams Beyond Reason** | Adventure | Craft 10,000 Empty Maps | 120 |
+| · | **Rearming the Trap** | Adventure | Put fresh TNT into a Desert Pyramid for whoever comes next | 15 |
 | · | **Rebuilding the Glow** | Adventure | Craft 1,024 Sea Lanterns | 15 |
+| · | **Redundant Purchase** | Adventure | Buy a Saddle from a Villager while already sitting on a saddled Pig | 15 |
 | · | **Reeds Into Reams** | Adventure | Pick up 2,500 Paper | 15 |
 | · | **Reeled In** | Adventure | Hook a Villager with a Fishing Rod | 15 |
 | · | **Refund Denied** | Adventure | Kill 5 Wandering Traders | 15 |
 | ★ | **Reload, Rebuild, Repeat** | Adventure | Break 2,000 Crossbows | 120 |
+| · | **Repossession** | Adventure | Put a Lead on a Trader Llama and claim it as your own | 15 |
+| · | **Respect Your Elders** | Adventure | Get finished off by an Elder Guardian | 15 |
 | ◆ | **Retro Fashion Victim** | Adventure | Break 300 Chainmail Chestplates | 40 |
+| ◆ | **Return Postage** | Adventure | Loot a Ruined Portal chest on the Nether side | 40 |
+| · | **Ring Out the Storm** | Adventure | Ring a Bell in the middle of a thunderstorm | 15 |
 | · | **Rings Come Apart** | Adventure | Break 5 Chainmail Chestplates | 15 |
 | · | **Roadkill** | Adventure | Get run down by a Ravager with a Pillager on its back | 15 |
 | ◆ | **Roadside Ambush** | Adventure | Kill 15 Wandering Traders | 40 |
 | ◆ | **Rods Beyond Reckoning** | Adventure | Pick up 2,048 Breeze Rods | 40 |
 | · | **Rods of Rushing Air** | Adventure | Pick up 128 Breeze Rods | 15 |
+| ◆ | **Rolling Storefront** | Adventure | Trade with a Villager who is riding in a Minecart | 40 |
 | ★ | **Roof Over Every Head** | Adventure | Pick up 512 Shelter Pottery Sherds | 120 |
 | · | **Rot Into Riches** | Adventure | Craft 128 Composters | 15 |
 | · | **Rotten Deal** | Adventure | Buy a Sulfur Spike from a Wandering Trader | 15 |
 | · | **Ruins Rave** | Adventure | Play the Relic music disc on a Jukebox standing in the Trail Ruins | 15 |
 | ◆ | **Ruins Reduced to Rubble** | Adventure | Mine 40,000 Mossy Stone Bricks | 40 |
+| ◆ | **Salvage Diver** | Adventure | Brush a Suspicious Sand block inside a warm Ocean Ruin | 40 |
 | · | **Salvaged Glow** | Adventure | Mine 200 Sea Lanterns | 15 |
 | ◆ | **Salvager of the Deep** | Adventure | Mine 150,000 Prismarine Bricks | 40 |
+| · | **Sand Trap** | Adventure | Stand on the wrong block in a Desert Pyramid and take the blast | 15 |
 | ★ | **Sand Under the Fingernails** | Adventure | Use a Brush 4,000 times | 120 |
 | · | **Sapling Salesman** | Adventure | Trade for a Sapling from the Wandering Trader | 20 |
 | ◆ | **Saw Blades Beyond Number** | Adventure | Craft 8,192 Stonecutters | 40 |
@@ -455,6 +567,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Second-Hand Pickaxe** | Adventure | Buy the enchanted Iron Pickaxe a Wandering Trader carries | 40 |
 | · | **Seeds of the Old World** | Adventure | Pick up 64 Torchflower Seeds | 15 |
 | ★ | **Seen Everything Twice** | Adventure | Look through a Spyglass 50,000 times | 120 |
+| ★ | **Sentry of the Void** | Adventure | Build and summon an Iron Golem in the End | 120 |
 | · | **Set Adrift** | Adventure | Place 64 Spruce Boats | 15 |
 | · | **Setting Out the Pottery** | Adventure | Place 256 Decorated Pots | 15 |
 | · | **Setting Up the Hut** | Adventure | Place 128 Cauldrons | 15 |
@@ -464,6 +577,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Shardkeeper** | Adventure | Pick up 30,000 Prismarine Shards | 40 |
 | · | **Shards From the Deep** | Adventure | Pick up 600 Prismarine Shards | 15 |
 | · | **Sharper Than Crafting** | Adventure | Craft 128 Stonecutters | 15 |
+| ◆ | **Shell of the Tide** | Adventure | Wear a Turtle Helmet trimmed with the Tide pattern | 40 |
 | ◆ | **Shelves of Secrets** | Adventure | Pick up 2,048 Enchanted Books | 40 |
 | · | **Sherd Certainty** | Adventure | Pick up 8 Shelter Pottery Sherds | 15 |
 | · | **Shut Eye** | Adventure | Pick up 64 Closed Eyeblossoms | 15 |
@@ -474,6 +588,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Silverfish Surprise** | Adventure | Mine 1,024 Infested Stone Bricks | 15 |
 | ◆ | **Sky Mall** | Adventure | Trade with a Villager without getting off your Happy Ghast | 40 |
 | ◆ | **Slipperier Than It Looks** | Adventure | Pick up 2,048 Blue Ice | 40 |
+| ◆ | **Sluggish Vengeance** | Adventure | Defeat an Elder Guardian while still suffering its Mining Fatigue | 40 |
 | ◆ | **Small Bills Only** | Adventure | Craft 40,000 Emeralds | 40 |
 | · | **Smash the Strongbox** | Adventure | Break 25 Vaults | 15 |
 | ◆ | **Smelting at Scale** | Adventure | Craft 2,048 Blast Furnaces | 40 |
@@ -482,8 +597,10 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Smokehouse Empire** | Adventure | Craft 8,192 Smokers | 40 |
 | · | **Snapped the String** | Adventure | Break 10 Crossbows | 15 |
 | · | **Snout on Cloth** | Adventure | Drop 2 Piglin Banner Patterns | 15 |
+| · | **Snowman's Home** | Adventure | Build a Snow Golem inside an igloo, where it belongs | 15 |
 | · | **Snuffled Up** | Adventure | Pick up 16 Torchflower Seeds | 15 |
 | · | **Soaked Through** | Adventure | Drop 64 Wet Sponges | 15 |
+| · | **Someone Else's Bed** | Adventure | Sleep in the bed you found waiting in an igloo | 15 |
 | · | **Something Under the Stone** | Adventure | Mine 1,024 Infested Cobblestone | 15 |
 | ◆ | **Something Wicked Simmers** | Adventure | Place 2,048 Cauldrons | 40 |
 | ★ | **Somewhere for Everyone** | Adventure | Craft 75,000 White Beds | 120 |
@@ -509,7 +626,9 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Storage Without Limit** | Adventure | Craft 75,000 Barrels | 120 |
 | ★ | **Storm Broken** | Adventure | Kill 5,000 Breezes | 120 |
 | · | **Storm Sale** | Adventure | Trade with a Villager in the middle of a thunderstorm | 15 |
+| ◆ | **Storm Shelter** | Adventure | Sleep a thunderstorm out in a bed inside a village | 40 |
 | ◆ | **Stripping the Chamber Walls** | Adventure | Mine 5,000 Chiseled Tuff Bricks | 40 |
+| · | **Sunken Gateway** | Adventure | Find a Ruined Portal at the bottom of the ocean | 15 |
 | · | **Sunken Market** | Adventure | Trade with a Villager while you are both standing in water | 15 |
 | ◆ | **Superstition Surplus** | Adventure | Drop 256 Rabbit's Feet | 40 |
 | ◆ | **Survey Party** | Adventure | Craft 50 Empty Maps | 40 |
@@ -545,6 +664,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Evokers Fund My Funerals** | Adventure | Use 1,000 Totems of Undying | 120 |
 | · | **The Evokers Keep Paying** | Adventure | Pick up 256 Totems of Undying | 15 |
 | · | **The Exhibition Grows** | Adventure | Place 1,024 Decorated Pots | 15 |
+| ◆ | **The Explorer's Kit** | Adventure | Carry the whole explorer's kit at once: a Brush, a Spyglass, a Compass and a filled Map | 40 |
 | · | **The Face of the Wind** | Adventure | Pick up 16 Guster Pottery Sherds | 15 |
 | · | **The Farmer's Best Friend** | Adventure | Craft 512 Composters | 15 |
 | · | **The Feather Gives Out** | Adventure | Break 40 Brushes | 15 |
@@ -610,6 +730,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Roads Belong to Me** | Adventure | Kill 2,500 Wandering Traders | 120 |
 | ★ | **The Roads Run Red** | Adventure | Kill 20,000 Trader Llamas | 120 |
 | · | **The Ruined Blueprint** | Adventure | Craft 32 Shaper Armor Trim Smithing Templates | 15 |
+| ◆ | **The Sands Remember** | Adventure | Bring the Dune Smithing Template out of a Desert Pyramid | 40 |
 | ★ | **The Sea Floor Laid Bare** | Adventure | Mine 75,000 Prismarine | 120 |
 | ★ | **The Sea Forgets Its Wardens** | Adventure | Kill 50,000 Guardians | 120 |
 | ★ | **The Sea Has Nothing Left** | Adventure | Pick up 100,000 Prismarine Shards | 120 |
@@ -642,14 +763,23 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Tidal Duplicity** | Adventure | Craft 64 Tide Armor Trim Smithing Templates | 40 |
 | ★ | **Tidying the Dark Vaults** | Adventure | Use 250 Ominous Trial Keys | 120 |
 | ◆ | **Time Has Been Undone** | Adventure | Mine 150,000 Mossy Stone Bricks | 40 |
+| · | **Tomb Service** | Adventure | Sleep in a bed inside a Desert Pyramid | 15 |
 | ★ | **Too Rich to Carry** | Adventure | Drop 4,096 Blocks of Emerald | 120 |
+| ◆ | **Top Shelf Doom** | Adventure | Drink an Ominous Bottle of the very strongest vintage | 40 |
+| · | **Tow Rope** | Adventure | Hook an empty Boat with a Fishing Rod and tow it along behind you | 15 |
+| ◆ | **Trade Secrets** | Adventure | Rifle the toolsmith's, the weaponsmith's and the armourer's chests of a village | 40 |
+| ◆ | **Trading With the Enemy** | Adventure | Trade with a Wandering Trader inside a Pillager Outpost | 40 |
 | ★ | **Trampled in Return** | Adventure | Kill 250 Ravagers | 120 |
 | ◆ | **Trap Disposal Specialist** | Adventure | Break 8,192 Trapped Chests | 40 |
+| · | **Trap Room Archaeology** | Adventure | Brush a Suspicious Sand block inside a Desert Pyramid | 15 |
 | ◆ | **Trimmings for All** | Adventure | Craft 8,192 Smithing Tables | 40 |
+| ★ | **Trophies of the Deep** | Adventure | Hold a Trident, a Nautilus Shell and a Heart of the Sea all at the same time | 120 |
+| · | **Turtle Wax** | Adventure | Trim a Turtle Shell with Resin | 15 |
 | ◆ | **Twice as Fast, Twice Again** | Adventure | Craft 2,048 Smokers | 40 |
 | · | **Undead Census** | Adventure | Kill 250 Zombie Villagers | 15 |
 | ◆ | **Under Someone Else's Roof** | Adventure | Pick up 128 Shelter Pottery Sherds | 40 |
 | · | **Under the Counter** | Adventure | Buy Gunpowder and a Slimeball from Wandering Traders | 15 |
+| · | **Undercover Buyer** | Adventure | Trade with a Villager while wearing a Zombie Head | 15 |
 | ◆ | **Undying by the Crate** | Adventure | Pick up 5,000 Totems of Undying | 40 |
 | ★ | **Unforgivable Efficiency** | Adventure | Kill 4,000 Allays | 120 |
 | ◆ | **Uninvited Guest** | Adventure | Sleep in a bed inside a Woodland Mansion | 40 |
@@ -659,27 +789,37 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Upgrade Stations Everywhere** | Adventure | Craft 2,048 Smithing Tables | 40 |
 | · | **Vanishing Act** | Adventure | Buy a Potion of Invisibility from a Wandering Trader | 15 |
 | ★ | **Vault of Green** | Adventure | Craft 1,500 Blocks of Emerald | 120 |
+| ◆ | **Villager Airlines** | Adventure | Ride a Happy Ghast that is also carrying a Villager | 40 |
+| ★ | **Void Market** | Adventure | Trade with a Villager in the End | 120 |
 | ◆ | **Volley After Volley** | Adventure | Kill 600 Pillagers | 40 |
 | · | **Wake-Up Call** | Adventure | Ring a Bell inside a Woodland Mansion | 15 |
 | ★ | **Wandering Wholesaler** | Adventure | Buy every log, sapling and propagule the Wandering Trader stocks | 120 |
+| ◆ | **Warning Label** | Adventure | Craft a Decorated Pot bearing both the Skull and the Danger sherd | 40 |
 | · | **Washed Ashore** | Adventure | Salvage the Coast Smithing Template from a Shipwreck | 15 |
+| · | **Wasting the Cure** | Adventure | Eat the Golden Apple you found in an igloo instead of curing anybody with it | 15 |
 | ◆ | **Watched from the Walls** | Adventure | Pick up 16 Eye Armor Trim Smithing Templates | 40 |
 | · | **Watchtower Loot** | Adventure | Loot the Sentry Smithing Template from a Pillager Outpost | 15 |
+| ★ | **Waterbed** | Adventure | Dry out a room in an Ocean Monument and sleep the night there | 120 |
 | ◆ | **Waterlogged Warehouse** | Adventure | Drop 1,024 Wet Sponges | 40 |
 | ★ | **Wealth Beyond Counting** | Adventure | Craft 10,000 Blocks of Emerald | 120 |
 | ◆ | **Weighed Down** | Adventure | Pick up 256 Heavy Cores | 40 |
+| ★ | **Where You Found It** | Adventure | Cheat death with a Totem of Undying inside a Woodland Mansion | 120 |
+| · | **Whistling in the Dark** | Adventure | Plant a Torch in the Deep Dark, for all the good it will do you | 15 |
 | ◆ | **Wind Rider** | Adventure | Get thrown twenty blocks sideways by a Wind Charge | 60 |
 | · | **Wind the Music Box** | Adventure | Play the Creator (Music Box) disc 25 times | 15 |
 | ◆ | **Windbreaker** | Adventure | Kill 75 Breezes | 40 |
 | ★ | **Windless** | Adventure | Kill 600 Breezes | 120 |
 | ◆ | **Windswept Pottery** | Adventure | Pick up 256 Guster Pottery Sherds | 40 |
 | ★ | **Wings Clipped** | Adventure | Kill 600 Vexes | 120 |
+| ◆ | **Witch, Well Done** | Adventure | Defeat a burning Witch that is taking part in a raid | 40 |
 | · | **Witchcraft Zoning Permit** | Adventure | Place 512 Cauldrons | 15 |
 | · | **Words Worth Emeralds** | Adventure | Pick up 128 Enchanted Books | 15 |
 | ◆ | **Worn Through the Links** | Adventure | Break 75 Chainmail Chestplates | 40 |
 | ◆ | **Wrecker of Reward Rooms** | Adventure | Break 1,500 Vaults | 40 |
 | · | **Wringing Out** | Adventure | Mine 75 Sponges | 15 |
 | ★ | **Wringing the Sea Dry** | Adventure | Mine 2,500 Sponges | 120 |
+| ◆ | **Wrong Key, Wrong Door** | Adventure | Try an Ominous Trial Key on an ordinary Vault, just to make sure | 40 |
+| ◆ | **Wrong Kind of Omen** | Adventure | Drink an Ominous Bottle in an Ancient City and wait for the raid that never comes | 40 |
 | · | **Zoom and Enhance** | Adventure | Extend Maps four times over using Paper in a Crafting Table | 45 |
 
 <details><summary>How these are detected</summary>
@@ -714,16 +854,23 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **A Continent for Mooshrooms** | Animals | Place 16,384 Mycelium | 120 |
 | ★ | **A Fortress of Wax** | Animals | Craft 10,000 Honeycomb Blocks | 120 |
 | ★ | **A Generation Unhatched** | Animals | Kill 30,000 Tadpoles | 120 |
+| ◆ | **A Goat for the Sculk** | Animals | Kill a Goat within reach of a Sculk Catalyst and let the darkness have it | 40 |
 | ★ | **A Legion of Armoured Wolves** | Animals | Craft 4,000 sets of Wolf Armor | 120 |
 | ★ | **A Lifetime of Ribeye** | Animals | Eat 15,000 Cooked Beef | 120 |
 | ★ | **A Sea of Broken Spirals** | Animals | Kill 6,000 Nautiluses | 120 |
 | ★ | **A Thousand Dead Ends** | Animals | Kill 1,000 Mules | 120 |
 | ★ | **A Village of Hives** | Animals | Craft 4,000 Beehives | 120 |
 | ★ | **A Wreck of Sticks** | Animals | Break 5,000 Carrots on a Stick | 120 |
+| ◆ | **Aerial Angler** | Animals | Land a fish while sitting on a Happy Ghast | 40 |
+| · | **Ahab** | Animals | Harpoon a Squid with a thrown Trident | 15 |
+| ◆ | **Air Horn** | Animals | Sound a Goat Horn from the back of a Happy Ghast | 40 |
+| ★ | **Airbag** | Animals | Burn a Totem of Undying without ever leaving the saddle of your Happy Ghast | 120 |
 | · | **Amphibian Assassin** | Animals | Watch a Frog swallow a small Slime and cough up the slimeball | 25 |
 | ★ | **An Armoured Cavalry** | Animals | Craft 12,000 Leather Horse Armor | 120 |
 | ★ | **An Ocean of Bones** | Animals | Kill 50,000 Cod | 120 |
+| · | **Antidote** | Animals | Eat a raw Pufferfish, then wash the Poison straight back out with Milk | 15 |
 | · | **Apiarist at Large** | Animals | Drop 250 Bee Nests | 15 |
+| ◆ | **Aquarium Heist** | Animals | Scoop a Tropical Fish into a Bucket while you are inside a sunken Ocean Ruin | 40 |
 | ◆ | **Ark Encounter** | Animals | Breed a pair of animals while sitting in a Boat out over a deep ocean | 70 |
 | · | **Armadillo Roller** | Animals | Startle an Armadillo into rolling up five separate times | 25 |
 | ◆ | **Armored Companions** | Animals | Craft 25 sets of Wolf Armor | 40 |
@@ -731,30 +878,43 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Artillery of the Farmyard** | Animals | Throw 50,000 Eggs | 120 |
 | · | **Baa Baa Rainbow Sheep** | Animals | Name a Sheep 'jeb_' and watch its wool cycle through every colour | 20 |
 | · | **Backseat Breeder** | Animals | Feed a Cactus to a Camel while sitting on another Camel | 25 |
+| ◆ | **Bacon Gone Bad** | Animals | Kill a Zombified Piglin in the Overworld — the kind that used to be somebody's Pig | 40 |
 | · | **Bad Dog** | Animals | Get killed by a Wolf | 20 |
+| · | **Bad Luck Charm** | Animals | Kill a Rabbit while holding a Rabbit's Foot in your hand | 15 |
+| · | **Bad Weather for Fishing** | Animals | Keep casting through a thunderstorm until something bites | 15 |
 | ◆ | **Bag of Holding** | Animals | Use 1,024 Bundles | 40 |
 | · | **Bale Breaker** | Animals | Mine 1,000 Hay Bales | 15 |
 | · | **Bale by Bale** | Animals | Use 75 Hay Bales | 15 |
 | · | **Baled Out** | Animals | Drop 64 Hay Bales | 15 |
+| ◆ | **Balloon Ride** | Animals | Float a Happy Ghast up past two hundred and fifty six blocks | 40 |
+| ★ | **Bamboo Import** | Animals | Get two Pandas and enough bamboo into the Nether to breed them there | 120 |
 | · | **Bamboo Runs Red** | Animals | Kill 25 Pandas | 15 |
 | · | **Barding the Bay** | Animals | Drop 4 Iron Horse Armor | 15 |
 | · | **Barding the Herd** | Animals | Craft 250 Leather Horse Armor | 15 |
 | ◆ | **Barn Loft Baron** | Animals | Drop 1,024 Hay Bales | 40 |
 | ★ | **Barns Full to the Rafters** | Animals | Use 2,500 Hay Bales | 120 |
+| ★ | **Basement Balloon** | Animals | Coax a Happy Ghast down below y = -40, where nothing that big belongs | 120 |
 | · | **Batting Practice** | Animals | Kill 250 Bats | 15 |
+| ★ | **Beach Party** | Animals | Get two Turtles through the End portal and breed them out among the islands | 120 |
 | · | **Beach Raider** | Animals | Kill 75 Turtles | 15 |
+| · | **Bear With Me** | Animals | Find out the hard way that some Pandas are born aggressive | 15 |
 | ★ | **Bears Would Envy You** | Animals | Kill 20,000 Salmon | 120 |
 | · | **Beast of Burden** | Animals | Strap a Chest onto a Donkey, a Mule and a Llama | 20 |
 | · | **Beast of No Burden** | Animals | Kill 100 Donkeys | 15 |
+| ★ | **Bedtime in the Dark** | Animals | Sleep through a whole night in a Bed inside an Ancient City | 120 |
 | ◆ | **Bee Movie** | Animals | Have twenty Bees leave their stingers in you and live to tell it | 150 |
+| · | **Bee on a String** | Animals | Hook a Bee with a Fishing Rod and regret it immediately | 15 |
 | ★ | **Beekeeper of the Realm** | Animals | Craft 12,000 Beehives | 120 |
 | · | **Beginner's Luck** | Animals | Use 16 Rabbit's Feet | 15 |
+| ◆ | **Belt and Braces** | Animals | Ride a Happy Ghast while wearing an Elytra you do not need | 40 |
+| · | **Berry Bright** | Animals | Offer a Fox Glow Berries instead of the usual Sweet Berries | 15 |
 | ◆ | **Bioluminescent Bloodbath** | Animals | Kill 750 Glow Squid | 40 |
 | ◆ | **Birdseed Buffet** | Animals | Offer a Parrot every one of the six seeds | 50 |
 | ★ | **Blades for Every Flock** | Animals | Craft 2,000 Shears | 120 |
 | ★ | **Bleached and Barren** | Animals | Kill 7,500 Tropical Fish | 120 |
 | · | **Bleaching the Reef** | Animals | Kill 100 Tropical Fish | 15 |
 | · | **Bless You** | Animals | Collect the slimeball a baby Panda drops when it sneezes | 20 |
+| ★ | **Blessing of the Deep** | Animals | Hold Dolphin's Grace and Conduit Power at the very same moment | 120 |
 | ◆ | **Bloodline Investment** | Animals | Use 200 Golden Carrots | 40 |
 | ★ | **Bloodlines** | Animals | Breed a pup of every one of the nine Wolf variants | 120 |
 | ★ | **Bloodlines of Gold** | Animals | Use 3,000 Golden Carrots | 120 |
@@ -762,6 +922,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Blowfish Gourmand** | Animals | Eat 10,000 Pufferfish | 120 |
 | · | **Blowfish Roulette** | Animals | Eat a Pufferfish and come away carrying Poison, Hunger and Nausea all at once | 20 |
 | · | **Blowing the Whistle** | Animals | Blow a Goat Horn inside a Pillager Outpost | 15 |
+| · | **Blub Blub Blub** | Animals | Blow a Goat Horn while you are underwater and hear how little it helps | 15 |
 | ◆ | **Blue Blood** | Animals | Breed two Horses that are both wearing Diamond Horse Armor | 60 |
 | · | **Blunted on Wool** | Animals | Break 250 Shears | 15 |
 | ◆ | **Bolts of White** | Animals | Craft 5,000 White Wool | 40 |
@@ -787,28 +948,36 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Bundle Theory** | Animals | Use 4,096 Bundles | 120 |
 | ★ | **Bunny Bindings** | Animals | Drop 4,096 Rabbit Hide | 120 |
 | · | **Bunny Buffet** | Animals | Offer a Rabbit a Carrot, a Golden Carrot and a Dandelion | 15 |
+| ◆ | **Burning Passion** | Animals | Breed a pair of animals while you yourself are on fire | 40 |
 | ◆ | **Bushels and Bushels** | Animals | Drop 15,000 Wheat | 40 |
 | · | **Butting Heads** | Animals | Kill 50 Goats | 15 |
 | ◆ | **Byproducts** | Animals | Hold one of every ordinary animal byproduct at the same time | 60 |
+| ◆ | **Cake Thief** | Animals | Drop a Cake on the ground and watch a Panda make off with the whole thing | 40 |
 | ◆ | **Cakes Without End** | Animals | Collect 15,000 Eggs | 40 |
+| ◆ | **Camelback Commerce** | Animals | Complete a villager trade without ever getting down off your Camel | 40 |
 | ◆ | **Caravan Master** | Animals | Craft 60 Leads | 40 |
 | ★ | **Carnivore Absolute** | Animals | Eat 100,000 Cooked Beef | 120 |
 | ★ | **Carrot Cartel** | Animals | Pick up 32,768 Carrots | 120 |
 | · | **Carrot and Stick** | Animals | Pick up 512 Carrots | 15 |
 | ★ | **Casting Into Forever** | Animals | Use a Fishing Rod 7,500 times | 120 |
+| ★ | **Cat in Hell's Chance** | Animals | Walk a stray Cat through a portal and win it over in the Nether | 120 |
 | · | **Catch of the Deep** | Animals | Hook a Guardian with a Fishing Rod | 15 |
 | ★ | **Cattle Beyond Counting** | Animals | Kill 50,000 Cows | 120 |
 | ◆ | **Cauldron of Cows** | Animals | Pick up 2,048 Mushroom Stew | 40 |
 | · | **Cave Dwellers** | Animals | Breed a pair of animals more than fifty blocks below sea level | 20 |
 | · | **Cave Nuisance** | Animals | Kill 100 Bats | 15 |
 | ◆ | **Chambers Cracked Open** | Animals | Kill 500 Nautiluses | 40 |
+| ◆ | **Change of Coat** | Animals | Breed two Red Foxes somewhere snowy and watch a white kit come out | 40 |
 | · | **Chaps** | Animals | Use 32 Leather Leggings | 15 |
 | · | **Charged Pork** | Animals | Channel lightning into a Pig and see what walks away | 25 |
+| ◆ | **Charm Bracelet** | Animals | Hold a Nautilus Shell, a Turtle Scute and a Rabbit's Foot all at the same time | 40 |
 | · | **Chef's Special** | Animals | Eat 20 Pufferfish | 15 |
 | ★ | **Chops Without Counting** | Animals | Eat 30,000 Cooked Mutton | 120 |
 | ◆ | **Climate Croakers** | Animals | Breed a pair of Temperate Frogs, a pair of Warm Frogs and a pair of Cold Frogs | 40 |
 | · | **Clip Joint** | Animals | Use Shears 250 times | 15 |
 | ★ | **Clippers Worn to Nubs** | Animals | Use Shears 10,000 times | 120 |
+| ★ | **Cloud Creamery** | Animals | Get a Cow airborne under a Happy Ghast and milk it up there | 120 |
+| · | **Cobweb Cuisine** | Animals | Feed an Armadillo a Spider Eye down in an abandoned Mineshaft, where they come from | 15 |
 | · | **Codswallop** | Animals | Kill 250 Cod | 15 |
 | ◆ | **Collar Coded** | Animals | Dye a Wolf's collar in all sixteen colours | 150 |
 | · | **Colonel of the Coop** | Animals | Kill 400 Chickens | 15 |
@@ -825,6 +994,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Creeping Purple** | Animals | Place 1,024 Mycelium | 15 |
 | · | **Croak No More** | Animals | Kill 250 Frogs | 15 |
 | ★ | **Croaks in Every Biome** | Animals | Use 10,000 Slimeballs | 120 |
+| ★ | **Croaks of the Damned** | Animals | Get two Frogs into the Nether and breed them there | 120 |
 | · | **Crushing the Clutch** | Animals | Mine 250 Turtle Eggs | 15 |
 | ★ | **Curator of Creatures** | Animals | Craft 300 Item Frames | 120 |
 | ★ | **Curator of the Coral** | Animals | Place 12,000 Buckets of Tropical Fish | 120 |
@@ -837,13 +1007,20 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Dangling the Carrot** | Animals | Use 1,000 Carrots | 15 |
 | ★ | **Darkness Reclaims the Water** | Animals | Kill 25,000 Glow Squid | 120 |
 | ★ | **Deafening Collection** | Animals | Collect 3,000 Goat Horns | 120 |
+| · | **Death by Shears** | Animals | Finish off a Sheep with the Shears themselves | 15 |
+| ★ | **Deep Cavalry** | Animals | Kill an Elder Guardian without ever getting out of the saddle of a Nautilus | 120 |
 | ★ | **Depths Without a Ripple** | Animals | Kill 50,000 Squid | 120 |
 | ★ | **Devourer of Flocks** | Animals | Eat 100,000 Cooked Mutton | 120 |
 | · | **Do Not Feed the Birds** | Animals | Offer a Cookie to a Parrot and live with what you have done | 15 |
+| · | **Do Not Pet** | Animals | Get killed by a Polar Bear | 15 |
+| · | **Doesn't Work Like That** | Animals | Drink a Bucket of Milk while you are on fire and discover it puts out nothing | 15 |
+| · | **Don't Touch That** | Animals | Swim into a Pufferfish that puffed up at exactly the wrong moment | 15 |
 | · | **Donkey Work** | Animals | Breed two Donkeys into a foal of their own | 15 |
 | ★ | **Down Every Burrow** | Animals | Kill 2,500 Rabbits | 120 |
 | · | **Down and Feather** | Animals | Collect 2,000 Feathers | 15 |
 | · | **Draining the Lush Pools** | Animals | Kill 150 Axolotls | 15 |
+| ◆ | **Drink It Off** | Animals | Down a Bucket of Milk to wash a Bad Omen straight out of you | 40 |
+| · | **Drive-Thru** | Animals | Hand a Carrot to a Pig without dismounting the Pig you are already riding | 15 |
 | ★ | **Drowned in Nectar** | Animals | Drink 100,000 Honey Bottles | 120 |
 | · | **Duvet Day** | Animals | Find one of your tamed Cats asleep on your own bed | 20 |
 | ★ | **Echoes Without Answer** | Animals | Kill 10,000 Bats | 120 |
@@ -851,8 +1028,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Eggpocalypse** | Animals | Throw 1,500 Eggs | 120 |
 | ★ | **Emperor of Earth Apples** | Animals | Pick up 100,000 Potatoes | 120 |
 | ★ | **Empire of Buzz** | Animals | Drop 2,000 Bee Nests | 120 |
+| · | **Empty Saddle** | Animals | Ride a Horse while Invisible so the saddle appears to be steering itself | 15 |
 | ★ | **Emptying the Shoals** | Animals | Kill 1,500 Cod | 120 |
+| ◆ | **End Guard Dog** | Animals | Strap Wolf Armor onto a Wolf you have taken all the way to the End | 40 |
 | ★ | **Enough for Every Arrow** | Animals | Collect 30,000 Feathers | 120 |
+| ◆ | **Epaulettes** | Animals | Carry a Parrot on each shoulder at the same time | 40 |
 | · | **Evel Knievel** | Animals | Clear seven blocks in a single Camel dash | 25 |
 | ★ | **Every Bale Undone** | Animals | Mine 60,000 Hay Bales | 120 |
 | ★ | **Every Beast Bridled** | Animals | Craft 1,500 Saddles | 120 |
@@ -876,32 +1056,45 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Everything in Its Pouch** | Animals | Craft 25,000 Bundles | 120 |
 | ★ | **Extinct a Second Time** | Animals | Kill 25 Sniffers | 120 |
 | ★ | **Extinct in the Caves** | Animals | Kill 750 Axolotls | 120 |
+| · | **Face Reveal** | Animals | Shear the Carved Pumpkin off a Snow Golem | 15 |
 | · | **Familiar Territory** | Animals | Tame the all black Cat that skulks around a Swamp Hut | 25 |
+| ◆ | **Family Business** | Animals | Breed a Horse with a Donkey while sitting on the Mule the last pair gave you | 40 |
 | ◆ | **Family Planning** | Animals | Breed Chickens in the Overworld, in the Nether and in the End | 70 |
+| ★ | **Farmyard Skewer** | Animals | Run a Sheep, a Pig and a Rabbit through with one Piercing arrow | 120 |
 | ◆ | **Feather Duster** | Animals | Kill 1,000 Chickens | 40 |
 | ★ | **Featherbedding** | Animals | Drop 16,384 Feathers | 120 |
 | ★ | **Feathers and Bones Behind You** | Animals | Eat 30,000 Cooked Chicken | 120 |
 | ★ | **Feathers of Every Colour** | Animals | Kill 2,000 Parrots | 120 |
 | ★ | **Feathers on the Wind** | Animals | Kill 5,000 Chickens | 120 |
+| · | **Fed to the Sculk** | Animals | Kill a Pig close enough to a Sculk Catalyst that the Deep Dark eats the experience | 15 |
 | ★ | **Feed for a Thousand Herds** | Animals | Use 15,000 Hay Bales | 120 |
 | · | **Feeding the Caravan** | Animals | Use 200 Hay Bales | 15 |
 | ◆ | **Ferry Tales** | Animals | Ride a Boat with a Panda aboard, then with a Fox, then with a Cat | 55 |
 | ★ | **Fifty Times Dead Already** | Animals | Kill 50 Zombie Horses | 120 |
+| ◆ | **Finder's Fee** | Animals | Pay a Dolphin in Raw Cod, follow it, and crack open the Buried Treasure it finds | 40 |
 | ★ | **Fires of the Butchery** | Animals | Cook 40,000 Porkchops | 120 |
 | · | **Firing Up the Smoker** | Animals | Cook 250 Porkchops | 15 |
 | · | **Fish Fry** | Animals | Eat 200 Cooked Cod | 15 |
+| · | **Fish Tax** | Animals | Get mauled by a Polar Bear while holding a raw Salmon it clearly wanted | 15 |
 | ★ | **Fish for Every Meal** | Animals | Eat 2,000 Cooked Cod | 120 |
 | · | **Fish for a Friend** | Animals | Use 500 Raw Cod | 15 |
+| · | **Fisherman's Friend** | Animals | Buy a Bucket of Cod from a Fisherman rather than catching one yourself | 15 |
+| ★ | **Fishing in the Dark** | Animals | Cast a line in the Deep Dark and reel in a fish before something reels in you | 120 |
 | · | **Fishmonger** | Animals | Buy Cooked Cod and Cooked Salmon from a Fisherman | 15 |
 | · | **Fleeced** | Animals | Breed two Sheep that you have already sheared bare | 20 |
 | ★ | **Fleeced and Finished** | Animals | Kill 1,500 Sheep | 120 |
+| · | **Flipper's Revenge** | Animals | Pick a fight with a Dolphin and lose it | 15 |
 | · | **Fortune in a Foot** | Animals | Collect 100 Rabbit's Feet | 15 |
 | · | **Fowl Play** | Animals | Kill 150 Chickens | 15 |
+| · | **Fox Gets the Spear** | Animals | Drop a Spear and let a Fox make off with it | 15 |
 | · | **Framed** | Animals | Craft 40 Item Frames | 15 |
 | ★ | **Framer of Everything** | Animals | Craft 750 Item Frames | 120 |
 | ★ | **Fried Again Tonight** | Animals | Eat 5,000 Cooked Cod | 120 |
 | ★ | **Froglight Never Kindles** | Animals | Kill 4,000 Frogs | 120 |
+| · | **Frozen Courtship** | Animals | Breed a pair of animals while you are stood waist-deep in Powder Snow | 15 |
+| ◆ | **Frozen Nesting** | Animals | Breed two Turtles on a Snowy Beach | 40 |
 | ★ | **Full Brass** | Animals | Hold all eight Goat Horns at once | 120 |
+| · | **Full Diving Kit** | Animals | Climb onto a Nautilus while wearing a Turtle Helmet | 15 |
 | ★ | **Full Kennel** | Animals | Equip Wolves with Wolf Armor in the ten dyes Paw Patrol left out, then gather ten armored Wolves around you | 55 |
 | ★ | **Full Spectrum Flock** | Animals | Breed a lamb of every one of the sixteen Sheep colours | 120 |
 | · | **Fungal Beef** | Animals | Kill 100 Mooshrooms | 15 |
@@ -918,9 +1111,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Golden Blood** | Animals | Drink 40,000 Honey Bottles | 120 |
 | · | **Grace Cut Short** | Animals | Kill 100 Dolphins | 15 |
 | ★ | **Graveyard of Clippers** | Animals | Break 5,000 Shears | 120 |
+| ◆ | **Grooming on the Go** | Animals | Brush an Armadillo for its Scute without getting down off your Camel | 40 |
 | ◆ | **Grounded Forever** | Animals | Kill 10 Happy Ghasts | 40 |
 | ★ | **Half a Million Snips** | Animals | Use Shears 50,000 times | 120 |
 | · | **Hare Off the Spit** | Animals | Eat 1,000 Cooked Rabbit | 15 |
+| ◆ | **Hare Trigger** | Animals | Drop a Rabbit from at least 50 blocks away | 40 |
+| ◆ | **Hare of Hell** | Animals | Take a Rabbit through a Nether portal and kill it on the other side | 40 |
 | · | **Hare of the Dog** | Animals | Pick up 256 Rabbit Stew | 15 |
 | · | **Harness the Sky** | Animals | Use 32 Blue Harnesses | 15 |
 | ★ | **Harvest for the Herd** | Animals | Use 1,000 Hay Bales | 120 |
@@ -928,6 +1124,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Hasenpfeffer Incorporated** | Animals | Pick up 4,096 Rabbit Stew | 120 |
 | ◆ | **Hatchling** | Animals | Throw a single Chicken Egg that hatches four chicks at once | 70 |
 | ◆ | **Hearts Above the Herd** | Animals | Use 7,500 Wheat | 40 |
+| ★ | **Hee-Haw in Hell** | Animals | Lead an untamed Donkey into the Nether and only then break it in | 120 |
 | · | **Hell for Leather** | Animals | Ride a Horse through the Nether | 25 |
 | ◆ | **Hellhound** | Animals | Tame a Wolf in the Nether | 200 |
 | ◆ | **Helms From the Shore** | Animals | Collect 500 Turtle Scutes | 40 |
@@ -937,42 +1134,58 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Hive Dependency** | Animals | Drink 2,000 Honey Bottles | 120 |
 | ★ | **Hoarder of the Hive** | Animals | Craft 1,500 Honeycomb Blocks | 120 |
 | · | **Hogwash** | Animals | Kill 200 Pigs | 15 |
+| ◆ | **Hole in the Ice** | Animals | Break through a Frozen Ocean and pull a fish out of the hole | 40 |
+| ★ | **Homesick** | Animals | Bring two Striders to the Overworld and breed them under an open sky | 120 |
 | ◆ | **Honeymoon** | Animals | Drink a Honey Bottle in the Overworld, the Nether and the End | 40 |
 | · | **Honeymoon Suite** | Animals | Breed a pair of animals inside an Igloo | 25 |
 | ★ | **Hoofbeats No More** | Animals | Kill 750 Horses | 120 |
+| · | **Hooves on Ice** | Animals | Ride a Horse out across a Frozen Ocean | 15 |
 | ◆ | **Hopping Mad Science** | Animals | Use 256 Rabbit's Feet | 40 |
 | ★ | **Horns Beyond Number** | Animals | Kill 25,000 Goats | 120 |
 | ◆ | **Horns for Every Voice** | Animals | Collect 250 Goat Horns | 40 |
+| ◆ | **Horse in the Chambers** | Animals | Get a Horse all the way inside a Trial Chamber and stay in the saddle | 40 |
+| ◆ | **Horse in the House** | Animals | Ride a Horse through the halls of a Woodland Mansion | 40 |
 | ★ | **Hounds of the Iron Age** | Animals | Craft 1,500 sets of Wolf Armor | 120 |
 | · | **Humped and Humbled** | Animals | Kill 25 Camels | 15 |
 | ★ | **Hundred Acre Hoard** | Animals | Pick up 4,096 Honey Blocks | 120 |
 | · | **Hybrid Undone** | Animals | Kill 10 Mules | 15 |
+| · | **Icebreaker** | Animals | Take a tow from a Dolphin under the ice of a Frozen Ocean | 15 |
+| ★ | **Igloo Intruder** | Animals | Lure a Polar Bear all the way inside an Igloo and finish it there | 120 |
 | ★ | **Immune to the Venom** | Animals | Eat 150 Pufferfish | 120 |
+| · | **In Poor Taste** | Animals | Eat a Cooked Porkchop while riding a Pig | 15 |
+| · | **Incubator** | Animals | Set a Sniffer Egg down on a Moss Block to hurry the hatching along | 15 |
 | ★ | **Industrial Fleecing** | Animals | Craft 200 Shears | 120 |
 | ★ | **Industrial Smokehouse** | Animals | Cook 2,000 Porkchops | 120 |
 | · | **Ink Blot** | Animals | Kill 250 Squid | 15 |
 | ★ | **Ink Enough for Every Book** | Animals | Kill 10,000 Squid | 120 |
 | ★ | **Ink for Every Page** | Animals | Collect 20,000 Ink Sacs | 120 |
 | · | **Ironclad Stable** | Animals | Drop 16 Iron Horse Armor | 15 |
+| ◆ | **Island Special** | Animals | Milk a Mooshroom and eat a Suspicious Stew without ever setting foot off Mushroom Fields | 40 |
 | · | **Just One More Cast** | Animals | Use a Fishing Rod 500 times | 15 |
+| · | **Kite Flying** | Animals | Snag a Happy Ghast out of the air with a Fishing Rod | 15 |
 | · | **Knacker's Yard** | Animals | Kill 150 Horses | 15 |
 | ★ | **Knots Beyond Counting** | Animals | Craft 500 Leads | 120 |
 | ★ | **Kraken Bane** | Animals | Kill 1,500 Squid | 120 |
+| ◆ | **Kraken Hunter** | Animals | Kill a Squid from the back of a Nautilus | 40 |
 | ◆ | **Lactose Tolerant** | Animals | Drink 150 Buckets of Milk | 40 |
 | · | **Ladle Logistics** | Animals | Pick up 512 Mushroom Stew | 15 |
 | · | **Lamb on the Table** | Animals | Eat 2,000 Cooked Mutton | 15 |
 | · | **Lamb to the Slaughter** | Animals | Kill 200 Sheep | 15 |
+| ◆ | **Lamb, Flambé** | Animals | Let a lightning bolt do the cooking, then pick up the Cooked Mutton | 40 |
 | ★ | **Lanterns of the Deep** | Animals | Kill 4,000 Glow Squid | 120 |
+| ◆ | **Lava Cavalry** | Animals | Kill a Magma Cube without leaving the back of your Strider | 40 |
 | ★ | **Leaping Draughts Forever** | Animals | Collect 2,000 Rabbit's Feet | 120 |
 | ◆ | **Leather From the Little Ones** | Animals | Collect 2,500 Rabbit Hide | 40 |
 | ◆ | **Leather and String Forever** | Animals | Craft 2,000 Bundles | 40 |
 | ◆ | **Leather for Every Mount** | Animals | Craft 1,000 Leather Horse Armor | 40 |
 | ◆ | **Libraries Written in Black** | Animals | Collect 5,000 Ink Sacs | 40 |
+| · | **Lily Pad Love** | Animals | Breed two Frogs while you stand on a Lily Pad yourself | 15 |
 | ★ | **Lord of the Long Cast** | Animals | Use a Fishing Rod 100,000 times | 120 |
 | ★ | **Lost Under Limestone** | Animals | Kill 2,000 Axolotls | 120 |
 | · | **Love and Thunder** | Animals | Breed a pair of animals while a thunderstorm rolls overhead | 20 |
 | ◆ | **Luck by the Handful** | Animals | Collect 500 Rabbit's Feet | 40 |
 | ★ | **Make Hay While the Sun Shines** | Animals | Drop 4,096 Hay Bales | 120 |
+| · | **Man Overgoat** | Animals | Be sitting in a Boat when a Goat decides you are in its way | 15 |
 | ◆ | **Mansion Menagerie** | Animals | Breed a pair of animals inside a Woodland Mansion | 160 |
 | ★ | **Mare of the Void** | Animals | Ride a Horse in the End | 180 |
 | ★ | **Married to the Sea** | Animals | Use a Fishing Rod 3,000 times | 120 |
@@ -982,16 +1195,23 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Matchmaker of the Pasture** | Animals | Use 30,000 Wheat | 120 |
 | ◆ | **Maternity Ward** | Animals | Lay down a Bee Nest, a Turtle Egg and a Sniffer Egg | 45 |
 | ◆ | **Meadow on a Plate** | Animals | Eat 5,000 Cooked Rabbit | 40 |
+| · | **Missing the Point** | Animals | Milk a Mooshroom with a Bucket instead of a Bowl and get perfectly ordinary Milk | 15 |
+| ◆ | **Monument Souvenir** | Animals | Scoop a Pufferfish into a Bucket while you are inside an Ocean Monument | 40 |
 | ★ | **Mooshroom Mess Hall** | Animals | Pick up 8,192 Mushroom Stew | 120 |
+| ◆ | **Moving House** | Animals | Take a crafted Beehive away with Silk Touch while all three Bees are still asleep inside | 40 |
+| ◆ | **Mule Train Underground** | Animals | Ride a chest-laden Mule down into an abandoned Mineshaft | 40 |
 | ★ | **Museum Without Walls** | Animals | Craft 6,000 Item Frames | 120 |
 | ★ | **Mushroom Fields Lie Fallow** | Animals | Kill 6,000 Mooshrooms | 120 |
 | ◆ | **Mutton Merchant** | Animals | Kill 600 Sheep | 40 |
+| ★ | **Mycelium Migrants** | Animals | Boat a pair of Mooshrooms all the way to the Nether and breed them there | 120 |
 | ★ | **Mycelium in the Blood** | Animals | Eat 30,000 Mushroom Stew | 120 |
+| ◆ | **Nautical Nonsense** | Animals | Ride a Nautilus in a full suit of Copper armour | 40 |
 | · | **Nectar Nuptials** | Animals | Breed two Bees that are both loaded with nectar | 25 |
 | ★ | **Nemo Was Never Found** | Animals | Kill 20,000 Tropical Fish | 120 |
 | ◆ | **Nemo's Nightmare** | Animals | Kill 300 Tropical Fish | 40 |
 | · | **Nest Robber** | Animals | Drop 100 Bee Nests | 15 |
 | ◆ | **Nests From Every Grove** | Animals | Mine 500 Bee Nests | 40 |
+| · | **Nether Apiary** | Animals | Set a Beehive down in the Nether, where no flower will ever grow | 15 |
 | · | **Nether Dairy** | Animals | Milk a Cow in the Nether | 15 |
 | ★ | **Nets Come Up Empty** | Animals | Kill 10,000 Cod | 120 |
 | ★ | **Never a Dull Edge** | Animals | Craft 5,000 Shears | 120 |
@@ -1015,54 +1235,73 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **No Turtle Comes Home** | Animals | Mine 12,000 Turtle Eggs | 120 |
 | ★ | **No Warren Unvisited** | Animals | Eat 60,000 Cooked Rabbit | 120 |
 | ◆ | **None Shall Metamorphose** | Animals | Kill 2,500 Tadpoles | 40 |
+| · | **Not Fussy** | Animals | Patch up a wounded Wolf by feeding it Rotten Flesh, which it eats quite happily | 15 |
+| ★ | **Nothing Bites Out Here** | Animals | Haul a fish out of water you carried all the way to the End | 120 |
 | ★ | **Nothing But Steak** | Animals | Eat 2,000 Cooked Beef | 120 |
+| ◆ | **Nothing Hatches Here** | Animals | Lay a clutch of Turtle Eggs down in the Nether, where nothing will ever come of them | 40 |
 | ★ | **Nothing Left to Cluck** | Animals | Kill 25,000 Chickens | 120 |
 | ★ | **Nothing Left to Hatch** | Animals | Kill 400 Turtles | 120 |
 | ★ | **Nothing Nests in Peace** | Animals | Mine 6,000 Bee Nests | 120 |
 | ★ | **Nothing Roams Free** | Animals | Craft 10,000 Leads | 120 |
 | ★ | **Nothing Wanders Off** | Animals | Use a Lead 20,000 times | 120 |
+| ◆ | **Oasis Catch** | Animals | Catch a fish while standing in a Desert | 40 |
 | ★ | **Ocelot of the Void** | Animals | Kill 6,000 Ocelots | 120 |
+| · | **Odd Cow Out** | Animals | Shear a Mooshroom on Mushroom Fields and leave the island with exactly one plain Cow on it | 15 |
 | ★ | **Off the Mountain for Good** | Animals | Kill 1,500 Goats | 120 |
 | · | **Off to the Glue Factory** | Animals | Kill 50 Horses | 15 |
+| ★ | **Older Than the City** | Animals | Walk two Sniffers into an Ancient City and breed them among the ruins | 120 |
 | ★ | **Omelette Apocalypse** | Animals | Throw 25,000 Eggs | 120 |
+| · | **One More Lungful** | Animals | Surface in a Turtle Helmet and keep on breathing anyway | 15 |
+| ★ | **One in a Thousand** | Animals | Breed a brown Panda, the rarest coat in the bamboo | 120 |
 | · | **Orange Harvest** | Animals | Pick up 2,048 Carrots | 15 |
 | · | **Outfitting the Pack** | Animals | Craft 8 sets of Wolf Armor | 15 |
 | · | **Outfoxed** | Animals | Kill 150 Foxes | 15 |
+| · | **Over the Coals** | Animals | Lay a Raw Chicken on a lit Campfire instead of bothering with a furnace | 15 |
 | · | **Pack Betrayer** | Animals | Kill 250 Wolves | 15 |
 | · | **Pack Rat** | Animals | Use 64 Bundles | 15 |
+| · | **Pack Train** | Animals | Rope a Mule to a Lead while you are riding a Donkey | 15 |
+| ◆ | **Pale Companion** | Animals | Tame a Wolf in the Pale Garden without letting the Creaking put you off | 40 |
+| ★ | **Pale Rider** | Animals | Be sitting on a Skeleton Horse when the next thunderstorm arrives | 120 |
 | ◆ | **Parrot Choir** | Animals | Get five Parrots dancing at one Jukebox at the same time | 55 |
 | · | **Parrot-phrase** | Animals | Stand by a tamed Parrot while it imitates the sound of a hostile mob | 20 |
 | ★ | **Pastures of Silence** | Animals | Kill 25,000 Cows | 120 |
 | ◆ | **Peak Predator** | Animals | Kill 150 Goats | 40 |
+| ◆ | **Peak Swine** | Animals | Ride a saddled Pig at an altitude of 200 blocks or higher | 40 |
 | ◆ | **Pedigree** | Animals | Breed two Wolves that are both wearing Wolf Armor | 55 |
 | · | **Pelt Collector** | Animals | Drop 64 Rabbit Hide | 15 |
 | ◆ | **Personality Test** | Animals | Breed Panda cubs that grow up lazy, worried and playful | 50 |
 | ◆ | **Pescatarian** | Animals | Eat Cod, Salmon, Tropical Fish, Pufferfish, Cooked Cod and Cooked Salmon | 40 |
+| · | **Pig Paddle** | Animals | Swim a stretch of open water on the back of a saddled Pig | 15 |
 | ★ | **Pig Pilot Extraordinaire** | Animals | Break 1,500 Carrots on a Stick | 120 |
 | ◆ | **Pigs Follow Anywhere** | Animals | Use 5,000 Carrots | 40 |
 | · | **Pink Menace** | Animals | Kill 50 Axolotls | 15 |
 | · | **Plucked Clean** | Animals | Drop 1,024 Feathers | 15 |
+| ◆ | **Polar Plunge** | Animals | Kill a Polar Bear while the two of you are both swimming | 40 |
 | · | **Pooh's Pantry** | Animals | Pick up 256 Honey Blocks | 15 |
 | ◆ | **Potato Famine Averted** | Animals | Pick up 25,000 Potatoes | 40 |
 | ★ | **Poultrygeist** | Animals | Kill 2,000 Chickens | 120 |
 | ◆ | **Pufferfish Roulette** | Animals | Eat 50 Pufferfish | 40 |
 | ★ | **Quartermaster of the Cavalry** | Animals | Drop 192 Iron Horse Armor | 120 |
 | ◆ | **Quill Bill** | Animals | Drop 4,096 Feathers | 40 |
+| · | **Rammed at Altitude** | Animals | Take a Goat's headbutt more than two hundred and fifty blocks above sea level | 15 |
 | ★ | **Ramming Speed Ends Here** | Animals | Kill 4,000 Goats | 120 |
 | ◆ | **Ranch Hand** | Animals | Carry the whole animal handler's kit at once: Shears, a Lead, a Name Tag, a Saddle and a Bundle | 20 |
 | ◆ | **Red Meat Diet** | Animals | Eat 750 Cooked Beef | 40 |
 | ★ | **Reef Reaper** | Animals | Kill 1,000 Tropical Fish | 120 |
 | ◆ | **Reef in a Bucket** | Animals | Place 1,000 Buckets of Tropical Fish | 40 |
+| ◆ | **Reinforcements** | Animals | Scoop an Axolotl into a Bucket inside an Ocean Monument, ready for the next room | 40 |
 | ★ | **Rendered Down to Nothing** | Animals | Kill 10,000 Cows | 120 |
 | ★ | **Rendered by the Ton** | Animals | Cook 15,000 Porkchops | 120 |
 | ◆ | **Ride After Ride** | Animals | Use a Saddle 1,000 times | 40 |
 | · | **Ride Along** | Animals | Ride a Horse with a tamed Parrot perched on your shoulder | 20 |
 | ★ | **Rider of Everything** | Animals | Use a Saddle 12,000 times | 120 |
 | ◆ | **Riderless and Rotten** | Animals | Kill 5 Zombie Horses | 40 |
+| · | **Riding the Bubbles** | Animals | Ride a Soul Sand bubble column upwards with Dolphin's Grace still on you | 15 |
 | ★ | **River Runs Red** | Animals | Kill 1,500 Salmon | 120 |
 | ★ | **Rivers of Black** | Animals | Kill 4,000 Squid | 120 |
 | · | **Roast Every Night** | Animals | Eat 2,000 Cooked Chicken | 15 |
 | · | **Robbing the Hollow** | Animals | Mine 100 Bee Nests | 15 |
+| · | **Rod Retirement** | Animals | Fish with one rod until the last thread of it snaps | 15 |
 | · | **Rod and Ranch** | Animals | Reel in a Cow, a Pig, a Sheep and a Chicken with a Fishing Rod | 45 |
 | ◆ | **Rods Beyond Repair** | Animals | Break 750 Fishing Rods | 40 |
 | ★ | **Rods Enough to Drain the Sea** | Animals | Craft 30,000 Fishing Rods | 120 |
@@ -1080,37 +1319,52 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Scales in the Teeth** | Animals | Eat 40,000 Cooked Cod | 120 |
 | · | **Scream Team** | Animals | Breed a Goat kid that turns out to be a screamer | 25 |
 | ★ | **Scutes by the Barrel** | Animals | Kill 4,000 Armadillos | 120 |
+| ◆ | **Seafood Platter** | Animals | Offer a Dolphin Cod, Salmon, Tropical Fish and Pufferfish | 40 |
 | ◆ | **Seeds Left Unfound** | Animals | Kill 5 Sniffers | 40 |
 | ★ | **Selective Breeding** | Animals | Breed every variant of Cow, Pig and Chicken yourself | 70 |
 | · | **Shake It Off** | Animals | Soak a tamed Wolf in water, then get it onto land and watch it shake dry | 20 |
 | · | **Sheaf Life** | Animals | Drop 600 Wheat | 15 |
 | ★ | **Shears Enough to Bury You** | Animals | Craft 15,000 Shears | 120 |
+| ★ | **Shell Nursery** | Animals | Breed two Nautiluses inside an Ocean Monument, right under the Elder Guardians' noses | 120 |
 | ★ | **Shellbreaker Supreme** | Animals | Kill 6,000 Turtles | 120 |
 | ★ | **Shells Beyond Use** | Animals | Collect 2,000 Nautilus Shells | 120 |
 | ★ | **Shepherd of Nothing** | Animals | Kill 20,000 Sheep | 120 |
+| · | **Shiver Me Striders** | Animals | Walk your Strider up out of the lava and watch it shiver on solid ground | 15 |
 | ★ | **Shorn the Whole World** | Animals | Use Shears 100,000 times | 120 |
 | ★ | **Shoulder to Cry On** | Animals | Ride a Parrot on your shoulder through both a Nether portal and an End portal | 150 |
+| ◆ | **Sibling Rivalry** | Animals | Shoot down an ordinary Ghast while riding its friendly relative | 40 |
 | ★ | **Silence in the Flowers** | Animals | Kill 15,000 Bees | 120 |
 | ◆ | **Silence in the Roost** | Animals | Kill 600 Bats | 40 |
 | ★ | **Silence of the Swarm** | Animals | Kill 750 Bees | 120 |
 | ★ | **Silent as the Snow** | Animals | Kill 750 Foxes | 120 |
+| ★ | **Sixteen Straps** | Animals | Fit Happy Ghasts with a Harness in every one of the sixteen colours | 120 |
 | · | **Skeleton Crew** | Animals | Saddle a Skeleton Horse and ride it | 25 |
 | · | **Skinner of the Meadow** | Animals | Collect 500 Rabbit Hide | 15 |
+| ★ | **Sky Nursery** | Animals | Breed a pair of animals without dismounting your Happy Ghast | 120 |
+| ★ | **Sky Pirate** | Animals | Stand higher than 300 blocks up with a Parrot still riding your shoulder | 120 |
 | · | **Slime for the Swamp** | Animals | Use 500 Slimeballs | 15 |
+| · | **Slow Approach** | Animals | Feed raw Cod to an Ocelot without ever coming up out of your crouch | 15 |
 | · | **Slow and Steady Loses** | Animals | Kill 25 Turtles | 15 |
 | ★ | **Smokehouse Sovereign** | Animals | Drop 16,384 Raw Salmon | 120 |
 | · | **Snip Snip** | Animals | Craft 25 Shears | 15 |
 | ★ | **Snipped to Scrap** | Animals | Break 2,000 Shears | 120 |
+| ◆ | **Snow Blind** | Animals | Kill a Polar Bear while wearing a Carved Pumpkin and seeing almost nothing | 40 |
+| · | **Snow Formula** | Animals | Hand a Snowball to a Ghastling and watch it puff up a little | 15 |
 | · | **Snuffing the Glow** | Animals | Kill 250 Glow Squid | 15 |
+| ★ | **Soul Caravan** | Animals | Walk a Camel through a Nether portal and ride it over the soul sand | 120 |
 | · | **Spawning Run** | Animals | Drop 1,024 Raw Salmon | 15 |
 | · | **Spinning the String** | Animals | Craft 1,000 White Wool | 15 |
 | · | **Spiral Shattered** | Animals | Kill 100 Nautiluses | 15 |
 | · | **Spirals From the Sea** | Animals | Collect 100 Nautilus Shells | 15 |
+| · | **Spoiled Rotten** | Animals | Feed a whole Golden Apple to a Mule | 15 |
+| · | **Spoonful of Sugar** | Animals | Drink a Honey Bottle to shrug off Poison | 15 |
 | · | **Spore Sower** | Animals | Place 256 Mycelium | 15 |
 | · | **Spots in the Undergrowth** | Animals | Kill 100 Ocelots | 15 |
+| ◆ | **Springheeled Steed** | Animals | Ride a Horse while Jump Boost is running through your own veins | 40 |
 | · | **Spud Runner** | Animals | Pick up 1,000 Potatoes | 15 |
 | ◆ | **Stable Cleared** | Animals | Kill 300 Horses | 40 |
 | · | **Stable Diet** | Animals | Feed a whole Hay Bale to a hurt or young Horse | 15 |
+| ◆ | **Stacked Odds** | Animals | Catch a fish on a rod carrying Luck of the Sea III | 40 |
 | · | **Stacked to the Rafters** | Animals | Drop 256 Hay Bales | 15 |
 | ★ | **Stacks Beyond the Silo** | Animals | Mine 20,000 Hay Bales | 120 |
 | · | **Steak Economy** | Animals | Kill 250 Cows | 15 |
@@ -1127,6 +1381,8 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Stocking the Tank** | Animals | Place 250 Buckets of Tropical Fish | 15 |
 | · | **Storm Warning** | Animals | Toss Bamboo to a worried Panda that is hiding its face from a thunderstorm | 25 |
 | · | **Straight From the Jar** | Animals | Drink 250 Honey Bottles | 15 |
+| · | **Straight from the Bird** | Animals | Eat Raw Chicken and let the Hunger that follows teach you something | 15 |
+| · | **Strapped In** | Animals | Buckle a Harness onto a grown Happy Ghast so it will carry you | 15 |
 | ◆ | **Strictly Pescatarian** | Animals | Eat 600 Cooked Cod | 40 |
 | · | **Strong Bones** | Animals | Drink 50 Buckets of Milk | 15 |
 | ◆ | **Strong Genes** | Animals | Breed a Llama that inherits the maximum strength of five | 50 |
@@ -1134,6 +1390,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Stung Once Too Often** | Animals | Kill 150 Bees | 15 |
 | · | **Summit Kid** | Animals | Breed a pair of Goats more than two hundred blocks up | 25 |
 | ◆ | **Sunday Stew** | Animals | Pick up 1,024 Rabbit Stew | 40 |
+| · | **Sunk With All Hands** | Animals | Get killed by a Zombie Nautilus | 15 |
 | · | **Superstitious** | Animals | Use 64 Rabbit's Feet | 15 |
 | · | **Swatting Season** | Animals | Kill 50 Bees | 15 |
 | · | **Sweet Descent** | Animals | Slide down a Honey Block with a Honey Bottle in each hand | 15 |
@@ -1141,11 +1398,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Swimming Upstream** | Animals | Drop 256 Raw Salmon | 15 |
 | ★ | **Swineherd of Ruin** | Animals | Kill 20,000 Pigs | 120 |
 | ◆ | **Tack Room** | Animals | Craft 50 Saddles | 40 |
+| · | **Tack Shop** | Animals | Buy a Saddle off a villager rather than digging one out of a chest | 15 |
+| · | **Tackle Box** | Animals | Help yourself to the chest in a village Fisherman's cottage | 15 |
 | · | **Tacky Situation** | Animals | Pick up 64 Honey Blocks | 15 |
 | ◆ | **Tadpoles Without Number** | Animals | Use 2,500 Slimeballs | 40 |
 | · | **Tally Ho** | Animals | Kill 50 Foxes | 15 |
 | ◆ | **Tamer of the Strays** | Animals | Use 2,500 Raw Cod | 40 |
 | · | **Tanned and Trousered** | Animals | Use 128 Leather Leggings | 15 |
+| ◆ | **Temple Cats** | Animals | Breed two Ocelots inside a Jungle Pyramid | 40 |
 | ★ | **Tether Tycoon** | Animals | Craft 1,500 Leads | 120 |
 | ★ | **The Amphibian Architect** | Animals | Use 30,000 Slimeballs | 120 |
 | · | **The Ancient Nose** | Animals | Kill a Sniffer | 15 |
@@ -1201,6 +1461,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Grill Never Cools** | Animals | Eat 40,000 Cooked Beef | 120 |
 | · | **The Hatchlings Grow** | Animals | Collect 100 Turtle Scutes | 15 |
 | ◆ | **The Hayloft** | Animals | Use 400 Hay Bales | 40 |
+| · | **The Healing Lotl** | Animals | Let an Axolotl finish a kill for you and take the Regeneration it hands over | 15 |
 | ★ | **The Herd Remembers** | Animals | Kill 4,000 Cows | 120 |
 | ★ | **The Hide Mountain** | Animals | Collect 10,000 Rabbit Hide | 120 |
 | ◆ | **The Hollow Orchard** | Animals | Drop 750 Bee Nests | 40 |
@@ -1220,12 +1481,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Last Faint Shimmer** | Animals | Kill 50,000 Glow Squid | 120 |
 | ★ | **The Last Great Sniff** | Animals | Kill 100 Sniffers | 120 |
 | ★ | **The Last Pig Standing** | Animals | Kill 1,500 Pigs | 120 |
+| · | **The Last Wiggle** | Animals | Steer a Pig until the Carrot on a Stick finally falls apart | 15 |
 | ◆ | **The Lazy Ones Never Woke** | Animals | Kill 150 Pandas | 40 |
 | ◆ | **The Leatherworks** | Animals | Use 512 Leather Leggings | 40 |
 | ★ | **The Leatherwright** | Animals | Craft 400 Saddles | 120 |
 | ★ | **The Line Never Rests** | Animals | Use a Fishing Rod 20,000 times | 120 |
 | · | **The Line Snaps** | Animals | Break 250 Fishing Rods | 15 |
 | ★ | **The Living Aquarium** | Animals | Place 4,000 Buckets of Tropical Fish | 120 |
+| ★ | **The Long Crossing** | Animals | Ride a Strider 300 blocks across lava in a single unbroken crossing | 120 |
 | ★ | **The Long Road Ends** | Animals | Kill 8,000 Donkeys | 120 |
 | ◆ | **The Long Walk Home** | Animals | Use a Lead 5,000 times | 40 |
 | ★ | **The Lush Caves Weep** | Animals | Kill 5,000 Axolotls | 120 |
@@ -1240,6 +1503,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Pink Tide Recedes** | Animals | Kill 25,000 Axolotls | 120 |
 | ★ | **The Pod Disperses Forever** | Animals | Kill 2,500 Dolphins | 120 |
 | ★ | **The Pollination Stops** | Animals | Kill 2,000 Bees | 120 |
+| ★ | **The Prodigal Ghast** | Animals | Fly a Happy Ghast back through a Nether portal to the home of its miserable cousins | 120 |
 | ★ | **The Rabbit Registry** | Animals | Use 20,000 Carrots | 120 |
 | ★ | **The Rainforest Says Nothing** | Animals | Kill 6,000 Parrots | 120 |
 | ★ | **The Rapids Run Empty** | Animals | Kill 50,000 Salmon | 120 |
@@ -1287,32 +1551,47 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Wool Debt Repaid** | Animals | Kill 4,000 Sheep | 120 |
 | · | **Thinning the Herd** | Animals | Kill 100 Cows | 15 |
 | ★ | **Thoroughbred Tycoon** | Animals | Use 500 Golden Carrots | 120 |
+| · | **Through the Ice** | Animals | Bucket a Salmon straight out of a Frozen River | 15 |
+| · | **Too Tall to Miss** | Animals | Discover that a Camel keeps you out of reach of everything except arrows | 15 |
 | · | **Topsy Turvy** | Animals | Name a Pig 'Dinnerbone' to turn it upside down | 15 |
 | ★ | **Toxin Tolerant** | Animals | Eat 1,500 Pufferfish | 120 |
+| ◆ | **Trade Winds** | Animals | Cross open ocean on a Happy Ghast without a boat in sight | 40 |
 | ◆ | **Trawlerman** | Animals | Kill 750 Cod | 40 |
 | ★ | **Trawlerman of the Deep** | Animals | Kill 25,000 Cod | 120 |
+| · | **Treading Water** | Animals | Reel a fish in while you are in the water with it | 15 |
 | · | **Tuber or Not Tuber** | Animals | Pick up 5,000 Potatoes | 15 |
 | · | **Tug of the Rope** | Animals | Use a Lead 1,000 times | 15 |
+| ◆ | **Twin Drumsticks** | Animals | Line two Chickens up and take them both down with a single arrow | 40 |
+| · | **Two Humps and a Tomb** | Animals | Ride a Camel right up onto a Desert Pyramid | 15 |
+| · | **Two's Company** | Animals | Tame a second Parrot while the first one is already perched on you | 15 |
 | ◆ | **Untamed and Undone** | Animals | Kill 500 Ocelots | 40 |
 | · | **Up in the Stirrups** | Animals | Use a Saddle 250 times | 15 |
 | · | **Upstream Battle** | Animals | Kill 200 Salmon | 15 |
 | ★ | **Upstream and Undone** | Animals | Kill 4,000 Salmon | 120 |
 | ◆ | **Vertical Integration** | Animals | Breed a pair of Bees, then wax a Copper Block with the Honeycomb they leave you | 50 |
+| ★ | **Void Fleece** | Animals | Get a Sheep all the way to the End and shear it there | 120 |
 | ★ | **Vulpine Erasure** | Animals | Kill 15,000 Foxes | 120 |
 | ★ | **War Dogs of the Overworld** | Animals | Craft 75 sets of Wolf Armor | 120 |
 | ★ | **War Hounds Without End** | Animals | Use Wolf Armor 2,000 times | 120 |
+| ◆ | **Warren of the Sands** | Animals | Breed two Rabbits inside a Desert Pyramid | 40 |
 | ★ | **Warrens Turned to Cloth** | Animals | Collect 40,000 Rabbit Hide | 120 |
 | · | **Wascally Wabbits** | Animals | Kill 100 Rabbits | 15 |
 | ◆ | **Waxing the World** | Animals | Collect 5,000 Honeycomb | 40 |
 | ◆ | **Waxworks** | Animals | Craft 400 Honeycomb Blocks | 40 |
 | ★ | **Waxworks Unlimited** | Animals | Craft 3,000 Honeycomb Blocks | 120 |
+| · | **Wearing the Evidence** | Animals | Kill a Turtle while wearing a helmet made out of Turtles | 15 |
+| · | **Weather Balloon** | Animals | Stay on your Happy Ghast while a thunderstorm passes underneath | 15 |
 | · | **Well Done** | Animals | Kill a Cow with a Fire Aspect weapon and walk away with Cooked Beef | 20 |
 | ◆ | **Wheat Whisperer** | Animals | Feed Wheat to a Cow, a Sheep, a Goat, a Mooshroom, a Horse, a Donkey, a Mule and a Llama | 55 |
 | ★ | **Which Came Last** | Animals | Kill 50,000 Chickens | 120 |
+| ◆ | **White Out** | Animals | Shear a Sheep in the Pale Garden, the only colour for miles | 40 |
 | ★ | **Whitewater Diet** | Animals | Drink 25,000 Buckets of Milk | 120 |
 | ★ | **Winter of the Empty Woods** | Animals | Kill 4,000 Wolves | 120 |
 | · | **Wool Season** | Animals | Use Shears 600 times | 15 |
 | ★ | **Wool Without Sheep** | Animals | Craft 60,000 White Wool | 120 |
+| ◆ | **Worn to the Nub** | Animals | Wear a pair of Shears down to their very last snip | 40 |
+| ◆ | **Wreck Diving Buddy** | Animals | Loot a Shipwreck's treasure chest while a Dolphin is still towing you along | 40 |
+| ◆ | **Wrong Desert** | Animals | Ride a Camel out among the Ice Spikes | 40 |
 | ★ | **Yolk Storm** | Animals | Throw 4,000 Eggs | 120 |
 | · | **Yolk's on You** | Animals | Throw 250 Eggs | 15 |
 
@@ -1369,10 +1648,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **A Swamp Cast in Brick** | Biomes | Craft 16,384 Packed Mud. | 120 |
 | ★ | **A Wall of Dried Ocean** | Biomes | Place 32,768 Dried Kelp Blocks. | 120 |
 | ★ | **A Winter That Never Melts** | Biomes | Craft 32,768 Snow Blocks. | 120 |
+| ★ | **Above the Cloud Line** | Biomes | Raise a working Beacon on the bare stone of the Jagged Peaks | 120 |
 | ★ | **Absorbent Ambition** | Biomes | Mine 1,280 Wet Sponges | 120 |
 | ★ | **Abyssal Jouster** | Biomes | Kill a Drowned with a Spear charge while riding a Nautilus | 170 |
+| · | **Adobe** | Biomes | Tread Wheat into Mud to make Packed Mud, standing in the Mangrove Swamp it came out of | 15 |
 | ◆ | **All Eyes on Me** | Biomes | Plant ten Eyeblossoms and be standing among them when they all open at dusk | 55 |
 | ★ | **Allium of Them** | Biomes | Mine 200,000 Alliums | 120 |
+| · | **Alpenhorn** | Biomes | Sound a Goat Horn from a mountain summit above y-level 200 | 15 |
+| · | **Alpine Angler** | Biomes | Reel in a catch from a pond above y-level 200 | 15 |
 | · | **Amber Alert** | Biomes | Mine 75 Resin Clumps | 15 |
 | ★ | **Amber Assets** | Biomes | Mine 2,500 Resin Clumps | 120 |
 | ★ | **An Age of Ice** | Biomes | Place 65,536 Ice. | 120 |
@@ -1380,20 +1663,29 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Ancient Pines** | Biomes | Mine 1,000 Spruce Logs | 40 |
 | ★ | **Apex of the Arctic** | Biomes | Kill 40 Polar Bears | 120 |
 | ◆ | **Aquarium Curator** | Biomes | Collect 1,000 Tropical Fish | 40 |
+| ◆ | **Aquifer** | Biomes | Find yourself underwater below y-level -50 in the Overworld | 40 |
+| · | **Arctic Pickpocket** | Biomes | Drop something in front of a snow Fox and let it help itself | 15 |
 | ◆ | **Armada Assembled** | Biomes | Place 2,500 Oak Boats | 40 |
+| · | **Arrows of the North** | Biomes | Rifle through the Fletcher's chest in a village buried in the taiga | 15 |
 | ◆ | **Autumn Duty** | Biomes | Mine 10,000 Leaf Litter | 40 |
 | ★ | **Avalanche Author** | Biomes | Mine 50,000 Snow | 120 |
 | · | **Axe to the Oldest Tree** | Biomes | Mine 5,000 Oak Logs | 15 |
 | ◆ | **Azalea Arborist** | Biomes | Mine 2,500 Flowering Azalea | 40 |
+| · | **Bad Day to Fish** | Biomes | Hook something out of a Swamp while a thunderstorm goes on over your head | 15 |
 | ◆ | **Bad Neighbourhood** | Biomes | Loot a chest in both a Pillager Outpost and a Woodland Mansion | 40 |
 | ◆ | **Badlands Bricklayer** | Biomes | Mine 10,000 Red Sandstone | 40 |
 | ★ | **Bamboo Baron** | Biomes | Mine 25,000 Bamboo | 120 |
 | ◆ | **Banded and Broken** | Biomes | Mine 100,000 Orange Terracotta | 40 |
+| · | **Bark Off** | Biomes | Strip a Pale Oak Log down to the bone-white wood underneath, out in the Pale Garden | 15 |
 | ★ | **Barren Blue** | Biomes | Mine 100,000 Seagrass | 120 |
+| ★ | **Base Camp** | Biomes | Make camp above y-level 200 on the peaks: set a Campfire, eat a meal, and sleep the night through | 120 |
 | ◆ | **Beachcomber's Fortune** | Biomes | Collect 30 Hearts of the Sea | 40 |
 | ◆ | **Bean Counter** | Biomes | Mine 1,000 Cocoa Pods | 40 |
 | ◆ | **Bear Market** | Biomes | Kill 15 Polar Bears | 40 |
+| ◆ | **Bear Paddle** | Biomes | Kill a Polar Bear while it is out swimming | 40 |
+| · | **Beating About the Bush** | Biomes | Walk straight into one of the scrubby Bushes clinging to the Badlands | 15 |
 | ◆ | **Beauty in the Bog** | Biomes | Mine 2,500 Blue Orchids | 40 |
+| ◆ | **Bed and Cauldron** | Biomes | Put a bed down inside a Swamp Hut and spend the whole night in a Witch's house | 40 |
 | ★ | **Bedrock of the Mesa** | Biomes | Mine 500,000 Red Sand | 120 |
 | · | **Below the Waterline** | Biomes | Mine 750 Packed Ice | 15 |
 | ◆ | **Beneath the Spruce** | Biomes | Pick up 2,048 Podzol. | 40 |
@@ -1403,6 +1695,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Berry Baron** | Biomes | Mine 2,000 Sweet Berry Bushes | 120 |
 | ★ | **Beyond the Last Birch** | Biomes | Mine 250,000 Birch Logs | 120 |
 | ★ | **Beyond the Treeline** | Biomes | Mine 250,000 Spruce Logs | 120 |
+| · | **Big Leaf Energy** | Biomes | Feed Bone Meal to a Small Dripleaf in the Lush Caves until it stands taller than you | 15 |
 | · | **Biome Sandwich** | Biomes | Find a spot where three different biomes all sit within eight blocks of you | 30 |
 | ★ | **Birch Barren** | Biomes | Mine 40,000 Birch Logs | 120 |
 | ★ | **Birch Please** | Biomes | Mine 5,000 Birch Logs | 120 |
@@ -1411,12 +1704,16 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Bleached Undergrowth** | Biomes | Mine 1,500 Pale Moss Blocks | 40 |
 | ★ | **Bleached by Hand** | Biomes | Mine 4,000 Tube Coral Blocks | 120 |
 | · | **Bleaching Event** | Biomes | Mine 32 Dead Tube Coral Blocks. | 15 |
+| · | **Bleat It** | Biomes | Get killed by a Goat. A goat. Really | 15 |
 | ◆ | **Bleeding Badlands** | Biomes | Mine 4,000 Red Sand | 40 |
+| ★ | **Blessed by the Sea** | Biomes | Hold Conduit Power, Dolphin's Grace and Water Breathing all at once | 120 |
 | ◆ | **Blizzard in a Barrel** | Biomes | Collect 25,000 Snowballs | 40 |
 | ◆ | **Bloom Interrupted** | Biomes | Mine 250 Sculk Catalysts | 40 |
 | · | **Bloom in the Barrens** | Biomes | Mine 100 Cactus Flowers | 15 |
 | ★ | **Blossom Blizzard** | Biomes | Mine 2,000 Pink Petals | 120 |
 | · | **Blossom Timber** | Biomes | Craft 64 Cherry Wood. | 15 |
+| · | **Blowfish Buffet** | Biomes | Eat a raw Pufferfish while you are underwater. Bon appetit | 15 |
+| ◆ | **Blown Out to Sea** | Biomes | Get launched by an explosion and come down in water at least 15 blocks away | 40 |
 | · | **Blue Highway** | Biomes | Place 64 Blue Ice. | 15 |
 | · | **Blue Period** | Biomes | Mine 100 Cornflowers | 15 |
 | ★ | **Bluer Than Blue** | Biomes | Mine 4,000 Cornflowers | 120 |
@@ -1434,10 +1731,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Brickworks Baron** | Biomes | Mine 50,000 Clay | 40 |
 | · | **Brimstone Builder** | Biomes | Place Sulfur Bricks inside the Sulfur Caves | 15 |
 | ★ | **Brine Baron** | Biomes | Mine 2,500 Sea Pickles | 120 |
+| ★ | **Bring Your Own Ocean** | Biomes | Activate a Conduit in the End. Bring the water with you | 120 |
 | · | **Brittle Harvest** | Biomes | Mine 1,000 Short Dry Grass | 15 |
+| ★ | **Broken Roads** | Biomes | Loot the chest of a Ruined Portal in the mountains, another out in the desert and a third in the jungle | 120 |
 | ◆ | **Brushed Aside** | Biomes | Mine 128 Suspicious Sand | 40 |
+| · | **Bucket of Brrr** | Biomes | Fill a bucket with water drawn from a Frozen Ocean | 15 |
 | · | **Bucket of Stink** | Biomes | Scoop a Sulfur Cube up into a Bucket | 15 |
+| ◆ | **Bunk with the Pillagers** | Biomes | Sleep through the night in a bed you put down inside a Pillager Outpost | 40 |
 | ★ | **Cactus Cartel** | Biomes | Mine 5,000 Cactus | 120 |
+| ◆ | **Calamari Flambé** | Biomes | Channel a lightning bolt straight into a Squid | 40 |
 | ★ | **Cap Collapse** | Biomes | Mine 10,000 Red Mushroom Blocks | 120 |
 | · | **Cave Bloom** | Biomes | Plant an Eyeblossom in the Deep Dark, where the day never comes | 15 |
 | · | **Cave Cruise** | Biomes | Board a Boat inside the Lush Caves | 15 |
@@ -1449,11 +1751,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Chandelier** | Biomes | Hang a Copper Lantern inside the Dripstone Caves | 15 |
 | · | **Chart House** | Biomes | Loot the chest in a village Cartographer's house | 15 |
 | ★ | **Cherry Picked** | Biomes | Mine 1,500 Cherry Logs | 120 |
+| · | **Chilled to the Bone** | Biomes | Get shot by a Stray while you are sunk in Powder Snow | 15 |
 | · | **Chip Off the Iceberg** | Biomes | Mine 250 Packed Ice | 15 |
 | ★ | **Chocolate Factory** | Biomes | Mine 2,500 Cocoa Pods | 120 |
 | ★ | **Clear Water at Last** | Biomes | Mine 400,000 Mangrove Roots | 120 |
 | ★ | **Clear the Taiga** | Biomes | Mine 2,500 Spruce Logs | 120 |
 | ◆ | **Clearcutter** | Biomes | Mine 25,000 Oak Logs | 40 |
+| ★ | **Coats of Many Colours** | Biomes | Tame the striped Wolf of the Wooded Badlands, the spotted Wolf of the Savanna Plateau and the rusty Wolf of the Sparse Jungle | 120 |
 | ★ | **Cocoa Cartel** | Biomes | Mine 10,000 Cocoa Pods | 120 |
 | · | **Cocoa Loco** | Biomes | Mine 250 Cocoa Pods | 15 |
 | ◆ | **Cod Almighty** | Biomes | Collect 10,000 Cod | 40 |
@@ -1461,37 +1765,48 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Cold Blooded** | Biomes | Survive a full night in a Frozen Peaks biome wearing no armor at all | 55 |
 | · | **Cold Case** | Biomes | Find an Ocean Ruin sealed under a Frozen Ocean | 15 |
 | · | **Cold Pavement** | Biomes | Place 512 Ice. | 15 |
+| ◆ | **Cold Reception** | Biomes | Feed a Slimeball to a cold-variant Frog. Raise your tadpole somewhere freezing first | 40 |
 | ★ | **Colourless Harvest** | Biomes | Mine 50,000 Pale Oak Logs | 120 |
 | · | **Compressed Seaweed** | Biomes | Place 128 Dried Kelp Blocks. | 15 |
 | ★ | **Compressed Winter** | Biomes | Craft 2,560 Blue Ice | 120 |
 | ★ | **Confectioner of the Canopy** | Biomes | Mine 250,000 Cocoa Pods | 120 |
 | ★ | **Confetti Cannon** | Biomes | Mine 75,000 Pink Petals | 120 |
 | ★ | **Conifer Conqueror** | Biomes | Mine 25,000 Spruce Logs | 120 |
+| ◆ | **Copper Country** | Biomes | Build a Copper Golem in the Dripstone Caves, where all that copper came out of the walls | 40 |
 | ★ | **Coral Cathedral** | Biomes | Mine 400 Tube Coral Blocks | 120 |
 | · | **Coral Cutter** | Biomes | Mine 40 Tube Coral Blocks | 15 |
 | ◆ | **Coral Neurosurgeon** | Biomes | Mine 512 Brain Coral Blocks | 40 |
 | ★ | **Coral Sea Collector** | Biomes | Collect 16,000 Tropical Fish | 120 |
 | · | **Coral Transplant** | Biomes | Place 64 Brain Coral Blocks. | 15 |
 | ★ | **Cornflower Kingdom** | Biomes | Mine 100,000 Cornflowers | 120 |
+| ◆ | **Crash Mat** | Biomes | Fall at least 100 blocks and land in Powder Snow | 40 |
 | ★ | **Creeper of the Canopy** | Biomes | Mine 25,000 Vines | 120 |
 | · | **Creeping Green** | Biomes | Place 128 Vines. | 15 |
 | ◆ | **Crimson Cliffs Cut Down** | Biomes | Mine 60,000 Red Sandstone | 40 |
+| ★ | **Crossbreed** | Biomes | Pair a striped Wolf off with a spotted one and see which coat the pup decides on | 120 |
+| · | **Crossfire Caravan** | Biomes | Get spat at by a Llama while you are sitting on the back of another one | 15 |
 | ◆ | **Culm and Rafter** | Biomes | Place 1,024 Bamboo Stairs. | 40 |
 | ◆ | **Curtain of Leaves** | Biomes | Place 512 Vines. | 40 |
 | · | **Cutting the Monument** | Biomes | Craft 64 Prismarine Slabs. | 15 |
 | ◆ | **Dandelion Dominion** | Biomes | Mine 100,000 Dandelions | 40 |
 | ◆ | **Daylight in the Dark Forest** | Biomes | Mine 100,000 Dark Oak Logs | 40 |
+| ★ | **Death by Water** | Biomes | Let the sea have you four ways: Drowned, Guardian, Elder Guardian and Dolphin | 120 |
+| · | **Deck Gardening** | Biomes | Lay a Lily Pad on the water without ever leaving the deck of your Boat | 15 |
 | ◆ | **Deep Powder** | Biomes | Mine 1,000 Powder Snow | 40 |
+| ★ | **Deep Sea Sniper** | Biomes | Kill a Drowned from at least 50 blocks away with a thrown Trident | 120 |
 | ◆ | **Deep Sleeper** | Biomes | Sleep in the Deep Dark, the Dripstone Caves, the Lush Caves and the Sulfur Caves | 40 |
 | · | **Deep Trench** | Biomes | Stand underwater at y 40 or lower on the floor of a deep ocean | 15 |
 | ◆ | **Defoliant** | Biomes | Mine 25,000 Jungle Leaves | 40 |
 | ◆ | **Desert in Blossom** | Biomes | Mine 2,500 Cactus Flowers | 40 |
 | ★ | **Desertification** | Biomes | Mine 25,000 Sand | 120 |
+| ◆ | **Deshroomed** | Biomes | Take the Shears to a Mooshroom and leave yourself holding a very ordinary Cow | 40 |
 | ◆ | **Dig Site Destroyed** | Biomes | Mine 512 Suspicious Sand | 40 |
+| ◆ | **Doctor Fish** | Biomes | Let an Axolotl land the finishing blow and take the Regeneration it hands you | 40 |
 | ◆ | **Down Periscope** | Biomes | Ride a Nautilus inside an Ocean Monument | 50 |
 | ★ | **Drain the Ocean** | Biomes | Mine 640 Wet Sponges | 120 |
 | ◆ | **Drift Builder** | Biomes | Craft 2,048 Snow Blocks. | 40 |
 | ★ | **Drowning in Pink** | Biomes | Mine 20,000 Pink Petals | 120 |
+| ◆ | **Dry Blessing** | Biomes | Receive Conduit Power while standing out of the water. You'll want rain for that | 40 |
 | · | **Dry Season** | Biomes | Collect both Short Dry Grass and Tall Dry Grass | 15 |
 | ◆ | **Dust Bowl** | Biomes | Mine 10,000 Short Dry Grass | 40 |
 | ◆ | **Eat Local** | Biomes | Eat Sweet Berries in a Taiga, Glow Berries in the Lush Caves, a Melon Slice in a Jungle and Dried Kelp in a Warm Ocean | 40 |
@@ -1507,19 +1822,27 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Every Tuft Torn** | Biomes | Mine 400,000 Tall Grass | 120 |
 | ★ | **Every Wildflower Gathered** | Biomes | Mine 200,000 Wildflowers | 120 |
 | ★ | **Every X on Every Map** | Biomes | Collect 300 Hearts of the Sea | 120 |
+| · | **Exiled to the Highlands** | Biomes | Cut down a raid captain at an outpost standing in a Meadow and carry the Omen home | 15 |
 | ◆ | **Extreme Angling** | Biomes | Catch a fish above y 200 and again below y 0 | 40 |
 | ◆ | **Extreme Camping** | Biomes | Sleep in a bed above y 200 and again below y 0 | 40 |
 | · | **Eye in the Sky** | Biomes | Throw an Eye of Ender while standing at y 200 or higher | 15 |
 | · | **Eyes in the Undergrowth** | Biomes | Pick up 16 Open Eyeblossoms. | 15 |
 | · | **Facing the Sun** | Biomes | Mine 1,000 Sunflowers | 15 |
 | · | **Fanning Out** | Biomes | Mine 100 Tube Coral Fans | 15 |
+| ◆ | **Feeding the Floor** | Biomes | Kill something on top of a Sculk Catalyst in the Deep Dark and let the ground drink it in | 40 |
 | ★ | **Field of Blue** | Biomes | Mine 1,000 Cornflowers | 120 |
+| · | **Fire and Ice** | Biomes | Set a burning Campfire directly on top of a block of Blue Ice | 15 |
 | · | **Firefly Nights** | Biomes | Plant a Firefly Bush in a Mangrove Swamp | 15 |
+| ◆ | **Flat-Top Forestry** | Biomes | Plant an Acacia Sapling on a Windswept Savanna and force it into a tree with Bone Meal | 40 |
 | ★ | **Fleet Admiral** | Biomes | Board every kind of Boat, and the Bamboo Raft besides | 120 |
+| ◆ | **Foreclosure** | Biomes | Kill a Witch inside her own Swamp Hut | 40 |
 | · | **Forest Floor Thief** | Biomes | Mine 2,000 Podzol | 15 |
+| ★ | **Free Refill** | Biomes | Draw a Bucket of Lava back out of a Cauldron down in the Dripstone Caves | 120 |
 | ◆ | **Freezer Burn** | Biomes | Mine 2,000 Ice | 40 |
 | ◆ | **Frictionless** | Biomes | Place 2,048 Blue Ice. | 40 |
+| ◆ | **Frog Ferry** | Biomes | Set out across a Mangrove Swamp in a Boat with a Frog sitting in it beside you | 40 |
 | ★ | **Frogs Left Standing** | Biomes | Mine 10,000 Lily Pads | 120 |
+| · | **Frozen Dairy** | Biomes | Milk a cold-weather Cow, the shaggy kind that only turns up where it snows | 15 |
 | · | **Frozen Fortress** | Biomes | Find an Ocean Monument under a Deep Frozen Ocean | 15 |
 | ★ | **Frozen Interstate** | Biomes | Craft 640 Blue Ice | 120 |
 | · | **Fun Guy** | Biomes | Mine 250 Red Mushroom Blocks | 15 |
@@ -1528,6 +1851,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Fur Trader** | Biomes | Kill 5 Polar Bears | 15 |
 | ◆ | **Gardener of the Shallows** | Biomes | Place 1,024 Brain Coral Blocks. | 40 |
 | · | **Ghost Reef** | Biomes | Mine 128 Dead Tube Coral Blocks. | 15 |
+| ◆ | **Ghost Ship** | Biomes | Kill a Drowned inside a sunken Shipwreck | 40 |
 | · | **Ghost Wood** | Biomes | Mine 150 Pale Oak Logs | 15 |
 | ◆ | **Glacier Grinder** | Biomes | Mine 2,000 Packed Ice | 40 |
 | ★ | **Glacier Wrecker** | Biomes | Mine 20,000 Ice | 120 |
@@ -1536,6 +1860,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Grafted** | Biomes | Plant a Cherry Sapling in the Pale Garden and a Pale Oak Sapling in a Cherry Grove | 50 |
 | ★ | **Grain of Bone** | Biomes | Mine 5,000 Pale Oak Logs | 120 |
 | ◆ | **Grass Roots** | Biomes | Mine 3,000 Short Grass | 40 |
+| · | **Gravel Pit** | Biomes | Set foot in a Windswept Gravelly Hills, the one biome nobody ever sets out to find | 15 |
 | · | **Gray Area** | Biomes | Craft Gray Dye from a Closed Eyeblossom and Orange Dye from an Open Eyeblossom | 15 |
 | ◆ | **Grazing Land Gone** | Biomes | Mine 50,000 Short Dry Grass | 40 |
 | ◆ | **Grazing the Shallows** | Biomes | Mine 2,000 Seagrass | 40 |
@@ -1545,6 +1870,8 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Grey Carpet** | Biomes | Mine 200 Pale Moss Blocks | 15 |
 | ★ | **Grey Carpet Rolled Up** | Biomes | Mine 30,000 Pale Moss Blocks | 120 |
 | · | **Grey Curtains** | Biomes | Mine 1,000 Pale Hanging Moss | 15 |
+| · | **Grey Drapes** | Biomes | Hang Pale Hanging Moss off the underside of a Pale Oak Log | 15 |
+| ★ | **Grey Mansion** | Biomes | Cut down an Evoker inside a Woodland Mansion that happens to stand in a Pale Garden | 120 |
 | · | **Ground Zero** | Biomes | Stand in the y=0 layer of all three dimensions | 45 |
 | ★ | **Grove of Ghosts** | Biomes | Mine 200,000 Bamboo | 120 |
 | ◆ | **Guardian's Masonry** | Biomes | Craft 512 Prismarine Slabs. | 40 |
@@ -1553,57 +1880,87 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Hanami Ends** | Biomes | Mine 5,000 Cherry Logs | 120 |
 | ◆ | **Hanging Out** | Biomes | Mine 10,000 Pale Hanging Moss | 40 |
 | ◆ | **Harbourmaster** | Biomes | Place 500 Oak Boats | 40 |
+| · | **Hard Ground** | Biomes | Get an Oak Sapling to take root in the Coarse Dirt of a Wooded Badlands | 15 |
 | ◆ | **Harpooner** | Biomes | Kill a Guardian with a Spear while underwater | 50 |
 | ◆ | **Hay Fever** | Biomes | Mine 100,000 Tall Grass | 40 |
 | ◆ | **Heartless** | Biomes | Mine 50 Creaking Hearts | 40 |
 | ★ | **Heartless Woodsman** | Biomes | Mine 600 Creaking Hearts | 120 |
 | · | **Heartwood** | Biomes | Mine 10 Creaking Hearts | 15 |
+| ★ | **Hell Freezes Over** | Biomes | Ride a Boat along a Blue Ice road in the Nether | 120 |
+| · | **Her Own Medicine** | Biomes | Drink a potion inside a Swamp Hut, under the Witch's own roof | 15 |
+| ◆ | **Highest Bidder** | Biomes | Do business with a Wandering Trader two hundred blocks above sea level | 40 |
 | ★ | **Highway to the Horizon** | Biomes | Craft 1,280 Blue Ice | 120 |
 | ★ | **History Erased** | Biomes | Mine 2,048 Suspicious Sand | 120 |
 | ★ | **Hive Mind of the Deep** | Biomes | Mine 8,192 Brain Coral Blocks | 120 |
+| ★ | **Home Field Disadvantage** | Biomes | Kill an Elder Guardian while you are running on Conduit Power | 120 |
+| · | **Homemade Elevator** | Biomes | Pour a Water Bucket onto Soul Sand and open your own bubble column | 15 |
+| ◆ | **Homewrecker** | Biomes | Knock down a Bee Nest with three Bees still living in it, and take the stings that follow | 40 |
+| ◆ | **Hoodoo Voodoo** | Biomes | Get yourself on top of an Eroded Badlands spire, a hundred and ten blocks up or better | 40 |
+| ◆ | **Hot Springs** | Biomes | Take fire damage while completely underwater. Watch where you swim | 40 |
 | ★ | **Hourglass of the World** | Biomes | Mine 200,000 Sand | 120 |
 | ◆ | **House Hunting** | Biomes | Loot a house chest in a plains, desert, savanna, snowy and taiga village | 40 |
+| · | **Houseplant of the Damned** | Biomes | Pot a Dead Bush and leave it on display in the Badlands it withered in | 15 |
+| ◆ | **Husky Business** | Biomes | Tame the snowy-coated Wolf that only prowls the Groves | 40 |
 | · | **Ice Age** | Biomes | Place Ice, Packed Ice and Blue Ice in a Desert | 15 |
 | · | **Ice Breaker** | Biomes | Mine 500 Ice | 15 |
+| · | **Ice Diving** | Biomes | Swim beneath the ice sheet of a Frozen Ocean, with no sky above you | 15 |
+| · | **Ice Fishing** | Biomes | Bucket up a Salmon while standing on the ice of a Frozen River | 15 |
 | ◆ | **Ice Highway** | Biomes | Craft 128 Blue Ice | 40 |
 | · | **Ice Nine** | Biomes | Craft 16 Blue Ice | 15 |
 | ★ | **Ice Road Trucker** | Biomes | Travel five hundred blocks by boat over Blue Ice without stopping | 55 |
 | ★ | **Iceberg Eraser** | Biomes | Mine 40,000 Packed Ice | 120 |
 | ◆ | **Igloo Industrialist** | Biomes | Mine 10,000 Snow Blocks | 40 |
+| ★ | **Igloo Intervention** | Biomes | Cure the Zombie Villager locked in an Igloo's basement | 120 |
 | ★ | **Impressionist** | Biomes | Mine 4,000 Lily Pads | 120 |
 | · | **In the Frost Walker's Wake** | Biomes | Mine 250 Frosted Ice | 15 |
 | ★ | **Indigo Everything** | Biomes | Mine 40,000 Cornflowers | 120 |
+| ◆ | **Instant Forest** | Biomes | Bone-meal a Mangrove Propagule into a whole tree instead of waiting for it | 40 |
 | ★ | **Interglacial** | Biomes | Mine 50,000 Ice | 120 |
 | · | **Into the Dark Wood** | Biomes | Mine 2,000 Dark Oak Logs | 15 |
+| ★ | **Island Clinic** | Biomes | Take a Zombie Villager all the way out to the Mushroom Fields before you cure it | 120 |
+| ◆ | **Island Commerce** | Biomes | Ferry a Villager to the Mushroom Fields and open for business where no village will ever grow | 40 |
+| ★ | **Island Under Siege** | Biomes | Raise a village on the Mushroom Fields and win the raid that comes looking for it | 120 |
 | ★ | **Island Unmade** | Biomes | Mine 20,000 Mycelium | 120 |
 | ★ | **Jam Empire** | Biomes | Mine 15,000 Sweet Berry Bushes | 120 |
+| · | **Jesus Boots** | Biomes | Stroll out across open water on Frosted Ice | 15 |
 | ◆ | **Juice of the Understory** | Biomes | Collect 25,000 Melon Slices | 40 |
 | · | **Jungle Gym** | Biomes | Mine 250 Vines | 15 |
+| · | **Just Add Water** | Biomes | Pour a Water Bottle over a block of Dirt out in the Mangrove Swamp and watch it turn to Mud | 15 |
 | ◆ | **Kelp Bunker** | Biomes | Place 1,024 Dried Kelp Blocks. | 40 |
 | ◆ | **Kelp Fiction** | Biomes | Mine 2,000 Kelp | 40 |
+| · | **Kelp Forest** | Biomes | Stand inside a stalk of Kelp down on the ocean floor | 15 |
 | ★ | **Kelpocalypse** | Biomes | Mine 50,000 Kelp | 120 |
 | ★ | **Kiln of the Badlands** | Biomes | Mine 200,000 Terracotta | 120 |
 | ★ | **Kindling of the Wastes** | Biomes | Mine 20,000 Dead Bushes | 120 |
 | ★ | **Knee-Deep in Roots** | Biomes | Mine 25,000 Mangrove Logs | 120 |
+| · | **Kraken Wrangler** | Biomes | Hook a Glow Squid with your Fishing Rod | 15 |
+| ◆ | **Lactose Immunity** | Biomes | Drink Milk inside an Ocean Monument to wash the Mining Fatigue off | 40 |
 | ◆ | **Lantern Bugs** | Biomes | Mine 2,500 Firefly Bushes | 40 |
 | ◆ | **Lanterns You Can Eat** | Biomes | Collect 2,500 Glow Berries | 40 |
 | ★ | **Last Bear Standing** | Biomes | Kill 2,500 Polar Bears | 120 |
 | ★ | **Last Blossom Felled** | Biomes | Mine 150,000 Cherry Logs | 120 |
+| ★ | **Last Breath** | Biomes | Be saved by a Totem of Undying while completely underwater | 120 |
 | · | **Launch Party** | Biomes | Place 100 Oak Boats | 15 |
 | ◆ | **Layer Cake of the Mesa** | Biomes | Mine 20,000 Orange Terracotta | 40 |
 | · | **Leaf Blower** | Biomes | Mine 5,000 Jungle Leaves | 15 |
 | · | **Leapfrog** | Biomes | Mine 100 Lily Pads | 15 |
 | · | **Let It Snow** | Biomes | Mine 500 Snow | 15 |
 | · | **Light Reading** | Biomes | Plant Glow Berries on a ceiling inside the Deep Dark | 15 |
+| ★ | **Lighthouse of Atlantis** | Biomes | Complete a full four-tier Beacon down on the ocean floor. Water never stopped the beam | 120 |
 | · | **Lights in the Reeds** | Biomes | Mine 500 Firefly Bushes | 15 |
 | ★ | **Lilac Empire** | Biomes | Pick up 8,192 Lilacs. | 120 |
 | ◆ | **Loam and Needle** | Biomes | Pick up 512 Podzol. | 40 |
+| · | **Local Colour** | Biomes | Bone-meal a Grass Block in a Flower Forest and see which blooms the ground picks | 15 |
 | ◆ | **Logging the Rainforest** | Biomes | Mine 20,000 Jungle Logs | 40 |
 | ★ | **Lord of the Vines** | Biomes | Mine 2,500 Vines | 120 |
+| · | **Lost in the Long Grass** | Biomes | Push into a stand of Tall Dry Grass on the Savanna until it closes over your head | 15 |
+| · | **Meadow Mulch** | Biomes | Feed Wildflowers into a Composter set down in a Meadow | 15 |
+| ★ | **Meadow Palette** | Biomes | Standing in one Meadow, grind Wildflowers, an Azure Bluet, an Allium and a Cornflower each into dye | 120 |
 | ◆ | **Meadow Picker** | Biomes | Mine 600 Wildflowers | 40 |
 | ★ | **Meadow Stripped** | Biomes | Mine 15,000 Wildflowers | 120 |
 | ◆ | **Melon Magnate** | Biomes | Collect 5,000 Melon Slices | 40 |
 | ◆ | **Meltdown** | Biomes | Get a Snow Golem into a desert and watch it melt away | 50 |
+| ◆ | **Merchant Marine** | Biomes | Trade with a Villager while the pair of you are sitting in Boats | 40 |
 | ★ | **Mesa No More** | Biomes | Mine 500,000 Terracotta | 120 |
 | ◆ | **Mesa Unmade** | Biomes | Mine 10,000 Red Sand | 40 |
 | · | **Mind of the Reef** | Biomes | Mine 128 Brain Coral Blocks | 15 |
@@ -1613,26 +1970,36 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Moss Merchant** | Biomes | Mine 10,000 Moss Blocks | 40 |
 | ★ | **Moss Reaper** | Biomes | Mine 15,000 Pale Moss Blocks | 120 |
 | ◆ | **Moss Without Colour** | Biomes | Mine 600 Pale Moss Blocks | 40 |
+| · | **Mountain Honey** | Biomes | Break open a Bee Nest up in a Meadow | 15 |
+| · | **Mountain Milk** | Biomes | Milk a Goat more than two hundred blocks above sea level | 15 |
 | ◆ | **Mountaineer** | Biomes | Stand at y 200 or higher in the Jagged Peaks, the Frozen Peaks and the Stony Peaks | 40 |
 | · | **Mow the Lawn** | Biomes | Mine 1,000 Short Grass | 15 |
 | ★ | **Mow the World** | Biomes | Mine 25,000 Short Grass | 120 |
 | · | **Mowing the Seabed** | Biomes | Mine 250 Seagrass | 15 |
 | · | **Mud Bath** | Biomes | Mine 500 Mud | 15 |
 | ◆ | **Mud Brick Economy** | Biomes | Craft 4,096 Packed Mud. | 40 |
+| · | **Mud Wrestling** | Biomes | Get killed by a Slime while your boots are stuck fast in the Mud | 15 |
 | ★ | **Mudlark** | Biomes | Mine 20,000 Mud | 120 |
 | ◆ | **Mushroom Cloud** | Biomes | Mine 1,000 Red Mushroom Blocks | 40 |
 | ◆ | **Mushroom Island Hopper** | Biomes | Mine 400 Mycelium | 40 |
 | ★ | **Mushroom Kingdom** | Biomes | Mine 2,500 Red Mushroom Blocks | 120 |
+| · | **Native Habitat** | Biomes | Bucket an Axolotl in the Lush Caves instead of dragging one home from somewhere else | 15 |
 | ◆ | **Nectar Trail** | Biomes | Mine 1,500 Wildflowers | 40 |
 | ★ | **Needle Tycoon** | Biomes | Mine 200,000 Cactus | 120 |
 | · | **Needles Underfoot** | Biomes | Pick up 64 Podzol. | 15 |
+| ◆ | **Neptune's Dart** | Biomes | Hit a Target block's bullseye with a Trident while you are underwater | 40 |
 | · | **Nest Relocation** | Biomes | Pick up 8 Turtle Eggs. | 15 |
+| · | **Nesting Instinct** | Biomes | Breed two Turtles on the beach sand where they can actually lay | 15 |
 | ◆ | **Nine Times Frozen** | Biomes | Place 512 Blue Ice. | 40 |
 | ★ | **No Roots Left to Follow** | Biomes | Mine 10,000 Flowering Azalea | 120 |
 | ★ | **No Shade Left** | Biomes | Mine 250,000 Mangrove Logs | 120 |
 | ★ | **No Snow Left to Fall** | Biomes | Mine 500,000 Snow | 120 |
 | · | **No Tadpoles Today** | Biomes | Mine 100 Frogspawn | 15 |
 | ★ | **No Umbrella Trees Left** | Biomes | Mine 200,000 Acacia Logs | 120 |
+| ★ | **Nobody Goes There** | Biomes | Stand in a Stony Shore, a Savanna Plateau, an Old Growth Birch Forest and a Sparse Jungle | 120 |
+| ★ | **Nobody Home** | Biomes | Crack open a Dungeon chest under the Mushroom Fields, in a spawner room that never once worked | 120 |
+| · | **Not Today, Neptune** | Biomes | Block a Drowned's thrown Trident with your Shield | 15 |
+| ◆ | **Not While You're Watching** | Biomes | Get a full night's sleep in the Pale Garden with a Creaking somewhere out among the trees | 40 |
 | ★ | **Not a Blade of Dry Grass** | Biomes | Mine 200,000 Short Dry Grass | 120 |
 | ★ | **Not a Grain Left** | Biomes | Mine 30,000 Red Sand | 120 |
 | ★ | **Not a Spike Remains** | Biomes | Mine 400,000 Dripstone Blocks | 120 |
@@ -1646,14 +2013,19 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Nothing Pale Remains** | Biomes | Mine 150,000 Pale Oak Logs | 120 |
 | ★ | **Nothing Spreads Anymore** | Biomes | Mine 4,000 Sculk Catalysts | 120 |
 | ★ | **Nothing but Open Water** | Biomes | Mine 15,000 Packed Ice | 120 |
+| · | **Nursery Duty** | Biomes | Scoop a Tadpole out of its home water in the Mangrove Swamp | 15 |
+| ◆ | **Off-Menu** | Biomes | Hold a Bowl under a Brown Mooshroom and come away with something much stranger than stew | 40 |
 | ◆ | **Off-Piste** | Biomes | Mine 5,000 Powder Snow | 40 |
 | ◆ | **Old Growth Ground** | Biomes | Mine 20,000 Podzol | 40 |
 | ★ | **Old Growth, Old News** | Biomes | Mine 10,000 Spruce Logs | 120 |
+| ◆ | **On Its Last Prong** | Biomes | Wear a Trident down to its final point of durability | 40 |
 | ◆ | **Onion Flower Fanatic** | Biomes | Mine 10,000 Alliums | 40 |
+| ◆ | **Open-Cast Robbery** | Biomes | Loot an Abandoned Mineshaft chest out of the tunnels that lie open across a Badlands | 40 |
 | ◆ | **Orange Heartwood** | Biomes | Mine 10,000 Acacia Logs | 40 |
 | · | **Orange Stratum** | Biomes | Mine 2,000 Orange Terracotta | 15 |
 | · | **Orchid Picker** | Biomes | Mine 500 Blue Orchids | 15 |
 | ◆ | **Out of Place** | Biomes | Plant Bamboo in a Desert, a Cactus in a Jungle, a Cherry Sapling in a Pale Garden and a Pale Oak Sapling in a Cherry Grove | 40 |
+| ◆ | **Outpost with a View** | Biomes | Clear out a Pillager Outpost chest from a tower built high on a Meadow | 40 |
 | · | **Overdue Books** | Biomes | Loot a chest in a Stronghold library | 15 |
 | · | **Pack It Tight** | Biomes | Collect 1,000 Snowballs | 15 |
 | · | **Packed Powder** | Biomes | Craft 256 Snow Blocks. | 15 |
@@ -1668,10 +2040,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Peak Voltage** | Biomes | Call lightning down onto a Skeleton with a Channeling Trident at y 200 or higher | 40 |
 | ◆ | **Perfume of Spring** | Biomes | Pick up 512 Lilacs. | 40 |
 | · | **Petal Pusher** | Biomes | Mine 200 Pink Petals | 15 |
+| · | **Petal Soup** | Biomes | Eat a Suspicious Stew in the Flower Forest that the flower in it was picked from | 15 |
 | · | **Petal Storm** | Biomes | Stand in a Cherry Grove while it is raining | 15 |
 | ◆ | **Petals From Above** | Biomes | Mine 400 Spore Blossoms | 40 |
 | ★ | **Petals on the Wind** | Biomes | Mine 15,000 Cherry Logs | 120 |
 | ★ | **Petrified Fortune** | Biomes | Mine 750 Resin Clumps | 120 |
+| · | **Photosynthesis Optional** | Biomes | Plant a Mushroom on Mycelium with nothing but open sky above it | 15 |
 | · | **Pickle Jar** | Biomes | Mine 75 Sea Pickles | 15 |
 | ★ | **Pickled Beyond Reason** | Biomes | Mine 750 Sea Pickles | 120 |
 | ◆ | **Pink Above, Green Below** | Biomes | Mine 500 Flowering Azalea | 40 |
@@ -1680,26 +2054,32 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Pins and Needles** | Biomes | Mine 2,000 Cactus | 40 |
 | ◆ | **Platform Removed** | Biomes | Mine 5,000 Big Dripleaf | 40 |
 | · | **Poached From the Sand** | Biomes | Pick up 32 Turtle Eggs. | 15 |
+| · | **Poacher's Lunch** | Biomes | Eat Rabbit Stew up in the Meadow the rabbits were hopping about in | 15 |
 | · | **Pod Cast** | Biomes | Swim alongside a pod of five Dolphins for a full minute | 30 |
 | ◆ | **Pollen Thief** | Biomes | Mine 1,600 Spore Blossoms | 40 |
 | ◆ | **Pond Skipper** | Biomes | Mine 400 Lily Pads | 40 |
 | ◆ | **Population Control** | Biomes | Mine 500 Frogspawn | 40 |
+| ★ | **Poseidon Cosplay** | Biomes | Below y-level 0 and underwater with a Turtle Shell on your head, a Trident in hand and Conduit Power running | 120 |
 | ◆ | **Power Shower** | Biomes | Build a working Conduit inside an Ocean Monument | 60 |
 | ◆ | **Power Snorkel** | Biomes | Ride a Nautilus while inside a Conduit's power field | 45 |
 | ★ | **Preserved Forever** | Biomes | Mine 75,000 Sea Pickles | 120 |
 | ◆ | **Pricked Fingers** | Biomes | Pick up 1,024 Sweet Berries. | 40 |
 | · | **Prickly Business** | Biomes | Mine 500 Cactus | 15 |
 | ★ | **Prickly Empire** | Biomes | Mine 20,000 Cactus | 120 |
+| · | **Prickly Situation** | Biomes | Get poisoned by bumping into a puffed-up Pufferfish | 15 |
+| ★ | **Punting in the Parlour** | Biomes | Row a Boat through the halls of a Woodland Mansion, through a Swamp Hut and through an Ancient City | 120 |
 | ★ | **Purple Dust to Dust** | Biomes | Mine 150,000 Mycelium | 120 |
 | · | **Purple Patch** | Biomes | Mine 1,000 Alliums | 15 |
 | ◆ | **Purple Soil** | Biomes | Mine 1,000 Mycelium | 40 |
 | · | **Quarry in the Dunes** | Biomes | Mine 2,000 Sandstone | 15 |
 | · | **Quiet Table** | Biomes | Enchant an item while standing in the Deep Dark | 15 |
 | · | **Quiet Vandalism** | Biomes | Mine 50 Sculk Catalysts | 15 |
+| · | **Quiet as the Grave** | Biomes | Creep past a Sculk Sensor in the Deep Dark without letting it hear a thing | 15 |
 | · | **Raft Punk** | Biomes | Ride a Bamboo Raft inside a Bamboo Jungle | 15 |
 | · | **Raft Rider** | Biomes | Board a Bamboo Raft in a Bamboo Jungle | 20 |
 | · | **Rain Shadow** | Biomes | Stand in a Badlands while a thunderstorm rages everywhere else | 15 |
 | · | **Raking It In** | Biomes | Mine 1,000 Leaf Litter | 15 |
+| ◆ | **Ram Raid** | Biomes | Get rammed by a Goat while you're up above y-level 180 on the peaks | 40 |
 | · | **Red Drift** | Biomes | Mine 1,500 Red Sand | 15 |
 | · | **Red Fields Forever** | Biomes | Mine 2,000 Poppies | 15 |
 | ◆ | **Red Timber** | Biomes | Mine 1,000 Mangrove Logs | 40 |
@@ -1708,7 +2088,9 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Reef Robber** | Biomes | Mine 1,500 Tube Coral Blocks | 120 |
 | ◆ | **Remembrance** | Biomes | Mine 100,000 Poppies | 40 |
 | ◆ | **Resin Rush** | Biomes | Mine 250 Resin Clumps | 40 |
+| ◆ | **Returned to Sender** | Biomes | Kill a Drowned with a thrown Trident while you are underwater | 40 |
 | ◆ | **Rink Builder** | Biomes | Place 4,096 Ice. | 40 |
+| ◆ | **Rival Brewer** | Biomes | Brew a potion of your own inside a Swamp Hut, right under the owner's nose | 40 |
 | · | **Riverbed Robbery** | Biomes | Mine 1,000 Clay | 15 |
 | · | **Roadside Bouquet** | Biomes | Mine 200 Wildflowers | 15 |
 | ◆ | **Roofless** | Biomes | Mine 20,000 Dark Oak Logs | 40 |
@@ -1720,6 +2102,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Rusty Dunes** | Biomes | Mine 500 Red Sand | 15 |
 | ◆ | **Sakura Sawmill** | Biomes | Mine 500 Cherry Logs | 40 |
 | · | **Salt Meadow** | Biomes | Mine 750 Seagrass | 15 |
+| ◆ | **Salvage Crew** | Biomes | Empty all three chests a Shipwreck can carry: supply, treasure and map | 40 |
 | · | **Sandcastle** | Biomes | Mine 1,000 Sand | 15 |
 | ◆ | **Sands of Time** | Biomes | Mine 3,000 Sand | 40 |
 | ★ | **Sandstone Sovereign** | Biomes | Mine 400,000 Sandstone | 120 |
@@ -1736,42 +2119,64 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Sea of Green** | Biomes | Mine 10,000 Bamboo | 120 |
 | ★ | **Sea to Shining Sea** | Biomes | Sail five thousand blocks in a boat without ever touching land | 500 |
 | ◆ | **Seaweed Silo** | Biomes | Place 8,192 Dried Kelp Blocks. | 40 |
+| ◆ | **Second Wind in the Dark** | Biomes | Burn a Totem of Undying to stay alive in the Deep Dark | 40 |
 | ◆ | **Sedimentary, My Dear** | Biomes | Mine 2,000 Terracotta | 40 |
 | ★ | **Seedless Plains** | Biomes | Mine 75,000 Short Grass | 120 |
 | ◆ | **Shade of the Savanna Sold** | Biomes | Mine 50,000 Acacia Logs | 40 |
+| ◆ | **Shell Mode** | Biomes | Hold Slowness IV and Resistance III together while underwater. Turtle Master's finest | 40 |
 | · | **Shipwright** | Biomes | Fit a Chest into a Boat by crafting a Chest Boat | 15 |
+| · | **Should've Thought of That** | Biomes | Craft an Oak Boat while you are already standing in the water | 15 |
 | ★ | **Shovel Sovereign** | Biomes | Mine 20,000 Snow | 120 |
 | · | **Signpost to the Lush** | Biomes | Mine 100 Flowering Azalea | 15 |
 | ★ | **Silence the Grove** | Biomes | Mine 250 Creaking Hearts | 120 |
+| ◆ | **Silent Withdrawal** | Biomes | Empty one of the Ancient City's own chests without ever stepping out of the Deep Dark | 40 |
 | · | **Silt and Straw** | Biomes | Craft 128 Packed Mud. | 15 |
 | ◆ | **Silver Grove** | Biomes | Mine 750 Birch Logs | 40 |
 | ★ | **Skeleton of the Sea** | Biomes | Mine 40,000 Tube Coral Blocks | 120 |
 | · | **Skylight** | Biomes | Fall forty blocks down a cave mouth and land in the Lush Caves | 15 |
+| ★ | **Sleeping with the Elders** | Biomes | Clear an Ocean Monument out thoroughly enough to sleep a night inside it | 120 |
 | · | **Small Mercies** | Biomes | Loot the chest of one of the little Ocean Ruins, not the big one | 15 |
 | · | **Smokescreen** | Biomes | Punch a Squid underwater and get engulfed in the ink cloud it releases | 15 |
 | ★ | **Snipped at the Stem** | Biomes | Mine 10,000 Vines | 120 |
+| · | **Snow Cone Machine** | Biomes | Empty a bucket of Powder Snow into a Cauldron | 15 |
 | · | **Snow Day** | Biomes | Stand in a Grove biome while snow is falling on you | 15 |
 | · | **Snow Up to the Eyes** | Biomes | Mine 250 Powder Snow | 15 |
 | ◆ | **Snowball's Chance** | Biomes | Craft 8,192 Snow Blocks. | 40 |
+| ◆ | **Snowball's Chance in Hell** | Biomes | Build a Snow Golem in the Nether and say goodbye | 40 |
+| · | **Snowed In** | Biomes | Loot the chest inside a snowy village's house | 15 |
 | ◆ | **Snowed Under** | Biomes | Mine 2,000 Snow | 40 |
+| · | **Snowshoe Hare** | Biomes | Offer a Carrot to a white Rabbit out on the snow | 15 |
+| · | **Snowshoes** | Biomes | Stand on top of a block of Powder Snow without sinking in — Leather Boots required | 15 |
 | · | **Soak It Up** | Biomes | Mine 32 Wet Sponges | 15 |
+| · | **Soggy Scholar** | Biomes | Enchant something while standing in water. The books survive somehow | 15 |
+| ◆ | **Sound Above the Clouds** | Biomes | Blow a Goat Horn from a Jagged Peaks summit at least two hundred and fifty blocks up | 40 |
+| · | **Sound Thief** | Biomes | Drop a Goat Horn near a Fox and watch it trot off with your instrument | 15 |
 | ◆ | **Spawning Season** | Biomes | Collect 2,500 Salmon | 40 |
 | ★ | **Splinter of Every Soul** | Biomes | Mine 4,000 Creaking Hearts | 120 |
 | ◆ | **Sponge Diver** | Biomes | Mine 160 Wet Sponges | 40 |
 | ★ | **Spore Lord** | Biomes | Mine 25,000 Red Mushroom Blocks | 120 |
 | ★ | **Spore Sweeper** | Biomes | Mine 7,500 Mycelium | 120 |
+| · | **Spreading the Grey** | Biomes | Use Bone Meal on Pale Moss and let the colourless stuff creep further through the garden | 15 |
 | · | **Sprig of Lilac** | Biomes | Pick up 64 Lilacs. | 15 |
+| · | **Squeezing the Sun** | Biomes | Crush a Sunflower down into Yellow Dye without leaving the Sunflower Plains | 15 |
+| · | **Squelched** | Biomes | Get killed by a Slime out in the swamp where they belong | 15 |
 | ◆ | **Stalactite Slayer** | Biomes | Mine 20,000 Dripstone Blocks | 40 |
 | · | **Stalk Carpentry** | Biomes | Place 128 Bamboo Stairs. | 15 |
 | · | **Stalk Market** | Biomes | Mine 1,000 Bamboo | 15 |
+| · | **Standing in the Glow** | Biomes | Wade into the middle of a Firefly Bush in a Mangrove Swamp | 15 |
 | ◆ | **Stared Down by Flowers** | Biomes | Mine 5,000 Open Eyeblossoms | 40 |
+| · | **Stepping Stones** | Biomes | Lay a Lily Pad down on swamp water | 15 |
 | ◆ | **Stick in the Mud** | Biomes | Mine 2,000 Mud | 40 |
 | ◆ | **Sticks and Sorrow** | Biomes | Mine 1,000 Dead Bushes | 40 |
 | ★ | **Sticky Fortune** | Biomes | Mine 7,500 Resin Clumps | 120 |
 | ★ | **Stilts and Silt** | Biomes | Mine 10,000 Mangrove Logs | 120 |
 | ◆ | **Storm Rider** | Biomes | Ride a Nautilus across a deep ocean during a thunderstorm | 40 |
+| ◆ | **Storm Swimmer** | Biomes | Be out swimming in the open ocean when the lightning comes down | 40 |
 | ★ | **Stratum by Stratum** | Biomes | Mine 20,000 Terracotta | 120 |
+| ★ | **Sudden Career Change** | Biomes | Steer a channelled lightning bolt into a Villager and watch the profession change for good | 120 |
 | · | **Summit Marker** | Biomes | Place a Copper Golem Statue at y 250 or higher | 15 |
+| · | **Sunday Best** | Biomes | Empty the chest of the meeting house at the heart of a Savanna village | 15 |
+| ★ | **Sunken Dig Site** | Biomes | Brush Suspicious Sand in both a cold and a warm Ocean Ruin | 120 |
 | ◆ | **Sunken Payload** | Biomes | Open a Buried Treasure chest while Conduit Power is running on you | 40 |
 | · | **Sunken Statue** | Biomes | Leave a Copper Golem Statue standing inside an Ocean Monument | 15 |
 | ★ | **Sunless Plains** | Biomes | Mine 200,000 Sunflowers | 120 |
@@ -1786,9 +2191,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Tangled Roots** | Biomes | Mine 250 Mangrove Logs | 15 |
 | ◆ | **Tangled Up** | Biomes | Mine 1,000 Vines | 40 |
 | ◆ | **Temple Raider** | Biomes | Mine 20,000 Sandstone | 40 |
+| · | **Ten Second Lungs** | Biomes | Come up for air still breathing, courtesy of the Turtle Shell on your head | 15 |
 | ★ | **Ten Thousand Fans** | Biomes | Mine 10,000 Tube Coral Fans | 120 |
 | ★ | **Ten Thousand Sails** | Biomes | Place 10,000 Oak Boats | 120 |
 | ★ | **Ten Thousand Silences** | Biomes | Mine 10,000 Creaking Hearts | 120 |
+| ◆ | **Thaw Point** | Biomes | Place a block of Ice in a Warm Ocean and watch it give up | 40 |
 | · | **The Archaeologist's Impatience** | Biomes | Mine 32 Suspicious Sand | 15 |
 | ◆ | **The Bamboo Pagoda** | Biomes | Place 4,096 Bamboo Stairs. | 40 |
 | ◆ | **The Bear's Envy** | Biomes | Collect 10,000 Salmon | 40 |
@@ -1807,6 +2214,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Desert Hollowed** | Biomes | Mine 100,000 Sandstone | 40 |
 | ★ | **The Drowned Cathedral** | Biomes | Craft 8,192 Prismarine Slabs. | 120 |
 | ★ | **The Dunes Retreat** | Biomes | Mine 75,000 Sand | 120 |
+| ◆ | **The Elder Woods** | Biomes | Walk under the canopy of the Old Growth Pine Taiga, the Old Growth Spruce Taiga and the Old Growth Birch Forest | 40 |
 | ★ | **The Endless Bramble** | Biomes | Pick up 32,768 Sweet Berries. | 120 |
 | ★ | **The Floes Are Gone** | Biomes | Mine 250,000 Packed Ice | 120 |
 | ◆ | **The Floor Gave Way** | Biomes | Mine 1,000 Big Dripleaf | 40 |
@@ -1860,6 +2268,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Sargasso Sea** | Biomes | Mine 5,000 Kelp | 120 |
 | ★ | **The Scenic Route** | Biomes | Walk ten thousand blocks from the world centre with no vehicle, no portal and no Elytra | 400 |
 | ★ | **The Sea Floor Is Bald** | Biomes | Mine 200,000 Tall Seagrass | 120 |
+| · | **The Shrieker's Warning** | Biomes | Feel the Darkness close in on you while you are still down in the Deep Dark | 15 |
 | ★ | **The Slopes Swept Clean** | Biomes | Mine 20,000 Powder Snow | 120 |
 | ★ | **The Snowfields Levelled** | Biomes | Mine 200,000 Snow Blocks | 120 |
 | ★ | **The Swamp Drains** | Biomes | Mine 200,000 Mud | 120 |
@@ -1879,17 +2288,24 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Thirsty Work** | Biomes | Mine 5,120 Wet Sponges | 120 |
 | ◆ | **Thorny Bouquet** | Biomes | Mine 500 Cactus Flowers | 40 |
 | · | **Thorny Harvest** | Biomes | Mine 100 Sweet Berry Bushes | 15 |
+| ◆ | **Thunder Island** | Biomes | Have lightning come down right beside you while you are standing on Mycelium | 40 |
 | ★ | **Timber From the Quiet Wood** | Biomes | Craft 32,768 Pale Oak Planks. | 120 |
+| · | **Timber Wolf** | Biomes | Win over the coal-black Wolf that answers to nobody outside the Old Growth Pine Taiga | 15 |
 | ★ | **Total Erosion** | Biomes | Mine 5,000 Terracotta | 120 |
 | ★ | **Touch Grass** | Biomes | Mine 10,000 Short Grass | 120 |
 | ★ | **Trail of Embers** | Biomes | Place a Campfire in twelve different biomes, from the Mushroom Fields to the Deep Dark | 120 |
+| · | **Trapdoor Surprise** | Biomes | Find the hidden basement chest under an Igloo's carpet | 15 |
 | ◆ | **Trawler Captain** | Biomes | Collect 2,500 Cod | 40 |
 | ◆ | **Trespassers** | Biomes | Kill a Zombie in the Mushroom Fields, where none of them can spawn | 40 |
+| ★ | **Trident Trilogy** | Biomes | Kill a Guardian, an Elder Guardian and a Drowned, each with a thrown Trident | 120 |
 | ◆ | **Trimming the Meadow** | Biomes | Mine 10,000 Tall Seagrass | 40 |
+| · | **Tropical Displacement** | Biomes | Release a Tropical Fish into a Cold Ocean, far from home | 15 |
+| · | **Tug of War** | Biomes | Hook your own Boat with a Fishing Rod and reel your ride back in | 15 |
 | · | **Tumbleweed Tally** | Biomes | Mine 250 Dead Bushes | 15 |
 | ★ | **Tundra Tyrant** | Biomes | Kill 400 Polar Bears | 120 |
 | · | **Turf War** | Biomes | Mine 5,000 Grass Blocks | 15 |
 | ◆ | **Turtle Buffet** | Biomes | Mine 5,000 Seagrass | 40 |
+| ◆ | **Two Birds, One Bolt** | Biomes | Skewer two Drowned with a single Piercing crossbow shot | 40 |
 | ★ | **Two Million Blades** | Biomes | Mine 500,000 Short Grass | 120 |
 | ★ | **Two Million Stalks** | Biomes | Mine 500,000 Bamboo | 120 |
 | · | **Unblinking** | Biomes | Mine 250 Open Eyeblossoms | 15 |
@@ -1898,6 +2314,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Underground Economy** | Biomes | Trade with a Wandering Trader while you are both standing in the Deep Dark | 40 |
 | ★ | **Undersea Mower** | Biomes | Mine 40,000 Seagrass | 120 |
 | ◆ | **Underwater Landscaper** | Biomes | Mine 50,000 Tall Seagrass | 40 |
+| · | **Undisturbed** | Biomes | Sleep out in the open on the Mushroom Fields, where nothing will ever come to wake you | 15 |
 | · | **Upstream Struggle** | Biomes | Collect 500 Salmon | 15 |
 | · | **Ursa Major** | Biomes | Get mauled to death by a Polar Bear | 25 |
 | ★ | **Ursine Reckoning** | Biomes | Kill 150 Polar Bears | 120 |
@@ -1915,6 +2332,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Weeds of the Deep** | Biomes | Mine 20,000 Kelp | 120 |
 | ◆ | **Whale Song** | Biomes | Blow a Goat Horn while underwater in a deep ocean | 40 |
 | ★ | **Where the Desert Was** | Biomes | Mine 500,000 Sand | 120 |
+| · | **Whirlpool** | Biomes | Set a Magma Block down on the seabed and open a whirlpool | 15 |
 | ★ | **White Bark, Black Heart** | Biomes | Mine 15,000 Birch Logs | 120 |
 | ★ | **White Bones of the Sea** | Biomes | Mine 2,048 Dead Tube Coral Blocks. | 120 |
 | ◆ | **White Timber** | Biomes | Mine 2,000 Birch Logs | 40 |
@@ -1922,6 +2340,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Wide Awake** | Biomes | Survive a full night in the Pale Garden without breaking a single Creaking Heart | 55 |
 | ★ | **Wild No More** | Biomes | Mine 30,000 Wildflowers | 120 |
 | ◆ | **Wildflower Wanderer** | Biomes | Mine 400 Cornflowers | 40 |
+| · | **Windowsill Watcher** | Biomes | Stand an Open Eyeblossom in a Flower Pot so it can keep an eye on the room | 15 |
 | ◆ | **Winter Comes to Stay** | Biomes | Place 16,384 Ice. | 40 |
 | ★ | **Winter Undone** | Biomes | Mine 200,000 Snow | 120 |
 | ◆ | **Winter Warehouse** | Biomes | Mine 50,000 Snow Blocks | 40 |
@@ -1976,6 +2395,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **A Pot for Every Petal** | Building | Place 10,000 Flower Pots | 120 |
 | · | **A Purple Gleam** | Building | Place 128 Amethyst Blocks | 15 |
 | ★ | **A Quarter Million Fleeces** | Building | Place 75,000 White Wool | 120 |
+| · | **A Rolling Stone** | Building | Bone-meal a Moss Block and let the green take the room | 15 |
 | ◆ | **A Sign for Everything** | Building | Place 8,000 Oak Signs | 40 |
 | ★ | **A Skyline of Solid Gray** | Building | Place 100,000 Gray Concrete. | 120 |
 | ★ | **A Stronghold of My Own** | Building | Place 4,000 Stone Bricks | 120 |
@@ -1984,7 +2404,9 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Absurdly Wealthy** | Building | Place 256 Blocks of Diamond | 40 |
 | ★ | **Abyssal Illumination** | Building | Place 1,000 Sea Lanterns | 120 |
 | ◆ | **Adobe Quarter** | Building | Place 750 Mud Bricks | 40 |
+| · | **Air Conditioning** | Building | Install ice inside a Desert Pyramid | 15 |
 | ★ | **Alabaster Skyline** | Building | Place 3,000 Quartz Blocks | 120 |
+| ★ | **Alarm Clock** | Building | Install a bell inside a Pillager Outpost | 120 |
 | ◆ | **All Bark** | Building | Place a fully bark-covered Wood, Hyphae or Bamboo Block of every type | 45 |
 | ★ | **Always Under Construction** | Building | Place 3,000 Scaffolding | 120 |
 | · | **Amber Windows** | Building | Place 1,000 Orange Stained Glass Panes. | 15 |
@@ -1992,13 +2414,17 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **An Army of Mannequins** | Building | Place 256 Armor Stands | 15 |
 | ★ | **An Empire of Orange Planks** | Building | Place 100,000 Acacia Planks. | 120 |
 | ★ | **An Ocean of Sand** | Building | Place 100,000 Sand | 120 |
+| · | **Anchor Chain** | Building | Run a chain straight down through open water | 15 |
 | ◆ | **Andesite Everywhere** | Building | Place 40,000 Andesite | 40 |
 | · | **Andesite Happens** | Building | Place 1,000 Andesite | 15 |
 | ◆ | **Andesite Underfoot** | Building | Place 15,000 Polished Andesite Slabs. | 40 |
+| ◆ | **Antique Cabinet** | Building | Furnish a room with an Oxidised Copper Chest | 40 |
+| · | **Aquarium Grille** | Building | Place Iron Bars underwater without draining a drop | 15 |
 | ★ | **Ascend Forever** | Building | Place 75,000 Oak Stairs | 120 |
 | · | **Ashen Brickwork** | Building | Place 400 Tuff Bricks | 15 |
 | · | **Badlands Import** | Building | Place 400 Terracotta | 15 |
 | ★ | **Baked Earth Beyond Counting** | Building | Place 15,000 Bricks | 120 |
+| ★ | **Balcony Over Nothing** | Building | Build out below the End's island and place a block over the void | 120 |
 | · | **Banish the Dark** | Building | Place 600 Torches | 15 |
 | · | **Bare Beams** | Building | Place 1,200 Stripped Birch Wood. | 15 |
 | · | **Barred Windows** | Building | Place 500 Iron Bars | 15 |
@@ -2006,9 +2432,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Barrels in the Cellar** | Building | Place 128 Barrels | 15 |
 | · | **Basalt Colonnade** | Building | Place 2,000 Basalt | 15 |
 | · | **Bastion Mason** | Building | Place 400 Nether Bricks | 15 |
+| ◆ | **Bedrock Bedroom** | Building | Sleep at the very bottom of the world, tucked in among the bedrock | 40 |
 | ◆ | **Beds for an Army** | Building | Place 512 White Beds | 40 |
+| · | **Bedtime Reading** | Building | Leave a Written Book open on a Lectern for the next visitor | 15 |
 | ◆ | **Behind Bars Forever** | Building | Place 8,000 Iron Bars | 40 |
+| · | **Belfry** | Building | Hang a bell from a ceiling instead of standing it on the floor | 15 |
+| ◆ | **Bell Tower** | Building | Ring a bell 150 blocks above sea level | 40 |
 | · | **Bellwether** | Building | Hang a Bell from a ceiling | 15 |
+| · | **Bigger on the Inside** | Building | Place a chest so that it pairs up into a double chest | 15 |
+| ★ | **Bioluminescence** | Building | Place all three colours of Froglight | 120 |
 | · | **Blackened Halls** | Building | Place 400 Polished Blackstone Bricks | 15 |
 | ★ | **Blackstone Beyond Measure** | Building | Place 75,000 Polished Blackstone Bricks | 120 |
 | ◆ | **Blackstone Boulevard** | Building | Place 10,000 Blackstone | 40 |
@@ -2020,32 +2452,43 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Boxed In** | Building | Seal a single block inside Trapdoors on all six faces, then stand on top of the box | 20 |
 | ★ | **Brick by Brick by Brick** | Building | Place 10,000 Stone Bricks | 120 |
 | · | **Bricklayer's Union** | Building | Place 150 Bricks | 15 |
+| ◆ | **Bridge Over Troubled Lava** | Building | Place a block out over the Nether's lava sea | 40 |
 | · | **Brighter Than Torches** | Building | Place 500 Glowstone | 15 |
 | · | **Broken From Below** | Building | Place 4,000 Cobbled Deepslate | 15 |
 | ★ | **Brutalist Dreams** | Building | Place 1,000 White Concrete | 120 |
 | · | **Buffed to a Dark Shine** | Building | Place 500 Polished Deepslate | 15 |
+| ◆ | **Building Code Violation** | Building | Put a Nether Brick Fence beside a wooden fence and watch them refuse to join up | 40 |
 | · | **Building the Beach** | Building | Place 6,000 Sand | 15 |
+| ◆ | **Built Different** | Building | Build yourself a Copper Golem out of spare parts | 40 |
 | ◆ | **Built From Bedrock Up** | Building | Place 15,000 Deepslate | 40 |
 | ◆ | **Burning Wealth** | Building | Place 15,000 Blocks of Coal | 40 |
 | ★ | **Burning at Both Ends** | Building | Place 20,000 Candles | 120 |
+| ◆ | **Bust of the Fallen** | Building | Mount a mob's head on an Armour Stand | 40 |
+| · | **Cake Stand** | Building | Put a Cake on display on a Shelf | 15 |
 | ◆ | **Calcite Cladding** | Building | Place 4,000 Calcite | 40 |
 | ◆ | **Campfire Cartography** | Building | Place 4,000 Campfires | 40 |
 | · | **Camping Supplies** | Building | Buy a Campfire from a Fisherman instead of making one yourself | 15 |
+| · | **Candelabra** | Building | Crowd four candles into a single block | 15 |
 | · | **Candlelight** | Building | Place 40 Candles | 15 |
 | ★ | **Candlelight Cathedral** | Building | Place 6,000 Candles | 120 |
+| ★ | **Candlelight Vigil** | Building | Strike a light for a candle inside an Ancient City | 120 |
 | · | **Candlelit Corners** | Building | Place 128 Black Candles. | 15 |
 | ◆ | **Candlemaker** | Building | Collect all sixteen dyed Candles | 40 |
 | · | **Cane Cutter** | Building | Craft Sticks out of Bamboo instead of Planks | 15 |
 | · | **Canopy Camp** | Building | Set a Campfire down on top of a block of Leaves | 20 |
 | · | **Canvas and Wool** | Building | Craft 256 Paintings. | 15 |
+| · | **Card Catalogue** | Building | Slot an Enchanted Book into a Chiseled Bookshelf | 15 |
+| · | **Cargo Manifest** | Building | Restock a Shipwreck with a barrel of your own | 15 |
 | ◆ | **Cartographer's Wall** | Building | Stand within six blocks of nine filled Maps hung in Item Frames | 65 |
 | ◆ | **Cathedral Glasswork** | Building | Place 25,000 White Stained Glass | 40 |
 | ★ | **Cathedral of Amber Light** | Building | Place 30,000 Orange Stained Glass Panes. | 120 |
 | ★ | **Cathedral of the Deep** | Building | Place 2,000 Deepslate Bricks | 120 |
 | · | **Cave Aesthetic** | Building | Place 250 Dripstone Blocks | 15 |
+| ★ | **Ceiling Height** | Building | Place a block at Y=319, the very last layer the world will accept | 120 |
 | ★ | **Centuries in an Afternoon** | Building | Place 40,000 Mossy Stone Bricks | 120 |
 | · | **Chain of Command** | Building | Hang a Copper Lantern from an unbroken eight-block run of Copper Chain | 30 |
 | ◆ | **Chandelier Complex** | Building | Place 100 Candles | 40 |
+| · | **Chest of Drawers** | Building | Open a Shulker Box you placed as furniture instead of hauling it around | 15 |
 | ◆ | **Chisel Set** | Building | Craft or collect every kind of Chiseled block | 40 |
 | ◆ | **Chiseled in Crimson** | Building | Place 3,000 Chiseled Cinnabar. | 40 |
 | ◆ | **Cities Beyond the Portal** | Building | Place 25,000 End Stone Bricks | 40 |
@@ -2058,6 +2501,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Cobbled Together** | Building | Place 1,000 Cobblestone | 15 |
 | ◆ | **Cobbled Together Down There** | Building | Place 40,000 Cobbled Deepslate | 40 |
 | ★ | **Cobblestone Is a Lifestyle** | Building | Place 100,000 Cobblestone | 120 |
+| ★ | **Coffer Dam** | Building | Place a block while swimming on the floor of a deep ocean | 120 |
 | ◆ | **Cold Flame Boulevard** | Building | Place 2,000 Soul Lanterns | 40 |
 | ◆ | **Colour Blocked** | Building | Place 400 White Concrete | 40 |
 | · | **Coloured Light Within** | Building | Place 500 White Stained Glass | 15 |
@@ -2069,38 +2513,52 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Convincingly Ancient** | Building | Place 250 Mossy Stone Bricks | 15 |
 | ◆ | **Cooperage Complete** | Building | Place 2,000 Barrels | 40 |
 | ◆ | **Copper Beyond Counting** | Building | Place 15,000 Blocks of Copper | 40 |
+| · | **Copper Roof** | Building | Cap a copper block off with a Lightning Rod | 15 |
 | ★ | **Copper Until the Rust Takes All** | Building | Place 40,000 Cut Copper | 120 |
 | · | **Coppersmith** | Building | Place 75 Cut Copper | 15 |
 | ◆ | **Cracking Up** | Building | Collect every kind of Cracked block | 40 |
 | ◆ | **Crimson Desert Halls** | Building | Place 10,000 Red Sandstone | 40 |
+| · | **Crow Deterrent** | Building | Set a Carved Pumpkin on an Armour Stand and call it a scarecrow | 15 |
+| · | **Crows Beware** | Building | Sit a Carved Pumpkin on an Armour Stand and call it a scarecrow | 15 |
 | ◆ | **Crystal Chambers** | Building | Place 2,000 Amethyst Blocks | 40 |
 | ★ | **Curator of Everything** | Building | Place 1,500 Item Frames | 120 |
 | · | **Curtain Wall** | Building | Place 400 Glass | 15 |
 | ◆ | **Curtain and Keep** | Building | Place 600 Cobblestone Walls | 40 |
 | · | **Cutting Corners** | Building | Fit a Stair block into an inside corner | 15 |
+| ◆ | **Damp Squib** | Building | Place a Campfire underwater, where it hasn't a hope of lighting | 40 |
+| · | **Dangling Participle** | Building | Hang a lantern from the bottom end of a chain | 15 |
 | · | **Dark Masonry** | Building | Place 150 Deepslate Bricks | 15 |
 | · | **Dark Mirror Walls** | Building | Place 2,000 Polished Deepslate | 15 |
 | · | **Darker Than Night** | Building | Place 1,000 Blackstone | 15 |
 | ★ | **Darker Than the Deltas** | Building | Place 10,000 Polished Blackstone Bricks | 120 |
 | ◆ | **Daylight Indoors** | Building | Place 8,000 Glowstone | 40 |
 | · | **Deep Glow** | Building | Place 75 Sea Lanterns | 15 |
+| · | **Deep Litter** | Building | Rake Leaf Litter four segments deep | 15 |
 | ★ | **Deep Rubble Empire** | Building | Place 100,000 Cobbled Deepslate | 120 |
 | ★ | **Deeper Still We Build** | Building | Place 5,000 Deepslate Bricks | 120 |
 | ★ | **Desert Without End** | Building | Place 75,000 Sandstone | 120 |
 | · | **Detail Work** | Building | Place 300 Bamboo Trapdoors. | 15 |
 | ★ | **Diamond Is Just a Building Block** | Building | Place 4,000 Blocks of Diamond | 120 |
 | · | **Diamonds as Decor** | Building | Place 16 Blocks of Diamond | 15 |
+| ◆ | **Dim Bulb** | Building | Install an Oxidised Copper Bulb, the feeblest lamp money can buy | 40 |
+| ◆ | **Dimmer Switch** | Building | Place a fully oxidized Copper Bulb, the dimmest light copper can give | 40 |
+| ★ | **Dinner Bell** | Building | Ring a bell inside an Ancient City and hope nothing answers | 120 |
 | ◆ | **Diorite Defender** | Building | Place 40,000 Diorite | 40 |
 | · | **Diorite, Unironically** | Building | Place 1,000 Diorite | 15 |
 | · | **Display Case** | Building | Pick up 256 Item Frames. | 15 |
+| ★ | **Do Not Disturb** | Building | Sleep through a whole night inside an Ancient City | 120 |
 | ◆ | **Doors Without End** | Building | Place 900 Copper Doors. | 40 |
 | · | **Double Up** | Building | Merge two Slabs into one full double Slab | 15 |
 | · | **Down Where It's Dark** | Building | Place 2,000 Deepslate | 15 |
+| · | **Down to the Crumbs** | Building | Eat a Cake all the way down to its very last slice | 15 |
+| · | **Drapery** | Building | Bone-meal a Pale Moss Block until it hangs curtains | 15 |
+| ◆ | **Dressed by Committee** | Building | Kit out one Armour Stand in four different armour materials at once | 40 |
 | · | **Dried in the Sun** | Building | Place 300 Mud Bricks | 15 |
 | ★ | **Dried, Stacked, Repeated** | Building | Place 15,000 Mud Bricks | 120 |
 | · | **Drip Feed** | Building | Set a Cauldron directly beneath a Pointed Dripstone | 15 |
 | ◆ | **Dripstone District** | Building | Place 15,000 Dripstone Blocks | 40 |
 | · | **Dune Foundations** | Building | Place 150 Sandstone | 15 |
+| · | **Dust Bunnies** | Building | Hang a Cobweb on purpose. Nothing says 'abandoned' quite like it | 15 |
 | ★ | **Elder Guardian Envy** | Building | Place 15,000 Prismarine | 120 |
 | · | **Employee of the Month** | Building | Mount a Copper Golem Statue inside an Item Frame | 20 |
 | ◆ | **End City Envy** | Building | Place 4,000 Purpur Blocks | 40 |
@@ -2118,6 +2576,8 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Every Wall a Window** | Building | Place 15,000 Glass Panes | 120 |
 | ★ | **Everything Is Mud** | Building | Place 3,000 Mud Bricks | 120 |
 | ★ | **Everything on Display** | Building | Pick up 8,000 Item Frames. | 120 |
+| · | **Excessive Force** | Building | Light a single candle using a Fire Charge | 15 |
+| ◆ | **False Alarm** | Building | Squint at an Armour Stand through a Spyglass from 50 blocks away and think, for a second, that you have company | 40 |
 | ★ | **Fenced In Forever** | Building | Place 1,500 Oak Fences | 120 |
 | ◆ | **Ferrous Architecture** | Building | Place 2,000 Blocks of Iron | 40 |
 | ★ | **Festival Without End** | Building | Place 15,000 Lanterns | 120 |
@@ -2126,10 +2586,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Fired Earth** | Building | Place 150 Terracotta | 15 |
 | ★ | **Fired Earth Forever** | Building | Place 10,000 Terracotta | 120 |
 | ◆ | **Fired and Stacked** | Building | Place 400 Bricks | 40 |
+| · | **Fireflies After All** | Building | Plant a Firefly Bush. They said it would never happen | 15 |
 | · | **Firefly Lane** | Building | Line a path with twenty Firefly Bushes | 35 |
 | ★ | **Firelight Everywhere** | Building | Place 20,000 Torches | 120 |
 | · | **First Course** | Building | Place 300 Stone Bricks | 15 |
 | · | **First Snowfall by Hand** | Building | Place 500 Snow Blocks | 15 |
+| · | **Fish Tank** | Building | Set a waterlogged Glass Pane and keep the water on the other side of it | 15 |
+| ◆ | **Flag of Truce** | Building | Raise a White Banner inside a Pillager Outpost and see how far it gets you | 40 |
+| ◆ | **Flag of the Void** | Building | Plant a banner in the End and call the place yours | 40 |
 | ◆ | **Flammable Foundations** | Building | Place 15,000 Netherrack | 40 |
 | ◆ | **Fleece Facade** | Building | Place 1,500 White Wool | 40 |
 | · | **Floorboards** | Building | Place 500 Oak Planks | 15 |
@@ -2138,28 +2602,36 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Fortifications** | Building | Place 8,000 Deepslate Brick Walls. | 40 |
 | ◆ | **Fortress Architect** | Building | Place 1,500 Stone Bricks | 40 |
 | ★ | **Fortress Beyond Fortress** | Building | Place 5,000 Nether Bricks | 120 |
+| · | **Fortress Pantry** | Building | Set up a supply chest inside a Nether Fortress | 15 |
 | · | **Fortress Salvage** | Building | Place 150 Nether Bricks | 15 |
 | ◆ | **Fortress by Design** | Building | Place 1,000 Nether Bricks | 40 |
 | ★ | **Fortress of My Own Making** | Building | Place 2,000 Nether Bricks | 120 |
 | · | **Four of a Kind** | Building | Set a fourth Candle into a single block | 15 |
 | · | **Framed Again** | Building | Pick up 32 Item Frames. | 15 |
 | ★ | **Framed Beyond Reason** | Building | Place 5,000 Item Frames | 120 |
+| ◆ | **Free Refills** | Building | Place a cauldron directly beneath a dripstone stalactite | 40 |
 | · | **Fresh Copper Shine** | Building | Place 256 Blocks of Copper | 15 |
 | ★ | **Frictionless Architecture** | Building | Place 40,000 Smooth Stone | 120 |
 | · | **From Powder to Stone** | Building | Place 600 Gray Concrete. | 15 |
 | ◆ | **Frozen Solid Forever** | Building | Place 12,000 Packed Ice | 40 |
+| ★ | **Fully Patinated** | Building | Fit out a building with a fully oxidized Copper Door, Chest, Grate and Lantern | 120 |
 | · | **Fungal Decor** | Building | Place 250 Nether Wart Blocks | 15 |
 | · | **Fungal Lamps** | Building | Place 128 Shroomlight | 15 |
 | · | **Furnace Array** | Building | Place 512 Furnaces | 15 |
+| · | **Gaslight District** | Building | Set a lantern on top of a fence post to light the street | 15 |
+| · | **Gated Community** | Building | Hang a Fence Gate against a wall so it sits low, the way a proper gate should | 15 |
 | ◆ | **Gathering Moss** | Building | Collect every mossy block there is | 40 |
 | · | **Geode Interiors** | Building | Place 250 Calcite | 15 |
 | ◆ | **Gilded Ambition** | Building | Place 1,500 Polished Blackstone Bricks | 40 |
 | · | **Gilded Beginnings** | Building | Place 64 Blocks of Gold | 15 |
+| ◆ | **Glass Bottom** | Building | Place a glass block with water directly above it and directly below it | 40 |
 | ◆ | **Glaze Over Everything** | Building | Place 2,000 White Glazed Terracotta | 40 |
+| ◆ | **Glazier's Apprentice** | Building | Buy glass from a Librarian, then build something out of it | 40 |
 | ★ | **Glow of the Drowned Deep** | Building | Place 3,000 Sea Lanterns | 120 |
 | ◆ | **Glowstone Grid** | Building | Place 25,000 Glowstone | 40 |
 | · | **Good Fences** | Building | Place 75 Oak Fences | 15 |
 | ★ | **Good Fences, Great Neighbours** | Building | Place 5,000 Oak Fences | 120 |
+| ◆ | **Grand Entrance** | Building | Hang a door directly beside another one to make a proper double doorway | 40 |
 | · | **Grand Staircase** | Building | Place 400 Oak Stairs | 15 |
 | ◆ | **Granite Baron** | Building | Place 40,000 Granite | 40 |
 | · | **Granite State of Mind** | Building | Place 4,000 Granite | 15 |
@@ -2182,12 +2654,17 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Half a Million Shovelfuls** | Building | Place 100,000 Dirt | 120 |
 | ★ | **Half a Million Tuff Bricks** | Building | Place 75,000 Tuff Bricks | 120 |
 | · | **Hang a Light** | Building | Place 75 Lanterns | 15 |
+| ★ | **Harbour Lights** | Building | Cap a sea tower with a Sea Lantern at least 100 blocks above the waves | 120 |
+| · | **Hay Cushion** | Building | Drop 30 blocks onto a Hay Bale and walk away from it | 15 |
+| ◆ | **Hell's Kitchen Sink** | Building | Fill a cauldron with water in the Nether, the only water that survives down there | 40 |
 | ◆ | **Heraldry Everywhere** | Building | Place 512 White Banners | 40 |
 | · | **Hidden Hatch** | Building | Place a Trapdoor directly above a Ladder to hide the way down | 15 |
 | · | **Hollow Tree** | Building | Set a Beehive into a wall of Logs with one on either side | 20 |
+| ★ | **Home Away From Home** | Building | Make the End homely: an Ender Chest, a Flower Pot and a torch of your own | 120 |
 | ◆ | **Homemade Soul Sand Valley** | Building | Place 8,000 Soul Sand | 40 |
 | · | **Hot Off the Kiln** | Building | Place 75 Bricks | 15 |
 | ★ | **Hung in Every Hall** | Building | Place 1,500 Lanterns | 120 |
+| ◆ | **Ice Palace** | Building | Lay Blue Ice in the middle of a desert | 40 |
 | ◆ | **Icehouse Ambitions** | Building | Place 4,000 Packed Ice | 40 |
 | ★ | **Immaculately Dark** | Building | Place 75,000 Polished Deepslate | 120 |
 | ◆ | **Industrial Heat** | Building | Place 2,000 Furnaces | 40 |
@@ -2195,12 +2672,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Iron Beyond Counting** | Building | Place 8,000 Blocks of Iron | 40 |
 | · | **Iron in the Walls** | Building | Place 128 Blocks of Iron | 15 |
 | ◆ | **It Gets Everywhere** | Building | Place 40,000 Sand | 40 |
+| · | **Ivy League** | Building | Train a Vine up a wall you built yourself | 15 |
 | · | **Just Dirt, Actually** | Building | Place 2,000 Dirt | 15 |
 | · | **Kaleidoscope** | Building | Lay four Glazed Terracotta into a two-by-two square | 15 |
 | · | **Keep Out** | Building | Place 128 Deepslate Brick Walls. | 15 |
 | ★ | **Kiln-Fired Kingdom** | Building | Place 4,000 Bricks | 120 |
+| ◆ | **Kilroy Was Here** | Building | Plant a sign on top of the Nether's bedrock roof | 40 |
 | · | **Knock Knock** | Building | Place 150 Copper Doors. | 15 |
 | ★ | **Ladders to the Bedrock** | Building | Place 40,000 Ladders | 120 |
+| · | **Lamp Overboard** | Building | Place a lantern underwater without putting the water out | 15 |
 | · | **Lamp Post** | Building | Stand a Torch on top of a Fence post | 15 |
 | ◆ | **Lantern Festival** | Building | Place 200 Lanterns | 40 |
 | · | **Lanterns of the Lost** | Building | Place 128 Soul Lanterns | 15 |
@@ -2214,10 +2694,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Lit by Mushrooms** | Building | Place 8,000 Shroomlight | 40 |
 | · | **Load-Bearing** | Building | Place 750 Stone Bricks | 15 |
 | · | **Log Cabin** | Building | Frame a wooden Door with a Log on either side of it | 15 |
+| ◆ | **Lowered Expectations** | Building | Set a Fence Gate against a wall so that it drops down to match it | 40 |
 | · | **Mason's Best** | Building | Buy a Glazed Terracotta from a Mason villager | 15 |
 | ★ | **Masonry Without Mercy** | Building | Place 20,000 Stone Bricks | 120 |
 | ★ | **Master Carpenter** | Building | Place a Door, a Trapdoor and a Fence Gate of every single wood type | 120 |
 | · | **Mind the Gate** | Building | Slot a Fence Gate into the middle of a fence line | 15 |
+| · | **Mixed Media** | Building | Run a glass pane straight into Iron Bars and let the two connect | 15 |
 | ◆ | **Mob-Proofed** | Building | Place 1,500 Torches | 40 |
 | ★ | **Monochrome** | Building | Pack five hundred of a single dyed block into one nine-block cube | 180 |
 | ◆ | **Monument Lighting** | Building | Place 250 Sea Lanterns | 40 |
@@ -2225,13 +2707,19 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Moss Over Everything** | Building | Place 15,000 Moss Blocks | 40 |
 | ◆ | **Moving the Ground Itself** | Building | Place 15,000 Dirt | 40 |
 | ★ | **Mudbrick Millennia** | Building | Place 30,000 Mud Bricks | 120 |
+| ◆ | **Museum Lighting** | Building | Mount something in a Glow Item Frame so it can be admired after dark | 40 |
 | ★ | **Neon District** | Building | Hold a full stack of all three Froglights at once | 120 |
+| · | **Neon Sign** | Building | Rub a Glow Ink Sac on a sign to make the lettering shine | 15 |
 | ◆ | **Nether Nightlight** | Building | Place an Ochre, a Verdant and a Pearlescent Froglight in the Nether | 40 |
+| ◆ | **Nether Plumbing** | Building | Fill a cauldron with water in the Nether, the only vessel that will hold it | 40 |
 | · | **Nether's Marble** | Building | Place 150 Quartz Blocks | 15 |
 | ★ | **Never Night Again** | Building | Place 4,000 Torches | 120 |
 | · | **Nicely Framed** | Building | Place 40 Item Frames | 15 |
+| ◆ | **Nightlight** | Building | Place a torch inside an Ancient City, where the dark bites back | 40 |
+| · | **No Redstone Required** | Building | Open a Copper Door by hand, something an Iron Door will never let you do | 15 |
 | ★ | **Nothing Gets Out** | Building | Place 40,000 Oak Fences | 120 |
 | ★ | **Nothing Left to Hide Behind** | Building | Place 75,000 Glass | 120 |
+| · | **Oasis** | Building | Empty a Water Bucket in the middle of a desert | 15 |
 | ◆ | **Ocean Architect** | Building | Place 400 Prismarine | 40 |
 | ★ | **Ocean of Prismarine** | Building | Place 40,000 Prismarine | 120 |
 | · | **Off the Shelf** | Building | Take an item back off a Shelf | 15 |
@@ -2241,6 +2729,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Orange Grain** | Building | Place 5,000 Acacia Planks. | 15 |
 | · | **Overdue Book** | Building | Pull a Book back out of a Chiseled Bookshelf | 15 |
 | ◆ | **Overgrowth by Design** | Building | Place 4,000 Moss Blocks | 40 |
+| · | **Overhead Bin** | Building | Mount a barrel on the ceiling with its lid pointing at the floor | 15 |
 | ◆ | **Paddocks and Pastures** | Building | Place 600 Oak Fences | 40 |
 | · | **Palace Guard** | Building | Arm an Armour Stand with a Spear in one hand and a Shield in the other | 20 |
 | · | **Palace of Quartz** | Building | Place 400 Quartz Blocks | 15 |
@@ -2252,26 +2741,38 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Patina Pending** | Building | Place 200 Cut Copper | 15 |
 | · | **Patterned Floors** | Building | Place 128 White Glazed Terracotta | 15 |
 | · | **Pendant Light** | Building | Hang a Copper Bulb from the bottom of a Copper Chain | 20 |
+| ◆ | **Penthouse Suite** | Building | Sleep in a bed built above Y=250 | 40 |
 | ◆ | **Permafrost Architecture** | Building | Place 7,500 Snow Blocks | 40 |
 | ★ | **Pharaoh Complex** | Building | Place 5,000 Sandstone | 120 |
 | ◆ | **Piglin Bait Boulevard** | Building | Place 1,024 Blocks of Gold | 40 |
 | · | **Piglin Masonry** | Building | Place 150 Polished Blackstone Bricks | 15 |
 | ◆ | **Piglins Beware** | Building | Place 30,000 Soul Torches | 40 |
 | ◆ | **Pillars and Chisels** | Building | Place 1,500 Quartz Blocks | 40 |
+| · | **Pinch the Flame** | Building | Snuff out a burning candle with your bare hand | 15 |
 | · | **Pink Speckled Beginnings** | Building | Place 1,000 Granite | 15 |
 | · | **Pink and Patterned** | Building | Place 64 Pink Glazed Terracotta. | 15 |
 | ★ | **Plank Owner** | Building | Carry a full stack of Planks of all twelve wood types at once | 140 |
 | ★ | **Planked to Perfection** | Building | Place 25,000 Oak Planks | 120 |
 | · | **Polished Interiors** | Building | Place 4,000 Smooth Stone | 15 |
+| · | **Pool Ladder** | Building | Fit a waterlogged Ladder so swimmers can climb out | 15 |
 | · | **Portable Storage, Placed** | Building | Place 16 White Shulker Boxes | 15 |
+| · | **Porthole** | Building | Set Copper Bars into a wall underwater | 15 |
+| · | **Pot Luck** | Building | Stash something inside a Decorated Pot | 15 |
 | · | **Pot Stack** | Building | Place a Decorated Pot directly on top of another Decorated Pot | 15 |
 | · | **Potted Up** | Building | Place 20 Flower Pots | 15 |
 | ◆ | **Pottery Barn** | Building | Place twenty-five Decorated Pots without moving more than sixteen blocks | 65 |
 | · | **Poured Foundations** | Building | Place 200 White Concrete | 15 |
 | ★ | **Poured and Set** | Building | Place 2,500 White Concrete | 120 |
 | ◆ | **Powder Keg** | Building | Collect all sixteen colours of Concrete Powder | 40 |
+| ◆ | **Powder Room** | Building | Climb into a cauldron filled with Powder Snow | 40 |
+| ★ | **Preserving the Patina** | Building | Wax a fully oxidized Copper Block to hold that colour forever | 120 |
+| ★ | **Prime Real Estate** | Building | Set up house at the exact centre of the world: a chest, a painting and a night's sleep within ten blocks of 0, 0 | 120 |
+| ◆ | **Privacy Glass** | Building | Glaze a window with Tinted Glass, the only glass that keeps a secret | 40 |
+| ★ | **Private Collection** | Building | Display an Elytra, a Trident, a Totem of Undying and a Dragon Head, each in its own item frame | 120 |
 | · | **Property Line** | Building | Place 200 Oak Fences | 15 |
 | · | **Public Reading** | Building | Put a book down on a Lectern | 15 |
+| · | **Published Author** | Building | Put a book you wrote yourself out on a lectern | 15 |
+| · | **Pumpkin Carving** | Building | Take shears to a Pumpkin and carve it a face | 15 |
 | ★ | **Purity in Quantity** | Building | Place 10,000 Quartz Blocks | 120 |
 | ◆ | **Purpur Palace** | Building | Place 15,000 Purpur Blocks | 40 |
 | · | **Pyramid Scheme** | Building | Place 400 Sandstone | 15 |
@@ -2286,20 +2787,29 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Red Fortress Rising** | Building | Place 15,000 Red Nether Bricks | 40 |
 | · | **Red Rock Bottom** | Building | Place 2,000 Netherrack | 15 |
 | ◆ | **Red Sandstone Sovereign** | Building | Place 40,000 Red Sandstone | 40 |
+| ★ | **Redecorating the Deep** | Building | Light up an Ancient City with a Froglight | 120 |
+| ★ | **Regime Change** | Building | Raise a banner of your own inside a Pillager Outpost | 120 |
 | ★ | **Reinforced Ambition** | Building | Place 15,000 White Concrete | 120 |
+| · | **Rekindled** | Building | Relight a campfire that has gone out | 15 |
+| ◆ | **Restocking the Library** | Building | Add a bookshelf of your own to a Stronghold library | 40 |
 | ◆ | **Revolving Doors** | Building | Open a Door made from every type of wood | 45 |
+| ◆ | **Right at Home** | Building | Build a Snow Golem inside an Igloo | 40 |
 | ◆ | **Rooflines** | Building | Place 1,500 Oak Stairs | 40 |
+| · | **Rootling** | Building | Work a hoe over Rooted Dirt and pull out Hanging Roots for the ceiling | 15 |
 | · | **Rough and Ready Deep** | Building | Place 1,000 Cobbled Deepslate | 15 |
 | ★ | **Rubble Without a Cause** | Building | Place 15,000 Cobblestone | 120 |
 | ◆ | **Ruins Made to Order** | Building | Place 4,000 Mossy Cobblestone | 40 |
 | ★ | **Rung After Rung** | Building | Place 1,500 Ladders | 120 |
 | ◆ | **Rung by Rung** | Building | Place 200 Ladders | 40 |
 | · | **Rust-Coloured Foundations** | Building | Place 1,000 Red Sandstone | 15 |
+| · | **Safety First** | Building | Place a block 200 blocks up while crouched. Bridging is no place for bravery | 15 |
 | ★ | **Sand Made Sky** | Building | Place 15,000 Glass | 120 |
 | · | **Sanded Smooth** | Building | Place 500 Smooth Sandstone | 15 |
 | · | **Savanna Floorboards** | Building | Place 512 Acacia Planks. | 15 |
 | ★ | **Scaffold to the Void** | Building | Place 75,000 Scaffolding | 120 |
+| · | **Scraping By** | Building | Take an axe to a waxed copper block and strip the wax straight back off | 15 |
 | ◆ | **Seamless Sandstone** | Building | Place 8,000 Smooth Sandstone | 40 |
+| · | **Send Up a Flare** | Building | Set a campfire on a Hay Bale to turn it into a signal fire | 15 |
 | · | **Set in Concrete** | Building | Place 75 White Concrete | 15 |
 | ◆ | **Shadow Masonry** | Building | Place 40,000 Blackstone | 40 |
 | · | **Shards to Stone** | Building | Place 75 Prismarine | 15 |
@@ -2321,10 +2831,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Skyscraper** | Building | Build a solid column from bedrock all the way to the build limit | 220 |
 | ★ | **Skyward Scaffold** | Building | Place 1,500 Scaffolding | 120 |
 | ★ | **Slabbed Into Oblivion** | Building | Place 75,000 Smooth Stone Slabs | 120 |
+| · | **Slush Fund** | Building | Fill a cauldron with Powder Snow | 15 |
 | ★ | **Smelting at Industrial Scale** | Building | Place 25,000 Furnaces | 120 |
+| ◆ | **Smoke Break** | Building | Set a campfire directly beneath a bee nest so the bees never take offence | 40 |
 | ◆ | **Smoke Signals Everywhere** | Building | Place 1,024 Campfires | 40 |
 | · | **Smoother Than Ever** | Building | Place 1,000 Smooth Stone | 15 |
+| · | **Snack Storage** | Building | Stash a cookie inside a Decorated Pot | 15 |
 | · | **Snow Job** | Building | Stack Snow eight layers deep into one block | 15 |
+| ◆ | **Snowman's Chance in Hell** | Building | Build a Snow Golem in the Nether and watch it regret everything | 40 |
+| ◆ | **Snug as a Bug** | Building | Sleep in a Mushroom Fields biome, the one bedroom nothing can spawn in | 40 |
 | · | **Soft Furnishings** | Building | Place 150 White Wool | 15 |
 | ◆ | **Solarium** | Building | Place 1,000 Glass | 40 |
 | · | **Something Pale Grows** | Building | Place 128 Pale Moss Blocks | 15 |
@@ -2340,11 +2855,16 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Stairway to Everywhere** | Building | Place 600 Ladders | 120 |
 | · | **Stalactite** | Building | Hang a Pointed Dripstone from a Dripstone Block | 15 |
 | ◆ | **Stalactite Ceilings** | Building | Place 4,000 Dripstone Blocks | 40 |
+| · | **Stalagmighty** | Building | Stand a Pointed Dripstone upright on a pond floor | 15 |
+| · | **Statuesque** | Building | Put up a Copper Golem Statue | 15 |
 | · | **Step Up** | Building | Place 75 Ladders | 15 |
 | · | **Stone by Stone** | Building | Place 5,000 Stone. | 15 |
+| · | **Stop, Drop and Shovel** | Building | Put out a burning campfire with a shovel | 15 |
 | ◆ | **Storage Beyond Chests** | Building | Place 256 White Shulker Boxes | 40 |
 | ◆ | **Storage Beyond Sanity** | Building | Place 15,000 Chests | 40 |
 | · | **Storage Problem Solved** | Building | Place 256 Chests | 15 |
+| ◆ | **Storm Antenna** | Building | Top your roof off with a Lightning Rod 200 blocks up | 40 |
+| · | **Storm Drain** | Building | Set a waterlogged Copper Grate into the sea floor | 15 |
 | · | **Storm Magnet** | Building | Plant a Lightning Rod higher than Y=250, up where the storms live | 25 |
 | · | **Story Time** | Building | Set a Book down on a Lectern for everyone to read | 15 |
 | · | **Streetlight** | Building | Stand a Lantern on top of a Fence post | 15 |
@@ -2352,12 +2872,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Sun Trap** | Building | Set a Copper Grate into a roof with nothing but open sky above it | 20 |
 | ★ | **Sunless Masonry** | Building | Place 75,000 Deepslate Bricks | 120 |
 | · | **Sunset Through the Window** | Building | Place 128 Orange Stained Glass Panes. | 15 |
+| ◆ | **Séance** | Building | Light a cluster of four Black Candles all at once | 40 |
 | · | **Take the Stairs** | Building | Place 150 Oak Stairs | 15 |
 | ◆ | **Temple Season** | Building | Place 1,000 Sandstone | 40 |
 | ◆ | **Temple Without Texture** | Building | Place 25,000 Smooth Sandstone | 40 |
 | ★ | **Temporary Forever** | Building | Place 25,000 Scaffolding | 120 |
 | ★ | **Terracotta Gardener** | Building | Place 1,500 Flower Pots | 120 |
 | ◆ | **The Acacia Quarter** | Building | Place 25,000 Acacia Planks. | 40 |
+| ◆ | **The Amber Room** | Building | Set Chiseled Resin Bricks into a wall and glow like old sap | 40 |
 | · | **The Amethyst Alcove** | Building | Place 512 Amethyst Blocks | 15 |
 | ★ | **The Andesite Age** | Building | Place 100,000 Andesite | 120 |
 | ★ | **The Anthracite Age** | Building | Place 50,000 Blocks of Coal | 120 |
@@ -2381,6 +2903,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Blush of Stone** | Building | Place 10,000 Granite | 40 |
 | ◆ | **The Brickworks** | Building | Place 750 Bricks | 40 |
 | ◆ | **The Brutalist Turn** | Building | Place 20,000 Gray Concrete. | 40 |
+| ★ | **The Buried Sun** | Building | Complete a full-power Beacon below Y=0, sky shaft and all | 120 |
 | ★ | **The Cage World** | Building | Place 75,000 Iron Bars | 120 |
 | ★ | **The Calcite Quarter** | Building | Place 50,000 Calcite | 120 |
 | ★ | **The Cavernous Estate** | Building | Place 50,000 Dripstone Blocks | 120 |
@@ -2399,8 +2922,10 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **The Crimson Corridor** | Building | Place 1,000 Red Nether Bricks | 15 |
 | ★ | **The Crystal Districts** | Building | Place 30,000 Glass | 120 |
 | ◆ | **The Curator** | Building | Place 150 Item Frames | 40 |
+| ◆ | **The Decoy** | Building | Place a Trapped Chest right beside an ordinary one | 40 |
 | · | **The Deep Foundations** | Building | Place 6,000 Deepslate | 15 |
 | · | **The Deep Keep** | Building | Place 400 Deepslate Bricks | 15 |
+| ◆ | **The Deepest Basement** | Building | Lay a block down on the bedrock floor of the world | 40 |
 | ◆ | **The Deepslate Dominion** | Building | Place 40,000 Deepslate | 40 |
 | ◆ | **The Diamond Room** | Building | Place 64 Blocks of Diamond | 40 |
 | ★ | **The Diamond Vault** | Building | Place 1,024 Blocks of Diamond | 120 |
@@ -2438,6 +2963,8 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Grey Metropolis** | Building | Place 25,000 Stone. | 40 |
 | ★ | **The Grey Modernists** | Building | Place 6,000 White Concrete | 120 |
 | · | **The Grey in Between** | Building | Place 4,000 Andesite | 15 |
+| · | **The Grimoire Shelf** | Building | Slot an Enchanted Book into a Chiselled Bookshelf | 15 |
+| ★ | **The Guest Room** | Building | Spend the night in a Woodland Mansion | 120 |
 | · | **The Half Height Habit** | Building | Place 2,500 Polished Andesite Slabs. | 15 |
 | ★ | **The Half-Height Empire** | Building | Place 25,000 Smooth Stone Slabs | 120 |
 | ★ | **The Infinite Archive** | Building | Place 2,500 Bookshelves | 120 |
@@ -2451,6 +2978,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Lamplighter's Legacy** | Building | Place 5,000 Lanterns | 120 |
 | ◆ | **The Lamplighter's Round** | Building | Place 1,500 Oxidized Copper Lanterns. | 40 |
 | ★ | **The Librarian's Fever Dream** | Building | Place 20,000 Bookshelves | 120 |
+| ◆ | **The Lifeguard** | Building | Fit an Armour Stand with a Turtle Shell and post it underwater | 40 |
 | · | **The Long Campsite** | Building | Place 256 Campfires | 15 |
 | ★ | **The Long Vigil** | Building | Place 2,500 Candles | 120 |
 | ★ | **The Long Wall** | Building | Place 1,500 Cobblestone Walls | 120 |
@@ -2517,6 +3045,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Verdant Sprawl** | Building | Place 50,000 Moss Blocks | 120 |
 | ★ | **The Verdigris Spire** | Building | Place 1,000 Cut Copper | 120 |
 | ★ | **The Vertical Highway** | Building | Place 5,000 Ladders | 120 |
+| · | **The Village Pulpit** | Building | Read a book straight off a lectern | 15 |
 | · | **The Violet Halls** | Building | Place 1,000 Purpur Blocks | 15 |
 | ★ | **The Wailing Foundation** | Building | Place 75,000 Soul Sand | 120 |
 | · | **The Warm Glow Below** | Building | Place 512 Shroomlight | 15 |
@@ -2525,13 +3054,18 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **The White Shell** | Building | Place 1,000 Calcite | 15 |
 | · | **The Winter Wing** | Building | Place 2,000 Snow Blocks | 15 |
 | ★ | **The Wool Baron** | Building | Place 3,000 White Wool | 120 |
+| ◆ | **They Don't Stick** | Building | Place a Honey Block flush against a Slime Block; neither will ever pull the other | 40 |
+| · | **They Never Fall** | Building | Place leaves by hand so that they will never decay | 15 |
 | ◆ | **Three Hearths** | Building | Place a Campfire in the Overworld, the Nether and the End | 20 |
 | ★ | **Tides of Stone** | Building | Place 2,500 Prismarine | 120 |
 | · | **Tidewashed Masonry** | Building | Place 200 Prismarine | 15 |
 | · | **Tiled Patterns** | Building | Place 500 Pink Glazed Terracotta. | 15 |
 | · | **Tiled in Shadow** | Building | Place 500 Deepslate Tiles | 15 |
 | · | **Timber Frame** | Building | Place 1,500 Oak Planks | 15 |
+| · | **Time Means Nothing Here** | Building | Hang a Clock in an Item Frame in the Nether, where it spins forever | 15 |
 | ◆ | **Time Weathers Everything** | Building | Place 12,000 Mossy Cobblestone | 40 |
+| ◆ | **Toadstool Cottage** | Building | Build with all three huge mushroom blocks. Silk Touch required | 40 |
+| ★ | **Topping Out** | Building | Place a block at the top of the Overworld, above the Nether's roof and high over the End | 120 |
 | · | **Torch Song** | Building | Place 250 Torches | 15 |
 | ★ | **Tougher Than Tuff** | Building | Place 5,000 Tuff Bricks | 120 |
 | ★ | **Trade Until It Hurts** | Building | Place 4,000 Blocks of Emerald | 120 |
@@ -2543,17 +3077,23 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Tree Climber** | Building | Fix a Ladder to the side of a standing Log | 15 |
 | · | **Triple Hung** | Building | Hang a Hanging Sign from a Hanging Sign that hangs from a Hanging Sign | 15 |
 | · | **Trophy Case** | Building | Put a Copper Golem Statue on a Shelf | 15 |
+| · | **Truth in Advertising** | Building | Mount a Creeper Head on top of a block of TNT | 15 |
 | · | **Tuff Beginnings** | Building | Place 256 Tuff. | 15 |
 | ★ | **Tuff Enough for Anything** | Building | Place 80,000 Tuff. | 120 |
 | ◆ | **Tuff Going** | Building | Place 1,000 Tuff Bricks | 40 |
+| ★ | **Under Construction** | Building | Run Scaffolding up to 300 blocks. The site office is a long way down | 120 |
+| ★ | **Under New Management** | Building | Install a Sea Lantern of your own inside an Ocean Monument | 120 |
 | · | **Up We Go** | Building | Place 150 Scaffolding | 15 |
+| ★ | **Verdigris** | Building | Place Chiseled Copper in all four stages of its decay | 120 |
 | · | **Verdigris Lamplight** | Building | Place 256 Oxidized Copper Lanterns. | 15 |
 | · | **Vermilion Masonry** | Building | Place 64 Chiseled Cinnabar. | 15 |
 | ★ | **Vigil Eternal** | Building | Place 300 Candles | 120 |
+| ◆ | **Village Insurance** | Building | Fit a Lightning Rod to a village before the lightning finds the thatch | 40 |
 | ◆ | **Village of Dreams** | Building | Place 2,000 White Beds | 40 |
 | ◆ | **Village of Mud** | Building | Place 1,500 Mud Bricks | 40 |
 | · | **Villager Money Well Spent** | Building | Place 16 Blocks of Emerald | 15 |
 | ★ | **Vindication of Diorite** | Building | Place 100,000 Diorite | 120 |
+| ◆ | **Void Bakery** | Building | Place a Cake in the End | 40 |
 | ★ | **Volcanic Ambition** | Building | Place 30,000 Tuff Bricks | 120 |
 | ◆ | **Volcanic Architecture** | Building | Place 30,000 Basalt | 40 |
 | · | **Volcanic Masonry** | Building | Place 150 Tuff Bricks | 15 |
@@ -2561,29 +3101,41 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Waist High and Rising** | Building | Place 200 Cobblestone Walls | 15 |
 | ◆ | **Waiting on the Patina** | Building | Place 4,000 Blocks of Copper | 40 |
 | · | **Walking Slower on Purpose** | Building | Place 500 Soul Sand | 15 |
+| · | **Wall Mounted** | Building | Bolt a Grindstone to a wall instead of standing it on the floor | 15 |
 | · | **Wall Started** | Building | Place 75 Cobblestone Walls | 15 |
 | ★ | **Wall of the World** | Building | Place 40,000 Cobblestone Walls | 120 |
 | ◆ | **Wall to Wall** | Building | Carpet a whole sixteen-by-sixteen floor | 50 |
 | ◆ | **Wall to Wall Art** | Building | Craft 1,200 Paintings. | 40 |
+| ★ | **Warden's Lullaby** | Building | Sleep in a bed inside an Ancient City. Quietly | 120 |
 | ◆ | **Warden-Proof Walls** | Building | Place 1,000 Deepslate Bricks | 40 |
 | ◆ | **Warehouse District** | Building | Place 4,000 Chests | 40 |
 | ◆ | **Wart and Ruin** | Building | Place 4,000 Red Nether Bricks | 40 |
 | · | **Waterlogged** | Building | Place a Slab underwater so it fills with water | 15 |
+| · | **Watertight** | Building | Place a glass pane underwater with the sea still on both sides of it | 15 |
 | · | **Waterworks** | Building | Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out | 45 |
 | · | **Wattle and Daub** | Building | Place 150 Mud Bricks | 15 |
+| ★ | **Wax Poetic** | Building | Seal a block of copper with honeycomb at each of its four ages | 120 |
 | ★ | **Wax and Wane** | Building | Place 750 Candles | 120 |
 | · | **Wax and Wick** | Building | Place 16 Black Candles. | 15 |
 | ◆ | **Wealth Made Visible** | Building | Place 4,000 Blocks of Gold | 40 |
 | ◆ | **Weathering the Storm** | Building | Place 400 Cut Copper | 40 |
+| · | **Well Used** | Building | Decorate with an anvil that has already seen better days | 15 |
+| ◆ | **Where It Belongs** | Building | Place an Ender Chest in the End | 40 |
 | ★ | **Where the Dark Is Load-Bearing** | Building | Place 30,000 Deepslate Bricks | 120 |
 | · | **White Speckled Dreams** | Building | Place 4,000 Diorite | 15 |
+| · | **Will-o'-the-Wisp** | Building | Hang a Soul Lantern in a Soul Sand Valley | 15 |
+| · | **Wind Chimes** | Building | Hang a Copper Chain from the ceiling | 15 |
 | · | **Window Shopping** | Building | Place 200 Glass Panes | 15 |
 | ★ | **Windows Beyond Number** | Building | Place 2,500 Glass Panes | 120 |
 | ◆ | **Windows of Every Hue** | Building | Place 8,000 White Stained Glass | 40 |
 | ◆ | **Windowsill Garden** | Building | Place 50 Flower Pots | 40 |
+| ◆ | **Winged Statue** | Building | Drape an Elytra over an Armour Stand | 40 |
+| ◆ | **Winged Victory** | Building | Display a pair of Elytra on an Armour Stand | 40 |
+| · | **Witch's Kitchen** | Building | Hang a cauldron directly over a lit campfire | 15 |
 | ★ | **Wonder of the Desert** | Building | Place 2,000 Sandstone | 120 |
 | · | **Woolly Ambitions** | Building | Place 400 White Wool | 15 |
 | · | **Xerox** | Building | Copy a finished banner by crafting it beside a blank banner of the same colour | 15 |
+| ◆ | **You Are Here** | Building | Bind a compass to a Lodestone in the Nether | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -2640,7 +3192,10 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **A World Painted Blue** | Enchanting | Use 25,000 Lapis Lazuli as dye | 120 |
 | ★ | **A World That Hums** | Enchanting | Place 1,500 Enchanting Tables | 120 |
 | ◆ | **Abandoning the Altar** | Enchanting | Drop 160 Enchanting Tables | 40 |
+| · | **Acme Corporation** | Enchanting | Name an Anvil 'Acme' before you go and drop it on something | 15 |
 | · | **Aegis** | Enchanting | Name a Shield 'Aegis' on an anvil | 10 |
+| · | **Ambidextrous** | Enchanting | Hold a Sharpness V sword in each hand, even though the off-hand one does nothing whatsoever | 15 |
+| ◆ | **Amphibious Assault** | Enchanting | Kill a Drowned while fully underwater in an Aqua Affinity helmet | 40 |
 | ◆ | **An Altar in Every Hall** | Enchanting | Place 8 Enchanting Tables | 40 |
 | ★ | **An Armory of Diamond** | Enchanting | Craft 5,000 Diamond Swords | 120 |
 | ★ | **An Armoury of Axes** | Enchanting | Craft 32 Netherite Axes | 120 |
@@ -2655,21 +3210,27 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Anvils in the Road** | Enchanting | Drop 2,500 Anvils | 120 |
 | ★ | **Archive on My Back** | Enchanting | Pick up 30,000 Chiseled Bookshelves | 120 |
 | ◆ | **Armfuls of Books** | Enchanting | Pick up 4,000 Books | 40 |
+| ★ | **Arms Race** | Enchanting | Put down an Evoker, a Vindicator, a Pillager and a Ravager with a Lunge III Spear | 120 |
 | ★ | **Assembly of Anvils** | Enchanting | Place 2,000 Anvils | 120 |
 | ★ | **Author of Everything** | Enchanting | Craft 4,000 Written Books | 120 |
+| ◆ | **Automated Publishing** | Enchanting | Let a Crafter assemble a Bookshelf for you while you watch | 40 |
 | ◆ | **Axe of the Ancients** | Enchanting | Craft 8 Netherite Axes | 40 |
 | ★ | **Axes Beyond Counting** | Enchanting | Craft 128 Netherite Axes | 120 |
 | · | **Axes for Enchanting** | Enchanting | Craft 100 Diamond Axes | 15 |
 | ★ | **Azure Architecture** | Enchanting | Place 400 Blocks of Lapis Lazuli | 120 |
 | ★ | **Backbreaking Inventory** | Enchanting | Mine 600 Anvils | 120 |
+| · | **Bacon Bolt** | Enchanting | Call lightning down on a Pig with a Channeling Trident and see what walks away from it | 15 |
 | ★ | **Bamboo Beyond Belief** | Enchanting | Craft 8,000 Bamboo Shelves | 120 |
 | ★ | **Bare Walls, Full Pockets** | Enchanting | Mine 200 Chiseled Bookshelves | 120 |
 | · | **Bargain Bin** | Enchanting | Enchant an item using the table's cheapest slot, for one level and one lapis | 20 |
 | ★ | **Baron of Lapis** | Enchanting | Mine 64,000 Lapis Lazuli Ore | 120 |
 | ★ | **Beaten Past Repair** | Enchanting | Mine 4,000 Chipped Anvils | 120 |
+| · | **Bedrock Scholar** | Enchanting | Enchant something at a table set up at Y=-59 or lower, right down on the bedrock | 15 |
 | ★ | **Below the Blue Line** | Enchanting | Mine 2,500 Deepslate Lapis Lazuli Ore | 120 |
 | · | **Bench on the Back** | Enchanting | Pick up 200 Smithing Tables | 15 |
+| ◆ | **Best of Both Worlds** | Enchanting | Get Fortune III and Looting III onto one single Enchanted Book | 40 |
 | ◆ | **Beyond Repair** | Enchanting | Break a tool that was carrying both Mending and Unbreaking III | 60 |
+| ★ | **Bigger Hammer** | Enchanting | Bring a Warden down and finish it with a smash from a Density V Mace | 120 |
 | ★ | **Bindings for Every Book** | Enchanting | Pick up 40,000 Leather | 120 |
 | ★ | **Birch by the Forestful** | Enchanting | Craft 3,000 Birch Shelves | 120 |
 | ◆ | **Birchwood Fittings** | Enchanting | Craft 256 Birch Shelves | 40 |
@@ -2677,12 +3238,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Blackened It** | Enchanting | Use 500 Ink Sacs as dye | 15 |
 | · | **Blades for Enchanting** | Enchanting | Craft 100 Diamond Swords | 15 |
 | · | **Blank Pages in Hand** | Enchanting | Pick up 100 Books and Quills | 15 |
+| ◆ | **Blast Off** | Enchanting | Get thrown thirty blocks up by an explosion and come down in Feather Falling IV boots | 40 |
 | ★ | **Blast-Proof District** | Enchanting | Place 2,000 Obsidian | 120 |
 | · | **Blast-Proof Study** | Enchanting | Place 75 Obsidian | 15 |
 | ★ | **Bleached the Whole Grove** | Enchanting | Craft 8,000 Birch Shelves | 120 |
 | ★ | **Bled the Caves Blue** | Enchanting | Mine 25,000 Lapis Lazuli Ore | 120 |
+| ◆ | **Blind Shot** | Enchanting | Kill a mob with a Power V bow while Blindness has you shooting at shapes | 40 |
 | · | **Bloom in the Deep** | Enchanting | Pick up 1 Sculk Catalyst | 15 |
 | · | **Blue Bricks** | Enchanting | Craft 20 Blocks of Lapis Lazuli | 15 |
+| · | **Blue Chip Investment** | Enchanting | Buy Lapis Lazuli from a Villager instead of digging for it | 15 |
 | ★ | **Blue Dust Everywhere** | Enchanting | Pick up 15,000 Lapis Lazuli | 120 |
 | ★ | **Blue Enough for Anything** | Enchanting | Craft 4,000 Blue Dye | 120 |
 | · | **Blue Floor Plan** | Enchanting | Place 20 Blocks of Lapis Lazuli | 15 |
@@ -2697,16 +3261,22 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Bottled Levels** | Enchanting | Pick up 1,000 Bottles o' Enchanting | 15 |
 | ★ | **Bottles on the Ground** | Enchanting | Drop 5,000 Bottles o' Enchanting | 120 |
 | ★ | **Bound and Stitched** | Enchanting | Craft 200 Leather | 120 |
+| · | **Bound for Bed** | Enchanting | Go to sleep in a suit of armour you cannot take off, every piece cursed with Curse of Binding | 15 |
 | · | **Bound for the Shelf** | Enchanting | Craft 50 Books | 15 |
 | ★ | **Bound in Hide** | Enchanting | Craft 75 Leather | 120 |
 | ◆ | **Bramble Patch** | Enchanting | Let a Zombie hit you while every piece of your armour carries Thorns III | 50 |
 | ★ | **Break It, Place It, Repeat** | Enchanting | Place 2,000 Lecterns | 120 |
 | · | **Breathless Again** | Enchanting | Wear out 5 Turtle Shells until they break | 15 |
+| ◆ | **Breezy** | Enchanting | Beat a Breeze at its own game with a Mace enchanted with Wind Burst | 40 |
 | · | **Budding Interest** | Enchanting | Pick up 20 Medium Amethyst Buds | 15 |
 | ★ | **Bullion in Blue** | Enchanting | Craft 1,500 Blocks of Lapis Lazuli | 120 |
+| · | **Burning the Midnight Oil** | Enchanting | Enchant an item while you are on fire. The lapis will keep | 15 |
 | · | **By My Own Hand** | Enchanting | Craft 8 Written Books | 15 |
+| ★ | **By the Book** | Enchanting | Raise a Wither yourself, then put it down with an axe enchanted with Smite V | 120 |
 | · | **Can Opener** | Enchanting | Smash a Piglin Brute with a Mace enchanted with Breach IV | 20 |
+| ★ | **Can't Dodge This** | Enchanting | Kill an Enderman with an arrow from a Power V bow, for all the good teleporting does it | 120 |
 | ★ | **Cane as Far as Water Runs** | Enchanting | Place 10,000 Sugar Cane | 120 |
+| ◆ | **Career Change** | Enchanting | Catch a Creeper and a Pig in one channeled bolt and change both of their careers at once | 40 |
 | ★ | **Careless With Ancient Power** | Enchanting | Drop 2,000 Enchanting Tables | 120 |
 | ◆ | **Careless With Magic** | Enchanting | Drop 2,000 Bottles o' Enchanting | 40 |
 | ★ | **Carrying the Catalogue** | Enchanting | Pick up 3,000 Chiseled Bookshelves | 120 |
@@ -2720,12 +3290,14 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Chainsaw** | Enchanting | Hold a Wooden Axe carrying both Efficiency V and Unbreaking III | 15 |
 | ◆ | **Charged and Collected** | Enchanting | Pick up 5 Creeper Heads | 40 |
 | ★ | **Chasing Efficiency V** | Enchanting | Craft 1,500 Diamond Axes | 120 |
+| ★ | **Cheating the Ledger** | Enchanting | Pop a Totem of Undying while carrying a hundred levels, and keep every one of them | 120 |
 | ★ | **Chipped Beyond Counting** | Enchanting | Pick up 25,000 Chipped Anvils | 120 |
 | · | **Chipping the Blue** | Enchanting | Mine 256 Blocks of Lapis Lazuli | 15 |
 | ★ | **Citadel of Black Glass** | Enchanting | Place 4,000 Obsidian | 120 |
 | ★ | **Cleric's Best Customer** | Enchanting | Throw 1,000 Bottles o' Enchanting | 120 |
 | · | **Coals to Newcastle** | Enchanting | Kill a Blaze with a Flame Bow, for all the good the fire does | 15 |
 | ◆ | **Cobalt Vein** | Enchanting | Mine 250 Deepslate Lapis Lazuli Ore | 40 |
+| · | **Cold Comfort** | Enchanting | Carry a pair of Frost Walker boots and a pair of Depth Strider boots. They will never share a pair of feet | 15 |
 | ★ | **Collector of Intact Seams** | Enchanting | Pick up 6,000 Lapis Lazuli Ore | 120 |
 | ★ | **Complete Bibliography** | Enchanting | Pick up 1,500 Written Books | 120 |
 | ◆ | **Complete Works** | Enchanting | Carry sixteen signed Written Books at once | 40 |
@@ -2734,8 +3306,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Confetti of the Scholar** | Enchanting | Drop 7,500 Paper | 120 |
 | ★ | **Consecrated Ground** | Enchanting | Put down all eight kinds of common undead with a Smite V weapon | 130 |
 | ◆ | **Constant Scribbling** | Enchanting | Use 1,000 Books and Quills | 40 |
+| · | **Continuing Education** | Enchanting | Enchant an item inside a Trial Chamber, between waves | 15 |
 | ◆ | **Controlled Demolition** | Enchanting | Take a Creeper's blast head-on in four pieces of Blast Protection IV armour | 50 |
 | · | **Copied the Blueprint** | Enchanting | Craft 16 Netherite Upgrade Smithing Templates | 15 |
+| ◆ | **Corporate Sponsorship** | Enchanting | Enchant an item while a Beacon is feeding you Haste | 40 |
+| ◆ | **Correspondence Course** | Enchanting | Enchant an item inside a Bastion Remnant, surrounded by Piglins | 40 |
 | ★ | **Corridors of Comparators** | Enchanting | Place 1,500 Chiseled Bookshelves | 120 |
 | · | **Cover Story** | Enchanting | Craft 8 Leather | 15 |
 | · | **Cover to Cover** | Enchanting | Craft 150 Books | 15 |
@@ -2745,19 +3320,23 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Cracking the Geode** | Enchanting | Mine 128 Blocks of Amethyst | 15 |
 | ★ | **Cracks Don't Matter** | Enchanting | Place 10,000 Chipped Anvils | 120 |
 | ★ | **Cracks in the Face** | Enchanting | Mine 150 Chipped Anvils | 120 |
+| ★ | **Cramming Under Pressure** | Enchanting | Enchant an item while the Warden's Darkness is pulsing over you | 120 |
 | ★ | **Crowns of Diamond** | Enchanting | Craft 5,000 Diamond Helmets | 120 |
 | ◆ | **Culling the Collection** | Enchanting | Drop 2,000 Books | 40 |
 | ★ | **Cursed** | Enchanting | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece | 150 |
+| · | **Cursed Angler** | Enchanting | Hook something on a Fishing Rod that carries Curse of Vanishing | 15 |
 | · | **Cursed Merchandise** | Enchanting | Buy an Enchanted Book carrying a curse from a Villager | 15 |
 | · | **Cutting Edge Agriculture** | Enchanting | Spend real levels enchanting a Wooden Hoe | 20 |
 | ◆ | **Dark Panelled Study** | Enchanting | Craft 256 Dark Oak Shelves | 40 |
 | ★ | **Darkest Library in the World** | Enchanting | Craft 8,000 Dark Oak Shelves | 120 |
 | ★ | **Deaccessioned** | Enchanting | Mine 150 Bookshelves | 120 |
+| ◆ | **Dead in the Water** | Enchanting | Kill a Drowned that is armed with a Trident of its own, using your Impaling Trident | 40 |
 | ◆ | **Death by a Thousand Cuts** | Enchanting | Finish off a Ravager with Thorns | 150 |
 | ◆ | **Debris on the Basalt** | Enchanting | Drop 512 Ancient Debris | 40 |
 | ★ | **Deep Blue Territory** | Enchanting | Mine 7,500 Deepslate Lapis Lazuli Ore | 120 |
 | ◆ | **Deep Cuts** | Enchanting | Skewer a Guardian, an Elder Guardian, a Drowned and a Squid with an Impaling V Trident | 55 |
 | ◆ | **Deep Impact** | Enchanting | Take ten hearts of fall damage in a single landing while wearing Feather Falling IV boots | 50 |
+| ◆ | **Deep Study** | Enchanting | Enchant an item while you are completely underwater | 40 |
 | · | **Dented Diadem** | Enchanting | Wear out 2 Diamond Helmets until they break | 15 |
 | ◆ | **Desert Diver** | Enchanting | Stand in a Desert wearing Aqua Affinity, Respiration III and Depth Strider III | 50 |
 | ★ | **Dewey Decimal** | Enchanting | Carry sixteen Enchanted Books at once, one for each of sixteen set enchantments | 160 |
@@ -2766,14 +3345,20 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Diamonds Into Gambling Chips** | Enchanting | Craft 750 Diamond Pickaxes | 120 |
 | ★ | **Diamonds Into Paperwork** | Enchanting | Craft 256 Netherite Upgrade Smithing Templates | 120 |
 | ★ | **Diamonds Well Spent** | Enchanting | Craft 30 Enchanting Tables | 120 |
+| ◆ | **Diminishing Returns** | Enchanting | Catch Mining Fatigue from an Elder Guardian while holding an Efficiency V pickaxe | 40 |
 | ★ | **Discarded Sorcery** | Enchanting | Drop 4,000 Enchanted Books | 120 |
 | ◆ | **Discarding the Pulpit** | Enchanting | Drop 800 Lecterns | 40 |
 | · | **Disenchanted** | Enchanting | Strip an Enchanted Book back down to a plain Book on a Grindstone | 20 |
 | ★ | **Dismantled the Blue Room** | Enchanting | Mine 4,000 Blocks of Lapis Lazuli | 120 |
 | ★ | **Dismantling the Archive** | Enchanting | Mine 1,500 Chiseled Bookshelves | 120 |
+| ★ | **Diversified Portfolio** | Enchanting | Hold a Fortune III pickaxe, a Fortune III axe and a Fortune III shovel all at once | 120 |
+| ★ | **Divine Judgement** | Enchanting | Catch an Evoker, a Vindicator and a Pillager in a single channeled lightning bolt | 120 |
 | ★ | **Done With Disenchanting** | Enchanting | Drop 10,000 Grindstones | 120 |
 | · | **Down Where the Blue Is** | Enchanting | Mine 75 Deepslate Lapis Lazuli Ore | 15 |
+| · | **Down to the Last Arrow** | Enchanting | Carry an Infinity Bow and exactly one Arrow. That is all you will ever need | 15 |
+| · | **Down to the Wire** | Enchanting | Fish a Luck of the Sea III rod all the way to pieces | 15 |
 | ★ | **Drafts Beyond Counting** | Enchanting | Craft 600 Books and Quills | 120 |
+| ★ | **Dragon Drop** | Enchanting | Finish the Ender Dragon with a falling Mace smash, chained in mid-air on Wind Burst | 120 |
 | · | **Dropped the Black Stone** | Enchanting | Drop 500 Obsidian | 15 |
 | · | **Dropped the Sanctum** | Enchanting | Drop 40 Enchanting Tables | 15 |
 | · | **Dropped the Wheel** | Enchanting | Drop 200 Grindstones | 15 |
@@ -2784,10 +3369,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Dyed in Squid** | Enchanting | Use 2,000 Ink Sacs as dye | 40 |
 | ★ | **Dyed the Whole Flock** | Enchanting | Use 8,000 Lapis Lazuli as dye | 120 |
 | ◆ | **Dyeing the Surplus** | Enchanting | Craft 400 Blue Dye | 40 |
+| ◆ | **Easy Come, Easy Go** | Enchanting | Die wearing a piece of armour carrying Curse of Vanishing, and watch it go with you | 40 |
 | ★ | **Emerald Into Experience** | Enchanting | Pick up 10,000 Bottles o' Enchanting | 120 |
 | ★ | **Employment for All** | Enchanting | Place 300 Smithing Tables | 120 |
 | ★ | **Emptied Every Reading Room** | Enchanting | Mine 4,000 Bookshelves | 120 |
 | · | **Empties in Hand** | Enchanting | Pick up 1,000 Glass Bottles | 15 |
+| · | **Empty Handed** | Enchanting | Kill an Iron Golem with a Looting III sword; Looting will not add one single ingot | 15 |
 | · | **Emptying the Stacks** | Enchanting | Mine 25 Chiseled Bookshelves | 15 |
 | ★ | **Every Anvil Nearly Dead** | Enchanting | Place 25,000 Damaged Anvils | 120 |
 | ★ | **Every Axe I Ever Wanted** | Enchanting | Craft 15,000 Diamond Axes | 120 |
@@ -2795,6 +3382,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Every Book Has a Pulse** | Enchanting | Craft 4,000 Chiseled Bookshelves | 120 |
 | ★ | **Every Copy Ever Printed** | Enchanting | Pick up 15,000 Written Books | 120 |
 | ★ | **Every Cow Had a Say** | Enchanting | Craft 750 Books | 120 |
+| ★ | **Every Library in the Land** | Enchanting | Buy an Enchanted Book from a Villager of all seven village types | 120 |
 | ★ | **Every Oak Fell for This** | Enchanting | Craft 10,000 Oak Shelves | 120 |
 | ★ | **Every Page That Ever Was** | Enchanting | Craft 100,000 Paper | 120 |
 | ★ | **Every Shelf I Ever Owned** | Enchanting | Pick up 70,000 Bookshelves | 120 |
@@ -2802,38 +3390,60 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Every Slot Accounted For** | Enchanting | Pick up 10,000 Chiseled Bookshelves | 120 |
 | ★ | **Everything Comes Off Eventually** | Enchanting | Craft 100 Grindstones | 120 |
 | ★ | **Everything Goes Black** | Enchanting | Use 8,000 Ink Sacs as dye | 120 |
+| ★ | **Everything With Legs** | Enchanting | Kill a Spider, a Cave Spider, a Silverfish, an Endermite and a Bee, every one of them with a Bane of Arthropods V sword | 120 |
 | ★ | **Except the Curses** | Enchanting | Craft 200 Grindstones | 120 |
+| · | **Face Lift** | Enchanting | Carve a Pumpkin with Shears enchanted with Efficiency V | 15 |
 | · | **Ferrous Fatigue** | Enchanting | Wear out 40 Iron Leggings until they break | 15 |
+| · | **Field Goal** | Enchanting | Hit a Chicken with a Knockback II sword and let it go about its day | 15 |
 | ★ | **Fifteen Thousand Blades Forged** | Enchanting | Craft 15,000 Diamond Swords | 120 |
 | ★ | **Fifteen Thousand Empty Books** | Enchanting | Pick up 15,000 Books and Quills | 120 |
 | · | **Fifteen and Fine** | Enchanting | Craft 15 Bookshelves | 15 |
 | ★ | **Fifty Thousand Podiums** | Enchanting | Pick up 50,000 Lecterns | 120 |
 | ★ | **Fifty Thousand Slow Mines** | Enchanting | Pick up 40,000 Obsidian | 120 |
+| ◆ | **Filing System** | Enchanting | Have an Allay drop an Enchanted Book onto a Note Block for you | 40 |
+| ★ | **Fireproof Trio** | Enchanting | Kill a Ghast, a Blaze and a Wither Skeleton with a Flame bow, not one of which can burn | 120 |
 | · | **First Crack** | Enchanting | Mine 4 Chipped Anvils | 15 |
 | · | **First Draft** | Enchanting | Craft 8 Books and Quills | 15 |
 | ★ | **Fishing for Aqua Affinity** | Enchanting | Craft 1,500 Diamond Helmets | 120 |
 | ★ | **Five Thousand Broken Spears** | Enchanting | Break 5,000 Tridents | 120 |
+| · | **Flat-Pack Furniture** | Enchanting | Buy a Bookshelf from a Villager rather than chopping and binding your own | 15 |
+| · | **Floating Faculty** | Enchanting | Enchant an item without getting out of your Oak Boat | 15 |
+| ◆ | **Flogging a Dead Horse** | Enchanting | Put a Skeleton Horse down with a sword enchanted with Smite V | 40 |
 | ★ | **Footsore in Iron Rings** | Enchanting | Wear out 128 Chainmail Boots until they break | 120 |
 | · | **Forbidden Knowledge** | Enchanting | Enchant an item at a table you have set up inside the Deep Dark | 20 |
 | ★ | **Forge of Bitter Axes** | Enchanting | Craft 5,000 Diamond Axes | 120 |
 | ◆ | **Fortune Favours the Melon** | Enchanting | Break Melons with a Fortune III Axe until you are holding more than nine slices | 40 |
+| ★ | **Free Practice** | Enchanting | Hit the bullseye of a Target from thirty blocks out with an Infinity Bow | 120 |
 | ★ | **Fresh Anvil, Fresh Start** | Enchanting | Place 250 Anvils | 120 |
 | ◆ | **Frugal Enchanter** | Enchanting | Spend real levels enchanting all five Copper tools at an Enchanting Table | 50 |
 | ★ | **Full Curriculum** | Enchanting | Buy Protection IV, Sharpness V, Efficiency V, Power V and Unbreaking III books from Villagers | 140 |
+| ◆ | **Full Send** | Enchanting | Charge a Hoglin at a dead sprint and finish it with a Lunge III Spear | 40 |
+| ★ | **Full Steam Ahead** | Enchanting | Own an Efficiency V pickaxe, axe, shovel, hoe and pair of Shears. Yes, Shears take it too | 120 |
+| · | **Full Swing** | Enchanting | Split a Magma Cube apart with a sword enchanted with Sweeping Edge III | 15 |
+| ◆ | **Fully Committed** | Enchanting | Sink thirty levels into a Spear in one go at an Enchanting Table | 40 |
 | ★ | **Furnished to the Rafters** | Enchanting | Craft 150 Oak Shelves | 120 |
 | · | **Gathering the Words** | Enchanting | Pick up 1,000 Books | 15 |
+| ★ | **Ghast Buster** | Enchanting | Drop a Ghast from at least a hundred blocks away with a Power V bow | 120 |
+| · | **Ghostwriter** | Enchanting | Hand an Allay an Enchanted Book and let it do the reading | 15 |
 | ★ | **Glass Everywhere** | Enchanting | Pick up 10,000 Glass Bottles | 120 |
 | ★ | **Glass Underfoot** | Enchanting | Throw 6,000 Bottles o' Enchanting | 120 |
+| · | **Global Warming** | Enchanting | Melt a Snow Golem down with a sword enchanted with Fire Aspect II | 15 |
+| ◆ | **Golden Opportunity** | Enchanting | Kill a Piglin Brute with a Golden Sword enchanted with Sharpness V, the best enchantments on the worst blade | 40 |
+| · | **Grim Studies** | Enchanting | Enchant an item in a Pale Garden, with the Creakings watching | 15 |
 | ★ | **Grinding Down the World** | Enchanting | Craft 2,000 Grindstones | 120 |
 | ★ | **Grindstones by the Cartload** | Enchanting | Pick up 18,000 Grindstones | 120 |
 | ◆ | **Ground and Pound** | Enchanting | Flatten a Ravager with a Mace enchanted with Density V | 50 |
 | ★ | **Grows Faster Than I Can Cut** | Enchanting | Craft 3,000 Bamboo Shelves | 120 |
+| · | **Guest Lecturer** | Enchanting | Enchant an item inside a Woodland Mansion. The Illagers keep a fine library | 15 |
 | ★ | **Half a Million Shades of Blue** | Enchanting | Craft 40,000 Blue Dye | 120 |
 | ★ | **Hammered Thin** | Enchanting | Mine 40 Chipped Anvils | 120 |
 | ★ | **Handles Without Heads** | Enchanting | Break 2,000 Diamond Pickaxes | 120 |
 | ★ | **Hauling Iron Uphill** | Enchanting | Mine 1,500 Anvils | 120 |
 | ★ | **Hauling Wounded Iron** | Enchanting | Pick up 8,000 Chipped Anvils | 120 |
 | ◆ | **Hauling the Pulpits** | Enchanting | Pick up 1,200 Lecterns | 40 |
+| · | **Head in the Clouds** | Enchanting | Fire a Piercing IV Crossbow while a Shulker has you floating in mid-air | 15 |
+| ◆ | **Heavy Investment** | Enchanting | Sink thirty levels into a Mace in one go at an Enchanting Table | 40 |
+| ◆ | **Heirloom** | Enchanting | Own a tool carrying both Mending and Curse of Vanishing. Immortal, right up until you die | 40 |
 | ◆ | **Held Together by Habit** | Enchanting | Place 600 Damaged Anvils | 40 |
 | ★ | **Helmets Beyond Any Head** | Enchanting | Craft 15,000 Diamond Helmets | 120 |
 | · | **Helms for Enchanting** | Enchanting | Craft 100 Diamond Helmets | 15 |
@@ -2846,9 +3456,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Hiring Spree** | Enchanting | Craft 25 Lecterns | 40 |
 | ★ | **Hoard of a Thousand Libraries** | Enchanting | Pick up 100,000 Books | 120 |
 | ★ | **Hoarding the Deepslate Blue** | Enchanting | Pick up 6,000 Deepslate Lapis Lazuli Ore | 120 |
+| · | **Hog Rider** | Enchanting | Kill a mob with a Sharpness V sword from the back of a Pig | 15 |
 | · | **Home Run** | Enchanting | Kill a Ghast with a bow enchanted with Punch II | 20 |
 | ◆ | **Hook, Line and Mender** | Enchanting | Fish an Enchanted Book with Mending out of the water | 60 |
 | ◆ | **Hot Commute** | Enchanting | Ride a Strider across a lava sea in four pieces of Fire Protection IV armour | 45 |
+| ◆ | **Hot Reload** | Enchanting | Fire a Quick Charge III Crossbow from the back of a Strider | 40 |
+| · | **Hot-Headed** | Enchanting | Kill a mob with a Sharpness V sword while you yourself are on fire | 15 |
+| ◆ | **Humiliating** | Enchanting | Get killed by a Silverfish while holding a Bane of Arthropods V sword | 40 |
 | · | **Icarus** | Enchanting | Wear an Elytra you have named 'Icarus' | 15 |
 | ★ | **Ink Under the Fingernails** | Enchanting | Craft 200 Books and Quills | 120 |
 | ◆ | **Ink-Stained** | Enchanting | Craft 25 Books and Quills | 40 |
@@ -2858,14 +3472,18 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Iron Habit** | Enchanting | Craft 25 Anvils | 40 |
 | ◆ | **Irreconcilable Differences** | Enchanting | Hold a Density V Mace and a Breach IV Mace at the same time | 70 |
 | · | **It Weeps Purple** | Enchanting | Place 500 Crying Obsidian | 15 |
+| · | **Ivory Tower** | Enchanting | Spend levels at an Enchanting Table you hauled up above Y=300 | 15 |
 | · | **Job Opening** | Enchanting | Craft 8 Lecterns | 15 |
 | ★ | **Joinery Without End** | Enchanting | Craft 400 Oak Shelves | 120 |
 | ★ | **Journals Beyond Counting** | Enchanting | Pick up 1,500 Books and Quills | 120 |
+| ◆ | **Jousting Practice** | Enchanting | Shove a Ravager with a Knockback II sword from the saddle of a Horse | 40 |
 | ◆ | **Jungle Joinery** | Enchanting | Craft 256 Bamboo Shelves | 40 |
 | ★ | **Knows Every Page by Heart** | Enchanting | Read 20,000 Written Books | 120 |
+| · | **Lance Corporal** | Enchanting | Sit on a Horse with a Spear enchanted with Lunge III in your hand | 15 |
 | ◆ | **Lapis Lounge** | Enchanting | Place 50 Blocks of Lapis Lazuli | 40 |
 | ◆ | **Lapis Underfoot** | Enchanting | Drop 3,000 Lapis Lazuli | 40 |
 | · | **Lapis to Spare** | Enchanting | Craft 75 Blue Dye | 15 |
+| ◆ | **Last Resort** | Enchanting | Cheat death with a Totem of Undying while wearing a helmet you are not allowed to remove | 40 |
 | · | **Laying the Altar** | Enchanting | Place 40 Obsidian | 15 |
 | ★ | **Leather Beyond Counting** | Enchanting | Pick up 100,000 Leather | 120 |
 | · | **Leather Bound** | Enchanting | Own a full set of Leather armour with Protection IV on every single piece | 20 |
@@ -2882,6 +3500,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Letting Go of Knowledge** | Enchanting | Drop 45,000 Bookshelves | 120 |
 | · | **Level Up Fast** | Enchanting | Throw 200 Bottles o' Enchanting | 15 |
 | ★ | **Levels Out of Thin Air** | Enchanting | Throw 15,000 Bottles o' Enchanting | 120 |
+| ◆ | **Levels to Burn** | Enchanting | Enchant an item while sitting on a hundred levels you refuse to spend | 40 |
 | ◆ | **Librarian's Pet** | Enchanting | Buy a Mending book off a Librarian | 50 |
 | ◆ | **Library Card Revoked** | Enchanting | Mine 40 Bookshelves | 40 |
 | · | **Lifting With the Knees** | Enchanting | Pick up 200 Anvils | 15 |
@@ -2891,16 +3510,22 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Long Shot** | Enchanting | Drop a mob from at least sixty blocks away with a Power V Bow | 55 |
 | · | **Loose Links** | Enchanting | Wear out 2 Chainmail Boots until they break | 15 |
 | ◆ | **Loyal to the End** | Enchanting | Wear a Loyalty III Trident right down to nothing | 50 |
+| ◆ | **Lucky Dip** | Enchanting | Fish up a Name Tag or a Saddle on a rod carrying Luck of the Sea III | 40 |
 | ★ | **Mannequin Metropolis** | Enchanting | Craft 8,192 Armour Stands | 120 |
 | ★ | **Mass Production of Magic** | Enchanting | Craft 1,000 Enchanting Tables | 120 |
 | · | **Melting Point** | Enchanting | Stand on a Magma Block wearing Frost Walker boots and watch them fail you | 15 |
 | ◆ | **Mending Circle** | Enchanting | Wear four armour pieces that all repair themselves with Mending | 45 |
 | ★ | **Midas Was an Amateur** | Enchanting | Craft 16,384 Blocks of Gold | 120 |
+| · | **Middle of the Road** | Enchanting | Enchant an item on the table's middle slot, for exactly two levels. Nobody's favourite | 15 |
+| · | **Misapplied Theology** | Enchanting | Kill a Cave Spider with a Smite V sword, the one enchantment that does nothing at all to it | 15 |
 | ★ | **Moved a Mountain of Anvils** | Enchanting | Mine 10,000 Anvils | 120 |
 | · | **Moving Day** | Enchanting | Mine 30 Anvils | 15 |
 | ★ | **Moving Day at the Library** | Enchanting | Pick up 8,000 Bookshelves | 120 |
+| ◆ | **Mushroom Harvest** | Enchanting | Shear a Bogged with Efficiency V Shears and take the mushrooms off its back | 40 |
+| · | **Mutually Exclusive** | Enchanting | Carry a Multishot Crossbow and a Piercing IV Crossbow at once, because one crossbow can never hold both | 15 |
 | · | **Necronomicon** | Enchanting | Name an Enchanted Book 'Necronomicon' on an anvil | 10 |
 | · | **Neither Small nor Large** | Enchanting | Pick up 150 Medium Amethyst Buds | 15 |
+| ★ | **Nether Skewer** | Enchanting | Run one bolt from a Piercing Crossbow through both a Blaze and a Wither Skeleton | 120 |
 | ★ | **Never Fear Losing It Again** | Enchanting | Craft 3,000 Netherite Upgrade Smithing Templates | 120 |
 | ★ | **Never Grind Again** | Enchanting | Pick up 100,000 Bottles o' Enchanting | 120 |
 | ★ | **Never Short of Lapis** | Enchanting | Pick up 40,000 Lapis Lazuli | 120 |
@@ -2909,25 +3534,33 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Nine Ingots at a Time** | Enchanting | Craft 64 Blocks of Gold | 15 |
 | ◆ | **No More Grinding** | Enchanting | Drop 800 Grindstones | 40 |
 | ★ | **Nobody Wanted to Read** | Enchanting | Drop 35,000 Lecterns | 120 |
+| · | **Nominal Fee** | Enchanting | Buy a Name Tag from a Villager, so the Anvil has something to work with | 15 |
+| · | **Not So Infinite** | Enchanting | Kill a mob with a Spectral Arrow fired from an Infinity bow, and lose the arrow anyway | 15 |
 | · | **Not That One Either** | Enchanting | Place 150 Lecterns | 15 |
 | · | **Not Worth the Levels** | Enchanting | Drop 50 Enchanted Books | 15 |
+| ★ | **Notch's Apple** | Enchanting | Name an Enchanted Golden Apple 'Notch' on an Anvil, then eat the poor thing | 120 |
 | ★ | **Nothing Here Will Ever Burn** | Enchanting | Place 750 Obsidian | 120 |
 | ★ | **Nothing Left to Borrow** | Enchanting | Mine 15,000 Bookshelves | 120 |
 | ★ | **Nothing Left to Say** | Enchanting | Craft 75 Books and Quills | 120 |
 | ★ | **Nothing Stays Bolted Down** | Enchanting | Mine 2,000 Enchanting Tables | 120 |
 | ★ | **Nothing Wasted but the Bones** | Enchanting | Craft 1,500 Leather | 120 |
 | ◆ | **Nothing Wasted, Not Even Iron** | Enchanting | Mine 75 Anvils | 40 |
+| · | **Nothing to Loot** | Enchanting | Kill a Bat with a Looting III sword and collect precisely nothing | 15 |
+| · | **Nothing to Show For It** | Enchanting | Cut down a Vex with a Looting III sword and collect absolutely nothing for it | 15 |
 | ★ | **Oak Enough for a Fleet** | Enchanting | Craft 3,000 Oak Shelves | 120 |
 | ◆ | **Obsidian Budget** | Enchanting | Craft 15 Enchanting Tables | 40 |
 | ★ | **Obsidian Budget Exceeded** | Enchanting | Craft 75 Enchanting Tables | 120 |
 | ★ | **Obsidian Underfoot** | Enchanting | Drop 5,000 Obsidian | 120 |
+| ★ | **Off the Hook** | Enchanting | Hook a Ghast out of the Nether sky with a Lure III Fishing Rod | 120 |
 | · | **Old Library Card** | Enchanting | Spend levels on an Enchanting Table you set up inside a Stronghold | 15 |
+| ◆ | **Ominous Studies** | Enchanting | Enchant an item while Bad Omen hangs over you | 40 |
 | ★ | **Omnibus** | Enchanting | Combine six different enchantments onto a single Enchanted Book | 120 |
 | · | **On Its Last Legs** | Enchanting | Mine 3 Damaged Anvils | 15 |
 | · | **One Drop from Dust** | Enchanting | Pick up 20 Damaged Anvils | 15 |
 | ◆ | **One Hit From Dust** | Enchanting | Mine 9 Damaged Anvils | 40 |
 | ★ | **One Hundred Thousand Spines** | Enchanting | Craft 10,000 Books | 120 |
 | ★ | **One More Reroll** | Enchanting | Place 750 Lecterns | 120 |
+| · | **One Point Left** | Enchanting | Wear a Mending item down to its very last point of durability without letting it die | 15 |
 | · | **One Repair Left** | Enchanting | Place 150 Damaged Anvils | 15 |
 | ★ | **One Strike From Dust** | Enchanting | Mine 100 Damaged Anvils | 120 |
 | · | **One for Every Enchant** | Enchanting | Craft 8 Diamond Pickaxes | 15 |
@@ -2935,16 +3568,26 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Open Stacks** | Enchanting | Place 75 Chiseled Bookshelves | 120 |
 | · | **Opened the Cover** | Enchanting | Read 250 Written Books | 15 |
 | ◆ | **Ore Kept Whole** | Enchanting | Pick up 512 Lapis Lazuli Ore | 40 |
+| ◆ | **Outlived Its Arrows** | Enchanting | Shoot an Infinity bow until the bow itself finally gives out | 40 |
+| ◆ | **Overdraw** | Enchanting | Land ten hearts of damage with a single arrow from a Power V bow | 40 |
 | · | **Overdue Return** | Enchanting | Mine 15 Bookshelves | 15 |
+| ◆ | **Overinsured** | Enchanting | Carry a Mending Elytra and a Mending Chestplate at once, for a back you only have one of | 40 |
+| ★ | **Overkill Cubed** | Enchanting | Land one Mace smash worth twenty hearts of damage | 120 |
 | · | **Overqualified** | Enchanting | Put Efficiency V and Unbreaking III on a Wooden Pickaxe | 15 |
+| · | **Overwound** | Enchanting | Wind a Crossbow carrying Quick Charge III until the whole thing falls apart | 15 |
 | ★ | **Pack Up the Sanctum** | Enchanting | Mine 200 Enchanting Tables | 120 |
 | ★ | **Palace of Blue** | Enchanting | Place 150 Blocks of Lapis Lazuli | 120 |
 | · | **Pale Woodwork** | Enchanting | Craft 64 Birch Shelves | 15 |
+| · | **Pancake** | Enchanting | Flatten a Slime with a Density V Mace, because it was not flat enough already | 15 |
 | ★ | **Paper Grows on Riverbanks** | Enchanting | Place 20,000 Sugar Cane | 120 |
 | ◆ | **Paper on the Wind** | Enchanting | Drop 3,000 Paper | 40 |
+| · | **Paving Contractor** | Enchanting | Stamp out a Dirt Path with a shovel enchanted with Efficiency V | 15 |
 | · | **Pen to Paper** | Enchanting | Use 250 Books and Quills | 15 |
 | · | **Penny for Your Thoughts** | Enchanting | Put your first enchantment on a Copper tool | 10 |
+| ★ | **Perfect Storm** | Enchanting | Land an Enchanted Book in a thunderstorm on a rod carrying both Luck of the Sea III and Lure III | 120 |
+| ◆ | **Permanent Disguise** | Enchanting | Kill an Enderman while wearing a Carved Pumpkin cursed with Curse of Binding | 40 |
 | · | **Personal Space** | Enchanting | Kill a Creeper with a sword enchanted with Knockback II | 15 |
+| ★ | **Pest Control Contract** | Enchanting | Put down a Spider, a Cave Spider, a Silverfish, an Endermite and a Bee with Bane of Arthropods V | 120 |
 | · | **Pick It Back Up** | Enchanting | Mine 10 Anvils | 15 |
 | · | **Pillar of Light** | Enchanting | Break 4 Beacons | 15 |
 | ◆ | **Planar Scholar** | Enchanting | Enchant something at a table in the Overworld, the Nether and the End | 40 |
@@ -2964,16 +3607,22 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Purple Percussion** | Enchanting | Mine 1,024 Blocks of Amethyst | 15 |
 | ★ | **Purple-Black Horizons** | Enchanting | Place 7,500 Obsidian | 120 |
 | ◆ | **Quarrying the Vault** | Enchanting | Mine 1,000 Blocks of Lapis Lazuli | 40 |
+| ◆ | **Rainmaker** | Enchanting | Stab a mob to death with an Impaling V Trident out in the rain, where Impaling still counts | 40 |
 | ◆ | **Raiser's Edge** | Enchanting | Craft 8 Raiser Armour Trim Smithing Templates | 40 |
 | ★ | **Ran Out of Things to Dye** | Enchanting | Use 75,000 Lapis Lazuli as dye | 120 |
 | ★ | **Ran the World Through Ink** | Enchanting | Use 75,000 Ink Sacs as dye | 120 |
 | ◆ | **Rattling to Pieces** | Enchanting | Wear out 32 Chainmail Boots until they break | 40 |
+| ◆ | **Reading in the Dark** | Enchanting | Enchant an item while Blindness has you groping for the lapis slot | 40 |
+| · | **Ready to Spend** | Enchanting | Stand there with 64 Lapis Lazuli and 30 levels, ready for a proper session | 15 |
 | ★ | **Ream Weaver** | Enchanting | Craft 4,000 Paper | 120 |
 | ◆ | **Redecorating the Library** | Enchanting | Mine 60 Chiseled Bookshelves | 40 |
 | · | **Reed All About It** | Enchanting | Craft 300 Paper | 15 |
 | · | **Reed Beds** | Enchanting | Place 250 Sugar Cane | 15 |
 | · | **Reeds by the Armful** | Enchanting | Pick up 5,000 Sugar Cane | 15 |
+| ◆ | **Reel Deal** | Enchanting | Fish a Bow out of the water on a rod enchanted with Luck of the Sea III | 40 |
 | ◆ | **Reference Section** | Enchanting | Place 25 Chiseled Bookshelves | 40 |
+| · | **Reloaded** | Enchanting | Fire a Crossbow that carries Quick Charge III and Multishot together | 15 |
+| · | **Relocating the Library** | Enchanting | Walk into the Nether with an Enchanting Table in your hand | 15 |
 | ◆ | **Repair Shop Empire** | Enchanting | Place 150 Grindstones | 40 |
 | ★ | **Repossessing the Magic** | Enchanting | Mine 75 Enchanting Tables | 120 |
 | ◆ | **Reroll Roulette** | Enchanting | Place 300 Lecterns | 40 |
@@ -2988,14 +3637,20 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Rolling for Fortune III** | Enchanting | Craft 300 Diamond Pickaxes | 120 |
 | ★ | **Rolling for Sharpness V** | Enchanting | Craft 1,500 Diamond Swords | 120 |
 | ★ | **Roofed Forest Furniture** | Enchanting | Craft 3,000 Dark Oak Shelves | 120 |
+| ◆ | **Rotten Luck** | Enchanting | Have the Enchanting Table hand you a Curse of Vanishing, entirely unasked for | 40 |
 | ★ | **Ruined Iron Collection** | Enchanting | Mine 1,000 Damaged Anvils | 120 |
+| · | **Salon Treatment** | Enchanting | Shear a Sheep with Efficiency V Shears. It will not thank you for the extra speed | 15 |
 | · | **Salvaging the Cracked** | Enchanting | Pick up 150 Chipped Anvils | 15 |
 | · | **Sanctum** | Enchanting | Set up a workshop: place an Enchanting Table, a Grindstone, a Smithing Table and a Lectern | 15 |
 | ◆ | **Sanctum in a Satchel** | Enchanting | Pick up 200 Enchanting Tables | 40 |
 | ★ | **Sand Into Vessels** | Enchanting | Pick up 100,000 Glass Bottles | 120 |
+| · | **Satellite Campus** | Enchanting | Craft an Enchanting Table while standing in the Nether | 15 |
 | ★ | **Sawdust and Sap** | Enchanting | Craft 3,000 Spruce Shelves | 120 |
 | · | **Scattered Notes** | Enchanting | Drop 1,000 Paper | 15 |
+| ◆ | **Scholarship Programme** | Enchanting | Cure a Zombie Villager, then buy an Enchanted Book at the grateful price | 40 |
 | ★ | **Scrap Heap of Ages** | Enchanting | Drop 4,096 Ancient Debris | 120 |
+| ◆ | **Sculk Tax** | Enchanting | Kill a mob beside a Sculk Catalyst with a Mending tool in hand and watch the sculk take your experience | 40 |
+| · | **Sea Change** | Enchanting | Spend real levels enchanting a Trident at an Enchanting Table | 15 |
 | · | **Second Edition** | Enchanting | Copy a signed Written Book by crafting it with a Book and Quill | 15 |
 | ◆ | **Second Thoughts, Mass Produced** | Enchanting | Craft 40 Grindstones | 40 |
 | ◆ | **Second-Hand Iron** | Enchanting | Place 800 Chipped Anvils | 40 |
@@ -3003,18 +3658,22 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Set It Down Here** | Enchanting | Place 10 Anvils | 15 |
 | · | **Set Up the Wheel** | Enchanting | Place 25 Grindstones | 15 |
 | · | **Set the Table** | Enchanting | Place 3 Enchanting Tables | 15 |
+| ◆ | **Setting Up the Shot** | Enchanting | Ride a Shulker's Levitation twenty blocks upwards with a Density V Mace in hand | 40 |
 | · | **Seven Diamonds a Leg** | Enchanting | Craft 32 Diamond Leggings | 15 |
 | · | **Shadowed Timber** | Enchanting | Craft 64 Dark Oak Shelves | 15 |
+| ◆ | **Sharp End of the Stick** | Enchanting | Obtain a Netherite Spear carrying Lunge III | 40 |
 | ◆ | **Sharp Practice** | Enchanting | Kill a mob with a Copper Sword carrying Sharpness V | 50 |
 | ★ | **Sharpening the Whole Village** | Enchanting | Place 6,000 Grindstones | 120 |
 | ◆ | **Shattered Crown** | Enchanting | Wear out 40 Diamond Helmets until they break | 40 |
 | ◆ | **Shelf Sufficient** | Enchanting | Craft 100 Bookshelves | 40 |
 | · | **Shelf on the Ground** | Enchanting | Drop 300 Bookshelves | 15 |
+| · | **Shell Suit** | Enchanting | Put an enchantment on a Turtle Shell | 15 |
 | ★ | **Shelved and Sorted** | Enchanting | Place 200 Chiseled Bookshelves | 120 |
 | · | **Shelved for Later** | Enchanting | Place 8 Chiseled Bookshelves | 15 |
 | ◆ | **Shelves in the Backpack** | Enchanting | Pick up 2,000 Bookshelves | 40 |
 | ★ | **Shelves in the Mud** | Enchanting | Drop 15,000 Bookshelves | 120 |
 | ★ | **Shelves to the Horizon** | Enchanting | Craft 7,500 Bookshelves | 120 |
+| · | **Shock Therapy** | Enchanting | Charge up a Creeper by calling lightning onto it with a Channeling Trident | 15 |
 | ◆ | **Should Have Used Mending** | Enchanting | Break 200 Diamond Pickaxes | 40 |
 | ★ | **Signatures and Spines** | Enchanting | Craft 4,000 Books | 120 |
 | · | **Signed and Collected** | Enchanting | Pick up 100 Written Books | 15 |
@@ -3024,12 +3683,17 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Silk on the Seam** | Enchanting | Pick up 128 Lapis Lazuli Ore | 15 |
 | ◆ | **Silk or Fortune, Never Both** | Enchanting | Craft 50 Diamond Pickaxes | 40 |
 | ★ | **Six Slots at a Time** | Enchanting | Craft 600 Chiseled Bookshelves | 120 |
+| · | **Skewer Tactics** | Enchanting | Skewer mobs with a thrown Spear while you are out in the End | 15 |
 | · | **Skull Bounty** | Enchanting | Kill a Wither Skeleton while swinging a sword enchanted with Looting III | 15 |
 | · | **Sky Hook** | Enchanting | Fire a Riptide Trident while wearing an Elytra on your back | 20 |
 | ★ | **Skyline of Lapis** | Enchanting | Place 10,000 Blocks of Lapis Lazuli | 120 |
+| ◆ | **Skywriting** | Enchanting | Loose a Multishot Crossbow while riding a Happy Ghast | 40 |
+| ★ | **Sleeping Arrangements** | Enchanting | Try a bed in the Nether wearing four pieces of Blast Protection IV, and live through the answer | 120 |
+| · | **Sleepover in the Stacks** | Enchanting | Sleep in a bed you have dragged into a Stronghold | 15 |
 | · | **Slotted and Pocketed** | Enchanting | Pick up 200 Chiseled Bookshelves | 15 |
 | ★ | **Smashing Hour** | Enchanting | Throw 2,500 Bottles o' Enchanting | 120 |
 | ★ | **Smelted a Mountain** | Enchanting | Craft 1,000 Anvils | 120 |
+| · | **Snapped** | Enchanting | Swing a Mace carrying Density V until the Mace itself gives out | 15 |
 | ★ | **Snapped Beyond Counting** | Enchanting | Break 5,000 Diamond Pickaxes | 120 |
 | ★ | **Snowfall of Parchment** | Enchanting | Drop 50,000 Paper | 120 |
 | · | **Somewhere to Display It** | Enchanting | Craft 20 Oak Shelves | 15 |
@@ -3043,6 +3707,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Spilling the Blue** | Enchanting | Drop 1,000 Lapis Lazuli | 15 |
 | ★ | **Spruce Enough for a City** | Enchanting | Craft 8,000 Spruce Shelves | 120 |
 | ◆ | **Spruce Fittings** | Enchanting | Craft 256 Spruce Shelves | 40 |
+| ◆ | **Squeeze It Dry** | Enchanting | Kill an Elder Guardian with a Looting III sword and hope hard for the sponge | 40 |
 | ★ | **Stacks on Stacks** | Enchanting | Craft 250 Bookshelves | 120 |
 | ★ | **Staffing the Whole Hall** | Enchanting | Craft 75 Lecterns | 120 |
 | · | **Stalks Into Slats** | Enchanting | Craft 64 Bamboo Shelves | 15 |
@@ -3052,6 +3717,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Still Not Mending** | Enchanting | Place 25,000 Lecterns | 120 |
 | · | **Still Works Fine** | Enchanting | Place 200 Chipped Anvils | 15 |
 | ◆ | **Still Worth Saving** | Enchanting | Pick up 600 Chipped Anvils | 40 |
+| · | **Sting** | Enchanting | Name a sword 'Sting' and give it Bane of Arthropods, so it knows when spiders are near | 15 |
 | ★ | **Stone and Sticks Forever** | Enchanting | Craft 400 Grindstones | 120 |
 | · | **Storm Surge** | Enchanting | Launch yourself with a Riptide III Trident during a thunderstorm | 20 |
 | · | **Strip Search** | Enchanting | Strip the bark off a log with an axe enchanted with Efficiency V | 15 |
@@ -3059,13 +3725,18 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Stripped the Reading Room** | Enchanting | Mine 2,000 Oak Shelves | 120 |
 | ◆ | **Stronghold Salvage** | Enchanting | Mine 6 Enchanting Tables | 40 |
 | · | **Stuck With You** | Enchanting | Strap on an Elytra enchanted with Curse of Binding | 15 |
+| ◆ | **Studying in a Storm** | Enchanting | Enchant an item while a thunderstorm hammers the roof | 40 |
+| ★ | **Submerged Syllabus** | Enchanting | Enchant an item at a table you have installed inside an Ocean Monument | 120 |
 | ★ | **Sugar Cane Civilization** | Enchanting | Place 50,000 Sugar Cane | 120 |
+| ◆ | **Sunk Cost** | Enchanting | Die with a hundred levels of experience still in your pocket | 40 |
+| · | **Swatted** | Enchanting | Swat a Phantom out of the night sky with a bow enchanted with Punch II | 15 |
 | ★ | **Table Thief** | Enchanting | Mine 20 Enchanting Tables | 120 |
 | · | **Table for Every Base** | Enchanting | Craft 4 Enchanting Tables | 15 |
 | ★ | **Tables in the Dirt** | Enchanting | Drop 600 Enchanting Tables | 120 |
 | · | **Taiga Joinery** | Enchanting | Craft 64 Spruce Shelves | 15 |
 | · | **Take It Back Off** | Enchanting | Craft 8 Grindstones | 15 |
 | · | **Take It With You** | Enchanting | Mine 2 Enchanting Tables | 15 |
+| · | **Take the Podium** | Enchanting | Lay a signed Written Book out on a Lectern for everyone to read | 15 |
 | · | **Take the Shelf Too** | Enchanting | Mine 8 Chiseled Bookshelves | 15 |
 | ◆ | **Taking Down the Tower** | Enchanting | Break 24 Beacons | 40 |
 | ◆ | **Tanner's Trade** | Enchanting | Craft 25 Leather | 40 |
@@ -3119,6 +3790,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Enchanter's Allowance** | Enchanting | Pick up 6,000 Lapis Lazuli | 40 |
 | ★ | **The Enchanters' Quarter** | Enchanting | Place 200 Enchanting Tables | 120 |
 | ★ | **The Endless Relocation** | Enchanting | Pick up 25,000 Bookshelves | 120 |
+| ◆ | **The Fire Did It** | Enchanting | Let a mob burn to death from a Flame bow rather than finishing it off with the arrow | 40 |
 | ★ | **The Geode Orchard** | Enchanting | Pick up 10,000 Medium Amethyst Buds | 120 |
 | ★ | **The Gloomy Archive** | Enchanting | Craft 1,000 Dark Oak Shelves | 120 |
 | ★ | **The Great Paper Spill** | Enchanting | Drop 20,000 Paper | 120 |
@@ -3189,6 +3861,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Thirty Thousand Anvils Lifted** | Enchanting | Pick up 30,000 Anvils | 120 |
 | ★ | **Thirty Thousand Discarded Wheels** | Enchanting | Drop 30,000 Grindstones | 120 |
 | ★ | **Three Hundred Thousand Blue Grains** | Enchanting | Pick up 100,000 Lapis Lazuli | 120 |
+| ◆ | **Three Schools of Thought** | Enchanting | Carry a Sharpness V weapon, a Smite V weapon and a Bane of Arthropods V weapon all at the same time | 40 |
 | ★ | **Three Thousand Sanctums Carried** | Enchanting | Pick up 3,000 Enchanting Tables | 120 |
 | ★ | **Three of a Kind** | Enchanting | Hold a Loyalty III, a Riptide III and a Channeling Trident at the same time | 140 |
 | ★ | **Threw Away a Fortune** | Enchanting | Drop 50,000 Lapis Lazuli | 120 |
@@ -3205,8 +3878,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Torpedo** | Enchanting | Swim in Depth Strider III boots while Dolphin's Grace is pushing you along | 20 |
 | · | **Tossing the Tome** | Enchanting | Drop 500 Books | 15 |
 | · | **Trace the Pattern** | Enchanting | Craft 2 Raiser Armour Trim Smithing Templates | 15 |
+| ★ | **Treasure Trove** | Enchanting | Carry Enchanted Books for Mending, Frost Walker and Curse of Binding at the same time | 120 |
+| · | **Trident Tourist** | Enchanting | Carry an Impaling V Trident through the portal into the Nether, where nothing is ever wet | 15 |
 | ◆ | **Triple Threat** | Enchanting | Carry a Sharpness V sword, a Power V bow and an Impaling V Trident all at once | 50 |
 | ◆ | **Trophies of the Tempest** | Enchanting | Pick up 20 Creeper Heads | 40 |
+| · | **Trophy Catch** | Enchanting | Reel in a Nautilus Shell on a rod enchanted with Luck of the Sea III | 15 |
 | ◆ | **Trousers of Attrition** | Enchanting | Wear out 200 Iron Leggings until they break | 40 |
 | ◆ | **True Blue** | Enchanting | Mine 400 Lapis Lazuli Ore | 40 |
 | · | **True North** | Enchanting | Craft 1 Lodestone | 15 |
@@ -3216,24 +3892,31 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Twenty Thousand Deep Seams** | Enchanting | Pick up 20,000 Deepslate Lapis Lazuli Ore | 120 |
 | ★ | **Twenty Thousand Perfect Ores** | Enchanting | Pick up 20,000 Lapis Lazuli Ore | 120 |
 | ★ | **Twenty-Five Thousand Tears** | Enchanting | Place 25,000 Crying Obsidian | 120 |
+| · | **Two Schools of Archery** | Enchanting | Carry a bow with Infinity and a bow with Mending at the same time, since no single bow may hold both | 15 |
 | ★ | **Ultramarine** | Enchanting | Mine 1,600 Lapis Lazuli Ore | 120 |
 | · | **Unfitting the Study** | Enchanting | Mine 128 Oak Shelves | 15 |
 | ◆ | **Unravelled Soles** | Enchanting | Wear out 8 Chainmail Boots until they break | 40 |
 | ★ | **Vanishing, Done by Hand** | Enchanting | Drop 1,000 Enchanted Books | 120 |
 | ★ | **Veins of Midnight** | Enchanting | Mine 4,000 Lapis Lazuli Ore | 120 |
 | ★ | **Villager Roulette** | Enchanting | Place 15,000 Lecterns | 120 |
+| ★ | **Void Warranty** | Enchanting | Wear a Netherite Spear carrying Lunge III right down to splinters | 120 |
 | ★ | **Wall to Wall to Wall** | Enchanting | Craft 600 Bookshelves | 120 |
 | ★ | **Wasted Wizardry** | Enchanting | Drop 20,000 Bottles o' Enchanting | 120 |
+| · | **Wasted on You** | Enchanting | Kill a Strider with a Fire Aspect sword. Every point of that enchantment goes to waste | 15 |
 | ★ | **Wasteful Sorcery** | Enchanting | Drop 7,500 Lapis Lazuli | 120 |
 | ★ | **Wasting the Slow Mine** | Enchanting | Drop 20,000 Obsidian | 120 |
 | ★ | **Wasting the Wizard's Lapis** | Enchanting | Craft 1,500 Blue Dye | 120 |
 | ★ | **Wealth Measured in Lapis** | Enchanting | Craft 10,000 Blocks of Lapis Lazuli | 120 |
+| ★ | **Weapons Grade** | Enchanting | Carry a Density V Mace, an Impaling V Trident, a Power V bow, a Piercing IV Crossbow and a Lunge III Spear all at once | 120 |
 | · | **Weaponsmith Wanted** | Enchanting | Place 75 Grindstones | 15 |
 | ◆ | **Wear and Tear** | Enchanting | Mine 15 Chipped Anvils | 40 |
 | ★ | **Weeding the Collection** | Enchanting | Mine 400 Bookshelves | 120 |
+| ★ | **Weight Class** | Enchanting | Smash a Shulker off an End City wall with a Density V Mace | 120 |
 | ◆ | **Well Read** | Enchanting | Read 1,000 Written Books | 40 |
 | · | **Well Worn Anvil** | Enchanting | Pick up 4 Damaged Anvils | 15 |
+| · | **Wet Blanket** | Enchanting | Kill a mob with a Fire Aspect sword while you are swimming, where the fire never catches | 15 |
 | · | **Wet Work** | Enchanting | Sit fully submerged in an Aqua Affinity helmet with Respiration III | 25 |
+| ◆ | **What Goes Up** | Enchanting | Get levitated thirty blocks by a Shulker while wearing Feather Falling IV boots | 40 |
 | · | **Wheels in the Pack** | Enchanting | Pick up 300 Grindstones | 15 |
 | ★ | **Where Anvils Go to Die** | Enchanting | Mine 3,000 Damaged Anvils | 120 |
 | ★ | **Where the Deepslate Bleeds** | Enchanting | Mine 25,000 Deepslate Lapis Lazuli Ore | 120 |
@@ -3241,6 +3924,10 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Worn at the Corners** | Enchanting | Mine 400 Chipped Anvils | 120 |
 | · | **Worn to Nothing** | Enchanting | Break 50 Diamond Pickaxes | 15 |
 | ★ | **Writer's Cramp** | Enchanting | Use 20,000 Books and Quills | 120 |
+| · | **Wrong Catch** | Enchanting | Hook a Squid on a Lure III rod instead of the fish you were after | 15 |
+| · | **Wrong Kind of Cold** | Enchanting | Sink into Powder Snow wearing Frost Walker boots and discover they do not help at all | 15 |
+| ◆ | **Wrong Phylum** | Enchanting | Kill a Phantom with a Bane of Arthropods V sword; wings and a carapace, and still not an arthropod | 40 |
+| · | **You Had One Job** | Enchanting | Get killed by an ordinary Zombie while holding a sword enchanted with Smite V | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -6747,25 +7434,89 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 |---|---|---|---|---|
 | ★★ | **Ancient Arsenal** | Super Challenges | Carry every Netherite tool, weapon and piece of armour at the same time | 300 |
 | ★★ | **Angler's Atlas** | Super Challenges | Catch a fish in every Overworld biome | 600 |
+| ★★ | **Answering the Shriek** | Super Challenges | Kill a Warden with no armour on, standing on top of a Sculk Shrieker | 300 |
 | ★★ | **Armada** | Super Challenges | Gather twenty Nautiluses in Nautilus Armor around you | 200 |
+| ★★ | **Assembly Required** | Super Challenges | Craft a Crafting Table while falling through the void below the End | 300 |
+| ★★ | **Bad Omen, Worse Weather** | Super Challenges | Win a raid while the thunderstorm is still going | 300 |
+| ★★ | **Bare Against the Fangs** | Super Challenges | Kill an Evoker with both hands empty and no armour on | 300 |
+| ★★ | **Bedside in the Dark** | Super Challenges | Cure a Zombie Villager inside an Ancient City | 300 |
+| ★★ | **Black Cat, Dark Wood** | Super Challenges | Breed a black kitten inside a Woodland Mansion on the night of a full moon | 300 |
 | ★★ | **Breaking Bad** | Super Challenges | Brew a thousand potions | 400 |
+| ★★ | **Broad Daylight** | Super Challenges | Sleep in a bed inside an Ancient City in the middle of the day | 300 |
+| ★★ | **Called Down the Thunder** | Super Challenges | Channel lightning into the Wither with a Trident | 300 |
+| ★★ | **Catch of the Night** | Super Challenges | Hook a Phantom out of the air with a Fishing Rod from at least 25 blocks away | 300 |
+| ★★ | **Century Shot** | Super Challenges | Hit the bullseye of a Target Block with an arrow from 100 blocks away | 300 |
+| ★★ | **Chest Deep in Lava** | Super Challenges | Kill a Wither Skeleton while you are standing in lava with no armour and no Fire Resistance | 300 |
 | ★★ | **Chunk Miner** | Super Challenges | Strip an entire Overworld chunk down to bedrock, leaving nothing but air | 800 |
+| ★★ | **Close Enough to Touch** | Super Challenges | Kill a Ghast with a melee blow while you are in mid-air, with nothing on your back and nothing under you | 300 |
+| ★★ | **Crystal Cannon** | Super Challenges | Live through an End Crystal detonating beside you and be thrown a hundred and twenty blocks sideways by it | 300 |
+| ★★ | **Daymare** | Super Challenges | Kill a Phantom at high noon under an open sky | 300 |
 | ★★ | **Death by Committee** | Super Challenges | Be wounded by ten different kinds of monster inside thirty seconds and survive | 220 |
+| ★★ | **Deep Fry** | Super Challenges | Kill a Warden while both you and it are standing in lava | 300 |
 | ★★ | **Deep Pockets** | Super Challenges | Fill a Shulker Box to the brim with Diamonds | 150 |
+| ★★ | **Dismounted** | Super Challenges | Destroy a mounted Ravager with one Mace smash, its rider still in the saddle | 300 |
+| ★★ | **Dive Bomber** | Super Challenges | Kill an Elder Guardian with a thrown Trident while flying an Elytra | 300 |
 | ★★ | **Dye Another Day** | Super Challenges | Buy all sixteen colours of dye from Wandering Traders | 300 |
 | ★★ | **Fragmentary Evidence** | Super Challenges | Hold a full stack of every one of the twenty-three Pottery Sherds at once | 300 |
+| ★★ | **Fuse Race** | Super Challenges | Kill a Charged Creeper with a melee blow while wearing no armour | 300 |
+| ★★ | **Grace Period** | Super Challenges | Kill the Wither inside the five seconds a Totem of Undying buys you back | 300 |
+| ★★ | **Gravity Assist** | Super Challenges | Sink an arrow into the dead centre of a Target Block while you are plummeting past it | 300 |
+| ★★ | **Hammerfall** | Super Challenges | Kill a mob with a single Mace smash while falling at over 60 blocks per second | 300 |
 | ★★ | **Hanging by a Thread** | Super Challenges | Kill a Warden while on half a heart | 550 |
+| ★★ | **Hellbloom** | Super Challenges | Kill a Ghast close enough to a Sculk Catalyst in the Nether to make it bloom | 300 |
+| ★★ | **Hoe Down There** | Super Challenges | Kill the Warden in melee using a hoe | 300 |
+| ★★ | **Killing Time** | Super Challenges | Beat an Elder Guardian to death in melee with a Clock | 300 |
+| ★★ | **Knuckle Sandwich** | Super Challenges | Beat a Ravager to death with your bare fists, wearing no armour at all | 300 |
+| ★★ | **Lava Rodeo** | Super Challenges | Kill the Wither from the back of a Strider standing out in open lava | 300 |
+| ★★ | **Loud Neighbours** | Super Challenges | Defeat the Wither inside the Deep Dark, where everything you do is heard | 300 |
+| ★★ | **Mach One** | Super Challenges | Kill the Ender Dragon while flying an Elytra at seventy blocks per second | 300 |
+| ★★ | **Not Even Pockets** | Super Challenges | Open a Bastion treasure chest with every inventory slot, both hands and all four armour slots empty | 300 |
+| ★★ | **Not One Glint** | Super Challenges | Kill the Wither without a single enchantment on anything you are wearing or holding | 300 |
+| ★★ | **Nothing to Fall Back On** | Super Challenges | Kill the Ender Dragon with every armour slot empty and no Totem of Undying anywhere on you | 300 |
+| ★★ | **Nothing to Lose** | Super Challenges | Kill the Ender Dragon with every worn piece and the weapon in your hand carrying the Curse of Vanishing | 300 |
+| ★★ | **Nowhere Left to Blink** | Super Challenges | Kill an Enderman in mid-air beneath the End island, where it has nothing to teleport to | 300 |
+| ★★ | **Nowhere to Stand** | Super Challenges | Finish the Ender Dragon while a Shulker's bullet has you drifting helplessly upwards | 300 |
+| ★★ | **Nowhere to Teleport** | Super Challenges | Kill an Enderman standing out in the rain in a Swamp | 300 |
+| ★★ | **One Arrow, Three Names** | Super Challenges | Run three different kinds of mob through with a single piercing bolt while you are in freefall | 300 |
 | ★★ | **Ore to Order** | Super Challenges | Hold a full stack of all sixteen ores, ingots and gems at the same time | 300 |
 | ★★ | **Pattern Book** | Super Challenges | Get all nineteen Smithing Templates into a single Bundle | 300 |
+| ★★ | **Perfect Cast** | Super Challenges | Land a Fishing Rod bobber on the bullseye of a Target Block from 20 blocks away | 300 |
 | ★★ | **Pharmacopoeia** | Super Challenges | Brew every single potion in the game, every extended and strong variant included | 300 |
+| ★★ | **Point-Blank Refusal** | Super Challenges | Take a Charged Creeper's blast on your shield from close enough to feel it | 300 |
 | ★★ | **Potted History** | Super Challenges | Leave a Decorated Pot behind in all twelve of the Overworld's ruins: Trial Chambers, Ancient City, Trail Ruins, Ocean Monument, Woodland Mansion, Shipwreck, Pillager Outpost, Stronghold, Desert Pyramid, Jungle Temple, Igloo and Swamp Hut | 300 |
+| ★★ | **Regicide at Range** | Super Challenges | Land the killing blow on the Ender Dragon with an arrow from 100 blocks away | 300 |
+| ★★ | **Return of Service** | Super Challenges | Kill a Ghast with its own fireball while you are swimming in lava | 300 |
+| ★★ | **Returned in Kind** | Super Challenges | Punch a Ghast's fireball back into it while you are in freefall over the Nether | 300 |
+| ★★ | **Riders on the Storm** | Super Challenges | Mount a Skeleton Horse while the thunderstorm that delivered it is still raging | 300 |
 | ★★ | **Rust Never Sleeps** | Super Challenges | Kill a Warden with a Copper Sword | 170 |
+| ★★ | **Sealed in Cowhide** | Super Challenges | Defeat the Wither wearing a full set of leather armour, every piece bearing the Curse of Binding | 300 |
 | ★★ | **Seed Bank** | Super Challenges | Carry one of every seed, sapling, propagule and fungus in a single Bundle | 300 |
+| ★★ | **Shish Kebab** | Super Challenges | Kill five different kinds of mob with one crossbow shot, none of them closer than 30 blocks | 300 |
+| ★★ | **Sight Unseen** | Super Challenges | Land the killing blow on the Ender Dragon while blinded by a Suspicious Stew | 300 |
+| ★★ | **Silence in the Deep** | Super Challenges | Defeat the Warden while wearing four pieces of armour trimmed with the Silence pattern | 300 |
+| ★★ | **Skin Against Sculk** | Super Challenges | Kill a Warden with every armour slot empty | 300 |
+| ★★ | **Skull and Crossbones** | Super Challenges | Kill the Wither and a Wither Skeleton with a single crossbow arrow | 300 |
+| ★★ | **Splinters** | Super Challenges | Kill a Ravager with an unenchanted Wooden Sword while wearing no armour | 300 |
+| ★★ | **Stooping Falcon** | Super Challenges | Put an arrow through a Warden while you are plummeting past it | 300 |
+| ★★ | **Struck Down** | Super Challenges | Brand the Wither with channelled lightning while its own decay is eating you, then finish it with a thrown Trident | 300 |
+| ★★ | **The Bell Below** | Super Challenges | Defend a village from a raid while you are standing in the Deep Dark | 300 |
+| ★★ | **The Blind Deep** | Super Challenges | Kill an Elder Guardian while a Sculk Shrieker's Darkness has you blind and its Mining Fatigue has you slow | 300 |
+| ★★ | **The Coldest Shot** | Super Challenges | Kill a Blaze using snowballs while you are swimming in lava | 300 |
 | ★★ | **The Larder** | Super Challenges | Pack a single Bundle with one of every food in the game that will stack | 300 |
+| ★★ | **The Long Fork** | Super Challenges | Deal the Ender Dragon its killing blow with a thrown Trident from at least sixty blocks away | 300 |
 | ★★ | **The Long Haul** | Super Challenges | Transport a breeding pair of ten different Overworld species into the Nether and breed all ten there | 400 |
+| ★★ | **The Starter Weapon** | Super Challenges | Finish off both the Ender Dragon and the Wither in melee, each of them with a Wooden Sword | 300 |
+| ★★ | **Through a Gourd, Darkly** | Super Challenges | Land the Ender Dragon's killing blow by hand while a cursed Carved Pumpkin is stuck on your head | 300 |
+| ★★ | **Thrown Thunder** | Super Challenges | Charge a Creeper with a Channeling Trident thrown from 40 blocks away | 300 |
+| ★★ | **Two Ancients, One Bolt** | Super Challenges | Catch a Warden and a Sniffer in the same Channeling lightning bolt | 300 |
+| ★★ | **Unscheduled Trial** | Super Challenges | Kill a Warden inside a Trial Chamber | 300 |
 | ★★ | **Untouchable** | Super Challenges | Kill the Ender Dragon without ever dropping below half health | 600 |
+| ★★ | **Up to the Neck** | Super Challenges | Kill a Piglin Brute while you are standing in lava with no Fire Resistance to save you | 300 |
 | ★★ | **Verdigris Champion** | Super Challenges | Kill the Ender Dragon, the Wither, a Warden and an Elder Guardian while wearing a full set of Copper Armour | 350 |
+| ★★ | **Void Marksman** | Super Challenges | Kill the Ender Dragon with an arrow loosed from at least a hundred blocks away | 300 |
 | ★★ | **Walking Library** | Super Challenges | Carry twenty different enchantments at once across your armour and both hands | 250 |
+| ★★ | **Wind Burn** | Super Challenges | Kill a Breeze with a melee blow while wearing no armour | 300 |
+| ★★ | **Wither Weather** | Super Challenges | Kill the Wither inside an Ocean Monument while a thunderstorm rages overhead | 300 |
 | ★★ | **Wither on a Budget** | Super Challenges | Kill the Wither with a Copper Sword while wearing a full set of Copper armour | 180 |
 
 <details><summary>How these are detected</summary>
@@ -6816,25 +7567,37 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **A Wardrobe of Flight** | The End | Collect 256 Elytra | 40 |
 | · | **Absolute Quiet** | The End | Apply 1 Silence Armour Trim. | 15 |
 | ★ | **Alien Architecture** | The End | Place 3,000 End Stone | 120 |
+| ★ | **Allay Freight Depot** | The End | Have an Allay drop a Shulker Shell onto a Note Block in the End | 120 |
 | ◆ | **Amethyst and Silence** | The End | Craft 2,048 Tinted Glass | 40 |
 | ◆ | **Amphibious Lighting** | The End | Collect 512 Verdant Froglights. | 40 |
 | ★ | **An Armoury That Could End Worlds** | The End | Collect 32,768 End Crystals | 120 |
 | ◆ | **Ancient Fortune** | The End | Craft 32 Blocks of Netherite. | 40 |
+| ◆ | **Anti-Aircraft Fire** | The End | Take a Shulker bullet to the chest while gliding on an Elytra | 40 |
 | ★ | **Apex of Every Dimension** | The End | Kill the Ender Dragon 2,500 times | 120 |
+| · | **Arbor Day in the Void** | The End | Plant a Sapling in the End | 15 |
 | ★ | **Architect of the Outer Isles** | The End | Place 6,000 Purpur Pillars | 120 |
+| · | **Arm's Length** | The End | Kill an Enderman in melee with a Copper Spear, from just outside its swing | 15 |
 | ◆ | **Armoury of Empty Boxes** | The End | Collect 20,000 Shulker Shells | 40 |
+| · | **Arrivals Terminal** | The End | Stand on the little obsidian platform the End spits every visitor out onto | 15 |
 | ◆ | **Arrows in the Dark** | The End | Drop 2,048 Spectral Arrows. | 40 |
 | ◆ | **Ascending Production** | The End | Craft 20,000 Purpur Stairs | 40 |
 | ★ | **Ascension by Assembly** | The End | Craft 40,000 End Stone Brick Stairs | 120 |
+| ◆ | **Automated Masonry** | The End | Have a Crafter turn out End Stone Bricks for you in the End | 40 |
+| ★ | **Backseat Summoner** | The End | Respawn the Ender Dragon without once getting out of your Boat | 120 |
 | ★ | **Bamboo Comes Back Down** | The End | Break 200,000 Scaffolding | 120 |
 | · | **Bamboo and String** | The End | Craft 5,000 Scaffolding | 15 |
+| ◆ | **Bamboo in the Stratosphere** | The End | Place Scaffolding above y=250 in the End | 40 |
 | ◆ | **Base Camp in a Box** | The End | Place 200 Shulker Boxes | 40 |
 | ★ | **Base Camp, Everywhere** | The End | Place 15,000 Shulker Boxes | 120 |
+| ★ | **Beekeeping Beyond the Sky** | The End | Break a Bee Nest in the End | 120 |
+| ★ | **Beekeeping at the End of the World** | The End | Break open a Bee Nest with three bees still inside it, in the End | 120 |
 | · | **Black Boxes in a Black Sky** | The End | Place 500 Black Shulker Boxes | 15 |
 | · | **Blaze and Chorus** | The End | Craft 200 End Rods | 15 |
 | · | **Blaze and Pearl** | The End | Craft 40 Eyes of Ender | 15 |
 | ◆ | **Blaze in Alien Glass** | The End | Craft 1,500 End Rods | 40 |
 | · | **Bleached Canopy** | The End | Mine 8,000 Pale Oak Leaves. | 15 |
+| · | **Blimp Over the Void** | The End | Ride a Happy Ghast over the End islands | 15 |
+| ★ | **Blind Ambition** | The End | Kill the Ender Dragon while you cannot see a thing | 120 |
 | ★ | **Blindfolded by Abundance** | The End | Throw 8,192 Eyes of Ender | 120 |
 | · | **Blink Twice** | The End | Throw 250 Ender Pearls | 15 |
 | ★ | **Blink, and Blink Again** | The End | Throw 5,000 Ender Pearls | 120 |
@@ -6845,6 +7608,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Boundaries in a Boundless Sky** | The End | Place 10,000 End Stone Brick Walls | 40 |
 | ◆ | **Bouquet from Beyond** | The End | Collect 5,000 Chorus Flowers | 40 |
 | · | **Box Opener** | The End | Kill 50 Shulkers | 15 |
+| ◆ | **Box at Forty Paces** | The End | Kill a Shulker from at least forty blocks away | 40 |
 | · | **Boxed Set** | The End | Craft 16 Shulker Boxes | 15 |
 | ★ | **Boxes Full of Nothing** | The End | Kill 1,500 Shulkers | 120 |
 | ★ | **Boxes Without End** | The End | Craft 4,096 Shulker Boxes | 120 |
@@ -6854,12 +7618,17 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Brickwork from Beyond** | The End | Craft 600 End Stone Bricks | 15 |
 | · | **Bridge, Cross, Collect** | The End | Break 3,000 Scaffolding | 15 |
 | ◆ | **Bringing Down the Towers** | The End | Break 5,000 Purpur Pillars | 40 |
+| · | **Bug Report** | The End | Get killed by a Silverfish inside a Stronghold | 15 |
+| ★ | **Bullseye at Speed** | The End | Put an arrow through the dead centre of a Target without stopping your glide | 120 |
+| · | **Burning in a Fireless World** | The End | Catch fire in the End, a place with nothing to burn | 15 |
 | · | **Cargo Cult** | The End | Collect 64 Shulker Boxes. | 15 |
+| ◆ | **Carry-On Luggage** | The End | Leave the End through the exit portal with the Dragon Egg in your hand | 40 |
 | ◆ | **Carrying Off the Cities** | The End | Collect 30,000 Purpur Blocks | 40 |
 | ◆ | **Carrying the Dead Wyrm** | The End | Collect 256 Dragon Heads | 40 |
 | · | **Carrying the Same Chest Again** | The End | Collect 500 Ender Chests | 15 |
 | ◆ | **Casting Off the Carapace** | The End | Drop 2,500 Shulker Shells | 40 |
 | ◆ | **Chain of Vaults** | The End | Craft 30 Ender Chests | 40 |
+| · | **Charging Nothing** | The End | Charge a Respawn Anchor with Glowstone in the End, where it will never work | 15 |
 | ★ | **Chests Beyond Counting** | The End | Craft 512 Oxidized Copper Chests. | 120 |
 | ◆ | **Chests Come and Go** | The End | Break 10,000 Ender Chests | 40 |
 | ★ | **Chiropractic Nightmare** | The End | Throw 15,000 Ender Pearls | 120 |
@@ -6873,6 +7642,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Clear-Cutting the Impossible** | The End | Break 75,000 Chorus Plant blocks | 120 |
 | ★ | **Clearing the Pale Garden** | The End | Mine 200,000 Pale Oak Leaves. | 120 |
 | ◆ | **Climbing Without Ladders** | The End | Place 5,000 End Stone Brick Stairs | 40 |
+| · | **Cloud Storage** | The End | Open an Ender Chest while standing in the End | 15 |
 | · | **Colonnade** | The End | Place 750 Purpur Pillars | 15 |
 | ★ | **Colonnade of the Void** | The End | Place 15,000 Purpur Pillars | 120 |
 | ★ | **Colonnades Beyond Counting** | The End | Craft 80,000 Purpur Pillars | 120 |
@@ -6880,19 +7650,28 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Colour-Coded Obsession** | The End | Craft 2,048 Purple Shulker Boxes | 40 |
 | ★ | **Colours for the Colourless Sky** | The End | Craft 8,192 Firework Stars | 120 |
 | ◆ | **Columns for a City of Ghosts** | The End | Craft 5,000 Purpur Pillars | 40 |
+| ★ | **Concert in a Vacuum** | The End | Have an Allay drop a Cake onto a Note Block in the End | 120 |
+| ◆ | **Conflicting Instructions** | The End | Hold Levitation and Slow Falling at the same time and see who wins | 40 |
 | ◆ | **Constellation Builder** | The End | Place 400 End Rods | 40 |
 | ★ | **Constellations at Ground Level** | The End | Place 8,192 Firefly Bushes. | 120 |
 | ★ | **Constellations, Man-Made** | The End | Place 25,000 End Rods | 120 |
+| · | **Cooked to Order** | The End | Kill an Enderman while it is on fire | 15 |
 | ◆ | **Copy of a Copy** | The End | Craft 16 Dune Armour Trim Smithing Templates. | 40 |
 | ★ | **Cottage Industry of Explosions** | The End | Craft 7,500 Firework Rockets | 120 |
 | · | **Cracking the Crust** | The End | Mine 1,000 End Stone | 15 |
 | · | **Crimson Cargo** | The End | Craft 32 Red Shulker Boxes. | 15 |
 | ◆ | **Crown Jewel** | The End | Put the Dragon Egg on display in the Overworld | 180 |
+| ◆ | **Crown of Light** | The End | Sit the Dragon Egg on top of a Beacon and put out its beam for good | 40 |
+| ★ | **Crystal Ejection** | The End | Let an End Crystal blast you off its pillar, then fall thirty blocks | 120 |
+| ★ | **Crystal Launch** | The End | Set off an End Crystal under your feet and fall forty blocks out of the sky | 120 |
 | ★ | **Crystal Overproduction** | The End | Craft 6,000 End Crystals | 120 |
+| · | **Crystal Roost** | The End | Stand on the bedrock cap at the top of an Obsidian Pillar | 15 |
 | · | **Crystals in Careful Hands** | The End | Collect 512 End Crystals | 15 |
 | ◆ | **Dead Reckoning** | The End | Glide a full kilometre on an Elytra without firing a single rocket | 70 |
 | ◆ | **Debris Millionaire** | The End | Craft 8 Blocks of Netherite. | 40 |
+| ★ | **Deep Dark Colony** | The End | Kill an Enderman beside a Sculk Catalyst you hauled all the way into the End | 120 |
 | ★ | **Deforesting Another Dimension** | The End | Break 30,000 Chorus Plant blocks | 120 |
+| ◆ | **Delivery Service, Outer Isles** | The End | Have an Allay collect a Shulker Shell you tossed away in the End | 40 |
 | ◆ | **Demolition in the Dark** | The End | Break 25,000 End Stone Bricks | 40 |
 | ★ | **Detonation Cartographer** | The End | Place 512 End Crystals | 120 |
 | ★ | **Detonation Reserves** | The End | Craft 20,000 End Crystals | 120 |
@@ -6905,8 +7684,11 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Dismantling the Sky Bridge** | The End | Break 75,000 Scaffolding | 120 |
 | ★ | **Do Not Look Up** | The End | Kill 5,000 Endermen | 120 |
 | · | **Don't Look Now** | The End | Kill 500 Endermen | 15 |
+| ★ | **Door-to-Door in the Void** | The End | Trade with a Wandering Trader in the End | 120 |
+| ◆ | **Down From On High** | The End | Finish the Ender Dragon with a Mace | 40 |
 | ★ | **Dragon Rider** | The End | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch | 400 |
 | ◆ | **Dragon's Perch** | The End | Stand an End Ship's Dragon Head on the central island's exit portal | 60 |
+| ★ | **Dragonboat** | The End | Kill the Ender Dragon without ever leaving your Boat | 120 |
 | · | **Ears in the Deep** | The End | Collect 8 Sculk Sensors. | 15 |
 | ★ | **Eight Hundred Thousand Boosts in Reserve** | The End | Collect 100,000 Firework Rockets | 120 |
 | ★ | **Eight Hundred Thousand Pale Blocks** | The End | Collect 100,000 End Stone | 120 |
@@ -6914,6 +7696,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Eighty Thousand Broken Homes** | The End | Collect 80,000 Shulker Shells | 120 |
 | ★ | **Eighty Thousand Sleepless Nights** | The End | Collect 80,000 Phantom Membranes | 120 |
 | ★ | **Eighty Thousand Thin Slices** | The End | Craft 80,000 End Stone Brick Slabs | 120 |
+| · | **Elevator to the Top Floor** | The End | Let a Shulker lift you forty blocks up the outside of its own tower | 15 |
 | ★ | **Endermageddon** | The End | Kill 2,500 Endermen | 120 |
 | · | **Endgame Grill** | The End | Cook raw food on a Campfire inside an End City | 20 |
 | · | **Endless Summer** | The End | Plant a Chorus Flower inside an End City and eat a Chorus Fruit there | 25 |
@@ -6938,6 +7721,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Every Violet Step Undone** | The End | Break 80,000 Purpur Stairs | 120 |
 | ◆ | **Everything In Its Box** | The End | Collect 256 Shulker Boxes. | 40 |
 | ◆ | **Everything in Its Right Box** | The End | Craft 64 Shulker Boxes | 40 |
+| · | **Excess Baggage** | The End | Kill an Endermite in the End, where the only way one arrives is in your pocket | 15 |
 | ◆ | **Explosives, Delicately Held** | The End | Collect 2,048 End Crystals | 40 |
 | ★ | **Exterminator of the Void** | The End | Kill 200 Endermites | 120 |
 | ★ | **Extinction Event** | The End | Kill the Ender Dragon 100 times | 120 |
@@ -6945,9 +7729,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Eyes Everywhere** | The End | Throw 1,024 Eyes of Ender | 120 |
 | · | **Eyes in the Satchel** | The End | Collect 512 Eyes of Ender | 15 |
 | ◆ | **Fast Travel, Hard Landing** | The End | Throw 750 Ender Pearls | 40 |
+| ◆ | **Feather Descent** | The End | Fall a hundred blocks through the End on nothing but a Slow Falling potion | 40 |
 | · | **Fencing Off the Infinite** | The End | Craft 500 End Stone Brick Walls | 15 |
+| · | **Fertiliser in a Dead World** | The End | Use Bone Meal on Wheat growing in the End | 15 |
 | ★ | **Fifty Thousand Empty Boxes** | The End | Kill 25,000 Shulkers | 120 |
 | ★ | **Fifty Thousand Unpackings** | The End | Place 40,000 Shulker Boxes | 120 |
+| ◆ | **Fireworks Over the City** | The End | Bring down a Shulker with a Firework Rocket fired from a Crossbow | 40 |
 | · | **First Blush of Cinnabar** | The End | Mine 64 Cinnabar. | 15 |
 | ◆ | **Flat and Purple Forever** | The End | Place 20,000 Purpur Slabs | 40 |
 | · | **Flooring the Void** | The End | Place 1,000 End Stone Brick Slabs | 15 |
@@ -6966,6 +7753,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Freight of a Dead World** | The End | Collect 50,000 End Stone | 40 |
 | ★ | **Frequent Flyer of the Void** | The End | Use 3,000 Firework Rockets | 120 |
 | · | **Frog Light Special** | The End | Collect 16 Verdant Froglights. | 15 |
+| ◆ | **Frosty Reception** | The End | Build a Snow Golem in the End, where it will never melt | 40 |
 | · | **Fruit into Stone** | The End | Craft 150 Purpur Blocks | 15 |
 | · | **Fruit of a Dead Dimension** | The End | Collect 5,000 Chorus Fruit | 15 |
 | ★ | **Furnace Full of Fruit** | The End | Smelt 15,000 Popped Chorus Fruit | 120 |
@@ -6973,11 +7761,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Gardener of the Outer Isles** | The End | Place 40,000 Chorus Flowers | 120 |
 | · | **Gateway Tourist** | The End | Teleport through End Gateways ten times | 60 |
 | · | **Gathering the Popped** | The End | Collect 5,000 Popped Chorus Fruit | 15 |
+| ★ | **Ghast Cavalry** | The End | Slay the Ender Dragon from the back of a Happy Ghast | 120 |
 | · | **Glass That Keeps Secrets** | The End | Craft 512 Tinted Glass | 15 |
 | ★ | **Glass and Ghast Tears** | The End | Craft 2,500 End Crystals | 120 |
 | · | **Glass, Tears and Trouble** | The End | Craft 40 End Crystals | 15 |
 | ◆ | **Gliding Is the Only Way to Travel** | The End | Use your Elytra 5,000 times | 40 |
 | · | **Glowing Fletchings** | The End | Drop 64 Spectral Arrows. | 15 |
+| · | **Gourd Vision** | The End | Step into the End wearing a Carved Pumpkin so nothing takes it personally | 15 |
 | ★ | **Green Suns in a Jar** | The End | Collect 2,048 Verdant Froglights. | 120 |
 | · | **Green With Storage** | The End | Craft 8 Oxidized Copper Chests. | 15 |
 | ★ | **Gunpowder Baron** | The End | Craft 3,000 Firework Rockets | 120 |
@@ -6994,30 +7784,45 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Harvesting the Glow** | The End | Break 20,000 End Rods | 40 |
 | ◆ | **Hauling the Island Home** | The End | Collect 25,000 End Stone | 40 |
 | ◆ | **Head Count of the Fallen** | The End | Collect 1,024 Dragon Heads | 40 |
+| ◆ | **Head of the Family** | The End | Wear a Dragon Head while you place the last crystal and call the Dragon back | 40 |
+| ◆ | **Herd on the Edge of Nowhere** | The End | Breed two Cows in the End and start a colony that was never meant to be | 40 |
+| · | **Hoist by Your Own Crystal** | The End | Blow yourself up with an End Crystal you set off yourself | 15 |
+| · | **Honey, We're Home** | The End | Slide down a Honey Block in the End instead of falling like everyone else | 15 |
+| ★ | **Housewarming** | The End | Summon the Wither inside an End City and see what is left standing | 120 |
+| ◆ | **Huffed and Puffed** | The End | Land the killing blow on a Shulker with a Wind Charge | 40 |
 | ★ | **Illumination Industry** | The End | Craft 15,000 End Rods | 120 |
 | · | **Imported Masonry** | The End | Place 600 End Stone | 15 |
+| ◆ | **In at the Deep End** | The End | Cross into the End while completely blinded | 40 |
 | ★ | **Industrial Crystallography** | The End | Craft 750 End Crystals | 120 |
 | · | **Ink That Shines** | The End | Use 256 Glow Ink Sacs. | 15 |
 | ★ | **Insomnia Industrial Complex** | The End | Kill 2,500 Phantoms | 120 |
+| · | **Interdimensional Filing** | The End | Open an Ender Chest inside an End City | 15 |
 | ★ | **Interdimensional Pest Control** | The End | Kill 1,000 Endermites | 120 |
 | · | **Interdimensional Snack** | The End | Eat a Chorus Fruit in the Nether and let it throw you somewhere you did not choose | 20 |
+| ◆ | **Interstellar Commerce** | The End | Trade with a Villager you dragged into the End | 40 |
 | ★ | **Inventory Entropy** | The End | Break 75,000 Shulker Boxes | 120 |
 | · | **Iron in Bulk** | The End | Craft 64 Blocks of Iron. | 15 |
 | ◆ | **It Refuses to Sit Still** | The End | Place 64 Dragon Eggs | 40 |
 | ◆ | **Ivory Logistics** | The End | Break 10,000 White Shulker Boxes | 40 |
+| ◆ | **Just In Case** | The End | Kill the Ender Dragon with a Water Bucket ready in your off hand | 40 |
 | ◆ | **Keep Out of the Void** | The End | Place 2,500 End Stone Brick Walls | 40 |
 | ◆ | **Kernels by the Crate** | The End | Collect 15,000 Popped Chorus Fruit | 40 |
+| · | **Keyholder** | The End | Slot an Eye of Ender into an End Portal Frame deep inside a Stronghold | 15 |
 | · | **Kick in the Back** | The End | Use 500 Firework Rockets | 15 |
+| ★ | **Killed on the Wing** | The End | Kill a Shulker in the middle of an Elytra glide | 120 |
 | ★ | **Kiln at the Edge of Reality** | The End | Craft 15,000 End Stone Bricks | 120 |
 | · | **Last Post** | The End | Ring a Bell in the End | 15 |
+| ★ | **Lava Tourism** | The End | Ride a Strider twenty blocks across lava you poured in the End | 120 |
 | · | **Laying the Violet Floor** | The End | Place 1,000 Purpur Slabs | 15 |
 | · | **Legible in the Dark** | The End | Use 32 Glow Ink Sacs. | 15 |
 | ◆ | **Level Ground in a Levelless Place** | The End | Place 5,000 End Stone Brick Slabs | 40 |
 | ★ | **Levitation Is a Privilege** | The End | Kill 10,000 Shulkers | 120 |
 | · | **Light from Two Worlds** | The End | Craft 75 End Rods | 15 |
+| ★ | **Lighthouse For No Ships** | The End | Complete a full four-tier Beacon in the End | 120 |
 | ◆ | **Lighthouse of the Void** | The End | Craft 600 End Rods | 40 |
 | · | **Lighting the Islands** | The End | Place 150 End Rods | 15 |
 | · | **Lights Out in the Cities** | The End | Break 1,000 End Rods | 15 |
+| · | **Lights Out in the Void** | The End | Trip a Sculk Shrieker in the End and take the Darkness that comes with it | 15 |
 | ◆ | **Litter of the Levitators** | The End | Drop 10,000 Shulker Shells | 40 |
 | ◆ | **Litterbug of the Void** | The End | Drop 15,000 End Stone. | 40 |
 | · | **Living Out of a Box** | The End | Break 1,000 Shulker Boxes | 15 |
@@ -7026,6 +7831,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Looting the Spires** | The End | Mine 25,000 Purpur Blocks | 120 |
 | · | **Looting the Towers** | The End | Mine 256 Purpur Blocks | 15 |
 | ◆ | **Low-Profile Architecture** | The End | Place 5,000 Purpur Slabs | 40 |
+| ◆ | **Loyal to the Void** | The End | Tame an animal in the End | 40 |
 | ★ | **Magenta Beyond Reason** | The End | Craft 8,192 Magenta Shulker Boxes | 120 |
 | ◆ | **Magenta Means Miscellaneous** | The End | Craft 512 Magenta Shulker Boxes | 40 |
 | · | **Marking the Edge** | The End | Place 500 End Stone Brick Walls | 15 |
@@ -7035,18 +7841,26 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **Membrane Harvest** | The End | Kill 300 Phantoms | 40 |
 | ★ | **Membrane Millionaire** | The End | Kill 20,000 Phantoms | 120 |
 | · | **Membranes for the Mending** | The End | Collect 1,000 Phantom Membranes | 15 |
+| ◆ | **Mobile Warehouse** | The End | Set down a Shulker Box while riding a Happy Ghast in the End | 40 |
 | ★ | **Munitions Beyond Measure** | The End | Craft 100,000 Firework Rockets | 120 |
 | ◆ | **Needle Threader** | The End | Glide through a Nether portal on an Elytra without stopping | 70 |
+| ◆ | **Netherite Was Not Enough** | The End | Get killed by the Ender Dragon while wearing a full set of Netherite armour | 40 |
 | ◆ | **Never Grounded Again** | The End | Collect 50,000 Firework Rockets | 40 |
 | ★ | **New Land Where None Existed** | The End | Place 50,000 End Stone | 120 |
 | ★ | **Nightmare Fuel Refinery** | The End | Kill 1,000 Phantoms | 120 |
 | ◆ | **Nine Times Denser** | The End | Craft 2,048 Blocks of Iron. | 40 |
+| ★ | **No Escape Route** | The End | Kill an Enderman while it is riding an Oak Boat | 120 |
 | ◆ | **No One Climbs Here Now** | The End | Break 5,000 End Stone Brick Stairs | 40 |
 | ◆ | **No One Follows You Down** | The End | Break 10,000 Ladders | 40 |
+| · | **No Respawning Here** | The End | Charge a Respawn Anchor in the End, where the only thing it will ever do is explode | 15 |
+| · | **No Rest for the Wicked** | The End | Place a Bed in the End, knowing exactly how that ends | 15 |
 | ◆ | **No Way Up Anymore** | The End | Break 5,000 Purpur Stairs | 40 |
 | ★ | **Nomad Logistics** | The End | Place 600 Shulker Boxes | 120 |
+| ◆ | **Not In My Backyard** | The End | Set an End Crystal down on the Overworld's own bedrock floor | 40 |
 | ★ | **Not One Pillar Standing** | The End | Break 80,000 Purpur Pillars | 120 |
+| ◆ | **Not Today, Wyrm** | The End | Burn a Totem of Undying in the End | 40 |
 | ★ | **Not a Whisper Left** | The End | Apply 32 Silence Armour Trims. | 120 |
+| ◆ | **Nothing But Void and Cod** | The End | Reel a fish out of a puddle of water you carried into the End | 40 |
 | ★ | **Nothing Left But Pale Rubble** | The End | Break 100,000 End Stone Bricks | 120 |
 | ★ | **Nothing Purple Remains** | The End | Mine 250,000 Purpur Blocks | 120 |
 | ★ | **Nothing Screeches Anymore** | The End | Kill 50,000 Phantoms | 120 |
@@ -7054,16 +7868,21 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Nothing White Left Standing** | The End | Break 40,000 White Shulker Boxes | 120 |
 | ★ | **Nowhere Is Far Enough** | The End | Eat 10,000 Chorus Fruit | 120 |
 | ★ | **Nowhere Left Dark** | The End | Place 75,000 End Rods | 120 |
+| · | **Nowhere to Sleep** | The End | Put a Bed down in the End, then think very hard before you use it | 15 |
 | ★ | **Obsidian Pillar Enthusiast** | The End | Place 2,048 End Crystals | 120 |
 | ◆ | **Obsidian in the Backpack** | The End | Collect 10,000 Ender Chests | 40 |
 | ◆ | **On Repeat** | The End | Play the Otherside music disc 100 times. | 40 |
+| ◆ | **On a First-Name Basis** | The End | Give an Enderman a Name Tag without it taking offence | 40 |
+| · | **On-Site Assembly** | The End | Craft an End Crystal inside the End itself | 15 |
 | ★ | **One Chest, Everywhere** | The End | Place 1,500 Ender Chests | 120 |
 | ★ | **One Chest, Forty Thousand Journeys** | The End | Collect 40,000 Ender Chests | 120 |
 | ★ | **One Inventory, Many Boxes** | The End | Craft 400 Ender Chests | 120 |
 | · | **One Step Beyond the Void** | The End | Craft 300 End Stone Brick Stairs | 15 |
 | · | **One Step at a Time, Upward** | The End | Place 1,000 End Stone Brick Stairs | 15 |
+| ◆ | **One Tree Void** | The End | Bone-meal an Oak Sapling into a tree in the End | 40 |
 | ★ | **Orchards Where Nothing Grows** | The End | Place 6,000 Chorus Flowers | 120 |
 | ★ | **Otherworldly Playlist** | The End | Play the Otherside music disc 400 times. | 120 |
+| · | **Own Worst Enemy** | The End | Get killed in the End by a Creeper that could only have got there because you brought it | 15 |
 | · | **Packing Up the White** | The End | Break 500 White Shulker Boxes | 15 |
 | ★ | **Pale Continent** | The End | Place 7,500 End Stone | 120 |
 | · | **Pale Yellow Fever** | The End | Mine 3,000 End Stone | 15 |
@@ -7078,11 +7897,15 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Pearl Parasite** | The End | Kill 8 Endermites | 15 |
 | · | **Pearl Portal** | The End | Send an Ender Pearl through an End Gateway and ride it to the other side | 45 |
 | · | **Pearls to Burn** | The End | Drop 2,000 Ender Pearls | 15 |
+| · | **Pigs in Space** | The End | Saddle a Pig in the End | 15 |
+| ◆ | **Pillar Diving** | The End | Fall sixty blocks in the End and walk away from the landing | 40 |
 | ◆ | **Pillar Restoration Society** | The End | Place 64 End Crystals | 40 |
 | ★ | **Pillars Beyond Counting** | The End | Place 40,000 Purpur Pillars | 120 |
+| · | **Pinned Wings** | The End | Stick a thrown Trident into the Ender Dragon | 15 |
 | ★ | **Plantation at the Edge of Nothing** | The End | Place 1,000 Chorus Flowers | 120 |
 | · | **Planting Fireflies** | The End | Place 256 Firefly Bushes. | 15 |
 | · | **Play It Again** | The End | Play the Otherside music disc 5 times. | 15 |
+| · | **Please Don't Shoot, Kevin** | The End | Name a living Shulker 'Kevin' instead of killing it | 15 |
 | · | **Pocket Dimension** | The End | Craft 8 Ender Chests | 15 |
 | · | **Pocketing the Spires** | The End | Collect 2,000 Purpur Blocks | 15 |
 | · | **Pockets Full of Pale Stone** | The End | Collect 10,000 End Stone | 15 |
@@ -7090,33 +7913,49 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Popped Beyond Counting** | The End | Smelt 100,000 Popped Chorus Fruit | 120 |
 | ★ | **Popped and Pressed** | The End | Craft 3,000 Purpur Blocks | 120 |
 | ◆ | **Portable Daylight** | The End | Collect 7,500 End Rods | 40 |
+| · | **Portal Denied** | The End | Strike Flint and Steel against Obsidian in the End and get nothing for it | 15 |
 | ★ | **Powder and Pearl, Forever** | The End | Craft 600 Eyes of Ender | 120 |
+| ◆ | **Precision Approach** | The End | Thread an End Gateway at full glide without folding your wings | 40 |
 | ★ | **Pruning an Alien Orchard** | The End | Mine 8,192 Chorus Flowers | 120 |
 | · | **Pruning the Pale** | The End | Mine 1,000 Pale Oak Leaves. | 15 |
 | · | **Pruning the Void Garden** | The End | Break 1,500 Chorus Plant blocks | 15 |
 | · | **Prying Up the Violet** | The End | Break 1,000 Purpur Slabs | 15 |
+| ◆ | **Public Transport** | The End | Get shot by a Shulker while riding a Minecart through an End City | 40 |
 | · | **Pulling Up the Ladder** | The End | Break 2,000 Ladders | 15 |
 | · | **Purple Harvest** | The End | Break 500 Chorus Plant blocks | 15 |
 | · | **Purple Is for Valuables** | The End | Craft 128 Purple Shulker Boxes | 15 |
 | ◆ | **Purple Means Precious** | The End | Place 2,500 Purple Shulker Boxes | 40 |
 | ★ | **Purple Reign** | The End | Mine 10,000 Purpur Blocks | 120 |
 | ◆ | **Purple Thumb** | The End | Place 400 Chorus Flowers | 40 |
+| ◆ | **Purpur Library** | The End | Spend three levels at an Enchanting Table inside an End City | 40 |
 | ★ | **Purpur by the Megaton** | The End | Craft 75,000 Purpur Blocks | 120 |
 | · | **Purpur to Spare** | The End | Drop 256 Purpur Slabs. | 15 |
 | ★ | **Purpur, Thinly Spread** | The End | Craft 80,000 Purpur Slabs | 120 |
+| · | **Pushing Your Luck** | The End | Set a Piston directly beneath the Dragon Egg to pop it loose without losing it | 15 |
+| ◆ | **Put That Back** | The End | Kill an Enderman while it is still holding the block it stole | 40 |
 | ◆ | **Pyrotechnic Palette** | The End | Craft 4,096 Firework Stars | 40 |
 | · | **Pyrotechnician** | The End | Craft 512 Firework Stars | 15 |
 | ◆ | **Quicksilver Prospector** | The End | Mine 2,048 Cinnabar. | 40 |
 | · | **Quiet, Please** | The End | Collect 64 Sculk Sensors. | 15 |
+| · | **Rails to Nowhere** | The End | Haul a Minecart and some rails to the End and ride them | 15 |
 | · | **Raising the Columns** | The End | Place 300 Purpur Pillars | 15 |
 | ★ | **Random Access Anatomy** | The End | Eat 3,000 Chorus Fruit | 120 |
 | ◆ | **Recalling the Pale Crates** | The End | Break 2,500 White Shulker Boxes | 40 |
+| · | **Recoil in Zero Gravity** | The End | Fire a Crossbow while a Shulker has you floating | 15 |
 | · | **Recovering the Obsidian** | The End | Break 500 Ender Chests | 15 |
 | ◆ | **Red Tape** | The End | Craft 128 Red Shulker Boxes. | 40 |
 | ◆ | **Redecorating, Again** | The End | Break 64 Dragon Heads | 40 |
+| · | **Reef of One** | The End | Place a Conduit in the End, where it has no hope of ever switching on | 15 |
+| · | **Reeling in Trouble** | The End | Hook an Enderman with a Fishing Rod and deal with the consequences | 15 |
+| · | **Refilling the Towers** | The End | Put an End Crystal back on top of an Obsidian Pillar where one used to sit | 15 |
 | ★ | **Reforesting the Void** | The End | Place 2,500 Chorus Flowers | 120 |
+| ◆ | **Refused Delivery** | The End | Kill a Shulker while its own bullet still has you drifting upwards | 40 |
+| ★ | **Rehabilitation, Off-World** | The End | Cure a Zombie Villager you shipped out to the End islands | 120 |
+| ◆ | **Rehoming the Egg** | The End | Set the Dragon Egg down inside an End City | 40 |
 | ◆ | **Relocation Specialist** | The End | Place 256 Dragon Eggs | 40 |
 | · | **Removing the Steps** | The End | Break 1,000 End Stone Brick Stairs | 15 |
+| · | **Renovating in Place** | The End | Craft Purpur Stairs out of the very city you are standing in | 15 |
+| ◆ | **Repopulating the Void** | The End | Breed two animals in the End | 40 |
 | ◆ | **Reptile Dysfunction** | The End | Kill the Ender Dragon 25 times | 40 |
 | · | **Respawn Economics** | The End | Craft 100 End Crystals | 15 |
 | · | **Resurrection Ritual** | The End | Place 16 End Crystals | 15 |
@@ -7133,12 +7972,17 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Same Chest, New Continent** | The End | Place 4,000 Ender Chests | 120 |
 | · | **Sand Into Sky** | The End | Craft 600 Glass | 15 |
 | ★ | **Sand Turned Transparent** | The End | Craft 25,000 Glass | 120 |
+| ◆ | **Sat Too Close to the Fireworks** | The End | Stand close enough to a detonating End Crystal to feel it | 40 |
 | ◆ | **Scaffold Mass Production** | The End | Craft 40,000 Scaffolding | 40 |
+| ★ | **Second Thoughts** | The End | Drink a Potion of Slow Falling while already falling in the End | 120 |
+| · | **Security Detail** | The End | Build an Iron Golem to guard an End City | 15 |
 | ★ | **See-Through Civilisation** | The End | Craft 15,000 Glass | 120 |
 | · | **Seeding the Void** | The End | Place 75 Chorus Flowers | 15 |
 | ★ | **Seeing Everything at Once** | The End | Craft 10,000 Eyes of Ender | 120 |
 | · | **Seeing Red Boxes** | The End | Craft 8 Red Shulker Boxes. | 15 |
 | ◆ | **Seer of Strongholds** | The End | Craft 100 Eyes of Ender | 40 |
+| ◆ | **Self-Inflicted Airshow** | The End | Fly into the blast of your own Firework Rocket | 40 |
+| · | **Sending It Home** | The End | Craft an Ender Chest in the End so your loot never has to make the trip | 15 |
 | ★ | **Serial Dragonicide** | The End | Kill the Ender Dragon 250 times | 120 |
 | ◆ | **Serial Unpacker** | The End | Break 5,000 Shulker Boxes | 40 |
 | · | **Set It Down, Open It Up** | The End | Place 75 Shulker Boxes | 15 |
@@ -7151,8 +7995,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Ship of Theseus** | The End | Strip the Elytra out of five different End Ships | 350 |
 | ★ | **Shulker Removal Service** | The End | Kill every Shulker in one End City | 180 |
 | ◆ | **Shulker Shakedown** | The End | Skewer a Shulker with a Copper Spear inside an End City | 55 |
+| · | **Sightseeing on the Way Up** | The End | Take in the view through a Spyglass while levitating | 15 |
+| · | **Silent Running** | The End | Sneak past a Sculk Sensor you planted in the End | 15 |
 | ★ | **Silo of the Chorus Harvest** | The End | Collect 100,000 Popped Chorus Fruit | 120 |
+| ◆ | **Sixty Metres of Spite** | The End | Hurt the Ender Dragon from at least 60 blocks away | 40 |
 | ★ | **Sixty-Four Thousand Blinks** | The End | Throw 40,000 Ender Pearls | 120 |
+| ◆ | **Skimming the Abyss** | The End | Glide underneath the End's islands, below the level of the void | 40 |
 | · | **Skulls in the Satchel** | The End | Collect 64 Dragon Heads | 15 |
 | ◆ | **Sky Tailor** | The End | Apply the Spire armour trim to a piece of armour inside an End City | 40 |
 | ◆ | **Slab Surplus** | The End | Drop 8,192 Purpur Slabs. | 40 |
@@ -7161,8 +8009,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Sleep Debt Collector** | The End | Kill 100 Phantoms | 15 |
 | ◆ | **Sleepless Salvage** | The End | Collect 5,000 Phantom Membranes | 40 |
 | · | **Sliced Violet** | The End | Craft 1,000 Purpur Slabs | 15 |
+| ◆ | **Smash and Grab** | The End | Empty an End City treasure chest while a Shulker has you off the floor | 40 |
 | · | **Snack and Blink** | The End | Eat 150 Chorus Fruit | 15 |
 | ★ | **Snail's Pace in Space** | The End | Ride a Nautilus in the End | 150 |
+| · | **Snow Where to be Found** | The End | Stand in Powder Snow in the End | 15 |
+| · | **Some Assembly Required** | The End | Craft a Shulker Box inside the End City you took the shells from | 15 |
+| · | **Something Big on the Line** | The End | Hook a Shulker with a Fishing Rod and drag it out of its shell | 15 |
+| · | **Space Dairy** | The End | Milk a Cow in the End | 15 |
 | ★ | **Space Is a Suggestion** | The End | Throw 100,000 Ender Pearls | 120 |
 | · | **Space Jam** | The End | Play a Music Disc in a Jukebox inside an End City | 15 |
 | ★ | **Stairs Enough for Every Tower** | The End | Craft 80,000 Purpur Stairs | 120 |
@@ -7175,8 +8028,10 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Steps to the Outer Rim** | The End | Craft 15,000 End Stone Brick Stairs | 120 |
 | ◆ | **Stepwise Ascension** | The End | Craft 2,000 End Stone Brick Stairs | 40 |
 | · | **Sticks Into Steps** | The End | Craft 2,000 Ladders | 15 |
+| · | **Sticky Landing** | The End | Slide down a Honey Block in the End | 15 |
 | ◆ | **Storage the Colour of Nothing** | The End | Place 2,500 Black Shulker Boxes | 40 |
 | ★ | **Streetlamps for the Damned** | The End | Place 3,000 End Rods | 120 |
+| ★ | **Strider Beyond the Stars** | The End | Ride a Strider across a lava pool you built in the End | 120 |
 | ◆ | **Strip Mining Another Dimension** | The End | Mine 10,000 End Stone | 40 |
 | ★ | **Strip-Mining a Dimension** | The End | Mine 500,000 End Stone | 120 |
 | ◆ | **Stripping the Chandeliers** | The End | Break 5,000 End Rods | 40 |
@@ -7190,17 +8045,21 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **Ten Thousand Steps** | The End | Place 10,000 Purpur Stairs | 120 |
 | ★ | **Terminal Velocity Enjoyer** | The End | Use 50,000 Firework Rockets | 120 |
 | ★ | **Terraforming the Void** | The End | Place 20,000 End Stone | 120 |
+| ◆ | **The Best Seat in the House** | The End | Land the killing blow on the Ender Dragon while standing on the bedrock fountain | 40 |
 | ★ | **The Body Forgets Where It Was** | The End | Eat 75,000 Chorus Fruit | 120 |
 | ★ | **The Box Baron** | The End | Collect 1,024 Shulker Boxes. | 120 |
 | ◆ | **The Bridge Builder's Budget** | The End | Craft 15,000 Scaffolding | 40 |
 | ◆ | **The Bright Box Bureau** | The End | Craft 2,048 Magenta Shulker Boxes | 40 |
+| · | **The Cake Is a Void** | The End | Eat a slice of Cake in the End | 15 |
 | ◆ | **The Chorus Never Ends** | The End | Break 4,000 Chorus Plant blocks | 40 |
 | ★ | **The Cities Are Empty Now** | The End | Mine 50,000 Purpur Blocks | 120 |
 | ★ | **The Cities Go Dark** | The End | Break 80,000 End Rods | 120 |
 | · | **The Compressor** | The End | Craft 512 Blocks of Iron. | 15 |
 | ◆ | **The Crystal Cartel** | The End | Craft 300 End Crystals | 40 |
 | ◆ | **The Crystal Reserve** | The End | Collect 8,192 End Crystals | 40 |
+| · | **The Dairy Antidote** | The End | Drink Milk to cut a Shulker's levitation short | 15 |
 | ◆ | **The Darkroom Industry** | The End | Craft 8,192 Tinted Glass | 40 |
+| ◆ | **The Deep Dark Moves In** | The End | Kill a Shulker beside a Sculk Catalyst you carried up from the Deep Dark | 40 |
 | ◆ | **The Descent Undone** | The End | Break 20,000 End Stone Brick Stairs | 40 |
 | · | **The Dragon Keeps Coming Back** | The End | Kill the Ender Dragon 5 times | 15 |
 | · | **The Egg Moves Again** | The End | Place 16 Dragon Eggs | 15 |
@@ -7208,11 +8067,13 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The End Is Load-Bearing** | The End | Mine 25,000 End Stone | 120 |
 | ★ | **The End, Discarded** | The End | Drop 50,000 End Stone. | 120 |
 | · | **The First Ingot Cube** | The End | Craft 1 Block of Netherite. | 15 |
+| ◆ | **The Floor of Nothing** | The End | Place a block on the lowest layer the End will let you build on | 40 |
 | ◆ | **The Florist's Hoard** | The End | Collect 20,000 Chorus Flowers | 40 |
 | ◆ | **The Fruit Barons** | The End | Collect 40,000 Chorus Fruit | 40 |
 | ◆ | **The Fuel Depot** | The End | Collect 25,000 Firework Rockets | 40 |
 | ◆ | **The Glassblower's Backlog** | The End | Craft 2,500 Glass | 40 |
 | ◆ | **The Glazier's Marathon** | The End | Craft 40,000 Glass Panes | 40 |
+| · | **The Grand Finale** | The End | Die to a Firework Rocket in the End, which is at least a stylish way to go | 15 |
 | ★ | **The Grand Finale, Repeatedly** | The End | Craft 16,384 Firework Stars | 120 |
 | ◆ | **The Great Defenestration** | The End | Break 100,000 Glass | 40 |
 | ★ | **The Great Unboxing** | The End | Break 30,000 Shulker Boxes | 120 |
@@ -7229,7 +8090,9 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Kernel Refinery** | The End | Smelt 40,000 Popped Chorus Fruit | 120 |
 | ◆ | **The Ladder Works** | The End | Craft 7,500 Ladders | 40 |
 | ★ | **The Last Bloom Standing** | The End | Mine 32,768 Chorus Flowers | 120 |
+| ★ | **The Last Lighthouse** | The End | Raise a full-power Beacon on the End islands | 120 |
 | ★ | **The Levitation Will Not Be Televised** | The End | Kill 400 Shulkers | 120 |
+| · | **The Library Card** | The End | Loot the chest hidden in a Stronghold's library | 15 |
 | ◆ | **The Lighting Warehouse** | The End | Collect 30,000 End Rods | 40 |
 | ◆ | **The Lingering Stockpile** | The End | Collect 10,000 Dragon's Breath | 40 |
 | ◆ | **The Listening Wall** | The End | Collect 256 Sculk Sensors. | 40 |
@@ -7237,6 +8100,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Midnight Inventory** | The End | Place 10,000 Black Shulker Boxes | 40 |
 | ★ | **The Mite Ends Here** | The End | Kill 2,500 Endermites | 120 |
 | ★ | **The Neverending Staircase** | The End | Craft 6,000 End Stone Brick Stairs | 120 |
+| · | **The Only Water Out Here** | The End | Fill a Bucket from a water source in the End | 15 |
 | · | **The Other Side** | The End | Play the Otherside music disc 25 times. | 15 |
 | ◆ | **The Perimeter Project** | The End | Craft 10,000 End Stone Brick Walls | 40 |
 | ◆ | **The Pillar Works** | The End | Craft 20,000 Purpur Pillars | 40 |
@@ -7246,6 +8110,7 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ★ | **The Purple Canopy** | The End | Place 15,000 Chorus Flowers | 120 |
 | ★ | **The Purple Landfill** | The End | Drop 32,768 Purpur Slabs. | 120 |
 | ★ | **The Purpur Foundry** | The End | Craft 1,500 Purpur Blocks | 120 |
+| · | **The Purpur Line** | The End | Lay rail and ride a Minecart through an End City | 15 |
 | ◆ | **The Pyrotechnic Pantry** | The End | Collect 20,000 Firework Stars | 40 |
 | · | **The Red Vein** | The End | Mine 512 Cinnabar. | 15 |
 | ◆ | **The Repair Reserve** | The End | Collect 20,000 Phantom Membranes | 40 |
@@ -7273,10 +8138,12 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | ◆ | **The Travelling Vault** | The End | Collect 2,500 Ender Chests | 40 |
 | ◆ | **The Trophy Rotation** | The End | Break 256 Dragon Heads | 40 |
 | ★ | **The Ubiquity Project** | The End | Place 10,000 Ender Chests | 120 |
+| ★ | **The Underside** | The End | Get below the central island and look up at it | 120 |
 | ◆ | **The Verdigris Hoard** | The End | Craft 128 Oxidized Copper Chests. | 40 |
 | ★ | **The Violet Assembly Line** | The End | Craft 10,000 Purpur Blocks | 120 |
 | ◆ | **The Violet Depot** | The End | Place 10,000 Purple Shulker Boxes | 40 |
 | ◆ | **The Violet Filing System** | The End | Craft 512 Purple Shulker Boxes | 40 |
+| ◆ | **The Void Apothecary** | The End | Brew a potion at a stand set up inside an End City | 40 |
 | ★ | **The Void Has Streetlights** | The End | Place 1,500 End Rods | 120 |
 | ★ | **The Void Has a Grid Now** | The End | Place 10,000 End Rods | 120 |
 | ◆ | **The Watchful Hoard** | The End | Collect 8,192 Eyes of Ender | 40 |
@@ -7284,11 +8151,19 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Thin and Clear** | The End | Craft 5,000 Glass Panes | 15 |
 | ★ | **Thirty-Two Thousand Staring Eyes** | The End | Collect 32,768 Eyes of Ender | 120 |
 | ★ | **Thousand-Eyed** | The End | Craft 250 Eyes of Ender | 120 |
+| · | **Tilling Alien Soil** | The End | Turn imported Dirt into Farmland in the End | 15 |
+| · | **Tiptoeing Through the Void** | The End | Sneak past a Sculk Sensor you installed in the End | 15 |
 | ◆ | **Too Many to Carry** | The End | Drop 6,000 Ender Pearls | 40 |
 | · | **Toppling the Columns** | The End | Break 1,000 Purpur Pillars | 15 |
+| ★ | **Tower Dive** | The End | Drop fifty blocks down an End City and land on Slime you brought yourself | 120 |
 | · | **Trail of Light** | The End | Drop 512 Spectral Arrows. | 15 |
+| ◆ | **Travel Light** | The End | Stand in the End with one Shulker Box and no more than four other things | 40 |
 | · | **Trophy on the Wall** | The End | Place 16 Dragon Heads | 15 |
+| · | **True North Doesn't Exist Here** | The End | Lock a Compass to a Lodestone in the End, where compasses are useless | 15 |
+| · | **True North Is a Lie** | The End | Bind a Compass to a Lodestone in the End | 15 |
+| · | **Turbulence** | The End | Smack the Ender Dragon out of the air with a thrown Wind Charge | 15 |
 | · | **Turning Stone on End** | The End | Craft 1,000 Purpur Pillars | 15 |
+| ★ | **Two Boxes, One Bolt** | The End | Skewer two Shulkers with a single Piercing crossbow bolt | 120 |
 | ★ | **Two Hundred Thousand Little Suns** | The End | Collect 100,000 End Rods | 120 |
 | ★ | **Two Hundred Thousand Shades of Purple** | The End | Collect 100,000 Purpur Blocks | 120 |
 | ★ | **Two Hundred Thousand Violet Panes** | The End | Place 100,000 Purple Stained Glass | 120 |
@@ -7296,28 +8171,40 @@ All completable solo. Weighted towards the Copper Age content neither installed 
 | · | **Undoing the Masons** | The End | Break 1,000 End Stone Bricks | 15 |
 | ★ | **Unpack Anywhere** | The End | Place 1,500 Shulker Boxes | 120 |
 | · | **Unpacking Day** | The End | Break 250 Shulker Boxes | 15 |
+| · | **Unpacking Mid-Air** | The End | Open a Shulker Box while levitating past it | 15 |
 | · | **Unpacking in Violet** | The End | Place 500 Purple Shulker Boxes | 15 |
 | ◆ | **Unpaving Paradise** | The End | Break 20,000 Purpur Slabs | 40 |
+| · | **Unseen in the Spires** | The End | Wander an End City while nobody can see you | 15 |
 | · | **Verdant Glow** | The End | Collect 128 Verdant Froglights. | 15 |
 | ★ | **Vermin of the Void** | The End | Kill 500 Endermites | 120 |
 | ◆ | **Vertical Manufacturing** | The End | Craft 30,000 Ladders | 40 |
 | ◆ | **Violet Freight** | The End | Collect 7,500 Purpur Blocks | 40 |
 | ★ | **Violet Landslide** | The End | Mine 100,000 Purpur Blocks | 120 |
 | ◆ | **Violet Light Through Violet Glass** | The End | Place 7,500 Purple Stained Glass | 40 |
+| ◆ | **Void Academy** | The End | Enchant an item at a table you built in the End | 40 |
+| ◆ | **Void Assembly Line** | The End | Let a Crafter make End Stone Bricks for you in the End | 40 |
+| · | **Void Chemistry** | The End | Brew a potion in the End | 15 |
 | · | **Void Fanfare** | The End | Blow a Goat Horn in the End | 15 |
 | · | **Void Orchard** | The End | Place 200 Chorus Flowers | 15 |
 | ◆ | **Void Vermin** | The End | Kill 40 Endermites | 40 |
 | ◆ | **Vow of Silence** | The End | Apply 12 Silence Armour Trims. | 40 |
+| ★ | **Wading Into Battle** | The End | Kill the Ender Dragon while standing in water you carried there yourself | 120 |
+| · | **Waiting For a Storm** | The End | Put up a Lightning Rod in the End, where it will never rain | 15 |
+| · | **Walking the Balloon** | The End | Put a Lead on a Happy Ghast in the End | 15 |
 | ◆ | **Walls for a Borderless Place** | The End | Craft 2,500 End Stone Brick Walls | 40 |
 | ★ | **Warehouse in a Backpack** | The End | Craft 256 Shulker Boxes | 120 |
 | ◆ | **Wasting the Ender Harvest** | The End | Drop 20,000 Ender Pearls | 40 |
 | · | **Wherever I Go, There It Is** | The End | Place 150 Ender Chests | 15 |
 | ◆ | **Windows on Nothing** | The End | Craft 15,000 Glass Panes | 40 |
 | · | **Windows the Colour of the Cities** | The End | Place 2,000 Purple Stained Glass | 15 |
+| ★ | **Wing to Wing** | The End | Kill a respawned Ender Dragon while gliding on the wings its predecessor left you | 120 |
 | · | **Wings Out** | The End | Use your Elytra 1,000 times | 15 |
 | ★ | **Wings and Gunpowder** | The End | Use 7,500 Firework Rockets | 120 |
+| · | **Winter Comes to the Void** | The End | Stand in Powder Snow in the End and freeze somewhere it never snows | 15 |
 | · | **Wrath in a Glass Bottle** | The End | Collect 500 Dragon's Breath | 15 |
 | ◆ | **Writing in Neon** | The End | Use 1,024 Glow Ink Sacs. | 40 |
+| ◆ | **Wrong Dimension Entirely** | The End | Take a Shulker all the way to the Nether and kill it there | 40 |
+| ◆ | **Zoom and Regret** | The End | Put a Spyglass on an Enderman fifty blocks away in the End, then remember what looking does | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -7840,7 +8727,7 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 
 # Alphabetical index
 
-All 7396 advancements, A to Z, with the tab each one appears in.
+All 8283 advancements, A to Z, with the tab each one appears in.
 
 | Advancement | Tab | | What you do |
 |---|---|---|---|
@@ -7926,6 +8813,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **A Generation Unhatched** | Animals | ★ | Kill 30,000 Tadpoles |
 | **A Glacier of Bones** | Monsters | ★ | Kill 10,000 Strays |
 | **A Glimpse of the Otherside** | Adventure | · | Drop 1 Otherside Music Disc |
+| **A Goat for the Sculk** | Animals | ◆ | Kill a Goat within reach of a Sculk Catalyst and let the darkness have it |
 | **A Greener Flame** | Mining | · | Place 1,500 Copper Torches |
 | **A Grid of Lodestones** | Enchanting | ★ | Craft 96 Lodestones |
 | **A Grinning Fragment** | Adventure | · | Pick up 32 Skull Pottery Sherds |
@@ -8026,6 +8914,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **A Ravager Did This** | Adventure | ◆ | Break 150 Shields |
 | **A Reef of Broken Tridents** | Enchanting | ★ | Break 400 Tridents |
 | **A Reef of Your Own Making** | Biomes | ★ | Place 4,096 Brain Coral Blocks. |
+| **A Rolling Stone** | Building | · | Bone-meal a Moss Block and let the green take the room |
 | **A Sanctum That Weeps** | Enchanting | ★ | Place 8,000 Crying Obsidian |
 | **A Savanna Seeded Forever** | Farming | ★ | Pick up 50,000 Acacia Saplings. |
 | **A Sea of Broken Spirals** | Animals | ★ | Kill 6,000 Nautiluses |
@@ -8111,6 +9000,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Abandoned Means Free** | Mining | ◆ | Mine 4,096 Rails |
 | **Abandoned on Purpose** | Building | ◆ | Place 4,000 Mossy Stone Bricks |
 | **Abandoning the Altar** | Enchanting | ◆ | Drop 160 Enchanting Tables |
+| **Above the Cloud Line** | Biomes | ★ | Raise a working Beacon on the bare stone of the Jagged Peaks |
 | **Above the Slate Line** | Mining | · | Mine 25 Diamond Ore |
 | **Above the Slate, Below the Peak** | Mining | ◆ | Mine 8,192 Iron Ore |
 | **Absolute Quiet** | The End | · | Apply 1 Silence Armour Trim. |
@@ -8122,21 +9012,30 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Abyssal Illumination** | Building | ★ | Place 1,000 Sea Lanterns |
 | **Abyssal Jouster** | Biomes | ★ | Kill a Drowned with a Spear charge while riding a Nautilus |
 | **Abyssal Undertaker** | Monsters | ★ | Kill 20,000 Drowned |
+| **Acme Corporation** | Enchanting | · | Name an Anvil 'Acme' before you go and drop it on something |
 | **Acquired Taste** | Potions | ★ | Eat 250 Spider Eyes |
 | **Activation Everywhere** | Redstone | ◆ | Place 4,096 Activator Rails |
 | **Adamant Arboriculture** | Weaponry | ★ | Use a Diamond Axe 15,000 times |
 | **Admiral of the Sprucewood** | Adventure | ★ | Place 4,096 Spruce Boats |
+| **Adobe** | Biomes | · | Tread Wheat into Mud to make Packed Mud, standing in the Mangrove Swamp it came out of |
 | **Adobe Quarter** | Building | ◆ | Place 750 Mud Bricks |
 | **Aegis** | Enchanting | · | Name a Shield 'Aegis' on an anvil |
+| **Aerial Angler** | Animals | ◆ | Land a fish while sitting on a Happy Ghast |
+| **Aerial Survey** | Adventure | ◆ | Look through a Spyglass from the back of a Happy Ghast |
 | **Age of Iron and Ash** | Weaponry | ★ | Land 100,000 hits with an Iron Sword |
 | **Aged Facade** | Mining | · | Place 128 Weathered Cut Copper |
 | **Ages of Stone** | Mining | ◆ | Carry a Pickaxe of all seven materials at the same time |
 | **Aggravating an Entire Dimension** | Nether | ★ | Kill 6,000 Zombified Piglins |
+| **Ahab** | Animals | · | Harpoon a Squid with a thrown Trident |
 | **Aim Everywhere** | Redstone | ★ | Craft 25,000 Target Blocks |
+| **Air Conditioning** | Building | · | Install ice inside a Desert Pyramid |
+| **Air Horn** | Animals | ◆ | Sound a Goat Horn from the back of a Happy Ghast |
 | **Air Superiority** | Weaponry | ◆ | Charge a mob with a Spear from the back of a Happy Ghast |
 | **Air Support** | Adventure | · | Throw 250 Wind Charges |
+| **Airbag** | Animals | ★ | Burn a Totem of Undying without ever leaving the saddle of your Happy Ghast |
 | **Airline Food** | Nether | · | Eat a meal while riding a Happy Ghast |
 | **Alabaster Skyline** | Building | ★ | Place 3,000 Quartz Blocks |
+| **Alarm Clock** | Building | ★ | Install a bell inside a Pillager Outpost |
 | **Alchemist's Shelf** | Potions | ★ | Place every type of Potion onto Shelves |
 | **Alchemist's Tour** | Potions | ★ | Pull a potion out of a Brewing Stand in a Witch Hut, an Igloo, a Nether Fortress, an Ancient City and an End City |
 | **Alien Architecture** | The End | ★ | Place 3,000 End Stone |
@@ -8149,11 +9048,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **All the Wind in Ceramic** | Adventure | ★ | Pick up 4,000 Guster Pottery Sherds |
 | **All Tracks Lead Below** | Mining | ★ | Place 100,000 Rails |
 | **All Work and No Play** | Adventure | ◆ | Kill 300 Vindicators |
+| **Allay Freight Depot** | The End | ★ | Have an Allay drop a Shulker Shell onto a Note Block in the End |
 | **Allium of Them** | Biomes | ★ | Mine 200,000 Alliums |
 | **Alloy of the Ancients** | Nether | · | Craft 4 Netherite Ingots |
 | **Almost a Cluster** | Mining | · | Mine 64 Large Amethyst Buds |
 | **Along Came a Slaughter** | Monsters | ★ | Kill 2,500 Spiders |
 | **Along Came a Spider** | Mining | · | Kill 100 Cave Spiders |
+| **Alpenhorn** | Biomes | · | Sound a Goat Horn from a mountain summit above y-level 200 |
+| **Alpine Angler** | Biomes | · | Reel in a catch from a pond above y-level 200 |
 | **Alt+F4** | Statistics | ◆ | Leave the game a thousand times |
 | **Always Inverting** | Redstone | · | Pick up 1,024 Redstone Torches |
 | **Always On** | Redstone | · | Place a Copper Bulb directly on top of a Block of Redstone |
@@ -8166,6 +9068,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Amber in Glass** | Potions | · | Collect 500 Honey Bottles |
 | **Amber Waves** | Farming | · | Harvest 1,500 Wheat |
 | **Amber Windows** | Building | · | Place 1,000 Orange Stained Glass Panes. |
+| **Ambidextrous** | Enchanting | · | Hold a Sharpness V sword in each hand, even though the off-hand one does nothing whatsoever |
 | **Ambrosia Addict** | Potions | ★ | Eat 500 Enchanted Golden Apples |
 | **Amethyst and Copper** | Adventure | · | Craft 256 Spyglasses |
 | **Amethyst and Silence** | The End | ◆ | Craft 2,048 Tinted Glass |
@@ -8174,6 +9077,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ammunition With Side Effects** | Potions | ★ | Craft 15,000 Tipped Arrows |
 | **Amphibian Assassin** | Animals | · | Watch a Frog swallow a small Slime and cough up the slimeball |
 | **Amphibian Chandelier** | Nether | ★ | Mine 1,024 Ochre Froglight. |
+| **Amphibious Assault** | Enchanting | ◆ | Kill a Drowned while fully underwater in an Aqua Affinity helmet |
 | **Amphibious Lighting** | The End | ◆ | Collect 512 Verdant Froglights. |
 | **Amplifier on Hand** | Potions | · | Collect 5,000 Glowstone Dust |
 | **An Acquired Flavour** | Farming | · | Eat 150 Poisonous Potatoes |
@@ -8220,6 +9124,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Analogue Gold** | Redstone | · | Drop 128 Light Weighted Pressure Plates |
 | **Analogue Thinking** | Redstone | ◆ | Place 200 Redstone Comparators |
 | **Ancestral Aim** | Weaponry | ★ | Land 1,500 hits with a Stone Spear |
+| **Anchor Chain** | Building | · | Run a chain straight down through open water |
+| **Anchor in the Dark** | Adventure | ◆ | Bind a Compass to a Lodestone inside an Ancient City |
 | **Anchor the Stalk** | Farming | · | Plant 500 Kelp |
 | **Anchors Beyond All Need** | Nether | ◆ | Mine 50 Respawn Anchors |
 | **Ancient Acoustics** | Redstone | ◆ | Drop 128 Echo Shards |
@@ -8240,7 +9146,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Angling for a Promotion** | Weaponry | · | Hook a Copper Golem with a Fishing Rod and reel it in |
 | **Angry Mob** | Nether | · | Kill 600 Zombified Piglins |
 | **Another Slice, Please** | Farming | · | Eat 250 Pumpkin Pies |
+| **Answering the Shriek** | Super Challenges | ★★ | Kill a Warden with no armour on, standing on top of a Sculk Shrieker |
 | **Anthracite Dynasty** | Mining | ★ | Mine 150,000 Coal Ore |
+| **Anti-Aircraft Fire** | The End | ◆ | Take a Shulker bullet to the chest while gliding on an Elytra |
+| **Antidote** | Animals | · | Eat a raw Pufferfish, then wash the Poison straight back out with Milk |
+| **Antique Cabinet** | Building | ◆ | Furnish a room with an Oxidised Copper Chest |
 | **Anvil Budget** | Enchanting | · | Craft 9 Anvils |
 | **Anvil Chorus** | Enchanting | · | Place an Anvil, a Chipped Anvil and a Damaged Anvil |
 | **Anvil Foundry** | Enchanting | ★ | Craft 400 Anvils |
@@ -8257,19 +9167,25 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Apple of Discord** | Farming | ◆ | Craft 150 Golden Apples |
 | **Apple of My Eye** | Farming | · | Eat an Apple in a Dark Forest, where the oaks grow thickest |
 | **Aquarium Curator** | Biomes | ◆ | Collect 1,000 Tropical Fish |
+| **Aquarium Grille** | Building | · | Place Iron Bars underwater without draining a drop |
+| **Aquarium Heist** | Animals | ◆ | Scoop a Tropical Fish into a Bucket while you are inside a sunken Ocean Ruin |
 | **Aquarium Stock** | Adventure | · | Buy a Bucket of Pufferfish and a Bucket of Tropical Fish from Wandering Traders |
 | **Aqueduct Architect** | Statistics | · | Empty 250 Water Buckets |
+| **Aquifer** | Biomes | ◆ | Find yourself underwater below y-level -50 in the Overworld |
 | **Arachnid Apocalypse** | Monsters | ★ | Kill 15,000 Spiders |
 | **Arachnid Appetizer** | Potions | ★ | Eat 100 Spider Eyes |
 | **Arachnid Architecture** | Weaponry | ◆ | Use 4,000 Cobwebs |
 | **Arachnid Attrition** | Monsters | ◆ | Kill 600 Spiders |
+| **Arbor Day in the Void** | The End | · | Plant a Sapling in the End |
 | **Arboriculture** | Farming | · | Place a Log with Leaves on all four of its sides |
 | **Archaeology as a Lifestyle** | Adventure | ★ | Use a Brush 25,000 times |
 | **Architect of the Abyss** | Adventure | ◆ | Craft 30,000 Prismarine Bricks |
 | **Architect of the Outer Isles** | The End | ★ | Place 6,000 Purpur Pillars |
 | **Archive on My Back** | Enchanting | ★ | Pick up 30,000 Chiseled Bookshelves |
+| **Arctic Pickpocket** | Biomes | · | Drop something in front of a snow Fox and let it help itself |
 | **Area of Effect** | Potions | ◆ | Throw 50 Splash Potions |
 | **Ark Encounter** | Animals | ◆ | Breed a pair of animals while sitting in a Boat out over a deep ocean |
+| **Arm's Length** | The End | · | Kill an Enderman in melee with a Copper Spear, from just outside its swing |
 | **Arm's Length Diplomacy** | Weaponry | ◆ | Land 150 hits with a Wooden Spear |
 | **Armada** | Super Challenges | ★★ | Gather twenty Nautiluses in Nautilus Armor around you |
 | **Armada Assembled** | Biomes | ◆ | Place 2,500 Oak Boats |
@@ -8286,11 +9202,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Armoury of Empty Boxes** | The End | ◆ | Collect 20,000 Shulker Shells |
 | **Armoury of the Everlong Reach** | Weaponry | ★ | Craft 8,000 Diamond Spears |
 | **Armoury of the Paranoid** | Weaponry | ★ | Craft 400 Shields |
+| **Arms Race** | Enchanting | ★ | Put down an Evoker, a Vindicator, a Pillager and a Ravager with a Lunge III Spear |
 | **Around the Clock** | Redstone | · | Build a hopper clock: two Hoppers feeding into each other with a Comparator reading one |
 | **Around the Worlds** | Nether | ★ | Ride a Happy Ghast in the Overworld, the Nether and the End |
+| **Arrivals Terminal** | The End | · | Stand on the little obsidian platform the End spits every visitor out onto |
 | **Arrowhead Reserve** | Weaponry | ◆ | Pick up 7,500 Flint |
 | **Arrows Beyond Counting** | Statistics | ★ | Craft 4,000 Arrows |
 | **Arrows in the Dark** | The End | ◆ | Drop 2,048 Spectral Arrows. |
+| **Arrows of the North** | Biomes | · | Rifle through the Fletcher's chest in a village buried in the taiga |
 | **Arrows on the House** | Monsters | ◆ | Collect 5,000 Arrows |
 | **Arsenal of the Apothecary** | Potions | ★ | Craft 40,000 Tipped Arrows |
 | **Artillery of the Farmyard** | Animals | ★ | Throw 50,000 Eggs |
@@ -8304,9 +9223,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ashen Reliquary** | Monsters | ★ | Drop 32 Wither Skeleton Skulls |
 | **Ashen Sniper** | Weaponry | ◆ | Shoot a Ghast dead with an Arrow from at least sixty-four blocks away |
 | **Ashes of the Fortress** | Potions | ★ | Craft 40,000 Blaze Powder |
+| **Asking For It** | Adventure | · | Set a Note Block down inside an Ancient City |
 | **Assay Kit** | Mining | ◆ | Fill a single Bundle with one of every raw mining drop |
 | **Assembly Line of Ruin** | Adventure | ◆ | Craft 400 Maces |
 | **Assembly of Anvils** | Enchanting | ★ | Place 2,000 Anvils |
+| **Assembly Required** | Super Challenges | ★★ | Craft a Crafting Table while falling through the void below the End |
 | **Assistant of the Year** | Statistics | ★ | Have Allays hand you a thousand items |
 | **At Your Service** | Redstone | · | Place 40 Dispensers |
 | **Ate the Entire Autumn** | Farming | ★ | Eat 40,000 Pumpkin Pies |
@@ -8319,7 +9240,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Autocraft Everything** | Redstone | ★ | Place 600 Crafters |
 | **Autofactory Ascendant** | Redstone | ★ | Craft 12,000 Crafters |
 | **Automated Empire** | Redstone | ★ | Have Crafters build all twelve of these for you: Bread, Cookies, Cake, Paper, Books, Ladders, Torches, Buckets, Glass Bottles, Sticks, Chests and a Block of Iron |
+| **Automated Masonry** | The End | ◆ | Have a Crafter turn out End Stone Bricks for you in the End |
 | **Automated Output** | Redstone | ◆ | Craft 2,048 Dispensers |
+| **Automated Publishing** | Enchanting | ◆ | Let a Crafter assemble a Bookshelf for you while you watch |
 | **Automated Sidings** | Redstone | ◆ | Place 200 Detector Rails |
 | **Automatic Deployment** | Redstone | · | Place 100 Dispensers |
 | **Automatic Gate** | Redstone | · | Place a Fence Gate into a powered spot so it springs open as you set it down |
@@ -8327,6 +9250,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Avalanche Author** | Biomes | ★ | Mine 50,000 Snow |
 | **Avalanche Logistics** | Weaponry | ★ | Drop 50,000 Snowballs |
 | **Awkward Silence** | Potions | · | Drink an Awkward Potion |
+| **Axe Denied** | Adventure | · | Catch a Vindicator's axe on your shield |
 | **Axe of the Ancients** | Enchanting | ◆ | Craft 8 Netherite Axes |
 | **Axe to Grind** | Weaponry | · | Kill a Vindicator with an axe of your own |
 | **Axe to the Oldest Tree** | Biomes | · | Mine 5,000 Oak Logs |
@@ -8345,13 +9269,20 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Backdraft** | Nether | · | Blow yourself up trying to sleep in a Bed in the Nether |
 | **Backseat Breeder** | Animals | · | Feed a Cactus to a Camel while sitting on another Camel |
 | **Backseat Driver** | Adventure | ◆ | Kill a Pillager while it is riding a Ravager |
+| **Backseat Summoner** | The End | ★ | Respawn the Ender Dragon without once getting out of your Boat |
+| **Bacon Bolt** | Enchanting | · | Call lightning down on a Pig with a Channeling Trident and see what walks away from it |
 | **Bacon Bonanza** | Nether | · | Drop 2,500 Raw Porkchop. |
+| **Bacon Gone Bad** | Animals | ◆ | Kill a Zombified Piglin in the Overworld — the kind that used to be somebody's Pig |
+| **Bad Day to Fish** | Biomes | · | Hook something out of a Swamp while a thunderstorm goes on over your head |
 | **Bad Dog** | Animals | · | Get killed by a Wolf |
+| **Bad Luck Charm** | Animals | · | Kill a Rabbit while holding a Rabbit's Foot in your hand |
 | **Bad Medicine** | Monsters | ◆ | Take Poison, Slowness and Weakness from Witches at the same time |
 | **Bad Neighbourhood** | Biomes | ◆ | Loot a chest in both a Pillager Outpost and a Woodland Mansion |
+| **Bad Omen, Worse Weather** | Super Challenges | ★★ | Win a raid while the thunderstorm is still going |
 | **Bad Reputation** | Adventure | · | Kill 10 Villagers |
 | **Bad Trade** | Nether | · | Kill 50 Piglins |
 | **Bad Trip** | Potions | ◆ | Suffer Nausea, Blindness and Darkness all at the same time |
+| **Bad Weather for Fishing** | Animals | · | Keep casting through a thunderstorm until something bites |
 | **Badlands Bonanza** | Mining | · | Mine 128 Gold Ore |
 | **Badlands Bricklayer** | Biomes | ◆ | Mine 10,000 Red Sandstone |
 | **Badlands Import** | Building | · | Place 400 Terracotta |
@@ -8362,17 +9293,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Baker to a Nation** | Farming | ★ | Bake 15,000 Bread |
 | **Bakery Business** | Farming | ◆ | Bake 50 Cakes |
 | **Bakery Demolition** | Statistics | ◆ | Break 150 Cakes |
+| **Balcony Over Nothing** | Building | ★ | Build out below the End's island and place a block over the void |
 | **Bale Breaker** | Animals | · | Mine 1,000 Hay Bales |
 | **Bale by Bale** | Animals | · | Use 75 Hay Bales |
 | **Bale Country** | Farming | ★ | Craft 15,000 Hay Bales |
 | **Baled Out** | Animals | · | Drop 64 Hay Bales |
 | **Baled to the Ceiling** | Potions | ★ | Craft 1,500 Nether Wart Blocks |
 | **Baled Up** | Farming | · | Craft 75 Hay Bales |
+| **Balloon Ride** | Animals | ◆ | Float a Happy Ghast up past two hundred and fifty six blocks |
 | **Bamboo and String** | The End | · | Craft 5,000 Scaffolding |
 | **Bamboo Baron** | Biomes | ★ | Mine 25,000 Bamboo |
 | **Bamboo Below** | Nether | · | Plant Bamboo in the Nether |
 | **Bamboo Beyond Belief** | Enchanting | ★ | Craft 8,000 Bamboo Shelves |
 | **Bamboo Comes Back Down** | The End | ★ | Break 200,000 Scaffolding |
+| **Bamboo Import** | Animals | ★ | Get two Pandas and enough bamboo into the Nether to breed them there |
+| **Bamboo in the Stratosphere** | The End | ◆ | Place Scaffolding above y=250 in the End |
 | **Bamboo Runs Red** | Animals | · | Kill 25 Pandas |
 | **Banded and Broken** | Biomes | ◆ | Mine 100,000 Orange Terracotta |
 | **Banish the Dark** | Building | · | Place 600 Torches |
@@ -8382,6 +9317,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Barbering the Birch Grove** | Farming | · | Break 8,000 Birch Leaves |
 | **Barding the Bay** | Animals | · | Drop 4 Iron Horse Armor |
 | **Barding the Herd** | Animals | · | Craft 250 Leather Horse Armor |
+| **Bare Against the Fangs** | Super Challenges | ★★ | Kill an Evoker with both hands empty and no armour on |
 | **Bare Beams** | Building | · | Place 1,200 Stripped Birch Wood. |
 | **Bare Branches** | Farming | ★ | Break 15,000 Oak Leaves |
 | **Bare Knuckle** | Weaponry | ★ | Kill ten kinds of hostile mob with your bare fists |
@@ -8390,6 +9326,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bargain Bin** | Enchanting | · | Enchant an item using the table's cheapest slot, for one level and one lapis |
 | **Bark Beetle** | Mining | ◆ | Strip the bark off a Log with every kind of Axe |
 | **Bark of the Bloodwood** | Nether | · | Mine 500 Crimson Hyphae |
+| **Bark Off** | Biomes | · | Strip a Pale Oak Log down to the bone-white wood underneath, out in the Pale Garden |
 | **Barn Loft Baron** | Animals | ◆ | Drop 1,024 Hay Bales |
 | **Barn Stacked** | Farming | ◆ | Craft 200 Hay Bales |
 | **Barns Full to the Rafters** | Animals | ★ | Use 2,500 Hay Bales |
@@ -8409,8 +9346,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Basalt by the Bargeload** | Nether | ★ | Mine 100,000 Basalt |
 | **Basalt Colonnade** | Building | · | Place 2,000 Basalt |
 | **Basalt Columns for Days** | Nether | ◆ | Mine 12,500 Polished Basalt |
+| **Base Camp** | Biomes | ★ | Make camp above y-level 200 on the peaks: set a Campfire, eat a meal, and sleep the night through |
 | **Base Camp in a Box** | The End | ◆ | Place 200 Shulker Boxes |
 | **Base Camp, Everywhere** | The End | ★ | Place 15,000 Shulker Boxes |
+| **Basement Balloon** | Animals | ★ | Coax a Happy Ghast down below y = -40, where nothing that big belongs |
 | **Bastion Bankruptcy** | Nether | ★ | Mine 4,096 Gilded Blackstone |
 | **Bastion Breaker** | Nether | ◆ | Kill 25 Piglin Brutes |
 | **Bastion Burglar** | Nether | ◆ | Mine 128 Gilded Blackstone |
@@ -8422,13 +9361,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Batch One** | Farming | · | Bake 150 Cookies |
 | **Batting Practice** | Animals | · | Kill 250 Bats |
 | **Battle Rations** | Farming | · | Eat a meal while Bad Omen still hangs over you |
+| **Beach Party** | Animals | ★ | Get two Turtles through the End portal and breed them out among the islands |
 | **Beach Raider** | Animals | · | Kill 75 Turtles |
 | **Beachcomber's Fortune** | Biomes | ◆ | Collect 30 Hearts of the Sea |
+| **Beached** | Adventure | ★ | Kill an Elder Guardian with not a drop of water left around it |
 | **Beacon Bankroll** | Monsters | ★ | Kill 250 Withers |
 | **Beacon Baron** | Monsters | ★ | Drop 20 Nether Stars |
 | **Bean Counter** | Biomes | ◆ | Mine 1,000 Cocoa Pods |
 | **Bean There** | Farming | · | Use 600 Cocoa Beans |
 | **Bear Market** | Biomes | ◆ | Kill 15 Polar Bears |
+| **Bear Paddle** | Biomes | ◆ | Kill a Polar Bear while it is out swimming |
+| **Bear With Me** | Animals | · | Find out the hard way that some Pandas are born aggressive |
 | **Beard Trimming** | Mining | · | Mine 128 Hanging Roots |
 | **Bears Would Envy You** | Animals | ★ | Kill 20,000 Salmon |
 | **Beast of Burden** | Animals | · | Strap a Chest onto a Donkey, a Mule and a Llama |
@@ -8437,16 +9380,27 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Beat Them With the Fire** | Weaponry | ◆ | Land 5,000 hits with a Blaze Rod |
 | **Beat Them With Their Brother** | Weaponry | ◆ | Use 1,000 Creeper Heads |
 | **Beaten Past Repair** | Enchanting | ★ | Mine 4,000 Chipped Anvils |
+| **Beating About the Bush** | Biomes | · | Walk straight into one of the scrubby Bushes clinging to the Badlands |
 | **Beauty in the Bog** | Biomes | ◆ | Mine 2,500 Blue Orchids |
+| **Bed and Cauldron** | Biomes | ◆ | Put a bed down inside a Swamp Hut and spend the whole night in a Witch's house |
 | **Bed Bath and Beyond** | Nether | · | Set off a bed inside a Bastion Remnant and live through the blast |
+| **Bedrock Bargains** | Adventure | ◆ | Trade with a Villager below Y level -50 |
+| **Bedrock Bedroom** | Building | ◆ | Sleep at the very bottom of the world, tucked in among the bedrock |
 | **Bedrock Familiarity** | Statistics | ★ | Use a Diamond Pickaxe 15,000 Times |
 | **Bedrock Line** | Redstone | · | Ride a Minecart at Y=-55 or lower |
 | **Bedrock of the Mesa** | Biomes | ★ | Mine 500,000 Red Sand |
+| **Bedrock Scholar** | Enchanting | · | Enchant something at a table set up at Y=-59 or lower, right down on the bedrock |
 | **Beds for an Army** | Building | ◆ | Place 512 White Beds |
 | **Beds for the Newcomers** | Adventure | · | Craft 256 White Beds |
+| **Bedside in the Dark** | Super Challenges | ★★ | Cure a Zombie Villager inside an Ancient City |
+| **Bedtime in the Dark** | Animals | ★ | Sleep through a whole night in a Bed inside an Ancient City |
+| **Bedtime Reading** | Building | · | Leave a Written Book open on a Lectern for the next visitor |
 | **Bee Movie** | Animals | ◆ | Have twenty Bees leave their stingers in you and live to tell it |
+| **Bee on a String** | Animals | · | Hook a Bee with a Fishing Rod and regret it immediately |
 | **Beef Baron** | Farming | ★ | Cook 15,000 Steaks |
 | **Beekeeper of the Realm** | Animals | ★ | Craft 12,000 Beehives |
+| **Beekeeping at the End of the World** | The End | ★ | Break open a Bee Nest with three bees still inside it, in the End |
+| **Beekeeping Beyond the Sky** | The End | ★ | Break a Bee Nest in the End |
 | **Beet Rows** | Farming | · | Plant 1,500 Beetroot Seeds |
 | **Beetroot Barony** | Farming | ★ | Harvest 2,000 Beetroots |
 | **Beets Beyond Belief** | Potions | ★ | Eat 40,000 Beetroot Soups |
@@ -8454,11 +9408,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Beginner's Luck** | Animals | · | Use 16 Rabbit's Feet |
 | **Behind Bars Forever** | Building | ◆ | Place 8,000 Iron Bars |
 | **Beholden** | Adventure | ★ | Pick up 256 Eye Armor Trim Smithing Templates |
+| **Belfry** | Building | · | Hang a bell from a ceiling instead of standing it on the floor |
 | **Belfry Enthusiast** | Adventure | ◆ | Place 5,000 Bells |
+| **Bell of the Deep** | Adventure | ◆ | Ring a Bell inside an Ocean Monument |
+| **Bell Tower** | Building | ◆ | Ring a bell 150 blocks above sea level |
 | **Bell, Book and Candle** | Adventure | ◆ | Carry a Bell, a Book and a Candle at the same time |
 | **Bellwether** | Building | · | Hang a Bell from a ceiling |
+| **Below Decks** | Adventure | ◆ | Empty a Shipwreck's map chest, its supply chest and its treasure chest |
 | **Below the Blue Line** | Enchanting | ★ | Mine 2,500 Deepslate Lapis Lazuli Ore |
 | **Below the Waterline** | Biomes | · | Mine 750 Packed Ice |
+| **Belt and Braces** | Animals | ◆ | Ride a Happy Ghast while wearing an Elytra you do not need |
 | **Bench on the Back** | Enchanting | · | Pick up 200 Smithing Tables |
 | **Beneath the Spruce** | Biomes | ◆ | Pick up 2,048 Podzol. |
 | **Bent Like Butter** | Weaponry | · | Break 15 Golden Swords |
@@ -8470,11 +9429,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Berries for the Cold Months** | Biomes | ◆ | Pick up 8,192 Sweet Berries. |
 | **Berry Baron** | Biomes | ★ | Mine 2,000 Sweet Berry Bushes |
 | **Berry Bonanza** | Farming | ◆ | Use 750 Sweet Berries |
+| **Berry Bright** | Animals | · | Offer a Fox Glow Berries instead of the usual Sweet Berries |
 | **Berry Picking Below** | Mining | · | Mine 256 Cave Vines |
 | **Berserker Budget** | Weaponry | ◆ | Break 300 Iron Axes |
 | **Berserker's Choice** | Weaponry | · | Use a Netherite Axe 250 times |
+| **Berth of a Legend** | Adventure | · | Sleep in a bed inside a Shipwreck |
+| **Best of Both Worlds** | Enchanting | ◆ | Get Fortune III and Looting III onto one single Enchanted Book |
 | **Better Living Through Chemistry** | Potions | ★ | Drink 400 Potions |
 | **Better Than Torches** | Mining | · | Craft 128 Lanterns |
+| **Between Waves** | Adventure | ◆ | Sleep in a bed inside a Trial Chamber |
 | **Beyond All Curing** | Adventure | ★ | Kill 5,000 Zombie Villagers |
 | **Beyond Comparison** | Redstone | ★ | Craft 25,000 Redstone Comparators |
 | **Beyond Curing** | Adventure | · | Kill 100 Zombie Villagers |
@@ -8483,8 +9446,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Beyond the Treeline** | Biomes | ★ | Mine 250,000 Spruce Logs |
 | **Bifrost Broken** | Weaponry | ★ | Use a Netherite Axe 50,000 times |
 | **Big Business Baaing** | Farming | ★ | Collect 30,000 White Wool |
+| **Big Leaf Energy** | Biomes | · | Feed Bone Meal to a Small Dripleaf in the Lush Caves until it stands taller than you |
+| **Bigger Hammer** | Enchanting | ★ | Bring a Warden down and finish it with a smash from a Density V Mace |
+| **Bigger on the Inside** | Building | · | Place a chest so that it pairs up into a double chest |
 | **Bindings for Every Book** | Enchanting | ★ | Pick up 40,000 Leather |
 | **Bins Beyond Number** | Adventure | ◆ | Craft 2,048 Composters |
+| **Bioluminescence** | Building | ★ | Place all three colours of Froglight |
 | **Bioluminescent Bloodbath** | Animals | ◆ | Kill 750 Glow Squid |
 | **Bioluminescent Harvest** | Mining | ★ | Mine 20,000 Glow Lichen |
 | **Biome Sandwich** | Biomes | · | Find a spot where three different biomes all sit within eight blocks of you |
@@ -8497,6 +9464,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bittersweet Fortune** | Biomes | ★ | Mine 25,000 Cocoa Pods |
 | **Black as the Trench** | Adventure | ★ | Craft 100,000 Dark Prismarine |
 | **Black Boxes in a Black Sky** | The End | · | Place 500 Black Shulker Boxes |
+| **Black Cat, Dark Wood** | Super Challenges | ★★ | Breed a black kitten inside a Woodland Mansion on the night of a full moon |
 | **Black Seam** | Mining | · | Mine 150 Deepslate Coal Ore |
 | **Black Stone in Hand** | Enchanting | · | Pick up 1,000 Obsidian |
 | **Blackened Halls** | Building | · | Place 400 Polished Blackstone Bricks |
@@ -8516,6 +9484,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Blank Pages in Hand** | Enchanting | · | Pick up 100 Books and Quills |
 | **Blank Slate Cartography** | Adventure | ★ | Craft 400 Empty Maps |
 | **Blast Freight** | Redstone | ◆ | Place 60 Minecarts with TNT |
+| **Blast Off** | Enchanting | ◆ | Get thrown thirty blocks up by an explosion and come down in Feather Falling IV boots |
 | **Blast Off, Bop** | Adventure | · | Send a Copper Golem flying with a thrown Wind Charge |
 | **Blast Radius** | Mining | ★ | Place 10,000 TNT |
 | **Blast Radius Zero** | Monsters | ◆ | Kill 1,000 Creepers |
@@ -8535,19 +9504,28 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bleaching Event** | Biomes | · | Mine 32 Dead Tube Coral Blocks. |
 | **Bleaching the Hellscape** | Nether | ★ | Mine 50,000 Nether Quartz Ore |
 | **Bleaching the Reef** | Animals | · | Kill 100 Tropical Fish |
+| **Bleat It** | Biomes | · | Get killed by a Goat. A goat. Really |
 | **Bled the Caves Blue** | Enchanting | ★ | Mine 25,000 Lapis Lazuli Ore |
 | **Bleeding Badlands** | Biomes | ◆ | Mine 4,000 Red Sand |
 | **Bless You** | Animals | · | Collect the slimeball a baby Panda drops when it sneezes |
+| **Blessed by the Sea** | Biomes | ★ | Hold Conduit Power, Dolphin's Grace and Water Breathing all at once |
+| **Blessing of the Deep** | Animals | ★ | Hold Dolphin's Grace and Conduit Power at the very same moment |
 | **Blight in Full Bloom** | Monsters | ★ | Collect 10,000 Wither Roses |
+| **Blimp Over the Void** | The End | · | Ride a Happy Ghast over the End islands |
+| **Blind Ambition** | The End | ★ | Kill the Ender Dragon while you cannot see a thing |
+| **Blind Bidding** | Adventure | · | Trade with a Villager while completely blind |
 | **Blind Bouquet** | Adventure | · | Pick up 256 Closed Eyeblossoms |
 | **Blind Corner** | Redstone | · | Ride a Minecart wearing a Carved Pumpkin on your head |
 | **Blind Faith** | Adventure | · | Trade with a Villager while Blindness is on you |
 | **Blind Fury** | Potions | ◆ | Kill an Enderman while both Blindness and Nausea are on you |
 | **Blind Grab** | Mining | · | Loot an Ancient City chest while the Darkness effect is on you |
 | **Blind Justice** | Mining | ★ | Kill 5 Wardens |
+| **Blind Shot** | Enchanting | ◆ | Kill a mob with a Power V bow while Blindness has you shooting at shapes |
+| **Blind Spot** | Adventure | · | Look through a Spyglass while Blindness is on you |
 | **Blind to the Endermen** | Monsters | ◆ | Place 500 Carved Pumpkins |
 | **Blinded by the Light** | Adventure | ★ | Kill 1,500 Guardians |
 | **Blindfolded by Abundance** | The End | ★ | Throw 8,192 Eyes of Ender |
+| **Bling on a Budget** | Adventure | ◆ | Trim a Chainmail Chestplate with Netherite |
 | **Blink and Pulse** | Redstone | ★ | Place 2,500 Observers |
 | **Blink Twice** | The End | · | Throw 250 Ender Pearls |
 | **Blink, and Blink Again** | The End | ★ | Throw 5,000 Ender Pearls |
@@ -8581,11 +9559,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Blossom Buddies** | Animals | · | Breed two Bees under the petals of a Cherry Grove |
 | **Blossom Timber** | Biomes | · | Craft 64 Cherry Wood. |
 | **Blossoms in Hand** | The End | · | Collect 1,000 Chorus Flowers |
+| **Blowfish Buffet** | Biomes | · | Eat a raw Pufferfish while you are underwater. Bon appetit |
 | **Blowfish Gourmand** | Animals | ★ | Eat 10,000 Pufferfish |
 | **Blowfish Roulette** | Animals | · | Eat a Pufferfish and come away carrying Poison, Hunger and Nausea all at once |
 | **Blowing the Whistle** | Animals | · | Blow a Goat Horn inside a Pillager Outpost |
+| **Blown Out to Sea** | Biomes | ◆ | Get launched by an explosion and come down in water at least 15 blocks away |
+| **Blub Blub Blub** | Animals | · | Blow a Goat Horn while you are underwater and hear how little it helps |
 | **Blue Blood** | Animals | ◆ | Breed two Horses that are both wearing Diamond Horse Armor |
 | **Blue Bricks** | Enchanting | · | Craft 20 Blocks of Lapis Lazuli |
+| **Blue Chip Investment** | Enchanting | · | Buy Lapis Lazuli from a Villager instead of digging for it |
 | **Blue Dust Everywhere** | Enchanting | ★ | Pick up 15,000 Lapis Lazuli |
 | **Blue Enough for Anything** | Enchanting | ★ | Craft 4,000 Blue Dye |
 | **Blue Fire Everywhere** | Building | · | Place 500 Soul Torches |
@@ -8645,6 +9627,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Boost Supply** | Redstone | · | Craft 768 Powered Rails |
 | **Booster Shot** | Redstone | · | Put a Redstone Torch directly underneath a Powered Rail |
 | **Borrowed Ghast Fire** | Monsters | · | Craft 100 Fire Charges |
+| **Borrowed Light** | Adventure | ◆ | Set a Sea Lantern down inside an Ancient City |
 | **Borscht Beginnings** | Farming | · | Craft 64 Beetroot Soup |
 | **Botanist of the Blue Waste** | Nether | ◆ | Mine 7,500 Nether Sprouts |
 | **Botany in Bulk** | Building | ★ | Place 3,000 Flower Pots |
@@ -8676,6 +9659,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bouncing on Their Graves** | Monsters | ★ | Kill 25,000 Slimes |
 | **Bouncy Castle** | Redstone | · | Place 50 Slime Blocks |
 | **Bound and Stitched** | Enchanting | ★ | Craft 200 Leather |
+| **Bound for Bed** | Enchanting | · | Go to sleep in a suit of armour you cannot take off, every piece cursed with Curse of Binding |
 | **Bound for the Shelf** | Enchanting | · | Craft 50 Books |
 | **Bound in Hide** | Enchanting | ★ | Craft 75 Leather |
 | **Boundaries in a Boundless Sky** | The End | ◆ | Place 10,000 End Stone Brick Walls |
@@ -8692,6 +9676,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bowls for the Masses** | Farming | ◆ | Craft 20,000 Bowls |
 | **Bowls for the Whole Village** | Animals | ◆ | Craft 1,000 Rabbit Stew |
 | **Bowyer Full Employment** | Statistics | ★ | Break 250 Bows |
+| **Box at Forty Paces** | The End | ◆ | Kill a Shulker from at least forty blocks away |
 | **Box Opener** | The End | · | Kill 50 Shulkers |
 | **Boxed In** | Building | · | Seal a single block inside Trapdoors on all six faces, then stand on top of the box |
 | **Boxed Set** | The End | · | Craft 16 Shulker Boxes |
@@ -8705,6 +9690,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bramble Picker** | Biomes | · | Pick up 128 Sweet Berries. |
 | **Bramble Wrangler** | Biomes | ◆ | Mine 750 Sweet Berry Bushes |
 | **Bread and Water** | Farming | · | Eat 4,000 Bread |
+| **Bread Line** | Adventure | · | Throw a loaf of Bread to a Villager and watch him snatch it up |
 | **Breadbasket of the Overworld** | Animals | ★ | Drop 50,000 Wheat |
 | **Breadwinner** | Farming | · | Drop Bread in front of a Villager and watch them snatch it up |
 | **Break It, Place It, Repeat** | Enchanting | ★ | Place 2,000 Lecterns |
@@ -8728,6 +9714,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Breeding for Perfection** | Animals | ★ | Use 20,000 Golden Carrots |
 | **Breeze Block** | Weaponry | ◆ | Kill a Breeze with the charge attack of a Spear |
 | **Breeze in a Box** | Potions | ◆ | Craft 100 Wind Charges |
+| **Breezy** | Enchanting | ◆ | Beat a Breeze at its own game with a Mace enchanted with Wind Burst |
 | **Brew No More** | Adventure | ◆ | Kill 400 Witches |
 | **Brewing Stock for a Lifetime** | Nether | ◆ | Collect 30,000 Nether Wart |
 | **Brewing Under Pressure** | Potions | ◆ | Pull a potion out of a Brewing Stand inside an Ocean Monument with Mining Fatigue on you |
@@ -8744,6 +9731,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Brickwork from Beyond** | The End | · | Craft 600 End Stone Bricks |
 | **Brickworks Baron** | Biomes | ◆ | Mine 50,000 Clay |
 | **Bridge by Bridge** | Nether | ◆ | Mine 2,000 Nether Bricks |
+| **Bridge Over Troubled Lava** | Building | ◆ | Place a block out over the Nether's lava sea |
 | **Bridge Toll** | Nether | · | Loot a chest inside a Nether Fortress |
 | **Bridge, Cross, Collect** | The End | · | Break 3,000 Scaffolding |
 | **Bright Ideas** | Redstone | · | Place 64 Oxidized Copper Bulbs |
@@ -8756,18 +9744,24 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Brimstone Builder** | Biomes | · | Place Sulfur Bricks inside the Sulfur Caves |
 | **Brimstone Worked to a Mirror** | Potions | ★ | Craft 80,000 Polished Sulfur |
 | **Brine Baron** | Biomes | ★ | Mine 2,500 Sea Pickles |
+| **Bring a Bodyguard** | Adventure | ◆ | Build an Iron Golem down in the Deep Dark |
 | **Bring a Spear to a Gunfight** | Weaponry | · | Kill a Pillager that is holding a loaded Crossbow using a Spear |
+| **Bring Your Own Ocean** | Biomes | ★ | Activate a Conduit in the End. Bring the water with you |
+| **Bring Your Own Sun** | Adventure | ★ | Raise a working Beacon inside an Ancient City |
 | **Bringing Down the Towers** | The End | ◆ | Break 5,000 Purpur Pillars |
 | **Bringing Home the Bacon** | Animals | ◆ | Kill 600 Pigs |
+| **Bristles Gone** | Adventure | ◆ | Wear a Brush down to its very last bristle |
 | **Bristles Worn Away** | Adventure | · | Break 10 Brushes |
 | **Bristling Wall** | Weaponry | ★ | Land 2,000 hits with an Iron Spear |
 | **Brittle Harvest** | Biomes | · | Mine 1,000 Short Dry Grass |
+| **Broad Daylight** | Super Challenges | ★★ | Sleep in a bed inside an Ancient City in the middle of the day |
 | **Broadcast Sowing** | Farming | ★ | Plant 20,000 Wheat Seeds |
 | **Broken Beasts of Burden** | Adventure | ★ | Kill 750 Ravagers |
 | **Broken Bristles** | Weaponry | ◆ | Break 75 Iron Spears |
 | **Broken From Below** | Building | · | Place 4,000 Cobbled Deepslate |
 | **Broken on the Big One** | Animals | ★ | Break 2,000 Fishing Rods |
 | **Broken Record Collector** | Monsters | ◆ | Collect 100 Disc Fragments |
+| **Broken Roads** | Biomes | ★ | Loot the chest of a Ruined Portal in the mountains, another out in the desert and a third in the jungle |
 | **Bronze Age** | Weaponry | ◆ | Kill a mob with each of the Copper sword, axe, pickaxe, shovel and hoe |
 | **Bronze Age Bloodline** | Weaponry | ★ | Land 50,000 hits with a Copper Spear |
 | **Bronze Lance** | Weaponry | · | Kill a mob with a Copper Spear while dressed head to toe in Copper armour |
@@ -8782,6 +9776,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bubble Bath** | Potions | · | Sit in a Water Cauldron while the Water Breathing effect is running |
 | **Bucket Brigade** | Animals | ◆ | Lead an Axolotl two hundred blocks by holding a Bucket of Tropical Fish |
 | **Bucket List** | Animals | ◆ | Hold a Bucket of Cod, Salmon, Tropical Fish, Pufferfish, Axolotl and Tadpole all at once |
+| **Bucket of Brrr** | Biomes | · | Fill a bucket with water drawn from a Frozen Ocean |
 | **Bucket of Stink** | Biomes | · | Scoop a Sulfur Cube up into a Bucket |
 | **Buckets of Medicine** | Potions | · | Release 100 Axolotls from a bucket |
 | **Buckled and Ready** | Animals | · | Use Wolf Armor 100 times |
@@ -8789,9 +9784,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Budding Interest** | Enchanting | · | Pick up 20 Medium Amethyst Buds |
 | **Buff and Polish** | Mining | · | Scrape the wax straight back off a Copper Golem with an Axe |
 | **Buffed to a Dark Shine** | Building | · | Place 500 Polished Deepslate |
+| **Bug Report** | The End | · | Get killed by a Silverfish inside a Stronghold |
 | **Bug Spray** | Monsters | ◆ | Kill a Spider, a Cave Spider, a Silverfish and an Endermite with a sword enchanted with Bane of Arthropods |
 | **Builder of Drowned Vaults** | Adventure | ◆ | Craft 30,000 Dark Prismarine |
+| **Building Code Violation** | Building | ◆ | Put a Nether Brick Fence beside a wooden fence and watch them refuse to join up |
 | **Building the Beach** | Building | · | Place 6,000 Sand |
+| **Built Different** | Building | ◆ | Build yourself a Copper Golem out of spare parts |
 | **Built From Bedrock Up** | Building | ◆ | Place 15,000 Deepslate |
 | **Bulb Ladder** | Redstone | · | Stack four Copper Bulbs one directly on top of another |
 | **Bulb Moment** | Redstone | · | Place 20 Copper Bulbs |
@@ -8807,24 +9805,30 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Bullion From the Bedrock** | Nether | ★ | Mine 75,000 Nether Gold Ore |
 | **Bullion in Blue** | Enchanting | ★ | Craft 1,500 Blocks of Lapis Lazuli |
 | **Bullion of the Overworld** | Adventure | ◆ | Pick up 25,000 Blocks of Emerald |
+| **Bullseye at Speed** | The End | ★ | Put an arrow through the dead centre of a Target without stopping your glide |
 | **Bullseye Boulevard** | Redstone | ★ | Place 1,000 Target Blocks |
 | **Bullseye Express** | Redstone | ★ | Hit the bullseye of a Target Block from thirty blocks away, from the seat of a Minecart |
 | **Bulwark Industry** | Weaponry | ★ | Craft 150 Shields |
 | **Bundle of Everything** | Adventure | ◆ | Collect all sixteen colours of Bundle |
 | **Bundle Theory** | Animals | ★ | Use 4,096 Bundles |
 | **Bundles of Burning Sticks** | Nether | ◆ | Collect 2,500 Blaze Rods |
+| **Bunk with the Pillagers** | Biomes | ◆ | Sleep through the night in a bed you put down inside a Pillager Outpost |
 | **Bunny Bindings** | Animals | ★ | Drop 4,096 Rabbit Hide |
 | **Bunny Buffet** | Animals | · | Offer a Rabbit a Carrot, a Golden Carrot and a Dandelion |
 | **Bunny Business** | Farming | · | Harvest 250 Carrots |
 | **Bureaucracy of Exploration** | Adventure | ◆ | Pick up 15,000 Paper |
 | **Buried Bullion** | Mining | · | Mine 150 Deepslate Gold Ore |
 | **Burning at Both Ends** | Building | ★ | Place 20,000 Candles |
+| **Burning in a Fireless World** | The End | · | Catch fire in the End, a place with nothing to burn |
+| **Burning Passion** | Animals | ◆ | Breed a pair of animals while you yourself are on fire |
 | **Burning the Forest Twice** | Mining | ★ | Obtain 65,536 Charcoal from smelting |
+| **Burning the Midnight Oil** | Enchanting | · | Enchant an item while you are on fire. The lapis will keep |
 | **Burning Wealth** | Building | ◆ | Place 15,000 Blocks of Coal |
 | **Burst the Bubble** | Potions | · | Kill 40 Sulfur Cubes |
 | **Bushel of Blight** | Nether | ◆ | Mine 1,000 Nether Wart Blocks |
 | **Bushels and Bushels** | Animals | ◆ | Drop 15,000 Wheat |
 | **Business End** | Weaponry | ◆ | Stab a Guardian to death with a Trident enchanted with Impaling |
+| **Bust of the Fallen** | Building | ◆ | Mount a mob's head on an Armour Stand |
 | **Butcher of Spoiled Goods** | Monsters | ◆ | Collect 5,000 Rotten Flesh |
 | **Butcher of the Crimson** | Nether | ★ | Kill 3,000 Hoglins |
 | **Butcher of the Crimson Forest** | Nether | ★ | Drop 50,000 Raw Porkchop. |
@@ -8835,25 +9839,34 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Button Masher** | Redstone | ◆ | Place 300 Stone Buttons |
 | **Buttoned Up** | Redstone | ◆ | Pick up 2,048 Oak Buttons |
 | **By My Own Hand** | Enchanting | · | Craft 8 Written Books |
+| **By the Book** | Enchanting | ★ | Raise a Wither yourself, then put it down with an axe enchanted with Smite V |
 | **Byproducts** | Animals | ◆ | Hold one of every ordinary animal byproduct at the same time |
 | **Cactus Cartel** | Biomes | ★ | Mine 5,000 Cactus |
 | **Cactus Country** | Farming | ★ | Smelt 20,000 Green Dye |
 | **Cage Breaker** | Adventure | · | Break 10 Monster Spawners |
 | **Cake Hoarder** | Farming | ◆ | Place sixty-four Cakes in a single chunk |
+| **Cake Stand** | Building | · | Put a Cake on display on a Shelf |
+| **Cake Thief** | Animals | ◆ | Drop a Cake on the ground and watch a Panda make off with the whole thing |
 | **Cakes Without End** | Animals | ◆ | Collect 15,000 Eggs |
+| **Calamari Flambé** | Biomes | ◆ | Channel a lightning bolt straight into a Squid |
 | **Calcite Cathedral** | Mining | ★ | Mine 16,384 Calcite |
 | **Calcite Cladding** | Building | ◆ | Place 4,000 Calcite |
 | **Calcium Deficit** | Monsters | ◆ | Kill 600 Skeletons |
 | **Call It Off** | Potions | ◆ | Drink Milk under Raid Omen and cancel the raid before the horn sounds |
 | **Call of the Outpost** | Adventure | · | Blow a Goat Horn 75 times |
+| **Called Down the Thunder** | Super Challenges | ★★ | Channel lightning into the Wither with a Trident |
+| **Camelback Commerce** | Animals | ◆ | Complete a villager trade without ever getting down off your Camel |
 | **Campfire Cartography** | Building | ◆ | Place 4,000 Campfires |
 | **Camping Supplies** | Building | · | Buy a Campfire from a Fisherman instead of making one yourself |
 | **Campsites of the Damned** | Monsters | ◆ | Place 2,000 Soul Campfires |
 | **Can Opener** | Enchanting | · | Smash a Piglin Brute with a Mace enchanted with Breach IV |
 | **Can You Hear Me Now?** | Weaponry | ◆ | Take a Warden's sonic boom from more than twelve blocks away |
+| **Can't Dodge This** | Enchanting | ★ | Kill an Enderman with an arrow from a Power V bow, for all the good teleporting does it |
 | **Canary in the Coal Mine** | Mining | · | Mine 150 Coal Ore |
+| **Candelabra** | Building | · | Crowd four candles into a single block |
 | **Candlelight** | Building | · | Place 40 Candles |
 | **Candlelight Cathedral** | Building | ★ | Place 6,000 Candles |
+| **Candlelight Vigil** | Building | ★ | Strike a light for a candle inside an Ancient City |
 | **Candlelit Corners** | Building | · | Place 128 Black Candles. |
 | **Candlemaker** | Building | ◆ | Collect all sixteen dyed Candles |
 | **Candles for Everyone** | Farming | ★ | Bake 400 Cakes |
@@ -8871,18 +9884,23 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cap Cutter** | Nether | · | Mine 400 Nether Wart Blocks |
 | **Cap in Hand** | Nether | · | Pick up 128 Crimson Fungus. |
 | **Caps by the Cartload** | Farming | ★ | Harvest 40,000 Brown Mushrooms |
+| **Captain's Quarters** | Adventure | ◆ | Sleep in a bed inside a sunken Shipwreck |
 | **Caravan Cut Short** | Monsters | ◆ | Kill 150 Camel Husks |
 | **Caravan Master** | Animals | ◆ | Craft 60 Leads |
 | **Caravan of the Damned** | Monsters | ★ | Kill 1,000 Camel Husks |
 | **Carb Loading** | Statistics | · | Eat 250 Baked Potatoes |
+| **Carbon Copy** | Adventure | · | Copy a filled Map onto a blank one |
 | **Carbon Dated** | Mining | ◆ | Mine 1,500 Deepslate Coal Ore |
 | **Carbon Dating** | Mining | ◆ | Mine 512 Deepslate Diamond Ore |
 | **Carbon Tyrant** | Weaponry | ★ | Land 25,000 hits with a Diamond Sword |
+| **Card Catalogue** | Building | · | Slot an Enchanted Book into a Chiseled Bookshelf |
+| **Career Change** | Enchanting | ◆ | Catch a Creeper and a Pig in one channeled bolt and change both of their careers at once |
 | **Careful with That One** | Potions | · | Break 50 Lava Cauldrons |
 | **Careless With Ancient Power** | Enchanting | ★ | Drop 2,000 Enchanting Tables |
 | **Careless With Magic** | Enchanting | ◆ | Drop 2,000 Bottles o' Enchanting |
 | **Cargo Cult** | The End | · | Collect 64 Shulker Boxes. |
 | **Cargo Empire** | Redstone | ★ | Place 5,000 Minecarts with Chest |
+| **Cargo Manifest** | Building | · | Restock a Shipwreck with a barrel of your own |
 | **Cargo Run** | Redstone | · | Place 25 Minecarts with Chest |
 | **Carnivore** | Farming | ◆ | Eat Cooked Beef, Porkchop, Chicken, Mutton, Rabbit, Cod and Salmon |
 | **Carnivore Absolute** | Animals | ★ | Eat 100,000 Cooked Beef |
@@ -8893,6 +9911,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Carrot Cartel** | Animals | ★ | Pick up 32,768 Carrots |
 | **Carrots Worth a Kingdom** | Farming | ★ | Craft 40,000 Golden Carrots |
 | **Carrots Worth Their Weight** | Potions | · | Collect 500 Golden Carrots |
+| **Carry-On Luggage** | The End | ◆ | Leave the End through the exit portal with the Dragon Egg in your hand |
 | **Carrying Off the Cities** | The End | ◆ | Collect 30,000 Purpur Blocks |
 | **Carrying the Catalogue** | Enchanting | ★ | Pick up 3,000 Chiseled Bookshelves |
 | **Carrying the Dead Wyrm** | The End | ◆ | Collect 256 Dragon Heads |
@@ -8922,12 +9941,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Casting Off the Carapace** | The End | ◆ | Drop 2,500 Shulker Shells |
 | **Casually Discarded Fortune** | Statistics | · | Drop 1 Block of Netherite |
 | **Cat Got the Record** | Monsters | · | Collect 5 Music Disc Cat |
+| **Cat in Hell's Chance** | Animals | ★ | Walk a stray Cat through a portal and win it over in the Nether |
 | **Catacomb Architect** | Monsters | ◆ | Pick up 2,048 Bone Blocks |
 | **Cataloged and Slotted** | Enchanting | ★ | Craft 200 Chiseled Bookshelves |
 | **Catalyst Cultivator** | Mining | ★ | Mine 25,000 Sculk |
 | **Catalysts by the Crate** | Enchanting | ★ | Pick up 160 Sculk Catalysts |
 | **Catalytic Converter** | Redstone | · | Drop 8 Sculk Catalysts |
 | **Catch of the Deep** | Animals | · | Hook a Guardian with a Fishing Rod |
+| **Catch of the Night** | Super Challenges | ★★ | Hook a Phantom out of the air with a Fishing Rod from at least 25 blocks away |
 | **Cathedral Glasswork** | Building | ◆ | Place 25,000 White Stained Glass |
 | **Cathedral of Amber Light** | Building | ★ | Place 30,000 Orange Stained Glass Panes. |
 | **Cathedral of Crystal** | Mining | ★ | Place 1,024 Large Amethyst Buds |
@@ -8938,6 +9959,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cauldron Dry** | Adventure | ★ | Kill 1,500 Witches |
 | **Cauldron Economy** | Farming | ◆ | Craft 400 Mushroom Stew |
 | **Cauldron of Cows** | Animals | ◆ | Pick up 2,048 Mushroom Stew |
+| **Cavalry From Above** | Adventure | ◆ | Win a raid without ever climbing down off your Happy Ghast |
 | **Cave Aesthetic** | Building | · | Place 250 Dripstone Blocks |
 | **Cave Bloom** | Biomes | · | Plant an Eyeblossom in the Deep Dark, where the day never comes |
 | **Cave Cruise** | Biomes | · | Board a Boat inside the Lush Caves |
@@ -8951,6 +9973,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cavern of Needles** | Mining | ★ | Mine 150,000 Pointed Dripstone |
 | **Cavewall Chronicle** | Weaponry | ★ | Land 4,000 hits with a Stone Spear |
 | **Ceiling Bloom** | Biomes | · | Mine 100 Spore Blossoms |
+| **Ceiling Height** | Building | ★ | Place a block at Y=319, the very last layer the world will accept |
 | **Ceiling Lights** | Nether | · | Mine 128 Glowstone |
 | **Ceiling Lights Removed** | Nether | ★ | Mine 4,096 Glowstone |
 | **Ceiling of Spears** | Mining | ★ | Mine 10,000 Pointed Dripstone |
@@ -8959,6 +9982,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cellar Access** | Redstone | ◆ | Place 4,096 Oak Trapdoors |
 | **Cellar Door** | Biomes | · | Loot the hidden chest in the cellar beneath an Igloo |
 | **Centuries in an Afternoon** | Building | ★ | Place 40,000 Mossy Stone Bricks |
+| **Century Shot** | Super Challenges | ★★ | Hit the bullseye of a Target Block with an arrow from 100 blocks away |
 | **Ceramic Civilization** | Adventure | ★ | Craft 10,000 Decorated Pots |
 | **Ceramics Collection** | Adventure | ◆ | Craft 50 Decorated Pots |
 | **Ceramics of the Trial** | Adventure | ★ | Pick up 4,000 Flow Pottery Sherds |
@@ -8984,16 +10008,20 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Chambers Cracked Open** | Animals | ◆ | Kill 500 Nautiluses |
 | **Chandelier** | Biomes | · | Hang a Copper Lantern inside the Dripstone Caves |
 | **Chandelier Complex** | Building | ◆ | Place 100 Candles |
+| **Change of Coat** | Animals | ◆ | Breed two Red Foxes somewhere snowy and watch a white kit come out |
 | **Chaps** | Animals | · | Use 32 Leather Leggings |
 | **Charcoal Burner** | Mining | ◆ | Smelt five hundred Charcoal |
 | **Charcoal Cranium** | Weaponry | · | Use 128 Wither Skeleton Skulls |
 | **Charcoal Grin** | Monsters | · | Drop 1 Wither Skeleton Skull |
 | **Charge of the Green** | Monsters | · | Use a Creeper Banner Pattern 10 times |
+| **Charge of the Pork Brigade** | Adventure | ★ | Defeat a Ravager while riding a Pig |
 | **Charge!** | Weaponry | · | Land 600 hits with a Netherite Spear |
 | **Charged and Collected** | Enchanting | ◆ | Pick up 5 Creeper Heads |
 | **Charged Creeper Craftsman** | Nether | ★ | Mine 256 Piglin Heads |
 | **Charged Pork** | Animals | · | Channel lightning into a Pig and see what walks away |
 | **Charges Set** | Mining | ★ | Place 3,000 TNT |
+| **Charging Nothing** | The End | · | Charge a Respawn Anchor with Glowstone in the End, where it will never work |
+| **Charm Bracelet** | Animals | ◆ | Hold a Nautilus Shell, a Turtle Scute and a Rabbit's Foot all at the same time |
 | **Charnel Cabinet** | Monsters | ◆ | Collect 256 Wither Skeleton Skulls |
 | **Chart House** | Biomes | · | Loot the chest in a village Cartographer's house |
 | **Chart-Topping Loot** | Adventure | ◆ | Pick up 32 Pigstep Music Discs |
@@ -9002,15 +10030,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cheap and Cheerful** | Statistics | ◆ | Break a thousand blocks with Copper Pickaxes |
 | **Cheap Tools, Cheap Lessons** | Mining | · | Break 25 Stone Pickaxes |
 | **Cheating the Chamber** | Adventure | · | Break 80 Trial Spawners |
+| **Cheating the Ledger** | Enchanting | ★ | Pop a Totem of Undying while carrying a hundred levels, and keep every one of them |
 | **Chef's Special** | Animals | · | Eat 20 Pufferfish |
 | **Chemical Dependency** | Potions | ★ | Never drop below eight simultaneous potion effects for a full in-game day |
 | **Chemical Spill** | Potions | ◆ | Throw 25 Lingering Potions |
 | **Chemical Volley** | Potions | ◆ | Craft 200 Tipped Arrows |
 | **Cherry Picked** | Biomes | ★ | Mine 1,500 Cherry Logs |
+| **Chest Deep in Lava** | Super Challenges | ★★ | Kill a Wither Skeleton while you are standing in lava with no armour and no Fire Resistance |
 | **Chest Monster** | Statistics | ◆ | Craft 300 Chests |
+| **Chest of Drawers** | Building | · | Open a Shulker Box you placed as furniture instead of hauling it around |
 | **Chests Beyond Counting** | The End | ★ | Craft 512 Oxidized Copper Chests. |
 | **Chests Come and Go** | The End | ◆ | Break 10,000 Ender Chests |
 | **Chests of Patina** | Redstone | ◆ | Place 8,192 Copper Chests |
+| **Chewed Out** | Adventure | · | Get killed by an Evoker's Fangs |
+| **Childhood Restored** | Adventure | ◆ | Cure a baby Zombie Villager |
+| **Chilled to the Bone** | Biomes | · | Get shot by a Stray while you are sunk in Powder Snow |
 | **Chilled to the Marrow** | Monsters | · | Kill 100 Strays |
 | **Chilled to the Rim** | Potions | · | Break 50 Powder Snow Cauldrons |
 | **Chime and Punishment** | Mining | ★ | Mine 1,500 Amethyst Clusters |
@@ -9061,6 +10095,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Clay Begets Clay** | Adventure | ◆ | Craft 128 Shaper Armor Trim Smithing Templates |
 | **Clay into Commerce** | Statistics | · | Craft or smelt 2,000 Bricks |
 | **Clay Until the End of Days** | Building | ★ | Place 75,000 Terracotta |
+| **Cleaning Staff** | Adventure | · | Hand an Allay a Sponge and point it at the water |
 | **Clear the Taiga** | Biomes | ★ | Mine 2,500 Spruce Logs |
 | **Clear Water at Last** | Biomes | ★ | Mine 400,000 Mangrove Roots |
 | **Clear-Cutting the Impossible** | The End | ★ | Break 75,000 Chorus Plant blocks |
@@ -9087,7 +10122,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Clippers Worn to Nubs** | Animals | ★ | Use Shears 10,000 times |
 | **Clock Tower** | Redstone | ◆ | Wire a Daylight Detector to a Bell at least five blocks below it, using eight pieces of redstone |
 | **Clockwork Arsenal** | Weaponry | · | Pick up 75 Clocks |
+| **Close Enough to Touch** | Super Challenges | ★★ | Kill a Ghast with a melee blow while you are in mid-air, with nothing on your back and nothing under you |
 | **Close Shave** | Monsters | · | Shear a Bogged for its mushrooms, then finish the poor thing off |
+| **Cloud Creamery** | Animals | ★ | Get a Cow airborne under a Happy Ghast and milk it up there |
+| **Cloud Storage** | The End | · | Open an Ender Chest while standing in the End |
 | **Clouds to Order** | Potions | · | Brew 250 Lingering Potions |
 | **Coal Beyond the Slate** | Mining | ★ | Mine 150,000 Deepslate Coal Ore |
 | **Coal Block Construction** | Building | ◆ | Place 4,000 Blocks of Coal |
@@ -9095,6 +10133,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Coal on the Floor** | Statistics | · | Drop 500 Coal |
 | **Coals to Newcastle** | Enchanting | · | Kill a Blaze with a Flame Bow, for all the good the fire does |
 | **Coarse and Rough** | Building | · | Place 2,000 Sand |
+| **Coats of Many Colours** | Biomes | ★ | Tame the striped Wolf of the Wooded Badlands, the spotted Wolf of the Savanna Plateau and the rusty Wolf of the Sparse Jungle |
 | **Cobalt Vein** | Enchanting | ◆ | Mine 250 Deepslate Lapis Lazuli Ore |
 | **Cobble and Redstone** | Redstone | · | Craft 64 Droppers |
 | **Cobble Overboard** | Statistics | · | Drop 10,000 Cobblestone |
@@ -9104,6 +10143,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cobbled Together** | Building | · | Place 1,000 Cobblestone |
 | **Cobbled Together Down There** | Building | ◆ | Place 40,000 Cobbled Deepslate |
 | **Cobblestone Is a Lifestyle** | Building | ★ | Place 100,000 Cobblestone |
+| **Cobweb Cuisine** | Animals | · | Feed an Armadillo a Spider Eye down in an abandoned Mineshaft, where they come from |
 | **Cocktail of the Aeons** | Potions | ★ | Drink 6,000 Potions |
 | **Cocoa Beyond Counting** | Farming | ★ | Use 100,000 Cocoa Beans |
 | **Cocoa Cartel** | Biomes | ★ | Mine 10,000 Cocoa Pods |
@@ -9112,8 +10152,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cod Almighty** | Biomes | ◆ | Collect 10,000 Cod |
 | **Codependent** | Biomes | · | Collect 500 Cod |
 | **Codswallop** | Animals | · | Kill 250 Cod |
+| **Coffer Dam** | Building | ★ | Place a block while swimming on the floor of a deep ocean |
 | **Cold Blooded** | Biomes | ◆ | Survive a full night in a Frozen Peaks biome wearing no armor at all |
 | **Cold Case** | Biomes | · | Find an Ocean Ruin sealed under a Frozen Ocean |
+| **Cold Comfort** | Enchanting | · | Carry a pair of Frost Walker boots and a pair of Depth Strider boots. They will never share a pair of feet |
 | **Cold Feet, Colder Hearts** | Nether | · | Kill 500 Striders |
 | **Cold Fire Cooking** | Monsters | · | Place 100 Soul Campfires |
 | **Cold Flame Boulevard** | Building | ◆ | Place 2,000 Soul Lanterns |
@@ -9121,10 +10163,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cold Light Collector** | Nether | ◆ | Mine 500 Soul Lanterns |
 | **Cold Little Lights** | Adventure | · | Pick up 256 Prismarine Crystals |
 | **Cold Pavement** | Biomes | · | Place 512 Ice. |
+| **Cold Reception** | Biomes | ◆ | Feed a Slimeball to a cold-variant Frog. Raise your tadpole somewhere freezing first |
 | **Cold Steel** | Weaponry | ◆ | Land 750 hits with an Iron Sword |
 | **Cold Storage** | Adventure | · | Buy Blue Ice and Packed Ice from Wandering Traders |
 | **Collar Coded** | Animals | ◆ | Dye a Wolf's collar in all sixteen colours |
 | **Collecting the Dried Dead** | Nether | ◆ | Mine 10 Dried Ghasts |
+| **Collection Plate** | Adventure | · | Open the chest in a village church |
 | **Collector by Crossfire** | Monsters | ◆ | Collect 75 Music Disc Cat |
 | **Collector of Intact Seams** | Enchanting | ★ | Pick up 6,000 Lapis Lazuli Ore |
 | **Colonel of the Coop** | Animals | · | Kill 400 Chickens |
@@ -9151,6 +10195,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Comb Collector** | Animals | · | Craft 150 Honeycomb Blocks |
 | **Combat Cocktail** | Potions | ★ | Kill the Ender Dragon with Strength II, Speed II, Fire Resistance, Regeneration and Slow Falling all running |
 | **Combed the Ocean Floor** | Farming | ★ | Break 500,000 Kelp Plants |
+| **Combination Lock** | Adventure | · | Throw one of the three levers on a Jungle Temple's puzzle wall |
 | **Community Service** | Adventure | · | Take a swing from an Iron Golem and survive it |
 | **Compact Fortune** | Adventure | · | Pick up 1,024 Blocks of Emerald |
 | **Compacted Cold** | Building | · | Place 250 Packed Ice |
@@ -9171,14 +10216,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Compressed Seaweed** | Biomes | · | Place 128 Dried Kelp Blocks. |
 | **Compressed Winter** | Biomes | ★ | Craft 2,560 Blue Ice |
 | **Concentrated Reek** | Potions | · | Mine 1,000 Potent Sulfur |
+| **Concert for the Guardians** | Adventure | ◆ | Play a music disc on a Jukebox inside an Ocean Monument |
 | **Concert Hall Complete** | Redstone | ★ | Place 3,000 Note Blocks |
+| **Concert in a Vacuum** | The End | ★ | Have an Allay drop a Cake onto a Note Block in the End |
 | **Conducting Business** | Mining | ◆ | Channel lightning straight into a Copper Golem with a Channeling Trident |
 | **Conduit Fodder** | Animals | ◆ | Collect 500 Nautilus Shells |
+| **Conduit in the Dark** | Adventure | ★ | Flood a room of an Ancient City and take Conduit Power there |
 | **Confection of the Core** | Monsters | ◆ | Collect 1,536 Magma Cream |
 | **Confectioner of the Canopy** | Biomes | ★ | Mine 250,000 Cocoa Pods |
 | **Confectionery Empire** | Statistics | ★ | Place 150 Cakes |
 | **Confetti Cannon** | Biomes | ★ | Mine 75,000 Pink Petals |
 | **Confetti of the Scholar** | Enchanting | ★ | Drop 7,500 Paper |
+| **Confiscated** | Adventure | · | Empty the arrows out of a Jungle Temple's trap dispenser |
+| **Conflicting Instructions** | The End | ◆ | Hold Levitation and Slow Falling at the same time and see who wins |
 | **Conifer Cleanup** | Farming | ◆ | Break 40,000 Spruce Leaves |
 | **Conifer Conqueror** | Biomes | ★ | Mine 25,000 Spruce Logs |
 | **Connoisseur of Bad Omen** | Adventure | ★ | Drink 1,000 Ominous Bottles |
@@ -9196,9 +10246,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Continental Drift** | Mining | ★ | Mine 250,000 Stone |
 | **Continental Granite** | Building | ★ | Place 100,000 Granite |
 | **Continental Power Supply** | Redstone | ★ | Place 40,000 Blocks of Redstone |
+| **Continuing Education** | Enchanting | · | Enchant an item inside a Trial Chamber, between waves |
 | **Control Group** | Mining | · | Set a plain Copper Block down right beside a Waxed Copper Block and let time tell them apart |
 | **Controlled Demolition** | Enchanting | ◆ | Take a Creeper's blast head-on in four pieces of Blast Protection IV armour |
 | **Convincingly Ancient** | Building | · | Place 250 Mossy Stone Bricks |
+| **Cooked to Order** | The End | · | Kill an Enderman while it is on fire |
 | **Cookie Jar** | Farming | · | Bake 400 Cookies |
 | **Cool and Pink** | Statistics | · | Eat 500 Melon Slices |
 | **Cooling the Crust** | Nether | ◆ | Mine 1,024 Magma Blocks |
@@ -9213,11 +10265,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Copper Conductor** | Redstone | · | Place 100 Lightning Rods |
 | **Copper Constabulary** | Weaponry | ★ | Book a Pillager, a Vindicator, an Evoker and a Witch, each with a Copper Sword |
 | **Copper Counter** | Redstone | ◆ | Wire up sixteen Copper Bulbs and get them showing a mixed on-off pattern |
+| **Copper Country** | Biomes | ◆ | Build a Copper Golem in the Dripstone Caves, where all that copper came out of the walls |
 | **Copper Handyman** | Mining | · | Strip a log with a Copper Axe and stamp out a dirt path with a Copper Shovel |
 | **Copper Lit Corridors** | Mining | · | Place 5,000 Copper Torches |
 | **Copper Loadout** | Mining | ◆ | Carry a full set of Copper tools and Copper armour at once |
 | **Copper Magnate** | Redstone | ◆ | Pick up 30,000 Copper Ingots |
 | **Copper Point** | Weaponry | · | Land 100 hits with a Copper Spear |
+| **Copper Roof** | Building | · | Cap a copper block off with a Lightning Rod |
 | **Copper Runs Deep** | Mining | · | Mine 128 Deepslate Copper Ore |
 | **Copper Skyline** | Redstone | ★ | Place 250 Copper Bulbs |
 | **Copper Stable** | Animals | ◆ | Ride a kilometre without dismounting on a horse in Copper Horse Armor |
@@ -9237,6 +10291,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Corked Catastrophe** | Weaponry | · | Use Dragon's Breath 64 times |
 | **Cornflower Kingdom** | Biomes | ★ | Mine 100,000 Cornflowers |
 | **Corporate Ladder** | Adventure | ◆ | Trade with Villagers at all five career levels, from Novice to Master |
+| **Corporate Sponsorship** | Enchanting | ◆ | Enchant an item while a Beacon is feeding you Haste |
+| **Correspondence Course** | Enchanting | ◆ | Enchant an item inside a Bastion Remnant, surrounded by Piglins |
 | **Corridor Clearance** | Nether | · | Mine 750 Nether Bricks |
 | **Corridors of Comparators** | Enchanting | ★ | Place 1,500 Chiseled Bookshelves |
 | **Corroded Conqueror** | Weaponry | ★ | Land 1,500 hits with a Copper Spear |
@@ -9271,6 +10327,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cracks Don't Matter** | Enchanting | ★ | Place 10,000 Chipped Anvils |
 | **Cracks in the Face** | Enchanting | ★ | Mine 150 Chipped Anvils |
 | **Crafting the Crafter** | Redstone | · | Craft 32 Crafters |
+| **Cramming Under Pressure** | Enchanting | ★ | Enchant an item while the Warden's Darkness is pulsing over you |
+| **Crash Mat** | Biomes | ◆ | Fall at least 100 blocks and land in Powder Snow |
 | **Crate After Crate of Shatterware** | Potions | ★ | Brew 8,000 Splash Potions |
 | **Crater Economy** | Monsters | ◆ | Craft 400 TNT |
 | **Craters on Rails** | Redstone | ★ | Place 5,000 Minecarts with TNT |
@@ -9284,6 +10342,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Creeping Blue** | Mining | · | Mine 75 Sculk Veins |
 | **Creeping Green** | Biomes | · | Place 128 Vines. |
 | **Creeping Purple** | Animals | · | Place 1,024 Mycelium |
+| **Crew Reunion** | Adventure | · | Get killed by a Drowned inside a Shipwreck, by the crew that never left |
 | **Crimson Ascension** | Nether | ★ | Place 50,000 Red Nether Brick Stairs. |
 | **Crimson Cap Collector** | Nether | · | Pick up 1,024 Crimson Fungus. |
 | **Crimson Cargo** | The End | · | Craft 32 Red Shulker Boxes. |
@@ -9299,15 +10358,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Crimson Tide** | Nether | ◆ | Silk Touch a stack of Crimson Nylium and a stack of Warped Nylium |
 | **Croak No More** | Animals | · | Kill 250 Frogs |
 | **Croaks in Every Biome** | Animals | ★ | Use 10,000 Slimeballs |
+| **Croaks of the Damned** | Animals | ★ | Get two Frogs into the Nether and breed them there |
 | **Cross-Contamination** | Potions | · | Hold a Potion of Healing in one hand and a Potion of Harming in the other |
 | **Crossbow Manufactory** | Adventure | ◆ | Craft 5,000 Crossbows |
 | **Crossbows in the Dirt** | Adventure | ★ | Kill 4,000 Pillagers |
+| **Crossbreed** | Biomes | ★ | Pair a striped Wolf off with a spotted one and see which coat the pup decides on |
+| **Crossfire Caravan** | Biomes | · | Get spat at by a Llama while you are sitting on the back of another one |
+| **Crow Deterrent** | Building | · | Set a Carved Pumpkin on an Armour Stand and call it a scarecrow |
 | **Crowd Scene** | Statistics | · | Place fifty Armour Stands |
 | **Crown Jewel** | The End | ◆ | Put the Dragon Egg on display in the Overworld |
 | **Crown of Black Skulls** | Monsters | ★ | Drop 128 Wither Skeleton Skulls |
+| **Crown of Light** | The End | ◆ | Sit the Dragon Egg on top of a Beacon and put out its beam for good |
 | **Crownfall** | Weaponry | ★ | Land 20,000 hits with a Netherite Spear |
 | **Crowns Beyond Counting** | Potions | ★ | Wear out 1,200 Golden Helmets until they break |
 | **Crowns of Diamond** | Enchanting | ★ | Craft 5,000 Diamond Helmets |
+| **Crows Beware** | Building | · | Sit a Carved Pumpkin on an Armour Stand and call it a scarecrow |
 | **Crude Beginnings** | Mining | · | Pick up 16 Blocks of Raw Iron |
 | **Crumb of the Crop** | Farming | ★ | Bake 2,000 Cookies |
 | **Crumbs Everywhere** | Farming | ◆ | Eat 20,000 Cookies |
@@ -9319,13 +10384,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Crust Fund** | Farming | ★ | Bake 2,000 Bread |
 | **Crying Shame** | Nether | · | Kill 25 Ghasts |
 | **Crystal Bite** | Weaponry | · | Use a Diamond Axe 500 times |
+| **Crystal Cannon** | Super Challenges | ★★ | Live through an End Crystal detonating beside you and be thrown a hundred and twenty blocks sideways by it |
 | **Crystal Chambers** | Building | ◆ | Place 2,000 Amethyst Blocks |
 | **Crystal Clear** | Mining | · | Mine 75 Amethyst Clusters |
+| **Crystal Ejection** | The End | ★ | Let an End Crystal blast you off its pillar, then fall thirty blocks |
 | **Crystal Fractures** | Weaponry | · | Break 2 Diamond Spears |
 | **Crystal Garden** | Mining | · | Place 64 Large Amethyst Buds |
 | **Crystal Lance** | Weaponry | · | Land 500 hits with a Diamond Spear |
+| **Crystal Launch** | The End | ★ | Set off an End Crystal under your feet and fall forty blocks out of the sky |
 | **Crystal Overproduction** | The End | ★ | Craft 6,000 End Crystals |
 | **Crystal Reserve** | Mining | ◆ | Pick up 16,384 Amethyst Shards |
+| **Crystal Roost** | The End | · | Stand on the bedrock cap at the top of an Obsidian Pillar |
 | **Crystal Salvage** | Adventure | ◆ | Pick up 5,000 Prismarine Crystals |
 | **Crystalline Carnage** | Weaponry | ★ | Use a Diamond Axe 100,000 times |
 | **Crystalline Harvest** | Nether | ◆ | Mine 1,000 Nether Quartz Ore |
@@ -9356,6 +10425,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Currents in Clay** | Adventure | ◆ | Pick up 256 Flow Pottery Sherds |
 | **Curse Lifted** | Adventure | · | Kill 3 Elder Guardians |
 | **Cursed** | Enchanting | ★ | Wear a full set of armour with both Curse of Binding and Curse of Vanishing on every piece |
+| **Cursed Angler** | Enchanting | · | Hook something on a Fishing Rod that carries Curse of Vanishing |
 | **Cursed Merchandise** | Enchanting | · | Buy an Enchanted Book carrying a curse from a Villager |
 | **Curtain and Keep** | Building | ◆ | Place 600 Cobblestone Walls |
 | **Curtain of Leaves** | Biomes | ◆ | Place 512 Vines. |
@@ -9373,9 +10443,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Cutting the Monument** | Biomes | · | Craft 64 Prismarine Slabs. |
 | **Cutting the Wires** | Mining | · | Mine 64 Sculk Sensors |
 | **Cyclone Cudgel** | Weaponry | ◆ | Land 2,500 hits with a Breeze Rod |
+| **Dairy Countermeasures** | Adventure | ◆ | Drink Milk inside an Ocean Monument to shrug off the Elder Guardian's curse |
 | **Damp and Dark** | Farming | · | Harvest 2,000 Brown Mushrooms |
 | **Damp Masonry** | Adventure | · | Mine 500 Mossy Cobblestone |
+| **Damp Squib** | Building | ◆ | Place a Campfire underwater, where it hasn't a hope of lighting |
 | **Dandelion Dominion** | Biomes | ◆ | Mine 100,000 Dandelions |
+| **Dangling Participle** | Building | · | Hang a lantern from the bottom end of a chain |
 | **Dangling the Carrot** | Animals | · | Use 1,000 Carrots |
 | **Dark Masonry** | Building | · | Place 150 Deepslate Bricks |
 | **Dark Mirror Walls** | Building | · | Place 2,000 Polished Deepslate |
@@ -9392,9 +10465,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Daylight in the Dark Forest** | Biomes | ◆ | Mine 100,000 Dark Oak Logs |
 | **Daylight Indoors** | Building | ◆ | Place 8,000 Glowstone |
 | **Daylight Under Water** | Adventure | ◆ | Craft 20,000 Sea Lanterns |
+| **Daymare** | Super Challenges | ★★ | Kill a Phantom at high noon under an open sky |
 | **Deaccessioned** | Enchanting | ★ | Mine 150 Bookshelves |
 | **Dead Calm** | Adventure | ★ | Kill 200 Breezes |
 | **Dead Centre** | Redstone | ◆ | Place 100 Target Blocks |
+| **Dead in the Water** | Enchanting | ◆ | Kill a Drowned that is armed with a Trident of its own, using your Impaling Trident |
 | **Dead Man's Compass** | Mining | · | Die in an Ancient City with a Recovery Compass in your hand |
 | **Dead Reckoning** | The End | ◆ | Glide a full kilometre on an Elytra without firing a single rocket |
 | **Deaf Sentence** | Mining | ◆ | Kill 1 Warden |
@@ -9404,6 +10479,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Death by a Thousand Cuts** | Enchanting | ◆ | Finish off a Ravager with Thorns |
 | **Death by a Thousand Drips** | Mining | ★ | Mine 2,500 Pointed Dripstone |
 | **Death by Committee** | Super Challenges | ★★ | Be wounded by ten different kinds of monster inside thirty seconds and survive |
+| **Death by Laser Pointer** | Adventure | · | Let a Guardian's beam be the last thing you ever see |
+| **Death by Shears** | Animals | · | Finish off a Sheep with the Shears themselves |
+| **Death by Water** | Biomes | ★ | Let the sea have you four ways: Drowned, Guardian, Elder Guardian and Dolphin |
 | **Death Has Given Up** | Adventure | ★ | Pick up 20,000 Totems of Undying |
 | **Death Keeps Missing** | Adventure | ★ | Use 150 Totems of Undying |
 | **Death of a Thousand Handles** | Potions | ◆ | Use a Wooden Pickaxe 30,000 times |
@@ -9416,26 +10494,33 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Debris on the Basalt** | Enchanting | ◆ | Drop 512 Ancient Debris |
 | **Debris to Debris** | Statistics | ◆ | Break 3 Netherite Shovels |
 | **Debris Well Spent** | Weaponry | · | Craft 25 Netherite Swords |
+| **Deck Gardening** | Biomes | · | Lay a Lily Pad on the water without ever leaving the deck of your Boat |
 | **Decked Out** | Adventure | ★ | Stand in the Trial Chambers wearing four armour pieces all trimmed with the Flow pattern |
 | **Deconstruction Crew** | Adventure | ◆ | Mine 3,000 Prismarine |
 | **Deep Blue Territory** | Enchanting | ★ | Mine 7,500 Deepslate Lapis Lazuli Ore |
+| **Deep Cavalry** | Animals | ★ | Kill an Elder Guardian without ever getting out of the saddle of a Nautilus |
 | **Deep Cuts** | Enchanting | ◆ | Skewer a Guardian, an Elder Guardian, a Drowned and a Squid with an Impaling V Trident |
+| **Deep Dark Colony** | The End | ★ | Kill an Enderman beside a Sculk Catalyst you hauled all the way into the End |
 | **Deep Dark Pest Control** | Mining | ◆ | Mine 1,024 Infested Deepslate |
 | **Deep Discount** | Adventure | ◆ | Trade with a Villager below Y=-50 |
 | **Deep Dish** | Farming | · | Eat a Pumpkin Pie below Y=-50 |
 | **Deep Foundations** | Mining | · | Place a Blast Furnace below y = -50 |
 | **Deep Freeze** | Weaponry | ◆ | Kill a monster that has frozen solid in Powder Snow |
 | **Deep Fried** | Farming | · | Cook raw food on a Campfire below Y=-50 |
+| **Deep Fry** | Super Challenges | ★★ | Kill a Warden while both you and it are standing in lava |
 | **Deep Glow** | Building | · | Place 75 Sea Lanterns |
 | **Deep Green** | Mining | · | Mine 8 Deepslate Emerald Ore |
 | **Deep Impact** | Enchanting | ◆ | Take ten hearts of fall damage in a single landing while wearing Feather Falling IV boots |
+| **Deep Litter** | Building | · | Rake Leaf Litter four segments deep |
 | **Deep Pockets** | Super Challenges | ★★ | Fill a Shulker Box to the brim with Diamonds |
 | **Deep Powder** | Biomes | ◆ | Mine 1,000 Powder Snow |
 | **Deep Roots** | Farming | ◆ | Plant a Sapling below Y=0 and bone meal it into a tree down there |
 | **Deep Rubble Empire** | Building | ★ | Place 100,000 Cobbled Deepslate |
 | **Deep Sea Javelin** | Weaponry | ◆ | Kill a Guardian with a thrown Trident |
 | **Deep Sea Plating** | Nether | ◆ | Upgrade a set of Nautilus Armor to Netherite |
+| **Deep Sea Sniper** | Biomes | ★ | Kill a Drowned from at least 50 blocks away with a thrown Trident |
 | **Deep Sleeper** | Biomes | ◆ | Sleep in the Deep Dark, the Dripstone Caves, the Lush Caves and the Sulfur Caves |
+| **Deep Study** | Enchanting | ◆ | Enchant an item while you are completely underwater |
 | **Deep Trench** | Biomes | · | Stand underwater at y 40 or lower on the floor of a deep ocean |
 | **Deeper Still We Build** | Building | ★ | Place 5,000 Deepslate Bricks |
 | **Deeper Than the Peaks** | Mining | ★ | Mine 1,000 Deepslate Emerald Ore |
@@ -9446,6 +10531,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Deforesting Another Dimension** | The End | ★ | Break 30,000 Chorus Plant blocks |
 | **Defusing the Temple** | Adventure | · | Break 128 Trapped Chests |
 | **Delay Tactics** | Redstone | · | Click a Repeater through all four of its delay settings |
+| **Delivery Service, Outer Isles** | The End | ◆ | Have an Allay collect a Shulker Shell you tossed away in the End |
 | **Delta Digger** | Nether | · | Mine 250 Basalt |
 | **Delta Diver** | Nether | · | Submerge yourself in lava in a Basalt Deltas biome |
 | **Demolisher of Ordeals** | Adventure | ◆ | Break 1,200 Trial Spawners |
@@ -9462,6 +10548,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Desert Pigment** | Farming | · | Smelt 300 Green Dye |
 | **Desert Without End** | Building | ★ | Place 75,000 Sandstone |
 | **Desertification** | Biomes | ★ | Mine 25,000 Sand |
+| **Deshroomed** | Biomes | ◆ | Take the Shears to a Mooshroom and leave yourself holding a very ordinary Cow |
 | **Detail Work** | Building | · | Place 300 Bamboo Trapdoors. |
 | **Detonation Cartographer** | The End | ★ | Place 512 End Crystals |
 | **Detonation Denied** | Monsters | ★ | Kill 10,000 Creepers |
@@ -9479,6 +10566,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Diamonds Break Too** | Statistics | ★ | Break 400 Diamond Swords |
 | **Diamonds by the Shulker** | Mining | ★ | Pick up 16,384 Diamonds |
 | **Diamonds in Hand** | Mining | · | Pick up 1,024 Diamonds |
+| **Diamonds in the Sand** | Adventure | · | Pick up a Diamond inside a Desert Pyramid |
 | **Diamonds Into Decoration** | The End | ◆ | Craft 64 Dune Armour Trim Smithing Templates. |
 | **Diamonds Into Gambling Chips** | Enchanting | ★ | Craft 750 Diamond Pickaxes |
 | **Diamonds Into Paperwork** | Enchanting | ★ | Craft 256 Netherite Upgrade Smithing Templates |
@@ -9498,8 +10586,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Digging Up the Damned** | Nether | ★ | Mine 15,000 Soul Sand |
 | **Digging Up the Dead** | Monsters | · | Mine 256 Bone Blocks |
 | **Digging Where It Burns** | Potions | ◆ | Mine 4,000 Potent Sulfur |
+| **Dim Bulb** | Building | ◆ | Install an Oxidised Copper Bulb, the feeblest lamp money can buy |
+| **Diminishing Returns** | Enchanting | ◆ | Catch Mining Fatigue from an Elder Guardian while holding an Efficiency V pickaxe |
+| **Dimmer Switch** | Building | ◆ | Place a fully oxidized Copper Bulb, the dimmest light copper can give |
 | **Dimming the Dimension** | Nether | ★ | Mine 25,000 Glowstone |
 | **Dining Out** | Farming | ★ | Eat a meal inside a Village, a Woodland Mansion, an Ocean Monument, a Trial Chamber, a Bastion Remnant, an End City, an Ancient City and a Pillager Outpost |
+| **Dinner Bell** | Building | ★ | Ring a bell inside an Ancient City and hope nothing answers |
 | **Diorite Apologist** | Mining | · | Pick up 5,000 Diorite |
 | **Diorite Defender** | Building | ◆ | Place 40,000 Diorite |
 | **Diorite, Diorite Everywhere** | Mining | ★ | Mine 400,000 Diorite |
@@ -9518,6 +10610,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Dismantling the Climb** | The End | ◆ | Break 50,000 Ladders |
 | **Dismantling the Highway** | The End | · | Break 1,000 Scaffolding |
 | **Dismantling the Sky Bridge** | The End | ★ | Break 75,000 Scaffolding |
+| **Dismounted** | Super Challenges | ★★ | Destroy a mounted Ravager with one Mace smash, its rider still in the saddle |
 | **Dispatcher of Everything** | Redstone | ★ | Place 20,000 Detector Rails |
 | **Dispense With Restraint** | Redstone | ★ | Craft 25,000 Dispensers |
 | **Display Case** | Building | · | Pick up 256 Item Frames. |
@@ -9528,19 +10621,29 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Distant Wailing** | Weaponry | ◆ | Kill a Ghast with an arrow from at least sixty blocks away |
 | **Distillery** | Redstone | · | Place a Hopper so it feeds a Brewing Stand for you |
 | **Dive Bar** | Potions | · | Drink a Potion of Water Breathing while inside a Shipwreck |
+| **Dive Bomber** | Super Challenges | ★★ | Kill an Elder Guardian with a thrown Trident while flying an Elytra |
+| **Diversified Portfolio** | Enchanting | ★ | Hold a Fortune III pickaxe, a Fortune III axe and a Fortune III shovel all at once |
+| **Divine Intervention** | Adventure | ★ | Channel lightning into a Pillager that is taking part in a raid |
+| **Divine Judgement** | Enchanting | ★ | Catch an Evoker, a Vindicator and a Pillager in a single channeled lightning bolt |
 | **Divine Retribution** | Adventure | ◆ | Call down a channelled lightning bolt onto a Ravager |
+| **Do Not Disturb** | Building | ★ | Sleep through a whole night inside an Ancient City |
 | **Do Not Feed the Birds** | Animals | · | Offer a Cookie to a Parrot and live with what you have done |
 | **Do Not Look Up** | The End | ★ | Kill 5,000 Endermen |
+| **Do Not Pet** | Animals | · | Get killed by a Polar Bear |
 | **Do Not Press** | Redstone | ★ | Place 750 Stone Buttons |
+| **Doctor Fish** | Biomes | ◆ | Let an Axolotl land the finishing blow and take the Regeneration it hands you |
 | **Doctor's Bag** | Potions | · | Carry a Splash Potion of Weakness and a Golden Apple at once |
 | **Doctor's Orders** | Potions | · | Eat 20 Golden Apples |
 | **Doctor-Proof** | Farming | ★ | Collect 100,000 Apples |
+| **Doesn't Work Like That** | Animals | · | Drink a Bucket of Milk while you are on fire and discover it puts out nothing |
 | **Don't Look Now** | The End | · | Kill 500 Endermen |
+| **Don't Touch That** | Animals | · | Swim into a Pufferfish that puffed up at exactly the wrong moment |
 | **Done With Disenchanting** | Enchanting | ★ | Drop 10,000 Grindstones |
 | **Donkey Work** | Animals | · | Breed two Donkeys into a foal of their own |
 | **Doom by the Crate** | Adventure | ★ | Pick up 15,000 Ominous Bottles |
 | **Doom in a Bottle** | Adventure | ★ | Drink 150 Ominous Bottles |
 | **Door to Door** | Monsters | · | Let a Zombie break down a wooden door on Hard difficulty |
+| **Door-to-Door in the Void** | The End | ★ | Trade with a Wandering Trader in the End |
 | **Doors Without End** | Building | ◆ | Place 900 Copper Doors. |
 | **Doorway Duty** | Redstone | · | Place 1,024 Oak Doors |
 | **Double Tap** | Weaponry | ◆ | Kill a Skeleton and the Spider it is riding with a single piercing arrow |
@@ -9550,21 +10653,27 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Doused** | Nether | ◆ | Kill a Blaze while it is standing in water |
 | **Down and Feather** | Animals | · | Collect 2,000 Feathers |
 | **Down Every Burrow** | Animals | ★ | Kill 2,500 Rabbits |
+| **Down From On High** | The End | ◆ | Finish the Ender Dragon with a Mace |
 | **Down Periscope** | Biomes | ◆ | Ride a Nautilus inside an Ocean Monument |
 | **Down the Funnel** | Redstone | · | Drop 256 Hoppers |
 | **Down the Pit** | Mining | ★ | Mine 15,000 Deepslate Coal Ore |
 | **Down the Rabbit Hole** | Farming | · | Cook 1,000 Rabbit |
 | **Down the Shaft** | Mining | · | Put a Ladder on a block of Deepslate |
+| **Down to the Crumbs** | Building | · | Eat a Cake all the way down to its very last slice |
 | **Down to the Handle** | Mining | ◆ | Bring a Netherite Pickaxe down to its last ten points of durability |
 | **Down to the Holdfast** | Farming | · | Break 1,000 Kelp Plants |
+| **Down to the Last Arrow** | Enchanting | · | Carry an Infinity Bow and exactly one Arrow. That is all you will ever need |
+| **Down to the Wire** | Enchanting | · | Fish a Luck of the Sea III rod all the way to pieces |
 | **Down Where It's Dark** | Building | · | Place 2,000 Deepslate |
 | **Down Where the Blue Is** | Enchanting | · | Mine 75 Deepslate Lapis Lazuli Ore |
 | **Downward Doctrine** | Weaponry | · | Land 2,500 hits with a Mace |
 | **Drafting Desks** | Adventure | · | Craft 128 Cartography Tables |
 | **Drafts Beyond Counting** | Enchanting | ★ | Craft 600 Books and Quills |
 | **Dragging Your Feet** | Potions | · | Brew a Potion of Slowness |
+| **Dragon Drop** | Enchanting | ★ | Finish the Ender Dragon with a falling Mace smash, chained in mid-air on Wind Burst |
 | **Dragon Rider** | The End | ★ | Spend a full minute within twelve blocks of the Ender Dragon without taking a scratch |
 | **Dragon's Perch** | The End | ◆ | Stand an End Ship's Dragon Head on the central island's exit portal |
+| **Dragonboat** | The End | ★ | Kill the Ender Dragon without ever leaving your Boat |
 | **Dragonlance** | Weaponry | ★ | Kill the Ender Dragon with a Spear |
 | **Drain the Deep** | Adventure | ◆ | Mine 250 Sponges |
 | **Drain the Ocean** | Biomes | ★ | Mine 640 Wet Sponges |
@@ -9572,19 +10681,26 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Draining the Lush Pools** | Animals | · | Kill 150 Axolotls |
 | **Draining the Monument** | Adventure | · | Drop 256 Wet Sponges |
 | **Draining the Springs** | Statistics | ★ | Fill 4,000 Empty Buckets |
+| **Drapery** | Building | · | Bone-meal a Pale Moss Block until it hangs curtains |
 | **Draught Excluder** | Adventure | · | Kill 25 Breezes |
 | **Draw From the Deep** | Potions | ★ | Fill 3,000 Glass Bottles |
 | **Draw from the Well** | Potions | ◆ | Fill 500 Glass Bottles |
+| **Dressed by Committee** | Building | ◆ | Kit out one Armour Stand in four different armour materials at once |
 | **Dressed by the Deep** | Monsters | ★ | Pick up 64 Tide Armor Trim Smithing Templates |
+| **Dressed for the Desert** | Adventure | ★ | Stand in a desert wearing four pieces of armour all trimmed with the Dune pattern |
+| **Dressed for the Occasion** | Adventure | ★ | Unlock a Vault while wearing a full suit of armour trimmed with Flow |
 | **Dried in the Sun** | Building | · | Place 300 Mud Bricks |
 | **Dried the Whole Sea** | Farming | ★ | Dry 100,000 Kelp |
 | **Dried, Stacked, Repeated** | Building | ★ | Place 15,000 Mud Bricks |
 | **Drift Builder** | Biomes | ◆ | Craft 2,048 Snow Blocks. |
 | **Drifts of My Own Making** | Potions | ◆ | Place 25,000 Snow |
+| **Drink It Off** | Animals | ◆ | Down a Bucket of Milk to wash a Bad Omen straight out of you |
 | **Drinking Problem** | Potions | · | Drain a potion with your head completely underwater |
 | **Drip Feed** | Building | · | Set a Cauldron directly beneath a Pointed Dripstone |
 | **Dripstone District** | Building | ◆ | Place 15,000 Dripstone Blocks |
 | **Dripstone Dividend** | Mining | · | Come away with Raw Copper mined inside a Dripstone Caves biome |
+| **Drive-Through Banking** | Adventure | ◆ | Unlock a Vault without ever getting off your Happy Ghast |
+| **Drive-Thru** | Animals | · | Hand a Carrot to a Pig without dismounting the Pig you are already riding |
 | **Drop It** | Redstone | · | Place 40 Droppers |
 | **Dropped the Black Stone** | Enchanting | · | Drop 500 Obsidian |
 | **Dropped the Sanctum** | Enchanting | · | Drop 40 Enchanting Tables |
@@ -9603,6 +10719,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Drowning in Raw Copper** | Mining | ★ | Pick up 100,000 Raw Copper |
 | **Drowning the World in Fire** | Nether | ★ | Use 40,000 Lava Buckets |
 | **Drunk on Omens** | Adventure | ★ | Drink 400 Ominous Bottles |
+| **Dry Blessing** | Biomes | ◆ | Receive Conduit Power while standing out of the water. You'll want rain for that |
+| **Dry Docked** | Adventure | ◆ | Sit in a Boat inside an Ancient City, nowhere near a drop of water |
 | **Dry Rations** | Farming | · | Eat Dried Kelp in the middle of a Desert, as far from the sea as you can get |
 | **Dry Season** | Biomes | · | Collect both Short Dry Grass and Tall Dry Grass |
 | **Drying the Ocean** | Statistics | ◆ | Place 500 Wet Sponges |
@@ -9615,6 +10733,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Dust and Patience** | Adventure | · | Use a Brush 100 times |
 | **Dust Beyond Use** | Mining | ◆ | Pick up 40,000 Redstone Dust |
 | **Dust Bowl** | Biomes | ◆ | Mine 10,000 Short Dry Grass |
+| **Dust Bunnies** | Building | · | Hang a Cobweb on purpose. Nothing says 'abandoned' quite like it |
 | **Dust Devil** | Redstone | · | Place 1,500 Redstone Dust |
 | **Dust in the Pocket** | Mining | · | Pick up 5,000 Redstone Dust |
 | **Dust of the Nether Fires** | Potions | · | Collect 256 Blaze Powder |
@@ -9630,6 +10749,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Dyeing the Surplus** | Enchanting | ◆ | Craft 400 Blue Dye |
 | **Dynasty of the Dark Point** | Weaponry | ★ | Land 100,000 hits with a Netherite Spear |
 | **Ears in the Deep** | The End | · | Collect 8 Sculk Sensors. |
+| **Easy Come, Easy Go** | Enchanting | ◆ | Die wearing a piece of armour carrying Curse of Vanishing, and watch it go with you |
 | **Eat Local** | Biomes | ◆ | Eat Sweet Berries in a Taiga, Glow Berries in the Lush Caves, a Melon Slice in a Jungle and Dried Kelp in a Warm Ocean |
 | **Echo Chamber** | Biomes | · | Blow a Goat Horn in a Dripstone Caves biome |
 | **Echo Collector** | Mining | · | Pick up 256 Echo Shards |
@@ -9661,16 +10781,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Eighty Thousand Sleepless Nights** | The End | ★ | Collect 80,000 Phantom Membranes |
 | **Eighty Thousand Thin Slices** | The End | ★ | Craft 80,000 End Stone Brick Slabs |
 | **Ejector Production** | Redstone | ◆ | Craft 2,048 Droppers |
+| **Ejector Seat** | Adventure | ◆ | Wind Charge yourself 15 blocks straight up while inside the Trial Chambers |
 | **El Dorado** | Mining | ★ | Mine 2,500 Deepslate Gold Ore |
 | **Elder Guardian Envy** | Building | ★ | Place 15,000 Prismarine |
 | **Elder Statesman** | Adventure | ★ | Kill 25 Elder Guardians |
 | **Elder's Wardrobe** | Monsters | ◆ | Pick up 4 Tide Armor Trim Smithing Templates |
+| **Elevator to the Top Floor** | The End | · | Let a Shulker lift you forty blocks up the outside of its own tower |
 | **Emberstaff Adept** | Weaponry | ◆ | Land 20,000 hits with a Blaze Rod |
 | **Emblem of Detonation** | Monsters | ★ | Use a Creeper Banner Pattern 256 times |
 | **Emerald Bedrock** | Mining | ★ | Place 512 Deepslate Emerald Ore |
 | **Emerald City Limits** | Mining | ★ | Mine 16,384 Emerald Ore |
 | **Emerald Into Experience** | Enchanting | ★ | Pick up 10,000 Bottles o' Enchanting |
 | **Emerald Without Emeralds** | Farming | ★ | Smelt 50,000 Green Dye |
+| **Emeralds Under Pressure** | Adventure | ◆ | Trade with a Villager while standing on an active Trial Spawner |
 | **Emeralds Underfoot** | Adventure | ◆ | Drop 256 Blocks of Emerald |
 | **Emergency Rations** | Mining | · | Eat an Enchanted Golden Apple inside an Ancient City |
 | **Emperor of Earth Apples** | Animals | ★ | Pick up 100,000 Potatoes |
@@ -9685,9 +10808,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Emptied Every Reading Room** | Enchanting | ★ | Mine 4,000 Bookshelves |
 | **Empties by the Crate** | Potions | ◆ | Craft 400 Glass Bottles |
 | **Empties in Hand** | Enchanting | · | Pick up 1,000 Glass Bottles |
+| **Empty Handed** | Enchanting | · | Kill an Iron Golem with a Looting III sword; Looting will not add one single ingot |
+| **Empty Saddle** | Animals | · | Ride a Horse while Invisible so the saddle appears to be steering itself |
 | **Emptying the Shoals** | Animals | ★ | Kill 1,500 Cod |
 | **Emptying the Stacks** | Enchanting | · | Mine 25 Chiseled Bookshelves |
 | **End City Envy** | Building | ◆ | Place 4,000 Purpur Blocks |
+| **End Guard Dog** | Animals | ◆ | Strap Wolf Armor onto a Wolf you have taken all the way to the End |
 | **End Stone Architecture** | Building | ◆ | Place 8,000 End Stone Bricks |
 | **Ender Exhalation** | Weaponry | · | Use Dragon's Breath 300 times |
 | **Endermageddon** | The End | ★ | Kill 2,500 Endermen |
@@ -9707,11 +10833,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Enough Wind to Move the World** | Monsters | ★ | Collect 100,000 Wind Charges |
 | **Entangled Inventory** | The End | ◆ | Place 400 Ender Chests |
 | **Entrapment** | Redstone | ◆ | Arm eight Tripwire lines inside a single room |
+| **Epaulettes** | Animals | ◆ | Carry a Parrot on each shoulder at the same time |
 | **Erasing the Teal** | Nether | ◆ | Mine 750 Warped Nylium |
 | **Escalation Beyond Reason** | The End | ★ | Place 25,000 Purpur Stairs |
 | **Escalation Clause** | The End | · | Craft 750 End Stone Brick Stairs |
 | **Escher Would Be Proud** | The End | ◆ | Place 2,048 Purpur Stairs |
 | **Escher's Nightmare** | Building | ★ | Place 3,000 Oak Stairs |
+| **Escort Duty** | Adventure | ★ | Get Dolphin's Grace running on you while you are inside an Ocean Monument |
 | **Estate Sale** | Adventure | ◆ | Put down a Wandering Trader and lead one of the Trader Llamas it leaves behind away with you |
 | **Eternal Ember Grid** | Redstone | ★ | Place 50,000 Redstone Torches |
 | **Evel Knievel** | Animals | · | Clear seven blocks in a single Camel dash |
@@ -9778,6 +10906,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Every Lantern Claimed** | Adventure | ★ | Mine 10,000 Sea Lanterns |
 | **Every Lantern Taken Down** | Nether | ★ | Mine 10,000 Soul Lanterns |
 | **Every Last Facet** | Mining | ★ | Mine 200 Diamond Ore |
+| **Every Library in the Land** | Enchanting | ★ | Buy an Enchanted Book from a Villager of all seven village types |
 | **Every Lid Lifted** | Adventure | ★ | Break 7,500 Chests |
 | **Every Lily Pad Bare** | Animals | ★ | Kill 12,000 Frogs |
 | **Every Load Abandoned** | Animals | ★ | Kill 2,500 Donkeys |
@@ -9866,11 +10995,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Everything Sticks** | Redstone | ★ | Place 1,000 Sticky Pistons |
 | **Everything That Moves** | Redstone | ★ | Place 50,000 Pistons |
 | **Everything Turned Backwards** | Potions | ★ | Craft 3,000 Fermented Spider Eyes |
+| **Everything With Legs** | Enchanting | ★ | Kill a Spider, a Cave Spider, a Silverfish, an Endermite and a Bee, every one of them with a Bane of Arthropods V sword |
 | **Everything's Coming Up Green** | Farming | ◆ | Smelt 1,500 Green Dye |
 | **Eviction Notice** | Adventure | · | Kill an Evoker inside a Woodland Mansion |
 | **Excavating the Ancients** | Monsters | ◆ | Mine 5,000 Bone Blocks |
 | **Except the Curses** | Enchanting | ★ | Craft 200 Grindstones |
+| **Excess Baggage** | The End | · | Kill an Endermite in the End, where the only way one arrives is in your pocket |
+| **Excessive Force** | Building | · | Light a single candle using a Fire Charge |
 | **Executioner's Favourite** | Weaponry | ◆ | Use a Diamond Axe 4,000 times |
+| **Exiled to the Highlands** | Biomes | · | Cut down a raid captain at an outpost standing in a Meadow and carry the Omen home |
 | **Exorcised** | Adventure | ★ | Kill 15,000 Vexes |
 | **Exorcist** | Adventure | ◆ | Kill 75 Vexes |
 | **Expensive Mistakes** | Weaponry | · | Break 60 Golden Swords |
@@ -9899,6 +11032,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Eyes in the Undergrowth** | Biomes | · | Pick up 16 Open Eyeblossoms. |
 | **Eyes on the Horizon** | Adventure | ◆ | Look through a Spyglass 600 times |
 | **Face in the Patch** | Monsters | · | Craft 16 Carved Pumpkins |
+| **Face Lift** | Enchanting | · | Carve a Pumpkin with Shears enchanted with Efficiency V |
+| **Face Reveal** | Animals | · | Shear the Carved Pumpkin off a Snow Golem |
 | **Faces in the Field** | Farming | · | Break 250 Carved Pumpkins |
 | **Facets and Fatalities** | Weaponry | · | Land 500 hits with a Diamond Sword |
 | **Facets of Ruin** | Weaponry | ★ | Land 15,000 hits with a Diamond Sword |
@@ -9907,7 +11042,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Faith in the Fletcher** | Adventure | ★ | Craft 30,000 Fletching Tables |
 | **Faithful Companion** | Statistics | ◆ | Use a Diamond Pickaxe 2,000 Times |
 | **Fallen From the Boughs** | Farming | · | Collect 250 Apples |
+| **False Alarm** | Building | ◆ | Squint at an Armour Stand through a Spyglass from 50 blocks away and think, for a second, that you have company |
 | **Familiar Territory** | Animals | · | Tame the all black Cat that skulks around a Swamp Hut |
+| **Family Business** | Animals | ◆ | Breed a Horse with a Donkey while sitting on the Mule the last pair gave you |
 | **Family Planning** | Animals | ◆ | Breed Chickens in the Overworld, in the Nether and in the End |
 | **Fang Snapper** | Adventure | · | Kill 10 Evokers |
 | **Fanged** | Adventure | · | Take a bite from an Evoker's Fangs and live |
@@ -9915,9 +11052,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fanning Out** | Biomes | · | Mine 100 Tube Coral Fans |
 | **Farm to Table** | Farming | ★ | Plant wheat, potatoes and beetroot in the End and eat a meal of each there |
 | **Farmer's Market** | Farming | ◆ | Buy Bread, a Cookie, a Pumpkin Pie, a Cake, an Apple, a Golden Carrot and a Glistering Melon Slice from Villagers |
+| **Farmyard Skewer** | Animals | ★ | Run a Sheep, a Pig and a Rabbit through with one Piercing arrow |
 | **Fast and Fragile** | Weaponry | · | Use a Golden Axe 250 times |
 | **Fast Travel, Hard Landing** | The End | ◆ | Throw 750 Ender Pearls |
 | **Fatigue Is a Personal Matter** | Adventure | ★ | Kill 1,500 Elder Guardians |
+| **Feather Descent** | The End | ◆ | Fall a hundred blocks through the End on nothing but a Slow Falling potion |
 | **Feather Duster** | Animals | ◆ | Kill 1,000 Chickens |
 | **Featherbedding** | Animals | ★ | Drop 16,384 Feathers |
 | **Feathers and Bones Behind You** | Animals | ★ | Eat 30,000 Cooked Chicken |
@@ -9927,9 +11066,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Feathers on the Wind** | Animals | ★ | Kill 5,000 Chickens |
 | **Featherweight** | Weaponry | ★ | Kill the Wither with no armour and nothing but a sword, a bow and a stack of arrows |
 | **Featherweight Signal** | Redstone | · | Place 64 Light Weighted Pressure Plates |
+| **Fed to the Sculk** | Animals | · | Kill a Pig close enough to a Sculk Catalyst that the Deep Dark eats the experience |
 | **Feed for a Thousand Herds** | Animals | ★ | Use 15,000 Hay Bales |
 | **Feeding the Caravan** | Animals | · | Use 200 Hay Bales |
 | **Feeding the Cartographer** | Adventure | · | Pick up 6,000 Paper |
+| **Feeding the Dark** | Adventure | ◆ | Kill something beside a Sculk Catalyst while the Darkness is pressing in on you |
+| **Feeding the Floor** | Biomes | ◆ | Kill something on top of a Sculk Catalyst in the Deep Dark and let the ground drink it in |
 | **Feeding the Void** | Statistics | ◆ | Drop 15,000 Rotten Flesh |
 | **Feline Frequencies** | Monsters | ◆ | Collect 20 Music Disc Cat |
 | **Fell the Fungus** | Farming | · | Break 500 Brown Mushroom Blocks |
@@ -9949,9 +11091,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ferrous Wheel** | Mining | · | Mine 150 Deepslate Iron Ore |
 | **Ferry Tales** | Animals | ◆ | Ride a Boat with a Panda aboard, then with a Fox, then with a Cat |
 | **Fertile Ground** | Farming | · | Use 500 Bone Meal |
+| **Fertiliser in a Dead World** | The End | · | Use Bone Meal on Wheat growing in the End |
 | **Festival Without End** | Building | ★ | Place 15,000 Lanterns |
 | **Fetch Quest** | Adventure | ◆ | Have an Allay bring a full stack of sixty-four items to a Note Block in one delivery |
 | **Field Archaeologist** | Adventure | · | Use a Brush 250 times |
+| **Field Goal** | Enchanting | · | Hit a Chicken with a Knockback II sword and let it go about its day |
 | **Field Kit** | Potions | · | Hold a Splash Potion of Weakness and a Golden Apple at the same time |
 | **Field Kitchen** | Building | ◆ | Fit out a whole kitchen: place a Furnace, a Smoker, a Campfire, a Soul Campfire, a Cauldron and a Composter |
 | **Field Medicine** | Potions | ★ | Cure a Zombie Villager in the Nether |
@@ -9974,9 +11118,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fifty Thousand Turquoise Lumps** | Nether | ★ | Mine 50,000 Warped Wart Blocks |
 | **Fifty Thousand Unpackings** | The End | ★ | Place 40,000 Shulker Boxes |
 | **Fifty Times Dead Already** | Animals | ★ | Kill 50 Zombie Horses |
+| **Filing System** | Enchanting | ◆ | Have an Allay drop an Enchanted Book onto a Note Block for you |
 | **Fill 'er Up** | Statistics | · | Fill 250 Empty Buckets |
 | **Filling Station** | Potions | · | Fill 75 Glass Bottles |
 | **Fimbulwinter Falls** | Weaponry | ★ | Use a Netherite Axe 10,000 times |
+| **Finder's Fee** | Animals | ◆ | Pay a Dolphin in Raw Cod, follow it, and crack open the Buried Treasure it finds |
+| **Fire and Ice** | Biomes | · | Set a burning Campfire directly on top of a block of Blue Ice |
 | **Fire at Will** | Redstone | ★ | Place 1,500 Dispensers |
 | **Fire in the Hole** | Mining | · | Place 75 TNT |
 | **Fire It Up** | Farming | · | Cook 75 Steaks |
@@ -9985,15 +11132,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fired Earth** | Building | · | Place 150 Terracotta |
 | **Fired Earth Forever** | Building | ★ | Place 10,000 Terracotta |
 | **Fired Until It Fell Apart** | Adventure | ◆ | Break 150 Crossbows |
+| **Fireflies After All** | Building | · | Plant a Firefly Bush. They said it would never happen |
 | **Firefly Lane** | Building | · | Line a path with twenty Firefly Bushes |
 | **Firefly Nights** | Biomes | · | Plant a Firefly Bush in a Mangrove Swamp |
 | **Firelight Everywhere** | Building | ★ | Place 20,000 Torches |
 | **Fireproof and Fearless** | Nether | ◆ | Use 500 Magma Cream |
 | **Fireproof Filling** | Potions | ◆ | Craft 100 Magma Cream |
+| **Fireproof Trio** | Enchanting | ★ | Kill a Ghast, a Blaze and a Wither Skeleton with a Flame bow, not one of which can burn |
 | **Fires of the Butchery** | Animals | ★ | Cook 40,000 Porkchops |
 | **Firestarter Eternal** | Nether | ★ | Use Flint and Steel 40,000 times |
 | **Firewood** | Weaponry | · | Wear a Wooden Axe all the way down until it snaps in your hand |
 | **Firewood Detail** | Weaponry | · | Use a Wooden Axe 250 times |
+| **Fireworks Over the City** | The End | ◆ | Bring down a Shulker with a Firework Rocket fired from a Crossbow |
 | **Firing on All Cylinders** | Redstone | ◆ | Pick up 2,048 Pistons |
 | **Firing Range Demolition** | Redstone | ◆ | Mine 1,024 Targets |
 | **Firing Up the Smoker** | Animals | · | Cook 250 Porkchops |
@@ -10017,16 +11167,26 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fish for Every Meal** | Animals | ★ | Eat 2,000 Cooked Cod |
 | **Fish Fry** | Animals | · | Eat 200 Cooked Cod |
 | **Fish in a Barrel** | Adventure | · | Kill 250 Guardians |
+| **Fish Out of Water** | Adventure | ★ | Kill a Guardian that is flopping about in open air |
+| **Fish Tank** | Building | · | Set a waterlogged Glass Pane and keep the water on the other side of it |
+| **Fish Tax** | Animals | · | Get mauled by a Polar Bear while holding a raw Salmon it clearly wanted |
+| **Fisherman's Friend** | Animals | · | Buy a Bucket of Cod from a Fisherman rather than catching one yourself |
 | **Fishing for Aqua Affinity** | Enchanting | ★ | Craft 1,500 Diamond Helmets |
+| **Fishing in the Dark** | Animals | ★ | Cast a line in the Deep Dark and reel in a fish before something reels in you |
+| **Fishing Trip** | Adventure | ◆ | Kill a Guardian without ever getting out of your Boat |
 | **Fishmonger** | Animals | · | Buy Cooked Cod and Cooked Salmon from a Fisherman |
 | **Five Hundred Silent Mouths** | Monsters | ★ | Break 512 Zombie Heads |
 | **Five Hundred Spent Igniters** | Nether | ★ | Wear out 500 Flint and Steel |
 | **Five Second Chances** | Adventure | · | Use 5 Totems of Undying |
 | **Five Thousand Broken Spears** | Enchanting | ★ | Break 5,000 Tridents |
 | **Five Thousand Regrets** | Mining | ★ | Break 5,000 Golden Pickaxes |
+| **Flag of the Void** | Building | ◆ | Plant a banner in the End and call the place yours |
+| **Flag of Truce** | Building | ◆ | Raise a White Banner inside a Pillager Outpost and see how far it gets you |
 | **Flameproof** | Potions | · | Brew a Potion of Fire Resistance |
 | **Flammable Foundations** | Building | ◆ | Place 15,000 Netherrack |
 | **Flat and Purple Forever** | The End | ◆ | Place 20,000 Purpur Slabs |
+| **Flat-Pack Furniture** | Enchanting | · | Buy a Bookshelf from a Villager rather than chopping and binding your own |
+| **Flat-Top Forestry** | Biomes | ◆ | Plant an Acacia Sapling on a Windswept Savanna and force it into a tree with Bone Meal |
 | **Flattening Hell's Spires** | Nether | ★ | Mine 5,000 Basalt |
 | **Fleece Facade** | Building | ◆ | Place 1,500 White Wool |
 | **Fleeced** | Animals | · | Breed two Sheep that you have already sheared bare |
@@ -10036,14 +11196,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fleet of the Underground** | Mining | ◆ | Craft 1,024 Minecarts |
 | **Fletcher's Best Customer** | Statistics | ◆ | Fire a Bow 1,500 Times |
 | **Fletcher's Nightmare** | Statistics | ★ | Fire a Bow 20,000 Times |
+| **Fletcher's Stock** | Adventure | · | Open the chest in a village fletcher's house |
 | **Fletching Practice** | Statistics | · | Craft 600 Arrows |
 | **Flick It** | Redstone | · | Place 50 Levers |
 | **Flint and Fury** | Weaponry | · | Land 250 hits with a Stone Spear |
 | **Flint Beyond Measure** | Mining | ★ | Mine 200,000 Gravel |
 | **Flintheart** | Weaponry | ★ | Land 7,500 hits with a Stone Sword |
 | **Flip the Script** | Redstone | ★ | Place 2,000 Levers |
+| **Flipper's Revenge** | Animals | · | Pick a fight with a Dolphin and lose it |
+| **Floating Faculty** | Enchanting | · | Enchant an item without getting out of your Oak Boat |
 | **Floating Point** | Monsters | ◆ | Kill a Shulker while its own bullet still has you levitating |
 | **Flock and Fire** | Farming | ★ | Cook 25,000 Mutton |
+| **Flogging a Dead Horse** | Enchanting | ◆ | Put a Skeleton Horse down with a sword enchanted with Smite V |
 | **Flooding the Fortress** | Nether | ★ | Use 2,500 Lava Buckets |
 | **Floorboards** | Building | · | Place 500 Oak Planks |
 | **Flooring the Void** | The End | · | Place 1,000 End Stone Brick Slabs |
@@ -10068,6 +11232,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Footsore in Iron Rings** | Enchanting | ★ | Wear out 128 Chainmail Boots until they break |
 | **Forbidden Knowledge** | Enchanting | · | Enchant an item at a table you have set up inside the Deep Dark |
 | **Force-Fed Fields** | Farming | ★ | Use 15,000 Bone Meal |
+| **Foreclosure** | Biomes | ◆ | Kill a Witch inside her own Swamp Hut |
 | **Forest Floor Thief** | Biomes | · | Mine 2,000 Podzol |
 | **Forest of Snapped Spears** | Monsters | ★ | Break 400 Wooden Spears |
 | **Forests Beneath the Waves** | Farming | ★ | Plant 80,000 Kelp |
@@ -10086,6 +11251,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fortress Lighting** | Nether | · | Hang a Copper Lantern inside a Nether Fortress |
 | **Fortress of My Own Making** | Building | ★ | Place 2,000 Nether Bricks |
 | **Fortress of Solitude** | Nether | ◆ | Spend a full Minecraft day inside a Nether Fortress without once leaving it |
+| **Fortress Pantry** | Building | · | Set up a supply chest inside a Nether Fortress |
 | **Fortress Protocol** | Redstone | ★ | Place 25,000 Iron Doors |
 | **Fortress Purge** | Nether | · | Kill 150 Wither Skeletons |
 | **Fortress Salvage** | Building | · | Place 150 Nether Bricks |
@@ -10113,11 +11279,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Four Hundred Thousand Broken Windows** | The End | ★ | Break 400,000 Glass |
 | **Four Hundred Thousand Rungs** | The End | ★ | Craft 100,000 Scaffolding |
 | **Four of a Kind** | Building | · | Set a fourth Candle into a single block |
+| **Four Roads Home** | Adventure | ★ | Excavate all four of the Trail Ruins patterns: Host, Raiser, Shaper and Wayfinder |
 | **Four Thousand Golden Bites** | Monsters | ★ | Collect 4,096 Golden Apples |
 | **Four Thousand Times Carried** | The End | ★ | Collect 4,096 Dragon Heads |
 | **Four Ticks Forever** | Redstone | ★ | Place 5,000 Redstone Repeaters |
 | **Four Ticks Later** | Redstone | ◆ | Place 600 Redstone Repeaters |
 | **Fowl Play** | Animals | · | Kill 150 Chickens |
+| **Fox Gets the Spear** | Animals | · | Drop a Spear and let a Fox make off with it |
 | **Fragile Fortune** | Mining | ◆ | Wear out 128 Golden Axes |
 | **Fragmentary Evidence** | Super Challenges | ★★ | Hold a full stack of every one of the twenty-three Pottery Sherds at once |
 | **Fragments Beyond Counting** | Monsters | ★ | Collect 2,500 Disc Fragments |
@@ -10127,6 +11295,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Framed Beyond Reason** | Building | ★ | Place 5,000 Item Frames |
 | **Framer of Everything** | Animals | ★ | Craft 750 Item Frames |
 | **Franchise of the Void** | The End | ★ | Craft 1,500 Ender Chests |
+| **Free Practice** | Enchanting | ★ | Hit the bullseye of a Target from thirty blocks out with an Infinity Bow |
+| **Free Refill** | Biomes | ★ | Draw a Bucket of Lava back out of a Cauldron down in the Dripstone Caves |
+| **Free Refills** | Building | ◆ | Place a cauldron directly beneath a dripstone stalactite |
 | **Free Solo** | Adventure | ◆ | Climb two hundred blocks of ladders or vines without touching the ground |
 | **Freefall Logistics** | Redstone | ★ | Place 750 Droppers |
 | **Freeze Frame** | Mining | ★ | Catch a Copper Block at each of its four oxidation stages and wax it in place |
@@ -10145,6 +11316,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Frictionless Architecture** | Building | ★ | Place 40,000 Smooth Stone |
 | **Fried Again Tonight** | Animals | ★ | Eat 5,000 Cooked Cod |
 | **Friendly Fire** | Redstone | · | Get shot by an Arrow that no living thing fired, straight out of a Dispenser |
+| **Frog Ferry** | Biomes | ◆ | Set out across a Mangrove Swamp in a Boat with a Frog sitting in it beside you |
 | **Frog Light Special** | The End | · | Collect 16 Verdant Froglights. |
 | **Froglight Never Kindles** | Animals | ★ | Kill 4,000 Frogs |
 | **Frogs Left Standing** | Biomes | ★ | Mine 10,000 Lily Pads |
@@ -10155,9 +11327,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Frostbitten Fusillade** | Monsters | ★ | Kill 4,000 Strays |
 | **Frosting Frenzy** | Statistics | · | Place 25 Cakes |
 | **Frosting on the Floor** | Statistics | · | Break 30 Cakes |
+| **Frosty Reception** | The End | ◆ | Build a Snow Golem in the End, where it will never melt |
+| **Frozen Courtship** | Animals | · | Breed a pair of animals while you are stood waist-deep in Powder Snow |
+| **Frozen Dairy** | Biomes | · | Milk a cold-weather Cow, the shaggy kind that only turns up where it snows |
 | **Frozen Fortress** | Biomes | · | Find an Ocean Monument under a Deep Frozen Ocean |
 | **Frozen in Copper** | Redstone | · | Place 32 Copper Golem Statues |
 | **Frozen Interstate** | Biomes | ★ | Craft 640 Blue Ice |
+| **Frozen Nesting** | Animals | ◆ | Breed two Turtles on a Snowy Beach |
 | **Frozen Over** | Nether | ◆ | Place Ice, Packed Ice and Blue Ice down in the Nether |
 | **Frozen Solid Forever** | Building | ◆ | Place 12,000 Packed Ice |
 | **Frugal Enchanter** | Enchanting | ◆ | Spend real levels enchanting all five Copper tools at an Enchanting Table |
@@ -10174,12 +11350,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fuelling the First Brews** | Nether | · | Use 250 Blaze Powder |
 | **Full Brass** | Animals | ★ | Hold all eight Goat Horns at once |
 | **Full Curriculum** | Enchanting | ★ | Buy Protection IV, Sharpness V, Efficiency V, Power V and Unbreaking III books from Villagers |
+| **Full Diving Kit** | Animals | · | Climb onto a Nautilus while wearing a Turtle Helmet |
 | **Full Interchange** | Redstone | · | Build a rail junction where all four types of Rail meet in one nine-by-nine square |
 | **Full Kennel** | Animals | ★ | Equip Wolves with Wolf Armor in the ten dyes Paw Patrol left out, then gather ten armored Wolves around you |
 | **Full Orchestra** | Redstone | ◆ | Place 200 Note Blocks |
+| **Full Send** | Enchanting | ◆ | Charge a Hoglin at a dead sprint and finish it with a Lunge III Spear |
 | **Full Spectrum Flock** | Animals | ★ | Breed a lamb of every one of the sixteen Sheep colours |
 | **Full Speed Ahead** | Redstone | · | Place 75 Powered Rails |
+| **Full Steam Ahead** | Enchanting | ★ | Own an Efficiency V pickaxe, axe, shovel, hoe and pair of Shears. Yes, Shears take it too |
+| **Full Swing** | Enchanting | · | Split a Magma Cube apart with a sword enchanted with Sweeping Edge III |
 | **Full Throttle Network** | Redstone | ★ | Place 10,000 Powered Rails |
+| **Fully Committed** | Enchanting | ◆ | Sink thirty levels into a Spear in one go at an Enchanting Table |
+| **Fully Patinated** | Building | ★ | Fit out a building with a fully oxidized Copper Door, Chest, Grate and Lantern |
 | **Fully Stocked** | Potions | ★ | Hold every brewing ingredient in the game at the same time |
 | **Fun Guy** | Biomes | · | Mine 250 Red Mushroom Blocks |
 | **Fungal Beef** | Animals | · | Kill 100 Mooshrooms |
@@ -10197,6 +11379,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Fungal Lanterns Forever** | Nether | ★ | Mine 10,000 Shroomlight |
 | **Fungal Lumber Tycoon** | Nether | ★ | Mine 25,000 Crimson Stems |
 | **Fungal Lumberjack** | Nether | ◆ | Mine 1,000 Crimson Stems |
+| **Fungal Marksman** | Adventure | · | Get shot dead by a Bogged inside the Trial Chambers |
 | **Fungus Among Us** | Nether | · | Drive a Hoglin away by placing Warped Fungus around it |
 | **Fungus Farmer of the Deep** | Potions | ◆ | Plant 10,000 Brown Mushrooms |
 | **Funnel Fabrication** | Redstone | · | Craft 128 Hoppers |
@@ -10208,6 +11391,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Furnished to the Rafters** | Enchanting | ★ | Craft 150 Oak Shelves |
 | **Furrow After Furrow** | Farming | · | Till 4,000 blocks of soil with an Iron Hoe |
 | **Fuse After Fuse** | Monsters | ★ | Kill 5,000 Creepers |
+| **Fuse Race** | Super Challenges | ★★ | Kill a Charged Creeper with a melee blow while wearing no armour |
 | **Fused Vision** | The End | · | Craft 20 Eyes of Ender |
 | **Gale in the Grip** | Weaponry | · | Land 500 hits with a Breeze Rod |
 | **Gallery of Beasts** | Animals | ◆ | Craft 100 Item Frames |
@@ -10219,6 +11403,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Gardener of the Shallows** | Biomes | ◆ | Place 1,024 Brain Coral Blocks. |
 | **Gardener of the Wastes** | Farming | ★ | Harvest 80,000 Crimson Fungi |
 | **Gardening With Death** | Nether | ◆ | Mine 100 Wither Roses |
+| **Gaslight District** | Building | · | Set a lantern on top of a fence post to light the street |
+| **Gated Community** | Building | · | Hang a Fence Gate against a wall so it sits low, the way a proper gate should |
 | **Gateway Tourist** | The End | · | Teleport through End Gateways ten times |
 | **Gathering Moss** | Building | ◆ | Collect every mossy block there is |
 | **Gathering the Cold Fire** | Nether | ◆ | Mine 1,000 Soul Torches |
@@ -10234,18 +11420,23 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Geode Cracker** | Mining | · | Mine 500 Smooth Basalt |
 | **Geode Interiors** | Building | · | Place 250 Calcite |
 | **Geology Is Merely a Suggestion** | Statistics | ★ | Use a Diamond Pickaxe 100,000 Times |
+| **Ghast Buster** | Enchanting | ★ | Drop a Ghast from at least a hundred blocks away with a Power V bow |
+| **Ghast Cavalry** | The End | ★ | Slay the Ender Dragon from the back of a Happy Ghast |
 | **Ghast Couture** | Nether | ★ | Ride the same Happy Ghast in all sixteen colours of Harness |
 | **Ghast Impression** | Weaponry | ◆ | Use 100 Fire Charges |
 | **Ghast Lancer** | Weaponry | ◆ | Land a Spear charge attack on a mob while riding a Happy Ghast high above the clouds |
 | **Ghast Nursery** | Nether | ◆ | Have three Ghastlings trailing your Snowball at once |
+| **Ghast's Eye View** | Adventure | ◆ | Chart the ground from the back of a Happy Ghast, filled Map in hand |
 | **Ghastly Stablehand** | Animals | ◆ | Use 128 Blue Harnesses |
 | **Ghost in the Machine** | Potions | ◆ | Walk through an Ancient City under the Invisibility effect |
 | **Ghost Reef** | Biomes | · | Mine 128 Dead Tube Coral Blocks. |
+| **Ghost Ship** | Biomes | ◆ | Kill a Drowned inside a sunken Shipwreck |
 | **Ghost Story** | Weaponry | ◆ | Kill a Phantom with a Spear charge attack as it dives at you |
 | **Ghost Town** | Adventure | ★ | Trade with a Villager inside an Ancient City |
 | **Ghost Towns Everywhere** | Adventure | ★ | Kill 2,000 Villagers |
 | **Ghost Wood** | Biomes | · | Mine 150 Pale Oak Logs |
 | **Ghosts of the Mansion** | Adventure | ★ | Kill 2,000 Vexes |
+| **Ghostwriter** | Enchanting | · | Hand an Allay an Enchanted Book and let it do the reading |
 | **Gilded Ambition** | Building | ◆ | Place 1,500 Polished Blackstone Bricks |
 | **Gilded and Gone** | Statistics | · | Break 25 Golden Leggings |
 | **Gilded and Gutted** | Weaponry | · | Wear out 20 Golden Shovels |
@@ -10264,6 +11455,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Gilded Thrust** | Weaponry | ◆ | Land 600 hits with a Golden Spear |
 | **Gilded Treachery** | Weaponry | · | Kill a Piglin while wearing a full set of Golden Armour |
 | **Gilded Treat** | Animals | · | Use 40 Golden Carrots |
+| **Gilding the Lily** | Adventure | · | Trim a Golden Chestplate with Gold and accomplish absolutely nothing |
 | **Gills in a Bottle** | Potions | ◆ | Kill 100 Pufferfish |
 | **Gilt Complex** | Nether | ★ | Mine 2,048 Gilded Blackstone |
 | **Gilt to the Hilt** | Weaponry | ★ | Land 50,000 hits with a Golden Spear |
@@ -10272,6 +11464,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Glacier Wrecker** | Biomes | ★ | Mine 20,000 Ice |
 | **Glass and Ghast Tears** | The End | ★ | Craft 2,500 End Crystals |
 | **Glass and Quartz** | Redstone | · | Craft 32 Daylight Detectors |
+| **Glass Bottom** | Building | ◆ | Place a glass block with water directly above it and directly below it |
 | **Glass Everywhere** | Enchanting | ★ | Pick up 10,000 Glass Bottles |
 | **Glass Grenade** | Potions | · | Throw 20 Splash Potions |
 | **Glass That Keeps Secrets** | The End | · | Craft 512 Tinted Glass |
@@ -10280,11 +11473,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Glassblower** | Potions | · | Craft 150 Glass Bottles |
 | **Glassmaker to the Gods** | Potions | ★ | Craft 75,000 Glass Bottles |
 | **Glaze Over Everything** | Building | ◆ | Place 2,000 White Glazed Terracotta |
+| **Glazier's Apprentice** | Building | ◆ | Buy glass from a Librarian, then build something out of it |
 | **Gliding Is the Only Way to Travel** | The End | ◆ | Use your Elytra 5,000 times |
 | **Glimmer in the Satchel** | Potions | ◆ | Collect 10,000 Glistering Melon Slices |
 | **Glint in the Dark** | Nether | · | Mine 32 Gilded Blackstone |
 | **Glitter in the Netherrack** | Nether | · | Mine 75 Nether Gold Ore |
 | **Glittering Rubble** | Mining | · | Pick up 64 Gilded Blackstone |
+| **Global Warming** | Enchanting | · | Melt a Snow Golem down with a sword enchanted with Fire Aspect II |
 | **Glow in the Dirt** | Farming | · | Drop 1,500 Glow Berries. |
 | **Glow of a Thousand Jars** | Biomes | ★ | Mine 7,500 Sea Pickles |
 | **Glow of the Drowned Deep** | Building | ★ | Place 3,000 Sea Lanterns |
@@ -10315,6 +11510,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Golden Acres** | Animals | ◆ | Drop 2,500 Wheat |
 | **Golden Blood** | Animals | ★ | Drink 40,000 Honey Bottles |
 | **Golden Boost** | Redstone | · | Place 250 Powered Rails |
+| **Golden Opportunity** | Enchanting | ◆ | Kill a Piglin Brute with a Golden Sword enchanted with Sharpness V, the best enchantments on the worst blade |
 | **Golden Ratio** | Weaponry | ◆ | Use a Golden Axe 600 times |
 | **Golden Rations** | Nether | · | Eat a Golden Apple inside a Bastion Remnant |
 | **Golden Sensitivity** | Redstone | ★ | Place 25,000 Light Weighted Pressure Plates |
@@ -10332,25 +11528,30 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Good Fences, Great Neighbours** | Building | ★ | Place 5,000 Oak Fences |
 | **Gotcha!** | Redstone | · | Place 40 Trapped Chests |
 | **Gourd Gatherer** | Farming | · | Harvest 250 Pumpkins |
+| **Gourd Vision** | The End | · | Step into the End wearing a Carved Pumpkin so nothing takes it personally |
 | **Gourdzilla** | Farming | ★ | Harvest 250,000 Pumpkins |
 | **Grace Cut Short** | Animals | · | Kill 100 Dolphins |
+| **Grace Period** | Super Challenges | ★★ | Kill the Wither inside the five seconds a Totem of Undying buys you back |
 | **Grafted** | Biomes | ◆ | Plant a Cherry Sapling in the Pale Garden and a Pale Oak Sapling in a Cherry Grove |
 | **Grain Against Gem** | Weaponry | ◆ | Use a Diamond Axe 2,000 times |
 | **Grain by Grain** | Potions | ◆ | Craft 400 Sugar |
 | **Grain of Bone** | Biomes | ★ | Mine 5,000 Pale Oak Logs |
 | **Granary of the World** | Farming | ★ | Harvest 200,000 Wheat |
+| **Grand Entrance** | Building | ◆ | Hang a door directly beside another one to make a proper double doorway |
 | **Grand Staircase** | Building | · | Place 400 Oak Stairs |
 | **Granite Baron** | Building | ◆ | Place 40,000 Granite |
 | **Granite Countertops** | Mining | ◆ | Mine 25,000 Granite |
 | **Granite for Granted** | Mining | ★ | Mine 400,000 Granite |
 | **Granite State of Mind** | Building | · | Place 4,000 Granite |
 | **Grass Roots** | Biomes | ◆ | Mine 3,000 Short Grass |
+| **Grate Job** | Adventure | · | Defeat a Breeze while standing on a Copper Grate |
 | **Grated Flooring** | Redstone | · | Place 1,024 Copper Grates |
 | **Grave Robber of the Valley** | Nether | ★ | Mine 150,000 Soul Soil |
 | **Grave Robbing** | Farming | · | Craft 600 Bone Meal |
 | **Gravel and Loam** | Farming | · | Craft 1,500 Coarse Dirt. |
 | **Gravel Diplomacy** | Potions | · | Use a Diamond Shovel 15,000 times |
 | **Gravel Dividends** | Weaponry | · | Pick up 500 Flint |
+| **Gravel Pit** | Biomes | · | Set foot in a Windswept Gravelly Hills, the one biome nobody ever sets out to find |
 | **Gravel Rash** | Mining | ◆ | Mine 4,000 Gravel |
 | **Gravel Takes Its Toll** | Mining | · | Break 50 Iron Shovels |
 | **Gravel Underfoot** | Weaponry | · | Break 40 Stone Swords |
@@ -10358,6 +11559,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Graveyard of Blades** | Weaponry | ◆ | Wear out 25 Netherite Swords |
 | **Graveyard of Clippers** | Animals | ★ | Break 5,000 Shears |
 | **Gravity Always Wins** | Statistics | ◆ | Fall a cumulative ten kilometres |
+| **Gravity Assist** | Super Challenges | ★★ | Sink an arrow into the dead centre of a Target Block while you are plummeting past it |
 | **Gravity Costs Something** | Statistics | ◆ | Break 25 Maces |
 | **Gravity's Apprentice** | Weaponry | · | Land 500 hits with a Mace |
 | **Gray Area** | Biomes | · | Craft Gray Dye from a Closed Eyeblossom and Orange Dye from an Open Eyeblossom |
@@ -10403,13 +11605,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Grey Carpet** | Biomes | · | Mine 200 Pale Moss Blocks |
 | **Grey Carpet Rolled Up** | Biomes | ★ | Mine 30,000 Pale Moss Blocks |
 | **Grey Curtains** | Biomes | · | Mine 1,000 Pale Hanging Moss |
+| **Grey Drapes** | Biomes | · | Hang Pale Hanging Moss off the underside of a Pale Oak Log |
 | **Grey Horizon** | Mining | ★ | Mine 250,000 Deepslate |
 | **Grey Is a Colour** | Building | ◆ | Place 4,000 Cobblestone |
+| **Grey Mansion** | Biomes | ★ | Cut down an Evoker inside a Woodland Mansion that happens to stand in a Pale Garden |
 | **Grey Matter** | Mining | · | Mine 1,000 Andesite |
 | **Grey Tide** | Mining | ◆ | Mine 100,000 Cobblestone |
 | **Grid of the Underworld** | Building | ◆ | Place 8,000 Deepslate Tiles |
 | **Grief Distilled and Bottled** | Nether | ★ | Use 4,096 Ghast Tears |
 | **Grill Sergeant** | Farming | · | Cook 150 Steaks |
+| **Grim Studies** | Enchanting | · | Enchant an item in a Pale Garden, with the Creakings watching |
 | **Grind the Mountain Down** | Weaponry | ★ | Use a Stone Axe 50,000 times |
 | **Grinding Down the World** | Enchanting | ★ | Craft 2,000 Grindstones |
 | **Grinding the Inferno** | Potions | ★ | Craft 2,500 Blaze Powder |
@@ -10418,6 +11623,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Grip of Iron** | Redstone | ★ | Craft 25,000 Sticky Pistons |
 | **Grit Determination** | Mining | ★ | Mine 10,000 Gravel |
 | **Grit in the Soil** | Farming | · | Craft 150 Coarse Dirt. |
+| **Grit of the Cold Sea** | Adventure | ◆ | Come up out of a cold ocean ruin with a Pottery Sherd in your hands |
+| **Grooming on the Go** | Animals | ◆ | Brush an Armadillo for its Scute without getting down off your Camel |
 | **Ground and Pound** | Enchanting | ◆ | Flatten a Ravager with a Mace enchanted with Density V |
 | **Ground Another Lens** | Adventure | · | Craft 64 Spyglasses |
 | **Ground Cover** | Building | · | Lay down Leaf Litter, Wildflowers, Pink Petals, Moss Carpet and Pale Moss Carpet |
@@ -10443,6 +11650,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Guardian's Gift** | Adventure | · | Take the Tide Smithing Template from an Elder Guardian |
 | **Guardian's Masonry** | Biomes | ◆ | Craft 512 Prismarine Slabs. |
 | **Guardians Would Be Proud** | Building | ★ | Place 10,000 Sea Lanterns |
+| **Guest Lecturer** | Enchanting | · | Enchant an item inside a Woodland Mansion. The Illagers keep a fine library |
 | **Guest Rooms Ready** | Building | · | Place 32 White Beds |
 | **Guild of Ten Thousand Stands** | Potions | ★ | Craft 750 Brewing Stands |
 | **Gunpowder Baron** | The End | ★ | Craft 3,000 Firework Rockets |
@@ -10485,6 +11693,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hammer of the Falling World** | Weaponry | ★ | Land 90,000 hits with a Mace |
 | **Hammer Time** | Weaponry | ◆ | Deal twenty hearts of damage in a single Mace smash |
 | **Hammered Thin** | Enchanting | ★ | Mine 40 Chipped Anvils |
+| **Hammerfall** | Super Challenges | ★★ | Kill a mob with a single Mace smash while falling at over 60 blocks per second |
 | **Hanami** | Biomes | · | Sleep in a bed beneath the blossoms of a Cherry Grove |
 | **Hanami Ends** | Biomes | ★ | Mine 5,000 Cherry Logs |
 | **Handful of Hellfire** | Weaponry | · | Use 40 Fire Charges |
@@ -10502,13 +11711,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hanging Out** | Biomes | ◆ | Mine 10,000 Pale Hanging Moss |
 | **Hanging the First Bell** | Adventure | · | Place 64 Bells |
 | **Hanging the Lights** | Mining | · | Craft 512 Lanterns |
+| **Harbour Lights** | Building | ★ | Cap a sea tower with a Sea Lantern at least 100 blocks above the waves |
 | **Harbourmaster** | Biomes | ◆ | Place 500 Oak Boats |
+| **Hard Ground** | Biomes | · | Get an Oak Sapling to take root in the Coarse Dirt of a Wooded Badlands |
 | **Hard Water** | Potions | · | Catch a face full of your own Splash Potion of Harming |
 | **Hard-Headed** | Weaponry | · | Kill a Wither Skeleton while holding one of their own skulls |
 | **Hard-Headed Hoarder** | Potions | ★ | Craft 15 Turtle Shells |
 | **Hardness Ten** | Weaponry | ◆ | Land 2,500 hits with a Diamond Sword |
+| **Hare of Hell** | Animals | ◆ | Take a Rabbit through a Nether portal and kill it on the other side |
 | **Hare of the Dog** | Animals | · | Pick up 256 Rabbit Stew |
 | **Hare Off the Spit** | Animals | · | Eat 1,000 Cooked Rabbit |
+| **Hare Trigger** | Animals | ◆ | Drop a Rabbit from at least 50 blocks away |
 | **Harness Hours** | Statistics | ★ | Spend ten in-game days actually flying a Happy Ghast |
 | **Harness the Sky** | Animals | · | Use 32 Blue Harnesses |
 | **Harpooner** | Biomes | ◆ | Kill a Guardian with a Spear while underwater |
@@ -10546,11 +11759,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hauling Wounded Iron** | Enchanting | ★ | Pick up 8,000 Chipped Anvils |
 | **Have Stand, Will Travel** | Potions | ◆ | Pull a finished potion out of a Brewing Stand in all three dimensions |
 | **Hay and Redstone** | Redstone | · | Craft 64 Target Blocks |
+| **Hay Cushion** | Building | · | Drop 30 blocks onto a Hay Bale and walk away from it |
 | **Hay Fever** | Biomes | ◆ | Mine 100,000 Tall Grass |
 | **Haystack Mountain** | Farming | ★ | Craft 600 Hay Bales |
 | **He Loves Me Not** | Potions | · | Mine 500 Oxeye Daisies |
 | **Head Count of the Fallen** | The End | ◆ | Collect 1,024 Dragon Heads |
+| **Head in the Clouds** | Enchanting | · | Fire a Piercing IV Crossbow while a Shulker has you floating in mid-air |
 | **Head of the Enemy** | Weaponry | · | Use 64 Creeper Heads |
+| **Head of the Family** | The End | ◆ | Wear a Dragon Head while you place the last crystal and call the Dragon back |
 | **Heads Without Bodies** | Monsters | ◆ | Break 128 Creeper Heads |
 | **Healing by the Slice** | Potions | ◆ | Craft 200 Glistering Melon Slices |
 | **Heart of the Pale Oak** | Monsters | · | Collect 16 Creaking Hearts |
@@ -10562,26 +11778,36 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Heartwood Reckoning** | Weaponry | ★ | Land 10,000 hits with a Wooden Sword |
 | **Heavy Handed** | Adventure | · | Craft 5 Maces |
 | **Heavy Hangs the Handle** | Statistics | ★ | Break 100 Maces |
+| **Heavy Investment** | Enchanting | ◆ | Sink thirty levels into a Mace in one go at an Enchanting Table |
 | **Heavyweight Logic** | Redstone | ★ | Place 25,000 Heavy Weighted Pressure Plates |
 | **Hedgehog Formation** | Weaponry | ★ | Land 5,000 hits with an Iron Spear |
+| **Hee-Haw in Hell** | Animals | ★ | Lead an untamed Donkey into the Nether and only then break it in |
+| **Heirloom** | Enchanting | ◆ | Own a tool carrying both Mending and Curse of Vanishing. Immortal, right up until you die |
 | **Held the Line Anyway** | Adventure | · | Break 40 Shields |
 | **Held Together by Habit** | Enchanting | ◆ | Place 600 Damaged Anvils |
 | **Hell for Leather** | Animals | · | Ride a Horse through the Nether |
+| **Hell Freezes Over** | Biomes | ★ | Ride a Boat along a Blue Ice road in the Nether |
 | **Hell's Bouquet** | Nether | ◆ | Plant a Wither Rose down in the Nether |
 | **Hell's Kitchen** | Nether | · | Place a Furnace, a Smoker and a Campfire inside a Bastion Remnant |
+| **Hell's Kitchen Sink** | Building | ◆ | Fill a cauldron with water in the Nether, the only water that survives down there |
+| **Hellbloom** | Super Challenges | ★★ | Kill a Ghast close enough to a Sculk Catalyst in the Nether to make it bloom |
 | **Hellhound** | Animals | ◆ | Tame a Wolf in the Nether |
 | **Hellish Horticulture** | Potions | ◆ | Plant 1,500 Nether Wart |
+| **Hellmarket** | Adventure | ◆ | Trade with a Villager in the Nether |
 | **Hellstone Hauler** | Nether | · | Mine 2,500 Netherrack |
+| **Helmet Policy** | Adventure | ◆ | Take a hit from an Elder Guardian while wearing a Turtle Helmet |
 | **Helmets Beyond Any Head** | Enchanting | ★ | Craft 15,000 Diamond Helmets |
 | **Helmets for an Army** | Potions | ★ | Craft 40 Turtle Shells |
 | **Helmets of the Fallen** | Weaponry | · | Drop 512 Iron Helmets |
 | **Helms for Enchanting** | Enchanting | · | Craft 100 Diamond Helmets |
 | **Helms From the Shore** | Animals | ◆ | Collect 500 Turtle Scutes |
+| **Her Own Medicine** | Biomes | · | Drink a potion inside a Swamp Hut, under the Witch's own roof |
 | **Herald of the Hills** | Adventure | ◆ | Blow a Goat Horn 150 times |
 | **Heraldry Everywhere** | Building | ◆ | Place 512 White Banners |
 | **Heraldry of Hisses** | Weaponry | ◆ | Craft 5 Creeper Charge Banner Patterns |
 | **Heraldry of the Wither** | Monsters | ★ | Pick up 64 Skull Banner Patterns |
 | **Herbivore** | Farming | ★ | Survive ten in-game days eating only plant-based food |
+| **Herd on the Edge of Nowhere** | The End | ◆ | Breed two Cows in the End and start a colony that was never meant to be |
 | **Herding Cats** | Animals | ★ | Gather all eleven variants of Cat within eight blocks of you |
 | **Herds Without End** | Nether | ★ | Kill 20,000 Hoglins |
 | **Herds Worth of Hide** | Enchanting | ★ | Pick up 10,000 Leather |
@@ -10594,6 +11820,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hides in the Pack** | Enchanting | · | Pick up 1,000 Leather |
 | **High and Low** | Animals | ◆ | Ride a Horse two hundred blocks above sea level, and again fifty blocks below it |
 | **High Tea** | Farming | · | Eat a Cookie more than three hundred blocks up in the air |
+| **Highest Bidder** | Biomes | ◆ | Do business with a Wandering Trader two hundred blocks above sea level |
+| **Highlighted Deals** | Adventure | · | Trade with a Wandering Trader while he is glowing |
 | **Highlighter** | Potions | · | Put the Glowing effect onto yourself with a Spectral Arrow |
 | **Highly Enchantable** | Enchanting | · | Craft 512 Blocks of Gold |
 | **Highway to the Horizon** | Biomes | ★ | Craft 1,280 Blue Ice |
@@ -10613,25 +11841,40 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hoarder of the Hive** | Animals | ★ | Craft 1,500 Honeycomb Blocks |
 | **Hoarding the Deepslate Blue** | Enchanting | ★ | Pick up 6,000 Deepslate Lapis Lazuli Ore |
 | **Hoarding the Hours** | Weaponry | ◆ | Pick up 600 Clocks |
+| **Hoe Down There** | Super Challenges | ★★ | Kill the Warden in melee using a hoe |
 | **Hoes Before Foes** | Nether | ★ | Craft 32 Netherite Hoes. |
+| **Hog Rider** | Enchanting | · | Kill a mob with a Sharpness V sword from the back of a Pig |
 | **Hoglin Hit Single** | Adventure | ◆ | Pick up 8 Pigstep Music Discs |
 | **Hoglin Snacks** | Farming | · | Harvest 4,000 Crimson Fungi |
 | **Hogwash** | Animals | · | Kill 200 Pigs |
+| **Hoist by Your Own Crystal** | The End | · | Blow yourself up with an End Crystal you set off yourself |
 | **Hoist by Your Own Petard** | Redstone | · | Blow yourself up with TNT that you lit yourself |
+| **Hole in the Ice** | Animals | ◆ | Break through a Frozen Ocean and pull a fish out of the hole |
 | **Hollow Tree** | Building | · | Set a Beehive into a wall of Logs with one on either side |
 | **Hollow-Eyed Decor** | Monsters | ◆ | Break 64 Skeleton Skulls |
 | **Hollowed the Brimstone World** | Potions | ★ | Mine 200,000 Sulfur |
 | **Hollowing Out Hell** | Nether | ★ | Mine 250,000 Netherrack |
 | **Hollowing Out the Hills** | Mining | ◆ | Mine 6,000 Stone |
 | **Home Advantage** | Weaponry | ◆ | Kill a Guardian while Conduit Power is running on you |
+| **Home Away From Home** | Building | ★ | Make the End homely: an Ender Chest, a Flower Pot and a torch of your own |
+| **Home Field Advantage** | Adventure | · | Get killed by a Guardian inside an Ocean Monument |
+| **Home Field Disadvantage** | Biomes | ★ | Kill an Elder Guardian while you are running on Conduit Power |
 | **Home Invasion** | Monsters | · | Kill a Zombified Piglin that has wandered through a portal into the Overworld |
 | **Home Run** | Enchanting | · | Kill a Ghast with a bow enchanted with Punch II |
+| **Home Security** | Adventure | ★ | Build an Iron Golem inside an Ocean Monument |
 | **Home Turf** | Monsters | · | Kill a Witch inside the Swamp Hut she lives in |
+| **Homecoming Outfit** | Adventure | ★ | Stand in the Trail Ruins wearing a full suit of Wayfinder-trimmed armour |
+| **Homemade Elevator** | Biomes | · | Pour a Water Bucket onto Soul Sand and open your own bubble column |
 | **Homemade Soul Sand Valley** | Building | ◆ | Place 8,000 Soul Sand |
+| **Homesick** | Animals | ★ | Bring two Striders to the Overworld and breed them under an open sky |
+| **Homewrecker** | Biomes | ◆ | Knock down a Bee Nest with three Bees still living in it, and take the stings that follow |
+| **Honey, We're Home** | The End | · | Slide down a Honey Block in the End instead of falling like everyone else |
 | **Honeymoon** | Animals | ◆ | Drink a Honey Bottle in the Overworld, the Nether and the End |
 | **Honeymoon Suite** | Animals | · | Breed a pair of animals inside an Igloo |
+| **Hoodoo Voodoo** | Biomes | ◆ | Get yourself on top of an Eroded Badlands spire, a hundred and ten blocks up or better |
 | **Hoofbeats No More** | Animals | ★ | Kill 750 Horses |
 | **Hook, Line and Mender** | Enchanting | ◆ | Fish an Enchanted Book with Mending out of the water |
+| **Hooves on Ice** | Animals | · | Ride a Horse out across a Frozen Ocean |
 | **Hop To It** | Redstone | · | Drop 64 Hoppers |
 | **Hopper Highway** | Redstone | ◆ | Run a line of five Hoppers, every one feeding the next |
 | **Hopper Hoarder** | Redstone | ★ | Drop 4,096 Hoppers |
@@ -10642,23 +11885,34 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Horns Down** | Adventure | ◆ | Kill 30 Ravagers |
 | **Horns for Every Voice** | Animals | ◆ | Collect 250 Goat Horns |
 | **Horns Snapped Clean Off** | Adventure | ★ | Kill 2,000 Ravagers |
+| **Horse in the Chambers** | Animals | ◆ | Get a Horse all the way inside a Trial Chamber and stay in the saddle |
+| **Horse in the House** | Animals | ◆ | Ride a Horse through the halls of a Woodland Mansion |
 | **Hostile Negotiations** | Nether | ★ | Kill 400 Piglins |
 | **Hostile Takeover** | Adventure | · | Kill a Pillager inside its own Pillager Outpost |
 | **Hot Commute** | Enchanting | ◆ | Ride a Strider across a lava sea in four pieces of Fire Protection IV armour |
 | **Hot Floors for Everyone** | Nether | ◆ | Place 2,500 Magma Blocks |
+| **Hot Merchandise** | Adventure | · | Trade with a Villager who is currently on fire |
 | **Hot Off the Kiln** | Building | · | Place 75 Bricks |
 | **Hot Out of the Coals** | Farming | ★ | Bake 7,500 Baked Potatoes |
 | **Hot Pot** | Farming | ◆ | Eat a Cooked Porkchop while standing in Lava with Fire Resistance |
 | **Hot Rails** | Redstone | · | Ride a Minecart while you are on fire |
+| **Hot Reload** | Enchanting | ◆ | Fire a Quick Charge III Crossbow from the back of a Strider |
+| **Hot Springs** | Biomes | ◆ | Take fire damage while completely underwater. Watch where you swim |
 | **Hot to the Touch** | Weaponry | · | Land 200 hits with a Blaze Rod |
 | **Hot Underfoot** | Nether | · | Mine 128 Magma Blocks |
+| **Hot-Headed** | Enchanting | · | Kill a mob with a Sharpness V sword while you yourself are on fire |
 | **Hotter Than the Rest** | Adventure | · | Craft 128 Blast Furnaces |
 | **Hounds of the Iron Age** | Animals | ★ | Craft 1,500 sets of Wolf Armor |
 | **Hourglass of the World** | Biomes | ★ | Mine 200,000 Sand |
 | **House Call** | Potions | ◆ | Cure a Zombie Villager inside the Igloo basement built for exactly that |
 | **House Hunting** | Biomes | ◆ | Loot a house chest in a plains, desert, savanna, snowy and taiga village |
+| **Houseplant of the Damned** | Biomes | · | Pot a Dead Bush and leave it on display in the Badlands it withered in |
+| **Housewarming** | The End | ★ | Summon the Wither inside an End City and see what is left standing |
+| **Housewarming Gift** | Adventure | · | Place a Decorated Pot inside a Pillager Outpost |
 | **Housing Shortage Solved** | Adventure | · | Craft 1,024 White Beds |
+| **Huffed and Puffed** | The End | ◆ | Land the killing blow on a Shulker with a Wind Charge |
 | **Humble Brown Caps** | Potions | · | Plant 500 Brown Mushrooms |
+| **Humiliating** | Enchanting | ◆ | Get killed by a Silverfish while holding a Bane of Arthropods V sword |
 | **Humped and Humbled** | Animals | · | Kill 25 Camels |
 | **Humps and Husks** | Monsters | ★ | Kill 2,500 Camel Husks |
 | **Hundred Acre Hoard** | Animals | ★ | Pick up 4,096 Honey Blocks |
@@ -10671,6 +11925,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Hurricane Season** | Adventure | ★ | Throw 1,500 Wind Charges |
 | **Hush the Horn** | Monsters | · | Mine 5 Sculk Shriekers |
 | **Husk of a Weeping Thing** | Nether | · | Mine 2 Dried Ghasts |
+| **Husky Business** | Biomes | ◆ | Tame the snowy-coated Wolf that only prowls the Groves |
 | **Hut Clearance** | Adventure | · | Kill 150 Witches |
 | **Hybrid Undone** | Animals | · | Kill 10 Mules |
 | **Hydration Taken Too Far** | Statistics | ★ | Eat 40,000 Melon Slices |
@@ -10681,13 +11936,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Icarus** | Enchanting | · | Wear an Elytra you have named 'Icarus' |
 | **Ice Age** | Biomes | · | Place Ice, Packed Ice and Blue Ice in a Desert |
 | **Ice Breaker** | Biomes | · | Mine 500 Ice |
+| **Ice Diving** | Biomes | · | Swim beneath the ice sheet of a Frozen Ocean, with no sky above you |
+| **Ice Fishing** | Biomes | · | Bucket up a Salmon while standing on the ice of a Frozen River |
 | **Ice Highway** | Biomes | ◆ | Craft 128 Blue Ice |
 | **Ice Nine** | Biomes | · | Craft 16 Blue Ice |
+| **Ice Palace** | Building | ◆ | Lay Blue Ice in the middle of a desert |
 | **Ice Road Trucker** | Biomes | ★ | Travel five hundred blocks by boat over Blue Ice without stopping |
 | **Iceberg Eraser** | Biomes | ★ | Mine 40,000 Packed Ice |
+| **Icebreaker** | Animals | · | Take a tow from a Dolphin under the ice of a Frozen Ocean |
 | **Icehouse Ambitions** | Building | ◆ | Place 4,000 Packed Ice |
 | **Identity Crisis** | Monsters | ◆ | Get killed by the very monster whose head you are wearing |
 | **Igloo Industrialist** | Biomes | ◆ | Mine 10,000 Snow Blocks |
+| **Igloo Intervention** | Biomes | ★ | Cure the Zombie Villager locked in an Igloo's basement |
+| **Igloo Intruder** | Animals | ★ | Lure a Polar Bear all the way inside an Igloo and finish it there |
 | **Ignition Industry** | Weaponry | · | Craft 600 Flint and Steels |
 | **Illuminated Circuit** | Redstone | · | Place 100 Redstone Lamps |
 | **Illuminated Metropolis** | Redstone | ★ | Place 20,000 Redstone Lamps |
@@ -10704,11 +11965,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Impatience Rewarded** | Mining | ★ | Mine 8,192 Large Amethyst Buds |
 | **Imported Masonry** | The End | · | Place 600 End Stone |
 | **Impressionist** | Biomes | ★ | Mine 4,000 Lily Pads |
+| **Impulse Purchase** | Adventure | · | Buy a Bucket of Tropical Fish from a Wandering Trader |
+| **In at the Deep End** | The End | ◆ | Cross into the End while completely blinded |
 | **In Defence of Diorite** | Mining | ◆ | Pick up 25,000 Diorite |
+| **In Poor Taste** | Animals | · | Eat a Cooked Porkchop while riding a Pig |
 | **In the Frost Walker's Wake** | Biomes | · | Mine 250 Frosted Ice |
 | **In the Key of Violet** | Potions | ◆ | Mine 30,000 Purple Concrete |
 | **Incoming!** | Nether | · | Get killed by a Ghast's fireball |
+| **Incubator** | Animals | · | Set a Sniffer Egg down on a Moss Block to hurry the hatching along |
 | **Indigo Everything** | Biomes | ★ | Mine 40,000 Cornflowers |
+| **Indoor Rowing** | Adventure | ◆ | Get into a Boat inside an Ocean Monument |
 | **Industrial Alchemy** | Potions | ★ | Craft 50 Brewing Stands |
 | **Industrial Baking** | Farming | ◆ | Bake 1,000 Cookies |
 | **Industrial Crystallography** | The End | ★ | Craft 750 End Crystals |
@@ -10740,12 +12006,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Insider Trading** | Adventure | · | Trade with a Villager while you are carrying Bad Omen |
 | **Insomnia Industrial Complex** | The End | ★ | Kill 2,500 Phantoms |
 | **Insomniac's Harvest** | Weaponry | · | Drop 64 Phantom Membranes |
+| **Instant Forest** | Biomes | ◆ | Bone-meal a Mangrove Propagule into a whole tree instead of waiting for it |
 | **Instant Thirty** | Enchanting | ◆ | Throw 400 Bottles o' Enchanting |
 | **Interdimensional Commute** | Redstone | ◆ | Ride a Minecart in the Overworld, the Nether and the End |
+| **Interdimensional Filing** | The End | · | Open an Ender Chest inside an End City |
 | **Interdimensional Pest Control** | The End | ★ | Kill 1,000 Endermites |
 | **Interdimensional Sculptor** | Mining | ◆ | Place a Copper Golem Statue in the Overworld, the Nether and the End |
 | **Interdimensional Snack** | The End | · | Eat a Chorus Fruit in the Nether and let it throw you somewhere you did not choose |
 | **Interglacial** | Biomes | ★ | Mine 50,000 Ice |
+| **Interstellar Commerce** | The End | ◆ | Trade with a Villager you dragged into the End |
 | **Into the Dark Wood** | Biomes | · | Mine 2,000 Dark Oak Logs |
 | **Inventory Entropy** | The End | ★ | Break 75,000 Shulker Boxes |
 | **Inventory Triage** | Statistics | ◆ | Drop 15,000 Dirt |
@@ -10781,6 +12050,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ironclad Grip** | Weaponry | · | Land 250 hits with an Iron Sword |
 | **Ironclad Stable** | Animals | · | Drop 16 Iron Horse Armor |
 | **Irreconcilable Differences** | Enchanting | ◆ | Hold a Density V Mace and a Breach IV Mace at the same time |
+| **Island Clinic** | Biomes | ★ | Take a Zombie Villager all the way out to the Mushroom Fields before you cure it |
+| **Island Commerce** | Biomes | ◆ | Ferry a Villager to the Mushroom Fields and open for business where no village will ever grow |
+| **Island Special** | Animals | ◆ | Milk a Mooshroom and eat a Suspicious Stew without ever setting foot off Mushroom Fields |
+| **Island Under Siege** | Biomes | ★ | Raise a village on the Mushroom Fields and win the raid that comes looking for it |
 | **Island Unmade** | Biomes | ★ | Mine 20,000 Mycelium |
 | **It Gets Everywhere** | Building | ◆ | Place 40,000 Sand |
 | **It Refuses to Sit Still** | The End | ◆ | Place 64 Dragon Eggs |
@@ -10791,12 +12064,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Item Sweeper Army** | Redstone | ◆ | Place 2,000 Minecarts with Hopper |
 | **Ivory Avalanche** | Monsters | ★ | Collect 100,000 Bones |
 | **Ivory Logistics** | The End | ◆ | Break 10,000 White Shulker Boxes |
+| **Ivory Tower** | Enchanting | · | Spend levels at an Enchanting Table you hauled up above Y=300 |
+| **Ivy League** | Building | · | Train a Vine up a wall you built yourself |
 | **Jam Empire** | Biomes | ★ | Mine 15,000 Sweet Berry Bushes |
+| **Jesus Boots** | Biomes | · | Stroll out across open water on Frosted Ice |
 | **Jeweller's Eye** | Mining | · | Mine 30 Deepslate Emerald Ore |
 | **Job Opening** | Enchanting | · | Craft 8 Lecterns |
+| **Johnny Says Hi** | Adventure | · | Get killed by a Vindicator named Johnny |
 | **Johnny Who?** | Adventure | ★ | Kill 750 Vindicators |
 | **Joinery Without End** | Enchanting | ★ | Craft 400 Oak Shelves |
 | **Journals Beyond Counting** | Enchanting | ★ | Pick up 1,500 Books and Quills |
+| **Jousting Practice** | Enchanting | ◆ | Shove a Ravager with a Knockback II sword from the saddle of a Horse |
 | **Juice of the Understory** | Biomes | ◆ | Collect 25,000 Melon Slices |
 | **Jump the Tracks** | Redstone | ◆ | Jump a Minecart across a ten-block gap in the track and land back on rails |
 | **Junction After Junction** | Mining | ★ | Place 25,000 Rails |
@@ -10807,7 +12085,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Junk Drawer** | Adventure | ◆ | Get sixty-four different items into a single Bundle |
 | **Just a Stick** | Statistics | · | Craft 500 Sticks |
 | **Just Add Gold** | Nether | ◆ | Hold four Netherite Scrap and four Gold Ingots at once |
+| **Just Add Water** | Biomes | · | Pour a Water Bottle over a block of Dirt out in the Mangrove Swamp and watch it turn to Mud |
 | **Just Dirt, Actually** | Building | · | Place 2,000 Dirt |
+| **Just In Case** | The End | ◆ | Kill the Ender Dragon with a Water Bucket ready in your off hand |
 | **Just One More** | Farming | · | Eat 500 Cookies |
 | **Just One More Cast** | Animals | · | Use a Fishing Rod 500 times |
 | **Just One More Click** | Redstone | ★ | Place 2,000 Stone Buttons |
@@ -10823,19 +12103,25 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Kelp Bunker** | Biomes | ◆ | Place 1,024 Dried Kelp Blocks. |
 | **Kelp Conglomerate** | Farming | ◆ | Craft 200 Dried Kelp Blocks |
 | **Kelp Fiction** | Biomes | ◆ | Mine 2,000 Kelp |
+| **Kelp Forest** | Biomes | · | Stand inside a stalk of Kelp down on the ocean floor |
 | **Kelp Surplus** | Farming | · | Drop 600 Dried Kelp. |
 | **Kelpocalypse** | Biomes | ★ | Mine 50,000 Kelp |
 | **Kernels by the Crate** | The End | ◆ | Collect 15,000 Popped Chorus Fruit |
 | **Key Master** | Adventure | ◆ | Hold sixteen Trial Keys and sixteen Ominous Trial Keys at once |
 | **Key Ring** | Adventure | · | Use 50 Trial Keys |
+| **Key to Another World** | Adventure | ★ | Carry an Ominous Trial Key all the way to the End, where it opens nothing |
+| **Keyholder** | The End | · | Slot an Eye of Ender into an End Portal Frame deep inside a Stronghold |
 | **Keymaster of the Chambers** | Adventure | ★ | Use 2,000 Trial Keys |
 | **Keys by the Bushel** | Monsters | ◆ | Collect 200 Trial Keys |
 | **Kick in the Back** | The End | · | Use 500 Firework Rockets |
+| **Killed on the Wing** | The End | ★ | Kill a Shulker in the middle of an Elytra glide |
+| **Killing Time** | Super Challenges | ★★ | Beat an Elder Guardian to death in melee with a Clock |
 | **Kiln at the Edge of Reality** | The End | ★ | Craft 15,000 End Stone Bricks |
 | **Kiln Fired** | Adventure | · | Craft 20 Decorated Pots |
 | **Kiln of the Badlands** | Biomes | ★ | Mine 200,000 Terracotta |
 | **Kiln Warmed Up** | Statistics | · | Craft or smelt 256 Bricks |
 | **Kiln-Fired Kingdom** | Building | ★ | Place 4,000 Bricks |
+| **Kilroy Was Here** | Building | ◆ | Plant a sign on top of the Nether's bedrock roof |
 | **Kindling and Carnage** | Weaponry | ◆ | Use an Iron Axe 1,500 times |
 | **Kindling and Regret** | Mining | ◆ | Wear out 250 Wooden Shovels |
 | **Kindling Collection** | Weaponry | · | Break 40 Wooden Swords |
@@ -10845,6 +12131,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Kindling of the Wastes** | Biomes | ★ | Mine 20,000 Dead Bushes |
 | **King of the Pumpkin Patch** | Farming | ★ | Harvest 5,000 Pumpkins |
 | **King Size** | Monsters | · | Kill a Slime of the very largest size |
+| **Kite Flying** | Animals | · | Snag a Happy Ghast out of the air with a Fishing Rod |
 | **Knacker's Yard** | Animals | · | Kill 150 Horses |
 | **Knapped and Ready** | Weaponry | · | Land 100 hits with a Stone Spear |
 | **Knead for Speed** | Farming | · | Bake 400 Bread |
@@ -10854,7 +12141,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Knots and Notches** | Weaponry | ★ | Use a Wooden Axe 4,000 times |
 | **Knots Beyond Counting** | Animals | ★ | Craft 500 Leads |
 | **Knows Every Page by Heart** | Enchanting | ★ | Read 20,000 Written Books |
+| **Knuckle Sandwich** | Super Challenges | ★★ | Beat a Ravager to death with your bare fists, wearing no armour at all |
 | **Kraken Bane** | Animals | ★ | Kill 1,500 Squid |
+| **Kraken Hunter** | Animals | ◆ | Kill a Squid from the back of a Nautilus |
+| **Kraken Wrangler** | Biomes | · | Hook a Glow Squid with your Fishing Rod |
+| **Lactose Immunity** | Biomes | ◆ | Drink Milk inside an Ocean Monument to wash the Mining Fatigue off |
 | **Lactose Tolerant** | Animals | ◆ | Drink 150 Buckets of Milk |
 | **Ladders to the Bedrock** | Building | ★ | Place 40,000 Ladders |
 | **Ladle After Ladle** | Farming | ★ | Craft 2,500 Mushroom Stew |
@@ -10862,8 +12153,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ladle of the Reds** | Farming | ◆ | Craft 2,500 Beetroot Soup |
 | **Lamb on the Table** | Animals | · | Eat 2,000 Cooked Mutton |
 | **Lamb to the Slaughter** | Animals | · | Kill 200 Sheep |
+| **Lamb, Flambé** | Animals | ◆ | Let a lightning bolt do the cooking, then pick up the Cooked Mutton |
+| **Lamp Overboard** | Building | · | Place a lantern underwater without putting the water out |
 | **Lamp Post** | Building | · | Stand a Torch on top of a Fence post |
 | **Lamps of the Deep** | Adventure | · | Craft 256 Sea Lanterns |
+| **Lance Corporal** | Enchanting | · | Sit on a Horse with a Spear enchanted with Lunge III in your hand |
 | **Lance of Cold Light** | Weaponry | ★ | Land 7,500 hits with a Diamond Spear |
 | **Lances of the Lava Sea** | Weaponry | ◆ | Break 15 Netherite Spears |
 | **Landfill of the Damned** | Monsters | ◆ | Kill 1,500 Zombies |
@@ -10889,17 +12183,22 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Lasers Extinguished** | Adventure | ★ | Kill 4,000 Guardians |
 | **Last Bear Standing** | Biomes | ★ | Kill 2,500 Polar Bears |
 | **Last Blossom Felled** | Biomes | ★ | Mine 150,000 Cherry Logs |
+| **Last Breath** | Biomes | ★ | Be saved by a Totem of Undying while completely underwater |
 | **Last Post** | The End | · | Ring a Bell in the End |
+| **Last Resort** | Enchanting | ◆ | Cheat death with a Totem of Undying while wearing a helmet you are not allowed to remove |
 | **Latch and Swing** | Redstone | · | Place 128 Oak Fence Gates |
 | **Latching Light** | Redstone | · | Place 40 Copper Bulbs |
 | **Launch Party** | Biomes | · | Place 100 Oak Boats |
 | **Laundry Day** | Statistics | · | Wash a hundred items clean in cauldrons |
+| **Lava Cavalry** | Animals | ◆ | Kill a Magma Cube without leaving the back of your Strider |
 | **Lava Landscaper** | Nether | · | Use 200 Lava Buckets |
 | **Lava Limo** | Nether | ◆ | Ride a Strider a thousand blocks across the Nether's lava seas |
 | **Lava Logistics** | Nether | ★ | Use 6,000 Lava Buckets |
 | **Lava Lunch** | Nether | · | Eat a Cooked Porkchop while riding a Strider out across a lava lake |
 | **Lava Patrol** | Nether | · | Kill a Magma Cube while riding a Strider |
+| **Lava Rodeo** | Super Challenges | ★★ | Kill the Wither from the back of a Strider standing out in open lava |
 | **Lava Sea Commuter** | Nether | ◆ | Use a Warped Fungus on a Stick 500 times |
+| **Lava Tourism** | The End | ★ | Ride a Strider twenty blocks across lava you poured in the End |
 | **Layer Cake** | Building | ◆ | Hold a Banner that carries six pattern layers |
 | **Layer Cake Cliffs** | Building | ◆ | Place 1,500 Terracotta |
 | **Layer Cake of the Mesa** | Biomes | ◆ | Mine 20,000 Orange Terracotta |
@@ -10947,6 +12246,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Level Headed** | Building | · | Place 400 Smooth Stone Slabs |
 | **Level Up Fast** | Enchanting | · | Throw 200 Bottles o' Enchanting |
 | **Levels Out of Thin Air** | Enchanting | ★ | Throw 15,000 Bottles o' Enchanting |
+| **Levels to Burn** | Enchanting | ◆ | Enchant an item while sitting on a hundred levels you refuse to spend |
 | **Lever Ending Story** | Redstone | ★ | Pick up 8,192 Levers |
 | **Lever Enough Alone** | Redstone | · | Pick up 128 Levers |
 | **Lever Say Never** | Redstone | · | Pick up 512 Levers |
@@ -10965,7 +12265,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Light Snack** | Farming | ★ | Use 4,000 Glow Berries |
 | **Light Stolen From the Sea** | Adventure | ★ | Pick up 100,000 Prismarine Crystals |
 | **Light Switch** | Redstone | · | Stick a Stone Button straight onto a Copper Bulb |
+| **Lighthouse** | Adventure | ★ | Raise a Beacon to full power inside an Ocean Monument |
+| **Lighthouse For No Ships** | The End | ★ | Complete a full four-tier Beacon in the End |
 | **Lighthouse Keeper** | Building | ◆ | Top a thirty-block tower with Sea Lanterns on an ocean shore |
+| **Lighthouse of Atlantis** | Biomes | ★ | Complete a full four-tier Beacon down on the ocean floor. Water never stopped the beam |
 | **Lighthouse of the Void** | The End | ◆ | Craft 600 End Rods |
 | **Lighting the Islands** | The End | · | Place 150 End Rods |
 | **Lighting the Long Dark** | Mining | ★ | Craft 20,000 Torches |
@@ -10978,7 +12281,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Lights Out** | Potions | · | Let a Warden put the Darkness effect on you |
 | **Lights Out Down Below** | Adventure | ★ | Mine 4,000 Sea Lanterns |
 | **Lights Out in the Cities** | The End | · | Break 1,000 End Rods |
+| **Lights Out in the Void** | The End | · | Trip a Sculk Shrieker in the End and take the Darkness that comes with it |
 | **Lilac Empire** | Biomes | ★ | Pick up 8,192 Lilacs. |
+| **Lily Pad Love** | Animals | · | Breed two Frogs while you stand on a Lily Pad yourself |
 | **Limbs and Splinters** | Statistics | ◆ | Break 50 Bows |
 | **Line, Hook and Sinker** | Weaponry | ◆ | Drop 1,024 Fishing Rods |
 | **Lingering Legacy** | Weaponry | ◆ | Use Dragon's Breath 6,000 times |
@@ -10994,6 +12299,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Litterbug of the Void** | The End | ◆ | Drop 15,000 End Stone. |
 | **Littered With Literature** | Enchanting | ★ | Drop 20,000 Books |
 | **Littering of Historic Scale** | Statistics | ★ | Drop 50,000 Cobblestone |
+| **Little Curator** | Adventure | · | Hand a Pottery Sherd to an Allay and let it carry the exhibit |
 | **Live Wire** | Redstone | · | Stand in Redstone Dust that is carrying a full strength signal |
 | **Live Wire Rock** | Mining | ★ | Mine 7,500 Redstone Ore |
 | **Liver of Legend** | Potions | ★ | Drink 1,000 Potions |
@@ -11004,6 +12310,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Loaded for Bear** | Enchanting | · | Fire a Crossbow enchanted with Piercing IV |
 | **Loam and Needle** | Biomes | ◆ | Pick up 512 Podzol. |
 | **Loaves Without Number** | Farming | ★ | Bake 5,000 Bread |
+| **Local Colour** | Biomes | · | Bone-meal a Grass Block in a Flower Forest and see which blooms the ground picks |
 | **Locksmith Eternal** | Adventure | ★ | Use 25,000 Trial Keys |
 | **Locomotive Works** | Redstone | ◆ | Place 1,000 Minecarts with Furnace |
 | **Loft and Rafters** | Farming | ★ | Craft 1,500 Hay Bales |
@@ -11017,6 +12324,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Long Look** | Adventure | · | Look through a Spyglass 100 times |
 | **Long Reach of the Law** | Weaponry | · | Kill a mob with a Spear from at least four blocks away |
 | **Long Shot** | Enchanting | ◆ | Drop a mob from at least sixty blocks away with a Power V Bow |
+| **Long Way Down** | Adventure | · | Drop twenty blocks inside an Ancient City and get back up again |
+| **Long-Distance Spitting** | Adventure | ★ | Get spat at by a Trader Llama while you are riding a Happy Ghast |
 | **Longship Logistics** | Weaponry | ◆ | Break 75 Iron Axes |
 | **Looks Legit** | Redstone | · | Place 20 Trapped Chests |
 | **Loom of the Dead** | Monsters | ◆ | Collect 20,000 String |
@@ -11028,6 +12337,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Loot and Scoot** | Adventure | · | Break 250 Chests |
 | **Loot Room Regular** | Potions | ◆ | Eat 3 Enchanted Golden Apples |
 | **Looted Links** | Monsters | · | Pick up 4 Chainmail Helmets |
+| **Looting the Recruiters** | Adventure | · | Empty a Pillager Outpost chest while Bad Omen hangs over you |
 | **Looting the Spires** | The End | ★ | Mine 25,000 Purpur Blocks |
 | **Looting the Towers** | The End | · | Mine 256 Purpur Blocks |
 | **Lord of the Caps** | Farming | ★ | Harvest 250,000 Red Mushrooms |
@@ -11042,17 +12352,23 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Lord of the Vines** | Biomes | ★ | Mine 2,500 Vines |
 | **Lord of the Wart Fields** | Potions | ★ | Plant 3,000 Nether Wart |
 | **Lord of Wasted Netherite** | Nether | ★ | Craft 128 Netherite Hoes. |
+| **Lost in the Long Grass** | Biomes | · | Push into a stand of Tall Dry Grass on the Savanna until it closes over your head |
 | **Lost Under Limestone** | Animals | ★ | Kill 2,000 Axolotls |
+| **Loud Neighbours** | Super Challenges | ★★ | Defeat the Wither inside the Deep Dark, where everything you do is heard |
 | **Love and Thunder** | Animals | · | Breed a pair of animals while a thunderstorm rolls overhead |
 | **Low-Profile Architecture** | The End | ◆ | Place 5,000 Purpur Slabs |
+| **Lowered Expectations** | Building | ◆ | Set a Fence Gate against a wall so that it drops down to match it |
 | **Loyal to the End** | Enchanting | ◆ | Wear a Loyalty III Trident right down to nothing |
+| **Loyal to the Void** | The End | ◆ | Tame an animal in the End |
 | **Luck by the Handful** | Animals | ◆ | Collect 500 Rabbit's Feet |
 | **Luck Is a Numbers Game** | Adventure | ★ | Drop 1,024 Rabbit's Feet |
+| **Lucky Dip** | Enchanting | ◆ | Fish up a Name Tag or a Saddle on a rod carrying Luck of the Sea III |
 | **Lucky Feet, Unlucky Rabbits** | Farming | ★ | Cook 20,000 Rabbit |
 | **Lumber and Limb** | Weaponry | ★ | Use an Iron Axe 3,000 times |
 | **Luminous Ammunition** | Weaponry | ◆ | Pick up 7,500 Spectral Arrows |
 | **Luminous Fletching** | Potions | · | Craft 75 Spectral Arrows |
 | **Luminous Harvest** | Nether | ◆ | Mine 512 Glowstone |
+| **Mach One** | Super Challenges | ★★ | Kill the Ender Dragon while flying an Elytra at seventy blocks per second |
 | **Machines Making Machines** | Redstone | ◆ | Craft 1,024 Crafters |
 | **Made for Throwing** | Potions | · | Brew 500 Splash Potions |
 | **Magazine of the Damned** | Monsters | ◆ | Collect 20,000 Gunpowder |
@@ -11063,6 +12379,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Magma Marathon** | Nether | ◆ | Swim five hundred blocks through lava under Fire Resistance without taking a single point of damage |
 | **Make Hay While the Sun Shines** | Animals | ★ | Drop 4,096 Hay Bales |
 | **Making Change** | Adventure | · | Craft 4,000 Emeralds |
+| **Man Overgoat** | Animals | · | Be sitting in a Boat when a Goat decides you are in its way |
 | **Mannequin Metropolis** | Enchanting | ★ | Craft 8,192 Armour Stands |
 | **Mansion Housekeeping** | Adventure | · | Kill 150 Vindicators |
 | **Mansion Menagerie** | Animals | ◆ | Breed a pair of animals inside a Woodland Mansion |
@@ -11110,7 +12427,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Maximum Leverage** | Redstone | ◆ | Pick up 2,048 Levers |
 | **Meadow in a Box** | Adventure | · | Buy a Firefly Bush, Tall Dry Grass and a Small Dripleaf from Wandering Traders |
 | **Meadow Maker** | Farming | · | Place 250 Wildflowers |
+| **Meadow Mulch** | Biomes | · | Feed Wildflowers into a Composter set down in a Meadow |
 | **Meadow on a Plate** | Animals | ◆ | Eat 5,000 Cooked Rabbit |
+| **Meadow Palette** | Biomes | ★ | Standing in one Meadow, grind Wildflowers, an Azure Bluet, an Allium and a Cornflower each into dye |
 | **Meadow Picker** | Biomes | ◆ | Mine 600 Wildflowers |
 | **Meadow Stripped** | Biomes | ★ | Mine 15,000 Wildflowers |
 | **Meals on Wheels** | Adventure | · | Watch one Villager throw food to another Villager |
@@ -11126,6 +12445,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Membranes for the Mending** | The End | · | Collect 1,000 Phantom Membranes |
 | **Memory Cell** | Redstone | · | Set a Comparator against a lit Copper Bulb so it can read what the bulb remembers |
 | **Mending Circle** | Enchanting | ◆ | Wear four armour pieces that all repair themselves with Mending |
+| **Merchant Marine** | Biomes | ◆ | Trade with a Villager while the pair of you are sitting in Boats |
 | **Merchant Overlord** | Adventure | ◆ | Pick up 40,000 Emeralds |
 | **Merchant Prince** | Adventure | · | Craft 50 Blocks of Emerald |
 | **Mesa Money** | Mining | · | Mine 1,024 Gold Ore |
@@ -11137,7 +12457,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Midas of the Wastes** | Nether | ◆ | Mine 500 Nether Gold Ore |
 | **Midas Reach** | Weaponry | · | Pick up 150 Golden Spears |
 | **Midas Was an Amateur** | Enchanting | ★ | Craft 16,384 Blocks of Gold |
+| **Middle of the Road** | Enchanting | · | Enchant an item on the table's middle slot, for exactly two levels. Nobody's favourite |
 | **Midnight Industry** | Farming | ★ | Craft 25,000 Black Dye |
+| **Might As Well** | Adventure | · | Wear a Carved Pumpkin in the Deep Dark, where you could not see anything anyway |
 | **Milked Dry** | Farming | ★ | Bake 3,000 Cakes |
 | **Mill of a Thousand Blades** | Statistics | ★ | Craft 25,000 Oak Planks |
 | **Mind of the Reef** | Biomes | · | Mine 128 Brain Coral Blocks |
@@ -11153,10 +12475,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Mint Condition** | Mining | · | Carry Copper Nuggets, a Copper Ingot, Raw Copper, a Raw Copper Block and a Copper Block all at once |
 | **Minus Fifteen** | Redstone | ★ | Place 1,500 Redstone Comparators |
 | **Mire Monarch** | Monsters | ★ | Kill 2,500 Bogged |
+| **Misapplied Theology** | Enchanting | · | Kill a Cave Spider with a Smite V sword, the one enchantment that does nothing at all to it |
 | **Mise en Place** | Potions | ◆ | Hold a stack each of Glass Bottles, Nether Wart and Blaze Powder at the same time |
+| **Missing the Point** | Animals | · | Milk a Mooshroom with a Bucket instead of a Bowl and get perfectly ordinary Milk |
+| **Mixed Blessings** | Adventure | ★ | Carry Conduit Power and an Elder Guardian's Mining Fatigue at the same time |
+| **Mixed Media** | Building | · | Run a glass pane straight into Iron Bars and let the two connect |
 | **Mixed Messages** | Potions | · | Hold Levitation and Slow Falling at the same time |
 | **Mixed Signals** | Adventure | ◆ | Hold Hero of the Village and Bad Omen at the same time |
 | **Mob-Proofed** | Building | ◆ | Place 1,500 Torches |
+| **Mobile Warehouse** | The End | ◆ | Set down a Shulker Box while riding a Happy Ghast in the End |
 | **Molten Basin Recovered** | Potions | · | Break 200 Lava Cauldrons |
 | **Molten Confection** | Potions | ◆ | Craft 200 Magma Cream |
 | **Molten Custard** | Nether | · | Drop 512 Magma Cream. |
@@ -11167,10 +12494,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Monument Couture** | Monsters | ★ | Pick up 16 Tide Armor Trim Smithing Templates |
 | **Monument Demolition** | Adventure | ★ | Mine 25,000 Prismarine |
 | **Monument Lighting** | Building | ◆ | Place 250 Sea Lanterns |
+| **Monument Souvenir** | Animals | ◆ | Scoop a Pufferfish into a Bucket while you are inside an Ocean Monument |
 | **Monument Toppler** | Adventure | ◆ | Kill 8 Elder Guardians |
+| **Monumental Nap** | Adventure | ★ | Sleep in a bed inside an Ocean Monument |
 | **Monuments Beyond Number** | Adventure | ★ | Craft 100,000 Prismarine Bricks |
 | **Mooshroom Mess Hall** | Animals | ★ | Pick up 8,192 Mushroom Stew |
 | **Mooshroom's Ruin** | Biomes | ★ | Mine 2,500 Mycelium |
+| **Mop Duty** | Adventure | · | Put a Sponge of your own down inside an Ocean Monument |
 | **More Netherite Than Sense** | Nether | ★ | Craft 64 Netherite Ingots |
 | **More Saddles Than Steeds** | Adventure | ◆ | Drop 256 Saddles |
 | **Mosaic Mastery** | Building | ◆ | Place 8,000 White Glazed Terracotta |
@@ -11184,7 +12514,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Mossy Cobblestone Blues** | Adventure | ◆ | Drop 4 Otherside Music Discs |
 | **Mossy Marksman** | Monsters | · | Kill 100 Bogged |
 | **Mossy Mason** | Mining | · | Craft 256 Mossy Cobblestone |
+| **Mossy Maternity** | Adventure | · | Place a Sniffer Egg on a Moss Block so that it hatches twice as fast |
 | **Mother of Mangroves** | Farming | ★ | Mine 25,000 Mangrove Propagules. |
+| **Mountain Honey** | Biomes | · | Break open a Bee Nest up in a Meadow |
+| **Mountain Milk** | Biomes | · | Milk a Goat more than two hundred blocks above sea level |
 | **Mountain of Emeralds** | Mining | ★ | Place 128 Deepslate Emerald Ore |
 | **Mountaineer** | Biomes | ◆ | Stand at y 200 or higher in the Jagged Peaks, the Frozen Peaks and the Stony Peaks |
 | **Mountains into Molehills** | Mining | ★ | Place 1,000 TNT |
@@ -11192,6 +12525,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Moved a Mountain of Anvils** | Enchanting | ★ | Mine 10,000 Anvils |
 | **Moving Day** | Enchanting | · | Mine 30 Anvils |
 | **Moving Day at the Library** | Enchanting | ★ | Pick up 8,000 Bookshelves |
+| **Moving House** | Animals | ◆ | Take a crafted Beehive away with Silk Touch while all three Bees are still asleep inside |
 | **Moving the Earth** | Farming | · | Mine 10,000 Dirt |
 | **Moving the Ground Itself** | Building | ◆ | Place 15,000 Dirt |
 | **Mow the Lawn** | Biomes | · | Mine 1,000 Short Grass |
@@ -11199,16 +12533,20 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Mowing the Seabed** | Biomes | · | Mine 250 Seagrass |
 | **Mud Bath** | Biomes | · | Mine 500 Mud |
 | **Mud Brick Economy** | Biomes | ◆ | Craft 4,096 Packed Mud. |
+| **Mud Wrestling** | Biomes | · | Get killed by a Slime while your boots are stuck fast in the Mud |
 | **Mudbrick Millennia** | Building | ★ | Place 30,000 Mud Bricks |
 | **Muddy Handed** | Statistics | · | Pick up 500 Clay Balls |
 | **Mudlark** | Biomes | ★ | Mine 20,000 Mud |
+| **Mule Train Underground** | Animals | ◆ | Ride a chest-laden Mule down into an abandoned Mineshaft |
 | **Munitions Beyond Measure** | The End | ★ | Craft 100,000 Firework Rockets |
 | **Munitions Magnate** | Monsters | ★ | Craft 2,000 TNT |
 | **Munitions Plant** | Redstone | ◆ | Have a Crafter turn out Arrows for you |
+| **Museum Lighting** | Building | ◆ | Mount something in a Glow Item Frame so it can be admired after dark |
 | **Museum of Broken Things** | Adventure | ★ | Craft 150 Decorated Pots |
 | **Museum Without Walls** | Animals | ★ | Craft 6,000 Item Frames |
 | **Mushroom Cloud** | Biomes | ◆ | Mine 1,000 Red Mushroom Blocks |
 | **Mushroom Fields Lie Fallow** | Animals | ★ | Kill 6,000 Mooshrooms |
+| **Mushroom Harvest** | Enchanting | ◆ | Shear a Bogged with Efficiency V Shears and take the mushrooms off its back |
 | **Mushroom Island Hopper** | Biomes | ◆ | Mine 400 Mycelium |
 | **Mushroom Kingdom** | Biomes | ★ | Mine 2,500 Red Mushroom Blocks |
 | **Music in Every Room** | Statistics | · | Place 100 Jukeboxes |
@@ -11216,14 +12554,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Mutton for Nothing** | Farming | · | Cook 300 Mutton |
 | **Mutton Merchant** | Animals | ◆ | Kill 600 Sheep |
 | **Mutton Mountain** | Farming | ★ | Cook 100,000 Mutton |
+| **Mutually Exclusive** | Enchanting | · | Carry a Multishot Crossbow and a Piercing IV Crossbow at once, because one crossbow can never hold both |
 | **Mycelium in the Blood** | Animals | ★ | Eat 30,000 Mushroom Stew |
 | **Mycelium Magnate** | Farming | ★ | Break 250,000 Brown Mushroom Blocks |
+| **Mycelium Migrants** | Animals | ★ | Boat a pair of Mooshrooms all the way to the Nether and breed them there |
 | **Mycologist Supreme** | Farming | ★ | Harvest 5,000 Red Mushrooms |
 | **Naked and Afraid** | Weaponry | ★ | Kill an Elder Guardian with no armour and no potion effects |
 | **Nameless No More** | Adventure | ★ | Use 5,000 Name Tags |
 | **Nation of Shields** | Weaponry | ★ | Craft 2,000 Shields |
+| **Native Habitat** | Biomes | · | Bucket an Axolotl in the Lush Caves instead of dragging one home from somewhere else |
 | **Natural Light** | Mining | ★ | Mine 1,500 Glow Lichen |
 | **Nature on a Timer** | Farming | ★ | Use 100,000 Bone Meal |
+| **Nautical Nonsense** | Animals | ◆ | Ride a Nautilus in a full suit of Copper armour |
 | **Necronomicon** | Enchanting | · | Name an Enchanted Book 'Necronomicon' on an anvil |
 | **Necropolis Custodian** | Monsters | ★ | Kill 2,500 Zombies |
 | **Necropolis Logistics** | Weaponry | ★ | Drop 50,000 Bones |
@@ -11236,6 +12578,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Needles and Kilns** | Farming | · | Smelt 750 Green Dye |
 | **Needles Everywhere** | Farming | · | Break 1,000 Spruce Leaves |
 | **Needles Underfoot** | Biomes | · | Pick up 64 Podzol. |
+| **Neighbourhood Watch** | Adventure | · | Plant a Sculk Sensor in the middle of a village |
 | **Neither Small nor Large** | Enchanting | · | Pick up 150 Medium Amethyst Buds |
 | **Neither Stone Nor Slate** | Mining | ◆ | Mine 100,000 Andesite |
 | **Nemo Was Never Found** | Animals | ★ | Kill 20,000 Tropical Fish |
@@ -11243,16 +12586,23 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Neolithic Habits** | Weaponry | ◆ | Use a Stone Axe 1,500 times |
 | **Neolithic Overtime** | Weaponry | ★ | Use a Stone Axe 10,000 times |
 | **Neon District** | Building | ★ | Hold a full stack of all three Froglights at once |
+| **Neon Sign** | Building | · | Rub a Glow Ink Sac on a sign to make the lettering shine |
+| **Neptune's Dart** | Biomes | ◆ | Hit a Target block's bullseye with a Trident while you are underwater |
 | **Nest Egg** | Farming | ◆ | Plant a Sniffer Egg on a Moss Block, the fast way to hatch it |
 | **Nest Egg of Green** | Adventure | · | Craft 20 Blocks of Emerald |
 | **Nest Relocation** | Biomes | · | Pick up 8 Turtle Eggs. |
 | **Nest Robber** | Animals | · | Drop 100 Bee Nests |
+| **Nesting Instinct** | Biomes | · | Breed two Turtles on the beach sand where they can actually lay |
 | **Nests From Every Grove** | Animals | ◆ | Mine 500 Bee Nests |
 | **Net Zero** | Potions | ◆ | Punch a mob to death barehanded with Strength II and Weakness both running. |
+| **Nether Apiary** | Animals | · | Set a Beehive down in the Nether, where no flower will ever grow |
 | **Nether Brick Dynasty** | Nether | ★ | Mine 300,000 Nether Bricks |
 | **Nether Dairy** | Animals | · | Milk a Cow in the Nether |
 | **Nether Nightlight** | Building | ◆ | Place an Ochre, a Verdant and a Pearlescent Froglight in the Nether |
 | **Nether Orchard** | Nether | · | Bone meal a sapling into a full tree in the Nether |
+| **Nether Plumbing** | Building | ◆ | Fill a cauldron with water in the Nether, the only vessel that will hold it |
+| **Nether Skewer** | Enchanting | ★ | Run one bolt from a Piercing Crossbow through both a Blaze and a Wither Skeleton |
+| **Nether Tumble Dryer** | Adventure | · | Set a Wet Sponge down in the Nether and watch the steam come off it |
 | **Nether's Marble** | Building | · | Place 150 Quartz Blocks |
 | **Netherite Assembly Line** | Weaponry | ★ | Craft 1,500 Netherite Swords |
 | **Netherite Bricklayer** | Nether | ★ | Mine 20 Netherite Blocks |
@@ -11261,6 +12611,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Netherite Is Just a Building Block** | Nether | ★ | Craft 1,024 Netherite Ingots |
 | **Netherite Is Not Forever** | Mining | ◆ | Break 40 Netherite Pickaxes |
 | **Netherite Pike** | Weaponry | · | Land 250 hits with a Netherite Spear |
+| **Netherite Was Not Enough** | The End | ◆ | Get killed by the Ender Dragon while wearing a full set of Netherite armour |
 | **Nets Come Up Empty** | Animals | ★ | Kill 10,000 Cod |
 | **Never a Dull Edge** | Animals | ★ | Craft 5,000 Shears |
 | **Never Ask the Chef** | Potions | ★ | Eat 2,500 Suspicious Stews |
@@ -11281,6 +12632,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Nicely Framed** | Building | · | Place 40 Item Frames |
 | **Night Train** | Redstone | · | Ride a Minecart through pitch darkness |
 | **Night Vision for a Nation** | Farming | ★ | Craft 5,000 Golden Carrots |
+| **Nightlight** | Building | ◆ | Place a torch inside an Ancient City, where the dark bites back |
 | **Nightmare Fuel Refinery** | The End | ★ | Kill 1,000 Phantoms |
 | **Nightwing Reckoning** | Animals | ★ | Kill 25,000 Bats |
 | **Nine From One** | Redstone | · | Craft 1,000 Redstone Dust |
@@ -11301,6 +12653,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **No Cure for a Zoglin** | Nether | ★ | Kill 2,500 Zoglins |
 | **No Defenders Remain** | Adventure | ★ | Kill 15,000 Iron Golems |
 | **No Elders Left Standing** | Adventure | ★ | Kill 75 Elder Guardians |
+| **No Escape Route** | The End | ★ | Kill an Enderman while it is riding an Oak Boat |
 | **No Escort Left** | Adventure | ◆ | Kill 5,000 Trader Llamas |
 | **No Fortress Left Standing** | Nether | ★ | Mine 15,000 Nether Bricks |
 | **No Friendly Skies** | Animals | ★ | Kill 50 Happy Ghasts |
@@ -11321,8 +12674,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **No One Follows You Down** | The End | ◆ | Break 10,000 Ladders |
 | **No Pack Survives You** | Animals | ★ | Kill 12,000 Wolves |
 | **No Purr Left in the World** | Animals | ★ | Kill 6,000 Cats |
+| **No Redstone Required** | Building | · | Open a Copper Door by hand, something an Iron Door will never let you do |
 | **No Regeneration For You** | Animals | ◆ | Kill 300 Axolotls |
 | **No Regeneration Left** | Animals | ★ | Kill 15,000 Axolotls |
+| **No Respawning Here** | The End | · | Charge a Respawn Anchor in the End, where the only thing it will ever do is explode |
+| **No Rest for the Wicked** | The End | · | Place a Bed in the End, knowing exactly how that ends |
 | **No Roots Left to Follow** | Biomes | ★ | Mine 10,000 Flowering Azalea |
 | **No Scutes Remain** | Animals | ★ | Kill 2,500 Turtles |
 | **No Shade in the Desert** | Animals | ★ | Kill 750 Camels |
@@ -11342,12 +12698,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **No Way Up Anymore** | The End | ◆ | Break 5,000 Purpur Stairs |
 | **No Zombies Allowed** | Redstone | · | Place 512 Iron Doors |
 | **Nobody Answers to Johnny** | Adventure | ★ | Kill 15,000 Vindicators |
+| **Nobody Goes There** | Biomes | ★ | Stand in a Stony Shore, a Savanna Plateau, an Old Growth Birch Forest and a Sparse Jungle |
+| **Nobody Home** | Biomes | ★ | Crack open a Dungeon chest under the Mushroom Fields, in a spawner room that never once worked |
 | **Nobody Left to Raid With** | Adventure | ★ | Kill 50,000 Pillagers |
 | **Nobody Left to Trade With** | Adventure | ★ | Kill 250 Villagers |
 | **Nobody Wanted to Read** | Enchanting | ★ | Drop 35,000 Lecterns |
 | **Nobody Wants This** | Statistics | · | Drop 5,000 Rotten Flesh |
 | **Nobody's Favourite** | Mining | · | Mine 5,000 Diorite |
+| **Noise Complaint** | Adventure | ★ | Have an Allay drop its haul on a Note Block inside an Ancient City |
 | **Nomad Logistics** | The End | ★ | Place 600 Shulker Boxes |
+| **Nominal Fee** | Enchanting | · | Buy a Name Tag from a Villager, so the Anvil has something to work with |
 | **None Shall Metamorphose** | Animals | ◆ | Kill 2,500 Tadpoles |
 | **None Shall Pass** | Statistics | ★ | Raise a Shield 5,000 Times |
 | **Not a Blade of Dry Grass** | Biomes | ★ | Mine 200,000 Short Dry Grass |
@@ -11359,21 +12719,32 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Not a Sprout Left Standing** | Farming | ★ | Harvest 80,000 Warped Roots |
 | **Not a Whisper Left** | The End | ★ | Apply 32 Silence Armour Trims. |
 | **Not a Wish Left to Make** | Biomes | ★ | Mine 400,000 Dandelions |
+| **Not Even Pockets** | Super Challenges | ★★ | Open a Bastion treasure chest with every inventory slot, both hands and all four armour slots empty |
+| **Not Fussy** | Animals | · | Patch up a wounded Wolf by feeding it Rotten Flesh, which it eats quite happily |
 | **Not Gold Enough** | Nether | · | Learn the hard way that Piglins have no respect for Copper armour |
+| **Not In My Backyard** | The End | ◆ | Set an End Crystal down on the Overworld's own bedrock floor |
 | **Not Insured** | Adventure | · | Get killed by a mob with a Totem of Undying stashed in your bag or Ender Chest instead of your hand |
 | **Not My Problem** | Adventure | · | Let an Iron Golem finish off a monster that was chasing you, without landing a hit yourself |
 | **Not One Brick Left** | Adventure | ★ | Mine 300,000 Tuff Bricks |
+| **Not One Glint** | Super Challenges | ★★ | Kill the Wither without a single enchantment on anything you are wearing or holding |
 | **Not One Lamp Remains** | Nether | ★ | Mine 50,000 Glowstone |
 | **Not One Pillar Standing** | The End | ★ | Break 80,000 Purpur Pillars |
+| **Not So Infinite** | Enchanting | · | Kill a mob with a Spectral Arrow fired from an Infinity bow, and lose the arrow anyway |
 | **Not So Invisible** | Potions | ◆ | Be invisible while wearing all four pieces of armour, which rather gives you away |
 | **Not So Lucky** | Adventure | · | Drop 16 Rabbit's Feet |
 | **Not That One Either** | Enchanting | · | Place 150 Lecterns |
+| **Not Today, Neptune** | Biomes | · | Block a Drowned's thrown Trident with your Shield |
+| **Not Today, Warden** | Adventure | ★ | Burn a Totem of Undying to walk out of an Ancient City alive |
+| **Not Today, Wyrm** | The End | ◆ | Burn a Totem of Undying in the End |
+| **Not While You're Watching** | Biomes | ◆ | Get a full night's sleep in the Pale Garden with a Creaking somewhere out among the trees |
 | **Not Worth the Levels** | Enchanting | · | Drop 50 Enchanted Books |
 | **Notch Would Approve** | Monsters | · | Collect 64 Golden Apples |
 | **Notch Would Be Proud** | Potions | ★ | Eat 50 Enchanted Golden Apples |
+| **Notch's Apple** | Enchanting | ★ | Name an Enchanted Golden Apple 'Notch' on an Anvil, then eat the poor thing |
 | **Notched and Nicked** | Statistics | · | Break 5 Diamond Axes |
 | **Notched Beyond Use** | Weaponry | · | Break 5 Iron Swords |
 | **Nothing Ancient Left** | Adventure | ★ | Mine 500,000 Mossy Stone Bricks |
+| **Nothing Bites Out Here** | Animals | ★ | Haul a fish out of water you carried all the way to the End |
 | **Nothing Blows Up Anymore** | Adventure | ◆ | Break 2,048 Trapped Chests |
 | **Nothing Blue Remains** | Nether | ★ | Mine 100,000 Warped Nylium |
 | **Nothing but Bread** | Farming | ★ | Eat 80,000 Bread |
@@ -11382,6 +12753,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Nothing But Shells** | Mining | ★ | Mine 5,000 Smooth Basalt |
 | **Nothing But Steak** | Animals | ★ | Eat 2,000 Cooked Beef |
 | **Nothing But Targets** | Redstone | ★ | Place 10,000 Target Blocks |
+| **Nothing But Void and Cod** | The End | ◆ | Reel a fish out of a puddle of water you carried into the End |
 | **Nothing Cries Anymore** | Nether | ★ | Kill 15,000 Ghasts |
 | **Nothing Dark Remains** | Adventure | ◆ | Mine 100,000 Dark Prismarine |
 | **Nothing Escapes Notice** | Adventure | ★ | Look through a Spyglass 1,500 times |
@@ -11394,6 +12766,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Nothing Green for Miles** | Biomes | ◆ | Mine 5,000 Dead Bushes |
 | **Nothing Grows Below** | Biomes | ★ | Mine 500,000 Kelp |
 | **Nothing Hangs in the Pale Garden** | Biomes | ★ | Mine 200,000 Pale Hanging Moss |
+| **Nothing Hatches Here** | Animals | ◆ | Lay a clutch of Turtle Eggs down in the Nether, where nothing will ever come of them |
 | **Nothing Here Will Ever Burn** | Enchanting | ★ | Place 750 Obsidian |
 | **Nothing Is Left to Hide Behind** | Adventure | ★ | Break 2,000 Shields |
 | **Nothing Is Listening** | Mining | ◆ | Mine 2,048 Sculk Sensors |
@@ -11440,6 +12813,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Nothing Stays Packed** | The End | ★ | Break 150,000 Shulker Boxes |
 | **Nothing Suspicious Here** | Potions | ★ | Eat 400 Suspicious Stews |
 | **Nothing Swims Down There** | Monsters | ★ | Kill 400 Zombie Nautiluses |
+| **Nothing to Fall Back On** | Super Challenges | ★★ | Kill the Ender Dragon with every armour slot empty and no Totem of Undying anywhere on you |
+| **Nothing to Farm** | Adventure | ◆ | Find a Diamond Hoe in an Ancient City, where nothing has grown in an age |
+| **Nothing to Loot** | Enchanting | · | Kill a Bat with a Looting III sword and collect precisely nothing |
+| **Nothing to Lose** | Super Challenges | ★★ | Kill the Ender Dragon with every worn piece and the weapon in your hand carrying the Curse of Vanishing |
+| **Nothing to Ride** | Adventure | ◆ | Find a Saddle among an Ancient City's treasure, with nothing alive down there to put it on |
+| **Nothing to Show For It** | Enchanting | · | Cut down a Vex with a Looting III sword and collect absolutely nothing for it |
 | **Nothing Twists Upward Now** | Nether | ★ | Mine 50,000 Twisting Vines |
 | **Nothing Wanders Off** | Animals | ★ | Use a Lead 20,000 times |
 | **Nothing Wasted but the Bones** | Enchanting | ★ | Craft 1,500 Leather |
@@ -11449,20 +12828,27 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Now You See Me** | Monsters | · | Get killed by a Creaking |
 | **Nowhere Is Far Enough** | The End | ★ | Eat 10,000 Chorus Fruit |
 | **Nowhere Left Dark** | The End | ★ | Place 75,000 End Rods |
+| **Nowhere Left to Blink** | Super Challenges | ★★ | Kill an Enderman in mid-air beneath the End island, where it has nothing to teleport to |
 | **Nowhere Left to Hide** | Potions | ★ | Craft 2,500 Spectral Arrows |
 | **Nowhere Left to Tread** | Redstone | ★ | Place 3,000 Tripwire Hooks |
 | **Nowhere Left to Wander** | Adventure | ★ | Kill 150 Wandering Traders |
 | **Nowhere to Hide** | Potions | ◆ | Craft 200 Spectral Arrows |
+| **Nowhere to Sleep** | The End | · | Put a Bed down in the End, then think very hard before you use it |
+| **Nowhere to Stand** | Super Challenges | ★★ | Finish the Ender Dragon while a Shulker's bullet has you drifting helplessly upwards |
+| **Nowhere to Teleport** | Super Challenges | ★★ | Kill an Enderman standing out in the rain in a Swamp |
 | **Nugget Economy** | Mining | · | Obtain 4,096 Iron Nuggets from crafting and smelting |
 | **Nuggets Beyond Number** | Potions | ★ | Craft 7,500 Glistering Melon Slices |
 | **Nuggets by the Handful** | Nether | · | Collect 5,000 Gold Nuggets |
 | **Nuggets in the Furrows** | Farming | ★ | Craft 1,500 Golden Carrots |
 | **Nuggets of the Deep** | Mining | · | Pick up 512 Raw Gold |
+| **Nursery Duty** | Biomes | · | Scoop a Tadpole out of its home water in the Mangrove Swamp |
 | **Nylium Gardener** | Nether | · | Use Bone Meal on Crimson Nylium and on Warped Nylium |
 | **Nylium Merchant of Hell** | Nether | ★ | Mine 40,000 Warped Nylium |
 | **Oak and Bruises** | Weaponry | ◆ | Land 150 hits with a Wooden Sword |
 | **Oak Enough for a Fleet** | Enchanting | ★ | Craft 3,000 Oak Shelves |
 | **Oakenhead the Undying** | Potions | ★ | Use a Wooden Pickaxe 100,000 times |
+| **Oasis** | Building | · | Empty a Water Bucket in the middle of a desert |
+| **Oasis Catch** | Animals | ◆ | Catch a fish while standing in a Desert |
 | **Obscenely Solvent** | Adventure | ★ | Pick up 100,000 Blocks of Emerald |
 | **Obsidian Budget** | Enchanting | ◆ | Craft 15 Enchanting Tables |
 | **Obsidian Budget Exceeded** | Enchanting | ★ | Craft 75 Enchanting Tables |
@@ -11476,14 +12862,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ocean in a Bottle** | Potions | ★ | Fill 1,500 Glass Bottles |
 | **Ocean of Prismarine** | Building | ★ | Place 40,000 Prismarine |
 | **Ocelot of the Void** | Animals | ★ | Kill 6,000 Ocelots |
+| **Odd Cow Out** | Animals | · | Shear a Mooshroom on Mushroom Fields and leave the island with exactly one plain Cow on it |
 | **Off Target** | Redstone | · | Mine 64 Targets |
 | **Off the Deep End** | Adventure | ◆ | Bring the Spire Smithing Template home from an End City |
+| **Off the Hook** | Enchanting | ★ | Hook a Ghast out of the Nether sky with a Lure III Fishing Rod |
+| **Off the Map** | Adventure | · | Carry a filled Map in your hand all the way through the Nether |
 | **Off the Mountain for Good** | Animals | ★ | Kill 1,500 Goats |
 | **Off the Rack** | Adventure | ◆ | Buy a Diamond Pickaxe, a Diamond Axe and a Diamond Shovel from villagers |
 | **Off the Shelf** | Building | · | Take an item back off a Shelf |
 | **Off the Wagon** | Potions | ★ | Drink five hundred potions |
 | **Off to the Glue Factory** | Animals | · | Kill 50 Horses |
 | **Off With Their Helms** | Weaponry | · | Drop 64 Iron Helmets |
+| **Off-Menu** | Biomes | ◆ | Hold a Bowl under a Brown Mooshroom and come away with something much stranger than stew |
 | **Off-Piste** | Biomes | ◆ | Mine 5,000 Powder Snow |
 | **Old Growth** | Farming | ★ | Grow a two-by-two giant tree of every type that has one |
 | **Old Growth Ground** | Biomes | ◆ | Mine 20,000 Podzol |
@@ -11492,6 +12882,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Old Library Card** | Enchanting | · | Spend levels on an Enchanting Table you set up inside a Stronghold |
 | **Old Roads** | Adventure | ◆ | Stand in Trail Ruins buried under a jungle, under a taiga and under a birch forest |
 | **Older Than Fire** | Weaponry | ★ | Land 50,000 hits with a Stone Spear |
+| **Older Than the City** | Animals | ★ | Walk two Sniffers into an Ancient City and breed them among the ruins |
 | **Older Than the Nether Itself** | Nether | ★ | Mine 4,096 Ancient Debris |
 | **Older Than the Village** | Adventure | · | Mine 10,000 Mossy Stone Bricks |
 | **Om Nom Forever** | Farming | ★ | Eat 80,000 Cookies |
@@ -11500,13 +12891,22 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Omen Connoisseur** | Adventure | ◆ | Drink 60 Ominous Bottles |
 | **Omen Inventory** | Adventure | · | Pick up 256 Ominous Bottles |
 | **Omen Sommelier** | Adventure | ★ | Drink 5,000 Ominous Bottles |
+| **Ominous Arrival** | Adventure | · | Bring the Raid Omen down upon a village |
 | **Ominous Housekeeping** | Adventure | · | Loot a Trial Chamber supply barrel while Trial Omen is on you |
 | **Ominous Marathon** | Adventure | ★ | Open an Ominous Vault in five separate Trial Chambers |
 | **Ominous Nightcap** | Potions | ◆ | Drink an Ominous Bottle inside a Woodland Mansion |
+| **Ominous Perch** | Adventure | · | Stand on top of an ominous Trial Spawner while it is still spitting out mobs |
+| **Ominous Studies** | Enchanting | ◆ | Enchant an item while Bad Omen hangs over you |
+| **Ominous Withdrawal** | Adventure | ◆ | Unlock a Vault with a Trial Key while the Trial Omen still hangs over you |
 | **Omnibus** | Enchanting | ★ | Combine six different enchantments onto a single Enchanted Book |
+| **On a First-Name Basis** | The End | ◆ | Give an Enderman a Name Tag without it taking offence |
 | **On a Pedestal** | Building | · | Stand a Copper Golem Statue on a plinth of Chiseled Copper above a Cut Copper block |
+| **On Display** | Adventure | · | Mount a Pottery Sherd in an Item Frame, museum style |
 | **On Its Last Legs** | Enchanting | · | Mine 3 Damaged Anvils |
+| **On Its Last Prong** | Biomes | ◆ | Wear a Trident down to its final point of durability |
 | **On Repeat** | The End | ◆ | Play the Otherside music disc 100 times. |
+| **On-Site Assembly** | The End | · | Craft an End Crystal inside the End itself |
+| **One Arrow, Three Names** | Super Challenges | ★★ | Run three different kinds of mob through with a single piercing bolt while you are in freefall |
 | **One Chest, Everywhere** | The End | ★ | Place 1,500 Ender Chests |
 | **One Chest, Forty Thousand Journeys** | The End | ★ | Collect 40,000 Ender Chests |
 | **One Drop from Dust** | Enchanting | · | Pick up 20 Damaged Anvils |
@@ -11520,6 +12920,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **One Hundred Thousand Spines** | Enchanting | ★ | Craft 10,000 Books |
 | **One Hundred Thousand Sticks Tossed** | Statistics | ★ | Drop 25,000 Sticks |
 | **One Hundred Thousand Thrown Away** | Statistics | ★ | Drop 25,000 Rotten Flesh |
+| **One in a Thousand** | Animals | ★ | Breed a brown Panda, the rarest coat in the bamboo |
 | **One Inventory, Many Boxes** | The End | ★ | Craft 400 Ender Chests |
 | **One Leaf in Two Hundred** | Farming | · | Collect 1,500 Apples |
 | **One Mace Is Never Enough** | Adventure | ◆ | Craft 100 Maces |
@@ -11528,9 +12929,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **One Million Splinters** | Statistics | ★ | Craft 50,000 Sticks |
 | **One Million Spuds** | Statistics | ★ | Eat 50,000 Baked Potatoes |
 | **One Million Swings** | Statistics | ★ | Use a Diamond Pickaxe 30,000 Times |
+| **One More Lungful** | Animals | · | Surface in a Turtle Helmet and keep on breathing anyway |
 | **One More Reroll** | Enchanting | ★ | Place 750 Lecterns |
 | **One More Spin** | Adventure | · | Play the Creator (Music Box) disc 100 times |
 | **One on Every Floor** | Enchanting | ★ | Place 75 Enchanting Tables |
+| **One Point Left** | Enchanting | · | Wear a Mending item down to its very last point of durability without letting it die |
 | **One Repair Left** | Enchanting | · | Place 150 Damaged Anvils |
 | **One Sparker Down** | Nether | · | Use Flint and Steel 75 times |
 | **One Stage Short** | Mining | · | Mine 512 Large Amethyst Buds |
@@ -11539,6 +12942,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **One Strike From Dust** | Enchanting | ★ | Mine 100 Damaged Anvils |
 | **One Thousand Suns** | Monsters | ★ | Craft 1,000 Beacons |
 | **One Tick Pulse** | Redstone | · | Place 150 Stone Buttons |
+| **One Tree Void** | The End | ◆ | Bone-meal an Oak Sapling into a tree in the End |
 | **Onion Flower Fanatic** | Biomes | ◆ | Mine 10,000 Alliums |
 | **Only Half a Block** | Building | · | Place 256 Polished Andesite Slabs. |
 | **Only Water Remains** | Adventure | ★ | Mine 500,000 Prismarine Bricks |
@@ -11546,8 +12950,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ooze Sovereign** | Redstone | ★ | Place 25,000 Slime Blocks |
 | **Ooze to Order** | Monsters | · | Craft 150 Slime Blocks |
 | **Ooze Without End** | Monsters | ★ | Kill 10,000 Slimes |
+| **Open House** | Adventure | ★ | Trade with a Villager inside a Woodland Mansion |
 | **Open Sesame** | Redstone | · | Lay a Stone Pressure Plate down right in front of an Iron Door |
 | **Open Stacks** | Enchanting | ★ | Place 75 Chiseled Bookshelves |
+| **Open-Cast Robbery** | Biomes | ◆ | Loot an Abandoned Mineshaft chest out of the tunnels that lie open across a Badlands |
 | **Opened the Cover** | Enchanting | · | Read 250 Written Books |
 | **Opening Volley** | Statistics | · | Throw 100 Snowballs |
 | **Orange Grain** | Building | · | Place 5,000 Acacia Planks. |
@@ -11579,14 +12985,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Out-Pillaging the Pillagers** | Adventure | ★ | Craft 20,000 Crossbows |
 | **Outfitting the Pack** | Animals | · | Craft 8 sets of Wolf Armor |
 | **Outfoxed** | Animals | · | Kill 150 Foxes |
+| **Outlived Its Arrows** | Enchanting | ◆ | Shoot an Infinity bow until the bow itself finally gives out |
 | **Outpost Eviction** | Adventure | · | Kill 250 Pillagers |
+| **Outpost with a View** | Biomes | ◆ | Clear out a Pillager Outpost chest from a tower built high on a Meadow |
 | **Outrun the Witch** | Potions | ◆ | Kill a Witch while it is speeding along on its own Swiftness potion |
 | **Ova and Out** | Weaponry | ◆ | Throw 5,000 Blue Eggs |
 | **Ovens That Never Cool** | Farming | ★ | Bake 30,000 Bread |
 | **Over Nine Thousand** | Weaponry | ◆ | Land 1,500 hits with a Netherite Sword |
+| **Over the Coals** | Animals | · | Lay a Raw Chicken on a lit Campfire instead of bothering with a furnace |
+| **Overboard** | Adventure | ★ | Kill a Guardian while it is sitting in a Boat of its own |
 | **Overburden** | Statistics | ◆ | Mine ten thousand blocks of Deepslate |
 | **Overcharged** | Monsters | ◆ | Kill a Charged Creeper before it gets the chance to detonate |
 | **Overdose** | Potions | ★ | Hold twelve potion effects at once, each with thirty seconds still to run |
+| **Overdraw** | Enchanting | ◆ | Land ten hearts of damage with a single arrow from a Power V bow |
 | **Overdue Book** | Building | · | Pull a Book back out of a Chiseled Bookshelf |
 | **Overdue Books** | Biomes | · | Loot a chest in a Stronghold library |
 | **Overdue Return** | Enchanting | · | Mine 15 Bookshelves |
@@ -11595,20 +13006,30 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Overgrown Pattern** | Adventure | · | Find the Wild Smithing Template in a Jungle Temple |
 | **Overgrown Ruins** | Adventure | ◆ | Mine 1,500 Mossy Cobblestone |
 | **Overgrowth by Design** | Building | ◆ | Place 4,000 Moss Blocks |
+| **Overhead Bin** | Building | · | Mount a barrel on the ceiling with its lid pointing at the floor |
+| **Overinsured** | Enchanting | ◆ | Carry a Mending Elytra and a Mending Chestplate at once, for a back you only have one of |
+| **Overkill Cubed** | Enchanting | ★ | Land one Mace smash worth twenty hearts of damage |
 | **Overlord of Freight** | Redstone | ★ | Craft 12,000 Minecarts with Chest |
 | **Overqualified** | Enchanting | · | Put Efficiency V and Unbreaking III on a Wooden Pickaxe |
+| **Overqualified for Farming** | Adventure | · | Buy a Diamond Hoe from a Villager |
 | **Overtime** | Monsters | ◆ | Wear a Pickaxe down while an Elder Guardian has you on Mining Fatigue III |
+| **Overwatch** | Adventure | ◆ | Look through a Spyglass from more than three hundred blocks up |
+| **Overwound** | Enchanting | · | Wind a Crossbow carrying Quick Charge III until the whole thing falls apart |
 | **Own Goal** | Weaponry | · | Throw an Ender Pearl and die at the other end of it |
+| **Own Worst Enemy** | The End | · | Get killed in the End by a Creeper that could only have got there because you brought it |
 | **Oxidised Illumination** | Redstone | ★ | Place 600 Copper Bulbs |
 | **Oxidised Legend** | Weaponry | ★ | Land 1,500 hits with a Copper Sword |
 | **Pacifist Streak** | Monsters | ◆ | Go five in-game days without killing a single mob |
 | **Pack Betrayer** | Animals | · | Kill 250 Wolves |
 | **Pack It Tight** | Biomes | · | Collect 1,000 Snowballs |
 | **Pack Rat** | Animals | · | Use 64 Bundles |
+| **Pack Train** | Animals | · | Rope a Mule to a Lead while you are riding a Donkey |
 | **Pack Up the Sanctum** | Enchanting | ★ | Mine 200 Enchanting Tables |
 | **Packed and Stacked** | Biomes | · | Mine 1,000 Snow Blocks |
+| **Packed Lunch** | Adventure | ◆ | Scoop a Cod into a Bucket inside an Ocean Monument |
 | **Packed Powder** | Biomes | · | Craft 256 Snow Blocks. |
 | **Packing Up the White** | The End | · | Break 500 White Shulker Boxes |
+| **Padded Cell** | Adventure | · | Lay Wool across the floor of an Ancient City |
 | **Paddock Perimeter** | Redstone | · | Place 1,024 Oak Fence Gates |
 | **Paddocks and Pastures** | Building | ◆ | Place 600 Oak Fences |
 | **Pads Upon the Pond** | Farming | · | Place 64 Lily Pads. |
@@ -11622,16 +13043,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Palace of Quartz** | Building | · | Place 400 Quartz Blocks |
 | **Pale Bark, Pale Leaves** | Farming | · | Break 1,000 Birch Leaves |
 | **Pale Bricks of the Void** | Building | · | Place 500 End Stone Bricks |
+| **Pale Companion** | Animals | ◆ | Tame a Wolf in the Pale Garden without letting the Creaking put you off |
 | **Pale Continent** | The End | ★ | Place 7,500 End Stone |
 | **Pale Garden Pruning** | Monsters | ◆ | Kill 60 Creakings |
 | **Pale Horse Parade** | Monsters | ★ | Kill 500 Skeleton Horses |
 | **Pale Hunt** | Monsters | ◆ | Kill a Zombie, a Skeleton, a Creeper and a Spider among the pale oaks |
 | **Pale Imitation** | Biomes | · | Place a Pale Oak Shelf inside a Pale Garden |
 | **Pale Lumber** | Biomes | · | Craft 256 Pale Oak Planks. |
+| **Pale Rider** | Animals | ★ | Be sitting on a Skeleton Horse when the next thunderstorm arrives |
 | **Pale Timber** | Building | · | Place 128 Stripped Birch Wood. |
 | **Pale Woodwork** | Enchanting | · | Craft 64 Birch Shelves |
 | **Pale Yellow Fever** | The End | · | Mine 3,000 End Stone |
 | **Pallor Underfoot** | Farming | · | Craft 128 Pale Moss Carpets. |
+| **Pancake** | Enchanting | · | Flatten a Slime with a Density V Mace, because it was not flat enough already |
 | **Panda Buffet** | Biomes | ◆ | Mine 3,000 Bamboo |
 | **Panda Provisions** | Farming | ◆ | Plant 7,500 Bamboo |
 | **Panda's Nightmare** | Biomes | ★ | Mine 75,000 Bamboo |
@@ -11640,6 +13064,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Panes and Panes of It** | The End | ◆ | Craft 5,000 Glass |
 | **Panes Beyond Repair** | The End | ◆ | Break 25,000 Glass |
 | **Panes Enough for a Glass City** | The End | ★ | Craft 100,000 Glass Panes |
+| **Panic Buying** | Adventure | · | Trade with a Villager while Bad Omen hangs over you |
 | **Panning the Plateau** | Mining | ◆ | Mine 4,096 Gold Ore |
 | **Paper and Powder** | The End | · | Craft 600 Firework Rockets |
 | **Paper Bark** | Biomes | · | Mine 250 Birch Logs |
@@ -11674,6 +13099,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Patterned Floors** | Building | · | Place 128 White Glazed Terracotta |
 | **Patterned in Yellow** | Potions | · | Craft 2,500 Chiseled Sulfur |
 | **Paved with Cobble** | Mining | ◆ | Place 16,384 Cobblestone Slabs |
+| **Paving Contractor** | Enchanting | · | Stamp out a Dirt Path with a shovel enchanted with Efficiency V |
 | **Paving the Deep** | Redstone | · | Place 600 Sculk |
 | **Paving the Impossible** | The End | ◆ | Place 20,000 End Stone Brick Slabs |
 | **Paving the Painful Path** | Nether | ◆ | Place 12,500 Magma Blocks |
@@ -11682,6 +13108,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Peak Condition** | Potions | · | Bite an Enchanted Golden Apple and carry Absorption, Regeneration, Fire Resistance and Resistance all at once |
 | **Peak Performance** | Mining | ◆ | Mine 128 Emerald Ore |
 | **Peak Predator** | Animals | ◆ | Kill 150 Goats |
+| **Peak Swine** | Animals | ◆ | Ride a saddled Pig at an altitude of 200 blocks or higher |
 | **Peak Voltage** | Biomes | ◆ | Call lightning down onto a Skeleton with a Channeling Trident at y 200 or higher |
 | **Pearl Chain** | The End | ★ | Throw five Ender Pearls without touching the ground between teleports |
 | **Pearl Parasite** | The End | · | Kill 8 Endermites |
@@ -11699,11 +13126,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Pendant Light** | Building | · | Hang a Copper Bulb from the bottom of a Copper Chain |
 | **Penny for Your Thoughts** | Enchanting | · | Put your first enchantment on a Copper tool |
 | **Penny Pincher** | Mining | · | Mine 500 Copper Ore |
+| **Penthouse Suite** | Building | ◆ | Sleep in a bed built above Y=250 |
 | **Percussive Astronomy** | Weaponry | · | Land 10 hits with a Nether Star |
+| **Perfect Cast** | Super Challenges | ★★ | Land a Fishing Rod bobber on the bullseye of a Target Block from 20 blocks away |
 | **Perfect Pitch Detection** | Redstone | ★ | Place 12,000 Calibrated Sculk Sensors |
+| **Perfect Storm** | Enchanting | ★ | Land an Enchanted Book in a thunderstorm on a rod carrying both Luck of the Sea III and Lure III |
 | **Perfume of Spring** | Biomes | ◆ | Pick up 512 Lilacs. |
+| **Periscope Down** | Adventure | · | Look through a Spyglass while you are under water |
 | **Permafrost Architecture** | Building | ◆ | Place 7,500 Snow Blocks |
 | **Permafrost Purge** | Monsters | ◆ | Kill 600 Strays |
+| **Permanent Disguise** | Enchanting | ◆ | Kill an Enderman while wearing a Carved Pumpkin cursed with Curse of Binding |
+| **Permanent Resident** | Adventure | · | Give a Wandering Trader a Name Tag so he never wanders off |
 | **Permanently Defused** | Monsters | ◆ | Kill 400 Creepers |
 | **Perpetual Gale** | Adventure | ★ | Throw 4,000 Wind Charges |
 | **Perpetual Glow** | Redstone | ◆ | Place 1,000 Redstone Torches |
@@ -11713,10 +13146,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Personal Weather Machine** | Adventure | ★ | Throw 25,000 Wind Charges |
 | **Personality Test** | Animals | ◆ | Breed Panda cubs that grow up lazy, worried and playful |
 | **Pescatarian** | Animals | ◆ | Eat Cod, Salmon, Tropical Fish, Pufferfish, Cooked Cod and Cooked Salmon |
+| **Pest Control Contract** | Enchanting | ★ | Put down a Spider, a Cave Spider, a Silverfish, an Endermite and a Bee with Bane of Arthropods V |
 | **Pest Control Underground** | Adventure | ◆ | Mine 5,000 Infested Cobblestone |
 | **Pestle and Blaze** | Potions | · | Craft 75 Blaze Powder |
 | **Petal Pharmacology** | Farming | ◆ | Craft 1,024 Suspicious Stew |
 | **Petal Pusher** | Biomes | · | Mine 200 Pink Petals |
+| **Petal Soup** | Biomes | · | Eat a Suspicious Stew in the Flower Forest that the flower in it was picked from |
 | **Petal Storm** | Biomes | · | Stand in a Cherry Grove while it is raining |
 | **Petals and Pottage** | Potions | ◆ | Eat 75 Suspicious Stews |
 | **Petals for the Grinder** | Potions | · | Mine 4,000 Oxeye Daisies |
@@ -11730,7 +13165,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Phalanx Formation** | Weaponry | · | Land 250 hits with an Iron Spear |
 | **Phalanx Unbroken** | Weaponry | ★ | Land 15,000 hits with an Iron Spear |
 | **Pharaoh Complex** | Building | ★ | Place 5,000 Sandstone |
+| **Pharaoh's Reserve** | Adventure | ◆ | Pull an Enchanted Golden Apple out of a Desert Pyramid |
 | **Pharmacopoeia** | Super Challenges | ★★ | Brew every single potion in the game, every extended and strong variant included |
+| **Photosynthesis Optional** | Biomes | · | Plant a Mushroom on Mycelium with nothing but open sky above it |
 | **Photovoltaic** | Redstone | ◆ | Place 100 Daylight Detectors |
 | **Pick It Back Up** | Enchanting | · | Mine 10 Anvils |
 | **Pick Your Battles** | Weaponry | ◆ | Attack a mob with every kind of Pickaxe |
@@ -11746,21 +13183,26 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Pie in the Sky** | Farming | · | Bake 100 Pumpkin Pies |
 | **Pieces of Shelter** | Adventure | · | Pick up 32 Shelter Pottery Sherds |
 | **Pierce the Firmament** | Weaponry | ★ | Land 100,000 hits with a Diamond Spear |
+| **Pig Paddle** | Animals | · | Swim a stretch of open water on the back of a saddled Pig |
 | **Pig Pilot Extraordinaire** | Animals | ★ | Break 1,500 Carrots on a Stick |
+| **Piggy Bank** | Adventure | · | Stash a Diamond inside a Decorated Pot |
 | **Piglin Bait Boulevard** | Building | ◆ | Place 1,024 Blocks of Gold |
 | **Piglin Bank Robbery** | Nether | ★ | Mine 4,000 Nether Gold Ore |
 | **Piglin Masonry** | Building | · | Place 150 Polished Blackstone Bricks |
 | **Piglin's Envy** | Nether | · | Mine 200 Nether Gold Ore |
 | **Piglins Beware** | Building | ◆ | Place 30,000 Soul Torches |
 | **Pigs Follow Anywhere** | Animals | ◆ | Use 5,000 Carrots |
+| **Pigs in Space** | The End | · | Saddle a Pig in the End |
 | **Pilfered Gilding** | Mining | ◆ | Pick up 1,024 Gilded Blackstone |
 | **Pillaged Firepower** | Monsters | · | Pick up 5 Crossbows |
+| **Pillar Diving** | The End | ◆ | Fall sixty blocks in the End and walk away from the landing |
 | **Pillar of Light** | Enchanting | · | Break 4 Beacons |
 | **Pillar Restoration Society** | The End | ◆ | Place 64 End Crystals |
 | **Pillars and Chisels** | Building | ◆ | Place 1,500 Quartz Blocks |
 | **Pillars Beyond Counting** | The End | ★ | Place 40,000 Purpur Pillars |
 | **Pillars Cut and Carried** | Nether | · | Mine 500 Polished Basalt |
 | **Pillars No More** | Nether | ◆ | Mine 2,000 Basalt |
+| **Pinch the Flame** | Building | · | Snuff out a burning candle with your bare hand |
 | **Pink Above, Green Below** | Biomes | ◆ | Mine 500 Flowering Azalea |
 | **Pink and Patterned** | Building | · | Place 64 Pink Glazed Terracotta. |
 | **Pink as Far as the Eye Sees** | Farming | ★ | Place 40,000 Pink Petals |
@@ -11769,6 +13211,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Pink Slip** | Mining | · | Mine 1,000 Granite |
 | **Pink Speckled Beginnings** | Building | · | Place 1,000 Granite |
 | **Pink Tide Rising** | Biomes | ★ | Mine 7,500 Pink Petals |
+| **Pinned Wings** | The End | · | Stick a thrown Trident into the Ender Dragon |
 | **Pins and Needles** | Biomes | ◆ | Mine 2,000 Cactus |
 | **Pips by the Handful** | Farming | · | Pick up 2,048 Melon Seeds. |
 | **Piston Broke** | Redstone | · | Pick up 512 Pistons |
@@ -11792,9 +13235,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Planting What Kills** | Potions | · | Plant 100 Wither Roses |
 | **Platform Removed** | Biomes | ◆ | Mine 5,000 Big Dripleaf |
 | **Play It Again** | The End | · | Play the Otherside music disc 5 times. |
+| **Please Don't Shoot, Kevin** | The End | · | Name a living Shulker 'Kevin' instead of killing it |
 | **Plucked Clean** | Animals | · | Drop 1,024 Feathers |
 | **Plundering the Piglin Vaults** | Nether | ★ | Mine 512 Gilded Blackstone |
 | **Poached From the Sand** | Biomes | · | Pick up 32 Turtle Eggs. |
+| **Poacher's Lunch** | Biomes | · | Eat Rabbit Stew up in the Meadow the rabbits were hopping about in |
 | **Pocket Amphibians** | Potions | · | Release 20 Axolotls from a bucket |
 | **Pocket Dimension** | The End | · | Craft 8 Ender Chests |
 | **Pocket Foundry** | Mining | ◆ | Carry a Furnace, Blast Furnace, Smoker, Anvil, Smithing Table, Grindstone and Stonecutter at once |
@@ -11822,6 +13267,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Point of Impact** | Redstone | ★ | Place 400 Target Blocks |
 | **Point of No Return** | Weaponry | ★ | Land 3,000 hits with a Diamond Spear |
 | **Point Taken** | Mining | · | Mine 150 Pointed Dripstone |
+| **Point-Blank Refusal** | Super Challenges | ★★ | Take a Charged Creeper's blast on your shield from close enough to feel it |
 | **Pointed Progression** | Weaponry | ◆ | Attack a mob with every kind of Spear |
 | **Pointing Home** | Mining | · | Craft 128 Compasses |
 | **Pointless Precaution** | Nether | · | Plant a Lightning Rod in the Nether, where lightning has never once fallen |
@@ -11831,6 +13277,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Poison Is a Seasoning** | Potions | ★ | Eat 750 Spider Eyes |
 | **Poison Palate** | Potions | ◆ | Eat 30 Spider Eyes |
 | **Poke the Bear** | Weaponry | · | Hit a Warden with a Snowball and live to regret it |
+| **Polar Plunge** | Animals | ◆ | Kill a Polar Bear while the two of you are both swimming |
 | **Polished and Plundered** | Nether | ◆ | Mine 2,500 Polished Blackstone |
 | **Polished and Pungent** | Potions | · | Craft 5,000 Polished Sulfur |
 | **Polished Interiors** | Building | · | Place 4,000 Smooth Stone |
@@ -11842,6 +13289,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Pomp and Impalement** | Weaponry | ★ | Land 1,500 hits with a Golden Spear |
 | **Pond Skipper** | Biomes | ◆ | Mine 400 Lily Pads |
 | **Pooh's Pantry** | Animals | · | Pick up 256 Honey Blocks |
+| **Pool Ladder** | Building | · | Fit a waterlogged Ladder so swimmers can climb out |
 | **Poorly Chosen Again** | Nether | ◆ | Craft 8 Netherite Hoes. |
 | **Pop Goes the Chorus** | The End | · | Smelt 600 Popped Chorus Fruit |
 | **Popped and Pressed** | The End | ★ | Craft 3,000 Purpur Blocks |
@@ -11859,13 +13307,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Portable Enchantment** | Enchanting | ★ | Pick up 800 Enchanting Tables |
 | **Portable Sorcery** | Enchanting | ★ | Mine 750 Enchanting Tables |
 | **Portable Storage, Placed** | Building | · | Place 16 White Shulker Boxes |
+| **Portal Denied** | The End | · | Strike Flint and Steel against Obsidian in the End and get nothing for it |
 | **Portal Express** | Redstone | ◆ | Ride a Minecart right into a Nether Portal |
 | **Portal Frame Vandal** | Monsters | ◆ | Mine 32 Reinforced Deepslate |
 | **Portal Pass** | Nether | · | Ride a Strider into a Nether Portal |
 | **Portal Pilfering** | Nether | · | Loot the chest left beside a Ruined Portal |
+| **Portal Room Souvenir** | Adventure | · | Fill a bucket with lava inside a Stronghold |
 | **Portal Salvage** | Nether | · | Loot the chest of a Ruined Portal on the Nether side |
 | **Portal Sniper** | Nether | ★ | Go two hundred blocks deep into the Nether and come back out within ten blocks of where you went in |
 | **Portals Without End** | Mining | ★ | Mine 150,000 Obsidian |
+| **Porthole** | Building | · | Set Copper Bars into a wall underwater |
+| **Poseidon Cosplay** | Biomes | ★ | Below y-level 0 and underwater with a Turtle Shell on your head, a Trident in hand and Conduit Power running |
+| **Pot Luck** | Building | · | Stash something inside a Decorated Pot |
 | **Pot Stack** | Building | · | Place a Decorated Pot directly on top of another Decorated Pot |
 | **Potato Famine Averted** | Animals | ◆ | Pick up 25,000 Potatoes |
 | **Potato Famine in Reverse** | Farming | ◆ | Drop 10,000 Baked Potatoes. |
@@ -11875,6 +13328,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Potatoes Without Pause** | Farming | ★ | Use 80,000 Potatoes |
 | **Potions Without End** | Adventure | ★ | Place 30,000 Brewing Stands |
 | **Pots on Every Pedestal** | Adventure | ◆ | Place 5,000 Decorated Pots |
+| **Potted Contraband** | Adventure | · | Stash an Ominous Trial Key inside a Decorated Pot |
 | **Potted History** | Super Challenges | ★★ | Leave a Decorated Pot behind in all twelve of the Overworld's ruins: Trial Chambers, Ancient City, Trail Ruins, Ocean Monument, Woodland Mansion, Shipwreck, Pillager Outpost, Stronghold, Desert Pyramid, Jungle Temple, Igloo and Swamp Hut |
 | **Potted Up** | Building | · | Place 20 Flower Pots |
 | **Potter's Fortune** | Statistics | ◆ | Pick up 20,000 Clay Balls |
@@ -11889,6 +13343,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Powder Keg** | Building | ◆ | Collect all sixteen colours of Concrete Powder |
 | **Powder Keg on Wheels** | Redstone | · | Craft 32 Minecarts with TNT |
 | **Powder Prospector** | Monsters | · | Collect 600 Gunpowder |
+| **Powder Room** | Building | ◆ | Climb into a cauldron filled with Powder Snow |
 | **Powdered Fire by the Barrel** | Nether | ◆ | Use 6,000 Blaze Powder |
 | **Powdered Fortune** | Mining | · | Pick up 15,000 Redstone Dust |
 | **Power Cube** | Redstone | · | Place 200 Blocks of Redstone |
@@ -11898,9 +13353,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Powering the Depths** | Mining | ◆ | Mine 750 Redstone Ore |
 | **Practice Range** | Redstone | · | Place 40 Target Blocks |
 | **Pre-Cooked** | Enchanting | · | Kill a Cow, a Pig, a Sheep, a Chicken and a Rabbit with a Fire Aspect sword |
+| **Precision Approach** | The End | ◆ | Thread an End Gateway at full glide without folding your wings |
 | **Precision Silence** | Monsters | ◆ | Mine 40 Calibrated Sculk Sensors |
+| **Prehistoric Hell** | Adventure | ★ | Breed two Sniffers in the Nether |
 | **Prehistoric Payload** | Adventure | ◆ | Pick up 256 Torchflower Seeds |
 | **Preserved Forever** | Biomes | ★ | Mine 75,000 Sea Pickles |
+| **Preserving the Patina** | Building | ★ | Wax a fully oxidized Copper Block to hold that colour forever |
 | **Press Here** | Redstone | · | Place 50 Stone Buttons |
 | **Press to Continue** | Redstone | ★ | Place 15,000 Stone Buttons |
 | **Pressure and Rot** | Monsters | ★ | Kill 6,000 Zombie Nautiluses |
@@ -11911,10 +13369,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Pricked Fingers** | Biomes | ◆ | Pick up 1,024 Sweet Berries. |
 | **Prickly Business** | Biomes | · | Mine 500 Cactus |
 | **Prickly Empire** | Biomes | ★ | Mine 20,000 Cactus |
+| **Prickly Situation** | Biomes | · | Get poisoned by bumping into a puffed-up Pufferfish |
 | **Primal Reach** | Weaponry | ◆ | Land 600 hits with a Stone Spear |
+| **Prime Real Estate** | Building | ★ | Set up house at the exact centre of the world: a chest, a painting and a night's sleep within ten blocks of 0, 0 |
 | **Print Run** | Enchanting | ★ | Craft 75 Written Books |
 | **Prismarine Payday** | Adventure | ◆ | Kill 600 Guardians |
+| **Privacy Glass** | Building | ◆ | Glaze a window with Tinted Glass, the only glass that keeps a secret |
+| **Private Collection** | Building | ★ | Display an Elytra, a Trident, a Totem of Undying and a Dragon Head, each in its own item frame |
 | **Production at Scale** | Redstone | ★ | Place 4,000 Crafters |
+| **Propaganda Department** | Adventure | · | Place a Lectern inside a Pillager Outpost |
 | **Propagules by the Thousand** | Farming | ◆ | Mine 4,096 Mangrove Propagules. |
 | **Property Line** | Building | · | Place 200 Oak Fences |
 | **Prospector's Luck** | Mining | · | Hold a Fortune III pickaxe while standing below y = -50 |
@@ -11932,19 +13395,24 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Prying Up the Ruins** | Adventure | · | Mine 2,000 Mossy Stone Bricks |
 | **Prying Up the Violet** | The End | · | Break 1,000 Purpur Slabs |
 | **Public Reading** | Building | · | Put a book down on a Lectern |
+| **Public Transport** | The End | ◆ | Get shot by a Shulker while riding a Minecart through an End City |
+| **Published Author** | Building | · | Put a book you wrote yourself out on a lectern |
 | **Puffed Up** | Potions | · | Kill 40 Pufferfish |
 | **Pufferfish Roulette** | Animals | ◆ | Eat 50 Pufferfish |
 | **Pull and Retract** | Redstone | ★ | Place 2,500 Sticky Pistons |
 | **Pull Yourself Together** | Redstone | · | Place 75 Sticky Pistons |
 | **Pulling Rank** | Farming | · | Harvest 750 Carrots |
+| **Pulling the Rug Out** | Adventure | ◆ | Kill a Ravager out from underneath the Pillager riding it |
 | **Pulling the Threads** | Monsters | · | Collect 256 Sculk Veins |
 | **Pulling Up the Ladder** | The End | · | Break 2,000 Ladders |
 | **Pulp Duty** | Enchanting | · | Craft 750 Paper |
 | **Pulped a Continent** | Enchanting | ★ | Craft 10,000 Paper |
 | **Pulse Generator** | Redstone | · | Set an Observer down flush against a Sticky Piston |
+| **Pumpkin Carving** | Building | · | Take shears to a Pumpkin and carve it a face |
 | **Pumpkin Decapitation** | Weaponry | · | Kill 500 Snow Golems |
 | **Pumpkin Patch Panopticon** | Monsters | ◆ | Place 2,500 Carved Pumpkins |
 | **Pumpkin Purgatory** | Farming | ★ | Bake 7,500 Pumpkin Pies |
+| **Punting in the Parlour** | Biomes | ★ | Row a Boat through the halls of a Woodland Mansion, through a Swamp Hut and through an Ancient City |
 | **Purest Brimstone Unearthed** | Potions | ★ | Mine 16,000 Potent Sulfur |
 | **Purge of the Yellow Swarm** | Potions | ★ | Kill 7,500 Sulfur Cubes |
 | **Purity in Quantity** | Building | ★ | Place 10,000 Quartz Blocks |
@@ -11962,6 +13430,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Purple Thumb** | The End | ◆ | Place 400 Chorus Flowers |
 | **Purple-Black Horizons** | Enchanting | ★ | Place 7,500 Obsidian |
 | **Purpur by the Megaton** | The End | ★ | Craft 75,000 Purpur Blocks |
+| **Purpur Library** | The End | ◆ | Spend three levels at an Enchanting Table inside an End City |
 | **Purpur Palace** | Building | ◆ | Place 15,000 Purpur Blocks |
 | **Purpur to Spare** | The End | · | Drop 256 Purpur Slabs. |
 | **Purpur, Thinly Spread** | The End | ★ | Craft 80,000 Purpur Slabs |
@@ -11970,6 +13439,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Push My Buttons** | Redstone | · | Pick up 512 Oak Buttons |
 | **Push Wood Forever** | Redstone | ★ | Place 100,000 Oak Buttons |
 | **Pushing Boundaries** | Redstone | ★ | Pick up 8,192 Pistons |
+| **Pushing Your Luck** | The End | · | Set a Piston directly beneath the Dragon Egg to pop it loose without losing it |
+| **Put That Back** | The End | ◆ | Kill an Enderman while it is still holding the block it stole |
 | **Pyramid Scheme** | Building | · | Place 400 Sandstone |
 | **Pyre of a Thousand Hills** | Weaponry | ★ | Use 6,000 Fire Charges |
 | **Pyromaniac's Habit** | Nether | ◆ | Use Flint and Steel 200 times |
@@ -11999,6 +13470,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Questionable Diet** | Monsters | · | Eat 50 Rotten Flesh |
 | **Quick and Brittle** | Mining | · | Break 50 Golden Pickaxes |
 | **Quicksilver Prospector** | The End | ◆ | Mine 2,048 Cinnabar. |
+| **Quiet as the Grave** | Biomes | · | Creep past a Sculk Sensor in the Deep Dark without letting it hear a thing |
 | **Quiet Riot** | Mining | · | Mine 250 Sculk |
 | **Quiet Table** | Biomes | · | Enchant an item while standing in the Deep Dark |
 | **Quiet Vandalism** | Biomes | · | Mine 50 Sculk Catalysts |
@@ -12015,17 +13487,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Ragnarok Ready** | Weaponry | ★ | Use a Netherite Axe 4,000 times |
 | **Ragnarok Rehearsal** | Weaponry | · | Break a Netherite Axe |
 | **Raider's Arsenal** | Monsters | ◆ | Pick up 25 Crossbows |
+| **Rails to Nowhere** | The End | · | Haul a Minecart and some rails to the End and ride them |
 | **Rails to Ruins** | Redstone | ★ | Ride a Minecart inside an Abandoned Mineshaft, a Stronghold, an Ancient City, a Woodland Mansion and a Nether Fortress |
 | **Rails to the Horizon** | Mining | ★ | Mine 50,000 Deepslate Iron Ore |
 | **Rain Check** | Monsters | · | Make an Enderman teleport away by hitting it with a Splash Water Bottle |
 | **Rain of Broken Glass** | Potions | ★ | Throw 5,000 Splash Potions |
 | **Rain Shadow** | Biomes | · | Stand in a Badlands while a thunderstorm rages everywhere else |
 | **Rainbow Rigging** | Nether | ◆ | Collect all sixteen colours of Happy Ghast Harness |
+| **Rainmaker** | Enchanting | ◆ | Stab a mob to death with an Impaling V Trident out in the rain, where Impaling still counts |
 | **Raise the Roof** | Building | ◆ | Place 2,500 Oak Planks |
 | **Raise Your Own Monument** | Building | ★ | Place 1,000 Prismarine |
 | **Raiser's Edge** | Enchanting | ◆ | Craft 8 Raiser Armour Trim Smithing Templates |
 | **Raising the Columns** | The End | · | Place 300 Purpur Pillars |
 | **Raking It In** | Biomes | · | Mine 1,000 Leaf Litter |
+| **Ram Raid** | Biomes | ◆ | Get rammed by a Goat while you're up above y-level 180 on the peaks |
+| **Rammed at Altitude** | Animals | · | Take a Goat's headbutt more than two hundred and fifty blocks above sea level |
 | **Ramming Speed Ends Here** | Animals | ★ | Kill 4,000 Goats |
 | **Ramparts Without Reason** | Building | ★ | Place 5,000 Cobblestone Walls |
 | **Ran Out of Things to Dye** | Enchanting | ★ | Use 75,000 Lapis Lazuli as dye |
@@ -12036,6 +13512,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Range Supply** | Redstone | · | Craft 512 Target Blocks |
 | **Rare, Medium, Well Done** | Farming | · | Cook 400 Steaks |
 | **Rare, Very Rare** | Farming | · | Eat 1,000 Raw Beef. |
+| **Rations Under Fire** | Adventure | ◆ | Crack open a Trial Chamber supply barrel while a Trial Omen is upon you |
 | **Rattle and Hum** | Monsters | · | Kill 250 Skeletons |
 | **Rattle and Stack** | Monsters | · | Pick up 64 Bone Blocks |
 | **Rattle the Cargo** | Redstone | · | Place 64 Activator Rails |
@@ -12045,11 +13522,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Reach Advantage** | Weaponry | ★ | Land 400 hits with a Wooden Spear |
 | **Read the Wiring First** | Adventure | · | Break 512 Trapped Chests |
 | **Reading Every Container** | Redstone | ★ | Place 3,000 Redstone Comparators |
+| **Reading in the Dark** | Enchanting | ◆ | Enchant an item while Blindness has you groping for the lapis slot |
+| **Reading Privileges** | Adventure | ◆ | Enchant an item inside a Stronghold, surrounded by someone else's bookshelves |
 | **Reading Room** | Building | · | Set a Lectern between two Bookshelves |
 | **Reading the Room** | Redstone | · | Place 40 Redstone Comparators |
+| **Ready to Spend** | Enchanting | · | Stand there with 64 Lapis Lazuli and 30 levels, ready for a proper session |
 | **Ream Weaver** | Enchanting | ★ | Craft 4,000 Paper |
 | **Reams Beyond Reason** | Adventure | ★ | Craft 10,000 Empty Maps |
 | **Reaping the Red Ropes** | Nether | ◆ | Mine 750 Weeping Vines |
+| **Rearming the Trap** | Adventure | · | Put fresh TNT into a Desert Pyramid for whoever comes next |
 | **Reassembling the Silence** | Monsters | ◆ | Collect 500 Disc Fragments |
 | **Rebuilding the Glow** | Adventure | · | Craft 1,024 Sea Lanterns |
 | **Rebuilding the Nether** | Building | ◆ | Place 40,000 Netherrack |
@@ -12058,6 +13539,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Reclaiming the Heads** | Farming | · | Break 2,000 Carved Pumpkins |
 | **Reclaiming the Rack** | Monsters | ◆ | Break 256 Skeleton Skulls |
 | **Recobbling the Deep** | Mining | ◆ | Mine 12,500 Cobbled Deepslate |
+| **Recoil in Zero Gravity** | The End | · | Fire a Crossbow while a Shulker has you floating |
 | **Recovering the Obsidian** | The End | · | Break 500 Ender Chests |
 | **Recursive Industry** | Redstone | · | Craft 256 Crafters |
 | **Recycled Creepers** | Monsters | · | Craft 40 TNT |
@@ -12081,9 +13563,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Red Tape** | The End | ◆ | Craft 128 Red Shulker Boxes. |
 | **Red Tide Over the Nether** | Potions | ★ | Plant 50,000 Nether Wart |
 | **Red Timber** | Biomes | ◆ | Mine 1,000 Mangrove Logs |
+| **Redecorating the Deep** | Building | ★ | Light up an Ancient City with a Froglight |
 | **Redecorating the Library** | Enchanting | ◆ | Mine 60 Chiseled Bookshelves |
 | **Redecorating, Again** | The End | ◆ | Break 64 Dragon Heads |
 | **Redstone Baron** | Mining | ★ | Mine 150,000 Deepslate Redstone Ore |
+| **Redundant Purchase** | Adventure | · | Buy a Saddle from a Villager while already sitting on a saddled Pig |
 | **Reed All About It** | Enchanting | · | Craft 300 Paper |
 | **Reed Beds** | Enchanting | · | Place 250 Sugar Cane |
 | **Reeds by the Armful** | Enchanting | · | Pick up 5,000 Sugar Cane |
@@ -12091,22 +13575,35 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Reef Architect** | Biomes | ◆ | Mine 150 Tube Coral Blocks |
 | **Reef in a Bucket** | Animals | ◆ | Place 1,000 Buckets of Tropical Fish |
 | **Reef of Bones** | Monsters | ◆ | Kill 150 Zombie Nautiluses |
+| **Reef of One** | The End | · | Place a Conduit in the End, where it has no hope of ever switching on |
 | **Reef Rainbow** | Biomes | · | Collect 250 Tropical Fish |
 | **Reef Reaper** | Animals | ★ | Kill 1,000 Tropical Fish |
 | **Reef Robber** | Biomes | ★ | Mine 1,500 Tube Coral Blocks |
+| **Reel Deal** | Enchanting | ◆ | Fish a Bow out of the water on a rod enchanted with Luck of the Sea III |
 | **Reel Estate** | Redstone | · | Hook a Minecart with a Fishing Rod and reel it in |
 | **Reeled In** | Adventure | · | Hook a Villager with a Fishing Rod |
+| **Reeling in Trouble** | The End | · | Hook an Enderman with a Fishing Rod and deal with the consequences |
 | **Reference Section** | Enchanting | ◆ | Place 25 Chiseled Bookshelves |
+| **Refilling the Towers** | The End | · | Put an End Crystal back on top of an Obsidian Pillar where one used to sit |
 | **Reforestation** | Farming | · | Plant 250 Oak Saplings |
 | **Reforesting the Void** | The End | ★ | Place 2,500 Chorus Flowers |
 | **Refund Denied** | Adventure | · | Kill 5 Wandering Traders |
+| **Refused Delivery** | The End | ◆ | Kill a Shulker while its own bullet still has you drifting upwards |
 | **Refusing to Upgrade** | Statistics | ◆ | Break 150 Wooden Pickaxes |
 | **Regal and Ruinous** | Weaponry | ★ | Land 10,000 hits with a Golden Spear |
 | **Regal Reach** | Weaponry | · | Land 250 hits with a Golden Spear |
 | **Regicidal Reach** | Weaponry | ★ | Land 10,000 hits with a Netherite Spear |
+| **Regicide at Range** | Super Challenges | ★★ | Land the killing blow on the Ender Dragon with an arrow from 100 blocks away |
+| **Regime Change** | Building | ★ | Raise a banner of your own inside a Pillager Outpost |
+| **Rehabilitation, Off-World** | The End | ★ | Cure a Zombie Villager you shipped out to the End islands |
+| **Rehoming the Egg** | The End | ◆ | Set the Dragon Egg down inside an End City |
 | **Reinforced Ambition** | Building | ★ | Place 15,000 White Concrete |
+| **Reinforcements** | Animals | ◆ | Scoop an Axolotl into a Bucket inside an Ocean Monument, ready for the next room |
+| **Rekindled** | Building | · | Relight a campfire that has gone out |
 | **Relics of the Deep Nether** | Nether | ◆ | Mine 128 Ancient Debris |
 | **Reload, Rebuild, Repeat** | Adventure | ★ | Break 2,000 Crossbows |
+| **Reloaded** | Enchanting | · | Fire a Crossbow that carries Quick Charge III and Multishot together |
+| **Relocating the Library** | Enchanting | · | Walk into the Nether with an Enchanting Table in your hand |
 | **Relocating the Reek** | Potions | · | Place 200 Sulfur Cubes from a Bucket |
 | **Relocation Specialist** | The End | ◆ | Place 256 Dragon Eggs |
 | **Remembrance** | Biomes | ◆ | Mine 100,000 Poppies |
@@ -12114,10 +13611,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Rendered by the Ton** | Animals | ★ | Cook 15,000 Porkchops |
 | **Rendered Down to Nothing** | Animals | ★ | Kill 10,000 Cows |
 | **Rendered the Nether Down** | Monsters | ★ | Collect 40,000 Magma Cream |
+| **Renovating in Place** | The End | · | Craft Purpur Stairs out of the very city you are standing in |
 | **Repair Shop Empire** | Enchanting | ◆ | Place 150 Grindstones |
 | **Repeat Offender** | Redstone | · | Place 200 Redstone Repeaters |
 | **Replacements Ready** | Weaponry | · | Craft 9 Shields |
+| **Repopulating the Void** | The End | ◆ | Breed two animals in the End |
 | **Repossessing the Magic** | Enchanting | ★ | Mine 75 Enchanting Tables |
+| **Repossession** | Adventure | · | Put a Lead on a Trader Llama and claim it as your own |
 | **Reptile Dysfunction** | The End | ◆ | Kill the Ender Dragon 25 times |
 | **Reroll Roulette** | Enchanting | ◆ | Place 300 Lecterns |
 | **Reroll the Toolsmith** | Enchanting | · | Place 50 Smithing Tables |
@@ -12129,13 +13629,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Resin Rush** | Biomes | ◆ | Mine 250 Resin Clumps |
 | **Resonant Harvest** | Mining | ★ | Mine 5,000 Amethyst Clusters |
 | **Respawn Economics** | The End | · | Craft 100 End Crystals |
+| **Respect Your Elders** | Adventure | · | Get finished off by an Elder Guardian |
 | **Restocking** | Enchanting | · | Craft 40 Bookshelves |
+| **Restocking the Library** | Building | ◆ | Add a bookshelf of your own to a Stronghold library |
 | **Restricted Section** | Enchanting | · | Crack open the loot of a Stronghold Library chest |
 | **Resurrection Ritual** | The End | · | Place 16 End Crystals |
 | **Retire the Bullseye** | Redstone | · | Mine 256 Targets |
 | **Retraction Action** | Redstone | · | Place 200 Sticky Pistons |
 | **Retro Fashion Victim** | Adventure | ◆ | Break 300 Chainmail Chestplates |
 | **Return It All to Sawdust** | Statistics | ★ | Mine 300,000 Oak Planks |
+| **Return of Service** | Super Challenges | ★★ | Kill a Ghast with its own fireball while you are swimming in lava |
+| **Return Postage** | Adventure | ◆ | Loot a Ruined Portal chest on the Nether side |
+| **Returned in Kind** | Super Challenges | ★★ | Punch a Ghast's fireball back into it while you are in freefall over the Nether |
+| **Returned to Sender** | Biomes | ◆ | Kill a Drowned with a thrown Trident while you are underwater |
 | **Reverse Logistics** | Mining | · | Watch a Copper Golem pull an item back out of a Copper Chest and carry it away |
 | **Revolving Doors** | Building | ◆ | Open a Door made from every type of wood |
 | **Rewriting the Coastline** | Statistics | ★ | Empty 4,000 Water Buckets |
@@ -12148,9 +13654,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Rider of Everything** | Animals | ★ | Use a Saddle 12,000 times |
 | **Riderless and Rotten** | Animals | ◆ | Kill 5 Zombie Horses |
 | **Riders of the Storm** | Monsters | ★ | Kill 30 Skeleton Horses |
+| **Riders on the Storm** | Super Challenges | ★★ | Mount a Skeleton Horse while the thunderstorm that delivered it is still raging |
+| **Riding the Bubbles** | Animals | · | Ride a Soul Sand bubble column upwards with Dolphin's Grace still on you |
 | **Riding the Rails** | Mining | ◆ | Place 1,500 Rails |
+| **Right at Home** | Building | ◆ | Build a Snow Golem inside an Igloo |
 | **Rind Mountain** | Farming | ★ | Break 40,000 Melons |
 | **Rind Over Matter** | Farming | · | Break 750 Melons |
+| **Ring Out the Storm** | Adventure | · | Ring a Bell in the middle of a thunderstorm |
 | **Ringmail Hoard** | Monsters | ★ | Pick up 64 Chainmail Helmets |
 | **Rings Come Apart** | Adventure | · | Break 5 Chainmail Chestplates |
 | **Rink Builder** | Biomes | ◆ | Place 4,096 Ice. |
@@ -12159,6 +13669,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Riptide Rider** | Weaponry | · | Use a Trident 250 times |
 | **Riptide Until It Shattered** | Enchanting | ★ | Break 1,500 Tridents |
 | **Ritual Without End** | The End | ★ | Place 4,096 End Crystals |
+| **Rival Brewer** | Biomes | ◆ | Brew a potion of your own inside a Swamp Hut, right under the owner's nose |
 | **River Runs Red** | Animals | ★ | Kill 1,500 Salmon |
 | **Riverbank Reaper** | Farming | · | Harvest 250 Sugar Cane |
 | **Riverbank Stripped Bare** | Enchanting | ★ | Pick up 25,000 Sugar Cane |
@@ -12180,6 +13691,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Rockets by the Fistful** | The End | · | Collect 10,000 Firework Rockets |
 | **Rod and Ranch** | Animals | · | Reel in a Cow, a Pig, a Sheep and a Chicken with a Fishing Rod |
 | **Rod of Rude Awakenings** | Weaponry | · | Land 1,000 hits with a Blaze Rod |
+| **Rod Retirement** | Animals | · | Fish with one rod until the last thread of it snaps |
 | **Rods Beyond Reckoning** | Adventure | ◆ | Pick up 2,048 Breeze Rods |
 | **Rods Beyond Repair** | Animals | ◆ | Break 750 Fishing Rods |
 | **Rods by the Bundle** | The End | · | Collect 2,000 End Rods |
@@ -12194,6 +13706,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Rolling for Fortune III** | Enchanting | ★ | Craft 300 Diamond Pickaxes |
 | **Rolling for Sharpness V** | Enchanting | ★ | Craft 1,500 Diamond Swords |
 | **Rolling Stock** | Redstone | · | Place 40 Minecarts |
+| **Rolling Storefront** | Adventure | ◆ | Trade with a Villager who is riding in a Minecart |
 | **Rolling Thunder** | Redstone | · | Place 10 Minecarts with TNT |
 | **Rolling Thunder Depot** | Weaponry | ◆ | Drop 512 TNT Minecarts |
 | **Rolling Warehouse** | Redstone | ◆ | Place 60 Minecarts with Chest |
@@ -12212,6 +13725,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Root of All Redness** | Farming | ★ | Harvest 200,000 Beetroots |
 | **Root of the Matter** | Farming | ◆ | Harvest 2,000 Carrots |
 | **Root System** | Mining | ◆ | Pick up 8,192 Rooted Dirt |
+| **Rootling** | Building | · | Work a hoe over Rooted Dirt and pull out Hanging Roots for the ceiling |
 | **Roots All the Way Down** | Mining | · | Mine 4,096 Rooted Dirt |
 | **Roots Beyond Counting** | Farming | ★ | Pick up 100,000 Warped Roots. |
 | **Roots by the Armful** | Nether | ◆ | Mine 2,500 Crimson Roots |
@@ -12222,6 +13736,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Rot Into Riches** | Adventure | · | Craft 128 Composters |
 | **Rotisserie** | Farming | ◆ | Collect sixty-four Cooked Chicken without ever cooking one yourself |
 | **Rotten Deal** | Adventure | · | Buy a Sulfur Spike from a Wandering Trader |
+| **Rotten Luck** | Enchanting | ◆ | Have the Enchanting Table hand you a Curse of Vanishing, entirely unasked for |
 | **Rotten Rampage** | Nether | ◆ | Kill 50 Zoglins |
 | **Rotten Souvenir** | Monsters | · | Pick up 1 Zombie Head |
 | **Rotten to the Core** | Monsters | ◆ | Kill 600 Zombies |
@@ -12273,14 +13788,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Saddlery Empire** | Animals | ★ | Craft 150 Saddles |
 | **Saddles Without Riders** | Animals | ★ | Craft 10,000 Saddles |
 | **Safe Deposit** | Mining | · | Place a Copper Chest inside an abandoned Mineshaft |
+| **Safety First** | Building | · | Place a block 200 blocks up while crouched. Bridging is no place for bravery |
 | **Sakura Sawmill** | Biomes | ◆ | Mine 500 Cherry Logs |
 | **Salad of the Deep** | Potions | · | Pick up 2,000 Kelp |
+| **Salon Treatment** | Enchanting | · | Shear a Sheep with Efficiency V Shears. It will not thank you for the extra speed |
 | **Salt Air and Slaughter** | Weaponry | ★ | Land 10,000 hits with a Copper Spear |
 | **Salt and Pepper** | Mining | · | Mine 1,000 Diorite |
 | **Salt Meadow** | Biomes | · | Mine 750 Seagrass |
 | **Salt of the Burning Sky** | Monsters | · | Collect 64 Ghast Tears |
 | **Salt of the Nether** | Weaponry | · | Drop 32 Ghast Tears |
 | **Salt Water Cure** | Animals | · | Drink Milk inside an Ocean Monument to wash off the Elder Guardian's curse |
+| **Salvage Crew** | Biomes | ◆ | Empty all three chests a Shipwreck can carry: supply, treasure and map |
+| **Salvage Diver** | Adventure | ◆ | Brush a Suspicious Sand block inside a warm Ocean Ruin |
 | **Salvage from the Spires** | The End | ◆ | Break 5,000 End Stone Bricks |
 | **Salvaged Glow** | Adventure | · | Mine 200 Sea Lanterns |
 | **Salvager of the Deep** | Adventure | ◆ | Mine 150,000 Prismarine Bricks |
@@ -12296,6 +13815,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sand Into Vessels** | Enchanting | ★ | Pick up 100,000 Glass Bottles |
 | **Sand Made Clear** | Potions | · | Collect 2,000 Glass Blocks |
 | **Sand Made Sky** | Building | ★ | Place 15,000 Glass |
+| **Sand Trap** | Adventure | · | Stand on the wrong block in a Desert Pyramid and take the blast |
 | **Sand Turned Transparent** | The End | ★ | Craft 25,000 Glass |
 | **Sand Under the Fingernails** | Adventure | ★ | Use a Brush 4,000 times |
 | **Sandcastle** | Biomes | · | Mine 1,000 Sand |
@@ -12313,6 +13833,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sap Tapper** | Biomes | ◆ | Collect a full stack of Resin Clumps off the Pale Oaks |
 | **Sapling Salesman** | Adventure | · | Trade for a Sapling from the Wandering Trader |
 | **Sapling Steward** | Farming | · | Plant 100 Oak Saplings |
+| **Sat Too Close to the Fireworks** | The End | ◆ | Stand close enough to a detonating End Crystal to feel it |
+| **Satellite Campus** | Enchanting | · | Craft an Enchanting Table while standing in the Nether |
 | **Savanna Floorboards** | Building | · | Place 512 Acacia Planks. |
 | **Savanna Nursery** | Farming | · | Pick up 128 Acacia Saplings. |
 | **Savanna Sawmill** | Biomes | · | Mine 1,000 Acacia Logs |
@@ -12333,6 +13855,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Scavenging the Volley** | Monsters | · | Collect 1,000 Arrows |
 | **Scenic Route** | Redstone | ★ | Ride a Minecart in eight different biomes, from Mushroom Fields to Ice Spikes |
 | **Sceptre of Cinders** | Weaponry | ★ | Land 50,000 hits with a Netherite Spear |
+| **Scholarship Programme** | Enchanting | ◆ | Cure a Zombie Villager, then buy an Enchanted Book at the grateful price |
 | **Scooped Dry** | Statistics | ◆ | Fill 600 Empty Buckets |
 | **Scorched Earth** | Weaponry | ★ | Use 300 Fire Charges |
 | **Scourge of the Stonework** | Monsters | ★ | Mine 1,500 Infested Stone |
@@ -12344,6 +13867,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Scrap of the Knightly** | Weaponry | ◆ | Break 75 Iron Swords |
 | **Scrap Worth Dying For** | Nether | · | Collect 64 Netherite Scrap |
 | **Scrapheap Sovereign** | Weaponry | ★ | Land 20,000 hits with a Netherite Sword |
+| **Scraping By** | Building | · | Take an axe to a waxed copper block and strip the wax straight back off |
 | **Scraping the Ceiling** | Mining | ★ | Mine 5,000 Glow Lichen |
 | **Scraping the Floor** | Monsters | · | Collect 512 Sculk |
 | **Scraping the Red Crust** | Nether | ★ | Mine 15,000 Crimson Nylium |
@@ -12361,11 +13885,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sculk Eradicator** | Mining | ★ | Mine 4,000 Sculk Veins |
 | **Sculk Landscaping** | Redstone | · | Place 2,000 Sculk |
 | **Sculk Speculator** | Monsters | ◆ | Collect 20,000 Sculk |
+| **Sculk Tax** | Enchanting | ◆ | Kill a mob beside a Sculk Catalyst with a Mending tool in hand and watch the sculk take your experience |
 | **Sculptor of the Deep** | Mining | ◆ | Craft 1,024 Chiseled Deepslate |
 | **Scute Surplus** | Potions | · | Craft 2 Turtle Shells |
 | **Scutes by the Barrel** | Animals | ★ | Kill 4,000 Armadillos |
 | **Scythe of the Plains** | Biomes | ◆ | Mine 20,000 Tall Grass |
 | **Scything the Shallows** | Biomes | · | Mine 1,000 Tall Seagrass |
+| **Sea Change** | Enchanting | · | Spend real levels enchanting a Trident at an Enchanting Table |
 | **Sea Fan Collector** | Biomes | ◆ | Mine 500 Tube Coral Fans |
 | **Sea Lantern Halls** | Biomes | ◆ | Craft 2,048 Prismarine Slabs. |
 | **Sea Level Rising** | Statistics | ★ | Empty 10,000 Water Buckets |
@@ -12373,6 +13899,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sea Salad** | Biomes | · | Mine 500 Kelp |
 | **Sea Snack** | Farming | · | Eat Dried Kelp inside an Ocean Monument |
 | **Sea to Shining Sea** | Biomes | ★ | Sail five thousand blocks in a boat without ever touching land |
+| **Seafood Platter** | Animals | ◆ | Offer a Dolphin Cod, Salmon, Tropical Fish and Pufferfish |
+| **Sealed in Cowhide** | Super Challenges | ★★ | Defeat the Wither wearing a full set of leather armour, every piece bearing the Curse of Binding |
 | **Seamless Sandstone** | Building | ◆ | Place 8,000 Smooth Sandstone |
 | **Season of the Knife** | Monsters | ◆ | Craft 64 Carved Pumpkins |
 | **Seaweed Silo** | Biomes | ◆ | Place 8,192 Dried Kelp Blocks. |
@@ -12381,11 +13909,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Second Edition** | Enchanting | · | Copy a signed Written Book by crafting it with a Book and Quill |
 | **Second Growth** | Nether | · | Plant a Crimson Fungus in a Warped Forest and a Warped Fungus in a Crimson Forest |
 | **Second Set of Lungs** | Potions | · | Brew a Potion of Water Breathing |
+| **Second Thoughts** | The End | ★ | Drink a Potion of Slow Falling while already falling in the End |
 | **Second Thoughts, Mass Produced** | Enchanting | ◆ | Craft 40 Grindstones |
 | **Second Time Around** | Mining | · | Mine 5,000 Cobblestone |
+| **Second Wind in the Dark** | Biomes | ◆ | Burn a Totem of Undying to stay alive in the Deep Dark |
 | **Second-Hand Iron** | Enchanting | ◆ | Place 800 Chipped Anvils |
 | **Second-Hand Pickaxe** | Adventure | ◆ | Buy the enchanted Iron Pickaxe a Wandering Trader carries |
 | **Secure Entry** | Redstone | · | Place 64 Iron Doors |
+| **Security Detail** | The End | · | Build an Iron Golem to guard an End City |
 | **Sediment of the Slain** | Weaponry | ★ | Land 50,000 hits with a Stone Sword |
 | **Sedimentary, My Dear** | Biomes | ◆ | Mine 2,000 Terracotta |
 | **Sedimentary, My Dear Watson** | Mining | ◆ | Mine 2,500 Stone |
@@ -12412,9 +13943,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Seer of Strongholds** | The End | ◆ | Craft 100 Eyes of Ender |
 | **Selective Breeding** | Animals | ★ | Breed every variant of Cow, Pig and Chicken yourself |
 | **Selective Hearing** | Redstone | ◆ | Place 1,024 Calibrated Sculk Sensors |
+| **Self-Inflicted Airshow** | The End | ◆ | Fly into the blast of your own Firework Rocket |
+| **Send Up a Flare** | Building | · | Set a campfire on a Hay Bale to turn it into a signal fire |
+| **Sending It Home** | The End | · | Craft an Ender Chest in the End so your loot never has to make the trip |
 | **Sensor Assembly** | Redstone | · | Craft 256 Daylight Detectors |
 | **Sensor Deprivation** | Mining | ★ | Mine 8,192 Sculk Sensors |
 | **Sensor Supply** | Redstone | · | Craft 96 Detector Rails |
+| **Sentry of the Void** | Adventure | ★ | Build and summon an Iron Golem in the End |
 | **Serial Arsonist** | Nether | ★ | Use Flint and Steel 1,500 times |
 | **Serial Dragonicide** | The End | ★ | Kill the Ender Dragon 250 times |
 | **Serial Unpacker** | The End | ◆ | Break 5,000 Shulker Boxes |
@@ -12429,6 +13964,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Setting Out the Pottery** | Adventure | · | Place 256 Decorated Pots |
 | **Setting Up Shop** | Potions | · | Craft 3 Brewing Stands |
 | **Setting Up the Hut** | Adventure | · | Place 128 Cauldrons |
+| **Setting Up the Shot** | Enchanting | ◆ | Ride a Shulker's Levitation twenty blocks upwards with a Density V Mace in hand |
 | **Settling Beyond Counting** | Adventure | ◆ | Craft 5,000 Bells |
 | **Seven Diamonds a Leg** | Enchanting | · | Craft 32 Diamond Leggings |
 | **Seven Figures of Rubble** | Mining | ★ | Mine 100,000 Stone |
@@ -12450,6 +13986,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Shards Where the Point Was** | Weaponry | ◆ | Break 30 Diamond Spears |
 | **Shared Dose** | Potions | ◆ | Finish curing a Zombie Villager while Weakness is still running on you too |
 | **Sharp and Sparking** | Weaponry | · | Pick up 2,000 Flint |
+| **Sharp End of the Stick** | Enchanting | ◆ | Obtain a Netherite Spear carrying Lunge III |
 | **Sharp Practice** | Enchanting | ◆ | Kill a mob with a Copper Sword carrying Sharpness V |
 | **Sharpened by Habit** | Statistics | ◆ | Use a Diamond Pickaxe 4,000 Times |
 | **Sharpened Sapling** | Weaponry | ★ | Land 1,500 hits with a Wooden Spear |
@@ -12474,6 +14011,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Shelf Stocker** | Statistics | ◆ | Place a thousand Shelves |
 | **Shelf Sufficient** | Enchanting | ◆ | Craft 100 Bookshelves |
 | **Shell Game Champion** | Potions | ★ | Craft 250 Turtle Shells |
+| **Shell Mode** | Biomes | ◆ | Hold Slowness IV and Resistance III together while underwater. Turtle Master's finest |
+| **Shell Nursery** | Animals | ★ | Breed two Nautiluses inside an Ocean Monument, right under the Elder Guardians' noses |
+| **Shell of the Tide** | Adventure | ◆ | Wear a Turtle Helmet trimmed with the Tide pattern |
+| **Shell Suit** | Enchanting | · | Put an enchantment on a Turtle Shell |
 | **Shellbreaker Supreme** | Animals | ★ | Kill 6,000 Turtles |
 | **Shells Beyond Use** | Animals | ★ | Collect 2,000 Nautilus Shells |
 | **Shells by the Handful** | The End | · | Collect 1,000 Shulker Shells |
@@ -12493,10 +14034,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sherd Certainty** | Adventure | · | Pick up 8 Shelter Pottery Sherds |
 | **Ship of Theseus** | The End | ★ | Strip the Elytra out of five different End Ships |
 | **Shipwright** | Biomes | · | Fit a Chest into a Boat by crafting a Chest Boat |
+| **Shish Kebab** | Super Challenges | ★★ | Kill five different kinds of mob with one crossbow shot, none of them closer than 30 blocks |
+| **Shiver Me Striders** | Animals | · | Walk your Strider up out of the lava and watch it shiver on solid ground |
+| **Shock Therapy** | Enchanting | · | Charge up a Creeper by calling lightning onto it with a Channeling Trident |
 | **Shock Treatment** | Mining | ◆ | Let lightning strike an Oxidized Copper Block and strip its patina |
 | **Shoots and Ladders** | Farming | · | Plant 500 Bamboo |
 | **Shorn the Whole World** | Animals | ★ | Use Shears 100,000 times |
 | **Should Have Used Mending** | Enchanting | ◆ | Break 200 Diamond Pickaxes |
+| **Should've Thought of That** | Biomes | · | Craft an Oak Boat while you are already standing in the water |
 | **Shoulder to Cry On** | Animals | ★ | Ride a Parrot on your shoulder through both a Nether portal and an End portal |
 | **Shove the World** | Redstone | ★ | Place 4,000 Pistons |
 | **Shovel After Shovel** | Mining | ◆ | Break 200 Iron Shovels |
@@ -12514,6 +14059,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Shulker Shakedown** | The End | ◆ | Skewer a Shulker with a Copper Spear inside an End City |
 | **Shulkers of Rubble** | Mining | ◆ | Pick up 40,000 Cobblestone |
 | **Shut Eye** | Adventure | · | Pick up 64 Closed Eyeblossoms |
+| **Sibling Rivalry** | Animals | ◆ | Shoot down an ordinary Ghast while riding its friendly relative |
 | **Siege Engine** | Statistics | ◆ | Fire a Crossbow 1,000 Times |
 | **Siege Without End** | Statistics | ★ | Fire a Crossbow 20,000 Times |
 | **Sieve of the World** | Redstone | ★ | Place 50,000 Copper Grates |
@@ -12521,6 +14067,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sifting the Gold Farm** | Nether | ◆ | Collect 15,000 Gold Nuggets |
 | **Sifting the Warped Undergrowth** | Farming | · | Pick up 2,048 Warped Roots. |
 | **Sight Beyond Sight** | Farming | ★ | Harvest 100,000 Carrots |
+| **Sight Unseen** | Super Challenges | ★★ | Land the killing blow on the Ender Dragon while blinded by a Suspicious Stew |
+| **Sightseeing on the Way Up** | The End | · | Take in the view through a Spyglass while levitating |
 | **Sigil of the Skull** | Monsters | · | Pick up 1 Skull Banner Pattern |
 | **Signal Box** | Redstone | · | Place 100 Detector Rails |
 | **Signal Box Supreme** | Redstone | ★ | Place 3,000 Detector Rails |
@@ -12535,6 +14083,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Signposts Everywhere** | Building | · | Place 128 Oak Signs |
 | **Silence and Moss** | Building | ◆ | Place 8,000 Pale Moss Blocks |
 | **Silence in Bulk** | Redstone | ◆ | Drop 128 Sculk Catalysts |
+| **Silence in the Deep** | Super Challenges | ★★ | Defeat the Warden while wearing four pieces of armour trimmed with the Silence pattern |
 | **Silence in the Flowers** | Animals | ★ | Kill 15,000 Bees |
 | **Silence in the Grove** | Monsters | ★ | Kill 150 Creakings |
 | **Silence in the Roost** | Animals | ◆ | Kill 600 Bats |
@@ -12552,8 +14101,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Silent Forever After** | Monsters | ★ | Kill 5,000 Creakings |
 | **Silent Mannequin** | Enchanting | · | Craft 32 Armour Stands |
 | **Silent Ranks** | Building | ◆ | Place 4,000 Armor Stands |
+| **Silent Running** | The End | · | Sneak past a Sculk Sensor you planted in the End |
 | **Silent Supper** | Mining | ◆ | Set a Cake, a Campfire and a Smoker down inside an Ancient City, then eat a meal there |
 | **Silent Treatment** | Mining | · | Mine 1,000 Sculk |
+| **Silent Withdrawal** | Biomes | ◆ | Empty one of the Ancient City's own chests without ever stepping out of the Deep Dark |
 | **Silk Beyond Measure** | Monsters | ★ | Collect 100,000 String |
 | **Silk Cutter** | Monsters | ◆ | Break 500 Cobwebs |
 | **Silk in the Deep** | Enchanting | · | Pick up 128 Deepslate Lapis Lazuli Ore |
@@ -12581,6 +14132,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Six Thousand Workbenches** | Statistics | ★ | Place 6,000 Crafting Tables |
 | **Six Ways to Sunday** | Redstone | · | Place Pistons pointing in all six directions |
 | **Sixteen Candles** | Farming | · | Bake 20 Cakes |
+| **Sixteen Straps** | Animals | ★ | Fit Happy Ghasts with a Harness in every one of the sixteen colours |
+| **Sixty Metres of Spite** | The End | ◆ | Hurt the Ender Dragon from at least 60 blocks away |
 | **Sixty Thousand Seeds Cast Off** | Statistics | ★ | Drop 20,000 Wheat Seeds |
 | **Sixty-Four Thousand Blinks** | The End | ★ | Throw 40,000 Ender Pearls |
 | **Skeleton Crew** | Animals | · | Saddle a Skeleton Horse and ride it |
@@ -12588,11 +14141,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Skeleton Surplus** | Monsters | · | Craft 150 Bone Blocks |
 | **Skeletons by the Million** | Farming | ★ | Craft 25,000 Bone Meal |
 | **Skewer Master** | Weaponry | ◆ | Land 1,500 hits with a Diamond Spear |
+| **Skewer Tactics** | Enchanting | · | Skewer mobs with a thrown Spear while you are out in the End |
 | **Skewered in Splendour** | Weaponry | ★ | Land 20,000 hits with a Diamond Spear |
+| **Skimming the Abyss** | The End | ◆ | Glide underneath the End's islands, below the level of the void |
 | **Skimming the Cream** | Nether | ★ | Kill 2,500 Magma Cubes |
+| **Skin Against Sculk** | Super Challenges | ★★ | Kill a Warden with every armour slot empty |
 | **Skin Crawler** | Monsters | · | Be bitten by a Silverfish that burst out of your own Infested effect |
 | **Skin of the Warped Giants** | Nether | · | Mine 500 Warped Hyphae |
 | **Skinner of the Meadow** | Animals | · | Collect 500 Rabbit Hide |
+| **Skull and Crossbones** | Super Challenges | ★★ | Kill the Wither and a Wither Skeleton with a single crossbow arrow |
 | **Skull Bounty** | Enchanting | · | Kill a Wither Skeleton while swinging a sword enchanted with Looting III |
 | **Skull Collector** | Nether | ◆ | Kill 300 Wither Skeletons |
 | **Skull in Hand** | Weaponry | · | Use 32 Wither Skeleton Skulls |
@@ -12607,6 +14164,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sky Harpoon** | Weaponry | · | Kill a Phantom with a thrown Trident |
 | **Sky Hook** | Enchanting | · | Fire a Riptide Trident while wearing an Elytra on your back |
 | **Sky Mall** | Adventure | ◆ | Trade with a Villager without getting off your Happy Ghast |
+| **Sky Nursery** | Animals | ★ | Breed a pair of animals without dismounting your Happy Ghast |
+| **Sky Pirate** | Animals | ★ | Stand higher than 300 blocks up with a Parrot still riding your shoulder |
 | **Sky Tailor** | The End | ◆ | Apply the Spire armour trim to a piece of armour inside an End City |
 | **Skyfall Sentence** | Weaponry | ◆ | Land 30,000 hits with a Mace |
 | **Skylight** | Biomes | · | Fall forty blocks down a cave mouth and land in the Lush Caves |
@@ -12614,6 +14173,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Skyline Service** | Redstone | ◆ | Ride a Minecart at an altitude of Y=300 or higher |
 | **Skyscraper** | Building | ★ | Build a solid column from bedrock all the way to the build limit |
 | **Skyward Scaffold** | Building | ★ | Place 1,500 Scaffolding |
+| **Skywriting** | Enchanting | ◆ | Loose a Multishot Crossbow while riding a Happy Ghast |
 | **Slab by Slab, Gone** | The End | ◆ | Break 5,000 Purpur Slabs |
 | **Slab City** | Mining | · | Place 4,096 Cobblestone Slabs |
 | **Slab Surplus** | The End | ◆ | Drop 8,192 Purpur Slabs. |
@@ -12626,7 +14186,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Slate Expectations** | Mining | ◆ | Mine 2,500 Deepslate |
 | **Sleep Debt Collector** | The End | · | Kill 100 Phantoms |
 | **Sleep Tight** | Monsters | · | Kill a Phantom while standing on a Bed |
+| **Sleeping Arrangements** | Enchanting | ★ | Try a bed in the Nether wearing four pieces of Blast Protection IV, and live through the answer |
+| **Sleeping with the Elders** | Biomes | ★ | Clear an Ocean Monument out thoroughly enough to sleep a night inside it |
 | **Sleepless Salvage** | The End | ◆ | Collect 5,000 Phantom Membranes |
+| **Sleepover in the Stacks** | Enchanting | · | Sleep in a bed you have dragged into a Stronghold |
 | **Slice of Life** | Farming | · | Break 250 Melons |
 | **Sliced Violet** | The End | · | Craft 1,000 Purpur Slabs |
 | **Slices That Shine** | Potions | · | Collect 500 Glistering Melon Slices |
@@ -12639,12 +14202,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Slipperier Than It Looks** | Adventure | ◆ | Pick up 2,048 Blue Ice |
 | **Slotted and Pocketed** | Enchanting | · | Pick up 200 Chiseled Bookshelves |
 | **Slow and Steady Loses** | Animals | · | Kill 25 Turtles |
+| **Slow Approach** | Animals | · | Feed raw Cod to an Ocelot without ever coming up out of your crouch |
 | **Slow Burn** | Redstone | ◆ | Line up sixteen Repeaters at full four-tick delay and push a signal down the whole run |
 | **Slow Stone Rain** | Mining | ★ | Mine 40,000 Pointed Dripstone |
+| **Sluggish Vengeance** | Adventure | ◆ | Defeat an Elder Guardian while still suffering its Mining Fatigue |
+| **Slush Fund** | Building | · | Fill a cauldron with Powder Snow |
 | **Small Beginnings** | Mining | · | Mine 128 Small Amethyst Buds |
 | **Small Bills Only** | Adventure | ◆ | Craft 40,000 Emeralds |
 | **Small Change** | Mining | · | Hold sixty-four Copper, Iron and Gold Nuggets at the same time |
 | **Small Mercies** | Biomes | · | Loot the chest of one of the little Ocean Ruins, not the big one |
+| **Smash and Grab** | The End | ◆ | Empty an End City treasure chest while a Shulker has you off the floor |
 | **Smash the Strongbox** | Adventure | · | Break 25 Vaults |
 | **Smashing Hour** | Enchanting | ★ | Throw 2,500 Bottles o' Enchanting |
 | **Smelted a Mountain** | Enchanting | ★ | Craft 1,000 Anvils |
@@ -12661,6 +14228,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Smitten** | Weaponry | ★ | Beat the Wither to death in melee with a Smite V weapon |
 | **Smoke and Ashes** | Nether | · | Kill 150 Blazes |
 | **Smoke and Supper** | Adventure | · | Craft 128 Smokers |
+| **Smoke Break** | Building | ◆ | Set a campfire directly beneath a bee nest so the bees never take offence |
 | **Smoke Signals Everywhere** | Building | ◆ | Place 1,024 Campfires |
 | **Smoke Without End** | Farming | ★ | Cook 7,500 Steaks |
 | **Smoked and Salted** | Farming | · | Cook 2,000 Salmon |
@@ -12673,7 +14241,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Smothering the Spawner** | Nether | ★ | Kill 5,000 Blazes |
 | **Snack and Blink** | The End | · | Eat 150 Chorus Fruit |
 | **Snack of the Abyss** | Farming | ★ | Dry 50,000 Kelp |
+| **Snack Storage** | Building | · | Stash a cookie inside a Decorated Pot |
 | **Snail's Pace in Space** | The End | ★ | Ride a Nautilus in the End |
+| **Snapped** | Enchanting | · | Swing a Mace carrying Density V until the Mace itself gives out |
 | **Snapped at the Handle** | Farming | · | Wear out 10 Iron Hoes |
 | **Snapped at the Hilt** | Statistics | · | Break 5 Diamond Swords |
 | **Snapped at the Neck** | Farming | · | Wear out 25 Wooden Hoes until they break. |
@@ -12696,17 +14266,28 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Snout Mounted** | Monsters | · | Place 1 Piglin Head |
 | **Snout on Cloth** | Adventure | · | Drop 2 Piglin Banner Patterns |
 | **Snouts on Display** | Nether | ◆ | Mine 16 Piglin Heads |
+| **Snow Blind** | Animals | ◆ | Kill a Polar Bear while wearing a Carved Pumpkin and seeing almost nothing |
+| **Snow Cone Machine** | Biomes | · | Empty a bucket of Powder Snow into a Cauldron |
 | **Snow Day** | Biomes | · | Stand in a Grove biome while snow is falling on you |
+| **Snow Formula** | Animals | · | Hand a Snowball to a Ghastling and watch it puff up a little |
 | **Snow Job** | Building | · | Stack Snow eight layers deep into one block |
 | **Snow Up to the Eyes** | Biomes | · | Mine 250 Powder Snow |
+| **Snow Where to be Found** | The End | · | Stand in Powder Snow in the End |
 | **Snowball's Chance** | Biomes | ◆ | Craft 8,192 Snow Blocks. |
+| **Snowball's Chance in Hell** | Biomes | ◆ | Build a Snow Golem in the Nether and say goodbye |
+| **Snowed In** | Biomes | · | Loot the chest inside a snowy village's house |
 | **Snowed Under** | Biomes | ◆ | Mine 2,000 Snow |
 | **Snowfall of Parchment** | Enchanting | ★ | Drop 50,000 Paper |
 | **Snowfall on Demand** | Potions | · | Place 5,000 Snow |
+| **Snowman's Chance in Hell** | Building | ◆ | Build a Snow Golem in the Nether and watch it regret everything |
+| **Snowman's Home** | Adventure | · | Build a Snow Golem inside an igloo, where it belongs |
+| **Snowshoe Hare** | Biomes | · | Offer a Carrot to a white Rabbit out on the snow |
+| **Snowshoes** | Biomes | · | Stand on top of a block of Powder Snow without sinking in — Leather Boots required |
 | **Snuffed** | Potions | · | Mine 100 White Candles |
 | **Snuffed Out** | Nether | · | Kill 50 Blazes |
 | **Snuffing the Glow** | Animals | · | Kill 250 Glow Squid |
 | **Snuffled Up** | Adventure | · | Pick up 16 Torchflower Seeds |
+| **Snug as a Bug** | Building | ◆ | Sleep in a Mushroom Fields biome, the one bedroom nothing can spawn in |
 | **Soak It Up** | Biomes | · | Mine 32 Wet Sponges |
 | **Soaked Through** | Adventure | · | Drop 64 Wet Sponges |
 | **Soaking It Up** | Statistics | · | Place 16 Wet Sponges |
@@ -12717,6 +14298,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Soft Metal** | Mining | · | Wear out 8 Golden Axes |
 | **Soft Metal, Hard Life** | Weaponry | ◆ | Break 150 Copper Swords |
 | **Soft Metal, Hard Work** | Weaponry | · | Wear out 4 Golden Shovels |
+| **Soggy Scholar** | Biomes | · | Enchant something while standing in water. The books survive somehow |
 | **Soil for Sorrow** | Nether | ◆ | Place 5,000 Soul Soil |
 | **Soil of Screams** | Nether | · | Mine 400 Soul Soil |
 | **Soil of Ten Thousand Screams** | Nether | ★ | Mine 50,000 Soul Soil |
@@ -12725,7 +14307,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Solarium** | Building | ◆ | Place 1,000 Glass |
 | **Solid Gold Bad Idea** | Weaponry | ★ | Land 1,500 hits with a Golden Sword |
 | **Solid Signal** | Redstone | · | Place 75 Blocks of Redstone |
+| **Some Assembly Required** | The End | · | Craft a Shulker Box inside the End City you took the shells from |
+| **Someone Else's Bed** | Adventure | · | Sleep in the bed you found waiting in an igloo |
 | **Someone Else's Track** | Mining | · | Mine 256 Rails |
+| **Something Big on the Line** | The End | · | Hook a Shulker with a Fishing Rod and drag it out of its shell |
 | **Something Is Watching Back** | Monsters | · | Collect 256 Spider Eyes |
 | **Something Moved** | Mining | · | Mine 64 Infested Deepslate |
 | **Something Pale Grows** | Building | · | Place 128 Pale Moss Blocks |
@@ -12743,6 +14328,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sorted by Spine** | Enchanting | ◆ | Craft 25 Chiseled Bookshelves |
 | **Sorted Out** | Redstone | ◆ | Place 400 Hoppers |
 | **Sorting Facility** | Redstone | ◆ | Cram twenty-seven Hoppers and twenty-seven Chests into one storage room |
+| **Soul Caravan** | Animals | ★ | Walk a Camel through a Nether portal and ride it over the soul sand |
 | **Soul Food** | Nether | · | Cook raw food on a Soul Campfire in the Nether |
 | **Soul Harvest** | Nether | · | Collect a stack of Soul Sand and a stack of Soul Soil |
 | **Soul Lantern Sovereign** | Building | ◆ | Place 8,000 Soul Lanterns |
@@ -12755,9 +14341,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Soul Survivor** | Nether | · | Find a Nether Fortress that generated inside a Soul Sand Valley |
 | **Soul-Lit Corridors** | Building | ◆ | Place 7,500 Soul Torches |
 | **Soulless Wasteland** | Nether | ★ | Mine 300,000 Soul Sand |
+| **Sound Above the Clouds** | Biomes | ◆ | Blow a Goat Horn from a Jagged Peaks summit at least two hundred and fifty blocks up |
 | **Sound Carries** | Redstone | · | Drop 8 Echo Shards |
 | **Sound Off** | Adventure | · | Blow a Goat Horn 25 times |
 | **Sound Proofing** | Building | · | Lay a Wool block directly on top of a Sculk Sensor |
+| **Sound Thief** | Biomes | · | Drop a Goat Horn near a Fox and watch it trot off with your instrument |
 | **Soup Kitchen Supplies** | Farming | · | Craft 4,000 Bowls |
 | **Soup of the Day** | Potions | ◆ | Eat 150 Suspicious Stews |
 | **Soup of the Long Winter** | Potions | ◆ | Eat 10,000 Beetroot Soups |
@@ -12776,6 +14364,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sowing the Reds** | Farming | · | Plant 200 Beetroot Seeds |
 | **Sown for a Thousand Lanterns** | Farming | ★ | Plant 40,000 Pumpkin Seeds |
 | **Sown from Ancient Seed** | Potions | · | Plant 100 Torchflower Seeds |
+| **Space Dairy** | The End | · | Milk a Cow in the End |
 | **Space Is a Suggestion** | The End | ★ | Throw 100,000 Ender Pearls |
 | **Space Jam** | The End | · | Play a Music Disc in a Jukebox inside an End City |
 | **Spaghetti Junction** | Redstone | ◆ | Place 2,500 Redstone Dust |
@@ -12820,6 +14409,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Splintered on Day One** | Statistics | · | Break 25 Wooden Pickaxes |
 | **Splintered on Impact** | Adventure | · | Break 10 Shields |
 | **Splintered Shafts** | Monsters | · | Break 5 Wooden Spears |
+| **Splinters** | Super Challenges | ★★ | Kill a Ravager with an unenchanted Wooden Sword while wearing no armour |
 | **Splinters and Blisters** | Farming | · | Wear out 5 Wooden Hoes until they break. |
 | **Splinters and Iron Rims** | Statistics | ★ | Raise a Shield 15,000 Times |
 | **Splinters and Silence** | Monsters | ★ | Kill 400 Creakings |
@@ -12834,6 +14424,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Split, Split, Splat** | Nether | ★ | Kill 20,000 Magma Cubes |
 | **Splitting Headache** | Weaponry | · | Use an Iron Axe 500 times |
 | **Splitting Heirs** | Adventure | · | Kill 50 Vindicators |
+| **Spoiled Rotten** | Animals | · | Feed a whole Golden Apple to a Mule |
 | **Spoils of the Greater Trial** | Adventure | ◆ | Pick up 512 Ominous Trial Keys |
 | **Spoils of the Night Watch** | Monsters | ◆ | Pick up 16 Chainmail Helmets |
 | **Sponge Diver** | Biomes | ◆ | Mine 160 Wet Sponges |
@@ -12841,6 +14432,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sponge Room Raider** | Monsters | ◆ | Pick up 64 Wet Sponges |
 | **Spongy Scarlet** | Nether | · | Mine 150 Nether Wart Blocks |
 | **Spongy, Red and Endless** | Nether | ★ | Mine 7,500 Nether Wart Blocks |
+| **Spoonful of Sugar** | Animals | · | Drink a Honey Bottle to shrug off Poison |
 | **Spore Lord** | Biomes | ★ | Mine 25,000 Red Mushroom Blocks |
 | **Spore Loser** | Building | · | Hang five Spore Blossoms above one small room |
 | **Spore of the Moment** | Farming | · | Harvest 250 Red Mushrooms |
@@ -12853,10 +14445,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Spotted Caps in the Dark** | Potions | · | Plant 500 Red Mushrooms |
 | **Spreading the Blight** | Redstone | · | Place 16 Sculk Catalysts |
 | **Spreading the Bloom** | Redstone | · | Drop 32 Sculk Catalysts |
+| **Spreading the Grey** | Biomes | · | Use Bone Meal on Pale Moss and let the colourless stuff creep further through the garden |
 | **Spreading the Warp** | Nether | · | Place 2,000 Warped Nylium. |
 | **Sprig of Lilac** | Biomes | · | Pick up 64 Lilacs. |
 | **Spring Cleaning** | Monsters | · | Break 100 Cobwebs |
 | **Spring Loaded** | Potions | · | Brew a Potion of Leaping |
+| **Springheeled Steed** | Animals | ◆ | Ride a Horse while Jump Boost is running through your own veins |
 | **Sprout Sweeper** | Mining | ◆ | Mine 4,096 Small Amethyst Buds |
 | **Sprouting the Crimson** | Potions | · | Plant 250 Crimson Fungi |
 | **Sprouts of the Warped Waste** | Nether | · | Mine 250 Nether Sprouts |
@@ -12869,6 +14463,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Spuds to Spare** | Farming | · | Drop 300 Baked Potatoes. |
 | **Squall Baton** | Weaponry | ◆ | Land 10,000 hits with a Breeze Rod |
 | **Squatter's Rights** | Adventure | · | Sleep in a bed inside a Pillager Outpost |
+| **Squeeze It Dry** | Enchanting | ◆ | Kill an Elder Guardian with a Looting III sword and hope hard for the sponge |
+| **Squeezing the Sun** | Biomes | · | Crush a Sunflower down into Yellow Dye without leaving the Sunflower Plains |
+| **Squelched** | Biomes | · | Get killed by a Slime out in the swamp where they belong |
 | **Squirm and Squash** | Mining | · | Kill 250 Silverfish |
 | **Squish** | Nether | · | Kill 100 Magma Cubes |
 | **Squish Squash** | Monsters | ◆ | Kill 250 Slimes |
@@ -12876,6 +14473,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Stable Cleared** | Animals | ◆ | Kill 300 Horses |
 | **Stable Diet** | Animals | · | Feed a whole Hay Bale to a hurt or young Horse |
 | **Stable Genius** | Nether | ★ | Walk a Hoglin all the way up onto the Nether roof |
+| **Stacked Odds** | Animals | ◆ | Catch a fish on a rod carrying Luck of the Sea III |
 | **Stacked to the Rafters** | Animals | · | Drop 256 Hay Bales |
 | **Stacks Beyond the Silo** | Animals | ★ | Mine 20,000 Hay Bales |
 | **Stacks on Stacks** | Enchanting | ★ | Craft 250 Bookshelves |
@@ -12891,6 +14489,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Stalactite Ceilings** | Building | ◆ | Place 4,000 Dripstone Blocks |
 | **Stalactite Slayer** | Biomes | ◆ | Mine 20,000 Dripstone Blocks |
 | **Stalag-might** | Mining | ◆ | Mine 600 Pointed Dripstone |
+| **Stalagmighty** | Building | · | Stand a Pointed Dripstone upright on a pond floor |
 | **Stalemate** | Redstone | · | Set two Pistons a block apart, pointing straight at each other |
 | **Stalk Carpentry** | Biomes | · | Place 128 Bamboo Stairs. |
 | **Stalk Market** | Biomes | · | Mine 1,000 Bamboo |
@@ -12899,6 +14498,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Standard Issue** | Monsters | · | Kill a Skeleton that spawned wearing an Iron Helmet |
 | **Standard of Bones** | Monsters | ★ | Pick up 16 Skull Banner Patterns |
 | **Standing Army Supplier** | Weaponry | ◆ | Craft 3,000 Iron Swords |
+| **Standing in the Glow** | Biomes | · | Wade into the middle of a Firefly Bush in a Mangrove Swamp |
 | **Standing Stones of Study** | Enchanting | ★ | Place 600 Enchanting Tables |
 | **Stands in Every Corner** | Adventure | ◆ | Place 2,048 Brewing Stands |
 | **Star Collector** | Monsters | ◆ | Kill 2 Withers |
@@ -12913,6 +14513,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Starlight from Skulls** | Monsters | · | Collect 10 Nether Stars |
 | **Stars in the Pocket** | The End | · | Collect 1,000 Firework Stars |
 | **Static Discharge** | Nether | ◆ | Get struck by lightning while riding a Happy Ghast |
+| **Statuesque** | Building | · | Put up a Copper Golem Statue |
 | **Staves and Hoops** | Adventure | ◆ | Craft 5,000 Barrels |
 | **Steady Draw** | Statistics | · | Fire a Bow 600 Times |
 | **Steady Hands, Steady Bubbles** | Potions | · | Brew 800 Potions |
@@ -12935,6 +14536,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Step Lightly** | Redstone | · | Place 256 Oak Pressure Plates |
 | **Step Up** | Building | · | Place 75 Ladders |
 | **Stepped on a Bastion** | Adventure | · | Pick up 2 Pigstep Music Discs |
+| **Stepping Stones** | Biomes | · | Lay a Lily Pad down on swamp water |
 | **Stepping Stones of Green** | Farming | · | Place 512 Lily Pads. |
 | **Steps of Chorus Stone** | The End | · | Craft 1,000 Purpur Stairs |
 | **Steps of Sacrifice** | Nether | ◆ | Place 10,000 Red Nether Brick Stairs. |
@@ -12958,12 +14560,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sticky Business** | Redstone | · | Put a Slime Block right on the face of a Sticky Piston |
 | **Sticky Fingers** | Animals | · | Drop a Diamond on the ground and watch a Fox run off with it |
 | **Sticky Fortune** | Biomes | ★ | Mine 7,500 Resin Clumps |
+| **Sticky Landing** | The End | · | Slide down a Honey Block in the End |
 | **Sticky Remedy** | Potions | · | Craft 75 Honey Bottles |
 | **Still Not Mending** | Enchanting | ★ | Place 25,000 Lecterns |
 | **Still Waiting on an Update** | Adventure | ◆ | Craft 8,192 Fletching Tables |
 | **Still Works Fine** | Enchanting | · | Place 200 Chipped Anvils |
 | **Still Worth Saving** | Enchanting | ◆ | Pick up 600 Chipped Anvils |
 | **Stilts and Silt** | Biomes | ★ | Mine 10,000 Mangrove Logs |
+| **Sting** | Enchanting | · | Name a sword 'Sting' and give it Bane of Arthropods, so it knows when spiders are near |
 | **Stirring the Pot** | Farming | · | Craft 200 Mushroom Stew |
 | **Stitched From Hide** | Animals | · | Craft 500 Bundles |
 | **Stocking the Tank** | Animals | · | Place 250 Buckets of Tropical Fish |
@@ -12980,6 +14584,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Stone Cold** | Monsters | · | Kill a Silverfish inside a Stronghold |
 | **Stone That Squirms** | Monsters | · | Mine 10 Infested Stone |
 | **Stone-Bound Brilliance** | Mining | ◆ | Mine 60 Diamond Ore |
+| **Stooping Falcon** | Super Challenges | ★★ | Put an arrow through a Warden while you are plummeting past it |
+| **Stop, Drop and Shovel** | Building | · | Put out a burning campfire with a shovel |
 | **Storage Beyond Chests** | Building | ◆ | Place 256 White Shulker Boxes |
 | **Storage Beyond Sanity** | Building | ◆ | Place 15,000 Chests |
 | **Storage Problem Solved** | Building | · | Place 256 Chests |
@@ -12989,13 +14595,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Storage the Colour of Nothing** | The End | ◆ | Place 2,500 Black Shulker Boxes |
 | **Storage Without Limit** | Adventure | ★ | Craft 75,000 Barrels |
 | **Storm Alarm** | Redstone | · | Run Redstone Dust right up against a Lightning Rod so the next storm sets it off |
+| **Storm Antenna** | Building | ◆ | Top your roof off with a Lightning Rod 200 blocks up |
 | **Storm Broken** | Adventure | ★ | Kill 5,000 Breezes |
 | **Storm Caller** | Weaponry | ◆ | Bring down a Phantom with lightning called by a Channeling Trident |
 | **Storm Chaser** | Redstone | · | Ride a Minecart under open sky in the middle of a thunderstorm |
+| **Storm Drain** | Building | · | Set a waterlogged Copper Grate into the sea floor |
 | **Storm Magnet** | Building | · | Plant a Lightning Rod higher than Y=250, up where the storms live |
 | **Storm Rider** | Biomes | ◆ | Ride a Nautilus across a deep ocean during a thunderstorm |
 | **Storm Sale** | Adventure | · | Trade with a Villager in the middle of a thunderstorm |
+| **Storm Shelter** | Adventure | ◆ | Sleep a thunderstorm out in a bed inside a village |
 | **Storm Surge** | Enchanting | · | Launch yourself with a Riptide III Trident during a thunderstorm |
+| **Storm Swimmer** | Biomes | ◆ | Be out swimming in the open ocean when the lightning comes down |
 | **Storm Switch** | Redstone | · | Plant a Lightning Rod directly on top of a Copper Bulb |
 | **Storm the Castle** | Weaponry | ◆ | Channel a bolt of lightning into a mob while you are inside a Pillager Outpost |
 | **Storm Ward** | Redstone | ◆ | Place 200 Lightning Rods |
@@ -13003,13 +14613,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Storms in Your Pocket** | Potions | ★ | Craft 7,500 Wind Charges |
 | **Story Time** | Building | · | Set a Book down on a Lectern for everyone to read |
 | **Straight Down From Here** | Redstone | ★ | Place 2,500 Droppers |
+| **Straight from the Bird** | Animals | · | Eat Raw Chicken and let the Hunger that follows teach you something |
 | **Straight From the Jar** | Animals | · | Drink 250 Honey Bottles |
 | **Straight from the Oven** | Farming | · | Bake 150 Baked Potatoes |
 | **Strange Soil** | Farming | ◆ | Plant a Sapling on Podzol, on Mycelium, on a Moss Block, on Mud and on Rooted Dirt |
+| **Strapped In** | Animals | · | Buckle a Harness onto a grown Happy Ghast so it will carry you |
 | **Stratum by Stratum** | Biomes | ★ | Mine 20,000 Terracotta |
 | **Streetlamps for the Damned** | The End | ★ | Place 3,000 End Rods |
 | **Streetlight** | Building | · | Stand a Lantern on top of a Fence post |
 | **Strictly Pescatarian** | Animals | ◆ | Eat 600 Cooked Cod |
+| **Strider Beyond the Stars** | The End | ★ | Ride a Strider across a lava pool you built in the End |
 | **Strike Zone** | Redstone | · | Place 40 Lightning Rods |
 | **Striking Matches** | Redstone | · | Craft 256 Redstone Torches |
 | **Stringing Along** | Redstone | · | Place 256 String |
@@ -13030,14 +14643,18 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Stronghold Salvage** | Enchanting | ◆ | Mine 6 Enchanting Tables |
 | **Stronghold Surveyor** | The End | ◆ | Throw 256 Eyes of Ender |
 | **Struck and Unhorsed** | Monsters | · | Kill 2 Skeleton Horses |
+| **Struck Down** | Super Challenges | ★★ | Brand the Wither with channelled lightning while its own decay is eating you, then finish it with a thrown Trident |
 | **Stubborn as a Mule** | Animals | · | Tame a Mule of your own |
 | **Stuck in the Middle With You** | Weaponry | ◆ | Kill a monster with a Spear while it is tangled in a Cobweb |
 | **Stuck on Sweetness** | Farming | · | Craft 64 Honey Blocks |
 | **Stuck With You** | Enchanting | · | Strap on an Elytra enchanted with Curse of Binding |
+| **Studying in a Storm** | Enchanting | ◆ | Enchant an item while a thunderstorm hammers the roof |
 | **Stung Once Too Often** | Animals | · | Kill 150 Bees |
 | **Style Over Substance** | Mining | · | Break 250 Golden Pickaxes |
+| **Submerged Syllabus** | Enchanting | ★ | Enchant an item at a table you have installed inside an Ocean Monument |
 | **Subtraction Mode** | Redstone | · | Place 100 Redstone Comparators |
 | **Sucrose Sovereign** | Farming | ★ | Harvest 5,000 Sugar Cane |
+| **Sudden Career Change** | Biomes | ★ | Steer a channelled lightning bolt into a Villager and watch the profession change for good |
 | **Sugar Cane Civilization** | Enchanting | ★ | Place 50,000 Sugar Cane |
 | **Sugar Dynasty** | Statistics | ★ | Place 2,500 Cakes |
 | **Sugar Rush** | Farming | ◆ | Harvest 2,000 Sugar Cane |
@@ -13050,8 +14667,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Sun-Bleached Legion** | Monsters | ★ | Kill 4,000 Husks |
 | **Sun-Dried** | Monsters | · | Kill 100 Husks |
 | **Sun-Scorched Slayer** | Monsters | ★ | Kill 20,000 Parched |
+| **Sunday Best** | Biomes | · | Empty the chest of the meeting house at the heart of a Savanna village |
 | **Sunday Stew** | Animals | ◆ | Pick up 1,024 Rabbit Stew |
+| **Sunk Cost** | Enchanting | ◆ | Die with a hundred levels of experience still in your pocket |
+| **Sunk With All Hands** | Animals | · | Get killed by a Zombie Nautilus |
 | **Sunk Without Trace** | Monsters | ◆ | Kill 1,500 Drowned |
+| **Sunken Dig Site** | Biomes | ★ | Brush Suspicious Sand in both a cold and a warm Ocean Ruin |
+| **Sunken Gateway** | Adventure | · | Find a Ruined Portal at the bottom of the ocean |
 | **Sunken Market** | Adventure | · | Trade with a Villager while you are both standing in water |
 | **Sunken Payload** | Biomes | ◆ | Open a Buried Treasure chest while Conduit Power is running on you |
 | **Sunken Statue** | Biomes | · | Leave a Copper Golem Statue standing inside an Ocean Monument |
@@ -13076,6 +14698,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Swamp Masonry** | Biomes | ◆ | Craft 1,024 Packed Mud. |
 | **Swamp Thing** | Biomes | ★ | Mine 5,000 Mud |
 | **Swat Team** | Weaponry | ◆ | Kill a Phantom with a Mace smash attack |
+| **Swatted** | Enchanting | · | Swat a Phantom out of the night sky with a bow enchanted with Punch II |
 | **Swatting Season** | Animals | · | Kill 50 Bees |
 | **Sweeper Deployed** | Redstone | · | Place 32 Minecarts with Hopper |
 | **Sweet and Slow** | Farming | ◆ | Craft 2,500 Honey Blocks |
@@ -13094,10 +14717,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Switchboard Operator** | Redstone | ◆ | Place 300 Levers |
 | **Swordsmith of the Realm** | Weaponry | ★ | Craft 40,000 Iron Swords |
 | **Symphony in Redstone** | Redstone | ★ | Place 500 Note Blocks |
+| **Séance** | Building | ◆ | Light a cluster of four Black Candles all at once |
 | **Table for Every Base** | Enchanting | · | Craft 4 Enchanting Tables |
 | **Table Thief** | Enchanting | ★ | Mine 20 Enchanting Tables |
 | **Tables in the Dirt** | Enchanting | ★ | Drop 600 Enchanting Tables |
 | **Tack Room** | Animals | ◆ | Craft 50 Saddles |
+| **Tack Shop** | Animals | · | Buy a Saddle off a villager rather than digging one out of a chest |
+| **Tackle Box** | Animals | · | Help yourself to the chest in a village Fisherman's cottage |
 | **Tackle Box Purge** | Weaponry | · | Drop 128 Fishing Rods |
 | **Tacky Situation** | Animals | · | Pick up 64 Honey Blocks |
 | **Tadpoles Without Number** | Animals | ◆ | Use 2,500 Slimeballs |
@@ -13109,6 +14735,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Take It Back Off** | Enchanting | · | Craft 8 Grindstones |
 | **Take It With You** | Enchanting | · | Mine 2 Enchanting Tables |
 | **Take the Hit** | Statistics | · | Raise a Shield 750 Times |
+| **Take the Podium** | Enchanting | · | Lay a signed Written Book out on a Lectern for everyone to read |
 | **Take the Shelf Too** | Enchanting | · | Mine 8 Chiseled Bookshelves |
 | **Take the Stairs** | Building | · | Place 150 Oak Stairs |
 | **Taking Down the Tower** | Enchanting | ◆ | Break 24 Beacons |
@@ -13147,12 +14774,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Tempered by Slaughter** | Weaponry | ★ | Land 2,000 hits with an Iron Sword |
 | **Tempest Tally** | Weaponry | ★ | Use a Trident 4,000 times |
 | **Template Duplication** | Enchanting | ◆ | Craft 64 Netherite Upgrade Smithing Templates |
+| **Temple Cats** | Animals | ◆ | Breed two Ocelots inside a Jungle Pyramid |
 | **Temple Raider** | Biomes | ◆ | Mine 20,000 Sandstone |
 | **Temple Season** | Building | ◆ | Place 1,000 Sandstone |
 | **Temple That Never Ends** | The End | ★ | Place 100,000 Purpur Pillars |
 | **Temple Without Texture** | Building | ◆ | Place 25,000 Smooth Sandstone |
 | **Temples of Lapis** | Enchanting | ★ | Place 25 Enchanting Tables |
 | **Temporary Forever** | Building | ★ | Place 25,000 Scaffolding |
+| **Ten Second Lungs** | Biomes | · | Come up for air still breathing, courtesy of the Turtle Shell on your head |
 | **Ten Thousand Benches Hauled** | Enchanting | ★ | Pick up 10,000 Smithing Tables |
 | **Ten Thousand Blank Pages** | Enchanting | ★ | Craft 4,000 Books and Quills |
 | **Ten Thousand Chops** | Statistics | ★ | Eat 10,000 Cooked Porkchops |
@@ -13179,6 +14808,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Terraforming the Void** | The End | ★ | Place 20,000 End Stone |
 | **Tether Tycoon** | Animals | ★ | Craft 1,500 Leads |
 | **That Brick Moved** | Adventure | · | Mine 256 Infested Stone Bricks |
+| **Thaw Point** | Biomes | ◆ | Place a block of Ice in a Warm Ocean and watch it give up |
 | **The Abandoned Library** | Enchanting | ★ | Drop 5,000 Bookshelves |
 | **The Acacia Quarter** | Building | ◆ | Place 25,000 Acacia Planks. |
 | **The Adhesive Works** | Redstone | ◆ | Craft 2,048 Sticky Pistons |
@@ -13188,6 +14818,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Alabaster Motherlode** | Nether | ★ | Mine 2,500 Nether Quartz Ore |
 | **The Alchemist's Furnace** | Nether | ★ | Use 25,000 Blaze Powder |
 | **The Alchemy Monopoly** | Potions | ★ | Craft 1,500 Brewing Stands |
+| **The Amber Room** | Building | ◆ | Set Chiseled Resin Bricks into a wall and glow like old sap |
 | **The Amethyst Alcove** | Building | · | Place 512 Amethyst Blocks |
 | **The Amphibian Architect** | Animals | ★ | Use 30,000 Slimeballs |
 | **The Analog Floor** | Redstone | ◆ | Place 8,192 Light Weighted Pressure Plates |
@@ -13259,9 +14890,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Bear's Share** | Animals | ◆ | Drop 4,096 Raw Salmon |
 | **The Beet Goes On** | Farming | ★ | Plant 30,000 Beetroot Seeds |
 | **The Belfry Falls** | Animals | ★ | Kill 1,500 Bats |
+| **The Bell Below** | Super Challenges | ★★ | Defend a village from a raid while you are standing in the Deep Dark |
 | **The Bell Foundry** | Adventure | ◆ | Craft 1,024 Bells |
 | **The Bells Toll for No One** | Adventure | ★ | Kill 750 Villagers |
 | **The Berg Shrinks** | Biomes | ◆ | Mine 5,000 Packed Ice |
+| **The Best Seat in the House** | The End | ◆ | Land the killing blow on the Ender Dragon while standing on the bedrock fountain |
 | **The Big Picture** | Building | · | Hang a painting that fills a whole four-by-four wall |
 | **The Big Screen** | Redstone | ★ | Place 500 Redstone Lamps |
 | **The Bindery** | Enchanting | ◆ | Craft 300 Books |
@@ -13286,6 +14919,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Bleached Grove** | Building | · | Place 512 Pale Moss Blocks |
 | **The Bleached Harvest** | Nether | ◆ | Smelt 1,024 Nether Quartz. |
 | **The Bleached Shelf** | Biomes | ◆ | Mine 512 Dead Tube Coral Blocks. |
+| **The Blind Deep** | Super Challenges | ★★ | Kill an Elder Guardian while a Sculk Shrieker's Darkness has you blind and its Mining Fatigue has you slow |
 | **The Blond Frame** | Building | ◆ | Place 7,000 Stripped Birch Wood. |
 | **The Bloom Machine** | Farming | ◆ | Use 2,500 Bone Meal |
 | **The Blue Brush** | Enchanting | ◆ | Use 2,000 Lapis Lazuli as dye |
@@ -13327,9 +14961,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Bullion Line** | Redstone | ◆ | Craft 12,000 Powered Rails |
 | **The Bullion Room** | Enchanting | ◆ | Craft 4,096 Blocks of Gold |
 | **The Bundle Works** | Animals | ★ | Craft 8,000 Bundles |
+| **The Buried Sun** | Building | ★ | Complete a full-power Beacon below Y=0, sky shaft and all |
 | **The Butcher Is Hiring** | Adventure | · | Craft 512 Smokers |
 | **The Button Farm** | Redstone | ★ | Place 5,000 Stone Buttons |
 | **The Cage World** | Building | ★ | Place 75,000 Iron Bars |
+| **The Cake Is a Void** | The End | · | Eat a slice of Cake in the End |
 | **The Cake Is Real** | Statistics | · | Place 10 Cakes |
 | **The Calcite Quarter** | Building | ★ | Place 50,000 Calcite |
 | **The Cane Harvest** | Enchanting | ◆ | Pick up 15,000 Sugar Cane |
@@ -13403,6 +15039,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Cold Light** | Building | · | Place 2,000 Soul Torches |
 | **The Cold Runs Out** | Monsters | ★ | Kill 50,000 Strays |
 | **The Cold War Was Literal** | Statistics | ★ | Throw 50,000 Snowballs |
+| **The Coldest Shot** | Super Challenges | ★★ | Kill a Blaze using snowballs while you are swimming in lava |
 | **The Collected Works** | Enchanting | ★ | Craft 600 Written Books |
 | **The Collection Fleet** | Redstone | · | Place 128 Minecarts with Hopper |
 | **The Collector's Burden** | Enchanting | ★ | Pick up 10,000 Books |
@@ -13476,6 +15113,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Cure Was Never Coming** | Adventure | ★ | Kill 2,500 Zombie Villagers |
 | **The Cyan Cathedral** | Potions | ◆ | Place 10,000 Warped Wart Blocks |
 | **The Daily Loaf** | Farming | · | Eat 500 Bread |
+| **The Dairy Antidote** | The End | · | Drink Milk to cut a Shulker's levitation short |
 | **The Dairy Devotee** | Animals | ★ | Drink 400 Buckets of Milk |
 | **The Daisy Chain Gang** | Potions | ◆ | Mine 20,000 Oxeye Daisies |
 | **The Dark Masonry Trade** | Nether | ◆ | Mine 10,000 Polished Blackstone |
@@ -13489,6 +15127,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Dawn Patrol** | Redstone | ★ | Place 600 Daylight Detectors |
 | **The Debris Layer** | Nether | · | Stand below y = 15 in the Nether holding a Diamond or Netherite Pickaxe |
 | **The Decorative Layer** | Adventure | · | Mine 1,024 Chiseled Tuff Bricks |
+| **The Decoy** | Building | ◆ | Place a Trapped Chest right beside an ordinary one |
+| **The Deep Dark Moves In** | The End | ◆ | Kill a Shulker beside a Sculk Catalyst you carried up from the Deep Dark |
 | **The Deep Dark Recedes** | Mining | ★ | Mine 250,000 Sculk |
 | **The Deep Dark Recoils** | Biomes | ◆ | Mine 1,000 Sculk Catalysts |
 | **The Deep Dark Spreads** | Redstone | ★ | Place 6,000 Sculk Catalysts |
@@ -13500,6 +15140,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Deep Patina** | Mining | ◆ | Mine 4,096 Deepslate Copper Ore |
 | **The Deep Seam Intact** | Enchanting | ★ | Pick up 2,000 Deepslate Lapis Lazuli Ore |
 | **The Deep Stacks** | Enchanting | ★ | Craft 1,500 Chiseled Bookshelves |
+| **The Deepest Basement** | Building | ◆ | Lay a block down on the bedrock floor of the world |
 | **The Deepest Seam** | Mining | ★ | Mine 50,000 Deepslate Coal Ore |
 | **The Deepslate Dominion** | Building | ◆ | Place 40,000 Deepslate |
 | **The Deforestation Budget** | Statistics | ◆ | Break 25 Diamond Axes |
@@ -13551,6 +15192,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Earthworks** | Building | · | Place 6,000 Dirt |
 | **The Egg Moves Again** | The End | · | Place 16 Dragon Eggs |
 | **The Ejection Row** | Redstone | · | Place 256 Activator Rails |
+| **The Elder Woods** | Biomes | ◆ | Walk under the canopy of the Old Growth Pine Taiga, the Old Growth Spruce Taiga and the Old Growth Birch Forest |
 | **The Elytra Closet** | The End | ◆ | Collect 64 Elytra |
 | **The Ember Mill** | Potions | ★ | Craft 15,000 Blaze Powder |
 | **The Emerald Chamber** | Building | ◆ | Place 64 Blocks of Emerald |
@@ -13589,6 +15231,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Evokers Fund My Funerals** | Adventure | ★ | Use 1,000 Totems of Undying |
 | **The Evokers Keep Paying** | Adventure | · | Pick up 256 Totems of Undying |
 | **The Exhibition Grows** | Adventure | · | Place 1,024 Decorated Pots |
+| **The Explorer's Kit** | Adventure | ◆ | Carry the whole explorer's kit at once: a Brush, a Spyglass, a Compass and a filled Map |
 | **The Extinct Garden** | Farming | ★ | Harvest 2,000 Torchflowers |
 | **The Extinction of the Vein** | Statistics | ★ | Pick up 200 Deepslate Emerald Ore |
 | **The Face of the Wind** | Adventure | · | Pick up 16 Guster Pottery Sherds |
@@ -13600,6 +15243,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Field Is Bald Now** | Potions | ★ | Mine 100,000 Oxeye Daisies |
 | **The Filler Vein** | Mining | · | Mine 5,000 Andesite |
 | **The Final Blade** | Nether | ◆ | Upgrade a Diamond Sword into a Netherite Sword |
+| **The Fire Did It** | Enchanting | ◆ | Let a mob burn to death from a Flame bow rather than finishing it off with the arrow |
 | **The Fire Never Goes Out** | Statistics | ★ | Craft or smelt 60,000 Bricks |
 | **The Fire Went Out** | Nether | ★ | Kill 750 Blazes |
 | **The Fireproof Pantry** | Monsters | ◆ | Collect 8,000 Magma Cream |
@@ -13623,6 +15267,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Floor Gave Way** | Biomes | ◆ | Mine 1,000 Big Dripleaf |
 | **The Floor Is Lava** | Nether | ◆ | Cross two hundred blocks of Nether lava on foot without ever touching it |
 | **The Floor Is No Longer Lava** | Nether | ★ | Mine 30,000 Magma Blocks |
+| **The Floor of Nothing** | The End | ◆ | Place a block on the lowest layer the End will let you build on |
 | **The Florist's Hoard** | The End | ◆ | Collect 20,000 Chorus Flowers |
 | **The Flower Forest Fades** | Biomes | ◆ | Mine 50,000 Alliums |
 | **The Flowing Collection** | Adventure | ◆ | Pick up 1,024 Flow Pottery Sherds |
@@ -13711,6 +15356,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Grain Remembers** | Weaponry | ★ | Land 25,000 hits with a Wooden Sword |
 | **The Granary of Pips** | Farming | ◆ | Pick up 16,384 Melon Seeds. |
 | **The Grand Banks** | Biomes | ★ | Collect 40,000 Cod |
+| **The Grand Finale** | The End | · | Die to a Firework Rocket in the End, which is at least a stylish way to go |
 | **The Grand Finale, Repeatedly** | The End | ★ | Craft 16,384 Firework Stars |
 | **The Grand Orchestra** | Redstone | ★ | Place 1,500 Note Blocks |
 | **The Gravel Sea** | Mining | ★ | Mine 500,000 Gravel |
@@ -13767,6 +15413,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Grey Woods Fell** | Biomes | ◆ | Craft 8,192 Pale Oak Planks. |
 | **The Grid Never Sleeps** | Redstone | ★ | Place 7,500 Redstone Torches |
 | **The Grill Never Cools** | Animals | ★ | Eat 40,000 Cooked Beef |
+| **The Grimoire Shelf** | Building | · | Slot an Enchanted Book into a Chiselled Bookshelf |
 | **The Grinder's Tithe** | Potions | ◆ | Collect 4,096 Blaze Powder |
 | **The Grindstone Dump** | Enchanting | ★ | Drop 3,000 Grindstones |
 | **The Grinning Green Mace** | Weaponry | ★ | Use 12,000 Creeper Heads |
@@ -13776,6 +15423,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Groves Are Gone** | The End | ★ | Break 200,000 Chorus Plant blocks |
 | **The Growing Dark** | Redstone | ◆ | Place 512 Sculk Catalysts |
 | **The Guardians Pay Tribute** | Adventure | · | Pick up 2,000 Prismarine Shards |
+| **The Guest Room** | Building | ★ | Spend the night in a Woodland Mansion |
 | **The Guild of Readers** | Enchanting | ★ | Craft 1,500 Lecterns |
 | **The Gunpowder Plot** | Redstone | ★ | Drop 50,000 Gunpowder |
 | **The Guster Gallery** | Adventure | ◆ | Pick up 1,024 Guster Pottery Sherds |
@@ -13790,6 +15438,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Haunted Lamplighter** | Nether | ◆ | Mine 2,500 Soul Lanterns |
 | **The Hayloft** | Animals | ◆ | Use 400 Hay Bales |
 | **The Healing Crate** | Potions | · | Collect 2,500 Glistering Melon Slices |
+| **The Healing Lotl** | Animals | · | Let an Axolotl finish a kill for you and take the Regeneration it hands over |
 | **The Hearty Pot** | Potions | · | Eat 1,000 Rabbit Stews |
 | **The Helmet Graveyard** | Enchanting | ★ | Wear out 160 Diamond Helmets until they break |
 | **The Helmet Shelf** | Enchanting | ◆ | Craft 400 Diamond Helmets |
@@ -13897,8 +15546,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Last Incantation** | Adventure | ★ | Kill 100 Evokers |
 | **The Last Ingot Standing** | Weaponry | ★ | Land 100,000 hits with a Netherite Sword |
 | **The Last Legs Pile** | Enchanting | ★ | Mine 300 Damaged Anvils |
+| **The Last Lighthouse** | The End | ★ | Raise a full-power Beacon on the End islands |
 | **The Last Pig Standing** | Animals | ★ | Kill 1,500 Pigs |
 | **The Last Seed on Earth** | Farming | ★ | Plant 100,000 Wheat Seeds |
+| **The Last Wiggle** | Animals | · | Steer a Pig until the Carrot on a Stick finally falls apart |
 | **The Lava Sea Sails Empty** | Nether | ★ | Kill 7,500 Striders |
 | **The Lazy Ones Never Woke** | Animals | ◆ | Kill 150 Pandas |
 | **The Leatherworks** | Animals | ◆ | Use 512 Leather Leggings |
@@ -13907,8 +15558,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Levitation Will Not Be Televised** | The End | ★ | Kill 400 Shulkers |
 | **The Librarian's Debt** | Adventure | · | Pick up 512 Enchanted Books |
 | **The Librarian's Fever Dream** | Building | ★ | Place 20,000 Bookshelves |
+| **The Library Card** | The End | · | Loot the chest hidden in a Stronghold's library |
 | **The Library of Everything** | Enchanting | ★ | Craft 25,000 Books |
 | **The Lie, Confirmed** | Statistics | · | Break 5 Cakes |
+| **The Lifeguard** | Building | ◆ | Fit an Armour Stand with a Turtle Shell and post it underwater |
 | **The Lighting Warehouse** | The End | ◆ | Collect 30,000 End Rods |
 | **The Lightning Farm** | Redstone | ★ | Place 7,500 Lightning Rods |
 | **The Line Never Rests** | Animals | ★ | Use a Fishing Rod 20,000 times |
@@ -13924,8 +15577,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Long Campsite** | Building | · | Place 256 Campfires |
 | **The Long Cold Hunt** | Weaponry | ★ | Land 25,000 hits with a Stone Spear |
 | **The Long Cool Down** | Mining | ★ | Mine 10,000 Obsidian |
+| **The Long Crossing** | Animals | ★ | Ride a Strider 300 blocks across lava in a single unbroken crossing |
 | **The Long Dry Road** | Monsters | ★ | Kill 400 Camel Husks |
 | **The Long Echo** | Redstone | ★ | Drop 512 Echo Shards |
+| **The Long Fork** | Super Challenges | ★★ | Deal the Ender Dragon its killing blow with a thrown Trident from at least sixty blocks away |
 | **The Long Gallery** | Enchanting | ◆ | Craft 50 Oak Shelves |
 | **The Long Game** | Potions | ★ | Hold the extended version of every potion that has one, all at the same time |
 | **The Long Haft** | Weaponry | ◆ | Use a Netherite Axe 1,500 times |
@@ -14038,6 +15693,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Ocean, Compressed** | Farming | ★ | Craft 40,000 Dried Kelp Blocks |
 | **The Ocular Buffet** | Potions | ★ | Eat 2,000 Spider Eyes |
 | **The Ominous Keyring** | Adventure | · | Pick up 128 Ominous Trial Keys |
+| **The Only Water Out Here** | The End | · | Fill a Bucket from a water source in the End |
 | **The Onyx Dominion** | Building | ★ | Place 25,000 Polished Blackstone Bricks |
 | **The Optician's Bench** | Adventure | ◆ | Craft 1,024 Spyglasses |
 | **The Optics Plant** | Redstone | ◆ | Craft 8,192 Observers |
@@ -14134,6 +15790,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Prime Mover** | Redstone | ★ | Craft 50,000 Pistons |
 | **The Prison Wing** | Building | · | Place 2,000 Iron Bars |
 | **The Private Library** | Adventure | ★ | Pick up 30,000 Enchanted Books |
+| **The Prodigal Ghast** | Animals | ★ | Fly a Happy Ghast back through a Nether portal to the home of its miserable cousins |
 | **The Prongs Gave Out** | Enchanting | · | Break 25 Tridents |
 | **The Published Shelf** | Enchanting | ◆ | Pick up 400 Written Books |
 | **The Puffer Extinction Event** | Potions | ★ | Kill 4,000 Pufferfish |
@@ -14143,6 +15800,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Purple Landfill** | The End | ★ | Drop 32,768 Purpur Slabs. |
 | **The Purple Meadow** | Biomes | ◆ | Pick up 2,048 Lilacs. |
 | **The Purpur Foundry** | The End | ★ | Craft 1,500 Purpur Blocks |
+| **The Purpur Line** | The End | · | Lay rail and ride a Minecart through an End City |
 | **The Pushing Age** | Redstone | ★ | Place 25,000 Pistons |
 | **The Pyrotechnic Pantry** | The End | ◆ | Collect 20,000 Firework Stars |
 | **The Quarry Has No Bottom** | Building | ★ | Place 30,000 Cobblestone |
@@ -14224,6 +15882,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Same Chest Everywhere** | The End | ★ | Craft 100 Ender Chests |
 | **The Same Song Forever** | Monsters | ◆ | Collect 75 Music Disc 13 |
 | **The Sand Kings** | Building | ★ | Place 30,000 Sandstone |
+| **The Sands Remember** | Adventure | ◆ | Bring the Dune Smithing Template out of a Desert Pyramid |
 | **The Sapphire District** | Enchanting | ★ | Place 1,500 Blocks of Lapis Lazuli |
 | **The Sargasso Sea** | Biomes | ★ | Mine 5,000 Kelp |
 | **The Savanna Scatters** | Animals | ◆ | Kill 1,000 Armadillos |
@@ -14280,6 +15939,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Shoal Never Returns** | Animals | ★ | Kill 4,000 Cod |
 | **The Shovel Graveyard** | Mining | ★ | Break 800 Iron Shovels |
 | **The Shovel That Ate a Continent** | Potions | ★ | Use a Diamond Shovel 100,000 times |
+| **The Shrieker's Warning** | Biomes | · | Feel the Darkness close in on you while you are still down in the Deep Dark |
 | **The Shulker Wall** | Building | ◆ | Place 64 White Shulker Boxes |
 | **The Shulker Warehouse** | Building | ★ | Place 1,024 White Shulker Boxes |
 | **The Siege Will Never Come** | Building | ★ | Place 15,000 Cobblestone Walls |
@@ -14360,6 +16020,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Standing Legion** | Building | ★ | Place 15,000 Armor Stands |
 | **The Star Foundry** | Monsters | ★ | Collect 750 Nether Stars |
 | **The Staring Supply** | Redstone | ◆ | Craft 2,048 Observers |
+| **The Starter Weapon** | Super Challenges | ★★ | Finish off both the Ender Dragon and the Wither in melee, each of them with a Wooden Sword |
 | **The Starving Artist** | Building | · | Craft 32 Paintings. |
 | **The Statue Garden** | Redstone | · | Place 256 Copper Golem Statues |
 | **The Statue's Revenge** | Weaponry | ★ | Land 25,000 hits with a Copper Spear |
@@ -14483,6 +16144,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Unblinking Hoard** | Monsters | ◆ | Collect 12,000 Spider Eyes |
 | **The Unblinking Legion** | Redstone | ★ | Place 6,000 Observers |
 | **The Unbreakable Broke** | Mining | · | Break 3 Netherite Pickaxes |
+| **The Underside** | The End | ★ | Get below the central island and look up at it |
 | **The Understory Erased** | Farming | ★ | Mine 250,000 Large Ferns. |
 | **The Underwater Meadow** | Farming | ◆ | Place 10,000 Seagrass |
 | **The Undo Wheel** | Enchanting | · | Craft 20 Grindstones |
@@ -14514,6 +16176,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Village Doubles Again** | Adventure | ◆ | Craft 5,000 White Beds |
 | **The Village Economy Broke** | Adventure | ★ | Pick up 100,000 Emeralds |
 | **The Village Hires Again** | Enchanting | ◆ | Place 150 Smithing Tables |
+| **The Village Pulpit** | Building | · | Read a book straight off a lectern |
 | **The Village Registrar** | Adventure | ★ | Use 2,000 Name Tags |
 | **The Village Saddler** | Animals | · | Craft 20 Saddles |
 | **The Village Sleeps Uneasy** | Animals | ★ | Kill 2,000 Cats |
@@ -14528,6 +16191,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Violet Filing System** | The End | ◆ | Craft 512 Purple Shulker Boxes |
 | **The Violet Halls** | Building | · | Place 1,000 Purpur Blocks |
 | **The Vixen's End** | Animals | ◆ | Kill 300 Foxes |
+| **The Void Apothecary** | The End | ◆ | Brew a potion at a stand set up inside an End City |
 | **The Void Has a Grid Now** | The End | ★ | Place 10,000 End Rods |
 | **The Void Has Streetlights** | The End | ★ | Place 1,500 End Rods |
 | **The Void Pays Its Debts** | Monsters | ★ | Collect 40,000 Ender Pearls |
@@ -14623,7 +16287,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **The Zoglin Abattoir** | Nether | ★ | Kill 200 Zoglins |
 | **The Zombified Stampede** | Nether | ★ | Kill 1,000 Zoglins |
 | **Thermal Shock** | Biomes | · | Stand in a desert and in a frozen biome within ten seconds of each other |
+| **They Don't Stick** | Building | ◆ | Place a Honey Block flush against a Slime Block; neither will ever pull the other |
 | **They Keep Breaking** | Enchanting | ◆ | Place 30 Anvils |
+| **They Never Fall** | Building | · | Place leaves by hand so that they will never decay |
 | **Thin and Clear** | The End | · | Craft 5,000 Glass Panes |
 | **Thin Crust** | Biomes | ◆ | Mine 1,000 Frosted Ice |
 | **Thinking With Coral** | Biomes | ◆ | Mine 2,048 Brain Coral Blocks |
@@ -14654,16 +16320,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Three Hundred Thousand Blue Grains** | Enchanting | ★ | Pick up 100,000 Lapis Lazuli |
 | **Three of a Kind** | Enchanting | ★ | Hold a Loyalty III, a Riptide III and a Channeling Trident at the same time |
 | **Three Points of Order** | Weaponry | · | Use a Trident 100 times |
+| **Three Schools of Thought** | Enchanting | ◆ | Carry a Sharpness V weapon, a Smite V weapon and a Bane of Arthropods V weapon all at the same time |
 | **Three Skulls a Hundred Times** | Monsters | ★ | Kill 40 Withers |
 | **Three Thousand Sanctums Carried** | Enchanting | ★ | Pick up 3,000 Enchanting Tables |
 | **Three Ways to Serve** | Potions | · | Hold the drinkable, splash and lingering versions of the same potion at once |
 | **Threw Away a Fortune** | Enchanting | ★ | Drop 50,000 Lapis Lazuli |
 | **Threw Away a Thousand Levels** | Enchanting | ★ | Drop 50,000 Bottles o' Enchanting |
+| **Through a Gourd, Darkly** | Super Challenges | ★★ | Land the Ender Dragon's killing blow by hand while a cursed Carved Pumpkin is stuck on your head |
 | **Through the Basalt** | Mining | · | Mine 150 Smooth Basalt |
+| **Through the Ice** | Animals | · | Bucket a Salmon straight out of a Frozen River |
 | **Throw Every Switch** | Redstone | ★ | Place 5,000 Levers |
 | **Throwing Away Magic** | Enchanting | ◆ | Drop 250 Enchanted Books |
+| **Thrown Thunder** | Super Challenges | ★★ | Charge a Creeper with a Channeling Trident thrown from 40 blocks away |
 | **Thunder Brings the Herd** | Monsters | ★ | Kill 200 Skeleton Horses |
 | **Thunder Cull** | Monsters | · | Kill 4 Skeleton Horses |
+| **Thunder Island** | Biomes | ◆ | Have lightning come down right beside you while you are standing on Mycelium |
 | **Thunder on the Rails** | Redstone | ★ | Place 400 Minecarts with TNT |
 | **Thunder Without End** | Weaponry | ★ | Use a Trident 50,000 times |
 | **Thunderstruck** | Enchanting | ◆ | Call down lightning on a Ravager with a Channeling Trident |
@@ -14681,33 +16352,42 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Tiled Patterns** | Building | · | Place 500 Pink Glazed Terracotta. |
 | **Tilled Till Dawn** | Farming | ★ | Till 80,000 blocks of soil with an Iron Hoe |
 | **Tilled to Pieces** | Statistics | · | Break 3 Diamond Hoes |
+| **Tilling Alien Soil** | The End | · | Turn imported Dirt into Farmland in the End |
 | **Timber Frame** | Building | · | Place 1,500 Oak Planks |
 | **Timber From Below** | Nether | · | Place 1,000 Crimson Stems. |
 | **Timber From the Quiet Wood** | Biomes | ★ | Craft 32,768 Pale Oak Planks. |
 | **Timber Industry** | Statistics | ◆ | Craft 2,500 Oak Planks |
 | **Timber Tyrant** | Weaponry | · | Use a Diamond Axe 1,000 times |
+| **Timber Wolf** | Biomes | · | Win over the coal-black Wolf that answers to nobody outside the Old Growth Pine Taiga |
 | **Timber, Sort Of** | Farming | · | Break 4,000 Brown Mushroom Blocks |
 | **Timberfall Tally** | Weaponry | ★ | Use a Wooden Axe 25,000 times |
 | **Time Has Been Undone** | Adventure | ◆ | Mine 150,000 Mossy Stone Bricks |
 | **Time Machine** | Mining | · | Scrape Copper with an Axe down to Weathered, Exposed and plain Copper |
+| **Time Means Nothing Here** | Building | · | Hang a Clock in an Item Frame in the Nether, where it spins forever |
 | **Time on Your Hands** | Weaponry | ★ | Pick up 4,000 Clocks |
 | **Time Weathers Everything** | Building | ◆ | Place 12,000 Mossy Cobblestone |
 | **Tip of the Spear** | Nether | ◆ | Upgrade a Diamond Spear into a Netherite Spear |
 | **Tip of the Treeline** | Weaponry | ★ | Land 4,000 hits with a Wooden Spear |
 | **Tipping Out the Water** | Potions | · | Break 500 Water Cauldrons |
+| **Tiptoeing Through the Void** | The End | · | Sneak past a Sculk Sensor you installed in the End |
 | **Toad in the Hole** | Nether | · | Mine 16 Ochre Froglight. |
+| **Toadstool Cottage** | Building | ◆ | Build with all three huge mushroom blocks. Silk Touch required |
 | **Toggle Tyrant** | Redstone | ★ | Place 25,000 Levers |
+| **Tomb Service** | Adventure | · | Sleep in a bed inside a Desert Pyramid |
 | **Too Heavy to Keep** | Enchanting | ◆ | Drop 2,000 Obsidian |
 | **Too Many Sticks** | Statistics | · | Drop 5,000 Sticks |
 | **Too Many to Carry** | The End | ◆ | Drop 6,000 Ender Pearls |
 | **Too Much Copper** | Mining | · | Pick up 15,000 Raw Copper |
 | **Too Much Seaweed** | Farming | ◆ | Drop 15,000 Dried Kelp. |
 | **Too Rich to Carry** | Adventure | ★ | Drop 4,096 Blocks of Emerald |
+| **Too Tall to Miss** | Animals | · | Discover that a Camel keeps you out of reach of everything except arrows |
 | **Took Apart the Sapphire City** | Enchanting | ★ | Mine 40,000 Blocks of Lapis Lazuli |
 | **Toolsmith District** | Enchanting | ★ | Place 750 Smithing Tables |
 | **Toolsmith Wanted** | Enchanting | · | Place 20 Smithing Tables |
 | **Toothpick** | Enchanting | · | Kill an Evoker with a Wooden Sword enchanted with Sharpness V |
 | **Top Shelf** | Enchanting | · | Enchant a Book using the enchanting table's most expensive slot |
+| **Top Shelf Doom** | Adventure | ◆ | Drink an Ominous Bottle of the very strongest vintage |
+| **Topping Out** | Building | ★ | Place a block at the top of the Overworld, above the Nether's roof and high over the End |
 | **Toppling the Columns** | The End | · | Break 1,000 Purpur Pillars |
 | **Topsy Turvy** | Animals | · | Name a Pig 'Dinnerbone' to turn it upside down |
 | **Torch Factory** | Mining | ◆ | Craft two thousand Torches |
@@ -14723,6 +16403,8 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Total Traffic Control** | Redstone | ★ | Place 500 Detector Rails |
 | **Touch Grass** | Biomes | ★ | Mine 10,000 Short Grass |
 | **Tougher Than Tuff** | Building | ★ | Place 5,000 Tuff Bricks |
+| **Tow Rope** | Adventure | · | Hook an empty Boat with a Fishing Rod and tow it along behind you |
+| **Tower Dive** | The End | ★ | Drop fifty blocks down an End City and land on Slime you brought yourself |
 | **Toxic Atmosphere** | Potions | ◆ | Throw 60 Lingering Potions |
 | **Toxic Sludge Sweep** | Monsters | ◆ | Kill 1,000 Bogged |
 | **Toxicology** | Potions | · | Brew a Potion of Poison and a Potion of Harming |
@@ -14732,8 +16414,11 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Track by Track** | Mining | · | Craft 1,500 Rails |
 | **Track Record** | Mining | · | Place 300 Rails |
 | **Track to Nowhere and Back** | Mining | ★ | Craft 100,000 Rails |
+| **Trade Secrets** | Adventure | ◆ | Rifle the toolsmith's, the weaponsmith's and the armourer's chests of a village |
 | **Trade Until It Hurts** | Building | ★ | Place 4,000 Blocks of Emerald |
+| **Trade Winds** | Animals | ◆ | Cross open ocean on a Happy Ghast without a boat in sight |
 | **Tradesman's Entrance** | Building | · | Hang a Copper Door in a wall with Copper Blocks pressed against both sides of it |
+| **Trading With the Enemy** | Adventure | ◆ | Trade with a Wandering Trader inside a Pillager Outpost |
 | **Trail of Embers** | Biomes | ★ | Place a Campfire in twelve different biomes, from the Mushroom Fields to the Deep Dark |
 | **Trail of Light** | The End | · | Drop 512 Spectral Arrows. |
 | **Trampled in Return** | Adventure | ★ | Kill 250 Ravagers |
@@ -14741,22 +16426,29 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Transparent Ambitions** | Building | ★ | Place 5,000 Glass |
 | **Transplant** | Building | ◆ | Place a Sculk Catalyst in the Nether |
 | **Trap Disposal Specialist** | Adventure | ◆ | Break 8,192 Trapped Chests |
+| **Trap Room Archaeology** | Adventure | · | Brush a Suspicious Sand block inside a Desert Pyramid |
 | **Trap Sprung** | Monsters | · | Kill a Skeleton that is riding a Skeleton Horse |
 | **Trap Sprung Again** | Monsters | ◆ | Kill 15 Skeleton Horses |
 | **Trapdoor Logic** | Redstone | · | Place 512 Iron Trapdoors |
+| **Trapdoor Surprise** | Biomes | · | Find the hidden basement chest under an Igloo's carpet |
 | **Trapdoor Tessellation** | Building | ◆ | Place 2,000 Bamboo Trapdoors. |
 | **Trapped Beneath Your Feet** | Building | ◆ | Place 25,000 Soul Sand |
 | **Trapped in Every Direction** | Redstone | ★ | Place 20,000 Tripwire Hooks |
 | **Traps Made of Fire** | Nether | · | Place 500 Magma Blocks |
+| **Travel Light** | The End | ◆ | Stand in the End with one Shulker Box and no more than four other things |
 | **Trawler Captain** | Biomes | ◆ | Collect 2,500 Cod |
 | **Trawlerman** | Animals | ◆ | Kill 750 Cod |
 | **Trawlerman of the Deep** | Animals | ★ | Kill 25,000 Cod |
+| **Treading Water** | Animals | · | Reel a fish in while you are in the water with it |
+| **Treasure Trove** | Enchanting | ★ | Carry Enchanted Books for Mending, Frost Walker and Curse of Binding at the same time |
 | **Tree Climber** | Building | · | Fix a Ladder to the side of a standing Log |
 | **Trees Into Fuel** | Mining | · | Obtain 512 Charcoal from smelting |
 | **Trespasser** | Nether | · | Get killed by an ordinary Piglin |
 | **Trespassers** | Biomes | ◆ | Kill a Zombie in the Mushroom Fields, where none of them can spawn |
 | **Trialsmith** | Monsters | ◆ | Drop 25 Ominous Trial Keys |
 | **Tribute to the Snouts** | Nether | · | Drop 256 Gold Ingots |
+| **Trident Tourist** | Enchanting | · | Carry an Impaling V Trident through the portal into the Nether, where nothing is ever wet |
+| **Trident Trilogy** | Biomes | ★ | Kill a Guardian, an Elder Guardian and a Drowned, each with a thrown Trident |
 | **Trim of the Tide** | Monsters | · | Pick up 1 Tide Armor Trim Smithing Template |
 | **Trimming the Meadow** | Biomes | ◆ | Mine 10,000 Tall Seagrass |
 | **Trimming the Sea Forest** | Farming | · | Break 8,000 Kelp Plants |
@@ -14766,19 +16458,25 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Triple Threat** | Enchanting | ◆ | Carry a Sharpness V sword, a Power V bow and an Impaling V Trident all at once |
 | **Trodden Circuits** | Redstone | ◆ | Place 200 Stone Pressure Plates |
 | **Trolley Service** | Redstone | · | Trade with a Villager that is sitting in a Minecart |
+| **Trophies of the Deep** | Adventure | ★ | Hold a Trident, a Nautilus Shell and a Heart of the Sea all at the same time |
 | **Trophies of the Tempest** | Enchanting | ◆ | Pick up 20 Creeper Heads |
 | **Trophy Cabinet** | Monsters | ★ | Hold a Creeper Head, a Zombie Head, a Skeleton Skull, a Wither Skeleton Skull and a Piglin Head all at the same time |
 | **Trophy Case** | Building | · | Put a Copper Golem Statue on a Shelf |
+| **Trophy Catch** | Enchanting | · | Reel in a Nautilus Shell on a rod enchanted with Luck of the Sea III |
 | **Trophy of the Snout** | Nether | · | Mine 4 Piglin Heads |
 | **Trophy on the Wall** | The End | · | Place 16 Dragon Heads |
 | **Trophy Turned Truncheon** | Weaponry | ◆ | Use 4,000 Creeper Heads |
 | **Trophy Wall of Bone** | Nether | ◆ | Mine 64 Wither Skeleton Skulls |
+| **Tropical Displacement** | Biomes | · | Release a Tropical Fish into a Cold Ocean, far from home |
 | **Trousers of Attrition** | Enchanting | ◆ | Wear out 200 Iron Leggings until they break |
 | **True Blue** | Enchanting | ◆ | Mine 400 Lapis Lazuli Ore |
 | **True North** | Enchanting | · | Craft 1 Lodestone |
+| **True North Doesn't Exist Here** | The End | · | Lock a Compass to a Lodestone in the End, where compasses are useless |
+| **True North Is a Lie** | The End | · | Bind a Compass to a Lodestone in the End |
 | **Trunks Without Rings** | Farming | ◆ | Pick up 25,000 Crimson Stems. |
 | **Trust Me, It's Delicious** | Farming | ★ | Craft 15,000 Suspicious Stew |
 | **Trust Nothing** | Redstone | ★ | Place 250 Trapped Chests |
+| **Truth in Advertising** | Building | · | Mount a Creeper Head on top of a block of TNT |
 | **Try Again, Librarian** | Enchanting | · | Place 50 Lecterns |
 | **Tuber or Not Tuber** | Animals | · | Pick up 5,000 Potatoes |
 | **Tuber Trove** | Farming | · | Harvest 750 Potatoes |
@@ -14792,11 +16490,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Tuff Love** | Mining | ◆ | Mine 5,000 Tuff |
 | **Tuff Luck** | Mining | · | Mine 500 Tuff |
 | **Tug of the Rope** | Animals | · | Use a Lead 1,000 times |
+| **Tug of War** | Biomes | · | Hook your own Boat with a Fishing Rod and reel your ride back in |
 | **Tugboat** | Weaponry | · | Reel in a Boat with a Fishing Rod |
 | **Tumbleweed Tally** | Biomes | · | Mine 250 Dead Bushes |
 | **Tundra Tyrant** | Biomes | ★ | Kill 400 Polar Bears |
 | **Tuned In** | Redstone | ◆ | Set a Comparator so it feeds into a Calibrated Sculk Sensor |
 | **Tuned Out** | Monsters | · | Mine 8 Calibrated Sculk Sensors |
+| **Turbulence** | The End | · | Smack the Ender Dragon out of the air with a thrown Wind Charge |
 | **Turf War** | Biomes | · | Mine 5,000 Grass Blocks |
 | **Turnabout** | Weaponry | · | Kill a Vindicator with an Iron Axe of your own |
 | **Turned on the Bench** | Farming | · | Craft 500 Bowls |
@@ -14806,6 +16506,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Turquoise Turf** | Nether | · | Mine 100 Warped Nylium |
 | **Turtle Buffet** | Biomes | ◆ | Mine 5,000 Seagrass |
 | **Turtle Turf** | Farming | · | Place 2,000 Seagrass |
+| **Turtle Wax** | Adventure | · | Trim a Turtle Shell with Resin |
 | **Turtling Up** | Statistics | · | Raise a Shield 250 Times |
 | **Tusk Guard** | Nether | · | Block a charging Hoglin with a Shield |
 | **Twelve Thousand Blue Blocks** | Enchanting | ★ | Mine 12,000 Blocks of Lapis Lazuli |
@@ -14822,7 +16523,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Twice as Fast, Twice Again** | Adventure | ◆ | Craft 2,048 Smokers |
 | **Twig Duellist** | Weaponry | · | Land 250 hits with a Stick |
 | **Twilight of the Axe** | Weaponry | ★ | Use a Netherite Axe 100,000 times |
+| **Twin Drumsticks** | Animals | ◆ | Line two Chickens up and take them both down with a single arrow |
+| **Two Ancients, One Bolt** | Super Challenges | ★★ | Catch a Warden and a Sniffer in the same Channeling lightning bolt |
+| **Two Birds, One Bolt** | Biomes | ◆ | Skewer two Drowned with a single Piercing crossbow shot |
 | **Two Blocks Tall** | Farming | · | Harvest 25 Pitcher Plants |
+| **Two Boxes, One Bolt** | The End | ★ | Skewer two Shulkers with a single Piercing crossbow bolt |
+| **Two Humps and a Tomb** | Animals | · | Ride a Camel right up onto a Desert Pyramid |
 | **Two Humps, No Heartbeat** | Monsters | · | Kill 25 Camel Husks |
 | **Two Hundred Thousand Discarded** | Statistics | ★ | Drop 30,000 Cobblestone |
 | **Two Hundred Thousand Free Shots** | Monsters | ★ | Collect 100,000 Arrows |
@@ -14835,17 +16541,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Two Hundred Withered Husks** | Nether | ★ | Mine 200 Dried Ghasts |
 | **Two Million Blades** | Biomes | ★ | Mine 500,000 Short Grass |
 | **Two Million Stalks** | Biomes | ★ | Mine 500,000 Bamboo |
+| **Two Schools of Archery** | Enchanting | · | Carry a bow with Infinity and a bow with Mending at the same time, since no single bow may hold both |
 | **Two Thousand Broken Oaths** | Weaponry | ★ | Break 1,000 Iron Swords |
 | **Two Thousand Five Hundred Jukeboxes** | Statistics | ★ | Place 2,500 Jukeboxes |
 | **Two Thousand Splintered Lances** | Weaponry | ★ | Break 1,000 Iron Spears |
 | **Two Thousand Stubs** | Mining | ★ | Break 2,000 Stone Pickaxes |
+| **Two's Company** | Animals | · | Tame a second Parrot while the first one is already perched on you |
 | **Ubiquitous Storage** | The End | ★ | Craft 4,000 Ender Chests |
 | **Ultramarine** | Enchanting | ★ | Mine 1,600 Lapis Lazuli Ore |
 | **Unblinking** | Biomes | · | Mine 250 Open Eyeblossoms |
 | **Unburnable Will** | Weaponry | ★ | Land 50,000 hits with a Netherite Sword |
 | **Undead Census** | Adventure | · | Kill 250 Zombie Villagers |
 | **Undead Undertow** | Monsters | ◆ | Kill 75 Zombie Nautiluses |
+| **Under Construction** | Building | ★ | Run Scaffolding up to 300 blocks. The site office is a long way down |
 | **Under Fire** | Monsters | ★ | Take an unblocked hit from a Ghast's fireball, a Blaze's fireball, a Wither's skull, a Shulker's bullet, a Breeze's wind charge and an Evoker's fangs |
+| **Under New Management** | Building | ★ | Install a Sea Lantern of your own inside an Ocean Monument |
 | **Under Observation** | Redstone | · | Set an Observer down beside a Shelf, a Copper Chest and a Copper Bulb |
 | **Under Pressure Forever** | Weaponry | ★ | Land 50,000 hits with a Diamond Sword |
 | **Under Someone Else's Roof** | Adventure | ◆ | Pick up 128 Shelter Pottery Sherds |
@@ -14857,6 +16567,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Under the Moss** | Monsters | · | Mine 100 Infested Mossy Stone Bricks |
 | **Under the Pink Canopy** | Biomes | ◆ | Craft 1,024 Cherry Wood. |
 | **Undercover Bones** | Nether | · | Wear a Wither Skeleton Skull as a helmet inside a Nether Fortress |
+| **Undercover Buyer** | Adventure | · | Trade with a Villager while wearing a Zombie Head |
 | **Underfoot Undergrowth** | Mining | · | Pick up 2,048 Rooted Dirt |
 | **Underground Allotment** | Farming | ★ | Plant every farmland crop below Y=-50 |
 | **Underground Economy** | Biomes | ◆ | Trade with a Wandering Trader while you are both standing in the Deep Dark |
@@ -14865,6 +16576,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Understory** | Farming | · | Plant a Sapling directly underneath a block of Leaves |
 | **Undertaker of the Overworld** | Monsters | ★ | Kill 15,000 Zombies |
 | **Underwater Landscaper** | Biomes | ◆ | Mine 50,000 Tall Seagrass |
+| **Undisturbed** | Biomes | · | Sleep out in the open on the Mushroom Fields, where nothing will ever come to wake you |
 | **Undoing the Ancients** | Monsters | ★ | Mine 512 Reinforced Deepslate |
 | **Undoing the Masons** | The End | · | Break 1,000 End Stone Bricks |
 | **Undressed** | Nether | · | Take a Harness off a Happy Ghast with Shears |
@@ -14881,12 +16593,15 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Unpack Anywhere** | The End | ★ | Place 1,500 Shulker Boxes |
 | **Unpacking Day** | The End | · | Break 250 Shulker Boxes |
 | **Unpacking in Violet** | The End | · | Place 500 Purple Shulker Boxes |
+| **Unpacking Mid-Air** | The End | · | Open a Shulker Box while levitating past it |
 | **Unpacking the Pack Animals** | Adventure | ◆ | Kill 1,000 Trader Llamas |
 | **Unpaving Paradise** | The End | ◆ | Break 20,000 Purpur Slabs |
 | **Unravelled Soles** | Enchanting | ◆ | Wear out 8 Chainmail Boots until they break |
 | **Unrefined Wealth** | Mining | · | Pick up 4,096 Raw Gold |
 | **Unsaddled and Unalive** | Monsters | ◆ | Kill 75 Camel Husks |
+| **Unscheduled Trial** | Super Challenges | ★★ | Kill a Warden inside a Trial Chamber |
 | **Unseen and Unheard** | Potions | ★ | Kill a Warden while the Invisibility effect is running |
+| **Unseen in the Spires** | The End | · | Wander an End City while nobody can see you |
 | **Untamed and Undone** | Animals | ◆ | Kill 500 Ocelots |
 | **Untangled** | Monsters | ★ | Break 2,500 Cobwebs |
 | **Untangling the Deep** | Monsters | ◆ | Collect 10,000 Sculk Veins |
@@ -14895,6 +16610,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Untouched Vein** | Mining | · | Carry an intact Copper Ore block and a Deepslate Copper Ore block at the same time |
 | **Unwrapped Mummy** | Monsters | ◆ | Kill 600 Husks |
 | **Up in the Stirrups** | Animals | · | Use a Saddle 250 times |
+| **Up to the Neck** | Super Challenges | ★★ | Kill a Piglin Brute while you are standing in lava with no Fire Resistance to save you |
 | **Up We Go** | Building | · | Place 150 Scaffolding |
 | **Updraft Addict** | Adventure | ◆ | Throw 600 Wind Charges |
 | **Upgrade Stations Everywhere** | Adventure | ◆ | Craft 2,048 Smithing Tables |
@@ -14932,6 +16648,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Vending Empire** | Redstone | ★ | Place 500 Dispensers |
 | **Venom Immunity** | Mining | ★ | Kill 5,000 Cave Spiders |
 | **Verdant Glow** | The End | · | Collect 128 Verdant Froglights. |
+| **Verdigris** | Building | ★ | Place Chiseled Copper in all four stages of its decay |
 | **Verdigris Champion** | Super Challenges | ★★ | Kill the Ender Dragon, the Wither, a Warden and an Elder Guardian while wearing a full set of Copper Armour |
 | **Verdigris Forever** | Statistics | ★ | Break 1,000 Copper Leggings |
 | **Verdigris Fortune** | Mining | ★ | Mine 15,000 Copper Ore |
@@ -14950,8 +16667,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Vessels Beyond Counting** | Potions | ★ | Craft 2,500 Glass Bottles |
 | **Vigil** | Nether | · | Place a Soul Torch in a Soul Sand Valley |
 | **Vigil Eternal** | Building | ★ | Place 300 Candles |
+| **Village Insurance** | Building | ◆ | Fit a Lightning Rod to a village before the lightning finds the thatch |
 | **Village of Dreams** | Building | ◆ | Place 2,000 White Beds |
 | **Village of Mud** | Building | ◆ | Place 1,500 Mud Bricks |
+| **Villager Airlines** | Adventure | ◆ | Ride a Happy Ghast that is also carrying a Villager |
 | **Villager Money Well Spent** | Building | · | Place 16 Blocks of Emerald |
 | **Villager Roulette** | Enchanting | ★ | Place 15,000 Lecterns |
 | **Vindication of Diorite** | Building | ★ | Place 100,000 Diorite |
@@ -14968,9 +16687,17 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Violet Light Through Violet Glass** | The End | ◆ | Place 7,500 Purple Stained Glass |
 | **Violet Windows** | Potions | · | Craft 2,500 Purple Stained Glass |
 | **Viscosity Tycoon** | Monsters | ★ | Craft 30,000 Slime Blocks |
+| **Void Academy** | The End | ◆ | Enchant an item at a table you built in the End |
+| **Void Assembly Line** | The End | ◆ | Let a Crafter make End Stone Bricks for you in the End |
+| **Void Bakery** | Building | ◆ | Place a Cake in the End |
+| **Void Chemistry** | The End | · | Brew a potion in the End |
 | **Void Fanfare** | The End | · | Blow a Goat Horn in the End |
+| **Void Fleece** | Animals | ★ | Get a Sheep all the way to the End and shear it there |
+| **Void Market** | Adventure | ★ | Trade with a Villager in the End |
+| **Void Marksman** | Super Challenges | ★★ | Kill the Ender Dragon with an arrow loosed from at least a hundred blocks away |
 | **Void Orchard** | The End | · | Place 200 Chorus Flowers |
 | **Void Vermin** | The End | ◆ | Kill 40 Endermites |
+| **Void Warranty** | Enchanting | ★ | Wear a Netherite Spear carrying Lunge III right down to splinters |
 | **Volcanic Ambition** | Building | ★ | Place 30,000 Tuff Bricks |
 | **Volcanic Architecture** | Building | ◆ | Place 30,000 Basalt |
 | **Volcanic Glassware** | Mining | · | Mine 150 Obsidian |
@@ -14979,15 +16706,19 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Volley After Volley** | Adventure | ◆ | Kill 600 Pillagers |
 | **Vow of Silence** | The End | ◆ | Apply 12 Silence Armour Trims. |
 | **Vulpine Erasure** | Animals | ★ | Kill 15,000 Foxes |
+| **Wading Into Battle** | The End | ★ | Kill the Ender Dragon while standing in water you carried there yourself |
 | **Wading Through** | Biomes | · | Mine 2,000 Mangrove Roots |
 | **Waist Deep** | Biomes | · | Mine 2,000 Tall Grass |
 | **Waist High and Rising** | Building | · | Place 200 Cobblestone Walls |
 | **Waist-High Green** | Farming | · | Mine 500 Large Ferns. |
+| **Waiting For a Storm** | The End | · | Put up a Lightning Rod in the End, where it will never rain |
 | **Waiting on the Patina** | Building | ◆ | Place 4,000 Blocks of Copper |
 | **Wake the Neighbours** | Biomes | ◆ | Play a music disc in a Jukebox inside an Ancient City |
 | **Wake-Up Call** | Adventure | · | Ring a Bell inside a Woodland Mansion |
 | **Walking Library** | Super Challenges | ★★ | Carry twenty different enchantments at once across your armour and both hands |
 | **Walking Slower on Purpose** | Building | · | Place 500 Soul Sand |
+| **Walking the Balloon** | The End | · | Put a Lead on a Happy Ghast in the End |
+| **Wall Mounted** | Building | · | Bolt a Grindstone to a wall instead of standing it on the floor |
 | **Wall of Switches** | Redstone | ★ | Place 750 Levers |
 | **Wall of the Wailing Dead** | Monsters | ★ | Pick up 64 Zombie Heads |
 | **Wall of the World** | Building | ★ | Place 40,000 Cobblestone Walls |
@@ -15005,6 +16736,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Warden Bait** | Redstone | · | Place 128 Sculk Shriekers |
 | **Warden of the State** | Mining | ★ | Kill 25 Wardens |
 | **Warden of the Warren** | Farming | ◆ | Cook 5,000 Rabbit |
+| **Warden's Lullaby** | Building | ★ | Sleep in a bed inside an Ancient City. Quietly |
 | **Warden-Proof Walls** | Building | ◆ | Place 1,000 Deepslate Bricks |
 | **Wardrobe of the Deep Dark** | Monsters | ◆ | Pick up 5 Ward Armor Trim Smithing Templates |
 | **Warehouse District** | Building | ◆ | Place 4,000 Chests |
@@ -15014,6 +16746,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Warhorse** | Nether | ◆ | Upgrade a set of Horse Armor to Netherite |
 | **Warm Light Below** | Mining | · | Place 1,024 Copper Lanterns |
 | **Warning Ignored** | Monsters | ◆ | Mine 15 Sculk Shriekers |
+| **Warning Label** | Adventure | ◆ | Craft a Decorated Pot bearing both the Skull and the Danger sherd |
 | **Warp Hoarder** | Monsters | ◆ | Collect 1,536 Ender Pearls |
 | **Warp Speed Sawmill** | Nether | ◆ | Craft 25,000 Warped Planks. |
 | **Warped and Stacked** | Potions | · | Place 2,500 Warped Wart Blocks |
@@ -15024,6 +16757,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Warped Warts by the Crate** | Nether | ◆ | Mine 2,500 Warped Wart Blocks |
 | **Warped Wood Beyond Measure** | Nether | ★ | Mine 250,000 Warped Stems |
 | **Warped Woodsman** | Nether | ◆ | Mine 1,000 Warped Stems |
+| **Warren of the Sands** | Animals | ◆ | Breed two Rabbits inside a Desert Pyramid |
 | **Warrens Turned to Cloth** | Animals | ★ | Collect 40,000 Rabbit Hide |
 | **Wart Abroad** | Nether | · | Plant Nether Wart in the Overworld |
 | **Wart and Peace** | Nether | · | Drop 300 Nether Wart. |
@@ -15036,8 +16770,10 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Warts and All** | Farming | · | Harvest 250 Nether Wart |
 | **Wascally Wabbits** | Animals | · | Kill 100 Rabbits |
 | **Washed Ashore** | Adventure | · | Salvage the Coast Smithing Template from a Shipwreck |
+| **Wasted on You** | Enchanting | · | Kill a Strider with a Fire Aspect sword. Every point of that enchantment goes to waste |
 | **Wasted Wizardry** | Enchanting | ★ | Drop 20,000 Bottles o' Enchanting |
 | **Wasteful Sorcery** | Enchanting | ★ | Drop 7,500 Lapis Lazuli |
+| **Wasting the Cure** | Adventure | · | Eat the Golden Apple you found in an igloo instead of curing anybody with it |
 | **Wasting the Ender Harvest** | The End | ◆ | Drop 20,000 Ender Pearls |
 | **Wasting the Slow Mine** | Enchanting | ★ | Drop 20,000 Obsidian |
 | **Wasting the Wizard's Lapis** | Enchanting | ★ | Craft 1,500 Blue Dye |
@@ -15053,13 +16789,16 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Water Lilies, Series Complete** | Biomes | ★ | Mine 100,000 Lily Pads |
 | **Water Under the Boots** | Biomes | ◆ | Mine 5,000 Frosted Ice |
 | **Water Works** | Statistics | · | Empty 100 Water Buckets |
+| **Waterbed** | Adventure | ★ | Dry out a room in an Ocean Monument and sleep the night there |
 | **Waterlogged** | Building | · | Place a Slab underwater so it fills with water |
 | **Waterlogged Warehouse** | Adventure | ◆ | Drop 1,024 Wet Sponges |
+| **Watertight** | Building | · | Place a glass pane underwater with the sea still on both sides of it |
 | **Waterworks** | Building | · | Sink a Copper Grate, a Copper Chain and a Copper Lantern into water without any of them drowning out |
 | **Wattle and Daub** | Building | · | Place 150 Mud Bricks |
 | **Wave Clear** | Monsters | ◆ | Kill a Breeze, a Bogged, a Slime, a Cave Spider and a Silverfish inside the Trial Chambers |
 | **Wax and Wane** | Building | ★ | Place 750 Candles |
 | **Wax and Wick** | Building | · | Place 16 Black Candles. |
+| **Wax Poetic** | Building | ★ | Seal a block of copper with honeycomb at each of its four ages |
 | **Waxed Against Time** | Weaponry | ★ | Land 25,000 hits with a Copper Sword |
 | **Waxing the World** | Animals | ◆ | Collect 5,000 Honeycomb |
 | **Waxworks** | Animals | ◆ | Craft 400 Honeycomb Blocks |
@@ -15075,10 +16814,13 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Wealth Without Wisdom** | Weaponry | ★ | Break 3,000 Golden Swords |
 | **Wealth You Can Brew** | Potions | ★ | Craft 20,000 Glistering Melon Slices |
 | **Weapon Rack** | Weaponry | ★ | Mount a Sword, an Axe, a Bow, a Crossbow, a Trident, a Mace and a Spear in seven Item Frames |
+| **Weapons Grade** | Enchanting | ★ | Carry a Density V Mace, an Impaling V Trident, a Power V bow, a Piercing IV Crossbow and a Lunge III Spear all at once |
 | **Weapons of Glass Destruction** | Potions | ★ | Throw 300 Splash Potions |
 | **Weaponsmith Wanted** | Enchanting | · | Place 75 Grindstones |
 | **Wear and Tear** | Enchanting | ◆ | Mine 15 Chipped Anvils |
 | **Wearing the Boneyard** | Monsters | ★ | Craft 256 Rib Armor Trim Smithing Templates |
+| **Wearing the Evidence** | Animals | · | Kill a Turtle while wearing a helmet made out of Turtles |
+| **Weather Balloon** | Animals | · | Stay on your Happy Ghast while a thunderstorm passes underneath |
 | **Weather on Demand** | Potions | ★ | Brew 4,000 Lingering Potions |
 | **Weathered and Wicked** | Weaponry | ★ | Use a Copper Axe 50,000 times |
 | **Weathered Architecture** | Mining | · | Place 512 Weathered Cut Copper |
@@ -15100,37 +16842,46 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Weigh Station** | Redstone | · | Set a Comparator to read what is rolling over a Detector Rail |
 | **Weighed Down** | Adventure | ◆ | Pick up 256 Heavy Cores |
 | **Weighing the Stack** | Redstone | ◆ | Place 2,048 Heavy Weighted Pressure Plates |
+| **Weight Class** | Enchanting | ★ | Smash a Shulker off an End City wall with a Density V Mace |
 | **Weight Detection** | Redstone | · | Place 100 Stone Pressure Plates |
 | **Weight for It** | Redstone | · | Drop 32 Light Weighted Pressure Plates |
 | **Weight in Gold** | Mining | ★ | Mine 150,000 Deepslate Gold Ore |
 | **Weight of the Wastes** | Nether | ◆ | Craft 16,384 Polished Blackstone Pressure Plates. |
 | **Well Done** | Animals | · | Kill a Cow with a Fire Aspect weapon and walk away with Cooked Beef |
 | **Well Read** | Enchanting | ◆ | Read 1,000 Written Books |
+| **Well Used** | Building | · | Decorate with an anvil that has already seen better days |
 | **Well Worn Anvil** | Enchanting | · | Pick up 4 Damaged Anvils |
+| **Wet Blanket** | Enchanting | · | Kill a mob with a Fire Aspect sword while you are swimming, where the fire never catches |
 | **Wet Work** | Enchanting | · | Sit fully submerged in an Aqua Affinity helmet with Respiration III |
 | **Whack of the Wand** | Weaponry | · | Land 1,500 hits with a Stick |
 | **Whale Song** | Biomes | ◆ | Blow a Goat Horn while underwater in a deep ocean |
+| **What Goes Up** | Enchanting | ◆ | Get levitated thirty blocks by a Shulker while wearing Feather Falling IV boots |
 | **Wheat Whisperer** | Animals | ◆ | Feed Wheat to a Cow, a Sheep, a Goat, a Mooshroom, a Horse, a Donkey, a Mule and a Llama |
 | **Wheels for the Deep** | Mining | · | Craft 64 Minecarts |
 | **Wheels in the Pack** | Enchanting | · | Pick up 300 Grindstones |
 | **Wheels on the Rails** | Redstone | ★ | Place 1,500 Minecarts |
 | **Wheels Without End** | Redstone | ★ | Place 7,500 Minecarts |
 | **Where Anvils Go to Die** | Enchanting | ★ | Mine 3,000 Damaged Anvils |
+| **Where It Belongs** | Building | ◆ | Place an Ender Chest in the End |
 | **Where Shovels Go to Die** | Mining | ★ | Wear out 1,000 Wooden Shovels |
 | **Where the Dark Is Load-Bearing** | Building | ★ | Place 30,000 Deepslate Bricks |
 | **Where the Deepslate Bleeds** | Enchanting | ★ | Mine 25,000 Deepslate Lapis Lazuli Ore |
 | **Where the Desert Was** | Biomes | ★ | Mine 500,000 Sand |
 | **Where the Mountain Stood** | Mining | ★ | Mine 500,000 Stone |
 | **Where the Sea Used to Be** | Statistics | ★ | Place 2,500 Wet Sponges |
+| **Where You Found It** | Adventure | ★ | Cheat death with a Totem of Undying inside a Woodland Mansion |
 | **Wherever I Go, There It Is** | The End | · | Place 150 Ender Chests |
 | **Which Came Last** | Animals | ★ | Kill 50,000 Chickens |
+| **Whirlpool** | Biomes | · | Set a Magma Block down on the seabed and open a whirlpool |
 | **Whispers in the Pocket** | Mining | · | Pick up 64 Echo Shards |
 | **Whispers of Netherite** | Nether | · | Mine 8 Ancient Debris |
+| **Whistling in the Dark** | Adventure | · | Plant a Torch in the Deep Dark, for all the good it will do you |
 | **White as Winter** | Farming | ★ | Craft 50,000 Bone Meal |
 | **White Bark, Black Heart** | Biomes | ★ | Mine 15,000 Birch Logs |
 | **White Bones of the Sea** | Biomes | ★ | Mine 2,048 Dead Tube Coral Blocks. |
 | **White Gold** | Potions | · | Craft 150 Sugar |
 | **White Noise** | Mining | ◆ | Mine 25,000 Diorite |
+| **White Out** | Animals | ◆ | Shear a Sheep in the Pale Garden, the only colour for miles |
 | **White Speckled Dreams** | Building | · | Place 4,000 Diorite |
 | **White Timber** | Biomes | ◆ | Mine 2,000 Birch Logs |
 | **White Trunks, Bare Crowns** | Farming | ◆ | Break 40,000 Birch Leaves |
@@ -15145,6 +16896,9 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Wild No More** | Biomes | ★ | Mine 30,000 Wildflowers |
 | **Wildflower Wanderer** | Biomes | ◆ | Mine 400 Cornflowers |
 | **Wilfully Primitive** | Statistics | ★ | Break 750 Wooden Pickaxes |
+| **Will-o'-the-Wisp** | Building | · | Hang a Soul Lantern in a Soul Sand Valley |
+| **Wind Burn** | Super Challenges | ★★ | Kill a Breeze with a melee blow while wearing no armour |
+| **Wind Chimes** | Building | · | Hang a Copper Chain from the ceiling |
 | **Wind Rider** | Adventure | ◆ | Get thrown twenty blocks sideways by a Wind Charge |
 | **Wind the Music Box** | Adventure | · | Play the Creator (Music Box) disc 25 times |
 | **Wind Walker** | Statistics | ◆ | Use a thousand Wind Charges |
@@ -15157,8 +16911,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Windows on Nothing** | The End | ◆ | Craft 15,000 Glass Panes |
 | **Windows the Colour of the Cities** | The End | · | Place 2,000 Purple Stained Glass |
 | **Windowsill Garden** | Building | ◆ | Place 50 Flower Pots |
+| **Windowsill Watcher** | Biomes | · | Stand an Open Eyeblossom in a Flower Pot so it can keep an eye on the room |
 | **Windstruck** | Weaponry | · | Land 100 hits with a Breeze Rod |
 | **Windswept Pottery** | Adventure | ◆ | Pick up 256 Guster Pottery Sherds |
+| **Wing to Wing** | The End | ★ | Kill a respawned Ender Dragon while gliding on the wings its predecessor left you |
+| **Winged Statue** | Building | ◆ | Drape an Elytra over an Armour Stand |
+| **Winged Victory** | Building | ◆ | Display a pair of Elytra on an Armour Stand |
 | **Wings and Gunpowder** | The End | ★ | Use 7,500 Firework Rockets |
 | **Wings Clipped** | Adventure | ★ | Kill 600 Vexes |
 | **Wings Left Behind** | Statistics | · | Drop 1 Elytra |
@@ -15167,6 +16925,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Wings Out** | The End | · | Use your Elytra 1,000 times |
 | **Winter Comes Early** | Farming | ★ | Break 400,000 Spruce Leaves |
 | **Winter Comes to Stay** | Biomes | ◆ | Place 16,384 Ice. |
+| **Winter Comes to the Void** | The End | · | Stand in Powder Snow in the End and freeze somewhere it never snows |
 | **Winter in a Pail** | Potions | · | Fill 50 Buckets of Powder Snow |
 | **Winter Kept in Pots** | Potions | ★ | Break 3,000 Powder Snow Cauldrons |
 | **Winter Never Ends** | Statistics | ★ | Throw 1,500 Snowballs |
@@ -15185,11 +16944,14 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Wireless Redstone** | Redstone | ◆ | Place 8,192 Sculk Sensors |
 | **Wish Upon a Weed** | Biomes | · | Mine 2,000 Dandelions |
 | **Witch's Brew** | Potions | · | Take a Splash Potion to the face from a Witch |
+| **Witch's Kitchen** | Building | · | Hang a cauldron directly over a lit campfire |
 | **Witch's Wholesale** | Potions | ★ | Craft 2,000 Cauldrons |
+| **Witch, Well Done** | Adventure | ◆ | Defeat a burning Witch that is taking part in a raid |
 | **Witchcraft Zoning Permit** | Adventure | · | Place 512 Cauldrons |
 | **Wither Away the Sky** | Weaponry | ★ | Land 2,500 hits with a Nether Star |
 | **Wither Farm Economics** | Monsters | ★ | Craft 250 Beacons |
 | **Wither on a Budget** | Super Challenges | ★★ | Kill the Wither with a Copper Sword while wearing a full set of Copper armour |
+| **Wither Weather** | Super Challenges | ★★ | Kill the Wither inside an Ocean Monument while a thunderstorm rages overhead |
 | **Withered Away** | Monsters | ★ | Kill 15 Withers |
 | **Withering Away** | Nether | · | Take the Wither effect while you are in the Nether |
 | **Withering Away Forever** | Nether | ★ | Kill 25,000 Wither Skeletons |
@@ -15214,6 +16976,7 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Worn to Nothing** | Enchanting | · | Break 50 Diamond Pickaxes |
 | **Worn to the Haft** | Weaponry | ★ | Use a Wooden Axe 1,500 times |
 | **Worn to the Handle** | Mining | · | Break 10 Iron Pickaxes |
+| **Worn to the Nub** | Animals | ◆ | Wear a pair of Shears down to their very last snip |
 | **Worst Case Scenario** | Potions | ◆ | Bring a level five Raid down on a village with an Ominous Bottle |
 | **Worth Its Weight** | Farming | · | Craft 75 Golden Carrots |
 | **Worth Its Weight in Gold** | Redstone | ★ | Drop 2,048 Light Weighted Pressure Plates |
@@ -15222,13 +16985,21 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Wrath in a Glass Bottle** | The End | · | Collect 500 Dragon's Breath |
 | **Wrath of the Deep** | Weaponry | ◆ | Use a Trident 600 times |
 | **Wreck Diver** | Biomes | ◆ | Ride a Nautilus inside a Shipwreck |
+| **Wreck Diving Buddy** | Animals | ◆ | Loot a Shipwreck's treasure chest while a Dolphin is still towing you along |
 | **Wrecker of Reward Rooms** | Adventure | ◆ | Break 1,500 Vaults |
 | **Wriggling Rock** | Mining | · | Mine 256 Infested Deepslate |
 | **Wringing Out** | Adventure | · | Mine 75 Sponges |
 | **Wringing the Sea Dry** | Adventure | ★ | Mine 2,500 Sponges |
 | **Writer's Cramp** | Enchanting | ★ | Use 20,000 Books and Quills |
 | **Writing in Neon** | The End | ◆ | Use 1,024 Glow Ink Sacs. |
+| **Wrong Catch** | Enchanting | · | Hook a Squid on a Lure III rod instead of the fish you were after |
+| **Wrong Desert** | Animals | ◆ | Ride a Camel out among the Ice Spikes |
+| **Wrong Dimension Entirely** | The End | ◆ | Take a Shulker all the way to the Nether and kill it there |
+| **Wrong Key, Wrong Door** | Adventure | ◆ | Try an Ominous Trial Key on an ordinary Vault, just to make sure |
+| **Wrong Kind of Cold** | Enchanting | · | Sink into Powder Snow wearing Frost Walker boots and discover they do not help at all |
+| **Wrong Kind of Omen** | Adventure | ◆ | Drink an Ominous Bottle in an Ancient City and wait for the raid that never comes |
 | **Wrong Neighbourhood** | Nether | · | Kill a Skeleton in a Soul Sand Valley |
+| **Wrong Phylum** | Enchanting | ◆ | Kill a Phantom with a Bane of Arthropods V sword; wings and a carapace, and still not an arthropod |
 | **Xerox** | Building | · | Copy a finished banner by crafting it beside a blank banner of the same colour |
 | **Yeet** | Weaponry | ◆ | Knock a mob a hundred blocks through the air with a single hit |
 | **Yellow Everywhere** | Biomes | ◆ | Mine 20,000 Dandelions |
@@ -15236,9 +17007,12 @@ All 7396 advancements, A to Z, with the tab each one appears in.
 | **Yellow Veins Forever** | Potions | ★ | Mine 15,000 Sulfur |
 | **Yolk Storm** | Animals | ★ | Throw 4,000 Eggs |
 | **Yolk's on You** | Animals | · | Throw 250 Eggs |
+| **You Are Here** | Building | ◆ | Bind a compass to a Lodestone in the Nether |
+| **You Had One Job** | Enchanting | · | Get killed by an ordinary Zombie while holding a sword enchanted with Smite V |
 | **You Started It** | Nether | · | Get killed by a Zombified Piglin after picking the wrong fight |
 | **Zombie Bacon** | Nether | · | Kill 10 Zoglins |
 | **Zombie Diet** | Monsters | · | Eat Rotten Flesh, catch the Hunger off it, then wash it away with Milk |
 | **Zoom and Enhance** | Adventure | · | Extend Maps four times over using Paper in a Crafting Table |
+| **Zoom and Regret** | The End | ◆ | Put a Spyglass on an Enderman fifty blocks away in the End, then remember what looking does |
 
-**7396 advancements in total.**
+**8283 advancements in total.**

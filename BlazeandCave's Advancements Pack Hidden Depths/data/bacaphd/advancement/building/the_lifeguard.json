@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "The Lifeguard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fit an Armour Stand with a Turtle Shell and post it underwater"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/mannequin",
+  "criteria": {
+    "underwater_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:armor_stand",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:turtle_helmet"
+                  ]
+                }
+              },
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/the_lifeguard"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "Continuing Education"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item inside a Trial Chamber, between waves"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "chamber_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/continuing_education"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "The Best Seat in the House"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land the killing blow on the Ender Dragon while standing on the bedrock fountain"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/ring_of_the_end",
+  "criteria": {
+    "fountain_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ender_dragon"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "x": {
+                    "min": -7.0,
+                    "max": 7.0
+                  },
+                  "z": {
+                    "min": -7.0,
+                    "max": 7.0
+                  },
+                  "y": {
+                    "min": 58.0,
+                    "max": 90.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/the_best_seat_in_the_house"
+  }
+}

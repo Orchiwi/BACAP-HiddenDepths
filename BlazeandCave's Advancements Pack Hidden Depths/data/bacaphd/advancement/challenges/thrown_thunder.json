@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Thrown Thunder"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Charge a Creeper with a Channeling Trident thrown from 40 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/nuclear_fusion",
+  "criteria": {
+    "charged": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:creeper",
+            "distance": {
+              "horizontal": {
+                "min": 40.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/thrown_thunder"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_grate"
+    },
+    "title": {
+      "translate": "Storm Drain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a waterlogged Copper Grate into the sea floor"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/jailhouse_block",
+  "criteria": {
+    "wet_grate": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_grate"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              },
+              "biomes": [
+                "minecraft:ocean",
+                "minecraft:deep_ocean",
+                "minecraft:cold_ocean",
+                "minecraft:deep_cold_ocean",
+                "minecraft:frozen_ocean",
+                "minecraft:deep_frozen_ocean",
+                "minecraft:lukewarm_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:warm_ocean"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/storm_drain"
+  }
+}

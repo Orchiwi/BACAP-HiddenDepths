@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hanging_roots"
+    },
+    "title": {
+      "translate": "Rootling"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Work a hoe over Rooted Dirt and pull out Hanging Roots for the ceiling"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/clay_dough",
+  "criteria": {
+    "roots": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rooted_dirt"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_hoe",
+                "minecraft:stone_hoe",
+                "minecraft:copper_hoe",
+                "minecraft:iron_hoe",
+                "minecraft:golden_hoe",
+                "minecraft:diamond_hoe",
+                "minecraft:netherite_hoe"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/rootling"
+  }
+}

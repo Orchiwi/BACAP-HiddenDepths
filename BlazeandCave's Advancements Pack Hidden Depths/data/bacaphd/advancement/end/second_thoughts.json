@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Second Thoughts"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Drink a Potion of Slow Falling while already falling in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_point_of_no_return",
+  "criteria": {
+    "panic_drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:slow_falling"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              },
+              "flags": {
+                "is_on_ground": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/second_thoughts"
+  }
+}

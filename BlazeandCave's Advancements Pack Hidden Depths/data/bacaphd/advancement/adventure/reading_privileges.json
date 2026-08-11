@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Reading Privileges"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Enchant an item inside a Stronghold, surrounded by someone else's bookshelves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/genesis_of_the_end",
+  "criteria": {
+    "stronghold_enchant": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:stronghold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/reading_privileges"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ink_sac"
+    },
+    "title": {
+      "translate": "Wrong Catch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook a Squid on a Lure III rod instead of the fish you were after"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "squid": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:squid"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:fishing_rod"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:lure",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/wrong_catch"
+  }
+}

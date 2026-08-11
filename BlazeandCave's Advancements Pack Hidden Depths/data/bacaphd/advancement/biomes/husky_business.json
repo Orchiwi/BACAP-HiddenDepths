@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Husky Business"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Tame the snowy-coated Wolf that only prowls the Groves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "snowy_wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "snowy"
+          },
+          "location": {
+            "biomes": [
+              "minecraft:grove"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/husky_business"
+  }
+}

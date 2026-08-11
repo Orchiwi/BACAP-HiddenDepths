@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_bed"
+    },
+    "title": {
+      "translate": "Do Not Disturb"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Sleep through a whole night inside an Ancient City"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/change_of_sheets",
+  "criteria": {
+    "city_sleep": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/do_not_disturb"
+  }
+}

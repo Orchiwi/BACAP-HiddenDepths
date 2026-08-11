@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "The Library Card"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot the chest hidden in a Stronghold's library"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_point_of_no_return",
+  "criteria": {
+    "library": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/stronghold_library"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/the_library_card"
+  }
+}

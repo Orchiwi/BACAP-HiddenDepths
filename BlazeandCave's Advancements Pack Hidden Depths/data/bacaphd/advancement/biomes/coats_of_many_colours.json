@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "Coats of Many Colours"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Tame the striped Wolf of the Wooded Badlands, the spotted Wolf of the Savanna Plateau and the rusty Wolf of the Sparse Jungle"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/one_with_the_forest",
+  "criteria": {
+    "striped": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "striped"
+          }
+        }
+      }
+    },
+    "spotted": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "spotted"
+          }
+        }
+      }
+    },
+    "rusty": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "rusty"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/coats_of_many_colours"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Foreclosure"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Witch inside her own Swamp Hut"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "witch_at_home": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:witch",
+          "location": {
+            "structures": "minecraft:swamp_hut"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/foreclosure"
+  }
+}

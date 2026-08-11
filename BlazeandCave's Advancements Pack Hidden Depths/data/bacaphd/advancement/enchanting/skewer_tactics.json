@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "translate": "Skewer Tactics"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Skewer mobs with a thrown Spear while you are out in the End"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_jouster",
+  "criteria": {
+    "end_skewer": {
+      "trigger": "minecraft:spear_mobs",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/skewer_tactics"
+  }
+}

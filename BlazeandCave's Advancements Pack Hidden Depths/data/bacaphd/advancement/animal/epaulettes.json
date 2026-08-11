@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "Epaulettes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Parrot on each shoulder at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "both_shoulders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"},ShoulderEntityRight:{id:\"minecraft:parrot\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/epaulettes"
+  }
+}

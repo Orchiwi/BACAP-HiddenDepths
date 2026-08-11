@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "Dressed for the Desert"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Stand in a desert wearing four pieces of armour all trimmed with the Dune pattern"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/coordinated_flair",
+  "criteria": {
+    "dune_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:dune"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:dune"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:dune"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:dune"
+                    }
+                  }
+                }
+              },
+              "location": {
+                "biomes": "minecraft:desert"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/dressed_for_the_desert"
+  }
+}

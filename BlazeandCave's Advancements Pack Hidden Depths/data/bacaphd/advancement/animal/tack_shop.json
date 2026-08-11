@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Tack Shop"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Saddle off a villager rather than digging one out of a chest"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/a_horse_in_shining_armor",
+  "criteria": {
+    "bought_tack": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:saddle"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/tack_shop"
+  }
+}

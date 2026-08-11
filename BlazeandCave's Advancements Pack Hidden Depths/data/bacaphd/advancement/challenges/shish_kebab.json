@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Shish Kebab"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill five different kinds of mob with one crossbow shot, none of them closer than 30 blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/endergeddon",
+  "criteria": {
+    "kebab": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "unique_entity_types": {
+          "min": 5
+        },
+        "victims": [
+          {
+            "distance": {
+              "absolute": {
+                "min": 30.0
+              }
+            }
+          },
+          {
+            "distance": {
+              "absolute": {
+                "min": 30.0
+              }
+            }
+          },
+          {
+            "distance": {
+              "absolute": {
+                "min": 30.0
+              }
+            }
+          },
+          {
+            "distance": {
+              "absolute": {
+                "min": 30.0
+              }
+            }
+          },
+          {
+            "distance": {
+              "absolute": {
+                "min": 30.0
+              }
+            }
+          }
+        ],
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/shish_kebab"
+  }
+}

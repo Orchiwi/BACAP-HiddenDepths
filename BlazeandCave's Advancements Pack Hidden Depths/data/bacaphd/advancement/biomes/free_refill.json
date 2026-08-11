@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Free Refill"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Draw a Bucket of Lava back out of a Cauldron down in the Dripstone Caves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/root",
+  "criteria": {
+    "drip_lava": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lava_bucket"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/free_refill"
+  }
+}

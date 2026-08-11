@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "Salvage Diver"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Brush a Suspicious Sand block inside a warm Ocean Ruin"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_suspicious_advancement",
+  "criteria": {
+    "ruin_brush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:suspicious_sand"
+              },
+              "structures": "minecraft:ocean_ruin_warm"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:brush"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/salvage_diver"
+  }
+}

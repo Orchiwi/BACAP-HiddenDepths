@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Poseidon Cosplay"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Below y-level 0 and underwater with a Turtle Shell on your head, a Trident in hand and Conduit Power running"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "full_regalia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:turtle_helmet"
+                  ]
+                },
+                "mainhand": {
+                  "items": [
+                    "minecraft:trident"
+                  ]
+                }
+              },
+              "effects": {
+                "minecraft:conduit_power": {}
+              },
+              "location": {
+                "dimension": "minecraft:overworld",
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                },
+                "position": {
+                  "y": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/poseidon_cosplay"
+  }
+}

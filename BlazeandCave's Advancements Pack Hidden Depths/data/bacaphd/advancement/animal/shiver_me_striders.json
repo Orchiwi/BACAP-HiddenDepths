@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "Shiver Me Striders"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk your Strider up out of the lava and watch it shiver on solid ground"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/when_pigs_used_to_fly",
+  "criteria": {
+    "shivering": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:strider",
+                "location": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/shiver_me_striders"
+  }
+}

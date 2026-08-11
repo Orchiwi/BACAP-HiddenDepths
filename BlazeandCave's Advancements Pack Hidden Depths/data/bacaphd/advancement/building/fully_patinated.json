@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": {
+      "translate": "Fully Patinated"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Fit out a building with a fully oxidized Copper Door, Chest, Grate and Lantern"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "door": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_door",
+                  "minecraft:waxed_oxidized_copper_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "chest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_chest",
+                  "minecraft:waxed_oxidized_copper_chest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "grate": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_grate",
+                  "minecraft:waxed_oxidized_copper_grate"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/fully_patinated"
+  }
+}

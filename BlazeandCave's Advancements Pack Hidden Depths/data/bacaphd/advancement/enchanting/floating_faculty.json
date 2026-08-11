@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Floating Faculty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item without getting out of your Oak Boat"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "boat_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:oak_boat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/floating_faculty"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Tackle Box"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Help yourself to the chest in a village Fisherman's cottage"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/someones_been_here_before",
+  "criteria": {
+    "fisher_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_fisher"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/tackle_box"
+  }
+}

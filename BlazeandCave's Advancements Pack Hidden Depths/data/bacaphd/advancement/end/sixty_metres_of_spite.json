@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Sixty Metres of Spite"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hurt the Ender Dragon from at least 60 blocks away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/ring_of_the_end",
+  "criteria": {
+    "far_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ender_dragon",
+          "distance": {
+            "absolute": {
+              "min": 60.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/sixty_metres_of_spite"
+  }
+}

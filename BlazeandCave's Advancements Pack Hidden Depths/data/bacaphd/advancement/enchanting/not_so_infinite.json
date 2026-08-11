@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Not So Infinite"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a mob with a Spectral Arrow fired from an Infinity bow, and lose the arrow anyway"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/to_infinity_and_beyond",
+  "criteria": {
+    "spectral_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:bow"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:infinity",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:spectral_arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/not_so_infinite"
+  }
+}

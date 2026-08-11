@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Fletcher's Stock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Open the chest in a village fletcher's house"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/prime_specimen",
+  "criteria": {
+    "fletcher_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_fletcher"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/fletchers_stock"
+  }
+}

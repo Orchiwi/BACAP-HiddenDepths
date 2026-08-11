@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": {
+      "translate": "Museum Lighting"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mount something in a Glow Item Frame so it can be admired after dark"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/help_ive_been_framed",
+  "criteria": {
+    "glow_frame": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_item_frame"
+            }
+          }
+        ],
+        "item": {
+          "count": {
+            "min": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/museum_lighting"
+  }
+}

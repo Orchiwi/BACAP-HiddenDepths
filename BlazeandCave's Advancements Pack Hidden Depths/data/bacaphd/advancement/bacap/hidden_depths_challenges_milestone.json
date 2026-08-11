@@ -278,6 +278,774 @@
           }
         }
       }
+    },
+    "sight_unseen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/sight_unseen": true
+            }
+          }
+        }
+      }
+    },
+    "void_marksman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/void_marksman": true
+            }
+          }
+        }
+      }
+    },
+    "mach_one": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/mach_one": true
+            }
+          }
+        }
+      }
+    },
+    "skull_and_crossbones": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/skull_and_crossbones": true
+            }
+          }
+        }
+      }
+    },
+    "struck_down": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/struck_down": true
+            }
+          }
+        }
+      }
+    },
+    "lava_rodeo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/lava_rodeo": true
+            }
+          }
+        }
+      }
+    },
+    "answering_the_shriek": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/answering_the_shriek": true
+            }
+          }
+        }
+      }
+    },
+    "dive_bomber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/dive_bomber": true
+            }
+          }
+        }
+      }
+    },
+    "dismounted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/dismounted": true
+            }
+          }
+        }
+      }
+    },
+    "knuckle_sandwich": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/knuckle_sandwich": true
+            }
+          }
+        }
+      }
+    },
+    "bare_against_the_fangs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/bare_against_the_fangs": true
+            }
+          }
+        }
+      }
+    },
+    "not_even_pockets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/not_even_pockets": true
+            }
+          }
+        }
+      }
+    },
+    "close_enough_to_touch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/close_enough_to_touch": true
+            }
+          }
+        }
+      }
+    },
+    "skin_against_sculk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/skin_against_sculk": true
+            }
+          }
+        }
+      }
+    },
+    "not_one_glint": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/not_one_glint": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_to_fall_back_on": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/nothing_to_fall_back_on": true
+            }
+          }
+        }
+      }
+    },
+    "fuse_race": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/fuse_race": true
+            }
+          }
+        }
+      }
+    },
+    "chest_deep_in_lava": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/chest_deep_in_lava": true
+            }
+          }
+        }
+      }
+    },
+    "wind_burn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/wind_burn": true
+            }
+          }
+        }
+      }
+    },
+    "splinters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/splinters": true
+            }
+          }
+        }
+      }
+    },
+    "century_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/century_shot": true
+            }
+          }
+        }
+      }
+    },
+    "regicide_at_range": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/regicide_at_range": true
+            }
+          }
+        }
+      }
+    },
+    "shish_kebab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/shish_kebab": true
+            }
+          }
+        }
+      }
+    },
+    "hammerfall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/hammerfall": true
+            }
+          }
+        }
+      }
+    },
+    "catch_of_the_night": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/catch_of_the_night": true
+            }
+          }
+        }
+      }
+    },
+    "perfect_cast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/perfect_cast": true
+            }
+          }
+        }
+      }
+    },
+    "thrown_thunder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/thrown_thunder": true
+            }
+          }
+        }
+      }
+    },
+    "wither_weather": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/wither_weather": true
+            }
+          }
+        }
+      }
+    },
+    "two_ancients_one_bolt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/two_ancients_one_bolt": true
+            }
+          }
+        }
+      }
+    },
+    "broad_daylight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/broad_daylight": true
+            }
+          }
+        }
+      }
+    },
+    "black_cat_dark_wood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/black_cat_dark_wood": true
+            }
+          }
+        }
+      }
+    },
+    "hellbloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/hellbloom": true
+            }
+          }
+        }
+      }
+    },
+    "unscheduled_trial": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/unscheduled_trial": true
+            }
+          }
+        }
+      }
+    },
+    "bad_omen_worse_weather": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/bad_omen_worse_weather": true
+            }
+          }
+        }
+      }
+    },
+    "riders_on_the_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/riders_on_the_storm": true
+            }
+          }
+        }
+      }
+    },
+    "daymare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/daymare": true
+            }
+          }
+        }
+      }
+    },
+    "nowhere_to_teleport": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/nowhere_to_teleport": true
+            }
+          }
+        }
+      }
+    },
+    "stooping_falcon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/stooping_falcon": true
+            }
+          }
+        }
+      }
+    },
+    "nowhere_to_stand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/nowhere_to_stand": true
+            }
+          }
+        }
+      }
+    },
+    "grace_period": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/grace_period": true
+            }
+          }
+        }
+      }
+    },
+    "crystal_cannon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/crystal_cannon": true
+            }
+          }
+        }
+      }
+    },
+    "gravity_assist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/gravity_assist": true
+            }
+          }
+        }
+      }
+    },
+    "returned_in_kind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/returned_in_kind": true
+            }
+          }
+        }
+      }
+    },
+    "one_arrow_three_names": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/one_arrow_three_names": true
+            }
+          }
+        }
+      }
+    },
+    "point_blank_refusal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/point_blank_refusal": true
+            }
+          }
+        }
+      }
+    },
+    "the_blind_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_blind_deep": true
+            }
+          }
+        }
+      }
+    },
+    "up_to_the_neck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/up_to_the_neck": true
+            }
+          }
+        }
+      }
+    },
+    "the_bell_below": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_bell_below": true
+            }
+          }
+        }
+      }
+    },
+    "loud_neighbours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/loud_neighbours": true
+            }
+          }
+        }
+      }
+    },
+    "bedside_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/bedside_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "return_of_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/return_of_service": true
+            }
+          }
+        }
+      }
+    },
+    "the_coldest_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_coldest_shot": true
+            }
+          }
+        }
+      }
+    },
+    "deep_fry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/deep_fry": true
+            }
+          }
+        }
+      }
+    },
+    "assembly_required": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/assembly_required": true
+            }
+          }
+        }
+      }
+    },
+    "nowhere_left_to_blink": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/nowhere_left_to_blink": true
+            }
+          }
+        }
+      }
+    },
+    "sealed_in_cowhide": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/sealed_in_cowhide": true
+            }
+          }
+        }
+      }
+    },
+    "through_a_gourd_darkly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/through_a_gourd_darkly": true
+            }
+          }
+        }
+      }
+    },
+    "hoe_down_there": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/hoe_down_there": true
+            }
+          }
+        }
+      }
+    },
+    "called_down_the_thunder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/called_down_the_thunder": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_to_lose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/nothing_to_lose": true
+            }
+          }
+        }
+      }
+    },
+    "silence_in_the_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/silence_in_the_deep": true
+            }
+          }
+        }
+      }
+    },
+    "killing_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/killing_time": true
+            }
+          }
+        }
+      }
+    },
+    "the_long_fork": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_long_fork": true
+            }
+          }
+        }
+      }
+    },
+    "the_starter_weapon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:challenges/the_starter_weapon": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

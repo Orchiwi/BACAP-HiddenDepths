@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "Rotten Luck"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have the Enchanting Table hand you a Curse of Vanishing, entirely unasked for"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/curses",
+  "criteria": {
+    "cursed_roll": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/rotten_luck"
+  }
+}

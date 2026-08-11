@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Gaslight District"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a lantern on top of a fence post to light the street"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/festival_of_lights",
+  "criteria": {
+    "lamp_post": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern",
+                  "minecraft:soul_lantern",
+                  "minecraft:copper_lantern",
+                  "minecraft:exposed_copper_lantern",
+                  "minecraft:weathered_copper_lantern",
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:waxed_copper_lantern",
+                  "minecraft:waxed_exposed_copper_lantern",
+                  "minecraft:waxed_weathered_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_fence",
+                  "minecraft:spruce_fence",
+                  "minecraft:birch_fence",
+                  "minecraft:jungle_fence",
+                  "minecraft:acacia_fence",
+                  "minecraft:dark_oak_fence",
+                  "minecraft:mangrove_fence",
+                  "minecraft:cherry_fence",
+                  "minecraft:pale_oak_fence",
+                  "minecraft:bamboo_fence",
+                  "minecraft:crimson_fence",
+                  "minecraft:warped_fence",
+                  "minecraft:nether_brick_fence"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/gaslight_district"
+  }
+}

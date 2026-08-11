@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign"
+    },
+    "title": {
+      "translate": "Kilroy Was Here"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a sign on top of the Nether's bedrock roof"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/its_a_sign",
+  "criteria": {
+    "roof_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_sign",
+                  "minecraft:bamboo_sign",
+                  "minecraft:birch_sign",
+                  "minecraft:cherry_sign",
+                  "minecraft:crimson_sign",
+                  "minecraft:dark_oak_sign",
+                  "minecraft:jungle_sign",
+                  "minecraft:mangrove_sign",
+                  "minecraft:oak_sign",
+                  "minecraft:pale_oak_sign",
+                  "minecraft:spruce_sign",
+                  "minecraft:warped_sign",
+                  "minecraft:acacia_hanging_sign",
+                  "minecraft:bamboo_hanging_sign",
+                  "minecraft:birch_hanging_sign",
+                  "minecraft:cherry_hanging_sign",
+                  "minecraft:crimson_hanging_sign",
+                  "minecraft:dark_oak_hanging_sign",
+                  "minecraft:jungle_hanging_sign",
+                  "minecraft:mangrove_hanging_sign",
+                  "minecraft:oak_hanging_sign",
+                  "minecraft:pale_oak_hanging_sign",
+                  "minecraft:spruce_hanging_sign",
+                  "minecraft:warped_hanging_sign",
+                  "minecraft:acacia_wall_sign",
+                  "minecraft:birch_wall_sign",
+                  "minecraft:dark_oak_wall_sign",
+                  "minecraft:jungle_wall_sign",
+                  "minecraft:oak_wall_sign",
+                  "minecraft:spruce_wall_sign"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 128
+                }
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/kilroy_was_here"
+  }
+}

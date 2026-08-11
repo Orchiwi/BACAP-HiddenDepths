@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chain"
+    },
+    "title": {
+      "translate": "Dangling Participle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a lantern from the bottom end of a chain"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/festival_of_lights",
+  "criteria": {
+    "hanging_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern",
+                  "minecraft:soul_lantern",
+                  "minecraft:copper_lantern",
+                  "minecraft:exposed_copper_lantern",
+                  "minecraft:weathered_copper_lantern",
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:waxed_copper_lantern",
+                  "minecraft:waxed_exposed_copper_lantern",
+                  "minecraft:waxed_weathered_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern"
+                ],
+                "state": {
+                  "hanging": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_chain",
+                  "minecraft:copper_chain",
+                  "minecraft:exposed_copper_chain",
+                  "minecraft:weathered_copper_chain",
+                  "minecraft:oxidized_copper_chain",
+                  "minecraft:waxed_copper_chain",
+                  "minecraft:waxed_exposed_copper_chain",
+                  "minecraft:waxed_weathered_copper_chain",
+                  "minecraft:waxed_oxidized_copper_chain"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/dangling_participle"
+  }
+}

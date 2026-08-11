@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "Warren of the Sands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed two Rabbits inside a Desert Pyramid"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
+  "criteria": {
+    "pyramid_kits": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:rabbit"
+        },
+        "partner": {
+          "entity_type": "minecraft:rabbit"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:desert_pyramid"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/warren_of_the_sands"
+  }
+}

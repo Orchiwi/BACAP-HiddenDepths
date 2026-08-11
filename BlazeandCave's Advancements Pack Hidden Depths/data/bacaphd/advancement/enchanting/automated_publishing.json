@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Automated Publishing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Crafter assemble a Bookshelf for you while you watch"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "auto_shelf": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bookshelf"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/automated_publishing"
+  }
+}

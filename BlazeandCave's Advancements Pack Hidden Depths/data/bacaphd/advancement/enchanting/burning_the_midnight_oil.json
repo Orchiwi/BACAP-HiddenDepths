@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Burning the Midnight Oil"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item while you are on fire. The lapis will keep"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "burning_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/burning_the_midnight_oil"
+  }
+}

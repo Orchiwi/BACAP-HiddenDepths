@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "No Escape Route"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill an Enderman while it is riding an Oak Boat"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_actual_end",
+  "criteria": {
+    "boated": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:enderman",
+          "vehicle": {
+            "entity_type": "minecraft:oak_boat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/no_escape_route"
+  }
+}

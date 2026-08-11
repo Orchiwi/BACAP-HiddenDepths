@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Right at Home"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build a Snow Golem inside an Igloo"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/root",
+  "criteria": {
+    "igloo_snowman": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:snow_golem",
+          "location": {
+            "structures": "minecraft:igloo"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/right_at_home"
+  }
+}

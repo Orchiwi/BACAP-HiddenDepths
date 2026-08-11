@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Private Collection"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Display an Elytra, a Trident, a Totem of Undying and a Dragon Head, each in its own item frame"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/help_ive_been_framed",
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    },
+    "trident": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        }
+      }
+    },
+    "totem_of_undying": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      }
+    },
+    "dragon_head": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:item_frame"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:dragon_head"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/private_collection"
+  }
+}

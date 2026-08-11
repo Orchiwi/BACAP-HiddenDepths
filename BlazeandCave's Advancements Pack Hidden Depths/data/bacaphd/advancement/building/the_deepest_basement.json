@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_bricks"
+    },
+    "title": {
+      "translate": "The Deepest Basement"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay a block down on the bedrock floor of the world"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/deepslate_conspiracy",
+  "criteria": {
+    "floor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "max": -59
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/the_deepest_basement"
+  }
+}

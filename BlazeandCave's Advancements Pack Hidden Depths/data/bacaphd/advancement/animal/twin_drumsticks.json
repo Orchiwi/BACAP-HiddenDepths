@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_chicken"
+    },
+    "title": {
+      "translate": "Twin Drumsticks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Line two Chickens up and take them both down with a single arrow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/tickle_time",
+  "criteria": {
+    "double_dinner": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:chicken"
+          },
+          {
+            "entity_type": "minecraft:chicken"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/twin_drumsticks"
+  }
+}

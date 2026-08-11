@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg"
+    },
+    "title": {
+      "translate": "Black Cat, Dark Wood"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Breed a black kitten inside a Woodland Mansion on the night of a full moon"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/telescopic",
+  "criteria": {
+    "black_kitten": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:all_black"
+          }
+        },
+        "partner": {
+          "entity_type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:all_black"
+          }
+        },
+        "child": {
+          "entity_type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:all_black"
+          },
+          "location": {
+            "structures": "minecraft:mansion"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 13000,
+              "max": 23000
+            },
+            "period": 192000
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/black_cat_dark_wood"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Man Overgoat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be sitting in a Boat when a Goat decides you are in its way"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/goat_simulator",
+  "criteria": {
+    "rammed_afloat": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:goat"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:oak_boat",
+                  "minecraft:spruce_boat",
+                  "minecraft:birch_boat",
+                  "minecraft:jungle_boat",
+                  "minecraft:acacia_boat",
+                  "minecraft:dark_oak_boat",
+                  "minecraft:mangrove_boat",
+                  "minecraft:cherry_boat",
+                  "minecraft:pale_oak_boat",
+                  "minecraft:bamboo_raft",
+                  "minecraft:oak_chest_boat",
+                  "minecraft:acacia_chest_boat"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/man_overgoat"
+  }
+}

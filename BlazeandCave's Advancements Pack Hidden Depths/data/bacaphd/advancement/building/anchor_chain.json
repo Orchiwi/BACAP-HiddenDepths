@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chain"
+    },
+    "title": {
+      "translate": "Anchor Chain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Run a chain straight down through open water"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/no_chain_no_gain",
+  "criteria": {
+    "wet_chain": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_chain",
+                  "minecraft:copper_chain",
+                  "minecraft:exposed_copper_chain",
+                  "minecraft:weathered_copper_chain",
+                  "minecraft:oxidized_copper_chain",
+                  "minecraft:waxed_copper_chain",
+                  "minecraft:waxed_exposed_copper_chain",
+                  "minecraft:waxed_weathered_copper_chain",
+                  "minecraft:waxed_oxidized_copper_chain"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/anchor_chain"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:host_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Four Roads Home"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Excavate all four of the Trail Ruins patterns: Host, Raiser, Shaper and Wayfinder"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raiders_of_the_lost_trim",
+  "criteria": {
+    "host": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:host_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "raiser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raiser_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "shaper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shaper_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "wayfinder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wayfinder_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/four_roads_home"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "A Goat for the Sculk"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill a Goat within reach of a Sculk Catalyst and let the darkness have it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/goat_out_of_here",
+  "criteria": {
+    "offering": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:goat"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/a_goat_for_the_sculk"
+  }
+}

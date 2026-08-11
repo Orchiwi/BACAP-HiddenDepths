@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Free Practice"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit the bullseye of a Target from thirty blocks out with an Infinity Bow"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/to_infinity_and_beyond",
+  "criteria": {
+    "bullseye": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "projectile": {
+          "entity_type": "minecraft:arrow"
+        },
+        "shooter": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "horizontal": {
+                  "min": 30
+                }
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:bow"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:infinity"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/free_practice"
+  }
+}

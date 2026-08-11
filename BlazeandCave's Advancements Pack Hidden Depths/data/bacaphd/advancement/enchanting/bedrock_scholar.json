@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Bedrock Scholar"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant something at a table set up at Y=-59 or lower, right down on the bedrock"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "low_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -59
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/bedrock_scholar"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_gravel"
+    },
+    "title": {
+      "translate": "Grit of the Cold Sea"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Come up out of a cold ocean ruin with a Pottery Sherd in your hands"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_suspicious_advancement",
+  "criteria": {
+    "cold_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ocean_ruin_cold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/grit_of_the_cold_sea"
+  }
+}

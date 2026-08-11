@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Native Habitat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bucket an Axolotl in the Lush Caves instead of dragging one home from somewhere else"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "lush_lotl": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/native_habitat"
+  }
+}

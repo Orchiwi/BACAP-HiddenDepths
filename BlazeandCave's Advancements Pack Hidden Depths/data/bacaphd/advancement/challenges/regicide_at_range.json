@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Regicide at Range"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land the killing blow on the Ender Dragon with an arrow from 100 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo",
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ender_dragon",
+          "distance": {
+            "horizontal": {
+              "min": 100.0
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": [
+              "minecraft:arrow",
+              "minecraft:spectral_arrow"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/regicide_at_range"
+  }
+}

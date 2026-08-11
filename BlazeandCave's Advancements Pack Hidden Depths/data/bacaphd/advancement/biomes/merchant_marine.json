@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Merchant Marine"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade with a Villager while the pair of you are sitting in Boats"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cargo_carrier",
+  "criteria": {
+    "boat_to_boat_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "vehicle": {
+            "entity_type": [
+              "minecraft:oak_boat",
+              "minecraft:spruce_boat",
+              "minecraft:birch_boat",
+              "minecraft:jungle_boat",
+              "minecraft:acacia_boat",
+              "minecraft:dark_oak_boat",
+              "minecraft:mangrove_boat",
+              "minecraft:cherry_boat",
+              "minecraft:pale_oak_boat",
+              "minecraft:bamboo_raft",
+              "minecraft:oak_chest_boat",
+              "minecraft:spruce_chest_boat",
+              "minecraft:birch_chest_boat",
+              "minecraft:jungle_chest_boat",
+              "minecraft:acacia_chest_boat",
+              "minecraft:dark_oak_chest_boat",
+              "minecraft:mangrove_chest_boat",
+              "minecraft:cherry_chest_boat",
+              "minecraft:pale_oak_chest_boat",
+              "minecraft:bamboo_chest_raft"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:oak_boat",
+                  "minecraft:spruce_boat",
+                  "minecraft:birch_boat",
+                  "minecraft:jungle_boat",
+                  "minecraft:acacia_boat",
+                  "minecraft:dark_oak_boat",
+                  "minecraft:mangrove_boat",
+                  "minecraft:cherry_boat",
+                  "minecraft:pale_oak_boat",
+                  "minecraft:bamboo_raft",
+                  "minecraft:oak_chest_boat",
+                  "minecraft:spruce_chest_boat",
+                  "minecraft:birch_chest_boat",
+                  "minecraft:jungle_chest_boat",
+                  "minecraft:acacia_chest_boat",
+                  "minecraft:dark_oak_chest_boat",
+                  "minecraft:mangrove_chest_boat",
+                  "minecraft:cherry_chest_boat",
+                  "minecraft:pale_oak_chest_boat",
+                  "minecraft:bamboo_chest_raft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/merchant_marine"
+  }
+}

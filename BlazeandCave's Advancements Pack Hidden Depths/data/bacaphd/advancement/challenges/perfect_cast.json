@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Perfect Cast"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land a Fishing Rod bobber on the bullseye of a Target Block from 20 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "criteria": {
+    "cast": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": 15,
+        "projectile": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:fishing_bobber",
+              "distance": {
+                "horizontal": {
+                  "min": 20.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/perfect_cast"
+  }
+}

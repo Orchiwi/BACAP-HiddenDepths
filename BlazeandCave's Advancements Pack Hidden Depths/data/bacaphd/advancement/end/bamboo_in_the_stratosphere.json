@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Bamboo in the Stratosphere"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place Scaffolding above y=250 in the End"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "criteria": {
+    "scaffold": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ]
+              },
+              "dimension": "minecraft:the_end",
+              "position": {
+                "y": {
+                  "min": 250.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/bamboo_in_the_stratosphere"
+  }
+}

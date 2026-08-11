@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "Carbon Copy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Copy a filled Map onto a blank one"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/mapmaker",
+  "criteria": {
+    "cloned": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:map_cloning"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/carbon_copy"
+  }
+}

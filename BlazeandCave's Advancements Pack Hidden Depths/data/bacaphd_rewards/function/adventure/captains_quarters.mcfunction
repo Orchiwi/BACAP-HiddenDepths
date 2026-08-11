@@ -1,0 +1,1 @@
+function bacaphd_rewards:advancement_made_macro {adv_id:"bacaphd:adventure/captains_quarters",reward_id:"adventure/captains_quarters",tier:"goal"}

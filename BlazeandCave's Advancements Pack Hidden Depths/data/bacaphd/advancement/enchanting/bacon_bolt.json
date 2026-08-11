@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Bacon Bolt"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Call lightning down on a Pig with a Channeling Trident and see what walks away from it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/zeus",
+  "criteria": {
+    "zapped_pig": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:pig"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/bacon_bolt"
+  }
+}

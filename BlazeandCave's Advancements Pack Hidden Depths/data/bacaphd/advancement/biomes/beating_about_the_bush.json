@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bush"
+    },
+    "title": {
+      "translate": "Beating About the Bush"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk straight into one of the scrubby Bushes clinging to the Badlands"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "in_the_bush": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bush",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:badlands",
+                  "minecraft:wooded_badlands",
+                  "minecraft:eroded_badlands"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/beating_about_the_bush"
+  }
+}

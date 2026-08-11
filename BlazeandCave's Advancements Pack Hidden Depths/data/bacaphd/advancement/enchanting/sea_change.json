@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "Sea Change"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Spend real levels enchanting a Trident at an Enchanting Table"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_tridenteer",
+  "criteria": {
+    "table_trident": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        },
+        "levels": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/sea_change"
+  }
+}

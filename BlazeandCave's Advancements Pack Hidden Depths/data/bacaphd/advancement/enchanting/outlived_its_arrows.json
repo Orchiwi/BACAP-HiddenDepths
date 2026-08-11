@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Outlived Its Arrows"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shoot an Infinity bow until the bow itself finally gives out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/to_infinity_and_beyond",
+  "criteria": {
+    "broke_bow": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:infinity",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/outlived_its_arrows"
+  }
+}

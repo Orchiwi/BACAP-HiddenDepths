@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Returned in Kind"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Punch a Ghast's fireball back into it while you are in freefall over the Nether"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_devils_distance",
+  "criteria": {
+    "returned_in_kind": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ghast"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:fireball"
+          }
+        },
+        "player": {
+          "movement": {
+            "vertical_speed": {
+              "max": -40.0
+            }
+          },
+          "flags": {
+            "is_flying": false
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/returned_in_kind"
+  }
+}

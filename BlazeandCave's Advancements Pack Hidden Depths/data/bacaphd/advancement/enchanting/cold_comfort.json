@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Cold Comfort"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a pair of Frost Walker boots and a pair of Depth Strider boots. They will never share a pair of feet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/let_it_go",
+  "criteria": {
+    "two_pairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots",
+              "minecraft:chainmail_boots",
+              "minecraft:copper_boots",
+              "minecraft:iron_boots",
+              "minecraft:golden_boots",
+              "minecraft:diamond_boots",
+              "minecraft:netherite_boots"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:frost_walker"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:leather_boots",
+              "minecraft:chainmail_boots",
+              "minecraft:copper_boots",
+              "minecraft:iron_boots",
+              "minecraft:golden_boots",
+              "minecraft:diamond_boots",
+              "minecraft:netherite_boots"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:depth_strider"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/cold_comfort"
+  }
+}

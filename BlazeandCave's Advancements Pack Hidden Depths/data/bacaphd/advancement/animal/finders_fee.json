@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Finder's Fee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pay a Dolphin in Raw Cod, follow it, and crack open the Buried Treasure it finds"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/treasure_hunter",
+  "criteria": {
+    "paid_the_guide": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:dolphin"
+            }
+          }
+        ]
+      }
+    },
+    "collected": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/finders_fee"
+  }
+}

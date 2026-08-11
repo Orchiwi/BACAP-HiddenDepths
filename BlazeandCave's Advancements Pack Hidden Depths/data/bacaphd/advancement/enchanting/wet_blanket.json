@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Wet Blanket"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a mob with a Fire Aspect sword while you are swimming, where the fire never catches"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",
+  "criteria": {
+    "soggy_flame": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_swimming": true
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:copper_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword",
+                "minecraft:netherite_sword"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_aspect",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/wet_blanket"
+  }
+}

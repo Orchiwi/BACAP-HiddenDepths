@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "Assembly Required"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Craft a Crafting Table while falling through the void below the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "crafted_in_the_void": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafting_table",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "y": {
+                    "max": -64.0
+                  }
+                }
+              },
+              "flags": {
+                "is_on_ground": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/assembly_required"
+  }
+}

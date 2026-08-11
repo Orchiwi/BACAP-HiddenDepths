@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Dismounted"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Destroy a mounted Ravager with one Mace smash, its rider still in the saddle"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+  "criteria": {
+    "one_smash": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager",
+          "passenger": {
+            "entity_type": "minecraft:pillager"
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 100.0
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/dismounted"
+  }
+}

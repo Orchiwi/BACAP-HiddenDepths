@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Conflicting Instructions"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold Levitation and Slow Falling at the same time and see who wins"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+  "criteria": {
+    "both": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:levitation": {},
+          "minecraft:slow_falling": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/conflicting_instructions"
+  }
+}

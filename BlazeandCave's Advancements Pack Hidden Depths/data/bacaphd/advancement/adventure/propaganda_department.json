@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lectern"
+    },
+    "title": {
+      "translate": "Propaganda Department"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Lectern inside a Pillager Outpost"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/out_of_posts",
+  "criteria": {
+    "lectern_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:lectern"
+              },
+              "structures": "minecraft:pillager_outpost"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/propaganda_department"
+  }
+}

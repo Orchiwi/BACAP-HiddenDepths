@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Restocking the Library"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Add a bookshelf of your own to a Stronghold library"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/writers_block",
+  "criteria": {
+    "stronghold_shelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bookshelf"
+                ]
+              },
+              "structures": "minecraft:stronghold"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/restocking_the_library"
+  }
+}

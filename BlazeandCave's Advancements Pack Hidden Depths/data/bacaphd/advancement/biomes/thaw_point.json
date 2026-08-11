@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "Thaw Point"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a block of Ice in a Warm Ocean and watch it give up"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/everybody_loves_ice",
+  "criteria": {
+    "ice_in_the_tropics": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ice"
+                ]
+              },
+              "biomes": [
+                "minecraft:warm_ocean"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/thaw_point"
+  }
+}

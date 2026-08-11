@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Overinsured"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Mending Elytra and a Mending Chestplate at once, for a back you only have one of"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "two_backs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:leather_chestplate",
+              "minecraft:chainmail_chestplate",
+              "minecraft:copper_chestplate",
+              "minecraft:iron_chestplate",
+              "minecraft:golden_chestplate",
+              "minecraft:diamond_chestplate",
+              "minecraft:netherite_chestplate"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/overinsured"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Full Diving Kit"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Climb onto a Nautilus while wearing a Turtle Helmet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/turtle_soldier",
+  "criteria": {
+    "kitted_out": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:nautilus"
+              },
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:turtle_helmet"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/full_diving_kit"
+  }
+}

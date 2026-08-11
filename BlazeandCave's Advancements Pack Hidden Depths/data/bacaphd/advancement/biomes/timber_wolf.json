@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Timber Wolf"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Win over the coal-black Wolf that answers to nobody outside the Old Growth Pine Taiga"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/one_with_the_forest",
+  "criteria": {
+    "black_coat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wolf",
+          "components": {
+            "minecraft:wolf/variant": "black"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/timber_wolf"
+  }
+}

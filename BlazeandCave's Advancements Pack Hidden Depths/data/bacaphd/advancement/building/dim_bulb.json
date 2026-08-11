@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_bulb"
+    },
+    "title": {
+      "translate": "Dim Bulb"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Install an Oxidised Copper Bulb, the feeblest lamp money can buy"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "oxidized_bulb": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/dim_bulb"
+  }
+}

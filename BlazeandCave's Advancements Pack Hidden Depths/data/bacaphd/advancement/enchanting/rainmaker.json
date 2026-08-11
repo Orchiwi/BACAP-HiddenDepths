@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Rainmaker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stab a mob to death with an Impaling V Trident out in the rain, where Impaling still counts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/boomerang",
+  "criteria": {
+    "rain_stab": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:trident"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:impaling",
+                        "levels": {
+                          "min": 5
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/rainmaker"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_leaves"
+    },
+    "title": {
+      "translate": "They Never Fall"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place leaves by hand so that they will never decay"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/root",
+  "criteria": {
+    "persistent_leaves": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_leaves",
+                  "minecraft:spruce_leaves",
+                  "minecraft:birch_leaves",
+                  "minecraft:jungle_leaves",
+                  "minecraft:acacia_leaves",
+                  "minecraft:dark_oak_leaves",
+                  "minecraft:mangrove_leaves",
+                  "minecraft:cherry_leaves",
+                  "minecraft:pale_oak_leaves",
+                  "minecraft:azalea_leaves",
+                  "minecraft:flowering_azalea_leaves"
+                ],
+                "state": {
+                  "persistent": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/they_never_fall"
+  }
+}

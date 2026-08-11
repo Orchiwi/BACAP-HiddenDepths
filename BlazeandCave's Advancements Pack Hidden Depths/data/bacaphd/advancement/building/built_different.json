@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "Built Different"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build yourself a Copper Golem out of spare parts"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stationary_storage",
+  "criteria": {
+    "copper_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:copper_golem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/built_different"
+  }
+}

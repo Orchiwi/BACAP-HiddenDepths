@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
+    },
+    "title": {
+      "translate": "Dressed by Committee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kit out one Armour Stand in four different armour materials at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/armor_display",
+  "criteria": {
+    "mismatch": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:armor_stand",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:iron_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:golden_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:diamond_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/dressed_by_committee"
+  }
+}

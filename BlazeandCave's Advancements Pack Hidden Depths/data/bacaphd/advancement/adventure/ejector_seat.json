@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Ejector Seat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wind Charge yourself 15 blocks straight up while inside the Trial Chambers"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/break_wind",
+  "criteria": {
+    "ejected": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "cause": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wind_charge"
+            }
+          }
+        ],
+        "start_position": {
+          "structures": "minecraft:trial_chambers"
+        },
+        "distance": {
+          "y": {
+            "min": 15.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/ejector_seat"
+  }
+}

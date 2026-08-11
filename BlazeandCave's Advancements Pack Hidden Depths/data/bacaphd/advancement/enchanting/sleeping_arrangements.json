@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "Sleeping Arrangements"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Try a bed in the Nether wearing four pieces of Blast Protection IV, and live through the answer"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "criteria": {
+    "bed_blast": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              },
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:blast_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:blast_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:blast_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:blast_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/sleeping_arrangements"
+  }
+}

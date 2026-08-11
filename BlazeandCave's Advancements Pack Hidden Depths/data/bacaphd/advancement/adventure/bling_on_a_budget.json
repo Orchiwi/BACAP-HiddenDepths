@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Bling on a Budget"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trim a Chainmail Chestplate with Netherite"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/chromatic_armory",
+  "criteria": {
+    "fancy_chainmail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_chestplate",
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:netherite"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/bling_on_a_budget"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pearlescent_froglight"
+    },
+    "title": {
+      "translate": "Bioluminescence"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place all three colours of Froglight"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fluorescent",
+  "criteria": {
+    "ochre_froglight": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ochre_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "verdant_froglight": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:verdant_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pearlescent_froglight": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pearlescent_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/bioluminescence"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Stop, Drop and Shovel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put out a burning campfire with a shovel"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/camping_out",
+  "criteria": {
+    "douse": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire",
+                  "minecraft:soul_campfire"
+                ],
+                "state": {
+                  "lit": "false"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_shovel",
+                "minecraft:stone_shovel",
+                "minecraft:copper_shovel",
+                "minecraft:iron_shovel",
+                "minecraft:golden_shovel",
+                "minecraft:diamond_shovel",
+                "minecraft:netherite_shovel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/stop_drop_and_shovel"
+  }
+}

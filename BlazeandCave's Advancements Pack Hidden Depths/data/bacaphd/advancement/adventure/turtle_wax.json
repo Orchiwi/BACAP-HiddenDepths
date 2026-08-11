@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Turtle Wax"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Trim a Turtle Shell with Resin"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/chromatic_armory",
+  "criteria": {
+    "trimmed_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet",
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:resin"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/turtle_wax"
+  }
+}

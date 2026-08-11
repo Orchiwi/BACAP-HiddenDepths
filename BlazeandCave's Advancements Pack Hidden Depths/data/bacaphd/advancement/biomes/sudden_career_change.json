@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Sudden Career Change"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Steer a channelled lightning bolt into a Villager and watch the profession change for good"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/theres_a_zombie_on_the_lawn",
+  "criteria": {
+    "zapped_villager": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:villager"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/sudden_career_change"
+  }
+}

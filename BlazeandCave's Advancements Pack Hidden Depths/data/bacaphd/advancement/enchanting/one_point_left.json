@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "One Point Left"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wear a Mending item down to its very last point of durability without letting it die"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "last_point": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        },
+        "durability": 1
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/one_point_left"
+  }
+}

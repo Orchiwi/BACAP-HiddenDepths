@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Ice Palace"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay Blue Ice in the middle of a desert"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/i_dont_like_sand",
+  "criteria": {
+    "desert_ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blue_ice"
+                ]
+              },
+              "biomes": [
+                "minecraft:desert"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/ice_palace"
+  }
+}

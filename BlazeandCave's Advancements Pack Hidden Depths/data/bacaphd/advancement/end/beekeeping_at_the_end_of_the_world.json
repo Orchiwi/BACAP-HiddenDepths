@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Beekeeping at the End of the World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break open a Bee Nest with three bees still inside it, in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/in_your_face_neil_armstrong",
+  "criteria": {
+    "nest": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "blocks": [
+          "minecraft:bee_nest"
+        ],
+        "num_bees_inside": 3,
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/beekeeping_at_the_end_of_the_world"
+  }
+}

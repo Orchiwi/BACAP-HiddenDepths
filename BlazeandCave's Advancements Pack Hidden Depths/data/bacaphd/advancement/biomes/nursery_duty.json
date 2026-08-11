@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tadpole_bucket"
+    },
+    "title": {
+      "translate": "Nursery Duty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Scoop a Tadpole out of its home water in the Mangrove Swamp"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "tadpole": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tadpole_bucket"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:mangrove_swamp"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/nursery_duty"
+  }
+}

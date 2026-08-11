@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": {
+      "translate": "Mutually Exclusive"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a Multishot Crossbow and a Piercing IV Crossbow at once, because one crossbow can never hold both"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_arbalist",
+  "criteria": {
+    "both_bows": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:multishot",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:piercing",
+                  "levels": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/mutually_exclusive"
+  }
+}

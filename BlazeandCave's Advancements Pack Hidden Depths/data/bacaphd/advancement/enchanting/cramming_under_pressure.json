@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Cramming Under Pressure"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Enchant an item while the Warden's Darkness is pulsing over you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/like_a_ninja",
+  "criteria": {
+    "dark_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:darkness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/cramming_under_pressure"
+  }
+}

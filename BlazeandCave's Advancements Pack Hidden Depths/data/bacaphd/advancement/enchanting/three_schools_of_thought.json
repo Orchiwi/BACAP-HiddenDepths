@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Three Schools of Thought"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a Sharpness V weapon, a Smite V weapon and a Bane of Arthropods V weapon all at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "three_weapons": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword",
+              "minecraft:stone_sword",
+              "minecraft:copper_sword",
+              "minecraft:iron_sword",
+              "minecraft:golden_sword",
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword",
+              "minecraft:wooden_axe",
+              "minecraft:stone_axe",
+              "minecraft:copper_axe",
+              "minecraft:iron_axe",
+              "minecraft:golden_axe",
+              "minecraft:diamond_axe",
+              "minecraft:netherite_axe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:wooden_sword",
+              "minecraft:stone_sword",
+              "minecraft:copper_sword",
+              "minecraft:iron_sword",
+              "minecraft:golden_sword",
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword",
+              "minecraft:wooden_axe",
+              "minecraft:stone_axe",
+              "minecraft:copper_axe",
+              "minecraft:iron_axe",
+              "minecraft:golden_axe",
+              "minecraft:diamond_axe",
+              "minecraft:netherite_axe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:wooden_sword",
+              "minecraft:stone_sword",
+              "minecraft:copper_sword",
+              "minecraft:iron_sword",
+              "minecraft:golden_sword",
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword",
+              "minecraft:wooden_axe",
+              "minecraft:stone_axe",
+              "minecraft:copper_axe",
+              "minecraft:iron_axe",
+              "minecraft:golden_axe",
+              "minecraft:diamond_axe",
+              "minecraft:netherite_axe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:bane_of_arthropods",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/three_schools_of_thought"
+  }
+}

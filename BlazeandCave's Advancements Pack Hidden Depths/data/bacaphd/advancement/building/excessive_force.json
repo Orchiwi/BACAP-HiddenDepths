@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Excessive Force"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Light a single candle using a Fire Charge"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/setting_up_the_mood",
+  "criteria": {
+    "fire_charge_candle": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:candle",
+                  "minecraft:white_candle",
+                  "minecraft:orange_candle",
+                  "minecraft:magenta_candle",
+                  "minecraft:light_blue_candle",
+                  "minecraft:yellow_candle",
+                  "minecraft:lime_candle",
+                  "minecraft:pink_candle",
+                  "minecraft:gray_candle",
+                  "minecraft:light_gray_candle",
+                  "minecraft:cyan_candle",
+                  "minecraft:purple_candle",
+                  "minecraft:blue_candle",
+                  "minecraft:brown_candle",
+                  "minecraft:green_candle",
+                  "minecraft:red_candle",
+                  "minecraft:black_candle"
+                ],
+                "state": {
+                  "lit": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:fire_charge"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/excessive_force"
+  }
+}

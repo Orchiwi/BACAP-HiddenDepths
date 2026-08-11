@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "Scraping By"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take an axe to a waxed copper block and strip the wax straight back off"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/no_chain_no_gain",
+  "criteria": {
+    "unwax": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:waxed_copper_block",
+                  "minecraft:waxed_exposed_copper",
+                  "minecraft:waxed_weathered_copper",
+                  "minecraft:waxed_oxidized_copper"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/scraping_by"
+  }
+}

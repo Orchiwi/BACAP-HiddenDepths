@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Struck Down"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Brand the Wither with channelled lightning while its own decay is eating you, then finish it with a thrown Trident"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/nuclear_fusion",
+  "criteria": {
+    "branded": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:wither"
+          }
+        ],
+        "player": {
+          "effects": {
+            "minecraft:wither": {}
+          }
+        }
+      }
+    },
+    "finished": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/struck_down"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Air Conditioning"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Install ice inside a Desert Pyramid"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/root",
+  "criteria": {
+    "pyramid_ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ice",
+                  "minecraft:packed_ice",
+                  "minecraft:blue_ice"
+                ]
+              },
+              "structures": "minecraft:desert_pyramid"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/air_conditioning"
+  }
+}

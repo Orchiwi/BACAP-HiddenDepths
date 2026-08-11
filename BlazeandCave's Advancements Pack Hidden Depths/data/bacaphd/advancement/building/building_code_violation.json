@@ -1,0 +1,132 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_fence"
+    },
+    "title": {
+      "translate": "Building Code Violation"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put a Nether Brick Fence beside a wooden fence and watch them refuse to join up"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/en_garde",
+  "criteria": {
+    "mismatched_fence": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:nether_brick_fence"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_fence",
+                      "minecraft:spruce_fence",
+                      "minecraft:birch_fence",
+                      "minecraft:jungle_fence",
+                      "minecraft:acacia_fence",
+                      "minecraft:dark_oak_fence",
+                      "minecraft:mangrove_fence",
+                      "minecraft:cherry_fence",
+                      "minecraft:pale_oak_fence",
+                      "minecraft:bamboo_fence",
+                      "minecraft:crimson_fence",
+                      "minecraft:warped_fence"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_fence",
+                      "minecraft:spruce_fence",
+                      "minecraft:birch_fence",
+                      "minecraft:jungle_fence",
+                      "minecraft:acacia_fence",
+                      "minecraft:dark_oak_fence",
+                      "minecraft:mangrove_fence",
+                      "minecraft:cherry_fence",
+                      "minecraft:pale_oak_fence",
+                      "minecraft:bamboo_fence",
+                      "minecraft:crimson_fence",
+                      "minecraft:warped_fence"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_fence",
+                      "minecraft:spruce_fence",
+                      "minecraft:birch_fence",
+                      "minecraft:jungle_fence",
+                      "minecraft:acacia_fence",
+                      "minecraft:dark_oak_fence",
+                      "minecraft:mangrove_fence",
+                      "minecraft:cherry_fence",
+                      "minecraft:pale_oak_fence",
+                      "minecraft:bamboo_fence",
+                      "minecraft:crimson_fence",
+                      "minecraft:warped_fence"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_fence",
+                      "minecraft:spruce_fence",
+                      "minecraft:birch_fence",
+                      "minecraft:jungle_fence",
+                      "minecraft:acacia_fence",
+                      "minecraft:dark_oak_fence",
+                      "minecraft:mangrove_fence",
+                      "minecraft:cherry_fence",
+                      "minecraft:pale_oak_fence",
+                      "minecraft:bamboo_fence",
+                      "minecraft:crimson_fence",
+                      "minecraft:warped_fence"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/building_code_violation"
+  }
+}

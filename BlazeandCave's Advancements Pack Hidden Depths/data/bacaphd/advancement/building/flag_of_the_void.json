@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "Flag of the Void"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a banner in the End and call the place yours"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/raise_the_flag",
+  "criteria": {
+    "end_banner": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_banner",
+                  "minecraft:orange_banner",
+                  "minecraft:magenta_banner",
+                  "minecraft:light_blue_banner",
+                  "minecraft:yellow_banner",
+                  "minecraft:lime_banner",
+                  "minecraft:pink_banner",
+                  "minecraft:gray_banner",
+                  "minecraft:light_gray_banner",
+                  "minecraft:cyan_banner",
+                  "minecraft:purple_banner",
+                  "minecraft:blue_banner",
+                  "minecraft:brown_banner",
+                  "minecraft:green_banner",
+                  "minecraft:red_banner",
+                  "minecraft:black_banner"
+                ]
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/flag_of_the_void"
+  }
+}

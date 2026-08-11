@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "Will-o'-the-Wisp"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang a Soul Lantern in a Soul Sand Valley"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/cerulean",
+  "criteria": {
+    "soul_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_lantern"
+                ]
+              },
+              "biomes": [
+                "minecraft:soul_sand_valley"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/will_o_the_wisp"
+  }
+}

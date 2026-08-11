@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Career Change"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch a Creeper and a Pig in one channeled bolt and change both of their careers at once"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/god_of_thunder",
+  "criteria": {
+    "double_strike": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:creeper"
+          },
+          {
+            "entity_type": "minecraft:pig"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/career_change"
+  }
+}

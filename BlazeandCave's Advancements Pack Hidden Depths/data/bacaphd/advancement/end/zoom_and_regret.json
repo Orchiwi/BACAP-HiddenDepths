@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Zoom and Regret"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put a Spyglass on an Enderman fifty blocks away in the End, then remember what looking does"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_actual_end",
+  "criteria": {
+    "spy": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              },
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:enderman",
+                  "distance": {
+                    "absolute": {
+                      "min": 50.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/zoom_and_regret"
+  }
+}

@@ -7574,6 +7574,1626 @@
           }
         }
       }
+    },
+    "ivory_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ivory_tower": true
+            }
+          }
+        }
+      }
+    },
+    "bedrock_scholar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/bedrock_scholar": true
+            }
+          }
+        }
+      }
+    },
+    "continuing_education": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/continuing_education": true
+            }
+          }
+        }
+      }
+    },
+    "guest_lecturer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/guest_lecturer": true
+            }
+          }
+        }
+      }
+    },
+    "floating_faculty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/floating_faculty": true
+            }
+          }
+        }
+      }
+    },
+    "grim_studies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/grim_studies": true
+            }
+          }
+        }
+      }
+    },
+    "burning_the_midnight_oil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/burning_the_midnight_oil": true
+            }
+          }
+        }
+      }
+    },
+    "middle_of_the_road": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/middle_of_the_road": true
+            }
+          }
+        }
+      }
+    },
+    "satellite_campus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/satellite_campus": true
+            }
+          }
+        }
+      }
+    },
+    "relocating_the_library": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/relocating_the_library": true
+            }
+          }
+        }
+      }
+    },
+    "shell_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/shell_suit": true
+            }
+          }
+        }
+      }
+    },
+    "ready_to_spend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ready_to_spend": true
+            }
+          }
+        }
+      }
+    },
+    "blue_chip_investment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/blue_chip_investment": true
+            }
+          }
+        }
+      }
+    },
+    "take_the_podium": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/take_the_podium": true
+            }
+          }
+        }
+      }
+    },
+    "ghostwriter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ghostwriter": true
+            }
+          }
+        }
+      }
+    },
+    "flat_pack_furniture": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/flat_pack_furniture": true
+            }
+          }
+        }
+      }
+    },
+    "nominal_fee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/nominal_fee": true
+            }
+          }
+        }
+      }
+    },
+    "acme_corporation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/acme_corporation": true
+            }
+          }
+        }
+      }
+    },
+    "sting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sting": true
+            }
+          }
+        }
+      }
+    },
+    "sleepover_in_the_stacks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sleepover_in_the_stacks": true
+            }
+          }
+        }
+      }
+    },
+    "one_point_left": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/one_point_left": true
+            }
+          }
+        }
+      }
+    },
+    "pancake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/pancake": true
+            }
+          }
+        }
+      }
+    },
+    "salon_treatment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/salon_treatment": true
+            }
+          }
+        }
+      }
+    },
+    "face_lift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/face_lift": true
+            }
+          }
+        }
+      }
+    },
+    "paving_contractor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/paving_contractor": true
+            }
+          }
+        }
+      }
+    },
+    "wasted_on_you": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wasted_on_you": true
+            }
+          }
+        }
+      }
+    },
+    "down_to_the_last_arrow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/down_to_the_last_arrow": true
+            }
+          }
+        }
+      }
+    },
+    "field_goal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/field_goal": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_to_loot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/nothing_to_loot": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_kind_of_cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wrong_kind_of_cold": true
+            }
+          }
+        }
+      }
+    },
+    "cold_comfort": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cold_comfort": true
+            }
+          }
+        }
+      }
+    },
+    "studying_in_a_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/studying_in_a_storm": true
+            }
+          }
+        }
+      }
+    },
+    "correspondence_course": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/correspondence_course": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_studies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ominous_studies": true
+            }
+          }
+        }
+      }
+    },
+    "corporate_sponsorship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/corporate_sponsorship": true
+            }
+          }
+        }
+      }
+    },
+    "reading_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/reading_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "deep_study": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/deep_study": true
+            }
+          }
+        }
+      }
+    },
+    "levels_to_burn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/levels_to_burn": true
+            }
+          }
+        }
+      }
+    },
+    "sunk_cost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sunk_cost": true
+            }
+          }
+        }
+      }
+    },
+    "rotten_luck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/rotten_luck": true
+            }
+          }
+        }
+      }
+    },
+    "automated_publishing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/automated_publishing": true
+            }
+          }
+        }
+      }
+    },
+    "filing_system": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/filing_system": true
+            }
+          }
+        }
+      }
+    },
+    "scholarship_programme": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/scholarship_programme": true
+            }
+          }
+        }
+      }
+    },
+    "easy_come_easy_go": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/easy_come_easy_go": true
+            }
+          }
+        }
+      }
+    },
+    "heirloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/heirloom": true
+            }
+          }
+        }
+      }
+    },
+    "overinsured": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/overinsured": true
+            }
+          }
+        }
+      }
+    },
+    "best_of_both_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/best_of_both_worlds": true
+            }
+          }
+        }
+      }
+    },
+    "humiliating": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/humiliating": true
+            }
+          }
+        }
+      }
+    },
+    "blast_off": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/blast_off": true
+            }
+          }
+        }
+      }
+    },
+    "what_goes_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/what_goes_up": true
+            }
+          }
+        }
+      }
+    },
+    "mushroom_harvest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/mushroom_harvest": true
+            }
+          }
+        }
+      }
+    },
+    "diminishing_returns": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/diminishing_returns": true
+            }
+          }
+        }
+      }
+    },
+    "rainmaker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/rainmaker": true
+            }
+          }
+        }
+      }
+    },
+    "lucky_dip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/lucky_dip": true
+            }
+          }
+        }
+      }
+    },
+    "amphibious_assault": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/amphibious_assault": true
+            }
+          }
+        }
+      }
+    },
+    "pest_control_contract": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/pest_control_contract": true
+            }
+          }
+        }
+      }
+    },
+    "sleeping_arrangements": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sleeping_arrangements": true
+            }
+          }
+        }
+      }
+    },
+    "cramming_under_pressure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cramming_under_pressure": true
+            }
+          }
+        }
+      }
+    },
+    "full_steam_ahead": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/full_steam_ahead": true
+            }
+          }
+        }
+      }
+    },
+    "submerged_syllabus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/submerged_syllabus": true
+            }
+          }
+        }
+      }
+    },
+    "notchs_apple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/notchs_apple": true
+            }
+          }
+        }
+      }
+    },
+    "treasure_trove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/treasure_trove": true
+            }
+          }
+        }
+      }
+    },
+    "free_practice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/free_practice": true
+            }
+          }
+        }
+      }
+    },
+    "diversified_portfolio": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/diversified_portfolio": true
+            }
+          }
+        }
+      }
+    },
+    "cheating_the_ledger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cheating_the_ledger": true
+            }
+          }
+        }
+      }
+    },
+    "perfect_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/perfect_storm": true
+            }
+          }
+        }
+      }
+    },
+    "every_library_in_the_land": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/every_library_in_the_land": true
+            }
+          }
+        }
+      }
+    },
+    "you_had_one_job": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/you_had_one_job": true
+            }
+          }
+        }
+      }
+    },
+    "global_warming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/global_warming": true
+            }
+          }
+        }
+      }
+    },
+    "wet_blanket": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wet_blanket": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_to_show_for_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/nothing_to_show_for_it": true
+            }
+          }
+        }
+      }
+    },
+    "full_swing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/full_swing": true
+            }
+          }
+        }
+      }
+    },
+    "ambidextrous": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ambidextrous": true
+            }
+          }
+        }
+      }
+    },
+    "hot_headed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/hot_headed": true
+            }
+          }
+        }
+      }
+    },
+    "hog_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/hog_rider": true
+            }
+          }
+        }
+      }
+    },
+    "snapped": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/snapped": true
+            }
+          }
+        }
+      }
+    },
+    "bacon_bolt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/bacon_bolt": true
+            }
+          }
+        }
+      }
+    },
+    "shock_therapy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/shock_therapy": true
+            }
+          }
+        }
+      }
+    },
+    "sea_change": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sea_change": true
+            }
+          }
+        }
+      }
+    },
+    "not_so_infinite": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/not_so_infinite": true
+            }
+          }
+        }
+      }
+    },
+    "two_schools_of_archery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/two_schools_of_archery": true
+            }
+          }
+        }
+      }
+    },
+    "trident_tourist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/trident_tourist": true
+            }
+          }
+        }
+      }
+    },
+    "swatted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/swatted": true
+            }
+          }
+        }
+      }
+    },
+    "overwound": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/overwound": true
+            }
+          }
+        }
+      }
+    },
+    "head_in_the_clouds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/head_in_the_clouds": true
+            }
+          }
+        }
+      }
+    },
+    "mutually_exclusive": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/mutually_exclusive": true
+            }
+          }
+        }
+      }
+    },
+    "lance_corporal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/lance_corporal": true
+            }
+          }
+        }
+      }
+    },
+    "skewer_tactics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/skewer_tactics": true
+            }
+          }
+        }
+      }
+    },
+    "bound_for_bed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/bound_for_bed": true
+            }
+          }
+        }
+      }
+    },
+    "cursed_angler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cursed_angler": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wrong_catch": true
+            }
+          }
+        }
+      }
+    },
+    "trophy_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/trophy_catch": true
+            }
+          }
+        }
+      }
+    },
+    "down_to_the_wire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/down_to_the_wire": true
+            }
+          }
+        }
+      }
+    },
+    "reloaded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/reloaded": true
+            }
+          }
+        }
+      }
+    },
+    "empty_handed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/empty_handed": true
+            }
+          }
+        }
+      }
+    },
+    "misapplied_theology": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/misapplied_theology": true
+            }
+          }
+        }
+      }
+    },
+    "squeeze_it_dry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/squeeze_it_dry": true
+            }
+          }
+        }
+      }
+    },
+    "jousting_practice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/jousting_practice": true
+            }
+          }
+        }
+      }
+    },
+    "golden_opportunity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/golden_opportunity": true
+            }
+          }
+        }
+      }
+    },
+    "three_schools_of_thought": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/three_schools_of_thought": true
+            }
+          }
+        }
+      }
+    },
+    "wrong_phylum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/wrong_phylum": true
+            }
+          }
+        }
+      }
+    },
+    "flogging_a_dead_horse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/flogging_a_dead_horse": true
+            }
+          }
+        }
+      }
+    },
+    "breezy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/breezy": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_investment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/heavy_investment": true
+            }
+          }
+        }
+      }
+    },
+    "setting_up_the_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/setting_up_the_shot": true
+            }
+          }
+        }
+      }
+    },
+    "dead_in_the_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/dead_in_the_water": true
+            }
+          }
+        }
+      }
+    },
+    "career_change": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/career_change": true
+            }
+          }
+        }
+      }
+    },
+    "outlived_its_arrows": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/outlived_its_arrows": true
+            }
+          }
+        }
+      }
+    },
+    "the_fire_did_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/the_fire_did_it": true
+            }
+          }
+        }
+      }
+    },
+    "overdraw": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/overdraw": true
+            }
+          }
+        }
+      }
+    },
+    "blind_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/blind_shot": true
+            }
+          }
+        }
+      }
+    },
+    "hot_reload": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/hot_reload": true
+            }
+          }
+        }
+      }
+    },
+    "skywriting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/skywriting": true
+            }
+          }
+        }
+      }
+    },
+    "full_send": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/full_send": true
+            }
+          }
+        }
+      }
+    },
+    "fully_committed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/fully_committed": true
+            }
+          }
+        }
+      }
+    },
+    "sharp_end_of_the_stick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sharp_end_of_the_stick": true
+            }
+          }
+        }
+      }
+    },
+    "last_resort": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/last_resort": true
+            }
+          }
+        }
+      }
+    },
+    "permanent_disguise": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/permanent_disguise": true
+            }
+          }
+        }
+      }
+    },
+    "sculk_tax": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/sculk_tax": true
+            }
+          }
+        }
+      }
+    },
+    "reel_deal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/reel_deal": true
+            }
+          }
+        }
+      }
+    },
+    "everything_with_legs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/everything_with_legs": true
+            }
+          }
+        }
+      }
+    },
+    "by_the_book": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/by_the_book": true
+            }
+          }
+        }
+      }
+    },
+    "overkill_cubed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/overkill_cubed": true
+            }
+          }
+        }
+      }
+    },
+    "bigger_hammer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/bigger_hammer": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/dragon_drop": true
+            }
+          }
+        }
+      }
+    },
+    "fireproof_trio": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/fireproof_trio": true
+            }
+          }
+        }
+      }
+    },
+    "ghast_buster": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/ghast_buster": true
+            }
+          }
+        }
+      }
+    },
+    "nether_skewer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/nether_skewer": true
+            }
+          }
+        }
+      }
+    },
+    "arms_race": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/arms_race": true
+            }
+          }
+        }
+      }
+    },
+    "off_the_hook": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/off_the_hook": true
+            }
+          }
+        }
+      }
+    },
+    "void_warranty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/void_warranty": true
+            }
+          }
+        }
+      }
+    },
+    "weapons_grade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/weapons_grade": true
+            }
+          }
+        }
+      }
+    },
+    "cant_dodge_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/cant_dodge_this": true
+            }
+          }
+        }
+      }
+    },
+    "divine_judgement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/divine_judgement": true
+            }
+          }
+        }
+      }
+    },
+    "weight_class": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaphd:enchanting/weight_class": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

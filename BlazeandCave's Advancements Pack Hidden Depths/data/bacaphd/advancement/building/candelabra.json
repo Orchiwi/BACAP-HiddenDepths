@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Candelabra"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Crowd four candles into a single block"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/setting_up_the_mood",
+  "criteria": {
+    "four_candles": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:candle",
+                  "minecraft:white_candle",
+                  "minecraft:orange_candle",
+                  "minecraft:magenta_candle",
+                  "minecraft:light_blue_candle",
+                  "minecraft:yellow_candle",
+                  "minecraft:lime_candle",
+                  "minecraft:pink_candle",
+                  "minecraft:gray_candle",
+                  "minecraft:light_gray_candle",
+                  "minecraft:cyan_candle",
+                  "minecraft:purple_candle",
+                  "minecraft:blue_candle",
+                  "minecraft:brown_candle",
+                  "minecraft:green_candle",
+                  "minecraft:red_candle",
+                  "minecraft:black_candle"
+                ],
+                "state": {
+                  "candles": "4"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/candelabra"
+  }
+}

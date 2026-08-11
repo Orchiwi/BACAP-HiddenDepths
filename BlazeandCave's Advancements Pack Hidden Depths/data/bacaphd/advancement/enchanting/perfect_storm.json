@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Perfect Storm"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land an Enchanted Book in a thunderstorm on a rod carrying both Luck of the Sea III and Lure III"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "storm_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ]
+        },
+        "rod": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:luck_of_the_sea",
+                "levels": {
+                  "min": 3
+                }
+              },
+              {
+                "enchantments": "minecraft:lure",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/perfect_storm"
+  }
+}

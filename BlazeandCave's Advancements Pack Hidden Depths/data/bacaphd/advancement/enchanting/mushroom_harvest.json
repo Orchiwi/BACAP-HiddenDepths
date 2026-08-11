@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": {
+      "translate": "Mushroom Harvest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shear a Bogged with Efficiency V Shears and take the mushrooms off its back"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/super_efficient",
+  "criteria": {
+    "sheared_bogged": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:bogged"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/mushroom_harvest"
+  }
+}

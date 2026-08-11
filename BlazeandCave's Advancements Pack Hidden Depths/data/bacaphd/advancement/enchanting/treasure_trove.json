@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "Treasure Trove"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry Enchanted Books for Mending, Frost Walker and Curse of Binding at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "three_treasures": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:frost_walker"
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:binding_curse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/treasure_trove"
+  }
+}

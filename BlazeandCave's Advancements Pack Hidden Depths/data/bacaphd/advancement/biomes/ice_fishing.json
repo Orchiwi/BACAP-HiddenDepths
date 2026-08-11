@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon_bucket"
+    },
+    "title": {
+      "translate": "Ice Fishing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bucket up a Salmon while standing on the ice of a Frozen River"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/thin_ice",
+  "criteria": {
+    "salmon_through_the_ice": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:frozen_river"
+                ]
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:ice",
+                    "minecraft:packed_ice",
+                    "minecraft:blue_ice",
+                    "minecraft:frosted_ice"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/ice_fishing"
+  }
+}

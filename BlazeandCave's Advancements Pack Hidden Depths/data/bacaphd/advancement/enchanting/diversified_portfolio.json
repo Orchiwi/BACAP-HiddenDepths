@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
+    },
+    "title": {
+      "translate": "Diversified Portfolio"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold a Fortune III pickaxe, a Fortune III axe and a Fortune III shovel all at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "three_fortunes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:copper_pickaxe",
+              "minecraft:iron_pickaxe",
+              "minecraft:golden_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:wooden_axe",
+              "minecraft:stone_axe",
+              "minecraft:copper_axe",
+              "minecraft:iron_axe",
+              "minecraft:golden_axe",
+              "minecraft:diamond_axe",
+              "minecraft:netherite_axe"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:wooden_shovel",
+              "minecraft:stone_shovel",
+              "minecraft:copper_shovel",
+              "minecraft:iron_shovel",
+              "minecraft:golden_shovel",
+              "minecraft:diamond_shovel",
+              "minecraft:netherite_shovel"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/diversified_portfolio"
+  }
+}

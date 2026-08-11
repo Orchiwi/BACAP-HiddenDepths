@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Huffed and Puffed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land the killing blow on a Shulker with a Wind Charge"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/unstoppable_force_vs_immovable_object",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:shulker"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/huffed_and_puffed"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass"
+    },
+    "title": {
+      "translate": "Glass Bottom"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a glass block with water directly above it and directly below it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/classy_glassy",
+  "criteria": {
+    "tunnel_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:glass",
+                  "minecraft:tinted_glass",
+                  "minecraft:white_stained_glass",
+                  "minecraft:orange_stained_glass",
+                  "minecraft:magenta_stained_glass",
+                  "minecraft:light_blue_stained_glass",
+                  "minecraft:yellow_stained_glass",
+                  "minecraft:lime_stained_glass",
+                  "minecraft:pink_stained_glass",
+                  "minecraft:gray_stained_glass",
+                  "minecraft:light_gray_stained_glass",
+                  "minecraft:cyan_stained_glass",
+                  "minecraft:purple_stained_glass",
+                  "minecraft:blue_stained_glass",
+                  "minecraft:brown_stained_glass",
+                  "minecraft:green_stained_glass",
+                  "minecraft:red_stained_glass",
+                  "minecraft:black_stained_glass"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:water",
+                  "minecraft:flowing_water"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/glass_bottom"
+  }
+}

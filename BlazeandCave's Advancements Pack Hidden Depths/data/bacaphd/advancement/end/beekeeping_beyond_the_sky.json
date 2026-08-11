@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "Beekeeping Beyond the Sky"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break a Bee Nest in the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/void_walker",
+  "criteria": {
+    "nest": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "blocks": [
+          "minecraft:bee_nest"
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/beekeeping_beyond_the_sky"
+  }
+}

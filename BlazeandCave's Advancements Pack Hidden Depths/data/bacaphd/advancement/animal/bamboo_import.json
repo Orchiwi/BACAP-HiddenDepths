@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_mosaic"
+    },
+    "title": {
+      "translate": "Bamboo Import"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get two Pandas and enough bamboo into the Nether to breed them there"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "nether_cub": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:panda"
+        },
+        "partner": {
+          "entity_type": "minecraft:panda"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/bamboo_import"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_planks"
+    },
+    "title": {
+      "translate": "Grim Studies"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item in a Pale Garden, with the Creakings watching"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "pale_study": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/grim_studies"
+  }
+}

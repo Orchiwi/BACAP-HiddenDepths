@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "Grey Drapes"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hang Pale Hanging Moss off the underside of a Pale Oak Log"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pale_in_comparison",
+  "criteria": {
+    "draped": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_hanging_moss"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_log",
+                  "minecraft:pale_oak_wood"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/grey_drapes"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Copper Roof"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cap a copper block off with a Lightning Rod"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "rod_on_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lightning_rod"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_block",
+                  "minecraft:exposed_copper",
+                  "minecraft:weathered_copper",
+                  "minecraft:oxidized_copper",
+                  "minecraft:waxed_copper_block",
+                  "minecraft:waxed_exposed_copper",
+                  "minecraft:waxed_weathered_copper",
+                  "minecraft:waxed_oxidized_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/copper_roof"
+  }
+}

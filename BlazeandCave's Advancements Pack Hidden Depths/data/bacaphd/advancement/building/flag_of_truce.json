@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "Flag of Truce"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Raise a White Banner inside a Pillager Outpost and see how far it gets you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/no_banner_only_color",
+  "criteria": {
+    "white_flag": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_banner"
+                ]
+              },
+              "structures": "minecraft:pillager_outpost"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/flag_of_truce"
+  }
+}

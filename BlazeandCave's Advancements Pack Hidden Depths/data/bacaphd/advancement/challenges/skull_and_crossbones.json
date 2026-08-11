@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Skull and Crossbones"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill the Wither and a Wither Skeleton with a single crossbow arrow"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_world_is_ending",
+  "criteria": {
+    "double_kill": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:wither"
+          },
+          {
+            "entity_type": "minecraft:wither_skeleton"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/skull_and_crossbones"
+  }
+}

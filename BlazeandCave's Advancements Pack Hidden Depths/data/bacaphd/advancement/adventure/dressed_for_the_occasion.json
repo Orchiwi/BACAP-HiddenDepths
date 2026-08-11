@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Dressed for the Occasion"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Unlock a Vault while wearing a full suit of armour trimmed with Flow"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/vault_hunter",
+  "criteria": {
+    "dressed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "chest": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "legs": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                },
+                "feet": {
+                  "predicates": {
+                    "minecraft:trim": {
+                      "pattern": "minecraft:flow"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/dressed_for_the_occasion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:big_dripleaf"
+    },
+    "title": {
+      "translate": "Big Leaf Energy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Feed Bone Meal to a Small Dripleaf in the Lush Caves until it stands taller than you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "grew": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:small_dripleaf"
+                ]
+              },
+              "biomes": "minecraft:lush_caves"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/big_leaf_energy"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_door"
+    },
+    "title": {
+      "translate": "Grand Entrance"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hang a door directly beside another one to make a proper double doorway"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "double_door": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_door",
+                  "minecraft:spruce_door",
+                  "minecraft:birch_door",
+                  "minecraft:jungle_door",
+                  "minecraft:acacia_door",
+                  "minecraft:dark_oak_door",
+                  "minecraft:mangrove_door",
+                  "minecraft:cherry_door",
+                  "minecraft:pale_oak_door",
+                  "minecraft:bamboo_door",
+                  "minecraft:crimson_door",
+                  "minecraft:warped_door"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_door",
+                      "minecraft:spruce_door",
+                      "minecraft:birch_door",
+                      "minecraft:jungle_door",
+                      "minecraft:acacia_door",
+                      "minecraft:dark_oak_door",
+                      "minecraft:mangrove_door",
+                      "minecraft:cherry_door",
+                      "minecraft:pale_oak_door",
+                      "minecraft:bamboo_door",
+                      "minecraft:crimson_door",
+                      "minecraft:warped_door"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_door",
+                      "minecraft:spruce_door",
+                      "minecraft:birch_door",
+                      "minecraft:jungle_door",
+                      "minecraft:acacia_door",
+                      "minecraft:dark_oak_door",
+                      "minecraft:mangrove_door",
+                      "minecraft:cherry_door",
+                      "minecraft:pale_oak_door",
+                      "minecraft:bamboo_door",
+                      "minecraft:crimson_door",
+                      "minecraft:warped_door"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_door",
+                      "minecraft:spruce_door",
+                      "minecraft:birch_door",
+                      "minecraft:jungle_door",
+                      "minecraft:acacia_door",
+                      "minecraft:dark_oak_door",
+                      "minecraft:mangrove_door",
+                      "minecraft:cherry_door",
+                      "minecraft:pale_oak_door",
+                      "minecraft:bamboo_door",
+                      "minecraft:crimson_door",
+                      "minecraft:warped_door"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:oak_door",
+                      "minecraft:spruce_door",
+                      "minecraft:birch_door",
+                      "minecraft:jungle_door",
+                      "minecraft:acacia_door",
+                      "minecraft:dark_oak_door",
+                      "minecraft:mangrove_door",
+                      "minecraft:cherry_door",
+                      "minecraft:pale_oak_door",
+                      "minecraft:bamboo_door",
+                      "minecraft:crimson_door",
+                      "minecraft:warped_door"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/grand_entrance"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coarse_dirt"
+    },
+    "title": {
+      "translate": "Hard Ground"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get an Oak Sapling to take root in the Coarse Dirt of a Wooded Badlands"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "sapling_on_coarse": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling"
+                ]
+              },
+              "biomes": "minecraft:wooded_badlands"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:coarse_dirt"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/hard_ground"
+  }
+}

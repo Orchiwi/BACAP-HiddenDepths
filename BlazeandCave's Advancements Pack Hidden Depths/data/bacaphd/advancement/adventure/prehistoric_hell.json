@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower_seeds"
+    },
+    "title": {
+      "translate": "Prehistoric Hell"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Breed two Sniffers in the Nether"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/jurassic_sniff",
+  "criteria": {
+    "nether_sniffers": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:sniffer"
+        },
+        "partner": {
+          "entity_type": "minecraft:sniffer"
+        },
+        "child": {
+          "entity_type": "minecraft:sniffer",
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/prehistoric_hell"
+  }
+}

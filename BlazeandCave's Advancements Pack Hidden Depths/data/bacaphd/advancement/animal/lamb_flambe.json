@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_mutton"
+    },
+    "title": {
+      "translate": "Lamb, Flambé"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a lightning bolt do the cooking, then pick up the Cooked Mutton"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/wooly",
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/lightning": {
+                "entity_struck": {
+                  "entity_type": "minecraft:sheep"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "collected": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_mutton"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/lamb_flambe"
+  }
+}

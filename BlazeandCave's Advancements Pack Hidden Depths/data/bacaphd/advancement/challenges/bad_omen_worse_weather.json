@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Bad Omen, Worse Weather"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Win a raid while the thunderstorm is still going"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+  "criteria": {
+    "storm_raid": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/bad_omen_worse_weather"
+  }
+}

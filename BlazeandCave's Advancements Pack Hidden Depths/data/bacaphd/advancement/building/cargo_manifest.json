@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Cargo Manifest"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Restock a Shipwreck with a barrel of your own"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/barrel_rider",
+  "criteria": {
+    "wreck_barrel": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ]
+              },
+              "structures": "minecraft:shipwreck"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/cargo_manifest"
+  }
+}

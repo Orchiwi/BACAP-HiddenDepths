@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Two Schools of Archery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a bow with Infinity and a bow with Mending at the same time, since no single bow may hold both"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/to_infinity_and_beyond",
+  "criteria": {
+    "two_bows": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:infinity",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/two_schools_of_archery"
+  }
+}

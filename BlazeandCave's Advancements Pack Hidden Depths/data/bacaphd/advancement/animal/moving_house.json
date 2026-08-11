@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Moving House"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a crafted Beehive away with Silk Touch while all three Bees are still asleep inside"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/nest_quick",
+  "criteria": {
+    "relocation": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "blocks": [
+          "minecraft:beehive"
+        ],
+        "num_bees_inside": 3,
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/moving_house"
+  }
+}

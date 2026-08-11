@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_pottery_sherd"
+    },
+    "title": {
+      "translate": "Warning Label"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Decorated Pot bearing both the Skull and the Danger sherd"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/pottery_exhibition",
+  "criteria": {
+    "spooky_pot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:decorated_pot",
+        "ingredients": [
+          {
+            "items": "minecraft:skull_pottery_sherd"
+          },
+          {
+            "items": "minecraft:danger_pottery_sherd"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/warning_label"
+  }
+}

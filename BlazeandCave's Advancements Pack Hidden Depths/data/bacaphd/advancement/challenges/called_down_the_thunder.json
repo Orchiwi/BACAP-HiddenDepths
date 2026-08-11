@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Called Down the Thunder"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Channel lightning into the Wither with a Trident"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/nuclear_fusion",
+  "criteria": {
+    "wither": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:wither"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/called_down_the_thunder"
+  }
+}

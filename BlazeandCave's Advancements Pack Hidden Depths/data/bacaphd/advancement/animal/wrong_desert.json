@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Wrong Desert"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Camel out among the Ice Spikes"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/desert_rider",
+  "criteria": {
+    "cold_dunes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:camel"
+              },
+              "location": {
+                "biomes": "minecraft:ice_spikes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/wrong_desert"
+  }
+}

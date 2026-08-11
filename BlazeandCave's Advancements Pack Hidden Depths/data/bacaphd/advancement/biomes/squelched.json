@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Squelched"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Slime out in the swamp where they belong"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "swamp_slime": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:slime",
+          "location": {
+            "biomes": [
+              "minecraft:swamp",
+              "minecraft:mangrove_swamp"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/squelched"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Divine Judgement"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch an Evoker, a Vindicator and a Pillager in a single channeled lightning bolt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/god_of_thunder",
+  "criteria": {
+    "judged": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:evoker"
+          },
+          {
+            "entity_type": "minecraft:vindicator"
+          },
+          {
+            "entity_type": "minecraft:pillager"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/divine_judgement"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "The Long Crossing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Ride a Strider 300 blocks across lava in a single unbroken crossing"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/when_pigs_used_to_fly",
+  "criteria": {
+    "crossing": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 300.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/the_long_crossing"
+  }
+}

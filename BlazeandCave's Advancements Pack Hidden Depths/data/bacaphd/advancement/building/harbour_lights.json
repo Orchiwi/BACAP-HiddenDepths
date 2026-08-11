@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Harbour Lights"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cap a sea tower with a Sea Lantern at least 100 blocks above the waves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/expensive",
+  "criteria": {
+    "sea_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sea_lantern"
+                ]
+              },
+              "position": {
+                "y": {
+                  "min": 100
+                }
+              },
+              "biomes": [
+                "minecraft:ocean",
+                "minecraft:deep_ocean",
+                "minecraft:cold_ocean",
+                "minecraft:deep_cold_ocean",
+                "minecraft:frozen_ocean",
+                "minecraft:deep_frozen_ocean",
+                "minecraft:lukewarm_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:warm_ocean"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/harbour_lights"
+  }
+}

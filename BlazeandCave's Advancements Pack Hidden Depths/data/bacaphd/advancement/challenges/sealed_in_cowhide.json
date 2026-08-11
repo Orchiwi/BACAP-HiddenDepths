@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "Sealed in Cowhide"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Defeat the Wither wearing a full set of leather armour, every piece bearing the Curse of Binding"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel",
+  "criteria": {
+    "wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:binding_curse"
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "items": [
+                "minecraft:leather_chestplate"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:binding_curse"
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "items": [
+                "minecraft:leather_leggings"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:binding_curse"
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:binding_curse"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/sealed_in_cowhide"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "Lamp Overboard"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a lantern underwater without putting the water out"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/expensive",
+  "criteria": {
+    "waterlogged_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern",
+                  "minecraft:soul_lantern",
+                  "minecraft:copper_lantern",
+                  "minecraft:exposed_copper_lantern",
+                  "minecraft:weathered_copper_lantern",
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:waxed_copper_lantern",
+                  "minecraft:waxed_exposed_copper_lantern",
+                  "minecraft:waxed_weathered_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern"
+                ],
+                "state": {
+                  "waterlogged": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/lamp_overboard"
+  }
+}

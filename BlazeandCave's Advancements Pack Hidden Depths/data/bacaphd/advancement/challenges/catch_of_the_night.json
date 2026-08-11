@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Catch of the Night"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Hook a Phantom out of the air with a Fishing Rod from at least 25 blocks away"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "phantom": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:phantom",
+          "distance": {
+            "absolute": {
+              "min": 25.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/catch_of_the_night"
+  }
+}

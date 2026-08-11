@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Hare Trigger"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop a Rabbit from at least 50 blocks away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/rabbit_season",
+  "criteria": {
+    "long_shot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:rabbit",
+          "distance": {
+            "absolute": {
+              "min": 50.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/hare_trigger"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mycelium"
+    },
+    "title": {
+      "translate": "Mycelium Migrants"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Boat a pair of Mooshrooms all the way to the Nether and breed them there"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/super_mooshroom",
+  "criteria": {
+    "nether_shrooms": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:mooshroom"
+        },
+        "partner": {
+          "entity_type": "minecraft:mooshroom"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/mycelium_migrants"
+  }
+}

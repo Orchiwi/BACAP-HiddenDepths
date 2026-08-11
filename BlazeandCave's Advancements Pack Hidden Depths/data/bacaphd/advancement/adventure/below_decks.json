@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Below Decks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Empty a Shipwreck's map chest, its supply chest and its treasure chest"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raidin_master",
+  "criteria": {
+    "map": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_map"
+      }
+    },
+    "supply": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_supply"
+      }
+    },
+    "treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/below_decks"
+  }
+}

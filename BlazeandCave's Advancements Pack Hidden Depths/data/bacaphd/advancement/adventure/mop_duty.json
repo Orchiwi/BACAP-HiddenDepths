@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "Mop Duty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Sponge of your own down inside an Ocean Monument"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/sponge_miner",
+  "criteria": {
+    "monument_sponge": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sponge"
+                ]
+              },
+              "structures": "minecraft:monument"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/mop_duty"
+  }
+}

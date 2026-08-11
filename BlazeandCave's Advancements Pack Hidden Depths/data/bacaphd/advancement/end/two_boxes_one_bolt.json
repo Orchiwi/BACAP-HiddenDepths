@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Two Boxes, One Bolt"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Skewer two Shulkers with a single Piercing crossbow bolt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shulker_breaker",
+  "criteria": {
+    "pierce": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:shulker"
+          },
+          {
+            "entity_type": "minecraft:shulker"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/two_boxes_one_bolt"
+  }
+}

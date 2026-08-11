@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Whirlpool"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Set a Magma Block down on the seabed and open a whirlpool"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pushed_around",
+  "criteria": {
+    "seabed_magma": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
+              },
+              "biomes": [
+                "minecraft:ocean",
+                "minecraft:deep_ocean",
+                "minecraft:cold_ocean",
+                "minecraft:deep_cold_ocean",
+                "minecraft:lukewarm_ocean",
+                "minecraft:deep_lukewarm_ocean",
+                "minecraft:warm_ocean",
+                "minecraft:frozen_ocean",
+                "minecraft:deep_frozen_ocean"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/whirlpool"
+  }
+}

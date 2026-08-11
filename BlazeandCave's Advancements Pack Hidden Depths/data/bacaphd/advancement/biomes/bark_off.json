@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_pale_oak_log"
+    },
+    "title": {
+      "translate": "Bark Off"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Strip a Pale Oak Log down to the bone-white wood underneath, out in the Pale Garden"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/resinance",
+  "criteria": {
+    "stripped": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pale_oak_log"
+                ]
+              },
+              "biomes": "minecraft:pale_garden"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:axes"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/bark_off"
+  }
+}

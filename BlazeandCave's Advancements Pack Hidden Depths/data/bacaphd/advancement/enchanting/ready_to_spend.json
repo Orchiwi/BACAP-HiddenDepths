@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "translate": "Ready to Spend"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand there with 64 Lapis Lazuli and 30 levels, ready for a proper session"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "stocked": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ],
+        "player": {
+          "minecraft:type_specific/player": {
+            "level": {
+              "min": 30
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/ready_to_spend"
+  }
+}

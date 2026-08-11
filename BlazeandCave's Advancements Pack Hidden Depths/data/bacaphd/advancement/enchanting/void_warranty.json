@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_spear"
+    },
+    "title": {
+      "translate": "Void Warranty"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Wear a Netherite Spear carrying Lunge III right down to splinters"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "broke_spear": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_spear"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:lunge",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/void_warranty"
+  }
+}

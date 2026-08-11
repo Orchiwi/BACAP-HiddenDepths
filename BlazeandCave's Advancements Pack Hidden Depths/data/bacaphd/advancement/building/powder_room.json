@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Powder Room"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Climb into a cauldron filled with Powder Snow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/hot_tub",
+  "criteria": {
+    "powder_cauldron": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powder_snow_cauldron"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/powder_room"
+  }
+}

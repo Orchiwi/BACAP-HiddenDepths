@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Permanent Disguise"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill an Enderman while wearing a Carved Pumpkin cursed with Curse of Binding"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/handmade_blinding",
+  "criteria": {
+    "pumpkin_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:enderman"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:carved_pumpkin"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:binding_curse",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/permanent_disguise"
+  }
+}

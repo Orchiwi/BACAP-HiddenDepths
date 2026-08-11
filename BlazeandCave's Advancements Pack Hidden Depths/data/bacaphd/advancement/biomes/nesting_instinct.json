@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_egg"
+    },
+    "title": {
+      "translate": "Nesting Instinct"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Turtles on the beach sand where they can actually lay"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/wet_feet",
+  "criteria": {
+    "beach_turtles": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:turtle",
+          "location": {
+            "biomes": [
+              "minecraft:beach",
+              "minecraft:snowy_beach",
+              "minecraft:stony_shore"
+            ]
+          }
+        },
+        "partner": {
+          "entity_type": "minecraft:turtle"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/nesting_instinct"
+  }
+}

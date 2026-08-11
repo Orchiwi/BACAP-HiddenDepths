@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Overqualified for Farming"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Diamond Hoe from a Villager"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/professional",
+  "criteria": {
+    "diamond_hoe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_hoe"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/overqualified_for_farming"
+  }
+}

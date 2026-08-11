@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Doctor Fish"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let an Axolotl land the finishing blow and take the Regeneration it hands you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/wet_feet",
+  "criteria": {
+    "axolotl_regen": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": {
+          "entity_type": "minecraft:axolotl"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/doctor_fish"
+  }
+}

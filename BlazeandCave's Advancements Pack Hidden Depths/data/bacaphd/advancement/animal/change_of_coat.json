@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fox_spawn_egg"
+    },
+    "title": {
+      "translate": "Change of Coat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Breed two Red Foxes somewhere snowy and watch a white kit come out"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/snow_fox_64",
+  "criteria": {
+    "snow_kit": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:fox",
+          "components": {
+            "minecraft:fox/variant": "minecraft:red"
+          }
+        },
+        "partner": {
+          "entity_type": "minecraft:fox",
+          "components": {
+            "minecraft:fox/variant": "minecraft:red"
+          }
+        },
+        "child": {
+          "entity_type": "minecraft:fox",
+          "components": {
+            "minecraft:fox/variant": "minecraft:snow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/change_of_coat"
+  }
+}

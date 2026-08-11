@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Trapdoor Surprise"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Find the hidden basement chest under an Igloo's carpet"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "igloo_basement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/igloo_chest"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/trapdoor_surprise"
+  }
+}

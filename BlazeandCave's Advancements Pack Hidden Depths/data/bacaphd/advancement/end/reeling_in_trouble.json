@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Reeling in Trouble"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hook an Enderman with a Fishing Rod and deal with the consequences"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_actual_end",
+  "criteria": {
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:enderman"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/reeling_in_trouble"
+  }
+}

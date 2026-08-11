@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_bed"
+    },
+    "title": {
+      "translate": "Not While You're Watching"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get a full night's sleep in the Pale Garden with a Creaking somewhere out among the trees"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/eyeball_forest",
+  "criteria": {
+    "pale_sleep": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/not_while_youre_watching"
+  }
+}

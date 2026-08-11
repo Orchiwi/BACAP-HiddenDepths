@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Refilling the Towers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an End Crystal back on top of an Obsidian Pillar where one used to sit"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/what_for",
+  "criteria": {
+    "pillar_crystal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:obsidian",
+                  "minecraft:bedrock"
+                ]
+              },
+              "dimension": "minecraft:the_end",
+              "position": {
+                "y": {
+                  "min": 74.0
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:end_crystal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:end/refilling_the_towers"
+  }
+}

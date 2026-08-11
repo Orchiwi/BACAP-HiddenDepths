@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Divine Intervention"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Channel lightning into a Pillager that is taking part in a raid"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/its_so_beast_like",
+  "criteria": {
+    "smite": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:pillager",
+            "minecraft:type_specific/raider": {
+              "has_raid": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/divine_intervention"
+  }
+}

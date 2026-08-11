@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "translate": "Toadstool Cottage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build with all three huge mushroom blocks. Silk Touch required"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/barking_mad",
+  "criteria": {
+    "red_mushroom_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_mushroom_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown_mushroom_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:brown_mushroom_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mushroom_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mushroom_stem"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/toadstool_cottage"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod_bucket"
+    },
+    "title": {
+      "translate": "Fisherman's Friend"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Buy a Bucket of Cod from a Fisherman rather than catching one yourself"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/delicious_fish",
+  "criteria": {
+    "bought_a_bucket": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/fishermans_friend"
+  }
+}

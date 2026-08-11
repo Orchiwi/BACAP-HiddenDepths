@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Highlighted Deals"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Trade with a Wandering Trader while he is glowing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/shady_deals",
+  "criteria": {
+    "glowing_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader",
+          "effects": {
+            "minecraft:glowing": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/highlighted_deals"
+  }
+}

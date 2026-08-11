@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Pinch the Flame"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Snuff out a burning candle with your bare hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/setting_up_the_mood",
+  "criteria": {
+    "snuff": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:candle",
+                  "minecraft:white_candle",
+                  "minecraft:orange_candle",
+                  "minecraft:magenta_candle",
+                  "minecraft:light_blue_candle",
+                  "minecraft:yellow_candle",
+                  "minecraft:lime_candle",
+                  "minecraft:pink_candle",
+                  "minecraft:gray_candle",
+                  "minecraft:light_gray_candle",
+                  "minecraft:cyan_candle",
+                  "minecraft:purple_candle",
+                  "minecraft:blue_candle",
+                  "minecraft:brown_candle",
+                  "minecraft:green_candle",
+                  "minecraft:red_candle",
+                  "minecraft:black_candle"
+                ],
+                "state": {
+                  "lit": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/pinch_the_flame"
+  }
+}

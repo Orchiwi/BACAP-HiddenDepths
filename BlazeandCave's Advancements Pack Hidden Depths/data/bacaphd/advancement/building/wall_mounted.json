@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "Wall Mounted"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bolt a Grindstone to a wall instead of standing it on the floor"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/sharpening_station",
+  "criteria": {
+    "wall_grindstone": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:grindstone"
+                ],
+                "state": {
+                  "face": "wall"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/wall_mounted"
+  }
+}

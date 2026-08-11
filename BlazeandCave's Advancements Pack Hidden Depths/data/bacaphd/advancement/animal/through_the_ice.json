@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon_bucket"
+    },
+    "title": {
+      "translate": "Through the Ice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bucket a Salmon straight out of a Frozen River"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/salmonella_poisoning",
+  "criteria": {
+    "ice_hole": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:frozen_river"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/through_the_ice"
+  }
+}

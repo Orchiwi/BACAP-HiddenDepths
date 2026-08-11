@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling"
+    },
+    "title": {
+      "translate": "Flat-Top Forestry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant an Acacia Sapling on a Windswept Savanna and force it into a tree with Bone Meal"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "planted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_sapling"
+                ]
+              },
+              "biomes": "minecraft:windswept_savanna"
+            }
+          }
+        ]
+      }
+    },
+    "grown": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_log"
+                ]
+              },
+              "biomes": "minecraft:windswept_savanna"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/flat_top_forestry"
+  }
+}

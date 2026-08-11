@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "Nothing Hatches Here"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay a clutch of Turtle Eggs down in the Nether, where nothing will ever come of them"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/save_the_turtles",
+  "criteria": {
+    "doomed_clutch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:turtle_egg"
+                ]
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/nothing_hatches_here"
+  }
+}

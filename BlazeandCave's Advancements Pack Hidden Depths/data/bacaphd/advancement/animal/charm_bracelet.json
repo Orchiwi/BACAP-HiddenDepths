@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Charm Bracelet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hold a Nautilus Shell, a Turtle Scute and a Rabbit's Foot all at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/lucky_charm",
+  "criteria": {
+    "three_charms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:turtle_scute"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/charm_bracelet"
+  }
+}

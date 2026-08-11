@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dolphin_spawn_egg"
+    },
+    "title": {
+      "translate": "Flipper's Revenge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick a fight with a Dolphin and lose it"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/blistering_barnacles",
+  "criteria": {
+    "drowned_by_flipper": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:dolphin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/flippers_revenge"
+  }
+}

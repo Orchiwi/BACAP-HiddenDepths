@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leaf_litter"
+    },
+    "title": {
+      "translate": "Deep Litter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Rake Leaf Litter four segments deep"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/yay_i_got_my_wood",
+  "criteria": {
+    "full_litter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:leaf_litter"
+                ],
+                "state": {
+                  "segment_amount": "4"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/deep_litter"
+  }
+}

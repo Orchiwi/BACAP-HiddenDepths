@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "Gilding the Lily"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Trim a Golden Chestplate with Gold and accomplish absolutely nothing"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/chromatic_armory",
+  "criteria": {
+    "pointless_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate",
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:gold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/gilding_the_lily"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Childhood Restored"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cure a baby Zombie Villager"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "baby_cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "entity_type": "minecraft:zombie_villager",
+          "flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/childhood_restored"
+  }
+}

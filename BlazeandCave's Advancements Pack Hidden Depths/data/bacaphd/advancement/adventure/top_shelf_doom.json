@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Top Shelf Doom"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drink an Ominous Bottle of the very strongest vintage"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/omniscient",
+  "criteria": {
+    "vintage": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:ominous_bottle",
+          "components": {
+            "minecraft:ominous_bottle_amplifier": 4
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/top_shelf_doom"
+  }
+}

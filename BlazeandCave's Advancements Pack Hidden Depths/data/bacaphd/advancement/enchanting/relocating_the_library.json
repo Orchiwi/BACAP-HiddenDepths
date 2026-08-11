@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Relocating the Library"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Walk into the Nether with an Enchanting Table in your hand"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "carried_through": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether",
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:enchanting_table"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/relocating_the_library"
+  }
+}

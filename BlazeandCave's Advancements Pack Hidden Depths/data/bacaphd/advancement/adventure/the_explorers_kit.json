@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "The Explorer's Kit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry the whole explorer's kit at once: a Brush, a Spyglass, a Compass and a filled Map"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/good_lookin_treasure",
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:filled_map"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/the_explorers_kit"
+  }
+}

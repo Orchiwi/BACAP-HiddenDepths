@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_egg"
+    },
+    "title": {
+      "translate": "Two Ancients, One Bolt"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Catch a Warden and a Sniffer in the same Channeling lightning bolt"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/nuclear_fusion",
+  "criteria": {
+    "one_bolt": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:warden"
+          },
+          {
+            "entity_type": "minecraft:sniffer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/two_ancients_one_bolt"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Mule Train Underground"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a chest-laden Mule down into an abandoned Mineshaft"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/artificial_selection",
+  "criteria": {
+    "pit_pony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:mule",
+                "nbt": "{ChestedHorse:1b}"
+              },
+              "location": {
+                "structures": [
+                  "minecraft:mineshaft",
+                  "minecraft:mineshaft_mesa"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/mule_train_underground"
+  }
+}

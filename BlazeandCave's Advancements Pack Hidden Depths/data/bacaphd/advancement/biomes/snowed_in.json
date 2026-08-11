@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Snowed In"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Loot the chest inside a snowy village's house"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "snowy_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_snowy_house"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/snowed_in"
+  }
+}

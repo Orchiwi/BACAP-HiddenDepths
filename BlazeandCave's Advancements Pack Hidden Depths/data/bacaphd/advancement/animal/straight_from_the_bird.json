@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chicken"
+    },
+    "title": {
+      "translate": "Straight from the Bird"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat Raw Chicken and let the Hunger that follows teach you something"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/salmonella_poisoning",
+  "criteria": {
+    "ate_it_raw": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chicken"
+          ]
+        }
+      }
+    },
+    "consequences": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hunger": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/straight_from_the_bird"
+  }
+}

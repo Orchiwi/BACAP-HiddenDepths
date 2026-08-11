@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "By the Book"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Raise a Wither yourself, then put it down with an axe enchanted with Smite V"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/undead_slayer",
+  "criteria": {
+    "raised": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        }
+      }
+    },
+    "buried": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:copper_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:smite",
+                    "levels": {
+                      "min": 5
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/by_the_book"
+  }
+}

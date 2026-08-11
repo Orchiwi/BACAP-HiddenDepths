@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Grace Period"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill the Wither inside the five seconds a Totem of Undying buys you back"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "criteria": {
+    "in_the_glow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:wither"
+        },
+        "player": {
+          "effects": {
+            "minecraft:absorption": {
+              "amplifier": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            "minecraft:regeneration": {
+              "amplifier": {
+                "min": 1
+              }
+            },
+            "minecraft:fire_resistance": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:challenges/grace_period"
+  }
+}

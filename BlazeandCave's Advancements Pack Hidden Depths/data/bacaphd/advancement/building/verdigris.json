@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weathered_chiseled_copper"
+    },
+    "title": {
+      "translate": "Verdigris"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Place Chiseled Copper in all four stages of its decay"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_polish",
+  "criteria": {
+    "chiseled_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chiseled_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exposed_chiseled_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:exposed_chiseled_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "weathered_chiseled_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:weathered_chiseled_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "oxidized_chiseled_copper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oxidized_chiseled_copper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:building/verdigris"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Not Today, Neptune"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block a Drowned's thrown Trident with your Shield"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_sea_calls_you",
+  "criteria": {
+    "blocked_trident": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:trident"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:drowned"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/not_today_neptune"
+  }
+}

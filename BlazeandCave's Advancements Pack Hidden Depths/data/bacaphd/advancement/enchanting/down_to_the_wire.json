@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Down to the Wire"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fish a Luck of the Sea III rod all the way to pieces"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "broke_rod": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:luck_of_the_sea",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/down_to_the_wire"
+  }
+}

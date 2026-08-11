@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_spear"
+    },
+    "title": {
+      "translate": "Arms Race"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Put down an Evoker, a Vindicator, a Pillager and a Ravager with a Lunge III Spear"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_jouster",
+  "criteria": {
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:evoker"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_spear",
+                "minecraft:stone_spear",
+                "minecraft:copper_spear",
+                "minecraft:iron_spear",
+                "minecraft:golden_spear",
+                "minecraft:diamond_spear",
+                "minecraft:netherite_spear"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:lunge",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:vindicator"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_spear",
+                "minecraft:stone_spear",
+                "minecraft:copper_spear",
+                "minecraft:iron_spear",
+                "minecraft:golden_spear",
+                "minecraft:diamond_spear",
+                "minecraft:netherite_spear"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:lunge",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:pillager"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_spear",
+                "minecraft:stone_spear",
+                "minecraft:copper_spear",
+                "minecraft:iron_spear",
+                "minecraft:golden_spear",
+                "minecraft:diamond_spear",
+                "minecraft:netherite_spear"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:lunge",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ravager"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_spear",
+                "minecraft:stone_spear",
+                "minecraft:copper_spear",
+                "minecraft:iron_spear",
+                "minecraft:golden_spear",
+                "minecraft:diamond_spear",
+                "minecraft:netherite_spear"
+              ],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:lunge",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/arms_race"
+  }
+}

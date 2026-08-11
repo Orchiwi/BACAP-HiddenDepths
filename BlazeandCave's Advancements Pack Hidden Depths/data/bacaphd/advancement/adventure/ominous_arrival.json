@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Ominous Arrival"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bring the Raid Omen down upon a village"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/were_being_attacked",
+  "criteria": {
+    "raid_omen": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:raid_omen": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/ominous_arrival"
+  }
+}

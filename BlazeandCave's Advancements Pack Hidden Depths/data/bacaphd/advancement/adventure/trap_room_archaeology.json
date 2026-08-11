@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "Trap Room Archaeology"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brush a Suspicious Sand block inside a Desert Pyramid"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_suspicious_advancement",
+  "criteria": {
+    "pyramid_brush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:suspicious_sand"
+              },
+              "structures": "minecraft:desert_pyramid"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:brush"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:adventure/trap_room_archaeology"
+  }
+}

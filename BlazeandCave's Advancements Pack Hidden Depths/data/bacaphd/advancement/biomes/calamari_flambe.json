@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ink_sac"
+    },
+    "title": {
+      "translate": "Calamari Flambé"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Channel a lightning bolt straight into a Squid"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_sea_calls_you",
+  "criteria": {
+    "zapped_squid": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:squid"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/calamari_flambe"
+  }
+}

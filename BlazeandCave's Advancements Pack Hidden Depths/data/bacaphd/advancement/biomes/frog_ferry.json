@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_boat"
+    },
+    "title": {
+      "translate": "Frog Ferry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set out across a Mangrove Swamp in a Boat with a Frog sitting in it beside you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cargo_carrier",
+  "criteria": {
+    "frog_aboard": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat",
+                "passenger": {
+                  "entity_type": "minecraft:frog"
+                }
+              },
+              "location": {
+                "biomes": "minecraft:mangrove_swamp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:biomes/frog_ferry"
+  }
+}

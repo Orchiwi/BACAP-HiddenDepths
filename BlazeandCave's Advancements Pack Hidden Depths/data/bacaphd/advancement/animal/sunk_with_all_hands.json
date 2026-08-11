@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_nautilus_spawn_egg"
+    },
+    "title": {
+      "translate": "Sunk With All Hands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by a Zombie Nautilus"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/master_angler",
+  "criteria": {
+    "gone_down": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombie_nautilus"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:animal/sunk_with_all_hands"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Snapped"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Swing a Mace carrying Density V until the Mace itself gives out"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_macerator",
+  "criteria": {
+    "broke_mace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mace"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:density",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaphd_rewards:enchanting/snapped"
+  }
+}
