@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:mining/copper_miner",
+  "parent": "bacaphd:mining/torchbearer",
   "criteria": {
     "both_ores": {
       "trigger": "minecraft:inventory_changed",
